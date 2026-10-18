@@ -446,4 +446,6 @@ async def run(client: TelegramClient) -> None:
 async def run_once(client: TelegramClient) -> None:
     """Bulutda (GitHub Actions) bir marta ishga tushirish uchun: kanal havola orqali topiladi."""
     load_state()
-    await tick(client, await client.get_entity(USERNAME))
+    channel = await client.get_entity(USERNAME)
+    log.info("Kanal topildi: %s (soat %s)", channel.title, datetime.now().strftime("%H:%M"))
+    await tick(client, channel)
