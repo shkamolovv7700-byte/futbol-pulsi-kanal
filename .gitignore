@@ -1,0 +1,13 @@
+# Faqat kanal uchun kerakli fayllar GitHub'ga yuklanadi.
+# .env, *.session va boshqa maxfiy fayllar hech qachon yuklanmaydi.
+*
+!.gitignore
+!.github/
+!.github/workflows/
+!.github/workflows/kanal.yml
+!bulut.py
+!kanal.py
+!statistika.py
+!kanal_kontent.json
+!kanal_state.json
+!requirements-bulut.txt
