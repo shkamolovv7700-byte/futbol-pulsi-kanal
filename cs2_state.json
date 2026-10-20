@@ -1,16 +1,222 @@
 {
   "seen": [
     "https://www.cybersport.ru/tags/cs2/kat-yest-devushki-kotoryye-mogli-by-dobit-sya-uspekha-yesli-by-ikh-talant",
-    "https://www.cybersport.ru/tags/cs2/s1mple-poprosil-asap-bolshe-slushat-timmeitov"
+    "https://www.cybersport.ru/tags/cs2/s1mple-poprosil-asap-bolshe-slushat-timmeitov",
+    "https://www.cybersport.ru/tags/cs2/faze-clan-pobedila-astral-esports-v-plei-off-draculan-season-7"
   ],
   "used_quiz": [],
   "used_poll": [],
-  "last_slot": "2026-10-20 21:30",
+  "last_slot": "2026-10-20 22:30",
   "group_id": 4441418116,
   "moderator": {
     "admins": [
       8456959367
     ],
-    "last_id": 8
+    "last_id": 9
+  },
+  "live": {
+    "1792504800-HEROIC-HYPERSPIRIT": {
+      "score": [
+        2,
+        0
+      ],
+      "done": true
+    },
+    "1792497600-Magic-Team Liquid": {
+      "score": [
+        2,
+        0
+      ],
+      "done": true
+    },
+    "1792421700-Fnatic-Team Liquid": {
+      "score": [
+        2,
+        0
+      ],
+      "done": true
+    },
+    "1792338900-BetBoom Team-FURIA": {
+      "score": [
+        2,
+        3
+      ],
+      "done": true
+    },
+    "1792323000-Team Falcons-Aurora Gaming": {
+      "score": [
+        1,
+        2
+      ],
+      "done": true
+    },
+    "1792257600-Ninjas in Pyjamas-MIBR": {
+      "score": [
+        2,
+        1
+      ],
+      "done": true
+    },
+    "1792256400-Team Falcons-BetBoom Team": {
+      "score": [
+        1,
+        2
+      ],
+      "done": true
+    },
+    "1792245600-HEROIC-100 Thieves": {
+      "score": [
+        2,
+        1
+      ],
+      "done": true
+    },
+    "1792245600-Aurora Gaming-FURIA": {
+      "score": [
+        0,
+        2
+      ],
+      "done": true
+    },
+    "1792236300-MIBR-100 Thieves": {
+      "score": [
+        2,
+        0
+      ],
+      "done": true
+    },
+    "1792224000-Ninjas in Pyjamas-HEROIC": {
+      "score": [
+        2,
+        1
+      ],
+      "done": true
+    },
+    "1792170000-Legacy-BetBoom Team": {
+      "score": [
+        1,
+        2
+      ],
+      "done": true
+    },
+    "1792159200-9z Team-Aurora Gaming": {
+      "score": [
+        0,
+        2
+      ],
+      "done": true
+    },
+    "1792159200-Astralis-MIBR": {
+      "score": [
+        1,
+        2
+      ],
+      "done": true
+    },
+    "1792149900-Fnatic-HEROIC": {
+      "score": [
+        0,
+        2
+      ],
+      "done": true
+    },
+    "1792137600-Ninjas in Pyjamas-Team Liquid": {
+      "score": [
+        2,
+        1
+      ],
+      "done": true
+    },
+    "1792090200-Legacy-FURIA": {
+      "score": [
+        1,
+        2
+      ],
+      "done": true
+    },
+    "1792082100-BC.Game Esports-MIBR": {
+      "score": [
+        1,
+        2
+      ],
+      "done": true
+    },
+    "1792077000-PARIVISION-BetBoom Team": {
+      "score": [
+        1,
+        2
+      ],
+      "done": true
+    },
+    "1792073400-BC.Game Esports-HEROIC": {
+      "score": [
+        0,
+        2
+      ],
+      "done": true
+    },
+    "1792073400-MIBR-ENVY": {
+      "score": [
+        2,
+        0
+      ],
+      "done": true
+    },
+    "1792063800-9z Team-Team Falcons": {
+      "score": [
+        1,
+        2
+      ],
+      "done": true
+    },
+    "1792058400-MIBR-BC.Game Esports": {
+      "score": [
+        1,
+        2
+      ],
+      "done": true
+    },
+    "1792058400-HEROIC-ENVY": {
+      "score": [
+        2,
+        1
+      ],
+      "done": true
+    },
+    "1792053000-Aurora Gaming-Ninjas in Pyjamas": {
+      "score": [
+        2,
+        0
+      ],
+      "done": true
+    },
+    "1792004400-FURIA-BetBoom Team": {
+      "score": [
+        2,
+        0
+      ],
+      "done": true
+    },
+    "1791992400-Legacy-PARIVISION": {
+      "score": [
+        2,
+        0
+      ],
+      "done": true
+    },
+    "1791982800-HOTU-Astralis": {
+      "score": [
+        1,
+        2
+      ],
+      "done": true
+    },
+    "1791980400-Team Falcons-Ninjas in Pyjamas": {
+      "score": [
+        2,
+        0
+      ],
+      "done": true
+    }
   }
 }
