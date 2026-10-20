@@ -118,6 +118,86 @@ def fixtures_post() -> str | None:
             + "\n\nQaysi o'yinni kutyapsiz? 👇\n\n#oyinlar #futbol")
 
 
+# Jonli gollar faqat shu klublar o'ynayotgan o'yinlar va Chempionlar ligasi uchun yuboriladi
+BIG_CLUBS = [
+    "Real Madrid", "Barcelona", "Atlético", "Atletico", "Manchester City", "Manchester United", "Arsenal",
+    "Liverpool", "Chelsea", "Tottenham", "Bayern", "Dortmund", "Leverkusen", "Paris Saint-Germain",
+    "Internazionale", "Inter Milan", "AC Milan", "Juventus", "Napoli", "AS Roma", "Marseille",
+]
+
+
+def is_big(name: str) -> bool:
+    return any(club.lower() in name.lower() for club in BIG_CLUBS)
+
+
+def live_events() -> list[dict]:
+    """Bugungi muhim o'yinlar: hisob, daqiqa va gollar ro'yxati bilan."""
+    now = datetime.now(timezone.utc)
+    days = {(now - timedelta(hours=10)).strftime("%Y%m%d"), now.strftime("%Y%m%d")}
+    events = []
+    for league in LEAGUES + CUPS:
+        code = league[0]
+        for day in sorted(days):
+            for ev in get(f"{API}/site/v2/sports/soccer/{code}/scoreboard?dates={day}").get("events", []):
+                comp = ev["competitions"][0]
+                teams = {c["homeAway"]: c for c in comp["competitors"]}
+                if "home" not in teams or "away" not in teams:
+                    continue
+                home, away = teams["home"], teams["away"]
+                names = (home["team"]["displayName"], away["team"]["displayName"])
+                if code != "uefa.champions" and not any(is_big(n) for n in names):
+                    continue
+                goals = []
+                for d in comp.get("details", []):
+                    if not d.get("scoringPlay"):
+                        continue
+                    athletes = d.get("athletesInvolved") or [{}]
+                    goals.append({"key": f"{d['team']['id']}-{d['clock'].get('value')}",
+                                  "minute": d["clock"].get("displayValue", ""), "sec": d["clock"].get("value") or 0,
+                                  "team": d["team"]["id"], "scorer": athletes[0].get("displayName", ""),
+                                  "pen": d.get("penaltyKick"), "og": d.get("ownGoal")})
+                goals.sort(key=lambda g: g["sec"])
+                events.append({
+                    "id": ev["id"], "league": league, "state": ev["status"]["type"]["state"],
+                    "clock": ev["status"].get("displayClock", ""),
+                    "kickoff": datetime.fromisoformat(ev["date"].replace("Z", "+00:00")),
+                    "home": home["team"]["shortDisplayName"], "away": away["team"]["shortDisplayName"],
+                    "home_id": home["team"]["id"], "away_id": away["team"]["id"],
+                    "hs": home.get("score", "0"), "as": away.get("score", "0"), "goals": goals,
+                })
+    return events
+
+
+def goal_post(ev: dict, goal: dict) -> str:
+    _, name, flag, tag = ev["league"]
+    # gol paytidagi hisob: shu golgacha bo'lgan gollar soni
+    upto = ev["goals"][: ev["goals"].index(goal) + 1]
+    hs = sum(g["team"] == ev["home_id"] for g in upto)
+    as_ = sum(g["team"] == ev["away_id"] for g in upto)
+    scorer = html.escape(goal["scorer"]) if goal["scorer"] else ""
+    if goal["og"]:
+        scorer += " (avtogol)"
+    elif goal["pen"]:
+        scorer += " (penalti)"
+    team = ev["home"] if goal["team"] == ev["home_id"] else ev["away"]
+    return (f"⚽️ <b>GOOOL! {goal['minute']}</b>\n\n"
+            f"{flag} {name}\n<b>{html.escape(ev['home'])} {hs}:{as_} {html.escape(ev['away'])}</b>\n\n"
+            + (f"👤 {scorer} — {html.escape(team)}\n\n" if scorer else "")
+            + f"#jonli {tag}")
+
+
+def final_post(ev: dict) -> str:
+    _, name, flag, tag = ev["league"]
+    scorers = []
+    for g in ev["goals"]:
+        mark = " (a/g)" if g["og"] else " (p)" if g["pen"] else ""
+        scorers.append(f"⚽️ {g['minute']} {html.escape(g['scorer'])}{mark}")
+    return (f"🏁 <b>O'yin yakunlandi</b>\n\n{flag} {name}\n"
+            f"<b>{html.escape(ev['home'])} {ev['hs']}:{ev['as']} {html.escape(ev['away'])}</b>\n\n"
+            + ("\n".join(scorers) + "\n\n" if scorers else "")
+            + f"Natija sizga yoqdimi? 👇\n\n#natija {tag}")
+
+
 def results_post() -> str | None:
     start, end = _day_window(1)
     blocks = []

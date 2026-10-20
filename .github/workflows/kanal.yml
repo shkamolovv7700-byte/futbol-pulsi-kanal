@@ -2,8 +2,9 @@ name: Futbol Pulsi kanali
 
 on:
   schedule:
-    # Toshkent 8:00-22:59 = UTC 3:00-17:59. Ikki marta: biri o'tkazib yuborilsa, ikkinchisi joylaydi.
-    - cron: "3,33 3-17 * * *"
+    # Har 10 daqiqada, Toshkent 8:00-02:59 (UTC 3:00-21:59): postlar 8:00-23:00, kechki o'yinlar gollari tungacha.
+    # Jonli o'yin bo'lsa, har bir ishga tushish ~9 daqiqa davomida har daqiqada gollarni tekshiradi.
+    - cron: "*/10 3-21 * * *"
   workflow_dispatch:
 
 permissions:
@@ -16,7 +17,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     env:
       TZ: Asia/Tashkent
       TG_API_ID: ${{ secrets.TG_API_ID }}

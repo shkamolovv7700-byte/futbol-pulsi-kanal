@@ -17,7 +17,7 @@ import random
 import re
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
@@ -55,15 +55,22 @@ NEWS_MAX_AGE_HOURS = 12
 VIDEO_FEEDS = [
     ("Premier League", "UCG5qGWdu8nIRZqJ_GgDwQ-w"),
     ("UEFA", "UCyGa1YEx9ST66rYrJTGIKOw"),
-    ("FIFA", "UCpcTrCXblq78GZrTUTLWeBw"),
     ("LaLiga", "UCTv-XvfzLX3i4IGWAm4sbmA"),
     ("Serie A", "UCBJeMCIeLQos7wacox4hmLQ"),
 ]
 VIDEO_MAX_AGE_DAYS = 3
-DAY_START, DAY_END = 8, 23  # shu soatlar oralig'ida har soatda bitta post
+# O'yin sharhlari / gollar videosi ekanini sarlavhadan bilamiz
+HIGHLIGHT_PATTERN = re.compile(r"highlight|goals|gol|sintesi|resumen|extended|all goals", re.IGNORECASE)
+# Reklama, homiylik va tikish (stavka) haqidagi yozuvlar kanalga tushmaydi
+AD_PATTERN = re.compile(
+    r"reklama|homiy|hamkorlik asosida|promo|aksiya|bonus|bukmeker|stavka|1xbet|betting|kazino|tikish|"
+    r"chegirma|sponsor|\bpr\b", re.IGNORECASE)
+DAY_START, DAY_END = 8, 23  # shu soatlar oralig'ida har 30 daqiqada bitta post
 QUIZ_HOUR = 13
 POLL_HOUR = 20
 CHECK_EVERY_SECONDS = 5 * 60
+LIVE_POLL_SECONDS = 60
+LIVE_WINDOW_SECONDS = 9 * 60
 
 log = logging.getLogger("kanal")
 
@@ -190,10 +197,15 @@ def format_news(item: dict) -> str:
     parts = [f"⚽️ <b>{html.escape(item['title'])}</b>"]
     if item["desc"] and item["desc"].lower() not in item["title"].lower():
         parts.append(html.escape(item["desc"]))
-    parts.append(f'🔗 <a href="{html.escape(item["link"], quote=True)}">Batafsil — {item["source"]}</a>')
     parts.append(random.choice(HOOKS))
     parts.append(make_hashtags(item))
-    return "\n\n".join(parts) + channel_footer()
+    # manba kichik havola bilan ko'rsatiladi (katta saytlar kartochkasi reklamaga o'xshab qolmasin)
+    source = f'<i>Manba: <a href="{html.escape(item["link"], quote=True)}">{item["source"]}</a></i>'
+    return "\n\n".join(parts) + channel_footer() + "\n" + source
+
+
+def is_ad(item: dict) -> bool:
+    return bool(AD_PATTERN.search(f"{item['title']} {item['desc']}"))
 
 
 def today() -> str:
@@ -212,14 +224,14 @@ async def post_news(client: TelegramClient, channel) -> bool:
             continue
         seen.add(i["id"])
         state["seen"].append(i["id"])
-        if i["ts"] >= min_ts and is_football(i) and not is_duplicate(i["title"]):
+        if i["ts"] >= min_ts and is_football(i) and not is_ad(i) and not is_duplicate(i["title"]):
             item = i
             break
     if not item:
         save_state()
         return False
 
-    await client.send_message(channel, format_news(item), parse_mode="html", link_preview=True)
+    await client.send_message(channel, format_news(item), parse_mode="html", link_preview=False)
     state["recent_titles"] = (state.get("recent_titles", []) + [item["title"]])[-60:]
     save_state()
     log.info("Kanalga yangilik joylandi: %s", item["title"][:60])
@@ -261,8 +273,10 @@ async def post_video(client: TelegramClient, channel) -> bool:
     min_ts = datetime.now().timestamp() - VIDEO_MAX_AGE_DAYS * 86400
     videos = await asyncio.to_thread(fetch_videos)
     # har safar boshqa kanaldan bo'lsin: oxirgi ishlatilgan manbadan boshqasini afzal ko'ramiz
-    fresh = [v for v in videos if v["id"] not in seen and v["ts"] >= min_ts]
-    fresh.sort(key=lambda v: (v["source"] == state.get("last_video_source"), -v["ts"]))
+    fresh = [v for v in videos if v["id"] not in seen and v["ts"] >= min_ts and not AD_PATTERN.search(v["title"])]
+    # avval o'yin sharhlari (gollar), keyin boshqa kanaldan, keyin eng yangisi
+    fresh.sort(key=lambda v: (not HIGHLIGHT_PATTERN.search(v["title"]),
+                              v["source"] == state.get("last_video_source"), -v["ts"]))
     if not fresh:
         return False
     video = fresh[0]
@@ -271,6 +285,26 @@ async def post_video(client: TelegramClient, channel) -> bool:
     state["last_video_source"] = video["source"]
     save_state()
     log.info("Kanalga video joylandi: %s", video["title"][:60])
+    return True
+
+
+async def post_highlights(client: TelegramClient, channel) -> bool:
+    """Kechagi o'yinlarning gollari: rasmiy kanallardagi so'nggi 30 soatlik sharh videolari."""
+    min_ts = datetime.now().timestamp() - 30 * 3600
+    seen = set(state["seen"])
+    videos = [v for v in await asyncio.to_thread(fetch_videos)
+              if v["ts"] >= min_ts and v["id"] not in seen and HIGHLIGHT_PATTERN.search(v["title"])]
+    if len(videos) < 2:
+        return False
+    videos.sort(key=lambda v: -v["ts"])
+    rows = [f'▶️ <a href="{html.escape(v["link"], quote=True)}">{html.escape(v["title"][:90])}</a>'
+            for v in videos[:8]]
+    text = ("🎬 <b>Kechagi o'yinlar gollari</b>\n\nBarcha gollar va eng qiziq lahzalar 👇\n\n"
+            + "\n\n".join(rows) + "\n\nQaysi gol eng zo'ri? 🔥\n\n#gollar #video" + channel_footer())
+    await client.send_message(channel, text, parse_mode="html", link_preview=False)
+    state["seen"].extend(v["id"] for v in videos[:8])
+    save_state()
+    log.info("Kanalga kechagi gollar joylandi (%d ta video)", len(rows))
     return True
 
 
@@ -366,10 +400,53 @@ SCHEDULE = {
     POLL_HOUR: [post_poll],
     22: [post_video, post_news],
 }
+# Har soatning yarmida (:30) - yangilik; 9:30 da kechagi o'yinlar gollari
+HALF_SCHEDULE = {
+    9: [post_highlights, post_news, post_video],
+}
 
 
-def hour_plan(hour: int) -> list:
+def hour_plan(hour: int, half: bool = False) -> list:
+    if half:
+        return HALF_SCHEDULE.get(hour, [post_news, post_video])
     return SCHEDULE.get(hour, [post_news, post_video])
+
+
+# ---------- Jonli gollar ----------
+
+async def post_live(client: TelegramClient, channel) -> bool:
+    """Muhim o'yinlardagi yangi gollar va yakuniy hisobni joylaydi. Jonli o'yin bormi - qaytaradi."""
+    events = await asyncio.to_thread(statistika.live_events)
+    live = state.setdefault("live", {})
+    now = datetime.now().astimezone()
+    active = False
+    for ev in events:
+        if ev["state"] == "in" or (ev["state"] == "pre" and ev["kickoff"] - now < timedelta(minutes=15)):
+            active = True
+        if ev["state"] == "pre":
+            continue
+        info = live.get(ev["id"])
+        if info is None:
+            # birinchi marta ko'ryapmiz: eski gollarni qayta yubormaymiz, oxirgi 10 daqiqadagisi bundan mustasno
+            last_sec = max((g["sec"] for g in ev["goals"]), default=0)
+            info = live[ev["id"]] = {"goals": [g["key"] for g in ev["goals"] if g["sec"] < last_sec - 600],
+                                     "ft": ev["state"] == "post"}
+        for goal in ev["goals"]:
+            if goal["key"] in info["goals"]:
+                continue
+            await client.send_message(channel, statistika.goal_post(ev, goal) + channel_footer(), parse_mode="html")
+            info["goals"].append(goal["key"])
+            save_state()
+            log.info("GOL: %s %s:%s %s (%s)", ev["home"], ev["hs"], ev["as"], ev["away"], goal["minute"])
+        if ev["state"] == "post" and not info["ft"]:
+            await client.send_message(channel, statistika.final_post(ev) + channel_footer(), parse_mode="html")
+            info["ft"] = True
+            save_state()
+            log.info("Yakuniy hisob: %s %s:%s %s", ev["home"], ev["hs"], ev["as"], ev["away"])
+    # eski o'yinlarni unutamiz
+    for key in list(live)[:-80]:
+        del live[key]
+    return active
 
 
 # ---------- Kanalni yaratish ----------
@@ -418,16 +495,17 @@ async def ensure_channel(client: TelegramClient):
 
 
 async def tick(client: TelegramClient, channel) -> None:
-    """Shu soatning posti hali joylanmagan bo'lsa, joylaydi."""
-    hour = datetime.now().hour
-    slot = f"{today()} {hour}"
-    if not (DAY_START <= hour < DAY_END) or state.get("last_slot") == slot:
+    """Shu yarim soatning posti hali joylanmagan bo'lsa, joylaydi."""
+    now = datetime.now()
+    half = now.minute >= 30
+    slot = f"{today()} {now.hour}:{'30' if half else '00'}"
+    if not (DAY_START <= now.hour < DAY_END) or state.get("last_slot") == slot:
         return
     try:
-        for step in hour_plan(hour):
+        for step in hour_plan(now.hour, half):
             if await step(client, channel):
                 break
-        state["last_slot"] = slot  # har soatda bitta post
+        state["last_slot"] = slot  # har 30 daqiqada bitta post
         save_state()
     except Exception as e:  # xato bo'lsa, shu soat ichida yana urinib ko'riladi
         log.error("Kanal xatosi: %r", e)
@@ -448,4 +526,15 @@ async def run_once(client: TelegramClient) -> None:
     load_state()
     channel = await client.get_entity(USERNAME)
     log.info("Kanal topildi: %s (soat %s)", channel.title, datetime.now().strftime("%H:%M"))
-    await tick(client, channel)
+    # Jonli o'yin bo'lsa, ~9 daqiqa davomida har daqiqada gollarni tekshiramiz (keyingi ishga tushish davom ettiradi)
+    deadline = datetime.now() + timedelta(seconds=LIVE_WINDOW_SECONDS)
+    while True:
+        await tick(client, channel)
+        try:
+            active = await post_live(client, channel)
+        except Exception as e:
+            log.error("Jonli gollar xatosi: %r", e)
+            active = False
+        if not active or datetime.now() + timedelta(seconds=LIVE_POLL_SECONDS) > deadline:
+            break
+        await asyncio.sleep(LIVE_POLL_SECONDS)
