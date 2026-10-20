@@ -85,6 +85,7 @@
     "https://sports.uz/oz/news/view/tottenxem-qimmatga-olgan-oyinchisidan-ayrildi-20-10-2026",
     "https://sports.uz/oz/news/view/premer-liganing-olti-futbolchisi-tiz-chokishdan-bosh-tortdi-20-10-2026",
     "https://daryo.uz/2026/10/20/real-yevropa-superligasi-xarajatlarini-qoplash-uchun-angliya-klublarini-sudga-berishi-mumkin/",
+    "https://daryo.uz/2026/10/20/talim-va-ilm-fan-vaziriga-orinbosarlar-tayinlandi/",
     "https://daryo.uz/2026/10/20/buyuk-britaniya-saudiyani-husiylar-hujumidan-himoya-qilish-uchun-qiruvchi-samolyotlar-yuboradi/",
     "https://daryo.uz/2026/10/20/yevroparlament-vitse-prezidenti-xersondagi-vaziyat-sabab-ochlik-elon-qildi/",
     "https://daryo.uz/2026/10/20/ozbekistonda-ikki-mingta-oila-uchun-energotejamkor-issiqxonalar-quriladi/",
@@ -103,7 +104,8 @@
     "https://daryo.uz/2026/10/20/belarus-dushmanona-munosabati-sabab-latviyadan-bazi-tovarlar-importini-taqiqladi/",
     "https://daryo.uz/2026/10/20/ozbekistonda-dollar-kursi-yana-pasaydi-3/",
     "https://kun.uz/news/2026/10/20/bu-yerga-tez-tez-kelishingizga-togri-keladi-rubio-amerikalik-ishbilarmonlarga",
-    "https://kun.uz/news/2026/10/20/ozbekiston-milliy-jamoasi-rossiya-bilan-ortoqlik-oyini-otkazadi"
+    "https://kun.uz/news/2026/10/20/ozbekiston-milliy-jamoasi-rossiya-bilan-ortoqlik-oyini-otkazadi",
+    "https://sports.uz/oz/news/view/menga-xiyonat-qilishdi-ronaldu-portugaliya-terma-jamoasiga-qaytishni-istamayapti"
   ],
   "used_quiz": [],
   "used_poll": [
@@ -125,9 +127,10 @@
     "“Ronaldu jamoaga va menga pand berdi” — Erik ten Hag",
     "Premyer-liganing olti futbolchisi tiz cho‘kishdan bosh tortdi",
     "“Real” Yevropa Superligasi xarajatlarini qoplash uchun Angliya klublarini sudga berishi mumkin",
-    "Oʻzbekiston milliy jamoasi Rossiya bilan oʻrtoqlik oʻyini oʻtkazadi."
+    "Oʻzbekiston milliy jamoasi Rossiya bilan oʻrtoqlik oʻyini oʻtkazadi.",
+    "Menga xiyonat qilishdi! Ronaldu Portugaliya terma jamoasiga qaytishni istamayapti"
   ],
-  "last_slot": "2026-10-20 21:00",
+  "last_slot": "2026-10-20 21:30",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
@@ -137,6 +140,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 7
+    "last_id": 9
   }
 }
