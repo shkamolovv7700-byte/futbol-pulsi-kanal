@@ -105,7 +105,7 @@
     "https://daryo.uz/2026/10/20/ozbekistonda-dollar-kursi-yana-pasaydi-3/",
     "https://kun.uz/news/2026/10/20/bu-yerga-tez-tez-kelishingizga-togri-keladi-rubio-amerikalik-ishbilarmonlarga",
     "https://kun.uz/news/2026/10/20/ozbekiston-milliy-jamoasi-rossiya-bilan-ortoqlik-oyini-otkazadi",
-    "https://sports.uz/oz/news/view/menga-xiyonat-qilishdi-ronaldu-portugaliya-terma-jamoasiga-qaytishni-istamayapti"
+    "https://sports.uz/oz/news/view/messi-va-ronaldu-barcha-davrlarning-oltin-to-p-iga-davogar"
   ],
   "used_quiz": [],
   "used_poll": [
@@ -128,18 +128,37 @@
     "Premyer-liganing olti futbolchisi tiz cho‘kishdan bosh tortdi",
     "“Real” Yevropa Superligasi xarajatlarini qoplash uchun Angliya klublarini sudga berishi mumkin",
     "Oʻzbekiston milliy jamoasi Rossiya bilan oʻrtoqlik oʻyini oʻtkazadi.",
-    "Menga xiyonat qilishdi! Ronaldu Portugaliya terma jamoasiga qaytishni istamayapti"
+    "Messi va Ronalduning barcha davrlarning \"Oltin to‘p\"iga da’vogar"
   ],
   "last_slot": "2026-10-20 21:30",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
-  "live": {},
+  "live": {
+    "401915403": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
+    },
+    "401915404": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
+    }
+  },
   "group_id": 4485846895,
   "moderator": {
     "admins": [
       8456959367
     ],
-    "last_id": 9
+    "last_id": 10
   }
 }
