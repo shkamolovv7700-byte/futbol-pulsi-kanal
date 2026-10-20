@@ -26,6 +26,7 @@ from telethon.errors import RPCError
 from telethon.tl.functions.channels import CreateChannelRequest, UpdateUsernameRequest
 from telethon.tl.types import InputMediaPoll, Poll, PollAnswer, TextWithEntities
 
+import rasm
 import statistika
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -231,7 +232,8 @@ async def post_news(client: TelegramClient, channel) -> bool:
         save_state()
         return False
 
-    await client.send_message(channel, format_news(item), parse_mode="html", link_preview=False)
+    image = await asyncio.to_thread(rasm.news_card, item["title"], item["desc"], item["source"])
+    await client.send_file(channel, image, caption=format_news(item)[:1024], parse_mode="html")
     state["recent_titles"] = (state.get("recent_titles", []) + [item["title"]])[-60:]
     save_state()
     log.info("Kanalga yangilik joylandi: %s", item["title"][:60])
@@ -239,6 +241,7 @@ async def post_news(client: TelegramClient, channel) -> bool:
 
 
 # ---------- Videolar ----------
+
 
 def fetch_videos() -> list[dict]:
     videos = []
@@ -280,7 +283,8 @@ async def post_video(client: TelegramClient, channel) -> bool:
     if not fresh:
         return False
     video = fresh[0]
-    await client.send_message(channel, format_video(video), parse_mode="html", link_preview=True)
+    image = await asyncio.to_thread(rasm.video_card, video["title"], video["source"])
+    await client.send_file(channel, image, caption=format_video(video), parse_mode="html")
     state["seen"].append(video["id"])
     state["last_video_source"] = video["source"]
     save_state()
@@ -301,7 +305,8 @@ async def post_highlights(client: TelegramClient, channel) -> bool:
             for v in videos[:8]]
     text = ("🎬 <b>Kechagi o'yinlar gollari</b>\n\nBarcha gollar va eng qiziq lahzalar 👇\n\n"
             + "\n\n".join(rows) + "\n\nQaysi gol eng zo'ri? 🔥\n\n#gollar #video" + channel_footer())
-    await client.send_message(channel, text, parse_mode="html", link_preview=False)
+    image = await asyncio.to_thread(rasm.video_card, "Kechagi o'yinlar gollari", "Rasmiy kanallar", len(rows))
+    await client.send_file(channel, image, caption=text[:1024], parse_mode="html")
     state["seen"].extend(v["id"] for v in videos[:8])
     save_state()
     log.info("Kanalga kechagi gollar joylandi (%d ta video)", len(rows))
@@ -326,7 +331,8 @@ def pick(pool: list[dict], used_key: str) -> tuple[int, dict]:
 
 def build_poll(question: str, options: list[str], quiz: bool, correct: int | None = None,
                solution: str | None = None) -> InputMediaPoll:
-    answers = [PollAnswer(text=TextWithEntities(o, []), option=bytes([n])) for n, o in enumerate(options)]
+    # Telegram javob kalitini "0", "1", ... ko'rinishida kutadi (bytes([n]) da viktorina rad etiladi)
+    answers = [PollAnswer(text=TextWithEntities(o, []), option=str(n).encode()) for n, o in enumerate(options)]
     poll = Poll(id=random.getrandbits(62), question=TextWithEntities(question, []),
                 answers=answers, hash=0, quiz=quiz or None)
     return InputMediaPoll(poll=poll, correct_answers=[correct] if quiz else None,
@@ -335,9 +341,9 @@ def build_poll(question: str, options: list[str], quiz: bool, correct: int | Non
 
 async def post_quiz(client: TelegramClient, channel) -> bool:
     _, q = pick(load_content()["viktorina"], "used_quiz")
-    await client.send_message(channel, "🧠 <b>Kun viktorinasi!</b> Bilimingizni sinab ko'ring 👇",
-                              parse_mode="html")
-    await client.send_file(channel, build_poll(q["savol"], q["javoblar"], True, q["togri"], q.get("izoh")))
+    # sarlavha savolning ichida: alohida xabar bo'lsa, savol chiqmay qolganda "yetim" sarlavha qolardi
+    question = f"🧠 Kun viktorinasi: {q['savol']}"[:255]
+    await client.send_file(channel, build_poll(question, q["javoblar"], True, q["togri"], q.get("izoh")))
     save_state()
     log.info("Kanalga viktorina joylandi")
     return True
@@ -354,10 +360,11 @@ async def post_poll(client: TelegramClient, channel) -> bool:
 # ---------- Statistika (statistika.py) ----------
 
 async def send_stat(client: TelegramClient, channel, make, *args) -> bool:
-    text = await asyncio.to_thread(make, *args)
-    if not text:
+    result = await asyncio.to_thread(make, *args)
+    if not result:
         return False
-    await client.send_message(channel, text + channel_footer(), parse_mode="html", link_preview=False)
+    caption, image = result
+    await client.send_file(channel, image, caption=caption + channel_footer(), parse_mode="html")
     log.info("Kanalga statistika joylandi: %s", make.__name__)
     return True
 
@@ -434,12 +441,23 @@ async def post_live(client: TelegramClient, channel) -> bool:
         for goal in ev["goals"]:
             if goal["key"] in info["goals"]:
                 continue
-            await client.send_message(channel, statistika.goal_post(ev, goal) + channel_footer(), parse_mode="html")
+            upto = ev["goals"][: ev["goals"].index(goal) + 1]
+            hs = sum(g["team"] == ev["home_id"] for g in upto)
+            as_ = sum(g["team"] == ev["away_id"] for g in upto)
+            team = ev["home"] if goal["team"] == ev["home_id"] else ev["away"]
+            scorer = f"{goal['scorer']} — {team}" if goal["scorer"] else team
+            image = rasm.goal_card(ev["league"][1], ev["home"], ev["away"], hs, as_, goal["minute"], scorer)
+            await client.send_file(channel, image, caption=statistika.goal_post(ev, goal) + channel_footer(),
+                                   parse_mode="html")
             info["goals"].append(goal["key"])
             save_state()
             log.info("GOL: %s %s:%s %s (%s)", ev["home"], ev["hs"], ev["as"], ev["away"], goal["minute"])
         if ev["state"] == "post" and not info["ft"]:
-            await client.send_message(channel, statistika.final_post(ev) + channel_footer(), parse_mode="html")
+            scorers = [f"{g['minute']} {g['scorer']}" + (" (a/g)" if g["og"] else " (p)" if g["pen"] else "")
+                       for g in ev["goals"]]
+            image = rasm.final_card(ev["league"][1], ev["home"], ev["away"], ev["hs"], ev["as"], scorers)
+            await client.send_file(channel, image, caption=statistika.final_post(ev)[:1000] + channel_footer(),
+                                   parse_mode="html")
             info["ft"] = True
             save_state()
             log.info("Yakuniy hisob: %s %s:%s %s", ev["home"], ev["hs"], ev["as"], ev["away"])

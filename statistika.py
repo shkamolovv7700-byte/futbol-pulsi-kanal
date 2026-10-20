@@ -8,6 +8,8 @@ import json
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
+import rasm
+
 TASHKENT = timezone(timedelta(hours=5))
 API = "https://site.api.espn.com/apis"
 
@@ -36,7 +38,7 @@ def place(n: int) -> str:
     return MEDALS.get(n, f"{n}.")
 
 
-def table_post(league: tuple) -> str | None:
+def table_post(league: tuple) -> tuple | None:
     code, name, flag, tag = league
     data = get(f"{API}/v2/sports/soccer/{code}/standings")
     entries = data["children"][0]["standings"]["entries"]
@@ -48,29 +50,32 @@ def table_post(league: tuple) -> str | None:
     played = max((int(r[2].get("gamesPlayed") or 0) for r in rows), default=0)
     if not played:
         return None
-    lines = [f"{flag} <b>{name} jadvali — TOP 10</b>",
-             f"<i>{played}-turdan keyin · G-D-M: g'alaba, durang, mag'lubiyat</i>", ""]
-    for rank, team, s in rows[:10]:
-        lines.append(f"{place(rank)} <b>{html.escape(team)}</b> — {s['points']} ochko "
-                     f"<i>({s['gamesPlayed']} o'yin, {s['wins']}-{s['ties']}-{s['losses']}, {s['pointDifferential']})</i>")
-    lines += ["", "Sizning jamoangiz nechanchi o'rinda? 👇", "", f"#jadval {tag}"]
-    return "\n".join(lines)
+    image = rasm.table_card(f"{name} — TOP 10", f"{played}-turdan keyin", [
+        (rank, team, s["gamesPlayed"], s["wins"], s["ties"], s["losses"], s["pointDifferential"], s["points"])
+        for rank, team, s in rows[:10]])
+    leader = rows[0]
+    caption = (f"{flag} <b>{name} jadvali — TOP 10</b>\n\n"
+               f"🥇 Peshqadam: <b>{html.escape(leader[1])}</b> — {leader[2]['points']} ochko\n\n"
+               f"Sizning jamoangiz nechanchi o'rinda? 👇\n\n#jadval {tag}")
+    return caption, image
 
 
-def scorers_post(league: tuple) -> str | None:
+def scorers_post(league: tuple) -> tuple | None:
     code, name, flag, tag = league
     data = get(f"{API}/site/v2/sports/soccer/{code}/statistics")
     goals = next((s for s in data.get("stats", []) if s.get("name") == "goalsLeaders"), None)
     if not goals or not goals.get("leaders"):
         return None
-    lines = [f"{flag} <b>{name}: to'purarlar — TOP 10</b>", ""]
+    rows = []
     for n, leader in enumerate(goals["leaders"][:10], 1):
         athlete = leader["athlete"]
         team = (athlete.get("team") or {}).get("shortDisplayName") or (athlete.get("team") or {}).get("displayName", "")
-        team_txt = f" ({html.escape(team)})" if team else ""
-        lines.append(f"{place(n)} <b>{html.escape(athlete['displayName'])}</b>{team_txt} — {int(leader['value'])} ⚽️")
-    lines += ["", "Kim to'purarlar poygasini yutadi? 🔥", "", f"#toparar {tag}"]
-    return "\n".join(lines)
+        rows.append((n, athlete["displayName"], team, int(leader["value"])))
+    image = rasm.scorers_card(f"{name} to'purarlari — TOP 10", rows)
+    caption = (f"{flag} <b>{name}: to'purarlar — TOP 10</b>\n\n"
+               f"👑 Yetakchi: <b>{html.escape(rows[0][1])}</b> — {rows[0][3]} gol\n\n"
+               f"Kim to'purarlar poygasini yutadi? 🔥\n\n#toparar {tag}")
+    return caption, image
 
 
 def _events(code: str, start: datetime, end: datetime) -> list[dict]:
@@ -103,19 +108,19 @@ def _day_window(days_back: int) -> tuple[datetime, datetime]:
     return start, start + timedelta(days=1)
 
 
-def fixtures_post() -> str | None:
+def fixtures_post() -> tuple | None:
     start, end = _day_window(0)
     blocks = []
     for code, name, flag, _ in LEAGUES + CUPS:
         events = [e for e in _events(code, start, end) if e["state"] == "pre"]
         if events:
-            rows = [f"🕐 {e['when']:%H:%M}{' (tunda)' if e['when'].date() > start.date() else ''}  "
-                    f"{html.escape(e['home'])} — {html.escape(e['away'])}" for e in events[:10]]
-            blocks.append(f"{flag} <b>{name}</b>\n" + "\n".join(rows))
+            blocks.append((name, [(e["home"], f"{e['when']:%H:%M}", e["away"]) for e in events[:10]]))
     if not blocks:
         return None
-    return ("📅 <b>Bugungi o'yinlar</b> <i>(Toshkent vaqti)</i>\n\n" + "\n\n".join(blocks)
-            + "\n\nQaysi o'yinni kutyapsiz? 👇\n\n#oyinlar #futbol")
+    count = sum(len(rows) for _, rows in blocks)
+    caption = (f"📅 <b>Bugungi o'yinlar</b> — {count} ta muhim o'yin <i>(Toshkent vaqti)</i>\n\n"
+               "00:00 dan keyingi o'yinlar tunda bo'ladi 🌙\n\nQaysi o'yinni kutyapsiz? 👇\n\n#oyinlar #futbol")
+    return caption, rasm.matches_card("Bugungi o'yinlar", blocks, "Bugungi o'yinlar")
 
 
 # Jonli gollar faqat shu klublar o'ynayotgan o'yinlar va Chempionlar ligasi uchun yuboriladi
@@ -198,14 +203,14 @@ def final_post(ev: dict) -> str:
             + f"Natija sizga yoqdimi? 👇\n\n#natija {tag}")
 
 
-def results_post() -> str | None:
+def results_post() -> tuple | None:
     start, end = _day_window(1)
     blocks = []
     for code, name, flag, _ in LEAGUES + CUPS:
         events = [e for e in _events(code, start, end) if e["state"] == "post"]
         if events:
-            rows = [f"{html.escape(e['home'])} <b>{e['hs']}:{e['as']}</b> {html.escape(e['away'])}" for e in events[:10]]
-            blocks.append(f"{flag} <b>{name}</b>\n" + "\n".join(rows))
+            blocks.append((name, [(e["home"], f"{e['hs']} : {e['as']}", e["away"]) for e in events[:10]]))
     if not blocks:
         return None
-    return "✅ <b>Kechagi natijalar</b>\n\n" + "\n\n".join(blocks) + "\n\nQaysi natija sizni hayratga soldi? 👇\n\n#natijalar #futbol"
+    caption = "✅ <b>Kechagi natijalar</b>\n\nQaysi natija sizni hayratga soldi? 👇\n\n#natijalar #futbol"
+    return caption, rasm.matches_card("Kechagi natijalar", blocks, "Natijalar")
