@@ -38,7 +38,7 @@ VIDEO_FEEDS = [
     ("ESL CS Highlights", "UCDQZcZZwv-RhxHxJpHCdmbQ"),
     ("HLTV", "UCXbsUubmNPK8XJFbkmlMcMg"),
 ]
-HIGHLIGHT = re.compile(r"highlight|best|ace|clutch|moments|plays|top \d+|insane|1v\d", re.IGNORECASE)
+HIGHLIGHT = re.compile(r"highlight|best|ace|clutch|moments|plays|top \d+|insane|1v\d|\bvs\.?\b", re.IGNORECASE)
 HOOKS = ["Sizningcha, kim haq? Izohlarda yozing 👇", "Fikringizni izohlarda qoldiring 💬",
          "🔥 — zo'r, 🤔 — ko'ramiz, 👎 — yoqmadi", "Do'stlaringizga ham ulashing 📲"]
 
@@ -197,6 +197,94 @@ async def post_ranking(client, channel) -> bool:
     return True
 
 
+def uz_dates(t: dict) -> str:
+    s, e = t["start"], t["end"]
+    m = lambda d: cs2data.UZ_MONTHS[list(cs2data.MONTHS)[d.month - 1]]
+    return f"{s.day}–{e.day} {m(e)}" if s.month == e.month else f"{s.day} {m(s)} – {e.day} {m(e)}"
+
+
+async def post_calendar(client, channel) -> bool:
+    """Turnirlar taqvimi: chorshanba va shanba kunlari."""
+    if datetime.now().weekday() not in (2, 5) or state.get("calendar_day") == today():
+        return False
+    now = datetime.now(cs2data.TASHKENT)
+    ts = sorted((t for t in await asyncio.to_thread(cs2data.tournaments) if t["end"] >= now and not t["cancelled"]),
+                key=lambda t: t["start"])[:6]
+    if not ts:
+        return False
+    rows = [(i, t["name"], f"{uz_dates(t)} · {t['location']} · {t['prize']}", t["teams"]) for i, t in enumerate(ts, 1)]
+    image = await asyncio.to_thread(rasm.scorers_card, "Eng katta turnirlar taqvimi", rows, "jamoalar soni", "TURNIRLAR")
+    lines = [f"{'🔴' if t['start'] <= now else '🗓'} <b>{html.escape(t['name'])}</b> — {uz_dates(t)}, "
+             f"{html.escape(t['location'])}, 💰 {t['prize']}" for t in ts]
+    await send_card(client, channel, image, "🏆 <b>CS2 turnirlari taqvimi</b> <i>(S-daraja)</i>\n\n" + "\n".join(lines)
+                    + "\n\nQaysi turnirni kutyapsiz? 👇\n\n#CS2 #turnirlar")
+    state["calendar_day"] = today()
+    save_state()
+    return True
+
+
+async def post_preview(client, channel) -> bool:
+    """Turnir boshlanishidan oldin (3 kun ichida): kimlar qatnashadi, qanday kirgan, TOP-15 dan kim yo'q va nega."""
+    now = datetime.now(cs2data.TASHKENT)
+    done = state.setdefault("previewed", [])
+    soon = [t for t in await asyncio.to_thread(cs2data.tournaments)
+            if not t["cancelled"] and t["page"] not in done and timedelta(days=-1) <= t["start"] - now <= timedelta(days=3)]
+    if not soon:
+        return False
+    t = min(soon, key=lambda t: t["start"])
+    teams, page_text = await asyncio.to_thread(cs2data.participants, t["page"])
+    if len(teams) < 4:  # qatnashchilar hali e'lon qilinmagan
+        return False
+    names = {cs2data.norm(x["team"]) for x in teams}
+    _, ranking = await asyncio.to_thread(cs2data.ranking)
+    missing = [r for r in ranking[:15] if cs2data.norm(r["team"]) not in names]
+    invited = sum(x["how"].startswith("Taklif") for x in teams)
+    image = await asyncio.to_thread(
+        rasm.two_column_card, t["name"], f"{uz_dates(t)} · {t['location']} · {t['prize']} · {len(teams)} jamoa",
+        [(x["team"], x["how"]) for x in teams], "QATNASHCHILAR", "Manba: Liquipedia")
+    absent = []
+    for r in missing:
+        reason = cs2data.absence_reason(r["team"], page_text)
+        reason_uz = await asyncio.to_thread(cs2data.translate_en, reason) if reason else None
+        absent.append(f"• <b>{html.escape(r['team'])}</b> (Valve reytingida {r['rank']}-o'rin)"
+                      + (f" — {html.escape(reason_uz)}" if reason_uz else ""))
+    caption = (f"🏆 <b>{html.escape(t['name'])}</b> {'boshlandi' if t['start'] <= now else 'yaqinda boshlanadi'}!\n"
+               f"🗓 {uz_dates(t)} · 📍 {html.escape(t['location'])} · 💰 {t['prize']}\n\n"
+               f"👥 {len(teams)} ta jamoa: {invited} tasi Valve reytingi bo'yicha taklif olgan, "
+               f"{len(teams) - invited} tasi saralashdan o'tgan.\n")
+    if absent:
+        caption += ("\n❌ <b>Reytingdagi TOP-15 dan qatnashmayotganlar:</b>\n" + "\n".join(absent[:8])
+                    + ("\n<i>Sababi ko'rsatilmaganlar uchun rasmiy sabab e'lon qilinmagan: odatda jamoa taklifni rad etgan "
+                       "yoki boshqa turnir bilan vaqti to'g'ri kelmagan.</i>" if any("—" not in a for a in absent) else ""))
+    caption += "\n\nKim chempion bo'ladi? Izohlarda yozing 👇\n\n#CS2 #turnir"
+    await send_card(client, channel, image, caption)
+    done.append(t["page"])
+    save_state()
+    return True
+
+
+async def post_highlights(client, channel, since_hours: int = 30, title: str = "Kechagi o'yinlar lavhalari") -> bool:
+    """Bir necha soatlik eng zo'r lavhalar to'plami (rasmiy kanallardagi sharh videolari)."""
+    min_ts = datetime.now().timestamp() - since_hours * 3600
+    seen = set(state["seen"])
+    videos = sorted((v for v in await asyncio.to_thread(fetch_videos)
+                     if v["ts"] >= min_ts and v["id"] not in seen and HIGHLIGHT.search(v["title"])), key=lambda v: -v["ts"])
+    if not videos:
+        return False
+    rows = [f'▶️ <a href="{html.escape(v["link"], quote=True)}">{html.escape(v["title"][:90])}</a>' for v in videos[:8]]
+    image = await asyncio.to_thread(rasm.video_card, title, "ESL · HLTV", len(rows))
+    await send_card(client, channel, image, f"🎬 <b>{title}</b>\n\n" + "\n\n".join(rows)
+                    + "\n\nQaysi lahza eng zo'ri? 🔥\n\n#CS2 #lavhalar")
+    state["seen"].extend(v["id"] for v in videos[:8])
+    save_state()
+    return True
+
+
+async def post_today_highlights(client, channel) -> bool:
+    hours = max(1, datetime.now().hour - 6)
+    return await post_highlights(client, channel, hours, "Bugungi o'yinlar lavhalari")
+
+
 # ---------- Viktorina va so'rovnoma ----------
 
 def pick(pool: list, key: str) -> dict:
@@ -269,13 +357,18 @@ async def post_live(client, channel) -> bool:
 
 SCHEDULE = {
     9: [post_results, post_news], 10: [post_fixtures, post_news], 11: [post_video, post_news],
-    13: [post_quiz], 16: [post_video, post_news], 17: [post_ranking, post_news],
-    19: [post_video, post_news], 20: [post_poll], 22: [post_video, post_news],
+    12: [post_preview, post_news], 13: [post_quiz], 16: [post_video, post_news],
+    17: [post_ranking, post_calendar, post_news], 19: [post_video, post_news], 20: [post_poll],
+    22: [post_video, post_news],
 }
+# yarim soatlar: 9:30 kechagi o'yinlar lavhalari, 22:30 bugungi o'yinlar lavhalari, qolganida yangilik
+HALF_SCHEDULE = {9: [post_highlights, post_news], 22: [post_today_highlights, post_news]}
 
 
 def hour_plan(hour: int, half: bool) -> list:
-    return [post_news, post_video] if half else SCHEDULE.get(hour, [post_news, post_video])
+    if half:
+        return HALF_SCHEDULE.get(hour, [post_news, post_video])
+    return SCHEDULE.get(hour, [post_news, post_video])
 
 
 async def tick(client, channel) -> None:
@@ -302,6 +395,8 @@ async def run_once(client: TelegramClient) -> None:
     log.info("Kanal topildi: %s (soat %s)", channel.title, datetime.now().strftime("%H:%M"))
     deadline = datetime.now() + timedelta(seconds=RUN_WINDOW_SECONDS)
     while True:
+        if not client.is_connected():  # Telegram aloqasi uzildi (masalan, kirish bekor qilingan) - kutmasdan chiqamiz
+            raise SystemExit("Telegram bilan aloqa uzildi")
         await tick(client, channel)
         try:
             active = await post_live(client, channel)

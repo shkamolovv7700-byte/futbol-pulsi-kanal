@@ -586,6 +586,8 @@ async def run_once(client: TelegramClient) -> None:
     # Kunduzgi soatlardan tashqarida va jonli o'yin bo'lmasa - darhol tugaydi.
     deadline = datetime.now() + timedelta(seconds=RUN_WINDOW_SECONDS)
     while True:
+        if not client.is_connected():  # Telegram aloqasi uzildi (masalan, kirish bekor qilingan) - kutmasdan chiqamiz
+            raise SystemExit("Telegram bilan aloqa uzildi")
         await tick(client, channel)
         try:
             active = await post_live(client, channel)

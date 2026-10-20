@@ -13,6 +13,7 @@ import logging
 import re
 import time
 import urllib.parse
+import urllib.error
 import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -63,11 +64,21 @@ def _parse_block(b: str, finished: bool) -> dict | None:
 
 
 def matches() -> list[dict]:
-    """Liquipedia'dagi kutilayotgan/jonli va tugagan o'yinlar (60 soniyalik kesh bilan)."""
-    if time.time() - _cache["t"] < 60:
+    """Liquipedia'dagi kutilayotgan/jonli va tugagan o'yinlar (2,5 daqiqalik kesh bilan).
+
+    GitHub serverlari IP manzilini boshqalar bilan bo'lishadi, shuning uchun Liquipedia "429 Too Many Requests"
+    qaytarsa, 15 daqiqa kutamiz va oxirgi ma'lumot bilan ishlaymiz.
+    """
+    if time.time() - _cache["t"] < 150 or time.time() < _cache.get("backoff", 0):
         return _cache["matches"]
-    raw = json.loads(_get("https://liquipedia.net/counterstrike/api.php?action=parse&page=Liquipedia:Matches"
-                          "&format=json&prop=text"))["parse"]["text"]["*"]
+    try:
+        raw = _parse_page("Liquipedia:Matches")
+    except urllib.error.HTTPError as e:
+        if e.code == 429:
+            _cache["backoff"] = time.time() + 900
+            log.warning("Liquipedia 429: 15 daqiqa kutamiz")
+            return _cache["matches"]
+        raise
     upcoming, _, completed = raw.partition('data-toggle-area-content="2"')
     result = []
     for part, finished in ((upcoming, False), (completed, True)):
@@ -81,6 +92,101 @@ def matches() -> list[dict]:
 
 def is_live(m: dict) -> bool:
     return not m["finished"] and m["when"] <= datetime.now(TASHKENT) and m["s1"] != ""
+
+
+# ---------- Liquipedia: turnirlar taqvimi va qatnashchilar ----------
+
+_last_parse = [0.0]
+_tour_cache: dict = {"t": 0, "value": []}
+MONTHS = {m: i for i, m in enumerate(("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"), 1)}
+UZ_MONTHS = dict(zip(MONTHS, ("yanvar", "fevral", "mart", "aprel", "may", "iyun", "iyul", "avgust", "sentabr",
+                              "oktabr", "noyabr", "dekabr")))
+
+
+def _parse_page(page: str) -> str:
+    """Liquipedia sahifasi HTML. Qoidaga ko'ra parse so'rovlari orasida kamida 30 soniya."""
+    wait = 31 - (time.time() - _last_parse[0])
+    if wait > 0:
+        time.sleep(wait)
+    _last_parse[0] = time.time()
+    return json.loads(_get(f"https://liquipedia.net/counterstrike/api.php?action=parse&page="
+                           f"{urllib.parse.quote(page)}&format=json&prop=text"))["parse"]["text"]["*"]
+
+
+def _dates(text: str) -> tuple:
+    """'Nov 24 – Dec 13, 2026' / 'Nov 16–22, 2026' -> (boshlanish, tugash) sanalari."""
+    m = re.match(r"(\w{3})\w* (\d+)\s*[–-]\s*(?:(\w{3})\w* )?(\d+), (\d{4})", text)
+    if not m:
+        return None, None
+    m1, d1, m2, d2, y = m.groups()
+    start = datetime(int(y), MONTHS[m1.lower()], int(d1), tzinfo=TASHKENT)
+    end = datetime(int(y), MONTHS[(m2 or m1).lower()], int(d2), tzinfo=TASHKENT)
+    if end < start:  # yil oxiridan keyingi yilga o'tadigan turnir
+        start = start.replace(year=start.year - 1)
+    return start, end
+
+
+def tournaments() -> list[dict]:
+    """S-darajali turnirlar (eng kattalari): nom, sahifa, sanalar, mukofot, joy, jamoalar soni. 6 soatlik kesh."""
+    if _tour_cache["value"] and time.time() - _tour_cache["t"] < 6 * 3600:
+        return _tour_cache["value"]
+    h = _parse_page("S-Tier_Tournaments")
+    result = []
+    for row in re.findall(r'<tr class="table2&#95;&#95;row--body[^"]*">(.*?)</tr>', h, re.S):
+        cells = re.findall(r"<td[^>]*>(.*?)</td>", row, re.S)
+        if len(cells) < 9:
+            continue
+        link = re.search(r'<a href="/counterstrike/([^"#]+)" title="([^"]+)"', cells[2])
+        start, end = _dates(_clean(cells[3]))
+        if not link or not start:
+            continue
+        result.append({"name": _clean(cells[2]), "page": urllib.parse.unquote(link.group(1)), "start": start,
+                       "end": end, "prize": _clean(cells[4]), "location": _clean(cells[5]),
+                       "teams": _clean(cells[6]), "winner": _clean(cells[7]),
+                       "cancelled": "cancel" in _clean(cells[7]).lower()})
+    _tour_cache.update(t=time.time(), value=result)
+    return result
+
+
+def _how(text: str) -> str:
+    """'Invited VRS South America (Aug. 2026)' -> o'zbekcha qisqa izoh."""
+    t = re.sub(r"\s+", " ", text).strip()
+    rest = re.sub(r"^(invited|qualified)\s*", "", t, flags=re.I)
+    rest = (rest.replace("VRS", "Valve reytingi").replace("Global Qualifier", "global saralash")
+            .replace("Asian Qualifier", "Osiyo saralashi").replace("European Qualifier", "Yevropa saralashi")
+            .replace("Qualifier", "saralash").replace("South America", "Janubiy Amerika")
+            .replace("North America", "Shimoliy Amerika").replace("Americas", "Amerika").replace("Asia", "Osiyo")
+            .replace("Europe", "Yevropa").replace("Global", "global"))
+    rest = re.sub(r"\((\w{3})\. (\d{4})\)", lambda m: f"({UZ_MONTHS.get(m.group(1).lower(), m.group(1))} {m.group(2)})", rest)
+    if t.lower().startswith("invited"):
+        return "Taklif: " + (rest or "tashkilotchilardan")
+    if t.lower().startswith("qualified") or "saralash" in rest:
+        return "Saralashdan o'tdi: " + rest
+    return rest
+
+
+def participants(page: str) -> tuple[list[dict], str]:
+    """Turnir qatnashchilari: [{jamoa, qanday kirgan}] va sahifaning oddiy matni (izohlarni qidirish uchun)."""
+    h = _parse_page(page)
+    section = h[h.find('id="Participants"'):]
+    teams = []
+    for card in section.split("general-collapsible collapsed team-participant-card\"")[1:]:
+        name = re.search(r'title="([^"]+)"', card)
+        label = re.search(r'card&#95;&#95;label"><span>(.*?)</span>', card, re.S)  # Invited / Qualified
+        details = re.search(r'qualifier-details">(.*?)</span>', card, re.S)  # VRS Global / Asian Qualifier
+        how = " ".join(_clean(x.group(1)) for x in (label, details) if x)
+        if name:
+            teams.append({"team": html.unescape(name.group(1)), "how": _how(how)})
+    plain = re.sub(r"\s+", " ", _clean(re.sub(r"<(br|/div|/p|/li)[^>]*>", "\n", h)))
+    return teams, plain
+
+
+def absence_reason(team: str, page_text: str) -> str:
+    """Sahifada jamoa haqida "rad etdi / chiqib ketdi" degan gap bo'lsa - o'sha gapni qaytaradi."""
+    for sentence in re.split(r"(?<=[.!?\]])\s+", page_text):
+        if team.lower() in sentence.lower() and re.search(r"declin|withdr|replac|disband|visa|forfeit", sentence, re.I):
+            return sentence.strip()[:200]
+    return ""
 
 
 # ---------- Valve reytingi ----------
@@ -115,7 +221,9 @@ def top_teams(n: int = 20) -> set[str]:
 
 
 def norm(team: str) -> str:
-    return re.sub(r"^team |[^a-z0-9]", "", team.lower().replace("team ", ""))
+    """'G2 Esports', 'Team Falcons', 'BetBoom Team' -> 'g2', 'falcons', 'betboom' (manbalar nomni turlicha yozadi)."""
+    t = re.sub(r"\b(team|esports?|gaming|clan|club)\b", "", team.lower())
+    return re.sub(r"[^a-z0-9]", "", t)
 
 
 def is_important(m: dict, tops: set[str]) -> bool:
@@ -158,7 +266,7 @@ def fetch_news() -> list[dict]:
 LATIN_WORD = re.compile(r"(?<!\w)[A-Za-z][A-Za-z0-9._-]*")
 
 
-def translate(text: str) -> str | None:
+def translate(text: str, src: str = "ru") -> str | None:
     """Ruschadan o'zbekchaga bepul tarjima. Ikkala xizmat ham ishlamasa - None.
 
     Rus matnidagi lotin harfli so'zlar - taxalluslar va jamoa nomlari (asap, donk, NAVI, Mirage).
@@ -172,9 +280,9 @@ def translate(text: str) -> str | None:
         names.append(m.group(0))
         return f"X{len(names)}Q"
 
-    q = urllib.parse.quote(LATIN_WORD.sub(hide, text[:480]))
-    for name, url in (("MyMemory", f"https://api.mymemory.translated.net/get?langpair=ru|uz&q={q}"),
-                      ("Google", f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=ru&tl=uz&dt=t&q={q}")):
+    q = urllib.parse.quote(LATIN_WORD.sub(hide, text[:480]) if src == "ru" else text[:480])
+    for name, url in (("MyMemory", f"https://api.mymemory.translated.net/get?langpair={src}|uz&q={q}"),
+                      ("Google", f"https://translate.googleapis.com/translate_a/single?client=gtx&sl={src}&tl=uz&dt=t&q={q}")):
         try:
             d = json.loads(_get(url, {"User-Agent": "Mozilla/5.0"}, timeout=15))
             if name == "MyMemory":
@@ -199,3 +307,8 @@ def _fix(text: str) -> str:
     for pattern, good in FIXES.items():
         text = re.sub(pattern, good, text)
     return text.strip()
+
+
+def translate_en(text: str) -> str | None:
+    """Liquipedia izohlari inglizcha."""
+    return translate(text, "en")

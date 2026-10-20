@@ -246,6 +246,29 @@ def scorers_card(title: str, rows: list[tuple], note: str = "gollar soni", label
     return to_file(img)
 
 
+def two_column_card(title: str, subtitle: str, rows: list[tuple[str, str]], label: str, note: str = "") -> io.BytesIO:
+    """Ko'p qatorli ro'yxat ikki ustunda: (nom, izoh). Turnir qatnashchilari uchun (32 tagacha)."""
+    W = 1280
+    per_col = (len(rows) + 1) // 2
+    H = 250 + 76 * per_col + 110
+    img, d = canvas(W, H)
+    y0 = header(d, W, label)
+    d.text((48, y0), clean(title), font=font("head", 52), fill=WHITE)
+    d.text((48, y0 + 70), clean(subtitle), font=font("body", 26, "Regular"), fill=DIM)
+    y0 += 120
+    fn, fs = font("body", 28, "Bold"), font("body", 20, "Regular")
+    col_w = (W - 96 - 24) // 2
+    for i, (name, sub) in enumerate(rows):
+        x = 48 + (i // per_col) * (col_w + 24)
+        y = y0 + (i % per_col) * 76
+        if (i % per_col) % 2 == 0:
+            d.rectangle((x - 12, y - 6, x + col_w, y + 66), fill=ROW_ALT)
+        d.text((x, y), fit(d, clean(name), fn, col_w - 20), font=fn, fill=WHITE)
+        d.text((x, y + 36), fit(d, clean(sub), fs, col_w - 20), font=fs, fill=ORANGE if sub.startswith("Saralash") else DIM)
+    footer(d, W, H, note)
+    return to_file(img)
+
+
 def matches_card(title: str, blocks: list[tuple[str, list[tuple[str, str, str]]]], note: str) -> io.BytesIO:
     """blocks: (liga, [(chap, o'rta, o'ng)]) - natijalar uchun o'rtada hisob, o'yinlar uchun vaqt."""
     W = 1080
