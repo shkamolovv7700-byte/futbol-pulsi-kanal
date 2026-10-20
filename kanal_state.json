@@ -84,7 +84,26 @@
     "https://kun.uz/news/2026/10/20/oz-nomiga-kredit-olishni-taqiqlaganlar-soni-28-mln-nafardan-oshdi",
     "https://sports.uz/oz/news/view/tottenxem-qimmatga-olgan-oyinchisidan-ayrildi-20-10-2026",
     "https://sports.uz/oz/news/view/premer-liganing-olti-futbolchisi-tiz-chokishdan-bosh-tortdi-20-10-2026",
-    "https://daryo.uz/2026/10/20/real-yevropa-superligasi-xarajatlarini-qoplash-uchun-angliya-klublarini-sudga-berishi-mumkin/"
+    "https://daryo.uz/2026/10/20/real-yevropa-superligasi-xarajatlarini-qoplash-uchun-angliya-klublarini-sudga-berishi-mumkin/",
+    "https://daryo.uz/2026/10/20/buyuk-britaniya-saudiyani-husiylar-hujumidan-himoya-qilish-uchun-qiruvchi-samolyotlar-yuboradi/",
+    "https://daryo.uz/2026/10/20/yevroparlament-vitse-prezidenti-xersondagi-vaziyat-sabab-ochlik-elon-qildi/",
+    "https://daryo.uz/2026/10/20/ozbekistonda-ikki-mingta-oila-uchun-energotejamkor-issiqxonalar-quriladi/",
+    "https://daryo.uz/2026/10/20/polsha-endi-ukrainaga-patriot-raketalarini-bera-olmasligini-malum-qildi/",
+    "https://daryo.uz/2026/10/20/navoiyda-350-gramm-marixuanani-28-mln-somga-sotayotgan-ikki-kishi-ushlandi/",
+    "https://daryo.uz/2026/10/20/janubiy-koreyaga-ishga-joylashtirish-xizmati-narxi-5-baravarga-arzonlashdi/",
+    "https://kun.uz/news/2026/10/20/ishsizlar-uchun-energotejamkor-issiqxona-majmualari-barpo-etiladi",
+    "https://kun.uz/news/2026/10/20/qonunga-bepisand-shovvozlar-va-toshkentni-elektrsiz-qoldirgan-havo-shari-mahalliy-dayjest",
+    "https://kun.uz/news/2026/10/20/changan-uni-ening-omadli-ishtirokchilari-parijdagi-mondial-de-lauto-2026-korgazmasida",
+    "https://daryo.uz/2026/10/20/toshkent-amaliy-fanlar-universiteti-ui-greenmetric-2026-reytingida-dunyoning-top-1000-universitetlari-qatoridan-joy-oldi/",
+    "https://kun.uz/news/2026/10/20/prezident-yiliga-1-million-nafar-yoshni-raqamli-yonalishlarda-oqitish-vazifasini-qoydi",
+    "https://kun.uz/news/2026/10/20/ozbekiston-armiyasida-dronlarni-boshqarish-boyicha-musobaqalar-otkazilmoqda",
+    "https://daryo.uz/2026/10/20/yulduz-usmonovaning-nazariga-tushish-orzum-edi-raqqosa-iroda-ismoilova-mashhur-raqsining-yaralish-tarixi-va-farzandlariga-yaxshi-ona-bololmagani-haqida/",
+    "https://sports.uz/oz/news/view/senga-uch-hafta-muhlat-kerrikka-vaziyatni-onglash-uchun-vaqt-berishdi-20-10-2026",
+    "https://kun.uz/news/2026/10/20/tort-viloyatda-pensiya-tayinlash-boyicha-ixcham-xizmat-korsatish-tizimi-sinovdan-otkaziladi",
+    "https://daryo.uz/2026/10/20/belarus-dushmanona-munosabati-sabab-latviyadan-bazi-tovarlar-importini-taqiqladi/",
+    "https://daryo.uz/2026/10/20/ozbekistonda-dollar-kursi-yana-pasaydi-3/",
+    "https://kun.uz/news/2026/10/20/bu-yerga-tez-tez-kelishingizga-togri-keladi-rubio-amerikalik-ishbilarmonlarga",
+    "https://kun.uz/news/2026/10/20/ozbekiston-milliy-jamoasi-rossiya-bilan-ortoqlik-oyini-otkazadi"
   ],
   "used_quiz": [],
   "used_poll": [
@@ -105,11 +124,19 @@
     "Xiaomi 26 ta futbolka sig‘adigan narxi 88 dollarlik kir yuvish mashinasini taqdim etdi",
     "“Ronaldu jamoaga va menga pand berdi” — Erik ten Hag",
     "Premyer-liganing olti futbolchisi tiz cho‘kishdan bosh tortdi",
-    "“Real” Yevropa Superligasi xarajatlarini qoplash uchun Angliya klublarini sudga berishi mumkin"
+    "“Real” Yevropa Superligasi xarajatlarini qoplash uchun Angliya klublarini sudga berishi mumkin",
+    "Oʻzbekiston milliy jamoasi Rossiya bilan oʻrtoqlik oʻyini oʻtkazadi."
   ],
-  "last_slot": "2026-10-20 20:30",
+  "last_slot": "2026-10-20 21:00",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
-  "live": {}
+  "live": {},
+  "group_id": 4485846895,
+  "moderator": {
+    "admins": [
+      8456959367
+    ],
+    "last_id": 7
+  }
 }
