@@ -132,7 +132,9 @@ NEWS_AD = re.compile(r"ставк|букмекер|промокод|бонус|�
 # Tarjimada buzilib qoladigan CS2 atamalarini tiklash
 FIXES = {r"\bMiraj\b": "Mirage", r"\bYadro\b": "Nuke", r"\bQadimgi\b": "Ancient", r"\bPoyezd\b": "Train",
          r"\bKo'prik\b": "Overpass", r"\bChang ?2\b": "Dust2", r"\bVitalik\b": "Vitality", r"\bRuh\b": "Spirit",
-         r"\bkontr-zarba\b": "Counter-Strike", r"\bAsosiy\b(?= turnir)": "Major", r"\bMayor\b": "Major"}
+         r"\bkontr-zarba\b": "Counter-Strike", r"\bAsosiy\b(?= turnir)": "Major", r"\bMayor\b": "Major",
+         # tarjimon "игрок" ni ba'zan "futbolchi" deb o'giradi - CS2 da bu o'yinchi
+         r"\b[Ff]utbolchi": "o'yinchi", r"\b[Ff]utbol jamoa": "jamoa", r"\b[Ff]utbol klub": "klub"}
 
 
 def fetch_news() -> list[dict]:
@@ -153,24 +155,43 @@ def fetch_news() -> list[dict]:
     return items
 
 
+LATIN_WORD = re.compile(r"(?<!\w)[A-Za-z][A-Za-z0-9._-]*")
+
+
 def translate(text: str) -> str | None:
-    """Ruschadan o'zbekchaga bepul tarjima. Ikkala xizmat ham ishlamasa - None."""
+    """Ruschadan o'zbekchaga bepul tarjima. Ikkala xizmat ham ishlamasa - None.
+
+    Rus matnidagi lotin harfli so'zlar - taxalluslar va jamoa nomlari (asap, donk, NAVI, Mirage).
+    Tarjimon ularni "tarjima qilib" yubormasligi uchun X1Q, X2Q... bilan almashtirib, keyin qaytaramiz.
+    """
     if not text:
         return ""
-    q = urllib.parse.quote(text[:480])
-    try:
-        d = json.loads(_get(f"https://api.mymemory.translated.net/get?langpair=ru|uz&q={q}", timeout=15))
-        out = html.unescape(d["responseData"]["translatedText"])
-        if d.get("responseStatus") == 200 and out and "MYMEMORY WARNING" not in out:
-            return _fix(out)
-    except Exception as e:
-        log.warning("MyMemory ishlamadi: %r", e)
-    try:
-        d = json.loads(_get(f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=ru&tl=uz&dt=t&q={q}",
-                            {"User-Agent": "Mozilla/5.0"}, timeout=15))
-        return _fix("".join(part[0] for part in d[0]))
-    except Exception as e:
-        log.warning("Google tarjima ishlamadi: %r", e)
+    names: list[str] = []
+
+    def hide(m):
+        names.append(m.group(0))
+        return f"X{len(names)}Q"
+
+    q = urllib.parse.quote(LATIN_WORD.sub(hide, text[:480]))
+    for name, url in (("MyMemory", f"https://api.mymemory.translated.net/get?langpair=ru|uz&q={q}"),
+                      ("Google", f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=ru&tl=uz&dt=t&q={q}")):
+        try:
+            d = json.loads(_get(url, {"User-Agent": "Mozilla/5.0"}, timeout=15))
+            if name == "MyMemory":
+                out = html.unescape(d["responseData"]["translatedText"])
+                if d.get("responseStatus") != 200 or "MYMEMORY WARNING" in out:
+                    continue
+            else:
+                out = "".join(part[0] for part in d[0])
+        except Exception as e:
+            log.warning("%s tarjima ishlamadi: %r", name, e)
+            continue
+        if len(set(re.findall(r"X(\d+)Q", out))) != len(names):
+            continue  # tarjimon nomlardan birini buzdi - boshqasini sinaymiz
+        # nomdan keyin o'zbekcha qo'shimcha bo'lsa, apostrof: asap'dan, Mirage'da
+        out = re.sub(r"X(\d+)Q(?=[a-zʻ'’])", lambda m: names[int(m.group(1)) - 1] + "'", out)
+        out = re.sub(r"X(\d+)Q", lambda m: names[int(m.group(1)) - 1], out)
+        return _fix(out.replace("''", "'"))
     return None
 
 
