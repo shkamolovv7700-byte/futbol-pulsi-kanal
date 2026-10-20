@@ -21,3 +21,7 @@
 !cs2_state.json
 !.github/workflows/cs2.yml
 !setka.py
+!reklama_bot.py
+!reklama_narxlar.json
+!requirements-bot.txt
+!.github/workflows/bot.yml

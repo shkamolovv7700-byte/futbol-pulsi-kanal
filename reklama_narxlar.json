@@ -1,0 +1,9 @@
+{
+  "izoh": "Narxlarni shu yerga yozing. 'narxlar' bo'sh bo'lsa, bot narx aytmaydi - admin aniqlab beradi deydi.",
+  "valyuta": "so'm",
+  "narxlar": [],
+  "namuna": [
+    {"kanal": "Futbol Pulsi", "format": "1 post, 24 soat tepada", "narx": "50 000"},
+    {"kanal": "CS2 Pulsi", "format": "1 post + pin 24 soat", "narx": "80 000"}
+  ]
+}
