@@ -23,6 +23,7 @@ import cs2data
 import kanal  # umumiy yordamchilar: build_poll, fetch_xml, parse_date, ATOM/YT
 import moderator
 import rasm
+import setka
 
 BASE_DIR = Path(__file__).resolve().parent
 STATE_FILE = BASE_DIR / "cs2_state.json"
@@ -263,6 +264,29 @@ async def post_preview(client, channel) -> bool:
     return True
 
 
+async def post_brackets(client, channel) -> bool:
+    """Davom etayotgan (yoki ertaga boshlanadigan) turnirning guruhlari va pley-off setkasi - kuniga bir marta, albom."""
+    now = datetime.now(cs2data.TASHKENT)
+    posted = state.setdefault("bracket_day", {})
+    live = [t for t in await asyncio.to_thread(cs2data.tournaments)
+            if not t["cancelled"] and t["start"] - timedelta(days=1) <= now <= t["end"] + timedelta(days=1)
+            and posted.get(t["page"]) != today()]
+    if not live:
+        return False
+    t = min(live, key=lambda t: t["start"])
+    page = await asyncio.to_thread(cs2data._parse_page, t["page"])
+    images = [setka.group_card(t["name"], g) for g in setka.groups(page)[:6]]
+    images += [setka.card(t["name"], b) for b in setka.brackets(page)[:2]]
+    posted[t["page"]] = today()
+    save_state()
+    if not images:
+        return False
+    caption = (f"🏆 <b>{html.escape(t['name'])}</b> — setka va guruhlar holati\n🗓 {uz_dates(t)} · 📍 "
+               f"{html.escape(t['location'])}\n\nKim pley-offga chiqadi? 👇\n\n#CS2 #setka{footer()}")
+    await client.send_file(channel, images, caption=[caption] + [""] * (len(images) - 1), parse_mode="html")
+    return True
+
+
 async def post_highlights(client, channel, since_hours: int = 30, title: str = "Kechagi o'yinlar lavhalari") -> bool:
     """Bir necha soatlik eng zo'r lavhalar to'plami (rasmiy kanallardagi sharh videolari)."""
     min_ts = datetime.now().timestamp() - since_hours * 3600
@@ -367,7 +391,7 @@ async def post_live(client, channel) -> bool:
 
 SCHEDULE = {
     9: [post_results, post_news], 10: [post_fixtures, post_news], 11: [post_video, post_news],
-    12: [post_preview, post_news], 13: [post_quiz], 16: [post_video, post_news],
+    12: [post_preview, post_news], 13: [post_quiz], 14: [post_brackets, post_news], 16: [post_video, post_news],
     17: [post_ranking, post_calendar, post_news], 19: [post_video, post_news], 20: [post_poll],
     22: [post_video, post_news],
 }
