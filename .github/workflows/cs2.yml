@@ -1,0 +1,49 @@
+name: CS2 Pulsi kanali
+
+on:
+  schedule:
+    # Toshkent 8:00-02:59 (UTC 3:00-21:59): postlar 8:00-23:00, kechki o'yinlar gollari tungacha.
+    # GitHub ko'p ishga tushishlarni o'tkazib yuboradi, shuning uchun har biri ~25 daqiqa ishlaydi
+    # (har daqiqada tekshiradi), keyingisi navbatda kutadi - shunda bo'shliq deyarli qolmaydi.
+    - cron: "5-55/10 3-21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cs2
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      TZ: Asia/Tashkent
+      TG_API_ID: ${{ secrets.TG_API_ID }}
+      TG_API_HASH: ${{ secrets.TG_API_HASH }}
+      TG_SESSION: ${{ secrets.TG_SESSION_CS2 }}
+      KANAL_YOQILGAN: "1"
+      KANAL_MAVJUD: "1"
+      KANAL_NOMI: "CS2 Pulsi 🎯"
+      KANAL_USERNAME: cs2pulsi_uz
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-bulut.txt
+      - run: pip install -r requirements-bulut.txt
+      - run: python bulut.py cs2
+        timeout-minutes: 30
+      - name: Holatni saqlash
+        if: always()  # skript xato bilan to'xtasa ham, joylangan postlar eslab qolinsin (takror chiqmasin)
+        run: |
+          git config user.name "kanal-bot"
+          git config user.email "kanal-bot@users.noreply.github.com"
+          git add cs2_state.json
+          git diff --cached --quiet || git commit -m "cs2 holati"
+          git pull --rebase -X theirs || git rebase --abort
+          git push

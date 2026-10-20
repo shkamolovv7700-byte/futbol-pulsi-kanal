@@ -15,3 +15,8 @@
 !shriftlar/
 !shriftlar/*
 !moderator.py
+!cs2.py
+!cs2data.py
+!cs2_kontent.json
+!cs2_state.json
+!.github/workflows/cs2.yml

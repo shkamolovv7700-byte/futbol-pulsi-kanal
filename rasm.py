@@ -13,8 +13,15 @@ BASE = Path(__file__).resolve().parent
 FONT_HEAD = BASE / "shriftlar" / "Oswald.ttf"
 FONT_BODY = BASE / "shriftlar" / "Inter.ttf"
 CHANNEL = "@futbolpulsi_uz"
+BRAND = "FUTBOL PULSI"
 
 GREEN_TOP, GREEN_BOTTOM = (14, 74, 46), (6, 20, 14)
+
+
+def configure(brand: str, channel: str, top: tuple, bottom: tuple) -> None:
+    """Boshqa kanal (masalan CS2 Pulsi) o'z nomi va ranglari bilan ishlatishi uchun."""
+    global BRAND, CHANNEL, GREEN_TOP, GREEN_BOTTOM
+    BRAND, CHANNEL, GREEN_TOP, GREEN_BOTTOM = brand, channel, top, bottom
 ORANGE = (255, 106, 32)
 RED = (235, 64, 52)
 WHITE, GREY, DIM = (255, 255, 255), (205, 215, 210), (140, 160, 150)
@@ -76,7 +83,7 @@ def header(d: ImageDraw.ImageDraw, w: int, label: str) -> int:
     d.rounded_rectangle((48, 44, 48 + tw + 40, 100), radius=10, fill=ORANGE)
     d.text((68, 46), label, font=f, fill=WHITE)
     brand = font("head", 34)
-    d.text((w - 48 - d.textlength("FUTBOL PULSI", font=brand), 46), "FUTBOL PULSI", font=brand, fill=WHITE)
+    d.text((w - 48 - d.textlength(BRAND, font=brand), 46), BRAND, font=brand, fill=WHITE)
     return 130
 
 
@@ -217,12 +224,12 @@ def table_card(title: str, subtitle: str, rows: list[tuple]) -> io.BytesIO:
     return to_file(img)
 
 
-def scorers_card(title: str, rows: list[tuple]) -> io.BytesIO:
-    """rows: (o'rin, futbolchi, jamoa, gol)"""
+def scorers_card(title: str, rows: list[tuple], note: str = "gollar soni", label: str = "TO'PURARLAR") -> io.BytesIO:
+    """rows: (o'rin, nom, izoh qatori, son) - to'purarlar yoki jamoalar reytingi uchun"""
     W = 1080
     H = 250 + 92 * len(rows) + 100
     img, d = canvas(W, H)
-    y = header(d, W, "TO'PURARLAR")
+    y = header(d, W, label)
     d.text((48, y), clean(title), font=font("head", 56), fill=WHITE)
     y += 110
     fn, ft, fg = font("body", 34, "Bold"), font("body", 24, "Regular"), font("head", 52)
@@ -235,7 +242,7 @@ def scorers_card(title: str, rows: list[tuple]) -> io.BytesIO:
         gs = str(goals)
         d.text((W - 60 - d.textlength(gs, font=fg), y + 6), gs, font=fg, fill=ORANGE)
         y += 92
-    footer(d, W, H, "gollar soni")
+    footer(d, W, H, note)
     return to_file(img)
 
 
