@@ -105,7 +105,9 @@
     "https://daryo.uz/2026/10/20/ozbekistonda-dollar-kursi-yana-pasaydi-3/",
     "https://kun.uz/news/2026/10/20/bu-yerga-tez-tez-kelishingizga-togri-keladi-rubio-amerikalik-ishbilarmonlarga",
     "https://kun.uz/news/2026/10/20/ozbekiston-milliy-jamoasi-rossiya-bilan-ortoqlik-oyini-otkazadi",
-    "https://sports.uz/oz/news/view/messi-va-ronaldu-barcha-davrlarning-oltin-to-p-iga-davogar"
+    "https://sports.uz/oz/news/view/messi-va-ronaldu-barcha-davrlarning-oltin-to-p-iga-davogar",
+    "https://daryo.uz/2026/10/20/yaponiyada-elektromobillarni-harakat-davomida-quvvatlaydigan-yol-sinovdan-otkaziladi/",
+    "https://daryo.uz/2026/10/20/barselona-prezidenti-yamal-daho/"
   ],
   "used_quiz": [],
   "used_poll": [
@@ -128,28 +130,37 @@
     "Premyer-liganing olti futbolchisi tiz cho‘kishdan bosh tortdi",
     "“Real” Yevropa Superligasi xarajatlarini qoplash uchun Angliya klublarini sudga berishi mumkin",
     "Oʻzbekiston milliy jamoasi Rossiya bilan oʻrtoqlik oʻyini oʻtkazadi.",
-    "Messi va Ronalduning barcha davrlarning \"Oltin to‘p\"iga da’vogar"
+    "Messi va Ronalduning barcha davrlarning \"Oltin to‘p\"iga da’vogar",
+    "“Barselona” prezidenti: “Yamal — daho”"
   ],
-  "last_slot": "2026-10-20 21:30",
+  "last_slot": "2026-10-20 22:30",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
   "live": {
     "401915403": {
-      "goals": [],
+      "goals": [
+        "436-230.0",
+        "436-643.0",
+        "494-859.0"
+      ],
       "ft": false,
       "score": [
-        0,
-        0
+        2,
+        1
       ],
       "lag": 0
     },
     "401915404": {
-      "goals": [],
+      "goals": [
+        "124-3149.0",
+        "124-591.0",
+        "21922-2315.0"
+      ],
       "ft": false,
       "score": [
-        0,
-        0
+        1,
+        2
       ],
       "lag": 0
     }
@@ -159,6 +170,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 10
+    "last_id": 17
   }
 }
