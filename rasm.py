@@ -16,6 +16,7 @@ CHANNEL = "@futbolpulsi_uz"
 
 GREEN_TOP, GREEN_BOTTOM = (14, 74, 46), (6, 20, 14)
 ORANGE = (255, 106, 32)
+RED = (235, 64, 52)
 WHITE, GREY, DIM = (255, 255, 255), (205, 215, 210), (140, 160, 150)
 ROW_ALT = (255, 255, 255, 14)
 
@@ -134,13 +135,13 @@ def video_card(title: str, source: str, count: int = 0) -> io.BytesIO:
     return to_file(img)
 
 
-def goal_card(league: str, home: str, away: str, hs, as_, minute: str, scorer: str) -> io.BytesIO:
+def goal_card(league: str, home: str, away: str, hs, as_, minute: str, scorer: str,
+              word: str = "GOOOL!", color: tuple = ORANGE) -> io.BytesIO:
     W, H = 1280, 720
     img, d = canvas(W, H)
     header(d, W, clean(league).upper())
     fg = font("head", 150)
-    word = "GOOOL!"
-    d.text(((W - d.textlength(word, font=fg)) / 2, 120), word, font=fg, fill=ORANGE)
+    d.text(((W - d.textlength(word, font=fg)) / 2, 120), word, font=fg, fill=color)
     fm = font("head", 44, "Medium")
     d.text(((W - d.textlength(minute, font=fm)) / 2, 300), minute, font=fm, fill=GREY)
     score_row(d, W, 380, home, away, hs, as_)

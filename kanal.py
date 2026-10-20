@@ -421,6 +421,50 @@ def hour_plan(hour: int, half: bool = False) -> list:
 
 # ---------- Jonli gollar ----------
 
+async def send_goal(client: TelegramClient, channel, ev: dict, goal: dict | None, home_id: str, score: list) -> None:
+    team = ev["home"] if home_id == ev["home_id"] else ev["away"]
+    scorer = f"{goal['scorer']} — {team}" if goal and goal["scorer"] else team
+    minute = goal["minute"] if goal else ev["clock"]
+    image = rasm.goal_card(ev["league"][1], ev["home"], ev["away"], score[0], score[1], minute, scorer)
+    caption = statistika.goal_post(ev, goal, score[0], score[1], team, minute)
+    await client.send_file(channel, image, caption=caption + channel_footer(), parse_mode="html")
+    log.info("GOL: %s %s:%s %s (%s)", ev["home"], score[0], score[1], ev["away"], minute)
+
+
+async def post_score_change(client: TelegramClient, channel, ev: dict, info: dict, cur: tuple) -> None:
+    """Hisob o'zgarishiga qarab gol yoki "gol bekor qilindi (VAR)" xabarini joylaydi.
+
+    Faqat hisobning o'zi oshsa gol e'lon qilinadi: ESPN gol daqiqasini tuzatsa ham soxta xabar chiqmaydi.
+    """
+    prev = list(info.get("score") or cur)  # eski holat yozuvlarida "score" yo'q - qayta yubormaslik uchun
+    new = [g for g in ev["goals"] if g["key"] not in info["goals"]]
+    diff = sum(cur) - sum(prev)
+    if diff > 0:
+        if len(new) < diff and info.get("lag", 0) < 2:
+            info["lag"] = info.get("lag", 0) + 1  # hisob yangilandi, gol muallifi hali kelmadi - biroz kutamiz
+            return
+        score = prev[:]
+        for goal in new[-diff:]:
+            side = 0 if goal["team"] == ev["home_id"] else 1
+            score[side] += 1
+            await send_goal(client, channel, ev, goal, goal["team"], score)
+        for side in (0, 1):  # muallifi noma'lum qolgan gollar
+            while score[side] < cur[side]:
+                score[side] += 1
+                await send_goal(client, channel, ev, None, ev["home_id"] if side == 0 else ev["away_id"], score)
+    elif diff < 0:
+        side = 0 if cur[0] < prev[0] else 1
+        team = ev["home"] if side == 0 else ev["away"]
+        image = rasm.goal_card(ev["league"][1], ev["home"], ev["away"], cur[0], cur[1], ev["clock"],
+                               f"{team} goli hisobga olinmadi", word="GOL BEKOR", color=rasm.RED)
+        await client.send_file(channel, image, caption=statistika.cancel_post(ev, team, cur) + channel_footer(),
+                               parse_mode="html")
+        log.info("VAR: %s goli bekor qilindi, %s %s:%s %s", team, ev["home"], cur[0], cur[1], ev["away"])
+    info["goals"] = sorted(set(info["goals"]) | {g["key"] for g in ev["goals"]})
+    info["score"], info["lag"] = list(cur), 0
+    save_state()
+
+
 async def post_live(client: TelegramClient, channel) -> bool:
     """Muhim o'yinlardagi yangi gollar va yakuniy hisobni joylaydi. Jonli o'yin bormi - qaytaradi."""
     events = await asyncio.to_thread(statistika.live_events)
@@ -432,26 +476,16 @@ async def post_live(client: TelegramClient, channel) -> bool:
             active = True
         if ev["state"] == "pre":
             continue
+        cur = (int(ev["hs"] or 0), int(ev["as"] or 0))
         info = live.get(ev["id"])
         if info is None:
             # birinchi marta ko'ryapmiz: eski gollarni qayta yubormaymiz, oxirgi 10 daqiqadagisi bundan mustasno
             last_sec = max((g["sec"] for g in ev["goals"]), default=0)
-            info = live[ev["id"]] = {"goals": [g["key"] for g in ev["goals"] if g["sec"] < last_sec - 600],
-                                     "ft": ev["state"] == "post"}
-        for goal in ev["goals"]:
-            if goal["key"] in info["goals"]:
-                continue
-            upto = ev["goals"][: ev["goals"].index(goal) + 1]
-            hs = sum(g["team"] == ev["home_id"] for g in upto)
-            as_ = sum(g["team"] == ev["away_id"] for g in upto)
-            team = ev["home"] if goal["team"] == ev["home_id"] else ev["away"]
-            scorer = f"{goal['scorer']} — {team}" if goal["scorer"] else team
-            image = rasm.goal_card(ev["league"][1], ev["home"], ev["away"], hs, as_, goal["minute"], scorer)
-            await client.send_file(channel, image, caption=statistika.goal_post(ev, goal) + channel_footer(),
-                                   parse_mode="html")
-            info["goals"].append(goal["key"])
-            save_state()
-            log.info("GOL: %s %s:%s %s (%s)", ev["home"], ev["hs"], ev["as"], ev["away"], goal["minute"])
+            old = [g for g in ev["goals"] if g["sec"] < last_sec - 600 or ev["state"] == "post"]
+            info = live[ev["id"]] = {
+                "goals": [g["key"] for g in old], "ft": ev["state"] == "post",
+                "score": [sum(g["team"] == ev["home_id"] for g in old), sum(g["team"] == ev["away_id"] for g in old)]}
+        await post_score_change(client, channel, ev, info, cur)
         if ev["state"] == "post" and not info["ft"]:
             scorers = [f"{g['minute']} {g['scorer']}" + (" (a/g)" if g["og"] else " (p)" if g["pen"] else "")
                        for g in ev["goals"]]
@@ -472,13 +506,15 @@ async def post_live(client: TelegramClient, channel) -> bool:
 WELCOME = (
     "👋 <b>{title} kanaliga xush kelibsiz!</b>\n\n"
     "Bu yerda sizni kutmoqda:\n"
-    "⚡️ Futbol olamining eng tezkor yangiliklari\n"
-    "🏆 APL, La Liga, Seriya A, Bundesliga, Chempionlar ligasi\n"
-    "🇺🇿 O'zbek futboli va legionerlarimiz\n"
-    "🧠 Har kuni soat 13:00 da viktorina\n"
-    "📊 Har kuni soat 20:00 da so'rovnoma\n\n"
-    "🔔 Bildirishnomalarni yoqib qo'ying — eng muhim xabarni o'tkazib yubormang!\n"
-    "📲 Futbolni sevadigan do'stlaringizni ham taklif qiling."
+    "⚡️ Futbol olamining eng tezkor yangiliklari — har 30 daqiqada\n"
+    "🔴 <b>Jonli gollar</b>: Chempionlar ligasi va katta klublar o'yinlari\n"
+    "🏁 O'yin yakuni, kechagi natijalar va bugungi o'yinlar\n"
+    "📊 Jadvallar va to'purarlar TOP 10\n"
+    "🎬 9:30 da kechagi o'yinlar gollari videolari\n"
+    "🧠 13:00 da viktorina, 📊 20:00 da so'rovnoma\n\n"
+    "💬 Har bir post ostida <b>izoh qoldiring</b> — fikringiz muhim!\n"
+    "🔔 Bildirishnomalarni yoqib qo'ying — eng muhim golni o'tkazib yubormang!\n"
+    "🤝 Futbolni sevadigan do'stlaringizni ham taklif qiling."
 )
 
 

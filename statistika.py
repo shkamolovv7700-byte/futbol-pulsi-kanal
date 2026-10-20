@@ -173,22 +173,26 @@ def live_events() -> list[dict]:
     return events
 
 
-def goal_post(ev: dict, goal: dict) -> str:
+def goal_post(ev: dict, goal: dict | None, hs: int, as_: int, team: str, minute: str) -> str:
+    """goal=None - hisob oshgan, lekin gol muallifi hali ma'lum emas."""
     _, name, flag, tag = ev["league"]
-    # gol paytidagi hisob: shu golgacha bo'lgan gollar soni
-    upto = ev["goals"][: ev["goals"].index(goal) + 1]
-    hs = sum(g["team"] == ev["home_id"] for g in upto)
-    as_ = sum(g["team"] == ev["away_id"] for g in upto)
-    scorer = html.escape(goal["scorer"]) if goal["scorer"] else ""
-    if goal["og"]:
+    scorer = html.escape(goal["scorer"]) if goal and goal["scorer"] else ""
+    if scorer and goal["og"]:
         scorer += " (avtogol)"
-    elif goal["pen"]:
+    elif scorer and goal["pen"]:
         scorer += " (penalti)"
-    team = ev["home"] if goal["team"] == ev["home_id"] else ev["away"]
-    return (f"⚽️ <b>GOOOL! {goal['minute']}</b>\n\n"
+    return (f"⚽️ <b>GOOOL! {minute}</b>\n\n"
             f"{flag} {name}\n<b>{html.escape(ev['home'])} {hs}:{as_} {html.escape(ev['away'])}</b>\n\n"
-            + (f"👤 {scorer} — {html.escape(team)}\n\n" if scorer else "")
+            + (f"👤 {scorer} — {html.escape(team)}\n\n" if scorer else f"🎯 {html.escape(team)} gol urdi!\n\n")
             + f"#jonli {tag}")
+
+
+def cancel_post(ev: dict, team: str, score: tuple) -> str:
+    _, name, flag, tag = ev["league"]
+    return (f"❌ <b>GOL BEKOR QILINDI!</b> {ev['clock']}\n\n"
+            f"{flag} {name}\nVAR qarori bilan <b>{html.escape(team)}</b> goli hisobga olinmadi.\n\n"
+            f"Hisob: <b>{html.escape(ev['home'])} {score[0]}:{score[1]} {html.escape(ev['away'])}</b>\n\n"
+            f"#jonli {tag}")
 
 
 def final_post(ev: dict) -> str:
