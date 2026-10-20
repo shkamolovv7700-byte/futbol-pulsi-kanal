@@ -340,12 +340,22 @@ async def post_live(client, channel) -> bool:
             info["score"] = score
         if m["finished"] and not info["done"]:
             winner = m["team1"] if score[0] > score[1] else m["team2"]
-            image = await asyncio.to_thread(rasm.final_card, m["tournament"], m["team1"], m["team2"],
-                                            score[0], score[1], [f"G'olib: {winner}", m["bo"]])
+            maps = await asyncio.to_thread(cs2data.match_maps, m)
+            if not maps and info.get("tries", 0) < 5:  # Liquipedia xaritalarni biroz kechroq yozadi
+                info["tries"] = info.get("tries", 0) + 1
+                continue
+            if maps:
+                image = await asyncio.to_thread(rasm.series_card, m["tournament"], m["team1"], m["team2"],
+                                                score[0], score[1], m["bo"], maps)
+            else:
+                image = await asyncio.to_thread(rasm.final_card, m["tournament"], m["team1"], m["team2"],
+                                                score[0], score[1], [f"G'olib: {winner}", m["bo"]])
+            map_lines = "".join(f"\n🗺 {html.escape(x['map'])}: {x['s1']}:{x['s2']} — "
+                                f"{html.escape(m['team1'] if x['s1'] > x['s2'] else m['team2'])}" for x in maps)
             await send_card(client, channel, image,
                             f"🏁 <b>O'yin yakunlandi: {html.escape(winner)} g'alaba qozondi!</b>\n\n"
                             f"🏆 {html.escape(m['tournament'])}\n<b>{html.escape(m['team1'])} {score[0]}:{score[1]} "
-                            f"{html.escape(m['team2'])}</b>\n\nNatija sizga yoqdimi? 👇\n\n#CS2 #natija")
+                            f"{html.escape(m['team2'])}</b> ({m['bo']}){map_lines}\n\nNatija sizga yoqdimi? 👇\n\n#CS2 #natija")
             info.update(score=score, done=True)
         save_state()
     for key in list(live)[:-150]:

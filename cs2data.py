@@ -53,14 +53,43 @@ def _parse_block(b: str, finished: bool) -> dict | None:
     scores = re.findall(r'match-info-header-scoreholder-score(?: match-info-header-winner)?">([^<]*)<', b)
     bo = re.search(r'scoreholder-lower">\((Bo\d)\)', b)
     tour = re.search(r'match-info-tournament-name"><a [^>]*><span>(.*?)</span>', b)
+    page = re.search(r'match-info-tournament-name"><a href="/counterstrike/([^"#]+)', b)
     return {
         "id": f"{ts.group(1)}-{names[0]}-{names[1]}",
         "when": datetime.fromtimestamp(int(ts.group(1)), TASHKENT),
         "team1": names[0], "team2": names[1],
         "s1": scores[0] if len(scores) > 1 else "", "s2": scores[1] if len(scores) > 1 else "",
         "bo": bo.group(1) if bo else "", "tournament": _clean(tour.group(1)) if tour else "",
+        "page": urllib.parse.unquote(page.group(1)) if page else "", "ts": int(ts.group(1)),
         "finished": finished,
     }
+
+
+def match_maps(m: dict) -> list[dict]:
+    """Tugagan o'yinning xaritalari: [{xarita, hisob1, hisob2}] - turnir sahifasidagi o'yin oynasidan.
+
+    O'yin vaqti (timestamp) va ikkala jamoa nomi bo'yicha topiladi. Topilmasa - bo'sh ro'yxat.
+    """
+    if not m.get("page"):
+        return []
+    h = _parse_page(m["page"])
+    for popup in h.split("brkts-popup brkts-popup-container")[1:]:
+        ts = re.search(r'data-timestamp="(\d+)"', popup)
+        head = popup.split("brkts-popup-body")[0]
+        names = list(dict.fromkeys(t for t in re.findall(r'title="([^"]+)"', head) if "(UTC" not in t))
+        if not ts or int(ts.group(1)) != m["ts"] or len(names) < 2 or {names[0], names[1]} != {m["team1"], m["team2"]}:
+            continue
+        flipped = names[0] != m["team1"]
+        maps = []
+        for row in popup.split('class="brkts-popup-body-grid-row"')[1:]:
+            scores = re.findall(r'detailed-scores-main-score">([^<]*)<', row)
+            name = re.search(r'brkts-popup-spaced"><a [^>]*>([^<]+)</a>', row)
+            if name and len(scores) == 2 and scores[0].strip().isdigit() and scores[1].strip().isdigit():
+                s1, s2 = int(scores[0]), int(scores[1])
+                maps.append({"map": html.unescape(name.group(1)).replace("Dust II", "Dust2"),
+                             "s1": s2 if flipped else s1, "s2": s1 if flipped else s2})
+        return maps
+    return []
 
 
 def matches() -> list[dict]:

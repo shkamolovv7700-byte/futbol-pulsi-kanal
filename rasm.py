@@ -246,6 +246,48 @@ def scorers_card(title: str, rows: list[tuple], note: str = "gollar soni", label
     return to_file(img)
 
 
+def series_card(tournament: str, team1: str, team2: str, s1: int, s2: int, bo: str, maps: list[dict]) -> io.BytesIO:
+    """CS2 o'yin yakuni: turnir, katta hisob, jamoalar, Bo-format va har bir xarita (hisob + kim yutgani)."""
+    W, H = 1280, 760
+    img, d = canvas(W, H)
+    d.rectangle((0, 0, W, 10), fill=ORANGE)
+    ft = font("head", 46)
+    t = fit(d, clean(tournament).upper(), ft, W - 96)
+    d.text(((W - d.textlength(t, font=ft)) / 2, 34), t, font=ft, fill=ORANGE)
+    # hisob bloki
+    d.rounded_rectangle((48, 112, W - 48, 380), radius=18, fill=(0, 0, 0, 110))
+    fs = font("head", 150)
+    score = f"{s1} - {s2}"
+    sw = d.textlength(score, font=fs)
+    d.text(((W - sw) / 2, 112), score, font=fs, fill=WHITE)
+    d.text(((W - sw) / 2, 112), str(s1), font=fs, fill=ORANGE if s1 > s2 else WHITE)
+    d.text(((W + sw) / 2 - d.textlength(str(s2), font=fs), 112), str(s2), font=fs, fill=ORANGE if s2 > s1 else WHITE)
+    d.rectangle((48, 316, W - 48, 380), fill=(255, 255, 255, 18))
+    fn = font("head", 44)
+    for name, cx, win in ((team1, W * 0.25, s1 > s2), (team2, W * 0.75, s2 > s1)):
+        n = fit(d, clean(name).upper(), fn, W * 0.4)
+        d.text((cx - d.textlength(n, font=fn) / 2, 318), n, font=fn, fill=ORANGE if win else WHITE)
+    fb = font("head", 30)
+    d.text(((W - d.textlength(bo.upper(), font=fb)) / 2, 328), bo.upper(), font=fb, fill=ORANGE)
+    # xaritalar
+    n = max(1, len(maps))
+    gap, tw = 16, (W - 96 - 16 * (max(1, len(maps)) - 1)) / n
+    fsc, fmap, fwin = font("head", 52), font("head", 28, "SemiBold"), font("body", 20, "SemiBold")
+    for i, mp in enumerate(maps):
+        x = 48 + i * (tw + gap)
+        d.rounded_rectangle((x, 410, x + tw, 640), radius=14, fill=(255, 255, 255, 16))
+        win1 = mp["s1"] > mp["s2"]
+        sc = f"{mp['s1']}:{mp['s2']}"
+        d.text((x + (tw - d.textlength(sc, font=fsc)) / 2, 440), sc, font=fsc, fill=WHITE)
+        name = clean(mp["map"]).upper()
+        d.text((x + (tw - d.textlength(name, font=fmap)) / 2, 530), name, font=fmap, fill=GREY)
+        winner = fit(d, clean(team1 if win1 else team2), fwin, tw - 20)
+        d.rounded_rectangle((x + 10, 588, x + tw - 10, 628), radius=10, fill=ORANGE)
+        d.text((x + (tw - d.textlength(winner, font=fwin)) / 2, 594), winner, font=fwin, fill=WHITE)
+    footer(d, W, H, "O'yin yakuni")
+    return to_file(img)
+
+
 def two_column_card(title: str, subtitle: str, rows: list[tuple[str, str]], label: str, note: str = "") -> io.BytesIO:
     """Ko'p qatorli ro'yxat ikki ustunda: (nom, izoh). Turnir qatnashchilari uchun (32 tagacha)."""
     W = 1280
