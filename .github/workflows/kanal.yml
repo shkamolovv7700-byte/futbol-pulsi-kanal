@@ -2,8 +2,9 @@ name: Futbol Pulsi kanali
 
 on:
   schedule:
-    # Har 10 daqiqada, Toshkent 8:00-02:59 (UTC 3:00-21:59): postlar 8:00-23:00, kechki o'yinlar gollari tungacha.
-    # Jonli o'yin bo'lsa, har bir ishga tushish ~9 daqiqa davomida har daqiqada gollarni tekshiradi.
+    # Toshkent 8:00-02:59 (UTC 3:00-21:59): postlar 8:00-23:00, kechki o'yinlar gollari tungacha.
+    # GitHub ko'p ishga tushishlarni o'tkazib yuboradi, shuning uchun har biri ~25 daqiqa ishlaydi
+    # (har daqiqada tekshiradi), keyingisi navbatda kutadi - shunda bo'shliq deyarli qolmaydi.
     - cron: "*/10 3-21 * * *"
   workflow_dispatch:
 
@@ -17,7 +18,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 40
     env:
       TZ: Asia/Tashkent
       TG_API_ID: ${{ secrets.TG_API_ID }}
@@ -36,7 +37,9 @@ jobs:
           cache-dependency-path: requirements-bulut.txt
       - run: pip install -r requirements-bulut.txt
       - run: python bulut.py
+        timeout-minutes: 30
       - name: Holatni saqlash
+        if: always()  # skript xato bilan to'xtasa ham, joylangan postlar eslab qolinsin (takror chiqmasin)
         run: |
           git config user.name "kanal-bot"
           git config user.email "kanal-bot@users.noreply.github.com"

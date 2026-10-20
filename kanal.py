@@ -71,7 +71,7 @@ QUIZ_HOUR = 13
 POLL_HOUR = 20
 CHECK_EVERY_SECONDS = 5 * 60
 LIVE_POLL_SECONDS = 60
-LIVE_WINDOW_SECONDS = 9 * 60
+RUN_WINDOW_SECONDS = 25 * 60
 
 log = logging.getLogger("kanal")
 
@@ -580,8 +580,10 @@ async def run_once(client: TelegramClient) -> None:
     load_state()
     channel = await client.get_entity(USERNAME)
     log.info("Kanal topildi: %s (soat %s)", channel.title, datetime.now().strftime("%H:%M"))
-    # Jonli o'yin bo'lsa, ~9 daqiqa davomida har daqiqada gollarni tekshiramiz (keyingi ishga tushish davom ettiradi)
-    deadline = datetime.now() + timedelta(seconds=LIVE_WINDOW_SECONDS)
+    # GitHub jadvali ishga tushishlarni tez-tez o'tkazib yuboradi, shuning uchun har bir ishga tushish
+    # ~25 daqiqa ishlaydi: har daqiqada post jadvali va jonli gollar tekshiriladi. Keyingisi navbatda kutib turadi.
+    # Kunduzgi soatlardan tashqarida va jonli o'yin bo'lmasa - darhol tugaydi.
+    deadline = datetime.now() + timedelta(seconds=RUN_WINDOW_SECONDS)
     while True:
         await tick(client, channel)
         try:
@@ -589,6 +591,7 @@ async def run_once(client: TelegramClient) -> None:
         except Exception as e:
             log.error("Jonli gollar xatosi: %r", e)
             active = False
-        if not active or datetime.now() + timedelta(seconds=LIVE_POLL_SECONDS) > deadline:
+        daytime = DAY_START <= datetime.now().hour < DAY_END
+        if not (active or daytime) or datetime.now() + timedelta(seconds=LIVE_POLL_SECONDS) > deadline:
             break
         await asyncio.sleep(LIVE_POLL_SECONDS)
