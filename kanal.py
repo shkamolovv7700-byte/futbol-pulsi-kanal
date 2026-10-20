@@ -26,6 +26,7 @@ from telethon.errors import RPCError
 from telethon.tl.functions.channels import CreateChannelRequest, UpdateUsernameRequest
 from telethon.tl.types import InputMediaPoll, Poll, PollAnswer, TextWithEntities
 
+import moderator
 import rasm
 import statistika
 
@@ -591,6 +592,11 @@ async def run_once(client: TelegramClient) -> None:
         except Exception as e:
             log.error("Jonli gollar xatosi: %r", e)
             active = False
+        try:
+            await moderator.moderate(client, channel, state, USERNAME)
+            save_state()
+        except Exception as e:
+            log.error("Moderator xatosi: %r", e)
         daytime = DAY_START <= datetime.now().hour < DAY_END
         if not (active or daytime) or datetime.now() + timedelta(seconds=LIVE_POLL_SECONDS) > deadline:
             break
