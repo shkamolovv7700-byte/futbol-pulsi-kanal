@@ -94,19 +94,20 @@
     "https://www.cybersport.ru/tags/cs2/slukh-sashi-esport-mozhet-kiknut-avstraliitsev-iz-sostava-po-cs2-posle",
     "https://www.cybersport.ru/tags/cs2/virtus-pro-sygrayet-v-plei-off-winline-mpkbk-cis-lan-season-9",
     "yt:mBMK3e92h7s",
-    "https://www.cybersport.ru/tags/cs2/parivision-protiv-big-kto-stanet-pervym-finalistom-private-club-2"
+    "https://www.cybersport.ru/tags/cs2/parivision-protiv-big-kto-stanet-pervym-finalistom-private-club-2",
+    "https://www.cybersport.ru/tags/cs2/magic-pokinula-private-club-2-posle-porazheniya-ot-the-mongolz"
   ],
   "used_quiz": [
     5
   ],
   "used_poll": [],
-  "last_slot": "2026-10-21 17:00",
+  "last_slot": "2026-10-21 17:30",
   "group_id": 4441418116,
   "moderator": {
     "admins": [
       8456959367
     ],
-    "last_id": 25
+    "last_id": 26
   },
   "live": {
     "1792504800-HEROIC-HYPERSPIRIT": {
@@ -311,6 +312,13 @@
         0
       ],
       "done": true
+    },
+    "1792580400-HEROIC-SINNERS Esports": {
+      "score": [
+        0,
+        1
+      ],
+      "done": false
     }
   },
   "last_video_source": "HLTV",
