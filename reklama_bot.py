@@ -219,10 +219,8 @@ def handle(update: dict) -> None:
     if text.startswith("/start"):
         histories.pop(chat["id"], None)
         forms.pop(chat["id"], None)
-        stats = channel_stats()
-        send(chat["id"], "Assalomu alaykum! 👋 Men Futbol Pulsi 🔥 kanalining reklama bo'yicha yordamchisiman.\n\n"
-                         + (f"📊 {stats.lstrip('- ')}\n\n" if stats else "")
-                         + (FORM[0][1] if not USE_AI else "Nimani reklama qilmoqchisiz?"))
+        send(chat["id"], "Assalomu alaykum! 👋 Men Futbol Pulsi 🔥 (t.me/futbolpulsi_uz) kanalining reklama bo'yicha "
+                         "yordamchisiman.\n\n" + (FORM[0][1] if not USE_AI else "Nimani reklama qilmoqchisiz?"))
         return
     if not USE_AI:
         send(chat["id"], simple_answer(chat["id"], user, text))
