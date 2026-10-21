@@ -115,7 +115,9 @@
     "https://kun.uz/news/2026/10/21/moliyaviy-xizmat-sinovda-bolsa-bu-reklamada-ham-korsatilishi-shart",
     "https://kun.uz/news/2026/10/21/nigeriyada-ebola-aniqlandi",
     "https://kun.uz/news/2026/10/21/saida-mirziyoyeva-amerika-biznesiga-aniq-loyiha-yoki-muammongizni-olib-keling",
-    "https://sports.uz/oz/news/view/barsa-evropada-gol-urgan-o-yinchilar-soni-bo-yicha-etakchiga-aylandi"
+    "https://sports.uz/oz/news/view/barsa-evropada-gol-urgan-o-yinchilar-soni-bo-yicha-etakchiga-aylandi",
+    "https://daryo.uz/2026/10/21/ozbekiston-raqamli-reklama-bozorida-excel-davri-yakun-topmoqda/",
+    "https://daryo.uz/2026/10/21/lamin-yamal-kilian-mbappening-chempionlar-ligasidagi-rekordini-takrorladi/"
   ],
   "used_quiz": [],
   "used_poll": [
@@ -142,9 +144,10 @@
     "“Barselona” prezidenti: “Yamal — daho”",
     "\"Barsa\" mag‘lubiyatiga sababchi bo‘lgan futbolchilar ko‘rsatildi",
     "Kvaratsxeliya to‘qqiz oy futbol o‘ynolmaydi",
-    "\"Barsa\" Evropada gol urgan oʻyinchilar soni boʻyicha yetakchiga aylandi"
+    "\"Barsa\" Evropada gol urgan oʻyinchilar soni boʻyicha yetakchiga aylandi",
+    "Lamin Yamal Kilian Mbappening Chempionlar Ligasidagi rekordini takrorladi"
   ],
-  "last_slot": "2026-10-21 10:00",
+  "last_slot": "2026-10-21 10:30",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
@@ -291,6 +294,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 74
+    "last_id": 75
   }
 }
