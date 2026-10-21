@@ -110,7 +110,12 @@
     "https://daryo.uz/2026/10/20/barselona-prezidenti-yamal-daho/",
     "https://daryo.uz/2026/10/21/trampning-muzokarachilari-sankt-peterburgda-putin-bilan-uchrashadi/",
     "https://sports.uz/oz/news/view/barsa-mag-lubiyatiga-sababchi-bo-lgan-futbolchilar-ko-rsatildi",
-    "https://sports.uz/oz/news/view/kvarasxeliya-to-qqiz-oy-futbol-o-ynolmaydi"
+    "https://sports.uz/oz/news/view/kvarasxeliya-to-qqiz-oy-futbol-o-ynolmaydi",
+    "https://daryo.uz/2026/10/21/ukraina-harbiylari-uchun-starlink-tezligini-cheklashni-ilon-maskning-ozi-buyurgan-wsj/",
+    "https://kun.uz/news/2026/10/21/moliyaviy-xizmat-sinovda-bolsa-bu-reklamada-ham-korsatilishi-shart",
+    "https://kun.uz/news/2026/10/21/nigeriyada-ebola-aniqlandi",
+    "https://kun.uz/news/2026/10/21/saida-mirziyoyeva-amerika-biznesiga-aniq-loyiha-yoki-muammongizni-olib-keling",
+    "https://sports.uz/oz/news/view/barsa-evropada-gol-urgan-o-yinchilar-soni-bo-yicha-etakchiga-aylandi"
   ],
   "used_quiz": [],
   "used_poll": [
@@ -136,9 +141,10 @@
     "Messi va Ronalduning barcha davrlarning \"Oltin to‘p\"iga da’vogar",
     "“Barselona” prezidenti: “Yamal — daho”",
     "\"Barsa\" mag‘lubiyatiga sababchi bo‘lgan futbolchilar ko‘rsatildi",
-    "Kvaratsxeliya to‘qqiz oy futbol o‘ynolmaydi"
+    "Kvaratsxeliya to‘qqiz oy futbol o‘ynolmaydi",
+    "\"Barsa\" Evropada gol urgan oʻyinchilar soni boʻyicha yetakchiga aylandi"
   ],
-  "last_slot": "2026-10-21 9:00",
+  "last_slot": "2026-10-21 9:30",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
@@ -285,6 +291,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 72
+    "last_id": 73
   }
 }
