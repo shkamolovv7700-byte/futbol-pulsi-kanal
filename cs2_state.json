@@ -91,13 +91,13 @@
   ],
   "used_quiz": [],
   "used_poll": [],
-  "last_slot": "2026-10-21 11:00",
+  "last_slot": "2026-10-21 12:00",
   "group_id": 4441418116,
   "moderator": {
     "admins": [
       8456959367
     ],
-    "last_id": 15
+    "last_id": 16
   },
   "live": {
     "1792504800-HEROIC-HYPERSPIRIT": {
@@ -304,5 +304,8 @@
       "done": true
     }
   },
-  "last_video_source": "HLTV"
+  "last_video_source": "HLTV",
+  "previewed": [
+    "PGL/2026/Masters"
+  ]
 }
