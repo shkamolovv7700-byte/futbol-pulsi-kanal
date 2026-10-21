@@ -26,6 +26,7 @@ from telethon.errors import RPCError
 from telethon.tl.functions.channels import CreateChannelRequest, UpdateUsernameRequest
 from telethon.tl.types import InputMediaPoll, Poll, PollAnswer, TextWithEntities
 
+import foto
 import moderator
 import rasm
 import statistika
@@ -195,15 +196,42 @@ def channel_footer() -> str:
     return f"\n\n📲 @{USERNAME}" if USERNAME else ""
 
 
+# Klub -> davlat bayrog'i (sarlavha boshida, FutbollLive_TV uslubida)
+CLUB_FLAGS = [
+    ("🇪🇸", r"real|barselona|barsa|atletiko|sevilya|valensiya|betis|vilyarreal"),
+    ("🏴󠁧󠁢󠁥󠁮󠁧󠁿", r"manchester|siti|liverpul|arsenal|chelsi|tottenhem|nyukasl|aston villa|apl|premer"),
+    ("🇩🇪", r"bavariya|borussiya|leverkuzen|leypsig|bundesliga"),
+    ("🇮🇹", r"yuventus|milan|inter|napoli|roma|latsio|atalanta|seriya a|a seriya"),
+    ("🇫🇷", r"psj|marsel|monako|liga 1"),
+    ("🇺🇿", r"o[ʻ‘'`]?zbekiston|paxtakor|nasaf|navbahor|neftchi|shomurodov|xusanov|fayzullayev"),
+    ("🇪🇺", r"chempionlar ligasi|uefa|yevropa ligasi|evropa ligasi"),
+]
+BREAKING = re.compile(r"rasman|tezkor|shoshilinch|jarohat|iste[ʼ'‘]?fo|ishdan bo[ʻ‘'`]?shat|o[ʻ‘'`]?tdi|"
+                      r"imzoladi|shartnoma|ketadi|keladi|transfer", re.IGNORECASE)
+
+
+def flag_for(text: str) -> str:
+    low = text.lower()
+    hits = [(m.start(), f) for f, pat in CLUB_FLAGS if (m := re.search(pat, low))]
+    return min(hits)[1] if hits else "⚽️"
+
+
+def news_tag(item: dict) -> str:
+    text = f"{item['title']} {item['desc']}"
+    if re.search(r"transfer|shartnoma|imzoladi|ijara", text, re.IGNORECASE):
+        return "TRANSFER"
+    return "TEZKOR" if BREAKING.search(text) else "YANGILIK"
+
+
 def format_news(item: dict) -> str:
-    parts = [f"⚽️ <b>{html.escape(item['title'])}</b>"]
+    """Qisqa va jonli: bayroq + qalin sarlavha, 1-2 gap mazmun, teg va kanal imzosi."""
+    tag = news_tag(item)
+    parts = [f"{'🚨 #BREAKING' if tag == 'TEZKOR' else '🔁 #TRANSFER' if tag == 'TRANSFER' else ''}".strip(),
+             f"{flag_for(item['title'])} <b>{html.escape(item['title'])}</b>"]
     if item["desc"] and item["desc"].lower() not in item["title"].lower():
-        parts.append(html.escape(item["desc"]))
-    parts.append(random.choice(HOOKS))
-    parts.append(make_hashtags(item))
-    # manba kichik havola bilan ko'rsatiladi (katta saytlar kartochkasi reklamaga o'xshab qolmasin)
+        parts.append(f"📰 {html.escape(item['desc'])}")
     source = f'<i>Manba: <a href="{html.escape(item["link"], quote=True)}">{item["source"]}</a></i>'
-    return "\n\n".join(parts) + channel_footer() + "\n" + source
+    return "\n\n".join(p for p in parts if p) + f"\n\n⚽️ @{USERNAME} — futbol olami bir joyda\n{source}"
 
 
 def is_ad(item: dict) -> bool:
@@ -219,21 +247,22 @@ async def post_news(client: TelegramClient, channel) -> bool:
 
     seen = set(state["seen"])
     min_ts = datetime.now().timestamp() - NEWS_MAX_AGE_HOURS * 3600
-    item = None
-    # eng yangisi birinchi: soatiga bitta post, shuning uchun eskirganidan ko'ra tezkorini afzal ko'ramiz
-    for i in sorted(items, key=lambda i: i["ts"], reverse=True):
-        if i["id"] in seen:
-            continue
-        seen.add(i["id"])
-        state["seen"].append(i["id"])
-        if i["ts"] >= min_ts and is_football(i) and not is_ad(i) and not is_duplicate(i["title"]):
-            item = i
-            break
-    if not item:
+    # eng yangi 5 tasidan taniqli futbolchi/klub haqidagisini afzal ko'ramiz - unga haqiqiy foto topiladi
+    fresh = [i for i in sorted(items, key=lambda i: i["ts"], reverse=True)
+             if i["id"] not in seen and i["ts"] >= min_ts and is_football(i) and not is_ad(i)
+             and not is_duplicate(i["title"])][:5]
+    if not fresh:
         save_state()
         return False
+    item = next((i for i in fresh if foto.subject(i["title"])), fresh[0])
+    state["seen"].append(item["id"])
 
-    image = await asyncio.to_thread(rasm.news_card, item["title"], item["desc"], item["source"])
+    cache = state.setdefault("foto_cache", {})
+    photo = await asyncio.to_thread(foto.photo_for, item["title"], cache)
+    if photo:
+        image = await asyncio.to_thread(rasm.photo_card, photo[0], item["title"], news_tag(item), photo[1])
+    else:
+        image = await asyncio.to_thread(rasm.news_card, item["title"], item["desc"], item["source"], news_tag(item))
     await client.send_file(channel, image, caption=format_news(item)[:1024], parse_mode="html")
     state["recent_titles"] = (state.get("recent_titles", []) + [item["title"]])[-60:]
     save_state()
@@ -263,12 +292,11 @@ def fetch_videos() -> list[dict]:
 
 
 def format_video(video: dict) -> str:
+    # birinchi havola - video: Telegram uni pastda pleer bilan ko'rsatadi
     return (
-        f"🎬 <b>Futbol videosi</b>\n\n"
-        f"{html.escape(video['title'])}\n\n"
-        f'▶️ <a href="{html.escape(video["link"], quote=True)}">Ko\'rish — {html.escape(video["source"])}</a>\n\n'
-        f"Yoqdimi? 🔥 bosing!\n\n#video #futbol"
-        + channel_footer()
+        f'🎬 <a href="{html.escape(video["link"], quote=True)}"><b>{html.escape(video["title"])}</b></a>\n\n'
+        f"▶️ Videoni shu yerning o'zida ko'ring 👇\n📺 {html.escape(video['source'])}\n\n#video #gollar"
+        f"\n\n⚽️ @{USERNAME} — futbol olami bir joyda"
     )
 
 
@@ -284,8 +312,9 @@ async def post_video(client: TelegramClient, channel) -> bool:
     if not fresh:
         return False
     video = fresh[0]
-    image = await asyncio.to_thread(rasm.video_card, video["title"], video["source"])
-    await client.send_file(channel, image, caption=format_video(video), parse_mode="html")
+    # Telegram YouTube havolasidan o'zining pleerini yasaydi - video kanalning o'zida o'ynaydi (yuklab qayta
+    # joylash mualliflik huquqini buzadi, shuning uchun faqat havola ko'rinishi)
+    await client.send_message(channel, format_video(video), parse_mode="html", link_preview=True)
     state["seen"].append(video["id"])
     state["last_video_source"] = video["source"]
     save_state()
@@ -304,10 +333,10 @@ async def post_highlights(client: TelegramClient, channel) -> bool:
     videos.sort(key=lambda v: -v["ts"])
     rows = [f'▶️ <a href="{html.escape(v["link"], quote=True)}">{html.escape(v["title"][:90])}</a>'
             for v in videos[:8]]
-    text = ("🎬 <b>Kechagi o'yinlar gollari</b>\n\nBarcha gollar va eng qiziq lahzalar 👇\n\n"
-            + "\n\n".join(rows) + "\n\nQaysi gol eng zo'ri? 🔥\n\n#gollar #video" + channel_footer())
-    image = await asyncio.to_thread(rasm.video_card, "Kechagi o'yinlar gollari", "Rasmiy kanallar", len(rows))
-    await client.send_file(channel, image, caption=text[:1024], parse_mode="html")
+    text = ("🎬 <b>Kechagi o'yinlar gollari</b> — barchasini shu yerda ko'ring 👇\n\n"
+            + "\n\n".join(rows) + "\n\n#gollar #video" + f"\n\n⚽️ @{USERNAME} — futbol olami bir joyda")
+    # birinchi video pleer bo'lib chiqadi, qolganlari ro'yxatda
+    await client.send_message(channel, text[:4000], parse_mode="html", link_preview=True)
     state["seen"].extend(v["id"] for v in videos[:8])
     save_state()
     log.info("Kanalga kechagi gollar joylandi (%d ta video)", len(rows))
@@ -408,15 +437,16 @@ SCHEDULE = {
     POLL_HOUR: [post_poll],
     22: [post_video, post_news],
 }
-# Har soatning yarmida (:30) - yangilik; 9:30 da kechagi o'yinlar gollari
+# Kuchli kanallar kabi: postlar kam, lekin sifatli - soatiga bitta (+ #MATCHDAY va jonli gollar).
+# Yarim soatda faqat 9:30 - kechagi o'yinlar gollari.
 HALF_SCHEDULE = {
-    9: [post_highlights, post_news, post_video],
+    9: [post_highlights],
 }
 
 
 def hour_plan(hour: int, half: bool = False) -> list:
     if half:
-        return HALF_SCHEDULE.get(hour, [post_news, post_video])
+        return HALF_SCHEDULE.get(hour, [])
     return SCHEDULE.get(hour, [post_news, post_video])
 
 
@@ -466,9 +496,62 @@ async def post_score_change(client: TelegramClient, channel, ev: dict, info: dic
     save_state()
 
 
+MATCHDAY_PER_DAY = 3
+# ESPN inglizcha nomlari -> o'zbekcha yozilishi
+UZ_TEAMS = {"Bayern Munich": "Bavariya", "Barcelona": "Barselona", "Manchester City": "Manchester Siti",
+            "Manchester United": "Manchester Yunayted", "Man United": "Manchester Yunayted", "Man City": "Manchester Siti",
+            "Liverpool": "Liverpul", "Chelsea": "Chelsi", "Juventus": "Yuventus", "Paris Saint-Germain": "PSJ",
+            "PSG": "PSJ", "Atlético Madrid": "Atletiko", "Atletico Madrid": "Atletiko", "Borussia Dortmund": "Borussiya D",
+            "Dortmund": "Borussiya D", "Internazionale": "Inter", "Inter Milan": "Inter", "Tottenham Hotspur": "Tottenhem",
+            "Spurs": "Tottenhem", "Bayer Leverkusen": "Bayer", "Leverkusen": "Bayer", "Newcastle United": "Nyukasl",
+            "Newcastle": "Nyukasl", "Marseille": "Marsel", "AS Roma": "Roma", "Sevilla": "Sevilya"}
+
+
+def uz_team(name: str) -> str:
+    return UZ_TEAMS.get(name, name)
+
+
+async def post_matchday(client: TelegramClient, channel, events: list) -> None:
+    """Katta o'yindan 2,5-3,5 soat oldin #MATCHDAY posti: stadion surati, juftlik va boshlanish vaqti."""
+    done = state.setdefault("matchday", {})
+    day = today()
+    now = datetime.now().astimezone()
+    for ev in sorted(events, key=lambda e: e["kickoff"]):
+        if sum(1 for d in done.values() if d == day) >= MATCHDAY_PER_DAY:
+            break
+        left = ev["kickoff"] - now
+        if ev["state"] != "pre" or ev["id"] in done or not timedelta(hours=2, minutes=30) <= left <= timedelta(hours=3, minutes=30):
+            continue
+        if not (statistika.is_big(ev["home"]) or statistika.is_big(ev["away"])):
+            continue
+        _, league, flag, tag = ev["league"]
+        when = ev["kickoff"].astimezone(statistika.TASHKENT).strftime("%H:%M")
+        photo = await asyncio.to_thread(foto.stadium_photo, ev["home"], state.setdefault("foto_cache", {}))
+        home, away = uz_team(ev["home"]), uz_team(ev["away"])
+        title = f"{home} vs {away}"
+        if photo:
+            image = await asyncio.to_thread(rasm.photo_card, photo[0], title, "#MATCHDAY", photo[1], f"{league} · Bugun {when}")
+        else:
+            image = await asyncio.to_thread(rasm.news_card, title, f"{league} · Bugun {when} (Toshkent vaqti)", "ESPN", "#MATCHDAY")
+        caption = (f"🔥 #MATCHDAY\n\n{flag} {html.escape(league)}\n\n"
+                   f"⚔️ <b>«{html.escape(home)}» vs «{html.escape(away)}»</b>\n\n"
+                   f"🗓 Bugun | {when}\n\nKim yutadi? Izohlarda yozing 👇\n\n⚽️ @{USERNAME} — futbol olami bir joyda")
+        await client.send_file(channel, image, caption=caption, parse_mode="html")
+        done[ev["id"]] = day
+        save_state()
+        log.info("MATCHDAY: %s", title)
+    for key in list(done)[:-50]:
+        del done[key]
+
+
 async def post_live(client: TelegramClient, channel) -> bool:
     """Muhim o'yinlardagi yangi gollar va yakuniy hisobni joylaydi. Jonli o'yin bormi - qaytaradi."""
     events = await asyncio.to_thread(statistika.live_events)
+    if DAY_START <= datetime.now().hour < DAY_END:
+        try:
+            await post_matchday(client, channel, events)
+        except Exception as e:
+            log.error("MATCHDAY xatosi: %r", e)
     live = state.setdefault("live", {})
     now = datetime.now().astimezone()
     active = False

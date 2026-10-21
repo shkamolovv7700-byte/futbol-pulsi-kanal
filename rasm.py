@@ -125,6 +125,46 @@ def news_card(title: str, desc: str, source: str, tag: str = "YANGILIK") -> io.B
     return to_file(img)
 
 
+def photo_card(photo: bytes, title: str, tag: str, credit: str, sub: str = "") -> io.BytesIO:
+    """Haqiqiy foto ustiga sarlavha: pastda qoraytirilgan qism, yuqorida yorliq va kanal nomi."""
+    W, H = 1280, 720
+    src = Image.open(io.BytesIO(photo)).convert("RGB")
+    scale = max(W / src.width, H / src.height)
+    src = src.resize((int(src.width * scale) + 1, int(src.height * scale) + 1))
+    top = max(0, int((src.height - H) * 0.25))  # yuzlar odatda tepada - yuqoriroqdan kesamiz
+    left = (src.width - W) // 2
+    img = src.crop((left, top, left + W, top + H))
+    shade = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(shade)
+    for y in range(H):
+        a = 0 if y < H * 0.35 else int(235 * ((y - H * 0.35) / (H * 0.65)) ** 1.2)
+        sd.line([(0, y), (W, y)], fill=(5, 12, 8, a))
+    sd.rectangle((0, 0, W, 120), fill=(0, 0, 0, 70))
+    img.paste(shade, (0, 0), shade)
+    d = ImageDraw.Draw(img, "RGBA")
+    d.rectangle((0, 0, W, 10), fill=ORANGE)
+    f = font("head", 34)
+    tw = d.textlength(tag, font=f)
+    d.rounded_rectangle((40, 36, 40 + tw + 40, 92), radius=10, fill=ORANGE)
+    d.text((60, 38), tag, font=f, fill=WHITE)
+    d.text((W - 40 - d.textlength(BRAND, font=f), 38), BRAND, font=f, fill=WHITE)
+    ft = font("head", 58)
+    lines = wrap(d, title, ft, W - 80, 3)
+    y = H - 70 - len(lines) * 74 - (40 if sub else 0)
+    for line in lines:
+        d.text((42, y + 3), line, font=ft, fill=(0, 0, 0, 160))
+        d.text((40, y), line, font=ft, fill=WHITE)
+        y += 74
+    if sub:
+        fs = font("body", 26, "SemiBold")
+        d.text((40, y + 2), fit(d, clean(sub), fs, W - 80), font=fs, fill=ORANGE)
+    fc = font("body", 16, "Regular")
+    c = fit(d, clean(credit), fc, W * 0.6)
+    d.text((W - 24 - d.textlength(c, font=fc), H - 26), c, font=fc, fill=(220, 220, 220))
+    d.text((24, H - 30), CHANNEL, font=font("body", 20, "SemiBold"), fill=ORANGE)
+    return to_file(img)
+
+
 def video_card(title: str, source: str, count: int = 0) -> io.BytesIO:
     W, H = 1280, 720
     img, d = canvas(W, H)
