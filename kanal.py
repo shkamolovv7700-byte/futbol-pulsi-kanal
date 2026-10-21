@@ -295,7 +295,8 @@ def format_video(video: dict) -> str:
     # birinchi havola - video: Telegram uni pastda pleer bilan ko'rsatadi
     return (
         f'🎬 <a href="{html.escape(video["link"], quote=True)}"><b>{html.escape(video["title"])}</b></a>\n\n'
-        f"▶️ Videoni shu yerning o'zida ko'ring 👇\n📺 {html.escape(video['source'])}\n\n#video #gollar"
+        f'▶️ <a href="{html.escape(video["link"], quote=True)}">Videoni ko\'rish</a> · 📺 {html.escape(video["source"])}'
+        f"\n\n#video #gollar"
         f"\n\n⚽️ @{USERNAME} — futbol olami bir joyda"
     )
 
@@ -312,9 +313,10 @@ async def post_video(client: TelegramClient, channel) -> bool:
     if not fresh:
         return False
     video = fresh[0]
-    # Telegram YouTube havolasidan o'zining pleerini yasaydi - video kanalning o'zida o'ynaydi (yuklab qayta
-    # joylash mualliflik huquqini buzadi, shuning uchun faqat havola ko'rinishi)
-    await client.send_message(channel, format_video(video), parse_mode="html", link_preview=True)
+    # Telegram hozir YouTube havolasidan pleer yasay olmayapti (WebPageEmpty), shuning uchun post rasm bilan
+    # chiqadi, video esa havola orqali ochiladi. Videoni yuklab qayta joylash mualliflik huquqini buzadi.
+    image = await asyncio.to_thread(rasm.video_card, video["title"], video["source"])
+    await client.send_file(channel, image, caption=format_video(video), parse_mode="html")
     state["seen"].append(video["id"])
     state["last_video_source"] = video["source"]
     save_state()
@@ -333,10 +335,10 @@ async def post_highlights(client: TelegramClient, channel) -> bool:
     videos.sort(key=lambda v: -v["ts"])
     rows = [f'▶️ <a href="{html.escape(v["link"], quote=True)}">{html.escape(v["title"][:90])}</a>'
             for v in videos[:8]]
-    text = ("🎬 <b>Kechagi o'yinlar gollari</b> — barchasini shu yerda ko'ring 👇\n\n"
+    text = ("🎬 <b>Kechagi o'yinlar gollari</b> 👇\n\n"
             + "\n\n".join(rows) + "\n\n#gollar #video" + f"\n\n⚽️ @{USERNAME} — futbol olami bir joyda")
-    # birinchi video pleer bo'lib chiqadi, qolganlari ro'yxatda
-    await client.send_message(channel, text[:4000], parse_mode="html", link_preview=True)
+    image = await asyncio.to_thread(rasm.video_card, "Kechagi o'yinlar gollari", "Rasmiy kanallar", len(rows))
+    await client.send_file(channel, image, caption=text[:1024], parse_mode="html")
     state["seen"].extend(v["id"] for v in videos[:8])
     save_state()
     log.info("Kanalga kechagi gollar joylandi (%d ta video)", len(rows))
