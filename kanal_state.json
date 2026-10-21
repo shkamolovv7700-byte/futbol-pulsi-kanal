@@ -121,7 +121,9 @@
     "https://daryo.uz/2026/10/21/ozbekiston-ayollar-milliy-terma-jamoasining-jahon-chempionati-saralashidagi-oyinlar-taqvimi-malum-boldi/",
     "https://sports.uz/oz/news/view/flik-psj-barsa-dan-ustun-ekanini-tan-oldi",
     "https://sports.uz/oz/news/view/-muhammad-mokaev-ufc-ni-jangchilarga-bosim-otkazishda-aybladi-21-10-2026",
-    "https://sports.uz/oz/news/view/o-zbek-futbolchisi-uefa-chempionlar-ligasi-tarixini-yangilashga-yordam-berdi"
+    "https://sports.uz/oz/news/view/o-zbek-futbolchisi-uefa-chempionlar-ligasi-tarixini-yangilashga-yordam-berdi",
+    "https://daryo.uz/2026/10/21/prezident-bolalar-farovonligiga-investitsiya-kelajak-avlodlarning-barqaror-va-adolatli-taraqqiyoti-sari-yol-butunjahon-sammiti-ishtirokchilariga-tabrik-yolladi/",
+    "https://sports.uz/oz/news/view/real-yozga-ikki-yulduzni-tanladi"
   ],
   "used_quiz": [],
   "used_poll": [
@@ -152,9 +154,10 @@
     "Lamin Yamal Kilian Mbappening Chempionlar Ligasidagi rekordini takrorladi",
     "O‘zbekiston ayollar milliy terma jamoasining Jahon chempionati saralashidagi o‘yinlar taqvimi ma’lum bo‘ldi",
     "Flik PSJ \"Barsa\"dan ustun ekanini tan oldi",
-    "O'zbek futbolchisi UEFA Chempionlar Ligasi tarixini yangilashga yordam berdi"
+    "O'zbek futbolchisi UEFA Chempionlar Ligasi tarixini yangilashga yordam berdi",
+    "\"Real\" yozga ikki yulduzni tanladi"
   ],
-  "last_slot": "2026-10-21 12:00",
+  "last_slot": "2026-10-21 12:30",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
@@ -301,6 +304,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 78
+    "last_id": 79
   }
 }
