@@ -217,4 +217,16 @@ def results_post() -> tuple | None:
     if not blocks:
         return None
     caption = "✅ <b>Kechagi natijalar</b>\n\nQaysi natija sizni hayratga soldi? 👇\n\n#natijalar #futbol"
-    return caption, rasm.matches_card("Kechagi natijalar", blocks, "Natijalar")
+    return caption, results_video(blocks)
+
+
+def results_video(blocks: list) -> tuple:
+    """Mobilograf: kirish slaydi -> har bir liga alohida slayd -> yakuniy slayd, video ko'rinishida."""
+    import video
+    slides = [rasm.news_card("Kechagi natijalar", f"{len(blocks)} ta turnir · eng muhim o'yinlar hisoblari",
+                             "ESPN", "NATIJALAR")]
+    slides += [rasm.matches_card(f"Kechagi natijalar — {name}", [(name, rows)], "Natijalar") for name, rows in blocks]
+    slides.append(rasm.news_card("Bugungi o'yinlar soat 10:00 da", "Obuna bo'ling va bildirishnomalarni yoqing 🔔",
+                                 "Futbol Pulsi", "FUTBOL PULSI"))
+    data, duration = video.slideshow(slides, [3] + [3.5] * len(blocks) + [3])
+    return video.to_upload(data, duration)

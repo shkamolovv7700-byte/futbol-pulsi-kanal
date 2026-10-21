@@ -26,3 +26,4 @@
 !requirements-bot.txt
 !.github/workflows/bot.yml
 !foto.py
+!video.py

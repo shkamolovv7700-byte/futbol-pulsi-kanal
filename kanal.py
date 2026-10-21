@@ -30,6 +30,7 @@ import foto
 import moderator
 import rasm
 import statistika
+import video
 
 BASE_DIR = Path(__file__).resolve().parent
 STATE_FILE = BASE_DIR / "kanal_state.json"
@@ -395,10 +396,20 @@ async def send_stat(client: TelegramClient, channel, make, *args) -> bool:
     result = await asyncio.to_thread(make, *args)
     if not result:
         return False
-    caption, image = result
-    await client.send_file(channel, image, caption=caption + channel_footer(), parse_mode="html")
+    caption, media = result
+    await send_media(client, channel, media, caption + channel_footer())
     log.info("Kanalga statistika joylandi: %s", make.__name__)
     return True
+
+
+async def send_media(client: TelegramClient, channel, media, caption: str) -> None:
+    """Rasm (BytesIO) yoki mobilograf videosi ((fayl, atributlar) juftligi)."""
+    if isinstance(media, tuple):
+        file, attributes = media
+        await client.send_file(channel, file, caption=caption, parse_mode="html", attributes=attributes,
+                               supports_streaming=True)
+    else:
+        await client.send_file(channel, media, caption=caption, parse_mode="html")
 
 
 def next_league(key: str, leagues: list) -> tuple:
@@ -538,7 +549,10 @@ async def post_matchday(client: TelegramClient, channel, events: list) -> None:
         caption = (f"🔥 #MATCHDAY\n\n{flag} {html.escape(league)}\n\n"
                    f"⚔️ <b>«{html.escape(home)}» vs «{html.escape(away)}»</b>\n\n"
                    f"🗓 Bugun | {when}\n\nKim yutadi? Izohlarda yozing 👇\n\n⚽️ @{USERNAME} — futbol olami bir joyda")
-        await client.send_file(channel, image, caption=caption, parse_mode="html")
+        # mobilograf: stadion kadri sekin yaqinlashadi, keyin "kim yutadi" slaydi
+        ask = rasm.news_card("Kim yutadi?", f"{home} yoki {away} — fikringizni izohlarda yozing", "Futbol Pulsi", "#MATCHDAY")
+        clip = await asyncio.to_thread(video.slideshow, [image, ask], [5, 3])
+        await send_media(client, channel, video.to_upload(*clip), caption)
         done[ev["id"]] = day
         save_state()
         log.info("MATCHDAY: %s", title)
@@ -576,8 +590,21 @@ async def post_live(client: TelegramClient, channel) -> bool:
             scorers = [f"{g['minute']} {g['scorer']}" + (" (a/g)" if g["og"] else " (p)" if g["pen"] else "")
                        for g in ev["goals"]]
             image = rasm.final_card(ev["league"][1], ev["home"], ev["away"], ev["hs"], ev["as"], scorers)
-            await client.send_file(channel, image, caption=statistika.final_post(ev)[:1000] + channel_footer(),
-                                   parse_mode="html")
+            media = image
+            if ev["goals"] and (statistika.is_big(ev["home"]) or statistika.is_big(ev["away"])):
+                # mobilograf: katta o'yin yakuni videosi - har bir gol ketma-ket, oxirida yakuniy hisob
+                score, slides = [0, 0], []
+                for g in ev["goals"][:8]:
+                    score[0 if g["team"] == ev["home_id"] else 1] += 1
+                    team = ev["home"] if g["team"] == ev["home_id"] else ev["away"]
+                    slides.append(rasm.goal_card(ev["league"][1], ev["home"], ev["away"], score[0], score[1], g["minute"],
+                                                 f"{g['scorer']} — {team}" if g["scorer"] else team))
+                try:
+                    clip = await asyncio.to_thread(video.slideshow, slides + [image], [2.2] * len(slides) + [4])
+                    media = video.to_upload(*clip)
+                except Exception as e:  # video chiqmasa - rasm bilan
+                    log.error("Yakun videosi yasalmadi: %r", e)
+            await send_media(client, channel, media, statistika.final_post(ev)[:1000] + channel_footer())
             info["ft"] = True
             save_state()
             log.info("Yakuniy hisob: %s %s:%s %s", ev["home"], ev["hs"], ev["as"], ev["away"])
