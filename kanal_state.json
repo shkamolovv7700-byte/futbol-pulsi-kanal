@@ -175,10 +175,10 @@
     "“Mashgʻulotlar chempioni”. “Barselona”ning yoqimsiz magʻlubiyati haqida",
     "«Barselona» «PSJ» muxlislarining bannerni yuzasidan UEFAga shikoyat qildi"
   ],
-  "last_slot": "2026-10-21 16:30",
+  "last_slot": "2026-10-21 17:00",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
-  "table_idx": 2,
+  "table_idx": 3,
   "live": {
     "401915403": {
       "goals": [
@@ -322,6 +322,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 87
+    "last_id": 88
   }
 }
