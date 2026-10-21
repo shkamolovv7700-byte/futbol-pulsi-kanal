@@ -16,6 +16,7 @@ Mijozlar yozishmalari faqat xotirada saqlanadi (repozitoriy ochiq - shaxsiy ma'l
 import json
 import logging
 import os
+import re
 import time
 import urllib.error
 import urllib.parse
@@ -34,7 +35,9 @@ HISTORY_LIMIT = 40  # shundan uzun suhbat yangidan boshlanadi (tarix boshini kes
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(levelname)s  %(message)s", datefmt="%H:%M:%S")
 log = logging.getLogger("bot")
-claude = anthropic.Anthropic()
+# Claude kaliti bo'lmasa, bot oddiy rejimda ishlaydi: savollarni ketma-ket berib, buyurtmani to'playdi
+USE_AI = bool(os.getenv("ANTHROPIC_API_KEY", "").strip())
+claude = anthropic.Anthropic() if USE_AI else None
 
 
 # ---------- Telegram Bot API ----------
@@ -181,6 +184,33 @@ def answer(chat_id: int, user: dict, text: str) -> str:
     return reply or "Rahmat! Admin tez orada siz bilan bog'lanadi."
 
 
+# ---------- Oddiy rejim (AI kalitisiz): savol-javob anketasi ----------
+
+FORM = [
+    ("mazmun", "Nimani reklama qilmoqchisiz? Qisqacha yozing va havolasini qo'shing."),
+    ("vaqt", "Qachon joylash kerak? (masalan: ertaga 18:00 yoki shu hafta)"),
+    ("byudjet", "Taxminiy byudjetingiz qancha? Bilmasangiz \"bilmayman\" deb yozing."),
+    ("aloqa", "Siz bilan bog'lanish uchun Telegram username yoki telefon raqamingizni yozing."),
+]
+REJECT = re.compile(r"stavka|bukmeker|1xbet|melbet|kazino|casino|18\+|porno|piramida|tez boyi|ставк|казино", re.I)
+forms: dict[int, dict] = {}
+
+
+def simple_answer(chat_id: int, user: dict, text: str) -> str:
+    form = forms.setdefault(chat_id, {"step": 0})
+    if form["step"] == 0 and REJECT.search(text):
+        forms.pop(chat_id, None)
+        return "Kechirasiz, stavka, kazino, 18+ va shunga o'xshash reklamalarni qabul qilmaymiz. 🙏"
+    form[FORM[form["step"]][0]] = text.strip()
+    form["step"] += 1
+    if form["step"] < len(FORM):
+        return FORM[form["step"]][1]
+    lead = {"kanallar": "Futbol Pulsi", "izoh": "", **{k: form[k] for k, _ in FORM}}
+    forms.pop(chat_id, None)
+    forward_lead(lead, user)
+    return "Rahmat! ✅ So'rovingiz adminga yuborildi, u tez orada siz bilan bog'lanadi.\nYangi so'rov uchun /start bosing."
+
+
 def handle(update: dict) -> None:
     msg = update.get("message") or {}
     chat, user, text = msg.get("chat", {}), msg.get("from", {}), msg.get("text")
@@ -188,8 +218,14 @@ def handle(update: dict) -> None:
         return
     if text.startswith("/start"):
         histories.pop(chat["id"], None)
-        send(chat["id"], "Assalomu alaykum! 👋 Men Futbol Pulsi 🔥 kanalining reklama bo'yicha yordamchisiman. "
-                         "Nimani reklama qilmoqchisiz?")
+        forms.pop(chat["id"], None)
+        stats = channel_stats()
+        send(chat["id"], "Assalomu alaykum! 👋 Men Futbol Pulsi 🔥 kanalining reklama bo'yicha yordamchisiman.\n\n"
+                         + (f"📊 {stats.lstrip('- ')}\n\n" if stats else "")
+                         + (FORM[0][1] if not USE_AI else "Nimani reklama qilmoqchisiz?"))
+        return
+    if not USE_AI:
+        send(chat["id"], simple_answer(chat["id"], user, text))
         return
     tg("sendChatAction", chat_id=chat["id"], action="typing")
     try:
@@ -205,11 +241,11 @@ def handle(update: dict) -> None:
 
 
 def main() -> None:
-    if not TOKEN or not os.getenv("ANTHROPIC_API_KEY", "").strip():
-        log.warning("BOT_TOKEN yoki ANTHROPIC_API_KEY hali kiritilmagan - bot ishga tushmadi.")
+    if not TOKEN:
+        log.warning("BOT_TOKEN hali kiritilmagan - bot ishga tushmadi.")
         return
     me = tg("getMe")
-    log.info("Bot ishga tushdi: @%s", me["username"])
+    log.info("Bot ishga tushdi: @%s (%s)", me["username"], "AI rejimi" if USE_AI else "oddiy rejim - AI kaliti yo'q")
     deadline, offset = time.time() + RUN_SECONDS, None
     while time.time() < deadline:
         try:
