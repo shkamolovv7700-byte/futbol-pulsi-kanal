@@ -95,7 +95,7 @@
     5
   ],
   "used_poll": [],
-  "last_slot": "2026-10-21 13:30",
+  "last_slot": "2026-10-21 14:00",
   "group_id": 4441418116,
   "moderator": {
     "admins": [
@@ -311,5 +311,6 @@
   "last_video_source": "ESL Counter-Strike",
   "previewed": [
     "PGL/2026/Masters"
-  ]
+  ],
+  "bracket_day": {}
 }
