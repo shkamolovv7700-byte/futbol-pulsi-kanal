@@ -148,7 +148,8 @@
   ],
   "used_poll": [
     19,
-    4
+    4,
+    16
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -184,7 +185,7 @@
     "Jahon chempionati. Bugun 6 nafar bokchimiz chorak final uchun jang qiladi",
     "«Barselona» bir oyga muhim oʻyinchisiz qoldi"
   ],
-  "last_slot": "2026-10-21 19:30",
+  "last_slot": "2026-10-21 20:00",
   "scorers_idx": 3,
   "last_video_source": "Serie A",
   "table_idx": 3,
@@ -331,7 +332,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 91
+    "last_id": 92
   },
   "foto_cache": {
     "Camp Nou": {
