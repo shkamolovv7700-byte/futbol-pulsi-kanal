@@ -185,7 +185,7 @@
     "Jahon chempionati. Bugun 6 nafar bokchimiz chorak final uchun jang qiladi",
     "«Barselona» bir oyga muhim oʻyinchisiz qoldi"
   ],
-  "last_slot": "2026-10-21 20:00",
+  "last_slot": "2026-10-21 20:30",
   "scorers_idx": 3,
   "last_video_source": "Serie A",
   "table_idx": 3,
@@ -332,14 +332,33 @@
     "admins": [
       8456959367
     ],
-    "last_id": 92
+    "last_id": 95
   },
   "foto_cache": {
     "Camp Nou": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Camp_Nou_aerial.jpg/1280px-Camp_Nou_aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Oh-Barcelona.com from Barcelona, Spain",
       "license": "CC BY 2.0"
+    },
+    "Allianz Arena": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Allianz_Arena_2008-02-09.jpg/1280px-Allianz_Arena_2008-02-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "2015 Michael 2015",
+      "license": "CC BY-SA 4.0"
+    },
+    "San Siro": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/Stadio_Meazza_2021_3.jpg/1280px-Stadio_Meazza_2021_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Prelvini",
+      "license": "CC BY-SA 4.0"
+    },
+    "Santiago Bernabéu Stadium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Estadio_Santiago_Bernab%C3%A9u_%E2%80%94_Real_Madrid_Juvenil_A_-_Santiago_Wanderers_Sub-20_%28Intercontinental_Sub-20_2026%29_%E2%80%94_R%C3%A9cord_de_asistencia_en_un_partido_de_juveniles.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Badefa",
+      "license": "CC0"
     }
   },
-  "matchday": {}
+  "matchday": {
+    "401915312": "2026-10-21",
+    "401915390": "2026-10-21",
+    "401915313": "2026-10-21"
+  }
 }
