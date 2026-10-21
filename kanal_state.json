@@ -117,7 +117,9 @@
     "https://kun.uz/news/2026/10/21/saida-mirziyoyeva-amerika-biznesiga-aniq-loyiha-yoki-muammongizni-olib-keling",
     "https://sports.uz/oz/news/view/barsa-evropada-gol-urgan-o-yinchilar-soni-bo-yicha-etakchiga-aylandi",
     "https://daryo.uz/2026/10/21/ozbekiston-raqamli-reklama-bozorida-excel-davri-yakun-topmoqda/",
-    "https://daryo.uz/2026/10/21/lamin-yamal-kilian-mbappening-chempionlar-ligasidagi-rekordini-takrorladi/"
+    "https://daryo.uz/2026/10/21/lamin-yamal-kilian-mbappening-chempionlar-ligasidagi-rekordini-takrorladi/",
+    "https://daryo.uz/2026/10/21/ozbekiston-ayollar-milliy-terma-jamoasining-jahon-chempionati-saralashidagi-oyinlar-taqvimi-malum-boldi/",
+    "https://sports.uz/oz/news/view/flik-psj-barsa-dan-ustun-ekanini-tan-oldi"
   ],
   "used_quiz": [],
   "used_poll": [
@@ -145,9 +147,11 @@
     "\"Barsa\" mag‘lubiyatiga sababchi bo‘lgan futbolchilar ko‘rsatildi",
     "Kvaratsxeliya to‘qqiz oy futbol o‘ynolmaydi",
     "\"Barsa\" Evropada gol urgan oʻyinchilar soni boʻyicha yetakchiga aylandi",
-    "Lamin Yamal Kilian Mbappening Chempionlar Ligasidagi rekordini takrorladi"
+    "Lamin Yamal Kilian Mbappening Chempionlar Ligasidagi rekordini takrorladi",
+    "O‘zbekiston ayollar milliy terma jamoasining Jahon chempionati saralashidagi o‘yinlar taqvimi ma’lum bo‘ldi",
+    "Flik PSJ \"Barsa\"dan ustun ekanini tan oldi"
   ],
-  "last_slot": "2026-10-21 10:30",
+  "last_slot": "2026-10-21 11:30",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
@@ -294,6 +298,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 75
+    "last_id": 76
   }
 }
