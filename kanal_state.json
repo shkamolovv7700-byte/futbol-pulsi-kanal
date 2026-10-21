@@ -140,7 +140,8 @@
     "https://daryo.uz/2026/10/21/iroq-aqsh-bosimi-ostida-eron-bilan-chegara-punktini-yopdi/",
     "https://kun.uz/news/2026/10/21/bogot-tumanida-bir-oilaning-4-azosi-zaharlanib-vafot-etdi",
     "https://sports.uz/oz/news/view/jahon-chempionati-bugun-6-nafar-bokchimiz-chorak-final-uchun-jang-qiladi-21-10-2026",
-    "https://sports.uz/oz/news/view/barselona-bir-oyga-muhim-o-yinchisiz-qoldi"
+    "https://sports.uz/oz/news/view/barselona-bir-oyga-muhim-o-yinchisiz-qoldi",
+    "yt:nCvpHuU6wzY"
   ],
   "used_quiz": [
     23
@@ -183,9 +184,9 @@
     "Jahon chempionati. Bugun 6 nafar bokchimiz chorak final uchun jang qiladi",
     "«Barselona» bir oyga muhim oʻyinchisiz qoldi"
   ],
-  "last_slot": "2026-10-21 18:30",
+  "last_slot": "2026-10-21 19:00",
   "scorers_idx": 3,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 3,
   "live": {
     "401915403": {
@@ -330,7 +331,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 90
+    "last_id": 91
   },
   "foto_cache": {
     "Camp Nou": {
