@@ -87,17 +87,18 @@
     "https://www.cybersport.ru/tags/cs2/team-spirit-team-vitality-i-team-falcons-sygrayut-na-blast-rivals-fall-2026",
     "https://www.cybersport.ru/tags/cs2/fallen-chempionstvo-dayet-nastoyashchii-tolchok-ty-stanovishsya-uverenneye",
     "https://www.cybersport.ru/tags/cs2/smozhet-li-aurora-gaming-vybit-9z-team-iz-thunderpick-world-championship-2026",
-    "https://www.cybersport.ru/tags/cs2/team-spirit-sygrayet-s-betboom-team-na-starte-pgl-masters-bucharest-2026"
+    "https://www.cybersport.ru/tags/cs2/team-spirit-sygrayet-s-betboom-team-na-starte-pgl-masters-bucharest-2026",
+    "yt:gPgWjM3F85E"
   ],
   "used_quiz": [],
   "used_poll": [],
-  "last_slot": "2026-10-21 12:00",
+  "last_slot": "2026-10-21 12:30",
   "group_id": 4441418116,
   "moderator": {
     "admins": [
       8456959367
     ],
-    "last_id": 16
+    "last_id": 17
   },
   "live": {
     "1792504800-HEROIC-HYPERSPIRIT": {
@@ -304,7 +305,7 @@
       "done": true
     }
   },
-  "last_video_source": "HLTV",
+  "last_video_source": "ESL Counter-Strike",
   "previewed": [
     "PGL/2026/Masters"
   ]
