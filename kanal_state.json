@@ -127,7 +127,10 @@
     "https://daryo.uz/2026/10/21/har-bir-buyurtmadan-foyda-evos-kompaniyasi-evos-rewardsni-ishga-tushirdi/",
     "https://sports.uz/oz/news/view/aston-villa-evropa-ligasida-yordam-bergan-oyinchiga-yangi-shartnoma-taklif-qiladi-21-10-2026",
     "https://daryo.uz/2026/10/21/shavkat-mirziyoyev-qashqadaryodagi-qiymati-54-mln-dollarlik-yangi-fabrikada-boldi/",
-    "https://sports.uz/oz/news/view/ozimizga-qayt-realda-oynay-olmayapsan-21-10-2026"
+    "https://sports.uz/oz/news/view/ozimizga-qayt-realda-oynay-olmayapsan-21-10-2026",
+    "https://daryo.uz/2026/10/21/uyda-yolgizda-etibordan-chetda-qolgan-sahna-kevin-pitssaxonaga-qanday-qilib-qongiroq-qilgan/",
+    "https://daryo.uz/2026/10/21/shavkat-mirziyoyev-lotin-yozuviga-asoslangan-ozbek-alifbosini-takomillashtirishga-oid-qonunni-imzoladi/",
+    "https://sports.uz/oz/news/view/manchesterliklar-bosh-murabbiylikka-tortta-nomzod-tanladi-21-10-2026"
   ],
   "used_quiz": [
     23
@@ -163,9 +166,10 @@
     "O'zbek futbolchisi UEFA Chempionlar Ligasi tarixini yangilashga yordam berdi",
     "\"Real\" yozga ikki yulduzni tanladi",
     "“Aston Villa” Yevropa ligasida yordam bergan oʻyinchiga yangi shartnoma taklif qiladi",
-    "O‘zimizga qayt, “Real”da o‘ynay olmayapsan"
+    "O‘zimizga qayt, “Real”da o‘ynay olmayapsan",
+    "Manchesterliklar bosh murabbiylikka to‘rtta nomzod tanladi"
   ],
-  "last_slot": "2026-10-21 14:00",
+  "last_slot": "2026-10-21 14:30",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
@@ -312,6 +316,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 82
+    "last_id": 83
   }
 }
