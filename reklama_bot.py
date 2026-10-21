@@ -1,7 +1,7 @@
 """
 Reklama bo'yicha AI yordamchi bot (Telegram Bot API + Claude).
 
-Futbol Pulsi va CS2 Pulsi kanallariga reklama bermoqchi bo'lganlarga javob beradi, so'rovni to'plab
+Futbol Pulsi kanaliga reklama bermoqchi bo'lganlarga javob beradi, so'rovni to'plab
 admin maxfiy kanaliga (LEADS_CHAT_ID) buyurtma qilib yuboradi.
 
 Muhit o'zgaruvchilari:
@@ -29,7 +29,7 @@ TOKEN = os.getenv("BOT_TOKEN", "").strip()
 LEADS_CHAT_ID = os.getenv("LEADS_CHAT_ID", "")
 RUN_SECONDS = int(os.getenv("BOT_RUN_SECONDS", str(25 * 60)))
 MODEL = "claude-opus-5-5"
-CHANNELS = ["futbolpulsi_uz", "cs2pulsi_uz"]
+CHANNELS = ["futbolpulsi_uz"]
 HISTORY_LIMIT = 40  # shundan uzun suhbat yangidan boshlanadi (tarix boshini kesish API da rad etiladi)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s  %(levelname)s  %(message)s", datefmt="%H:%M:%S")
@@ -81,13 +81,13 @@ def prices() -> str:
 
 def system_prompt() -> str:
     price_list = prices()
-    return f"""Siz "Pulsi" Telegram kanallarining reklama bo'yicha yordamchisisiz. Kanallar egasi nomidan reklama \
+    return f"""Siz "Futbol Pulsi" Telegram kanalining reklama bo'yicha yordamchisisiz. Kanal egasi nomidan reklama \
 beruvchilar bilan muloqot qilasiz.
 
-Kanallar:
-{channel_stats() or "- Futbol Pulsi 🔥 (t.me/futbolpulsi_uz) va CS2 Pulsi 🎯 (t.me/cs2pulsi_uz)"}
-Futbol Pulsi - o'zbek tilidagi futbol yangiliklari, jonli gollar, jadvallar. CS2 Pulsi - o'zbek tilidagi CS2 \
-kibersporti: turnirlar, jonli natijalar, reyting. Ikkala kanal ham yangi va tez o'smoqda.
+Kanal:
+{channel_stats() or "- Futbol Pulsi 🔥 (t.me/futbolpulsi_uz)"}
+Futbol Pulsi - o'zbek tilidagi futbol yangiliklari, jonli gollar, jadvallar, natijalar va viktorinalar. \
+Kanal yangi va tez o'smoqda. Boshqa kanalimiz yo'q - boshqa kanal haqida so'rashsa, faqat shu kanal borligini ayting.
 
 Narxlar:
 {price_list or "Narxlar ro'yxati hali kiritilmagan. Hech qachon narx o'ylab topmang: admin narxni aniqlab yozishini ayting."}
@@ -114,7 +114,7 @@ SEND_LEAD = {
     "input_schema": {
         "type": "object",
         "properties": {
-            "kanallar": {"type": "string", "description": "Qaysi kanal(lar): Futbol Pulsi, CS2 Pulsi yoki ikkalasi"},
+            "kanallar": {"type": "string", "description": "Kanal (hozircha faqat Futbol Pulsi) va reklama formati"},
             "mazmun": {"type": "string", "description": "Nima reklama qilinadi, havolasi bilan"},
             "vaqt": {"type": "string", "description": "Qachon joylash kerak"},
             "byudjet": {"type": "string", "description": "Mijoz aytgan byudjet yoki 'aytilmadi'"},
@@ -188,8 +188,8 @@ def handle(update: dict) -> None:
         return
     if text.startswith("/start"):
         histories.pop(chat["id"], None)
-        send(chat["id"], "Assalomu alaykum! 👋 Men Futbol Pulsi 🔥 va CS2 Pulsi 🎯 kanallarining reklama bo'yicha "
-                         "yordamchisiman. Qaysi kanalda va nimani reklama qilmoqchisiz?")
+        send(chat["id"], "Assalomu alaykum! 👋 Men Futbol Pulsi 🔥 kanalining reklama bo'yicha yordamchisiman. "
+                         "Nimani reklama qilmoqchisiz?")
         return
     tg("sendChatAction", chat_id=chat["id"], action="typing")
     try:
