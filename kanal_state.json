@@ -139,7 +139,8 @@
     "https://sports.uz/oz/news/view/bugun-taekvondochilarimiz-qatar-open-turniridagi-ishtirok-etadi-21-10-2026",
     "https://daryo.uz/2026/10/21/iroq-aqsh-bosimi-ostida-eron-bilan-chegara-punktini-yopdi/",
     "https://kun.uz/news/2026/10/21/bogot-tumanida-bir-oilaning-4-azosi-zaharlanib-vafot-etdi",
-    "https://sports.uz/oz/news/view/jahon-chempionati-bugun-6-nafar-bokchimiz-chorak-final-uchun-jang-qiladi-21-10-2026"
+    "https://sports.uz/oz/news/view/jahon-chempionati-bugun-6-nafar-bokchimiz-chorak-final-uchun-jang-qiladi-21-10-2026",
+    "https://sports.uz/oz/news/view/barselona-bir-oyga-muhim-o-yinchisiz-qoldi"
   ],
   "used_quiz": [
     23
@@ -179,9 +180,10 @@
     "Manchesterliklar bosh murabbiylikka to‘rtta nomzod tanladi",
     "“Mashgʻulotlar chempioni”. “Barselona”ning yoqimsiz magʻlubiyati haqida",
     "«Barselona» «PSJ» muxlislarining bannerni yuzasidan UEFAga shikoyat qildi",
-    "Jahon chempionati. Bugun 6 nafar bokchimiz chorak final uchun jang qiladi"
+    "Jahon chempionati. Bugun 6 nafar bokchimiz chorak final uchun jang qiladi",
+    "«Barselona» bir oyga muhim oʻyinchisiz qoldi"
   ],
-  "last_slot": "2026-10-21 17:30",
+  "last_slot": "2026-10-21 18:30",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -328,6 +330,14 @@
     "admins": [
       8456959367
     ],
-    "last_id": 89
-  }
+    "last_id": 90
+  },
+  "foto_cache": {
+    "Camp Nou": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Camp_Nou_aerial.jpg/1280px-Camp_Nou_aerial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Oh-Barcelona.com from Barcelona, Spain",
+      "license": "CC BY 2.0"
+    }
+  },
+  "matchday": {}
 }
