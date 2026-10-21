@@ -141,7 +141,8 @@
     "https://kun.uz/news/2026/10/21/bogot-tumanida-bir-oilaning-4-azosi-zaharlanib-vafot-etdi",
     "https://sports.uz/oz/news/view/jahon-chempionati-bugun-6-nafar-bokchimiz-chorak-final-uchun-jang-qiladi-21-10-2026",
     "https://sports.uz/oz/news/view/barselona-bir-oyga-muhim-o-yinchisiz-qoldi",
-    "yt:nCvpHuU6wzY"
+    "yt:nCvpHuU6wzY",
+    "https://daryo.uz/2026/10/21/ozbekiston-kubogi-yarimfinalning-barcha-ishtirokchilari-malum-boldi/"
   ],
   "used_quiz": [
     23
@@ -183,9 +184,10 @@
     "“Mashgʻulotlar chempioni”. “Barselona”ning yoqimsiz magʻlubiyati haqida",
     "«Barselona» «PSJ» muxlislarining bannerni yuzasidan UEFAga shikoyat qildi",
     "Jahon chempionati. Bugun 6 nafar bokchimiz chorak final uchun jang qiladi",
-    "«Barselona» bir oyga muhim oʻyinchisiz qoldi"
+    "«Barselona» bir oyga muhim oʻyinchisiz qoldi",
+    "O‘zbekiston Kubogi. Yarimfinalning barcha ishtirokchilari ma’lum bo‘ldi"
   ],
-  "last_slot": "2026-10-21 20:30",
+  "last_slot": "2026-10-21 21:30",
   "scorers_idx": 3,
   "last_video_source": "Serie A",
   "table_idx": 3,
@@ -332,7 +334,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 95
+    "last_id": 96
   },
   "foto_cache": {
     "Camp Nou": {
@@ -354,6 +356,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Estadio_Santiago_Bernab%C3%A9u_%E2%80%94_Real_Madrid_Juvenil_A_-_Santiago_Wanderers_Sub-20_%28Intercontinental_Sub-20_2026%29_%E2%80%94_R%C3%A9cord_de_asistencia_en_un_partido_de_juveniles.jpg/1280px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Badefa",
       "license": "CC0"
+    },
+    "Milliy Stadium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/National_Stadium_%28Uzbekistan%29%2C_Uzbekistan-Qatar%2C_10_June_2025.jpg/1280px-National_Stadium_%28Uzbekistan%29%2C_Uzbekistan-Qatar%2C_10_June_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Прикли",
+      "license": "CC BY 4.0"
     }
   },
   "matchday": {
