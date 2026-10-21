@@ -123,9 +123,13 @@
     "https://sports.uz/oz/news/view/-muhammad-mokaev-ufc-ni-jangchilarga-bosim-otkazishda-aybladi-21-10-2026",
     "https://sports.uz/oz/news/view/o-zbek-futbolchisi-uefa-chempionlar-ligasi-tarixini-yangilashga-yordam-berdi",
     "https://daryo.uz/2026/10/21/prezident-bolalar-farovonligiga-investitsiya-kelajak-avlodlarning-barqaror-va-adolatli-taraqqiyoti-sari-yol-butunjahon-sammiti-ishtirokchilariga-tabrik-yolladi/",
-    "https://sports.uz/oz/news/view/real-yozga-ikki-yulduzni-tanladi"
+    "https://sports.uz/oz/news/view/real-yozga-ikki-yulduzni-tanladi",
+    "https://daryo.uz/2026/10/21/har-bir-buyurtmadan-foyda-evos-kompaniyasi-evos-rewardsni-ishga-tushirdi/",
+    "https://sports.uz/oz/news/view/aston-villa-evropa-ligasida-yordam-bergan-oyinchiga-yangi-shartnoma-taklif-qiladi-21-10-2026"
   ],
-  "used_quiz": [],
+  "used_quiz": [
+    23
+  ],
   "used_poll": [
     19,
     4
@@ -155,9 +159,10 @@
     "O‘zbekiston ayollar milliy terma jamoasining Jahon chempionati saralashidagi o‘yinlar taqvimi ma’lum bo‘ldi",
     "Flik PSJ \"Barsa\"dan ustun ekanini tan oldi",
     "O'zbek futbolchisi UEFA Chempionlar Ligasi tarixini yangilashga yordam berdi",
-    "\"Real\" yozga ikki yulduzni tanladi"
+    "\"Real\" yozga ikki yulduzni tanladi",
+    "“Aston Villa” Yevropa ligasida yordam bergan oʻyinchiga yangi shartnoma taklif qiladi"
   ],
-  "last_slot": "2026-10-21 12:30",
+  "last_slot": "2026-10-21 13:30",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
@@ -304,6 +309,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 79
+    "last_id": 81
   }
 }
