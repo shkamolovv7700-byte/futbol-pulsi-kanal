@@ -119,7 +119,9 @@
     "https://daryo.uz/2026/10/21/ozbekiston-raqamli-reklama-bozorida-excel-davri-yakun-topmoqda/",
     "https://daryo.uz/2026/10/21/lamin-yamal-kilian-mbappening-chempionlar-ligasidagi-rekordini-takrorladi/",
     "https://daryo.uz/2026/10/21/ozbekiston-ayollar-milliy-terma-jamoasining-jahon-chempionati-saralashidagi-oyinlar-taqvimi-malum-boldi/",
-    "https://sports.uz/oz/news/view/flik-psj-barsa-dan-ustun-ekanini-tan-oldi"
+    "https://sports.uz/oz/news/view/flik-psj-barsa-dan-ustun-ekanini-tan-oldi",
+    "https://sports.uz/oz/news/view/-muhammad-mokaev-ufc-ni-jangchilarga-bosim-otkazishda-aybladi-21-10-2026",
+    "https://sports.uz/oz/news/view/o-zbek-futbolchisi-uefa-chempionlar-ligasi-tarixini-yangilashga-yordam-berdi"
   ],
   "used_quiz": [],
   "used_poll": [
@@ -149,9 +151,10 @@
     "\"Barsa\" Evropada gol urgan oʻyinchilar soni boʻyicha yetakchiga aylandi",
     "Lamin Yamal Kilian Mbappening Chempionlar Ligasidagi rekordini takrorladi",
     "O‘zbekiston ayollar milliy terma jamoasining Jahon chempionati saralashidagi o‘yinlar taqvimi ma’lum bo‘ldi",
-    "Flik PSJ \"Barsa\"dan ustun ekanini tan oldi"
+    "Flik PSJ \"Barsa\"dan ustun ekanini tan oldi",
+    "O'zbek futbolchisi UEFA Chempionlar Ligasi tarixini yangilashga yordam berdi"
   ],
-  "last_slot": "2026-10-21 11:30",
+  "last_slot": "2026-10-21 12:00",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
@@ -298,6 +301,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 76
+    "last_id": 78
   }
 }
