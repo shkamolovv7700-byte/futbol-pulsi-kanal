@@ -89,19 +89,20 @@
     "https://www.cybersport.ru/tags/cs2/smozhet-li-aurora-gaming-vybit-9z-team-iz-thunderpick-world-championship-2026",
     "https://www.cybersport.ru/tags/cs2/team-spirit-sygrayet-s-betboom-team-na-starte-pgl-masters-bucharest-2026",
     "yt:gPgWjM3F85E",
-    "https://www.cybersport.ru/tags/cs2/smozhet-li-komanda-s1mple-prodolzhit-svoi-vinstrik-v-matche-protiv-nexus-gaming"
+    "https://www.cybersport.ru/tags/cs2/smozhet-li-komanda-s1mple-prodolzhit-svoi-vinstrik-v-matche-protiv-nexus-gaming",
+    "yt:7gapSdGEn5g"
   ],
   "used_quiz": [
     5
   ],
   "used_poll": [],
-  "last_slot": "2026-10-21 14:00",
+  "last_slot": "2026-10-21 14:30",
   "group_id": 4441418116,
   "moderator": {
     "admins": [
       8456959367
     ],
-    "last_id": 19
+    "last_id": 20
   },
   "live": {
     "1792504800-HEROIC-HYPERSPIRIT": {
@@ -308,7 +309,7 @@
       "done": true
     }
   },
-  "last_video_source": "ESL Counter-Strike",
+  "last_video_source": "HLTV",
   "previewed": [
     "PGL/2026/Masters"
   ],
