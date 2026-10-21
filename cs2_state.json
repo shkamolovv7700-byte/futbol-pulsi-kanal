@@ -100,13 +100,13 @@
     5
   ],
   "used_poll": [],
-  "last_slot": "2026-10-21 16:30",
+  "last_slot": "2026-10-21 17:00",
   "group_id": 4441418116,
   "moderator": {
     "admins": [
       8456959367
     ],
-    "last_id": 24
+    "last_id": 25
   },
   "live": {
     "1792504800-HEROIC-HYPERSPIRIT": {
@@ -317,5 +317,7 @@
   "previewed": [
     "PGL/2026/Masters"
   ],
-  "bracket_day": {}
+  "bracket_day": {},
+  "ranking_posted": "05.10.2026",
+  "ranking_day": "2026-10-21"
 }
