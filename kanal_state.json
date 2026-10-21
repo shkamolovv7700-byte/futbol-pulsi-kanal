@@ -134,7 +134,12 @@
     "https://daryo.uz/2026/10/21/mashgulotlar-chempioni-barselonaning-yoqimsiz-maglubiyati-haqida/",
     "yt:dfATrgnC-WY",
     "https://daryo.uz/2026/10/21/samarqand-sammiti-doirasida-oppenheimer-banki-bilan-300-million-dollarlik-yevroobligatsiyalarni-joylashtirish-togrisida-bitim-imzolandi/",
-    "https://sports.uz/oz/news/view/barselona-psj-muxlislarining-banneri-yuzasidan-uefaga-shikoyat-qildi-21-10-2026"
+    "https://sports.uz/oz/news/view/barselona-psj-muxlislarining-banneri-yuzasidan-uefaga-shikoyat-qildi-21-10-2026",
+    "https://sports.uz/oz/news/view/saturn-samandar-reimbaev-va-bobur-abdulazizovga-nisbatan-intizomiy-chora-qollanilishi-mumkin-21-10-2026",
+    "https://sports.uz/oz/news/view/bugun-taekvondochilarimiz-qatar-open-turniridagi-ishtirok-etadi-21-10-2026",
+    "https://daryo.uz/2026/10/21/iroq-aqsh-bosimi-ostida-eron-bilan-chegara-punktini-yopdi/",
+    "https://kun.uz/news/2026/10/21/bogot-tumanida-bir-oilaning-4-azosi-zaharlanib-vafot-etdi",
+    "https://sports.uz/oz/news/view/jahon-chempionati-bugun-6-nafar-bokchimiz-chorak-final-uchun-jang-qiladi-21-10-2026"
   ],
   "used_quiz": [
     23
@@ -173,9 +178,10 @@
     "O‘zimizga qayt, “Real”da o‘ynay olmayapsan",
     "Manchesterliklar bosh murabbiylikka to‘rtta nomzod tanladi",
     "“Mashgʻulotlar chempioni”. “Barselona”ning yoqimsiz magʻlubiyati haqida",
-    "«Barselona» «PSJ» muxlislarining bannerni yuzasidan UEFAga shikoyat qildi"
+    "«Barselona» «PSJ» muxlislarining bannerni yuzasidan UEFAga shikoyat qildi",
+    "Jahon chempionati. Bugun 6 nafar bokchimiz chorak final uchun jang qiladi"
   ],
-  "last_slot": "2026-10-21 17:00",
+  "last_slot": "2026-10-21 17:30",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -322,6 +328,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 88
+    "last_id": 89
   }
 }
