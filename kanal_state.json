@@ -107,7 +107,10 @@
     "https://kun.uz/news/2026/10/20/ozbekiston-milliy-jamoasi-rossiya-bilan-ortoqlik-oyini-otkazadi",
     "https://sports.uz/oz/news/view/messi-va-ronaldu-barcha-davrlarning-oltin-to-p-iga-davogar",
     "https://daryo.uz/2026/10/20/yaponiyada-elektromobillarni-harakat-davomida-quvvatlaydigan-yol-sinovdan-otkaziladi/",
-    "https://daryo.uz/2026/10/20/barselona-prezidenti-yamal-daho/"
+    "https://daryo.uz/2026/10/20/barselona-prezidenti-yamal-daho/",
+    "https://daryo.uz/2026/10/21/trampning-muzokarachilari-sankt-peterburgda-putin-bilan-uchrashadi/",
+    "https://sports.uz/oz/news/view/barsa-mag-lubiyatiga-sababchi-bo-lgan-futbolchilar-ko-rsatildi",
+    "https://sports.uz/oz/news/view/kvarasxeliya-to-qqiz-oy-futbol-o-ynolmaydi"
   ],
   "used_quiz": [],
   "used_poll": [
@@ -131,9 +134,11 @@
     "“Real” Yevropa Superligasi xarajatlarini qoplash uchun Angliya klublarini sudga berishi mumkin",
     "Oʻzbekiston milliy jamoasi Rossiya bilan oʻrtoqlik oʻyini oʻtkazadi.",
     "Messi va Ronalduning barcha davrlarning \"Oltin to‘p\"iga da’vogar",
-    "“Barselona” prezidenti: “Yamal — daho”"
+    "“Barselona” prezidenti: “Yamal — daho”",
+    "\"Barsa\" mag‘lubiyatiga sababchi bo‘lgan futbolchilar ko‘rsatildi",
+    "Kvaratsxeliya to‘qqiz oy futbol o‘ynolmaydi"
   ],
-  "last_slot": "2026-10-20 22:30",
+  "last_slot": "2026-10-21 8:30",
   "scorers_idx": 2,
   "last_video_source": "Premier League",
   "table_idx": 2,
@@ -280,6 +285,6 @@
     "admins": [
       8456959367
     ],
-    "last_id": 69
+    "last_id": 71
   }
 }
