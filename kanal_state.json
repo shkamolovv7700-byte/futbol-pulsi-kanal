@@ -150,7 +150,8 @@
     "https://sports.uz/oz/news/view/xabi-alonso-trentni-chelsiga-olib-kelmoqchi-22-10-2026",
     "yt:nC27tb_Uy78",
     "https://daryo.uz/2026/10/22/kuzgi-masala-manchester-yunaytedga-qanday-murabbiy-kerak/",
-    "yt:K8TiBKu3a-Y"
+    "yt:K8TiBKu3a-Y",
+    "https://daryo.uz/2026/10/22/toshkent-metropoliteni-paxtakor-bekatidagi-tirbandlikka-izoh-berdi/"
   ],
   "used_quiz": [
     23,
@@ -200,9 +201,10 @@
     "“Bizda tiklanish uchun raqibga nisbatan 24 soatdan kamroq vaqt bor” — Mourinyo “El klasiko” haqida",
     "“Chelsi”ning yo‘li ochildi: “Bavariya” “Barsa” yulduzi uchun kurashdan chiqdi",
     "Xabi Alonso Trentni «Chelsi»ga olib kelmoqchi",
-    "“Kuzgi masala”. “Manchester Yunayted”ga qanday murabbiy kerak?"
+    "“Kuzgi masala”. “Manchester Yunayted”ga qanday murabbiy kerak?",
+    "Toshkent metropoliteni “Paxtakor” bekatidagi tirbandlikka izoh berdi"
   ],
-  "last_slot": "2026-10-22 20:30",
+  "last_slot": "2026-10-22 21:00",
   "scorers_idx": 4,
   "last_video_source": "Premier League",
   "table_idx": 4,
@@ -480,7 +482,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 161
+    "last_id": 162
   },
   "foto_cache": {
     "Camp Nou": {
@@ -528,6 +530,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/2021%E2%80%9322_UEFA_Women%27s_Champions_League_Final_in_Turin%2C_Italy_1.jpg/1280px-2021%E2%80%9322_UEFA_Women%27s_Champions_League_Final_in_Turin%2C_Italy_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Sebleouf",
       "license": "CC BY-SA 4.0"
+    },
+    "Pakhtakor Central Stadium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pakhtakor_Markaziy_Stadium.jpg/1280px-Pakhtakor_Markaziy_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Ekrem Canli",
+      "license": "CC BY-SA 3.0"
     }
   },
   "matchday": {
