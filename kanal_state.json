@@ -148,7 +148,8 @@
     "https://daryo.uz/2026/10/22/bizda-tiklanish-uchun-raqibga-nisbatan-24-soatdan-kamroq-vaqt-bor-mourinyo-el-klasiko-haqida/",
     "https://sports.uz/oz/news/view/chelsining-yoli-ochildi-bavariya-barsa-yulduzi-uchun-kurashdan-chiqdi-22-10-2026",
     "https://sports.uz/oz/news/view/xabi-alonso-trentni-chelsiga-olib-kelmoqchi-22-10-2026",
-    "yt:nC27tb_Uy78"
+    "yt:nC27tb_Uy78",
+    "https://daryo.uz/2026/10/22/kuzgi-masala-manchester-yunaytedga-qanday-murabbiy-kerak/"
   ],
   "used_quiz": [
     23,
@@ -196,9 +197,10 @@
     "\"Manchester Yunayted\" inglizlar yuzini yerga qaratdi",
     "“Bizda tiklanish uchun raqibga nisbatan 24 soatdan kamroq vaqt bor” — Mourinyo “El klasiko” haqida",
     "“Chelsi”ning yo‘li ochildi: “Bavariya” “Barsa” yulduzi uchun kurashdan chiqdi",
-    "Xabi Alonso Trentni «Chelsi»ga olib kelmoqchi"
+    "Xabi Alonso Trentni «Chelsi»ga olib kelmoqchi",
+    "“Kuzgi masala”. “Manchester Yunayted”ga qanday murabbiy kerak?"
   ],
-  "last_slot": "2026-10-22 17:30",
+  "last_slot": "2026-10-22 18:00",
   "scorers_idx": 4,
   "last_video_source": "Serie A",
   "table_idx": 4,
@@ -476,7 +478,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 155
+    "last_id": 159
   },
   "foto_cache": {
     "Camp Nou": {
@@ -519,11 +521,19 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Los_Caminos_del_f%C3%BAtbol._Xabi_Alonso_%2839666778464%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "DONOSTIA KULTURA",
       "license": "CC BY-SA 2.0"
+    },
+    "Juventus Stadium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/2021%E2%80%9322_UEFA_Women%27s_Champions_League_Final_in_Turin%2C_Italy_1.jpg/1280px-2021%E2%80%9322_UEFA_Women%27s_Champions_League_Final_in_Turin%2C_Italy_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Sebleouf",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
     "401915312": "2026-10-21",
     "401915390": "2026-10-21",
-    "401915313": "2026-10-21"
+    "401915313": "2026-10-21",
+    "401915547": "2026-10-22",
+    "401915559": "2026-10-22",
+    "401915557": "2026-10-22"
   }
 }
