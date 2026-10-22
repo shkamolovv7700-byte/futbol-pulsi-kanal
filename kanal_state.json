@@ -205,7 +205,7 @@
     "“Kuzgi masala”. “Manchester Yunayted”ga qanday murabbiy kerak?",
     "Toshkent metropoliteni “Paxtakor” bekatidagi tirbandlikka izoh berdi"
   ],
-  "last_slot": "2026-10-22 22:00",
+  "last_slot": "2026-10-22 22:30",
   "scorers_idx": 4,
   "last_video_source": "Serie A",
   "table_idx": 4,
@@ -480,12 +480,13 @@
     "401915547": {
       "goals": [
         "111-298.0",
+        "169-2531.0",
         "169-850.0"
       ],
       "ft": false,
       "score": [
         1,
-        1
+        2
       ],
       "lag": 0
     },
@@ -518,7 +519,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 168
+    "last_id": 169
   },
   "foto_cache": {
     "Camp Nou": {
