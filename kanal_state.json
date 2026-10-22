@@ -159,7 +159,8 @@
   "used_poll": [
     19,
     4,
-    16
+    16,
+    9
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -201,7 +202,7 @@
     "Xabi Alonso Trentni «Chelsi»ga olib kelmoqchi",
     "“Kuzgi masala”. “Manchester Yunayted”ga qanday murabbiy kerak?"
   ],
-  "last_slot": "2026-10-22 19:30",
+  "last_slot": "2026-10-22 20:00",
   "scorers_idx": 4,
   "last_video_source": "Premier League",
   "table_idx": 4,
@@ -479,7 +480,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 160
+    "last_id": 161
   },
   "foto_cache": {
     "Camp Nou": {
