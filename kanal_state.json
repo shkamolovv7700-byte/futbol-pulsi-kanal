@@ -145,7 +145,8 @@
     "https://daryo.uz/2026/10/21/ozbekiston-kubogi-yarimfinalning-barcha-ishtirokchilari-malum-boldi/",
     "yt:CRt7AEfryKY",
     "https://sports.uz/oz/news/view/manchester-yunayted-inglizlar-yuzini-erga-qaratdi",
-    "https://daryo.uz/2026/10/22/bizda-tiklanish-uchun-raqibga-nisbatan-24-soatdan-kamroq-vaqt-bor-mourinyo-el-klasiko-haqida/"
+    "https://daryo.uz/2026/10/22/bizda-tiklanish-uchun-raqibga-nisbatan-24-soatdan-kamroq-vaqt-bor-mourinyo-el-klasiko-haqida/",
+    "https://sports.uz/oz/news/view/chelsining-yoli-ochildi-bavariya-barsa-yulduzi-uchun-kurashdan-chiqdi-22-10-2026"
   ],
   "used_quiz": [
     23
@@ -190,9 +191,10 @@
     "«Barselona» bir oyga muhim oʻyinchisiz qoldi",
     "O‘zbekiston Kubogi. Yarimfinalning barcha ishtirokchilari ma’lum bo‘ldi",
     "\"Manchester Yunayted\" inglizlar yuzini yerga qaratdi",
-    "“Bizda tiklanish uchun raqibga nisbatan 24 soatdan kamroq vaqt bor” — Mourinyo “El klasiko” haqida"
+    "“Bizda tiklanish uchun raqibga nisbatan 24 soatdan kamroq vaqt bor” — Mourinyo “El klasiko” haqida",
+    "“Chelsi”ning yo‘li ochildi: “Bavariya” “Barsa” yulduzi uchun kurashdan chiqdi"
   ],
-  "last_slot": "2026-10-22 11:30",
+  "last_slot": "2026-10-22 12:00",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -470,7 +472,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 149
+    "last_id": 150
   },
   "foto_cache": {
     "Camp Nou": {
@@ -507,7 +509,8 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Jos%C3%A9_Mourinho_20250206_%281%29.jpg/1280px-Jos%C3%A9_Mourinho_20250206_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Zafer",
       "license": "CC BY 4.0"
-    }
+    },
+    "Stamford Bridge": null
   },
   "matchday": {
     "401915312": "2026-10-21",
