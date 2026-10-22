@@ -149,7 +149,8 @@
     "https://sports.uz/oz/news/view/chelsining-yoli-ochildi-bavariya-barsa-yulduzi-uchun-kurashdan-chiqdi-22-10-2026"
   ],
   "used_quiz": [
-    23
+    23,
+    11
   ],
   "used_poll": [
     19,
@@ -194,7 +195,7 @@
     "“Bizda tiklanish uchun raqibga nisbatan 24 soatdan kamroq vaqt bor” — Mourinyo “El klasiko” haqida",
     "“Chelsi”ning yo‘li ochildi: “Bavariya” “Barsa” yulduzi uchun kurashdan chiqdi"
   ],
-  "last_slot": "2026-10-22 12:30",
+  "last_slot": "2026-10-22 13:30",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -472,7 +473,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 150
+    "last_id": 151
   },
   "foto_cache": {
     "Camp Nou": {
