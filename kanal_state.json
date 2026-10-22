@@ -146,7 +146,8 @@
     "yt:CRt7AEfryKY",
     "https://sports.uz/oz/news/view/manchester-yunayted-inglizlar-yuzini-erga-qaratdi",
     "https://daryo.uz/2026/10/22/bizda-tiklanish-uchun-raqibga-nisbatan-24-soatdan-kamroq-vaqt-bor-mourinyo-el-klasiko-haqida/",
-    "https://sports.uz/oz/news/view/chelsining-yoli-ochildi-bavariya-barsa-yulduzi-uchun-kurashdan-chiqdi-22-10-2026"
+    "https://sports.uz/oz/news/view/chelsining-yoli-ochildi-bavariya-barsa-yulduzi-uchun-kurashdan-chiqdi-22-10-2026",
+    "https://sports.uz/oz/news/view/xabi-alonso-trentni-chelsiga-olib-kelmoqchi-22-10-2026"
   ],
   "used_quiz": [
     23,
@@ -193,9 +194,10 @@
     "O‘zbekiston Kubogi. Yarimfinalning barcha ishtirokchilari ma’lum bo‘ldi",
     "\"Manchester Yunayted\" inglizlar yuzini yerga qaratdi",
     "“Bizda tiklanish uchun raqibga nisbatan 24 soatdan kamroq vaqt bor” — Mourinyo “El klasiko” haqida",
-    "“Chelsi”ning yo‘li ochildi: “Bavariya” “Barsa” yulduzi uchun kurashdan chiqdi"
+    "“Chelsi”ning yo‘li ochildi: “Bavariya” “Barsa” yulduzi uchun kurashdan chiqdi",
+    "Xabi Alonso Trentni «Chelsi»ga olib kelmoqchi"
   ],
-  "last_slot": "2026-10-22 13:30",
+  "last_slot": "2026-10-22 14:00",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -473,7 +475,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 151
+    "last_id": 152
   },
   "foto_cache": {
     "Camp Nou": {
@@ -511,7 +513,12 @@
       "author": "Zafer",
       "license": "CC BY 4.0"
     },
-    "Stamford Bridge": null
+    "Stamford Bridge": null,
+    "Xabi Alonso": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Los_Caminos_del_f%C3%BAtbol._Xabi_Alonso_%2839666778464%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "DONOSTIA KULTURA",
+      "license": "CC BY-SA 2.0"
+    }
   },
   "matchday": {
     "401915312": "2026-10-21",
