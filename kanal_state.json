@@ -151,7 +151,8 @@
     "yt:nC27tb_Uy78",
     "https://daryo.uz/2026/10/22/kuzgi-masala-manchester-yunaytedga-qanday-murabbiy-kerak/",
     "yt:K8TiBKu3a-Y",
-    "https://daryo.uz/2026/10/22/toshkent-metropoliteni-paxtakor-bekatidagi-tirbandlikka-izoh-berdi/"
+    "https://daryo.uz/2026/10/22/toshkent-metropoliteni-paxtakor-bekatidagi-tirbandlikka-izoh-berdi/",
+    "yt:eUCGPEghrMA"
   ],
   "used_quiz": [
     23,
@@ -204,9 +205,9 @@
     "“Kuzgi masala”. “Manchester Yunayted”ga qanday murabbiy kerak?",
     "Toshkent metropoliteni “Paxtakor” bekatidagi tirbandlikka izoh berdi"
   ],
-  "last_slot": "2026-10-22 21:30",
+  "last_slot": "2026-10-22 22:00",
   "scorers_idx": 4,
-  "last_video_source": "Premier League",
+  "last_video_source": "Serie A",
   "table_idx": 4,
   "live": {
     "401915403": {
@@ -478,29 +479,35 @@
     },
     "401915547": {
       "goals": [
-        "111-298.0"
+        "111-298.0",
+        "169-850.0"
       ],
       "ft": false,
       "score": [
         1,
-        0
+        1
       ],
       "lag": 0
     },
     "401915559": {
-      "goals": [],
+      "goals": [
+        "131-2046.0",
+        "131-2220.0"
+      ],
       "ft": false,
       "score": [
         0,
-        0
+        2
       ],
       "lag": 0
     },
     "401915557": {
-      "goals": [],
+      "goals": [
+        "3746-727.0"
+      ],
       "ft": false,
       "score": [
-        0,
+        1,
         0
       ],
       "lag": 0
@@ -511,7 +518,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 163
+    "last_id": 168
   },
   "foto_cache": {
     "Camp Nou": {
