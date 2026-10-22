@@ -149,7 +149,8 @@
     "https://sports.uz/oz/news/view/chelsining-yoli-ochildi-bavariya-barsa-yulduzi-uchun-kurashdan-chiqdi-22-10-2026",
     "https://sports.uz/oz/news/view/xabi-alonso-trentni-chelsiga-olib-kelmoqchi-22-10-2026",
     "yt:nC27tb_Uy78",
-    "https://daryo.uz/2026/10/22/kuzgi-masala-manchester-yunaytedga-qanday-murabbiy-kerak/"
+    "https://daryo.uz/2026/10/22/kuzgi-masala-manchester-yunaytedga-qanday-murabbiy-kerak/",
+    "yt:K8TiBKu3a-Y"
   ],
   "used_quiz": [
     23,
@@ -200,9 +201,9 @@
     "Xabi Alonso Trentni «Chelsi»ga olib kelmoqchi",
     "“Kuzgi masala”. “Manchester Yunayted”ga qanday murabbiy kerak?"
   ],
-  "last_slot": "2026-10-22 18:00",
+  "last_slot": "2026-10-22 19:00",
   "scorers_idx": 4,
-  "last_video_source": "Serie A",
+  "last_video_source": "Premier League",
   "table_idx": 4,
   "live": {
     "401915403": {
@@ -478,7 +479,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 159
+    "last_id": 160
   },
   "foto_cache": {
     "Camp Nou": {
