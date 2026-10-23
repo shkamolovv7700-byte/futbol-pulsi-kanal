@@ -170,7 +170,8 @@
     19,
     4,
     16,
-    9
+    9,
+    8
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -218,7 +219,7 @@
     "O‘zbekiston kubogi. Yarim final uchrashuvlari 24 noyabr kuni o‘tkaziladi",
     "“Paxtakor” — “An-Nassr” o‘yinining eng qimmat chiptalari 3 mln so‘mdan sotuvga chiqarildi"
   ],
-  "last_slot": "2026-10-23 19:30",
+  "last_slot": "2026-10-23 20:00",
   "scorers_idx": 5,
   "last_video_source": "UEFA",
   "table_idx": 5,
@@ -547,7 +548,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 190
+    "last_id": 191
   },
   "foto_cache": {
     "Camp Nou": {
