@@ -156,7 +156,8 @@
     "https://sports.uz/oz/news/view/mourino-barsa-hujumiga-qarshi-mukammal-qurol-topib-qo-ydi",
     "https://daryo.uz/2026/10/23/ozbekiston-va-ozarbayjonda-otkaziladigan-u-20-jahon-chempionatining-sanalari-malum-qilindi/",
     "https://daryo.uz/2026/10/23/eddi-xau-manchester-yunayted-bosh-murabbiyligiga-asosiy-nomzod/",
-    "https://sports.uz/oz/news/view/ozbekiston-kubogi-yarim-final-uchrashuvlari-24-noyabr-kuni-otkaziladi-23-10-2026"
+    "https://sports.uz/oz/news/view/ozbekiston-kubogi-yarim-final-uchrashuvlari-24-noyabr-kuni-otkaziladi-23-10-2026",
+    "yt:JUysfm3VT-A"
   ],
   "used_quiz": [
     23,
@@ -214,9 +215,9 @@
     "Eddi Xau — “Manchester Yunayted” bosh murabbiyligiga asosiy nomzod",
     "O‘zbekiston kubogi. Yarim final uchrashuvlari 24 noyabr kuni o‘tkaziladi"
   ],
-  "last_slot": "2026-10-23 15:30",
+  "last_slot": "2026-10-23 16:00",
   "scorers_idx": 5,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 4,
   "live": {
     "401915403": {
@@ -543,7 +544,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 185
+    "last_id": 186
   },
   "foto_cache": {
     "Camp Nou": {
