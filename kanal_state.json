@@ -160,7 +160,8 @@
     "yt:JUysfm3VT-A",
     "https://daryo.uz/2026/10/23/paxtakor-an-nassr-oyinining-eng-qimmat-chiptalari-3-mln-somdan-sotuvga-chiqarildi/",
     "yt:KI8iR7q4-PQ",
-    "https://sports.uz/oz/news/view/chelsi-barselona-va-bavariya-19-yoshli-himoyachini-ko-zlamoqda"
+    "https://sports.uz/oz/news/view/chelsi-barselona-va-bavariya-19-yoshli-himoyachini-ko-zlamoqda",
+    "yt:Q-XmSSvsO-Q"
   ],
   "used_quiz": [
     23,
@@ -221,9 +222,9 @@
     "“Paxtakor” — “An-Nassr” o‘yinining eng qimmat chiptalari 3 mln so‘mdan sotuvga chiqarildi",
     "«Chelsi», «Barselona» va «Bavariya» 19 yoshli himoyachini ko‘zlamoqda"
   ],
-  "last_slot": "2026-10-23 21:30",
+  "last_slot": "2026-10-23 22:00",
   "scorers_idx": 5,
-  "last_video_source": "UEFA",
+  "last_video_source": "LaLiga",
   "table_idx": 5,
   "live": {
     "401915403": {
@@ -550,7 +551,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 192
+    "last_id": 193
   },
   "foto_cache": {
     "Camp Nou": {
