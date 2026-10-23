@@ -155,7 +155,8 @@
     "yt:eUCGPEghrMA",
     "https://sports.uz/oz/news/view/mourino-barsa-hujumiga-qarshi-mukammal-qurol-topib-qo-ydi",
     "https://daryo.uz/2026/10/23/ozbekiston-va-ozarbayjonda-otkaziladigan-u-20-jahon-chempionatining-sanalari-malum-qilindi/",
-    "https://daryo.uz/2026/10/23/eddi-xau-manchester-yunayted-bosh-murabbiyligiga-asosiy-nomzod/"
+    "https://daryo.uz/2026/10/23/eddi-xau-manchester-yunayted-bosh-murabbiyligiga-asosiy-nomzod/",
+    "https://sports.uz/oz/news/view/ozbekiston-kubogi-yarim-final-uchrashuvlari-24-noyabr-kuni-otkaziladi-23-10-2026"
   ],
   "used_quiz": [
     23,
@@ -210,9 +211,10 @@
     "Toshkent metropoliteni “Paxtakor” bekatidagi tirbandlikka izoh berdi",
     "Mourin'yo \"Barsa\" hujumiga qarshi \"mukammal qurol\" topib qo'ydi",
     "O‘zbekiston va Ozarbayjonda o‘tkaziladigan U-20 Jahon chempionatining sanalari ma’lum qilindi",
-    "Eddi Xau — “Manchester Yunayted” bosh murabbiyligiga asosiy nomzod"
+    "Eddi Xau — “Manchester Yunayted” bosh murabbiyligiga asosiy nomzod",
+    "O‘zbekiston kubogi. Yarim final uchrashuvlari 24 noyabr kuni o‘tkaziladi"
   ],
-  "last_slot": "2026-10-23 13:30",
+  "last_slot": "2026-10-23 14:00",
   "scorers_idx": 4,
   "last_video_source": "Serie A",
   "table_idx": 4,
@@ -541,7 +543,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 183
+    "last_id": 184
   },
   "foto_cache": {
     "Camp Nou": {
