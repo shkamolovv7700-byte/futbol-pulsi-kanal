@@ -168,7 +168,8 @@
     "https://sports.uz/oz/news/view/chelsi-va-arsenal-dan-porlagan-o-yinchi-futboldan-haydaladigan-bo-lyapti",
     "yt:BoiaLRMdjDA",
     "https://sports.uz/oz/news/view/psj-matvey-safonovning-kelajagini-hal-qildi",
-    "yt:RWzvjOG2568"
+    "yt:RWzvjOG2568",
+    "https://sports.uz/oz/news/view/apl-chelsi-tottenxem-asosiy-tarkiblar-bilan-tanishing-24-10-2026"
   ],
   "used_quiz": [
     23,
@@ -234,9 +235,10 @@
     "“Liverpul” “Valensiya” qanot himoyachisi uchun 30 million yevro to‘lashga tayyor",
     "Trent \"Real\" bo‘yicha yakuniy qarorga keldi",
     "\"Chelsi\" va \"Arsenal\"dan porlagan oʻyinchi futboldan haydaladigan boʻlyapti",
-    "«PSJ» Matvey Safonovning kelajagini hal qildi"
+    "«PSJ» Matvey Safonovning kelajagini hal qildi",
+    "APL. «Chelsi» — «Tottenxem»: Asosiy tarkiblar bilan tanishing"
   ],
-  "last_slot": "2026-10-24 20:30",
+  "last_slot": "2026-10-24 21:00",
   "scorers_idx": 1,
   "last_video_source": "LaLiga",
   "table_idx": 6,
@@ -578,9 +580,18 @@
         "359-380.0",
         "359-4078.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         2,
+        0
+      ],
+      "lag": 0
+    },
+    "401874948": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
         0
       ],
       "lag": 0
@@ -591,7 +602,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 221
+    "last_id": 223
   },
   "foto_cache": {
     "Camp Nou": {
