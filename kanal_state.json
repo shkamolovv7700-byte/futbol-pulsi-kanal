@@ -231,7 +231,7 @@
     "Trent \"Real\" bo‘yicha yakuniy qarorga keldi",
     "\"Chelsi\" va \"Arsenal\"dan porlagan oʻyinchi futboldan haydaladigan boʻlyapti"
   ],
-  "last_slot": "2026-10-24 15:00",
+  "last_slot": "2026-10-24 15:30",
   "scorers_idx": 1,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -560,7 +560,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 205
+    "last_id": 206
   },
   "foto_cache": {
     "Camp Nou": {
@@ -628,6 +628,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Rodri_Argentina_v_Spain_19_July_2026-187_%28cropped%29.jpg/1280px-Rodri_Argentina_v_Spain_19_July_2026-187_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Emirates Stadium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/London_Emirates_Stadium_arsenal.jpg/1280px-London_Emirates_Stadium_arsenal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Arne Müseler",
+      "license": "CC BY-SA 3.0 de"
     }
   },
   "matchday": {
@@ -636,6 +641,7 @@
     "401915313": "2026-10-21",
     "401915547": "2026-10-22",
     "401915559": "2026-10-22",
-    "401915557": "2026-10-22"
+    "401915557": "2026-10-22",
+    "401878768": "2026-10-24"
   }
 }
