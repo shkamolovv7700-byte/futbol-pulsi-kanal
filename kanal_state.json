@@ -165,7 +165,8 @@
     "https://sports.uz/oz/news/view/ronalduning-paxtakor-ga-qarshi-o-yiniga-chiptalar-narxi-uchdi",
     "https://daryo.uz/2026/10/24/liverpul-valensiya-qanot-himoyachisi-uchun-30-million-yevro-tolashga-tayyor/",
     "https://sports.uz/oz/news/view/trent-real-bo-yicha-yakuniy-qarorga-keldi",
-    "https://sports.uz/oz/news/view/chelsi-va-arsenal-dan-porlagan-o-yinchi-futboldan-haydaladigan-bo-lyapti"
+    "https://sports.uz/oz/news/view/chelsi-va-arsenal-dan-porlagan-o-yinchi-futboldan-haydaladigan-bo-lyapti",
+    "yt:BoiaLRMdjDA"
   ],
   "used_quiz": [
     23,
@@ -231,9 +232,9 @@
     "Trent \"Real\" bo‘yicha yakuniy qarorga keldi",
     "\"Chelsi\" va \"Arsenal\"dan porlagan oʻyinchi futboldan haydaladigan boʻlyapti"
   ],
-  "last_slot": "2026-10-24 15:30",
+  "last_slot": "2026-10-24 16:00",
   "scorers_idx": 1,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 5,
   "live": {
     "401915403": {
@@ -560,7 +561,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 206
+    "last_id": 207
   },
   "foto_cache": {
     "Camp Nou": {
