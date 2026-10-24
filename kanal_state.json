@@ -164,7 +164,8 @@
     "yt:Q-XmSSvsO-Q",
     "https://sports.uz/oz/news/view/ronalduning-paxtakor-ga-qarshi-o-yiniga-chiptalar-narxi-uchdi",
     "https://daryo.uz/2026/10/24/liverpul-valensiya-qanot-himoyachisi-uchun-30-million-yevro-tolashga-tayyor/",
-    "https://sports.uz/oz/news/view/trent-real-bo-yicha-yakuniy-qarorga-keldi"
+    "https://sports.uz/oz/news/view/trent-real-bo-yicha-yakuniy-qarorga-keldi",
+    "https://daryo.uz/2026/10/24/madridliklar-qasos-otida-yonishmoqda-rodri/"
   ],
   "used_quiz": [
     23,
@@ -227,9 +228,10 @@
     "«Chelsi», «Barselona» va «Bavariya» 19 yoshli himoyachini ko‘zlamoqda",
     "Ronalduning \"Paxtakor\"ga qarshi oʻyiniga chiptalar narxi \"uchdi\"!",
     "“Liverpul” “Valensiya” qanot himoyachisi uchun 30 million yevro to‘lashga tayyor",
-    "Trent \"Real\" bo‘yicha yakuniy qarorga keldi"
+    "Trent \"Real\" bo‘yicha yakuniy qarorga keldi",
+    "“Madridliklar qasos o‘tida yonishmoqda” — Rodri"
   ],
-  "last_slot": "2026-10-24 13:30",
+  "last_slot": "2026-10-24 14:00",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -558,7 +560,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 202
+    "last_id": 203
   },
   "foto_cache": {
     "Camp Nou": {
@@ -621,6 +623,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Liverpool_anfield_road_stadium.jpg/1280px-Liverpool_anfield_road_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Arne Müseler",
       "license": "CC BY-SA 3.0 de"
+    },
+    "Rodri (footballer, born 1996)": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Rodri_Argentina_v_Spain_19_July_2026-187_%28cropped%29.jpg/1280px-Rodri_Argentina_v_Spain_19_July_2026-187_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
