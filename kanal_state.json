@@ -163,7 +163,7 @@
     "https://sports.uz/oz/news/view/chelsi-barselona-va-bavariya-19-yoshli-himoyachini-ko-zlamoqda",
     "yt:Q-XmSSvsO-Q",
     "https://sports.uz/oz/news/view/ronalduning-paxtakor-ga-qarshi-o-yiniga-chiptalar-narxi-uchdi",
-    "https://sports.uz/oz/news/view/trent-real-bo-yicha-yakuniy-qarorga-keldi"
+    "https://daryo.uz/2026/10/24/liverpul-valensiya-qanot-himoyachisi-uchun-30-million-yevro-tolashga-tayyor/"
   ],
   "used_quiz": [
     23,
@@ -224,9 +224,9 @@
     "“Paxtakor” — “An-Nassr” o‘yinining eng qimmat chiptalari 3 mln so‘mdan sotuvga chiqarildi",
     "«Chelsi», «Barselona» va «Bavariya» 19 yoshli himoyachini ko‘zlamoqda",
     "Ronalduning \"Paxtakor\"ga qarshi oʻyiniga chiptalar narxi \"uchdi\"!",
-    "Trent \"Real\" bo‘yicha yakuniy qarorga keldi"
+    "“Liverpul” “Valensiya” qanot himoyachisi uchun 30 million yevro to‘lashga tayyor"
   ],
-  "last_slot": "2026-10-24 11:00",
+  "last_slot": "2026-10-24 11:30",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -555,7 +555,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 198
+    "last_id": 199
   },
   "foto_cache": {
     "Camp Nou": {
@@ -613,6 +613,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/1280px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Anfield": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Liverpool_anfield_road_stadium.jpg/1280px-Liverpool_anfield_road_stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Arne Müseler",
+      "license": "CC BY-SA 3.0 de"
     }
   },
   "matchday": {
