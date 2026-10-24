@@ -169,7 +169,8 @@
     "yt:BoiaLRMdjDA",
     "https://sports.uz/oz/news/view/psj-matvey-safonovning-kelajagini-hal-qildi",
     "yt:RWzvjOG2568",
-    "https://sports.uz/oz/news/view/apl-chelsi-tottenxem-asosiy-tarkiblar-bilan-tanishing-24-10-2026"
+    "https://sports.uz/oz/news/view/apl-chelsi-tottenxem-asosiy-tarkiblar-bilan-tanishing-24-10-2026",
+    "yt:eslPLA89RcY"
   ],
   "used_quiz": [
     23,
@@ -238,9 +239,9 @@
     "«PSJ» Matvey Safonovning kelajagini hal qildi",
     "APL. «Chelsi» — «Tottenxem»: Asosiy tarkiblar bilan tanishing"
   ],
-  "last_slot": "2026-10-24 21:30",
+  "last_slot": "2026-10-24 22:00",
   "scorers_idx": 1,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 6,
   "live": {
     "401915403": {
@@ -589,11 +590,13 @@
     },
     "401874948": {
       "goals": [
-        "114-1629.0"
+        "114-1629.0",
+        "114-2853.0",
+        "114-2854.0"
       ],
       "ft": false,
       "score": [
-        1,
+        2,
         0
       ],
       "lag": 0
@@ -622,7 +625,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 224
+    "last_id": 226
   },
   "foto_cache": {
     "Camp Nou": {
