@@ -609,7 +609,7 @@
       "goals": [
         "124-4750.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         1,
         0
@@ -621,7 +621,7 @@
         "367-4580.0",
         "367-5187.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         0,
         2
@@ -634,7 +634,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 238
+    "last_id": 243
   },
   "foto_cache": {
     "Camp Nou": {
