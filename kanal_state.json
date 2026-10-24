@@ -161,7 +161,8 @@
     "https://daryo.uz/2026/10/23/paxtakor-an-nassr-oyinining-eng-qimmat-chiptalari-3-mln-somdan-sotuvga-chiqarildi/",
     "yt:KI8iR7q4-PQ",
     "https://sports.uz/oz/news/view/chelsi-barselona-va-bavariya-19-yoshli-himoyachini-ko-zlamoqda",
-    "yt:Q-XmSSvsO-Q"
+    "yt:Q-XmSSvsO-Q",
+    "https://sports.uz/oz/news/view/ronalduning-paxtakor-ga-qarshi-o-yiniga-chiptalar-narxi-uchdi"
   ],
   "used_quiz": [
     23,
@@ -220,9 +221,10 @@
     "Eddi Xau — “Manchester Yunayted” bosh murabbiyligiga asosiy nomzod",
     "O‘zbekiston kubogi. Yarim final uchrashuvlari 24 noyabr kuni o‘tkaziladi",
     "“Paxtakor” — “An-Nassr” o‘yinining eng qimmat chiptalari 3 mln so‘mdan sotuvga chiqarildi",
-    "«Chelsi», «Barselona» va «Bavariya» 19 yoshli himoyachini ko‘zlamoqda"
+    "«Chelsi», «Barselona» va «Bavariya» 19 yoshli himoyachini ko‘zlamoqda",
+    "Ronalduning \"Paxtakor\"ga qarshi oʻyiniga chiptalar narxi \"uchdi\"!"
   ],
-  "last_slot": "2026-10-23 22:30",
+  "last_slot": "2026-10-24 8:30",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -551,7 +553,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 193
+    "last_id": 194
   },
   "foto_cache": {
     "Camp Nou": {
@@ -604,6 +606,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Pakhtakor_Markaziy_Stadium.jpg/1280px-Pakhtakor_Markaziy_Stadium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Ekrem Canli",
       "license": "CC BY-SA 3.0"
+    },
+    "Cristiano Ronaldo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg/1280px-Cristiano_Ronaldo_Croatia_v_Portugal_2_July_2026-075_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
