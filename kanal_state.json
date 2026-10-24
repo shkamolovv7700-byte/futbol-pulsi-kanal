@@ -166,7 +166,8 @@
     "https://daryo.uz/2026/10/24/liverpul-valensiya-qanot-himoyachisi-uchun-30-million-yevro-tolashga-tayyor/",
     "https://sports.uz/oz/news/view/trent-real-bo-yicha-yakuniy-qarorga-keldi",
     "https://sports.uz/oz/news/view/chelsi-va-arsenal-dan-porlagan-o-yinchi-futboldan-haydaladigan-bo-lyapti",
-    "yt:BoiaLRMdjDA"
+    "yt:BoiaLRMdjDA",
+    "https://sports.uz/oz/news/view/psj-matvey-safonovning-kelajagini-hal-qildi"
   ],
   "used_quiz": [
     23,
@@ -230,9 +231,10 @@
     "Ronalduning \"Paxtakor\"ga qarshi oʻyiniga chiptalar narxi \"uchdi\"!",
     "“Liverpul” “Valensiya” qanot himoyachisi uchun 30 million yevro to‘lashga tayyor",
     "Trent \"Real\" bo‘yicha yakuniy qarorga keldi",
-    "\"Chelsi\" va \"Arsenal\"dan porlagan oʻyinchi futboldan haydaladigan boʻlyapti"
+    "\"Chelsi\" va \"Arsenal\"dan porlagan oʻyinchi futboldan haydaladigan boʻlyapti",
+    "«PSJ» Matvey Safonovning kelajagini hal qildi"
   ],
-  "last_slot": "2026-10-24 17:00",
+  "last_slot": "2026-10-24 18:00",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 6,
@@ -557,12 +559,14 @@
     },
     "401879256": {
       "goals": [
-        "362-354.0"
+        "362-354.0",
+        "362-3591.0",
+        "382-3117.0"
       ],
       "ft": false,
       "score": [
-        1,
-        0
+        2,
+        1
       ],
       "lag": 0
     }
@@ -572,7 +576,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 210
+    "last_id": 215
   },
   "foto_cache": {
     "Camp Nou": {
@@ -645,7 +649,13 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/London_Emirates_Stadium_arsenal.jpg/1280px-London_Emirates_Stadium_arsenal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Arne Müseler",
       "license": "CC BY-SA 3.0 de"
-    }
+    },
+    "Stadio Diego Armando Maradona": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Stadio_Maradona_Serie_A.jpg/1280px-Stadio_Maradona_Serie_A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Gaetano Capaldo",
+      "license": "CC BY 4.0"
+    },
+    "Parc des Princes": null
   },
   "matchday": {
     "401915312": "2026-10-21",
@@ -654,6 +664,8 @@
     "401915547": "2026-10-22",
     "401915559": "2026-10-22",
     "401915557": "2026-10-22",
-    "401878768": "2026-10-24"
+    "401878768": "2026-10-24",
+    "401874948": "2026-10-24",
+    "401878767": "2026-10-24"
   }
 }
