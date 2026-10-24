@@ -239,7 +239,7 @@
     "«PSJ» Matvey Safonovning kelajagini hal qildi",
     "APL. «Chelsi» — «Tottenxem»: Asosiy tarkiblar bilan tanishing"
   ],
-  "last_slot": "2026-10-24 22:00",
+  "last_slot": "2026-10-24 22:30",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 6,
@@ -590,14 +590,18 @@
     },
     "401874948": {
       "goals": [
+        "104-4138.0",
+        "104-4421.0",
+        "104-5294.0",
         "114-1629.0",
         "114-2853.0",
-        "114-2854.0"
+        "114-2854.0",
+        "114-4925.0"
       ],
       "ft": false,
       "score": [
-        2,
-        0
+        3,
+        3
       ],
       "lag": 0
     },
@@ -625,7 +629,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 226
+    "last_id": 230
   },
   "foto_cache": {
     "Camp Nou": {
