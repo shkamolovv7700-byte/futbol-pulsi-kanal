@@ -169,7 +169,8 @@
   "used_quiz": [
     23,
     11,
-    34
+    34,
+    14
   ],
   "used_poll": [
     19,
@@ -228,7 +229,7 @@
     "“Liverpul” “Valensiya” qanot himoyachisi uchun 30 million yevro to‘lashga tayyor",
     "Trent \"Real\" bo‘yicha yakuniy qarorga keldi"
   ],
-  "last_slot": "2026-10-24 12:30",
+  "last_slot": "2026-10-24 13:00",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -557,7 +558,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 199
+    "last_id": 201
   },
   "foto_cache": {
     "Camp Nou": {
