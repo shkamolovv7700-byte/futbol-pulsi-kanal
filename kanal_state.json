@@ -632,7 +632,7 @@
       "goals": [
         "1068-2828.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         1,
         0
