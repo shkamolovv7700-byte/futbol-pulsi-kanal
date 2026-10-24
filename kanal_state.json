@@ -232,7 +232,7 @@
     "Trent \"Real\" bo‘yicha yakuniy qarorga keldi",
     "\"Chelsi\" va \"Arsenal\"dan porlagan oʻyinchi futboldan haydaladigan boʻlyapti"
   ],
-  "last_slot": "2026-10-24 16:00",
+  "last_slot": "2026-10-24 16:30",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 5,
@@ -554,6 +554,15 @@
         0
       ],
       "lag": 0
+    },
+    "401879256": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -561,7 +570,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 207
+    "last_id": 208
   },
   "foto_cache": {
     "Camp Nou": {
