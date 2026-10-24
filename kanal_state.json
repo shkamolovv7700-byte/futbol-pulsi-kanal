@@ -165,7 +165,7 @@
     "https://sports.uz/oz/news/view/ronalduning-paxtakor-ga-qarshi-o-yiniga-chiptalar-narxi-uchdi",
     "https://daryo.uz/2026/10/24/liverpul-valensiya-qanot-himoyachisi-uchun-30-million-yevro-tolashga-tayyor/",
     "https://sports.uz/oz/news/view/trent-real-bo-yicha-yakuniy-qarorga-keldi",
-    "https://daryo.uz/2026/10/24/madridliklar-qasos-otida-yonishmoqda-rodri/"
+    "https://sports.uz/oz/news/view/chelsi-va-arsenal-dan-porlagan-o-yinchi-futboldan-haydaladigan-bo-lyapti"
   ],
   "used_quiz": [
     23,
@@ -229,9 +229,9 @@
     "Ronalduning \"Paxtakor\"ga qarshi oʻyiniga chiptalar narxi \"uchdi\"!",
     "“Liverpul” “Valensiya” qanot himoyachisi uchun 30 million yevro to‘lashga tayyor",
     "Trent \"Real\" bo‘yicha yakuniy qarorga keldi",
-    "“Madridliklar qasos o‘tida yonishmoqda” — Rodri"
+    "\"Chelsi\" va \"Arsenal\"dan porlagan oʻyinchi futboldan haydaladigan boʻlyapti"
   ],
-  "last_slot": "2026-10-24 14:00",
+  "last_slot": "2026-10-24 14:30",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -560,7 +560,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 203
+    "last_id": 204
   },
   "foto_cache": {
     "Camp Nou": {
