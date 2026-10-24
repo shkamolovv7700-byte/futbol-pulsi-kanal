@@ -234,7 +234,7 @@
     "\"Chelsi\" va \"Arsenal\"dan porlagan oʻyinchi futboldan haydaladigan boʻlyapti",
     "«PSJ» Matvey Safonovning kelajagini hal qildi"
   ],
-  "last_slot": "2026-10-24 18:00",
+  "last_slot": "2026-10-24 18:30",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 6,
@@ -563,7 +563,7 @@
         "362-3591.0",
         "382-3117.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         2,
         1
@@ -576,7 +576,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 215
+    "last_id": 216
   },
   "foto_cache": {
     "Camp Nou": {
