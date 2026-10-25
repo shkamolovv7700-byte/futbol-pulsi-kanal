@@ -175,7 +175,8 @@
     "https://sports.uz/oz/news/view/o-zbekiston-iftixori-qozog-istondagi-jahon-chempionatida-ishtirok-etmaslik-sababini-tushuntirdi",
     "https://sports.uz/oz/news/view/rodri-real-tuzog-i-ga-tushmaymiz",
     "https://kun.uz/news/2026/10/25/siti-ilk-bor-yutqazdi-arsenal-yetib-oldi",
-    "yt:M3_T-52UZR4"
+    "yt:M3_T-52UZR4",
+    "https://daryo.uz/2026/10/25/el-klassiko-oldidan-realda-yoqotish-kurtua-gripp-sababli-oyinda-qatnashmaydi/"
   ],
   "used_quiz": [
     23,
@@ -247,9 +248,10 @@
     "Jahon chempionati. O‘zbekiston va Qozog‘iston teng miqdordagi bokschi bilan yarim finalga yetib keldi",
     "O‘zbekiston iftixori Qozog‘istondagi jahon chempionatida ishtirok etmaslik sababini tushuntirdi",
     "Rodri: \"Real\" \"tuzo‘g‘i\"ga tushmaymiz",
-    "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi."
+    "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi.",
+    "“El-Klassiko” oldidan “Real”da yo‘qotish: Kurtua gripp sababli o‘yinda qatnashmaydi"
   ],
-  "last_slot": "2026-10-25 17:30",
+  "last_slot": "2026-10-25 18:30",
   "scorers_idx": 2,
   "last_video_source": "LaLiga",
   "table_idx": 1,
@@ -650,11 +652,14 @@
       "lag": 0
     },
     "401875036": {
-      "goals": [],
+      "goals": [
+        "109-3846.0",
+        "110-5400.0"
+      ],
       "ft": false,
       "score": [
-        0,
-        0
+        2,
+        1
       ],
       "lag": 0
     }
@@ -664,7 +669,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 261
+    "last_id": 264
   },
   "foto_cache": {
     "Camp Nou": {
@@ -748,6 +753,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/City_of_Manchester_Stadium_2023_cropped.jpg/1280px-City_of_Manchester_Stadium_2023_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Arne Müseler, cropped by Blackcat",
       "license": "CC BY-SA 3.0 de"
+    },
+    "Thibaut Courtois": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg/1280px-Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
