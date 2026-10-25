@@ -478,11 +478,28 @@ def hour_plan(hour: int, half: bool = False) -> list:
 
 # ---------- Jonli gollar ----------
 
+def score_card(ev: dict, score, label: str, goals: list, photo_of: str = "", highlight: str = ""):
+    """Namunadagidek gol / yakun rasmi: orqada gol urgan futbolchi surati (bo'lmasa stadion), logotiplar bilan hisob."""
+    cache = state.setdefault("foto_cache", {})
+    found = foto.player_photo(photo_of, cache) if photo_of else None
+    if found:
+        photo, credit = found[0], f"Foto: {found[1]['author']} · {found[1]['license']} · Wikimedia"
+    else:
+        st = foto.stadium_photo(ev.get("home_full") or ev["home"], cache)
+        photo, credit = (st[0], st[1]) if st else (None, "")
+    scorers = [(g["scorer"] + (" (a/g)" if g["og"] else " (p)" if g["pen"] else ""), g["minute"])
+               for g in goals if g.get("scorer")]
+    return rasm.score_photo_card(photo, foto.logo(ev.get("home_logo", "")), foto.logo(ev.get("away_logo", "")),
+                                 uz_team(ev["home"]), uz_team(ev["away"]), score[0], score[1], label, scorers,
+                                 credit, highlight)
+
+
 async def send_goal(client: TelegramClient, channel, ev: dict, goal: dict | None, home_id: str, score: list) -> None:
     team = ev["home"] if home_id == ev["home_id"] else ev["away"]
-    scorer = f"{goal['scorer']} — {team}" if goal and goal["scorer"] else team
     minute = goal["minute"] if goal else ev["clock"]
-    image = rasm.goal_card(ev["league"][1], ev["home"], ev["away"], score[0], score[1], minute, scorer)
+    upto = ev["goals"][: ev["goals"].index(goal) + 1] if goal in ev["goals"] else ev["goals"]
+    name = goal["scorer"] if goal else ""
+    image = await asyncio.to_thread(score_card, ev, score, f"GOOOL! {minute}", upto, name, name)
     caption = statistika.goal_post(ev, goal, score[0], score[1], team, minute)
     await client.send_file(channel, image, caption=caption + channel_footer(), parse_mode="html")
     log.info("GOL: %s %s:%s %s (%s)", ev["home"], score[0], score[1], ev["away"], minute)
@@ -530,11 +547,57 @@ UZ_TEAMS = {"Bayern Munich": "Bavariya", "Barcelona": "Barselona", "Manchester C
             "PSG": "PSJ", "Atlético Madrid": "Atletiko", "Atletico Madrid": "Atletiko", "Borussia Dortmund": "Borussiya D",
             "Dortmund": "Borussiya D", "Internazionale": "Inter", "Inter Milan": "Inter", "Tottenham Hotspur": "Tottenhem",
             "Spurs": "Tottenhem", "Bayer Leverkusen": "Bayer", "Leverkusen": "Bayer", "Newcastle United": "Nyukasl",
-            "Newcastle": "Nyukasl", "Marseille": "Marsel", "AS Roma": "Roma", "Sevilla": "Sevilya"}
+            "Newcastle": "Nyukasl", "Marseille": "Marsel", "AS Roma": "Roma", "Sevilla": "Sevilya",
+            "Man Utd": "Manchester Yunayted", "Bournemouth": "Bornmut", "Nottm Forest": "Nottingem", "Wolves": "Vulvz",
+            "Brighton": "Brayton", "Atlético": "Atletiko", "Bayern": "Bavariya", "AC Milan": "Milan", "Lazio": "Latsio",
+            "Real Sociedad": "Real Sosyedad", "Villarreal": "Vilyarreal", "Valencia": "Valensiya", "Leipzig": "Leypsig",
+            "RB Leipzig": "Leypsig", "Frankfurt": "Ayntraxt", "Monaco": "Monako", "Lyon": "Lion", "Lille": "Lill"}
 
 
 def uz_team(name: str) -> str:
     return UZ_TEAMS.get(name, name)
+
+
+def poster(ev: dict, bottom1: str, bottom2: str):
+    """El Klasiko afishasidagidek: stadion foni, logotiplar, ikki jamoaning eng yaxshi to'purarlari, oltin sarlavha."""
+    cache = state.setdefault("foto_cache", {})
+    code = ev["league"][0]
+    credits, photos = [], []
+    for team_id in (ev["home_id"], ev["away_id"]):
+        found = foto.player_photo(statistika.team_star(code, team_id) or "", cache)
+        photos.append(found[0] if found else None)
+        if found:
+            credits.append(f"{found[1]['author']} ({found[1]['license']})")
+    st = foto.stadium_photo(ev.get("home_full") or ev["home"], cache)
+    if st:
+        credits.insert(0, st[1].replace("Foto: ", "").replace(" · Wikimedia", ""))
+    home, away = uz_team(ev["home"]), uz_team(ev["away"])
+    title = statistika.match_title(ev, home, away)
+    league = ev["league"][1]
+    return rasm.matchday_poster(st[0] if st else None, foto.logo(ev.get("home_logo", "")), foto.logo(ev.get("away_logo", "")),
+                                photos[0], photos[1], title, league, bottom1, bottom2,
+                                ("Foto: Wikimedia Commons — " + ", ".join(credits)) if credits else "")
+
+
+async def post_kickoff(client: TelegramClient, channel, ev: dict) -> None:
+    """#MATCHDAY qilingan o'yin boshlanganda "UCHRASHUV BOSHLANDI" afishasi (bir marta)."""
+    started = state.setdefault("kickoff", {})
+    if ev["id"] in started or ev["id"] not in state.get("matchday", {}):
+        return
+    minute = int(re.sub(r"\D", "", ev["clock"] or "0") or 0)
+    started[ev["id"]] = today()
+    save_state()
+    if minute > 20:  # kech ko'rdik - afisha endi kerak emas
+        return
+    image = await asyncio.to_thread(poster, ev, "Uchrashuv boshlandi", "Gollar kanalda jonli ⚡")
+    _, league, flag, _ = ev["league"]
+    caption = (f"🟢 <b>UCHRASHUV BOSHLANDI!</b>\n\n{flag} {html.escape(league)}\n"
+               f"⚔️ <b>«{html.escape(uz_team(ev['home']))}» vs «{html.escape(uz_team(ev['away']))}»</b>\n\n"
+               f"Gollar shu yerda jonli chiqadi ⚡️\n\n⚽️ @{USERNAME} — futbol olami bir joyda")
+    await client.send_file(channel, image, caption=caption, parse_mode="html")
+    for key in list(started)[:-50]:
+        del started[key]
+    log.info("Uchrashuv boshlandi: %s - %s", ev["home"], ev["away"])
 
 
 async def post_matchday(client: TelegramClient, channel, events: list) -> None:
@@ -548,24 +611,17 @@ async def post_matchday(client: TelegramClient, channel, events: list) -> None:
         left = ev["kickoff"] - now
         if ev["state"] != "pre" or ev["id"] in done or not timedelta(hours=2, minutes=30) <= left <= timedelta(hours=3, minutes=30):
             continue
-        if not (statistika.is_big(ev["home"]) or statistika.is_big(ev["away"])):
+        if not (statistika.is_big(ev.get("home_full", ev["home"])) or statistika.is_big(ev.get("away_full", ev["away"]))):
             continue
         _, league, flag, tag = ev["league"]
         when = ev["kickoff"].astimezone(statistika.TASHKENT).strftime("%H:%M")
-        photo = await asyncio.to_thread(foto.stadium_photo, ev["home"], state.setdefault("foto_cache", {}))
         home, away = uz_team(ev["home"]), uz_team(ev["away"])
         title = f"{home} vs {away}"
-        if photo:
-            image = await asyncio.to_thread(rasm.photo_card, photo[0], title, "#MATCHDAY", photo[1], f"{league} · Bugun {when}")
-        else:
-            image = await asyncio.to_thread(rasm.news_card, title, f"{league} · Bugun {when} (Toshkent vaqti)", "ESPN", "#MATCHDAY")
+        image = await asyncio.to_thread(poster, ev, f"Bugun {when}", "Toshkent vaqti bilan")
         caption = (f"🔥 #MATCHDAY\n\n{flag} {html.escape(league)}\n\n"
                    f"⚔️ <b>«{html.escape(home)}» vs «{html.escape(away)}»</b>\n\n"
                    f"🗓 Bugun | {when}\n\nKim yutadi? Izohlarda yozing 👇\n\n⚽️ @{USERNAME} — futbol olami bir joyda")
-        # mobilograf: stadion kadri sekin yaqinlashadi, keyin "kim yutadi" slaydi
-        ask = rasm.news_card("Kim yutadi?", f"{home} yoki {away} — fikringizni izohlarda yozing", "Futbol Pulsi", "#MATCHDAY")
-        clip = await asyncio.to_thread(video.slideshow, [image, ask], [5, 3])
-        await send_media(client, channel, video.to_upload(*clip), caption)
+        await client.send_file(channel, image, caption=caption, parse_mode="html")
         done[ev["id"]] = day
         save_state()
         log.info("MATCHDAY: %s", title)
@@ -589,6 +645,11 @@ async def post_live(client: TelegramClient, channel) -> bool:
             active = True
         if ev["state"] == "pre":
             continue
+        if ev["state"] == "in":
+            try:
+                await post_kickoff(client, channel, ev)
+            except Exception as e:
+                log.error("Boshlanish afishasi xatosi: %r", e)
         cur = (int(ev["hs"] or 0), int(ev["as"] or 0))
         info = live.get(ev["id"])
         if info is None:
@@ -600,23 +661,27 @@ async def post_live(client: TelegramClient, channel) -> bool:
                 "score": [sum(g["team"] == ev["home_id"] for g in old), sum(g["team"] == ev["away_id"] for g in old)]}
         await post_score_change(client, channel, ev, info, cur)
         if ev["state"] == "post" and not info["ft"]:
-            scorers = [f"{g['minute']} {g['scorer']}" + (" (a/g)" if g["og"] else " (p)" if g["pen"] else "")
-                       for g in ev["goals"]]
-            image = rasm.final_card(ev["league"][1], ev["home"], ev["away"], ev["hs"], ev["as"], scorers)
+            # orqa fonga g'olib jamoaning eng ko'p gol urgan futbolchisi (durangda - oxirgi gol muallifi)
+            winner_id = ev["home_id"] if cur[0] > cur[1] else ev["away_id"] if cur[1] > cur[0] else None
+            pool = [g["scorer"] for g in ev["goals"] if g["scorer"] and not g["og"] and (winner_id is None or g["team"] == winner_id)]
+            hero = max(set(pool), key=pool.count) if pool else ""
+            image = await asyncio.to_thread(score_card, ev, cur, "O'YIN YAKUNI", ev["goals"], hero)
             media = image
-            if ev["goals"] and (statistika.is_big(ev["home"]) or statistika.is_big(ev["away"])):
+            if ev["goals"] and (statistika.is_big(ev.get("home_full", ev["home"])) or statistika.is_big(ev.get("away_full", ev["away"]))):
                 # mobilograf: katta o'yin yakuni videosi - har bir gol ketma-ket, oxirida yakuniy hisob
                 score, slides = [0, 0], []
-                for g in ev["goals"][:8]:
+                for i, g in enumerate(ev["goals"][:8]):
                     score[0 if g["team"] == ev["home_id"] else 1] += 1
-                    team = ev["home"] if g["team"] == ev["home_id"] else ev["away"]
-                    slides.append(rasm.goal_card(ev["league"][1], ev["home"], ev["away"], score[0], score[1], g["minute"],
-                                                 f"{g['scorer']} — {team}" if g["scorer"] else team))
+                    slides.append(await asyncio.to_thread(score_card, ev, list(score), f"GOOOL! {g['minute']}",
+                                                          ev["goals"][: i + 1], g["scorer"], g["scorer"]))
+                image.seek(0)
                 try:
-                    clip = await asyncio.to_thread(video.slideshow, slides + [image], [2.2] * len(slides) + [4])
-                    media = video.to_upload(*clip)
+                    clip = await asyncio.to_thread(video.slideshow, slides + [image], [2.2] * len(slides) + [4],
+                                                   video.PORTRAIT)
+                    media = video.to_upload(*clip, video.PORTRAIT)
                 except Exception as e:  # video chiqmasa - rasm bilan
                     log.error("Yakun videosi yasalmadi: %r", e)
+                    image.seek(0)
             await send_media(client, channel, media, statistika.final_post(ev)[:1000] + channel_footer())
             info["ft"] = True
             save_state()

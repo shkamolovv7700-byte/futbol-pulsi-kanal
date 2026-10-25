@@ -17,11 +17,12 @@ from PIL import Image
 import rasm
 
 W, H, FPS = 1280, 720, 25
+PORTRAIT = (1080, 1350)  # gol / yakun rasmlari tik - video ham tik bo'ladi
 FADE = 0.5  # soniya
 
 
-def _fit(image: Image.Image) -> Image.Image:
-    """Har qanday o'lchamdagi kartochkani 1280x720 kadrga joylaydi (ortiqcha joy kanal foni bilan to'ladi)."""
+def _fit(image: Image.Image, W: int = W, H: int = H) -> Image.Image:
+    """Har qanday o'lchamdagi kartochkani kadrga joylaydi (ortiqcha joy kanal foni bilan to'ladi)."""
     image = image.convert("RGB")
     if abs(image.width / image.height - W / H) < 0.02:
         return image.resize((W, H))
@@ -34,13 +35,14 @@ def _fit(image: Image.Image) -> Image.Image:
 
 def _zoom(image: Image.Image, t: float) -> Image.Image:
     """t: 0..1 - kadr 1.0 dan 1.07 gacha sekin kattalashadi (markazdan)."""
+    W, H = image.size
     z = 1.0 + 0.07 * t
     w, h = W / z, H / z
     left, top = (W - w) / 2, (H - h) / 2
     return image.resize((W, H), Image.BILINEAR, box=(left, top, left + w, top + h))
 
 
-def slideshow(slides: list, seconds: list[float] | float = 3.5) -> tuple[bytes, float]:
+def slideshow(slides: list, seconds: list[float] | float = 3.5, size: tuple = (W, H)) -> tuple[bytes, float]:
     """slides: PIL rasmlari yoki BytesIO/bayt. Natija: (mp4 bayt, davomiyligi soniyada)."""
     frames = []
     for s in slides:
@@ -49,13 +51,13 @@ def slideshow(slides: list, seconds: list[float] | float = 3.5) -> tuple[bytes, 
         if isinstance(s, io.BytesIO):
             s.seek(0)
             s = Image.open(s)
-        frames.append(_fit(s))
+        frames.append(_fit(s, *size))
     durations = seconds if isinstance(seconds, list) else [seconds] * len(frames)
     total = sum(durations)
     out = tempfile.NamedTemporaryFile(suffix=".mp4", delete=False)
     out.close()
     cmd = [imageio_ffmpeg.get_ffmpeg_exe(), "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24",
-           "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-pix_fmt", "yuv420p",
+           "-s", f"{size[0]}x{size[1]}", "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-pix_fmt", "yuv420p",
            "-preset", "veryfast", "-crf", "24", "-movflags", "+faststart", out.name]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     try:
@@ -77,9 +79,9 @@ def slideshow(slides: list, seconds: list[float] | float = 3.5) -> tuple[bytes, 
     return data, total
 
 
-def to_upload(data: bytes, duration: float):
+def to_upload(data: bytes, duration: float, size: tuple = (W, H)):
     """Telethon uchun: fayl va video atributlari (Telegram uni oqimli video sifatida ko'rsatadi)."""
     from telethon.tl.types import DocumentAttributeVideo
     buf = io.BytesIO(data)
     buf.name = "futbolpulsi.mp4"
-    return buf, [DocumentAttributeVideo(duration=int(duration), w=W, h=H, supports_streaming=True)]
+    return buf, [DocumentAttributeVideo(duration=int(duration), w=size[0], h=size[1], supports_streaming=True)]

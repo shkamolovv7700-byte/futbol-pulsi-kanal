@@ -169,9 +169,44 @@ def live_events() -> list[dict]:
                     "kickoff": datetime.fromisoformat(ev["date"].replace("Z", "+00:00")),
                     "home": home["team"]["shortDisplayName"], "away": away["team"]["shortDisplayName"],
                     "home_id": home["team"]["id"], "away_id": away["team"]["id"],
+                    "home_full": home["team"]["displayName"], "away_full": away["team"]["displayName"],
+                    "home_logo": home["team"].get("logo", ""), "away_logo": away["team"].get("logo", ""),
                     "hs": home.get("score", "0"), "as": away.get("score", "0"), "goals": goals,
                 })
     return events
+
+
+_stars: dict = {}
+
+
+def team_star(code: str, team_id: str) -> str | None:
+    """Jamoaning shu mavsumdagi eng ko'p gol urgan futbolchisi (ESPN statistikasi) - afisha uchun."""
+    if code not in _stars:
+        try:
+            data = get(f"{API}/site/v2/sports/soccer/{code}/statistics")
+            goals = next((s for s in data.get("stats", []) if s.get("name") == "goalsLeaders"), {})
+            _stars[code] = [(str((l["athlete"].get("team") or {}).get("id", "")), l["athlete"]["displayName"])
+                            for l in goals.get("leaders", [])]
+        except Exception:
+            _stars[code] = []
+    return next((name for tid, name in _stars[code] if tid == str(team_id)), None)
+
+
+DERBIES = {
+    frozenset({"Real Madrid", "Barcelona"}): "El Klasiko",
+    frozenset({"Manchester United", "Manchester City"}): "Manchester derbisi",
+    frozenset({"Arsenal", "Tottenham Hotspur"}): "Shimoliy London derbisi",
+    frozenset({"Liverpool", "Everton"}): "Merseysayd derbisi",
+    frozenset({"Internazionale", "AC Milan"}): "Milan derbisi",
+    frozenset({"Bayern Munich", "Borussia Dortmund"}): "Der Klassiker",
+    frozenset({"Atlético Madrid", "Real Madrid"}): "Madrid derbisi",
+    frozenset({"Liverpool", "Manchester United"}): "Shimoli-g'arb derbisi",
+    frozenset({"Juventus", "Internazionale"}): "Italiya derbisi",
+}
+
+
+def match_title(ev: dict, home_uz: str, away_uz: str) -> str:
+    return DERBIES.get(frozenset({ev.get("home_full", ""), ev.get("away_full", "")}), f"{home_uz} — {away_uz}")
 
 
 def goal_post(ev: dict, goal: dict | None, hs: int, as_: int, team: str, minute: str) -> str:

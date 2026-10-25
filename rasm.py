@@ -165,6 +165,192 @@ def photo_card(photo: bytes, title: str, tag: str, credit: str, sub: str = "") -
     return to_file(img)
 
 
+def _cover(photo: bytes, W: int, H: int, focus_top: float = 0.2) -> Image.Image:
+    src = Image.open(io.BytesIO(photo)).convert("RGB")
+    scale = max(W / src.width, H / src.height)
+    src = src.resize((int(src.width * scale) + 1, int(src.height * scale) + 1))
+    top = max(0, int((src.height - H) * focus_top))
+    left = (src.width - W) // 2
+    return src.crop((left, top, left + W, top + H))
+
+
+def _hexagon(cx: float, cy: float, w: float, h: float) -> list:
+    q = w * 0.18
+    return [(cx - w / 2 + q, cy - h / 2), (cx + w / 2 - q, cy - h / 2), (cx + w / 2, cy),
+            (cx + w / 2 - q, cy + h / 2), (cx - w / 2 + q, cy + h / 2), (cx - w / 2, cy)]
+
+
+def score_photo_card(photo: bytes | None, home_logo: bytes | None, away_logo: bytes | None, home: str, away: str,
+                     hs, as_, label: str, scorers: list[tuple[str, str]], credit: str = "",
+                     highlight: str = "") -> io.BytesIO:
+    """Gol / o'yin yakuni posti (tik, 1080x1350): orqada futbolchi surati, o'rtada logotiplar bilan hisob,
+    ostida gol urganlar. scorers: [(ism, daqiqa)]; highlight - shu golni ajratib ko'rsatish."""
+    W, H = 1080, 1350
+    img = _cover(photo, W, H) if photo else canvas(W, H)[0]
+    shade = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(shade)
+    for y in range(H):
+        a = int(70 + 185 * max(0.0, (y - H * 0.42) / (H * 0.58)) ** 1.1) if y > H * 0.42 else 70
+        sd.line([(0, y), (W, y)], fill=(4, 8, 12, min(a, 245)))
+    img.paste(shade, (0, 0), shade)
+    d = ImageDraw.Draw(img, "RGBA")
+    # chetlardagi tik yozuv (brend suv belgisi)
+    fw = font("head", 26)
+    side = Image.new("RGBA", (H, 40), (0, 0, 0, 0))
+    ImageDraw.Draw(side).text((10, 4), ("   " + BRAND) * 9, font=fw, fill=(255, 255, 255, 60))
+    img.paste(side.rotate(90, expand=True), (14, 0), side.rotate(90, expand=True))
+    img.paste(side.rotate(90, expand=True), (W - 54, 0), side.rotate(90, expand=True))
+    d = ImageDraw.Draw(img, "RGBA")
+    # yorliq
+    f = font("head", 40)
+    tw = d.textlength(label, font=f)
+    d.rounded_rectangle((80, 60, 80 + tw + 44, 124), radius=12, fill=ORANGE)
+    d.text((102, 62), label, font=f, fill=WHITE)
+    # hisob paneli: [logo] 0 | 3 [logo]
+    cy, pw, ph = 900, 900, 200
+    d.rounded_rectangle(((W - pw) / 2, cy - ph / 2 + 15, (W + pw) / 2, cy + ph / 2 - 15), radius=8,
+                        fill=(10, 14, 20, 200), outline=(255, 255, 255, 60), width=2)
+    for side_x, logo, edge in ((W / 2 - pw / 2 + 120, home_logo, (225, 40, 40)), (W / 2 + pw / 2 - 120, away_logo, (220, 30, 40))):
+        d.polygon(_hexagon(side_x, cy, 250, ph), fill=(12, 12, 14, 255), outline=ORANGE, width=4)
+        if logo:
+            lg = Image.open(io.BytesIO(logo)).convert("RGBA")
+            lg.thumbnail((150, 150))
+            img.paste(lg, (int(side_x - lg.width / 2), int(cy - lg.height / 2)), lg)
+    d = ImageDraw.Draw(img, "RGBA")
+    fs = font("head", 150)
+    for txt, x in ((str(hs), W / 2 - 70), (str(as_), W / 2 + 70)):
+        d.text((x - d.textlength(txt, font=fs) / 2, cy - 105), txt, font=fs, fill=WHITE)
+    d.line((W / 2, cy - 50, W / 2, cy + 50), fill=(255, 255, 255, 120), width=3)
+    # jamoa nomlari logotiplar ostida
+    fn = font("head", 30, "SemiBold")
+    for name, x in ((home, W / 2 - pw / 2 + 120), (away, W / 2 + pw / 2 - 120)):
+        n = fit(d, clean(name).upper(), fn, 260)
+        d.text((x - d.textlength(n, font=fn) / 2, cy + ph / 2 + 4), n, font=fn, fill=GREY)
+    # gol urganlar ro'yxati (o'ngda, namunadagidek)
+    fl, fm = font("head", 34, "SemiBold"), font("head", 34)
+    y = cy + ph / 2 + 60
+    for name, minute in scorers[-6:]:
+        nm = clean(name).upper()
+        color = ORANGE if highlight and highlight == name else WHITE
+        mw = d.textlength(minute, font=fm)
+        nw = d.textlength(nm, font=fl)
+        d.text((W - 110 - mw - 16 - nw, y), nm, font=fl, fill=color)
+        d.text((W - 110 - mw, y), minute, font=fm, fill=ORANGE)
+        y += 46
+    # pastdagi brend
+    fb = font("head", 54)
+    d.text(((W - d.textlength(BRAND, font=fb)) / 2, H - 150), BRAND, font=fb, fill=WHITE)
+    fc = font("body", 24, "SemiBold")
+    d.text(((W - d.textlength(CHANNEL, font=fc)) / 2, H - 66), CHANNEL, font=fc, fill=ORANGE)
+    if credit:
+        fcr = font("body", 15, "Regular")
+        c = fit(d, clean(credit), fcr, W * 0.55)
+        d.text((W - 70 - d.textlength(c, font=fcr), 140), c, font=fcr, fill=(210, 210, 210))
+    return to_file(img)
+
+
+GOLD_TOP, GOLD_BOTTOM = (255, 236, 170), (214, 150, 40)
+
+
+def _gold_text(img: Image.Image, text: str, f, cx: float, y: float, glow: tuple = (255, 170, 60)) -> None:
+    """Oltin rangli, porlaydigan katta yozuv (afishalar uchun)."""
+    d0 = ImageDraw.Draw(img)
+    w = int(d0.textlength(text, font=f)) + 20
+    h = f.size + 40
+    mask = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(mask).text((10, 5), text, font=f, fill=255)
+    grad = Image.new("RGB", (w, h))
+    gd = ImageDraw.Draw(grad)
+    for yy in range(h):
+        t = yy / h
+        gd.line([(0, yy), (w, yy)], fill=tuple(int(a + (b - a) * t) for a, b in zip(GOLD_TOP, GOLD_BOTTOM)))
+    from PIL import ImageFilter
+    halo = Image.new("RGBA", (w + 80, h + 80), (0, 0, 0, 0))
+    halo.paste(Image.new("RGBA", (w, h), glow + (200,)), (40, 40), mask)
+    halo = halo.filter(ImageFilter.GaussianBlur(18))
+    x0 = int(cx - w / 2)
+    img.paste(halo, (x0 - 40, int(y) - 40), halo)
+    img.paste(grad, (x0, int(y)), mask)
+
+
+def matchday_poster(stadium: bytes | None, home_logo: bytes | None, away_logo: bytes | None,
+                    home_photo: bytes | None, away_photo: bytes | None, title: str, league: str,
+                    bottom1: str, bottom2: str, credit: str = "") -> io.BytesIO:
+    """#MATCHDAY / "Uchrashuv boshlandi" afishasi (tik, 1080x1350): stadion foni, tepada logotiplar va
+    katta oltin sarlavha, chap-o'ngda ikki jamoaning yulduzlari, pastda vaqt yoki holat."""
+    from PIL import ImageFilter
+    W, H = 1080, 1350
+    img = _cover(stadium, W, H, 0.5) if stadium else canvas(W, H)[0]
+    img = img.filter(ImageFilter.GaussianBlur(2))
+    tint = Image.new("RGBA", (W, H), (8, 16, 40, 150))
+    img.paste(tint, (0, 0), tint)
+    # futbolchilar: chapda uy egasi, o'ngda mehmon - markazga qarab xiralashadi
+    for photo, left in ((home_photo, True), (away_photo, False)):
+        if not photo:
+            continue
+        pw, ph = 600, 820
+        p = _cover(photo, pw, ph, 0.15).convert("RGBA")
+        fade = Image.new("L", (pw, ph), 0)
+        fd = ImageDraw.Draw(fade)
+        for x in range(pw):
+            t = x / pw if left else 1 - x / pw
+            a = int(255 * min(1.0, (1 - t) * 2.2))
+            fd.line([(x, 0), (x, ph)], fill=a)
+        bottom = Image.new("L", (pw, ph), 255)  # tepa va past ham silliq xiralashadi
+        bd = ImageDraw.Draw(bottom)
+        for y in range(ph - 240, ph):
+            bd.line([(0, y), (pw, y)], fill=int(255 * (ph - y) / 240))
+        for y in range(0, 160):
+            bd.line([(0, y), (pw, y)], fill=int(255 * y / 160))
+        from PIL import ImageChops
+        p.putalpha(ImageChops.multiply(fade, bottom))
+        img.paste(p, (0 if left else W - pw, 330), p)
+    d = ImageDraw.Draw(img, "RGBA")
+    # pastki qism qorong'i
+    shade = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(shade)
+    for y in range(int(H * 0.62), H):
+        sd.line([(0, y), (W, y)], fill=(3, 6, 16, int(235 * (y - H * 0.62) / (H * 0.38))))
+    img.paste(shade, (0, 0), shade)
+    # tepa: logotiplar va "VS"
+    for logo, x in ((home_logo, W / 2 - 170), (away_logo, W / 2 + 170)):
+        if logo:
+            lg = Image.open(io.BytesIO(logo)).convert("RGBA")
+            lg.thumbnail((150, 150))
+            img.paste(lg, (int(x - lg.width / 2), int(115 - lg.height / 2)), lg)
+    d = ImageDraw.Draw(img, "RGBA")
+    fv = font("head", 60)
+    d.text(((W - d.textlength("VS", font=fv)) / 2, 78), "VS", font=fv, fill=WHITE)
+    # sarlavha (masalan EL KLASIKO yoki REAL MADRID — BARSELONA)
+    words = clean(title).upper()
+    size = 120 if len(words) <= 14 else 92 if len(words) <= 22 else 72
+    ft = font("head", size)
+    lines = wrap(d, words, ft, W - 120, 2)
+    y = 200
+    for line in lines:
+        _gold_text(img, line, ft, W / 2, y)
+        y += size + 6
+    d = ImageDraw.Draw(img, "RGBA")
+    fl = font("head", 34, "SemiBold")
+    lg_txt = clean(league).upper()
+    d.text(((W - d.textlength(lg_txt, font=fl)) / 2, y + 18), lg_txt, font=fl, fill=(230, 230, 240))
+    # pastki matn
+    fb1, fb2 = font("head", 96), font("head", 52, "SemiBold")
+    _gold_text(img, clean(bottom1).upper(), fb1, W / 2, H - 330)
+    d = ImageDraw.Draw(img, "RGBA")
+    b2 = clean(bottom2).upper()
+    d.text(((W - d.textlength(b2, font=fb2)) / 2, H - 210), b2, font=fb2, fill=WHITE)
+    fb = font("head", 46)
+    d.text(((W - d.textlength(BRAND, font=fb)) / 2, H - 120), BRAND, font=fb, fill=ORANGE)
+    fc = font("body", 22, "SemiBold")
+    d.text(((W - d.textlength(CHANNEL, font=fc)) / 2, H - 62), CHANNEL, font=fc, fill=WHITE)
+    if credit:
+        fcr = font("body", 14, "Regular")
+        c = fit(d, clean(credit), fcr, W - 60)
+        d.text((W - 24 - d.textlength(c, font=fcr), H - 24), c, font=fcr, fill=(190, 190, 200))
+    return to_file(img)
+
+
 def video_card(title: str, source: str, count: int = 0) -> io.BytesIO:
     W, H = 1280, 720
     img, d = canvas(W, H)

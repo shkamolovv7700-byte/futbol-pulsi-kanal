@@ -60,6 +60,36 @@ EN_STADIUMS = {
 }
 
 
+def player_photo(name: str, cache: dict) -> tuple[bytes, dict] | None:
+    """Futbolchining erkin litsenziyali surati (Wikipedia: "Ism" yoki "Ism (footballer)")."""
+    if not name:
+        return None
+    info = lookup(name, cache) or lookup(f"{name} (footballer)", cache)
+    if not info:
+        return None
+    try:
+        return _get(info["url"], timeout=30), info
+    except Exception as e:
+        log.warning("Futbolchi rasmi yuklanmadi (%s): %r", name, e)
+        return None
+
+
+_logos: dict = {}
+
+
+def logo(url: str) -> bytes | None:
+    """Jamoa logotipi (ESPN) - bir ishga tushish davomida keshlanadi."""
+    if not url:
+        return None
+    if url not in _logos:
+        try:
+            _logos[url] = _get(url, timeout=20)
+        except Exception as e:
+            log.warning("Logotip yuklanmadi: %r", e)
+            _logos[url] = None
+    return _logos[url]
+
+
 def stadium_photo(team: str, cache: dict) -> tuple[bytes, str] | None:
     low = team.lower()
     title = next((v for k, v in EN_STADIUMS.items() if k in low), None)
