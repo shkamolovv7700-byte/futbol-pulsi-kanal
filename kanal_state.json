@@ -762,11 +762,13 @@
       "lag": 0
     },
     "401882832": {
-      "goals": [],
+      "goals": [
+        "86-2444.0"
+      ],
       "ft": false,
       "score": [
         0,
-        0
+        1
       ],
       "lag": 0
     }
@@ -776,7 +778,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 298
+    "last_id": 299
   },
   "foto_cache": {
     "Camp Nou": {
@@ -868,6 +870,11 @@
     },
     "Christian Pulisic": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg/1280px-Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Kylian Mbappé": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/1280px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
     }
