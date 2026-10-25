@@ -256,7 +256,7 @@
     "“El-Klassiko” oldidan “Real”da yo‘qotish: Kurtua gripp sababli o‘yinda qatnashmaydi",
     "«Natija bo‘lmasa, o‘zim ketaman» - Islom Ismoilov «Neftchi», futboldagi pullar, Ronaldu va Kannavaro haqida."
   ],
-  "last_slot": "2026-10-25 22:00",
+  "last_slot": "2026-10-25 22:30",
   "scorers_idx": 2,
   "last_video_source": "LaLiga",
   "table_idx": 1,
@@ -711,12 +711,14 @@
       "goals": [
         "176-1977.0",
         "176-255.0",
-        "176-2974.0"
+        "176-2974.0",
+        "176-3269.0",
+        "3236-4591.0"
       ],
       "ft": false,
       "score": [
-        3,
-        0
+        4,
+        1
       ],
       "lag": 0
     },
@@ -733,11 +735,14 @@
       "lag": 0
     },
     "401874772": {
-      "goals": [],
+      "goals": [
+        "111-1727.0",
+        "111-2439.0"
+      ],
       "ft": false,
       "score": [
         0,
-        0
+        2
       ],
       "lag": 0
     }
@@ -747,7 +752,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 286
+    "last_id": 290
   },
   "foto_cache": {
     "Camp Nou": {
