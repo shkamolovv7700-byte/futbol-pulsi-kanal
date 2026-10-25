@@ -178,7 +178,8 @@
     "yt:M3_T-52UZR4",
     "https://daryo.uz/2026/10/25/el-klassiko-oldidan-realda-yoqotish-kurtua-gripp-sababli-oyinda-qatnashmaydi/",
     "yt:laR4y7j6sCA",
-    "https://kun.uz/news/2026/10/25/natija-bolmasa-ozim-ketaman-islom-ismoilov-neftci-futboldagi-pullar-ronaldu-va-kannavaro-haqida"
+    "https://kun.uz/news/2026/10/25/natija-bolmasa-ozim-ketaman-islom-ismoilov-neftci-futboldagi-pullar-ronaldu-va-kannavaro-haqida",
+    "yt:Uhs63qmcB6g"
   ],
   "used_quiz": [
     23,
@@ -255,9 +256,9 @@
     "“El-Klassiko” oldidan “Real”da yo‘qotish: Kurtua gripp sababli o‘yinda qatnashmaydi",
     "«Natija bo‘lmasa, o‘zim ketaman» - Islom Ismoilov «Neftchi», futboldagi pullar, Ronaldu va Kannavaro haqida."
   ],
-  "last_slot": "2026-10-25 21:30",
+  "last_slot": "2026-10-25 22:00",
   "scorers_idx": 2,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 1,
   "live": {
     "401915403": {
@@ -709,23 +710,34 @@
     "401876426": {
       "goals": [
         "176-1977.0",
-        "176-255.0"
+        "176-255.0",
+        "176-2974.0"
       ],
       "ft": false,
       "score": [
-        2,
+        3,
         0
       ],
       "lag": 0
     },
     "401884759": {
       "goals": [
+        "132-2517.0",
         "132-954.0"
       ],
       "ft": false,
       "score": [
         0,
-        1
+        2
+      ],
+      "lag": 0
+    },
+    "401874772": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
       ],
       "lag": 0
     }
@@ -735,7 +747,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 283
+    "last_id": 286
   },
   "foto_cache": {
     "Camp Nou": {
