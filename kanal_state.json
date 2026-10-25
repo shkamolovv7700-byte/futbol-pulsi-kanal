@@ -249,7 +249,7 @@
     "Rodri: \"Real\" \"tuzo‘g‘i\"ga tushmaymiz",
     "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi."
   ],
-  "last_slot": "2026-10-25 16:00",
+  "last_slot": "2026-10-25 16:30",
   "scorers_idx": 2,
   "last_video_source": "LaLiga",
   "table_idx": 6,
@@ -645,6 +645,15 @@
       "ft": true,
       "score": [
         1,
+        0
+      ],
+      "lag": 0
+    },
+    "401875036": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
         0
       ],
       "lag": 0
