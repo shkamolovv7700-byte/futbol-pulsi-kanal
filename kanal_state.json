@@ -177,7 +177,8 @@
     "https://kun.uz/news/2026/10/25/siti-ilk-bor-yutqazdi-arsenal-yetib-oldi",
     "yt:M3_T-52UZR4",
     "https://daryo.uz/2026/10/25/el-klassiko-oldidan-realda-yoqotish-kurtua-gripp-sababli-oyinda-qatnashmaydi/",
-    "yt:laR4y7j6sCA"
+    "yt:laR4y7j6sCA",
+    "https://kun.uz/news/2026/10/25/natija-bolmasa-ozim-ketaman-islom-ismoilov-neftci-futboldagi-pullar-ronaldu-va-kannavaro-haqida"
   ],
   "used_quiz": [
     23,
@@ -251,9 +252,10 @@
     "O‘zbekiston iftixori Qozog‘istondagi jahon chempionatida ishtirok etmaslik sababini tushuntirdi",
     "Rodri: \"Real\" \"tuzo‘g‘i\"ga tushmaymiz",
     "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi.",
-    "“El-Klassiko” oldidan “Real”da yo‘qotish: Kurtua gripp sababli o‘yinda qatnashmaydi"
+    "“El-Klassiko” oldidan “Real”da yo‘qotish: Kurtua gripp sababli o‘yinda qatnashmaydi",
+    "«Natija bo‘lmasa, o‘zim ketaman» - Islom Ismoilov «Neftchi», futboldagi pullar, Ronaldu va Kannavaro haqida."
   ],
-  "last_slot": "2026-10-25 20:30",
+  "last_slot": "2026-10-25 21:00",
   "scorers_idx": 2,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -692,10 +694,24 @@
       "lag": 0
     },
     "401884760": {
-      "goals": [],
+      "goals": [
+        "7911-4737.0",
+        "7911-5335.0"
+      ],
       "ft": false,
       "score": [
-        0,
+        2,
+        0
+      ],
+      "lag": 0
+    },
+    "401876426": {
+      "goals": [
+        "176-255.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
         0
       ],
       "lag": 0
@@ -706,7 +722,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 273
+    "last_id": 279
   },
   "foto_cache": {
     "Camp Nou": {
