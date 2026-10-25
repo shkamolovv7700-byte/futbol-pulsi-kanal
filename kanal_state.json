@@ -755,7 +755,7 @@
         "103-332.0",
         "103-3897.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         0,
         2
@@ -764,11 +764,12 @@
     },
     "401882832": {
       "goals": [
+        "83-3634.0",
         "86-2444.0"
       ],
       "ft": false,
       "score": [
-        0,
+        1,
         1
       ],
       "lag": 0
@@ -779,7 +780,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 300
+    "last_id": 302
   },
   "foto_cache": {
     "Camp Nou": {
@@ -882,6 +883,11 @@
     "Omari Hutchinson": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Omari_Hutchinson%2C_Ipswich_Town.jpg/1280px-Omari_Hutchinson%2C_Ipswich_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "James Cracknell",
+      "license": "CC BY-SA 4.0"
+    },
+    "Raphinha": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Raphinha_Brazil_V_Morocco_13_June_2026-133_%28cropped%29.jpg/1280px-Raphinha_Brazil_V_Morocco_13_June_2026-133_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
     }
   },
