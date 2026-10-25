@@ -253,7 +253,7 @@
     "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi.",
     "“El-Klassiko” oldidan “Real”da yo‘qotish: Kurtua gripp sababli o‘yinda qatnashmaydi"
   ],
-  "last_slot": "2026-10-25 20:00",
+  "last_slot": "2026-10-25 20:30",
   "scorers_idx": 2,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -671,7 +671,7 @@
         "364-1248.0",
         "364-976.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         2,
         0
@@ -681,12 +681,13 @@
     "401879252": {
       "goals": [
         "349-2260.0",
-        "349-2524.0"
+        "349-2524.0",
+        "349-4221.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         0,
-        2
+        3
       ],
       "lag": 0
     },
@@ -705,7 +706,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 272
+    "last_id": 273
   },
   "foto_cache": {
     "Camp Nou": {
