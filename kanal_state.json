@@ -749,6 +749,26 @@
         2
       ],
       "lag": 0
+    },
+    "401874779": {
+      "goals": [
+        "103-332.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
+    },
+    "401882832": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -756,7 +776,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 297
+    "last_id": 298
   },
   "foto_cache": {
     "Camp Nou": {
@@ -845,6 +865,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg/1280px-Thibaut_Courtois_Belgium_v_USA_6_July_2026-076_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Christian Pulisic": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg/1280px-Christian_Pulisic_USMNT_v_Belgium_Mar_28_2026-73_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -860,5 +885,6 @@
     "401875036": "2026-10-25",
     "401878765": "2026-10-25",
     "401884760": "2026-10-25"
-  }
+  },
+  "kickoff": {}
 }
