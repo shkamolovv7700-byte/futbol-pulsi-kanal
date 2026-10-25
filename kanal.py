@@ -667,21 +667,7 @@ async def post_live(client: TelegramClient, channel) -> bool:
             hero = max(set(pool), key=pool.count) if pool else ""
             image = await asyncio.to_thread(score_card, ev, cur, "O'YIN YAKUNI", ev["goals"], hero)
             media = image
-            if ev["goals"] and (statistika.is_big(ev.get("home_full", ev["home"])) or statistika.is_big(ev.get("away_full", ev["away"]))):
-                # mobilograf: katta o'yin yakuni videosi - har bir gol ketma-ket, oxirida yakuniy hisob
-                score, slides = [0, 0], []
-                for i, g in enumerate(ev["goals"][:8]):
-                    score[0 if g["team"] == ev["home_id"] else 1] += 1
-                    slides.append(await asyncio.to_thread(score_card, ev, list(score), f"GOOOL! {g['minute']}",
-                                                          ev["goals"][: i + 1], g["scorer"], g["scorer"]))
-                image.seek(0)
-                try:
-                    clip = await asyncio.to_thread(video.slideshow, slides + [image], [2.2] * len(slides) + [4],
-                                                   video.PORTRAIT)
-                    media = video.to_upload(*clip, video.PORTRAIT)
-                except Exception as e:  # video chiqmasa - rasm bilan
-                    log.error("Yakun videosi yasalmadi: %r", e)
-                    image.seek(0)
+            # slaydli videolar o'chirilgan (egasi xohlamadi) - faqat rasm
             await send_media(client, channel, media, statistika.final_post(ev)[:1000] + channel_footer())
             info["ft"] = True
             save_state()
