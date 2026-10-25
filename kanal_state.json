@@ -752,12 +752,13 @@
     },
     "401874779": {
       "goals": [
-        "103-332.0"
+        "103-332.0",
+        "103-3897.0"
       ],
       "ft": false,
       "score": [
         0,
-        1
+        2
       ],
       "lag": 0
     },
@@ -778,7 +779,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 299
+    "last_id": 300
   },
   "foto_cache": {
     "Camp Nou": {
@@ -876,6 +877,11 @@
     "Kylian Mbappé": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg/1280px-Kylian_Mbappe_France_v_Senegal_16_June_2026-391_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Omari Hutchinson": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Omari_Hutchinson%2C_Ipswich_Town.jpg/1280px-Omari_Hutchinson%2C_Ipswich_Town.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "James Cracknell",
       "license": "CC BY-SA 4.0"
     }
   },
