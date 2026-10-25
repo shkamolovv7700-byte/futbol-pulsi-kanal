@@ -174,7 +174,8 @@
     "https://sports.uz/oz/news/view/jahon-chempionati-ozbekiston-va-qozogiston-teng-miqdordagi-bokschi-bilan-yarim-finalga-etib-keldi-25-10-2026",
     "https://sports.uz/oz/news/view/o-zbekiston-iftixori-qozog-istondagi-jahon-chempionatida-ishtirok-etmaslik-sababini-tushuntirdi",
     "https://sports.uz/oz/news/view/rodri-real-tuzog-i-ga-tushmaymiz",
-    "https://kun.uz/news/2026/10/25/siti-ilk-bor-yutqazdi-arsenal-yetib-oldi"
+    "https://kun.uz/news/2026/10/25/siti-ilk-bor-yutqazdi-arsenal-yetib-oldi",
+    "yt:M3_T-52UZR4"
   ],
   "used_quiz": [
     23,
@@ -248,9 +249,9 @@
     "Rodri: \"Real\" \"tuzo‘g‘i\"ga tushmaymiz",
     "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi."
   ],
-  "last_slot": "2026-10-25 15:30",
+  "last_slot": "2026-10-25 16:00",
   "scorers_idx": 2,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 6,
   "live": {
     "401915403": {
@@ -654,7 +655,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 258
+    "last_id": 260
   },
   "foto_cache": {
     "Camp Nou": {
@@ -751,6 +752,7 @@
     "401874948": "2026-10-24",
     "401878767": "2026-10-24",
     "401875036": "2026-10-25",
-    "401878765": "2026-10-25"
+    "401878765": "2026-10-25",
+    "401884760": "2026-10-25"
   }
 }
