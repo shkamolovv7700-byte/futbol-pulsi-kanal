@@ -656,7 +656,7 @@
         "109-3846.0",
         "110-5400.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         2,
         1
@@ -669,7 +669,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 264
+    "last_id": 266
   },
   "foto_cache": {
     "Camp Nou": {
