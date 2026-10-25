@@ -248,7 +248,7 @@
     "Rodri: \"Real\" \"tuzo‘g‘i\"ga tushmaymiz",
     "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi."
   ],
-  "last_slot": "2026-10-25 15:00",
+  "last_slot": "2026-10-25 15:30",
   "scorers_idx": 2,
   "last_video_source": "Serie A",
   "table_idx": 6,
@@ -654,7 +654,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 257
+    "last_id": 258
   },
   "foto_cache": {
     "Camp Nou": {
@@ -750,6 +750,7 @@
     "401878768": "2026-10-24",
     "401874948": "2026-10-24",
     "401878767": "2026-10-24",
-    "401875036": "2026-10-25"
+    "401875036": "2026-10-25",
+    "401878765": "2026-10-25"
   }
 }
