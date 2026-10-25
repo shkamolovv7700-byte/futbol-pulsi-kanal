@@ -172,7 +172,8 @@
     "https://sports.uz/oz/news/view/apl-chelsi-tottenxem-asosiy-tarkiblar-bilan-tanishing-24-10-2026",
     "yt:eslPLA89RcY",
     "https://sports.uz/oz/news/view/jahon-chempionati-ozbekiston-va-qozogiston-teng-miqdordagi-bokschi-bilan-yarim-finalga-etib-keldi-25-10-2026",
-    "https://sports.uz/oz/news/view/o-zbekiston-iftixori-qozog-istondagi-jahon-chempionatida-ishtirok-etmaslik-sababini-tushuntirdi"
+    "https://sports.uz/oz/news/view/o-zbekiston-iftixori-qozog-istondagi-jahon-chempionatida-ishtirok-etmaslik-sababini-tushuntirdi",
+    "https://sports.uz/oz/news/view/rodri-real-tuzog-i-ga-tushmaymiz"
   ],
   "used_quiz": [
     23,
@@ -241,9 +242,10 @@
     "«PSJ» Matvey Safonovning kelajagini hal qildi",
     "APL. «Chelsi» — «Tottenxem»: Asosiy tarkiblar bilan tanishing",
     "Jahon chempionati. O‘zbekiston va Qozog‘iston teng miqdordagi bokschi bilan yarim finalga yetib keldi",
-    "O‘zbekiston iftixori Qozog‘istondagi jahon chempionatida ishtirok etmaslik sababini tushuntirdi"
+    "O‘zbekiston iftixori Qozog‘istondagi jahon chempionatida ishtirok etmaslik sababini tushuntirdi",
+    "Rodri: \"Real\" \"tuzo‘g‘i\"ga tushmaymiz"
   ],
-  "last_slot": "2026-10-25 11:30",
+  "last_slot": "2026-10-25 12:30",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 6,
@@ -649,7 +651,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 252
+    "last_id": 253
   },
   "foto_cache": {
     "Camp Nou": {
