@@ -173,7 +173,8 @@
     "yt:eslPLA89RcY",
     "https://sports.uz/oz/news/view/jahon-chempionati-ozbekiston-va-qozogiston-teng-miqdordagi-bokschi-bilan-yarim-finalga-etib-keldi-25-10-2026",
     "https://sports.uz/oz/news/view/o-zbekiston-iftixori-qozog-istondagi-jahon-chempionatida-ishtirok-etmaslik-sababini-tushuntirdi",
-    "https://sports.uz/oz/news/view/rodri-real-tuzog-i-ga-tushmaymiz"
+    "https://sports.uz/oz/news/view/rodri-real-tuzog-i-ga-tushmaymiz",
+    "https://kun.uz/news/2026/10/25/siti-ilk-bor-yutqazdi-arsenal-yetib-oldi"
   ],
   "used_quiz": [
     23,
@@ -244,9 +245,10 @@
     "APL. «Chelsi» — «Tottenxem»: Asosiy tarkiblar bilan tanishing",
     "Jahon chempionati. O‘zbekiston va Qozog‘iston teng miqdordagi bokschi bilan yarim finalga yetib keldi",
     "O‘zbekiston iftixori Qozog‘istondagi jahon chempionatida ishtirok etmaslik sababini tushuntirdi",
-    "Rodri: \"Real\" \"tuzo‘g‘i\"ga tushmaymiz"
+    "Rodri: \"Real\" \"tuzo‘g‘i\"ga tushmaymiz",
+    "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi."
   ],
-  "last_slot": "2026-10-25 13:30",
+  "last_slot": "2026-10-25 14:00",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 6,
@@ -652,7 +654,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 255
+    "last_id": 256
   },
   "foto_cache": {
     "Camp Nou": {
@@ -731,7 +733,12 @@
       "author": "Gaetano Capaldo",
       "license": "CC BY 4.0"
     },
-    "Parc des Princes": null
+    "Parc des Princes": null,
+    "City of Manchester Stadium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/City_of_Manchester_Stadium_2023_cropped.jpg/1280px-City_of_Manchester_Stadium_2023_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Arne Müseler, cropped by Blackcat",
+      "license": "CC BY-SA 3.0 de"
+    }
   },
   "matchday": {
     "401915312": "2026-10-21",
