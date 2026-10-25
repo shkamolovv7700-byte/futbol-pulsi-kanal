@@ -123,7 +123,7 @@ def fixtures_post() -> tuple | None:
     return caption, rasm.matches_card("Bugungi o'yinlar", blocks, "Bugungi o'yinlar")
 
 
-# Jonli gollar faqat shu klublar o'ynayotgan o'yinlar va Chempionlar ligasi uchun yuboriladi
+# Jonli gollar faqat shu klublar o'ynayotgan o'yinlar uchun yuboriladi (Chempionlar ligasida ham)
 BIG_CLUBS = [
     "Real Madrid", "Barcelona", "Atlético", "Atletico", "Manchester City", "Manchester United", "Arsenal",
     "Liverpool", "Chelsea", "Tottenham", "Bayern", "Dortmund", "Leverkusen", "Paris Saint-Germain",
@@ -150,7 +150,8 @@ def live_events() -> list[dict]:
                     continue
                 home, away = teams["home"], teams["away"]
                 names = (home["team"]["displayName"], away["team"]["displayName"])
-                if code != "uefa.champions" and not any(is_big(n) for n in names):
+                # faqat katta klublar o'yinlari (ChL'da ham) - aks holda kuniga 30+ gol posti kanalni spamga aylantiradi
+                if not any(is_big(n) for n in names):
                     continue
                 goals = []
                 for d in comp.get("details", []):

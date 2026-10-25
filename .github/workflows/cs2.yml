@@ -30,6 +30,8 @@ jobs:
       KANAL_USERNAME: cs2pulsi_uz
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main  # eng yangi holat (takroriy postlar bo'lmasin)
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

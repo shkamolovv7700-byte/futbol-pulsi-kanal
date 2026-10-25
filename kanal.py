@@ -84,12 +84,22 @@ log = logging.getLogger("kanal")
 FOOTBALL_PATTERN = re.compile(
     r"\b(futbol|gol(?!f|land)|liga|apl\b|premer|bundesliga|la ?liga|chempionlar|uefa|fifa|superliga"
     r"|terma jamoa|transfer|murabbiy|darvozabon|penalti|assist|jahon chempionati|osiyo kubogi"
-    r"|barselona|barsa|psj\b|manchester|liverpul|arsenal|chelsi|tottenhem|bavariya|borussiya|yuventus|milan"
+    r"|barselona|barsa|psj\b|manchester|liverpul|arsenal|chelsi|tottenhem|borussiya|yuventus"
     r"|napoli|atletiko|paxtakor|nasaf|navbahor|neftchi|bunyodkor|messi|ronaldu|mbappe|xolann"
     r"|shomurodov|xusanov|fayzullayev)"
-    r"|[«\"“](inter|roma|real|psj|lokomotiv|andijon)",
+    # "Bavariya" (viloyat), "Milan" (shahar), "Real", "Inter" oddiy so'z ham bo'ladi - faqat qo'shtirnoq ichida klub
+    r"|[«\"“](inter|roma|real|psj|lokomotiv|andijon|bavariya|milan)",
     re.IGNORECASE,
 )
+# "Jahon chempionati", "terma jamoa", "murabbiy" boshqa sport turlarida ham bor - ular kanalga tushmasin
+OTHER_SPORTS = re.compile(
+    r"boks|bokschi|kurash|dzyudo|tennis|shaxmat|sambo|taekvondo|basketbol|voleybol|xokkey|og[ʻ‘'`]?ir atletika"
+    r"|gimnastika|suzish|velosport|formula|mma\b|ufc|jang san|paralimpiya|eshkak|qilichboz|kamon|ko[ʻ‘'`]?pkurash",
+    re.IGNORECASE,
+)
+# Ba'zi saytlar matnni turkcha harflar bilan yuboradi ("toğlaridagi", "öt qöyişda") - o'zbek lotiniga
+TURKISH = str.maketrans({"ğ": "g‘", "Ğ": "G‘", "ö": "o‘", "Ö": "O‘", "ş": "sh", "Ş": "Sh", "ı": "i", "ç": "ch",
+                         "Ç": "Ch", "ü": "u", "Ü": "U"})
 HASHTAGS = {
     "#APL": ["apl", "premer", "manchester", "liverpul", "arsenal", "chelsi", "tottenhem", "lids"],
     "#LaLiga": ["la liga", "laliga", "real", "barselona", "atletiko", "sevilya"],
@@ -147,11 +157,11 @@ def fetch_feed(source: str, url: str) -> list[dict]:
     """Bitta RSS manbadan yangiliklarni oladi."""
     items = []
     for it in fetch_xml(url).iter("item"):
-        title = (it.findtext("title") or "").strip()
+        title = (it.findtext("title") or "").strip().translate(TURKISH)
         link = (it.findtext("link") or "").strip()
         if not title or not link:
             continue
-        desc = re.sub(r"<[^>]+>", "", it.findtext("description") or "").strip()
+        desc = re.sub(r"<[^>]+>", "", it.findtext("description") or "").strip().translate(TURKISH)
         if len(desc) > 300:
             desc = desc[:300].rsplit(" ", 1)[0] + "…"
         items.append({"id": (it.findtext("guid") or link).strip(), "title": title, "desc": desc,
@@ -184,7 +194,10 @@ def is_duplicate(title: str) -> bool:
 
 
 def is_football(item: dict) -> bool:
-    return bool(FOOTBALL_PATTERN.search(f"{item['title']} {item['desc']}"))
+    text = f"{item['title']} {item['desc']}"
+    if OTHER_SPORTS.search(text) and not re.search(r"futbol", text, re.IGNORECASE):
+        return False
+    return bool(FOOTBALL_PATTERN.search(text))
 
 
 def make_hashtags(item: dict) -> str:

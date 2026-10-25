@@ -30,6 +30,10 @@ jobs:
       KANAL_USERNAME: futbolpulsi_uz
     steps:
       - uses: actions/checkout@v4
+        with:
+          # navbatda kutgan ish ham oldingi ish saqlagan eng yangi holatni olsin
+          # (aks holda rejalashtirilgan paytdagi eski holat olinadi va gollar takror joylanadi)
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
