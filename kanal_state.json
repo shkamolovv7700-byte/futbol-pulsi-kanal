@@ -179,7 +179,8 @@
     23,
     11,
     34,
-    12
+    12,
+    30
   ],
   "used_poll": [
     19,
@@ -245,7 +246,7 @@
     "O‘zbekiston iftixori Qozog‘istondagi jahon chempionatida ishtirok etmaslik sababini tushuntirdi",
     "Rodri: \"Real\" \"tuzo‘g‘i\"ga tushmaymiz"
   ],
-  "last_slot": "2026-10-25 12:30",
+  "last_slot": "2026-10-25 13:00",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 6,
@@ -651,7 +652,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 253
+    "last_id": 255
   },
   "foto_cache": {
     "Camp Nou": {
@@ -741,6 +742,7 @@
     "401915557": "2026-10-22",
     "401878768": "2026-10-24",
     "401874948": "2026-10-24",
-    "401878767": "2026-10-24"
+    "401878767": "2026-10-24",
+    "401875036": "2026-10-25"
   }
 }
