@@ -176,7 +176,8 @@
     "https://sports.uz/oz/news/view/rodri-real-tuzog-i-ga-tushmaymiz",
     "https://kun.uz/news/2026/10/25/siti-ilk-bor-yutqazdi-arsenal-yetib-oldi",
     "yt:M3_T-52UZR4",
-    "https://daryo.uz/2026/10/25/el-klassiko-oldidan-realda-yoqotish-kurtua-gripp-sababli-oyinda-qatnashmaydi/"
+    "https://daryo.uz/2026/10/25/el-klassiko-oldidan-realda-yoqotish-kurtua-gripp-sababli-oyinda-qatnashmaydi/",
+    "yt:laR4y7j6sCA"
   ],
   "used_quiz": [
     23,
@@ -251,9 +252,9 @@
     "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi.",
     "“El-Klassiko” oldidan “Real”da yo‘qotish: Kurtua gripp sababli o‘yinda qatnashmaydi"
   ],
-  "last_slot": "2026-10-25 18:30",
+  "last_slot": "2026-10-25 19:00",
   "scorers_idx": 2,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 1,
   "live": {
     "401915403": {
@@ -662,6 +663,28 @@
         1
       ],
       "lag": 0
+    },
+    "401878765": {
+      "goals": [
+        "364-1247.0",
+        "364-1248.0",
+        "364-976.0"
+      ],
+      "ft": false,
+      "score": [
+        2,
+        0
+      ],
+      "lag": 0
+    },
+    "401879252": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -669,7 +692,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 266
+    "last_id": 269
   },
   "foto_cache": {
     "Camp Nou": {
