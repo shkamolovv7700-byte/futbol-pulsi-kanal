@@ -182,7 +182,8 @@
     "yt:Uhs63qmcB6g",
     "https://daryo.uz/2026/10/26/mourinyo-barselonani-maglub-etishga-yordam-bergan-asosiy-qarorini-aytdi/",
     "https://daryo.uz/2026/10/26/mbappe-yamal-yoki-keyn-oltin-topni-kim-qolga-kiritadi/",
-    "https://daryo.uz/2026/10/26/kilian-mbappe-klassikolar-rekordchisiga-aylandi/"
+    "https://daryo.uz/2026/10/26/kilian-mbappe-klassikolar-rekordchisiga-aylandi/",
+    "yt:dP72ZmbEdRQ"
   ],
   "used_quiz": [
     23,
@@ -263,9 +264,9 @@
     "Mbappe, Yamal yoki Keyn: “Oltin to‘p”ni kim qo‘lga kiritadi?",
     "Kilian Mbappe klassikolar rekordchisiga aylandi"
   ],
-  "last_slot": "2026-10-26 15:30",
+  "last_slot": "2026-10-26 16:00",
   "scorers_idx": 3,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 1,
   "live": {
     "401915403": {
@@ -788,7 +789,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 312,
+    "last_id": 313,
     "strikes": {},
     "reset_day": "2026-10-26"
   },
