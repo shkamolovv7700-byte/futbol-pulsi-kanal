@@ -201,7 +201,8 @@
     9,
     8,
     14,
-    15
+    15,
+    11
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -265,7 +266,7 @@
     "Mbappe, Yamal yoki Keyn: “Oltin to‘p”ni kim qo‘lga kiritadi?",
     "Kilian Mbappe klassikolar rekordchisiga aylandi"
   ],
-  "last_slot": "2026-10-26 19:00",
+  "last_slot": "2026-10-26 20:30",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 1,
@@ -790,7 +791,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 314,
+    "last_id": 315,
     "strikes": {},
     "reset_day": "2026-10-26"
   },
