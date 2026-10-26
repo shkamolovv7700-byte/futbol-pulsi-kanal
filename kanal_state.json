@@ -188,7 +188,8 @@
     11,
     34,
     12,
-    30
+    30,
+    6
   ],
   "used_poll": [
     19,
@@ -260,7 +261,7 @@
     "Mourinyo “Barselona”ni mag‘lub etishga yordam bergan asosiy qarorini aytdi",
     "Mbappe, Yamal yoki Keyn: “Oltin to‘p”ni kim qo‘lga kiritadi?"
   ],
-  "last_slot": "2026-10-26 12:30",
+  "last_slot": "2026-10-26 13:00",
   "scorers_idx": 2,
   "last_video_source": "LaLiga",
   "table_idx": 1,
@@ -785,7 +786,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 309,
+    "last_id": 310,
     "strikes": {},
     "reset_day": "2026-10-26"
   },
