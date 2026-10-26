@@ -180,7 +180,8 @@
     "yt:laR4y7j6sCA",
     "https://kun.uz/news/2026/10/25/natija-bolmasa-ozim-ketaman-islom-ismoilov-neftci-futboldagi-pullar-ronaldu-va-kannavaro-haqida",
     "yt:Uhs63qmcB6g",
-    "https://daryo.uz/2026/10/26/mourinyo-barselonani-maglub-etishga-yordam-bergan-asosiy-qarorini-aytdi/"
+    "https://daryo.uz/2026/10/26/mourinyo-barselonani-maglub-etishga-yordam-bergan-asosiy-qarorini-aytdi/",
+    "https://daryo.uz/2026/10/26/mbappe-yamal-yoki-keyn-oltin-topni-kim-qolga-kiritadi/"
   ],
   "used_quiz": [
     23,
@@ -256,9 +257,10 @@
     "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi.",
     "“El-Klassiko” oldidan “Real”da yo‘qotish: Kurtua gripp sababli o‘yinda qatnashmaydi",
     "«Natija bo‘lmasa, o‘zim ketaman» - Islom Ismoilov «Neftchi», futboldagi pullar, Ronaldu va Kannavaro haqida.",
-    "Mourinyo “Barselona”ni mag‘lub etishga yordam bergan asosiy qarorini aytdi"
+    "Mourinyo “Barselona”ni mag‘lub etishga yordam bergan asosiy qarorini aytdi",
+    "Mbappe, Yamal yoki Keyn: “Oltin to‘p”ni kim qo‘lga kiritadi?"
   ],
-  "last_slot": "2026-10-26 11:30",
+  "last_slot": "2026-10-26 12:30",
   "scorers_idx": 2,
   "last_video_source": "LaLiga",
   "table_idx": 1,
@@ -783,7 +785,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 308,
+    "last_id": 309,
     "strikes": {},
     "reset_day": "2026-10-26"
   },
