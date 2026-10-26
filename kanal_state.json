@@ -184,7 +184,8 @@
     "https://daryo.uz/2026/10/26/mbappe-yamal-yoki-keyn-oltin-topni-kim-qolga-kiritadi/",
     "https://daryo.uz/2026/10/26/kilian-mbappe-klassikolar-rekordchisiga-aylandi/",
     "yt:dP72ZmbEdRQ",
-    "yt:R2mVF13WhLc"
+    "yt:R2mVF13WhLc",
+    "https://daryo.uz/2026/10/26/mourinyo-el-klasikoda-oziga-xos-natija-qayd-etdi/"
   ],
   "used_quiz": [
     23,
@@ -264,9 +265,10 @@
     "«Natija bo‘lmasa, o‘zim ketaman» - Islom Ismoilov «Neftchi», futboldagi pullar, Ronaldu va Kannavaro haqida.",
     "Mourinyo “Barselona”ni mag‘lub etishga yordam bergan asosiy qarorini aytdi",
     "Mbappe, Yamal yoki Keyn: “Oltin to‘p”ni kim qo‘lga kiritadi?",
-    "Kilian Mbappe klassikolar rekordchisiga aylandi"
+    "Kilian Mbappe klassikolar rekordchisiga aylandi",
+    "Mourinyo “El-klasiko”da o‘ziga xos natija qayd etdi"
   ],
-  "last_slot": "2026-10-26 20:30",
+  "last_slot": "2026-10-26 21:30",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 1,
@@ -791,7 +793,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 315,
+    "last_id": 317,
     "strikes": {},
     "reset_day": "2026-10-26"
   },
@@ -902,6 +904,16 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Raphinha_Brazil_V_Morocco_13_June_2026-133_%28cropped%29.jpg/1280px-Raphinha_Brazil_V_Morocco_13_June_2026-133_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Ferran Torres": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Ferran_Torres_France_v_Spain_7.24.26-237_%28cropped%29.jpg/1280px-Ferran_Torres_France_v_Spain_7.24.26-237_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Ernest Nuamah": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Ernest_Nuamah_England_v_Ghana_23_June_2026-113.jpg/1280px-Ernest_Nuamah_England_v_Ghana_23_June_2026-113.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -916,7 +928,8 @@
     "401878767": "2026-10-24",
     "401875036": "2026-10-25",
     "401878765": "2026-10-25",
-    "401884760": "2026-10-25"
+    "401884760": "2026-10-25",
+    "401876422": "2026-10-26"
   },
   "kickoff": {}
 }
