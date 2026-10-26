@@ -185,7 +185,8 @@
     "https://daryo.uz/2026/10/26/kilian-mbappe-klassikolar-rekordchisiga-aylandi/",
     "yt:dP72ZmbEdRQ",
     "yt:R2mVF13WhLc",
-    "https://daryo.uz/2026/10/26/mourinyo-el-klasikoda-oziga-xos-natija-qayd-etdi/"
+    "https://daryo.uz/2026/10/26/mourinyo-el-klasikoda-oziga-xos-natija-qayd-etdi/",
+    "yt:149_oqimN1c"
   ],
   "used_quiz": [
     23,
@@ -268,9 +269,9 @@
     "Kilian Mbappe klassikolar rekordchisiga aylandi",
     "Mourinyo “El-klasiko”da o‘ziga xos natija qayd etdi"
   ],
-  "last_slot": "2026-10-26 21:30",
+  "last_slot": "2026-10-26 22:00",
   "scorers_idx": 3,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 1,
   "live": {
     "401915403": {
@@ -793,7 +794,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 317,
+    "last_id": 318,
     "strikes": {},
     "reset_day": "2026-10-26"
   },
