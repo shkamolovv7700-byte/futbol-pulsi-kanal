@@ -789,10 +789,13 @@
       "lag": 0
     },
     "401876422": {
-      "goals": [],
+      "goals": [
+        "160-4289.0",
+        "160-5017.0"
+      ],
       "ft": false,
       "score": [
-        0,
+        2,
         0
       ],
       "lag": 0
@@ -803,7 +806,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 319,
+    "last_id": 321,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -922,6 +925,16 @@
     },
     "Ernest Nuamah": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Ernest_Nuamah_England_v_Ghana_23_June_2026-113.jpg/1280px-Ernest_Nuamah_England_v_Ghana_23_June_2026-113.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Senny Mayulu": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/65/Match_Football_Paris_SG_x_AS_Saint_%C3%89tienne_Stade_Parc_Princes_-_Paris_XVI_%28FR75%29_-_2025-01-12_-_65.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "SonoGrazy",
+      "license": "CC BY-SA 4.0"
+    },
+    "Mika Godts": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Mika_Godts_USMNT_v_Belgium_Mar_28_2026-236.jpg/1280px-Mika_Godts_USMNT_v_Belgium_Mar_28_2026-236.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
     }
