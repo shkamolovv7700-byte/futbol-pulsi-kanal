@@ -814,13 +814,16 @@
     "401874780": {
       "goals": [
         "104-1259.0",
+        "104-5066.0",
+        "104-5178.0",
         "104-842.0",
+        "2925-4851.0",
         "2925-551.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
-        2,
-        1
+        4,
+        2
       ],
       "lag": 0
     }
@@ -830,7 +833,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 342,
+    "last_id": 345,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -990,7 +993,9 @@
       "license": "CC BY-SA 4.0"
     },
     "Niccolò Pisilli": null,
-    "Niccolò Pisilli (footballer)": null
+    "Niccolò Pisilli (footballer)": null,
+    "Rodrigo Mora": null,
+    "Rodrigo Mora (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
