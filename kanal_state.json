@@ -187,7 +187,8 @@
     "yt:R2mVF13WhLc",
     "https://daryo.uz/2026/10/26/mourinyo-el-klasikoda-oziga-xos-natija-qayd-etdi/",
     "yt:149_oqimN1c",
-    "https://sports.uz/oz/news/view/fifa-ronalduning-982-golini-tan-olmadi"
+    "https://sports.uz/oz/news/view/fifa-ronalduning-982-golini-tan-olmadi",
+    "https://daryo.uz/2026/10/27/keyn-songgi-45-yil-ichida-oltin-topni-qolga-kiritgan-bavariyaning-birinchi-futbolchisi-boldi/"
   ],
   "used_quiz": [
     23,
@@ -209,7 +210,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“Real Madrid” rahbariyati Mourinyodan norozi — manba",
     "\"Real\" jahon chempioniga xaridor",
     "“Paxtakor” rahbariyati “Navbahor”ga qarshi o‘yinni boshqargan Ilgiz Tantashev boʻyicha rasmiy eʼtiroz bildirdi",
     "“Brayton” futbolchisi 51 metrdan gol urdi (video)",
@@ -268,9 +268,10 @@
     "Mbappe, Yamal yoki Keyn: “Oltin to‘p”ni kim qo‘lga kiritadi?",
     "Kilian Mbappe klassikolar rekordchisiga aylandi",
     "Mourinyo “El-klasiko”da o‘ziga xos natija qayd etdi",
-    "FIFA Ronalduning 982-golini tan olmadi"
+    "FIFA Ronalduning 982-golini tan olmadi",
+    "Keyn so‘nggi 45 yil ichida “Oltin to‘p”ni qo‘lga kiritgan “Bavariya”ning birinchi futbolchisi bo‘ldi"
   ],
-  "last_slot": "2026-10-27 10:30",
+  "last_slot": "2026-10-27 11:00",
   "scorers_idx": 3,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -807,7 +808,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 325,
+    "last_id": 326,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
