@@ -189,7 +189,8 @@
     "yt:149_oqimN1c",
     "https://sports.uz/oz/news/view/fifa-ronalduning-982-golini-tan-olmadi",
     "https://daryo.uz/2026/10/27/keyn-songgi-45-yil-ichida-oltin-topni-qolga-kiritgan-bavariyaning-birinchi-futbolchisi-boldi/",
-    "https://sports.uz/oz/news/view/konte-manchester-yunayted-ga-talablar-qo-ydi"
+    "https://sports.uz/oz/news/view/konte-manchester-yunayted-ga-talablar-qo-ydi",
+    "https://sports.uz/oz/news/view/manchester-yunayted-fernandeshdan-qutulishga-qaror-qildi"
   ],
   "used_quiz": [
     23,
@@ -212,7 +213,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“Paxtakor” rahbariyati “Navbahor”ga qarshi o‘yinni boshqargan Ilgiz Tantashev boʻyicha rasmiy eʼtiroz bildirdi",
     "“Brayton” futbolchisi 51 metrdan gol urdi (video)",
     "Krishtianu Ronaldu mineral suv ishlab chiqaradi",
     "Ramos faoliyatini La Liga klubida davom ettirishi mumkin — OAV",
@@ -271,9 +271,10 @@
     "Mourinyo “El-klasiko”da o‘ziga xos natija qayd etdi",
     "FIFA Ronalduning 982-golini tan olmadi",
     "Keyn so‘nggi 45 yil ichida “Oltin to‘p”ni qo‘lga kiritgan “Bavariya”ning birinchi futbolchisi bo‘ldi",
-    "Conte \"Manchester Yunayted\"ga talablar qoʻydi"
+    "Conte \"Manchester Yunayted\"ga talablar qoʻydi",
+    "«Manchester Yunayted» Fernandesdan qutulishga qaror qildi"
   ],
-  "last_slot": "2026-10-27 13:30",
+  "last_slot": "2026-10-27 14:30",
   "scorers_idx": 3,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -810,7 +811,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 328,
+    "last_id": 329,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
