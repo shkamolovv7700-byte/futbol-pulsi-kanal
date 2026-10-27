@@ -193,7 +193,8 @@
     "https://sports.uz/oz/news/view/manchester-yunayted-fernandeshdan-qutulishga-qaror-qildi",
     "yt:MEeSDKeM12A",
     "https://sports.uz/oz/news/view/rossiyaliklarni-husanov-shomurodov-va-fayzullaev-qiziqtiryapti",
-    "yt:bFUK5gfU0bg"
+    "yt:bFUK5gfU0bg",
+    "https://daryo.uz/2026/10/27/laporta-yamal-oltin-topni-yutishga-loyiq-edi/"
   ],
   "used_quiz": [
     23,
@@ -217,7 +218,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Krishtianu Ronaldu mineral suv ishlab chiqaradi",
     "Ramos faoliyatini La Liga klubida davom ettirishi mumkin — OAV",
     "Ronaldu Portugaliya futbol federatsiyasidan jazoni yumshatishni so‘radi — manba",
     "“Barselona” prezidenti “Real Madrid” bilan munosabatlar yomonlashganini e’lon qildi",
@@ -276,9 +276,10 @@
     "Keyn so‘nggi 45 yil ichida “Oltin to‘p”ni qo‘lga kiritgan “Bavariya”ning birinchi futbolchisi bo‘ldi",
     "Conte \"Manchester Yunayted\"ga talablar qoʻydi",
     "«Manchester Yunayted» Fernandesdan qutulishga qaror qildi",
-    "Rossiyaliklarni Husanov, Shomurodov va Fayzullaev qiziqtiryapti"
+    "Rossiyaliklarni Husanov, Shomurodov va Fayzullaev qiziqtiryapti",
+    "Laporta: “Yamal ‘Oltin to‘p’ni yutishga loyiq edi”"
   ],
-  "last_slot": "2026-10-27 20:30",
+  "last_slot": "2026-10-27 21:30",
   "scorers_idx": 4,
   "last_video_source": "Serie A",
   "table_idx": 2,
@@ -815,7 +816,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 335,
+    "last_id": 337,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -951,6 +952,23 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Eldor_Shomurodov_14_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_20250731_%2810%29_%28cropped%29.jpg/1280px-Eldor_Shomurodov_14_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_20250731_%2810%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Zafer",
       "license": "CC BY 4.0"
+    },
+    "Lamine Yamal": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Lamine_Yamal_France_v_Spain_7.24.26-142.jpg/1280px-Lamine_Yamal_France_v_Spain_7.24.26-142.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Donyell Malen": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/DONYELL_MALEN_%E2%80%93_2023.08.12_%2802%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Sandro Halank, Wikimedia Commons",
+      "license": "CC BY-SA 4.0"
+    },
+    "Daniel Maldini": null,
+    "Daniel Maldini (footballer)": null,
+    "Stadio Olimpico": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/1280px-Stadio_Olimpico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Messapi, cropped by Blackcat",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -966,7 +984,8 @@
     "401875036": "2026-10-25",
     "401878765": "2026-10-25",
     "401884760": "2026-10-25",
-    "401876422": "2026-10-26"
+    "401876422": "2026-10-26",
+    "401874780": "2026-10-27"
   },
   "kickoff": {
     "401876422": "2026-10-27"
