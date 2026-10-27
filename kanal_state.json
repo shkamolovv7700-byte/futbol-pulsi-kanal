@@ -186,7 +186,8 @@
     "yt:dP72ZmbEdRQ",
     "yt:R2mVF13WhLc",
     "https://daryo.uz/2026/10/26/mourinyo-el-klasikoda-oziga-xos-natija-qayd-etdi/",
-    "yt:149_oqimN1c"
+    "yt:149_oqimN1c",
+    "https://sports.uz/oz/news/view/fifa-ronalduning-982-golini-tan-olmadi"
   ],
   "used_quiz": [
     23,
@@ -208,7 +209,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Diomande Bellingem rekordini yangiladi",
     "“Real Madrid” rahbariyati Mourinyodan norozi — manba",
     "\"Real\" jahon chempioniga xaridor",
     "“Paxtakor” rahbariyati “Navbahor”ga qarshi o‘yinni boshqargan Ilgiz Tantashev boʻyicha rasmiy eʼtiroz bildirdi",
@@ -267,9 +267,10 @@
     "Mourinyo “Barselona”ni mag‘lub etishga yordam bergan asosiy qarorini aytdi",
     "Mbappe, Yamal yoki Keyn: “Oltin to‘p”ni kim qo‘lga kiritadi?",
     "Kilian Mbappe klassikolar rekordchisiga aylandi",
-    "Mourinyo “El-klasiko”da o‘ziga xos natija qayd etdi"
+    "Mourinyo “El-klasiko”da o‘ziga xos natija qayd etdi",
+    "FIFA Ronalduning 982-golini tan olmadi"
   ],
-  "last_slot": "2026-10-26 22:30",
+  "last_slot": "2026-10-27 8:30",
   "scorers_idx": 3,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -806,7 +807,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 322,
+    "last_id": 323,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
