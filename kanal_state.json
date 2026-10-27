@@ -191,7 +191,8 @@
     "https://daryo.uz/2026/10/27/keyn-songgi-45-yil-ichida-oltin-topni-qolga-kiritgan-bavariyaning-birinchi-futbolchisi-boldi/",
     "https://sports.uz/oz/news/view/konte-manchester-yunayted-ga-talablar-qo-ydi",
     "https://sports.uz/oz/news/view/manchester-yunayted-fernandeshdan-qutulishga-qaror-qildi",
-    "yt:MEeSDKeM12A"
+    "yt:MEeSDKeM12A",
+    "https://sports.uz/oz/news/view/rossiyaliklarni-husanov-shomurodov-va-fayzullaev-qiziqtiryapti"
   ],
   "used_quiz": [
     23,
@@ -214,7 +215,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“Brayton” futbolchisi 51 metrdan gol urdi (video)",
     "Krishtianu Ronaldu mineral suv ishlab chiqaradi",
     "Ramos faoliyatini La Liga klubida davom ettirishi mumkin — OAV",
     "Ronaldu Portugaliya futbol federatsiyasidan jazoni yumshatishni so‘radi — manba",
@@ -273,9 +273,10 @@
     "FIFA Ronalduning 982-golini tan olmadi",
     "Keyn so‘nggi 45 yil ichida “Oltin to‘p”ni qo‘lga kiritgan “Bavariya”ning birinchi futbolchisi bo‘ldi",
     "Conte \"Manchester Yunayted\"ga talablar qoʻydi",
-    "«Manchester Yunayted» Fernandesdan qutulishga qaror qildi"
+    "«Manchester Yunayted» Fernandesdan qutulishga qaror qildi",
+    "Rossiyaliklarni Husanov, Shomurodov va Fayzullaev qiziqtiryapti"
   ],
-  "last_slot": "2026-10-27 17:30",
+  "last_slot": "2026-10-27 18:00",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -812,7 +813,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 332,
+    "last_id": 333,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -943,6 +944,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Mika_Godts_USMNT_v_Belgium_Mar_28_2026-236.jpg/1280px-Mika_Godts_USMNT_v_Belgium_Mar_28_2026-236.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Eldor Shomurodov": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Eldor_Shomurodov_14_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_20250731_%2810%29_%28cropped%29.jpg/1280px-Eldor_Shomurodov_14_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_20250731_%2810%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Zafer",
+      "license": "CC BY 4.0"
     }
   },
   "matchday": {
