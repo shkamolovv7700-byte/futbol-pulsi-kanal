@@ -810,6 +810,18 @@
         0
       ],
       "lag": 0
+    },
+    "401874780": {
+      "goals": [
+        "104-842.0",
+        "2925-551.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -817,7 +829,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 338,
+    "last_id": 340,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -970,6 +982,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/1280px-Stadio_Olimpico_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Messapi, cropped by Blackcat",
       "license": "CC BY-SA 4.0"
+    },
+    "M'Bala Nzola": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/M%27Bala_Nzola_in_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Livioandronico2013",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -989,6 +1006,7 @@
     "401874780": "2026-10-27"
   },
   "kickoff": {
-    "401876422": "2026-10-27"
+    "401876422": "2026-10-27",
+    "401874780": "2026-10-28"
   }
 }
