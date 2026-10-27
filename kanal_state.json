@@ -813,12 +813,13 @@
     },
     "401874780": {
       "goals": [
+        "104-1259.0",
         "104-842.0",
         "2925-551.0"
       ],
       "ft": false,
       "score": [
-        0,
+        2,
         1
       ],
       "lag": 0
@@ -829,7 +830,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 340,
+    "last_id": 342,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -987,7 +988,9 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/M%27Bala_Nzola_in_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Livioandronico2013",
       "license": "CC BY-SA 4.0"
-    }
+    },
+    "Niccolò Pisilli": null,
+    "Niccolò Pisilli (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
