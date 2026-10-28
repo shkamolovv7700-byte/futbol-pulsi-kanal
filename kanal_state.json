@@ -195,7 +195,8 @@
     "https://sports.uz/oz/news/view/rossiyaliklarni-husanov-shomurodov-va-fayzullaev-qiziqtiryapti",
     "yt:bFUK5gfU0bg",
     "https://daryo.uz/2026/10/27/laporta-yamal-oltin-topni-yutishga-loyiq-edi/",
-    "yt:SEOuT9ea3HU"
+    "yt:SEOuT9ea3HU",
+    "https://sports.uz/oz/news/view/manchester-yunayted-brunu-fernandeshni-sotishni-rejalashtirmoqda"
   ],
   "used_quiz": [
     23,
@@ -219,7 +220,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Ramos faoliyatini La Liga klubida davom ettirishi mumkin — OAV",
     "Ronaldu Portugaliya futbol federatsiyasidan jazoni yumshatishni so‘radi — manba",
     "“Barselona” prezidenti “Real Madrid” bilan munosabatlar yomonlashganini e’lon qildi",
     "Xiaomi 26 ta futbolka sig‘adigan narxi 88 dollarlik kir yuvish mashinasini taqdim etdi",
@@ -278,9 +278,10 @@
     "Conte \"Manchester Yunayted\"ga talablar qoʻydi",
     "«Manchester Yunayted» Fernandesdan qutulishga qaror qildi",
     "Rossiyaliklarni Husanov, Shomurodov va Fayzullaev qiziqtiryapti",
-    "Laporta: “Yamal ‘Oltin to‘p’ni yutishga loyiq edi”"
+    "Laporta: “Yamal ‘Oltin to‘p’ni yutishga loyiq edi”",
+    "«Manchester Yunayted» Brunu Fernandesni sotishni rejalashtirmoqda"
   ],
-  "last_slot": "2026-10-27 22:30",
+  "last_slot": "2026-10-28 8:30",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -833,7 +834,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 346,
+    "last_id": 347,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
