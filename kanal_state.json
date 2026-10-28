@@ -196,7 +196,8 @@
     "yt:bFUK5gfU0bg",
     "https://daryo.uz/2026/10/27/laporta-yamal-oltin-topni-yutishga-loyiq-edi/",
     "yt:SEOuT9ea3HU",
-    "https://sports.uz/oz/news/view/manchester-yunayted-brunu-fernandeshni-sotishni-rejalashtirmoqda"
+    "https://sports.uz/oz/news/view/manchester-yunayted-brunu-fernandeshni-sotishni-rejalashtirmoqda",
+    "https://daryo.uz/2026/10/28/tatildan-yevropa-taxtiga-mojizaviy-chempionlik-va-bemor-qizi-uchun-gol-urgan-ota-hikoyasi/"
   ],
   "used_quiz": [
     23,
@@ -220,7 +221,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Ronaldu Portugaliya futbol federatsiyasidan jazoni yumshatishni so‘radi — manba",
     "“Barselona” prezidenti “Real Madrid” bilan munosabatlar yomonlashganini e’lon qildi",
     "Xiaomi 26 ta futbolka sig‘adigan narxi 88 dollarlik kir yuvish mashinasini taqdim etdi",
     "“Ronaldu jamoaga va menga pand berdi” — Erik ten Hag",
@@ -279,9 +279,10 @@
     "«Manchester Yunayted» Fernandesdan qutulishga qaror qildi",
     "Rossiyaliklarni Husanov, Shomurodov va Fayzullaev qiziqtiryapti",
     "Laporta: “Yamal ‘Oltin to‘p’ni yutishga loyiq edi”",
-    "«Manchester Yunayted» Brunu Fernandesni sotishni rejalashtirmoqda"
+    "«Manchester Yunayted» Brunu Fernandesni sotishni rejalashtirmoqda",
+    "Ta’tildan Yevropa taxtiga: mo‘jizaviy chempionlik va bemor qizi uchun gol urgan ota hikoyasi"
   ],
-  "last_slot": "2026-10-28 10:30",
+  "last_slot": "2026-10-28 11:30",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -834,7 +835,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 349,
+    "last_id": 350,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
