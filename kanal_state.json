@@ -197,7 +197,8 @@
     "https://daryo.uz/2026/10/27/laporta-yamal-oltin-topni-yutishga-loyiq-edi/",
     "yt:SEOuT9ea3HU",
     "https://sports.uz/oz/news/view/manchester-yunayted-brunu-fernandeshni-sotishni-rejalashtirmoqda",
-    "https://daryo.uz/2026/10/28/tatildan-yevropa-taxtiga-mojizaviy-chempionlik-va-bemor-qizi-uchun-gol-urgan-ota-hikoyasi/"
+    "https://daryo.uz/2026/10/28/tatildan-yevropa-taxtiga-mojizaviy-chempionlik-va-bemor-qizi-uchun-gol-urgan-ota-hikoyasi/",
+    "https://daryo.uz/2026/10/28/arsenal-nega-tortinchi-divizion-klubiga-maglub-boldi-arteta-sababini-aytdi/"
   ],
   "used_quiz": [
     23,
@@ -221,7 +222,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“Barselona” prezidenti “Real Madrid” bilan munosabatlar yomonlashganini e’lon qildi",
     "Xiaomi 26 ta futbolka sig‘adigan narxi 88 dollarlik kir yuvish mashinasini taqdim etdi",
     "“Ronaldu jamoaga va menga pand berdi” — Erik ten Hag",
     "Premyer-liganing olti futbolchisi tiz cho‘kishdan bosh tortdi",
@@ -280,9 +280,10 @@
     "Rossiyaliklarni Husanov, Shomurodov va Fayzullaev qiziqtiryapti",
     "Laporta: “Yamal ‘Oltin to‘p’ni yutishga loyiq edi”",
     "«Manchester Yunayted» Brunu Fernandesni sotishni rejalashtirmoqda",
-    "Ta’tildan Yevropa taxtiga: mo‘jizaviy chempionlik va bemor qizi uchun gol urgan ota hikoyasi"
+    "Ta’tildan Yevropa taxtiga: mo‘jizaviy chempionlik va bemor qizi uchun gol urgan ota hikoyasi",
+    "“Arsenal” nega to‘rtinchi divizion klubiga mag‘lub bo‘ldi? Arteta sababini aytdi"
   ],
-  "last_slot": "2026-10-28 11:30",
+  "last_slot": "2026-10-28 12:30",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -835,7 +836,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 350,
+    "last_id": 351,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -997,7 +998,12 @@
     "Niccolò Pisilli": null,
     "Niccolò Pisilli (footballer)": null,
     "Rodrigo Mora": null,
-    "Rodrigo Mora (footballer)": null
+    "Rodrigo Mora (footballer)": null,
+    "Mikel Arteta": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Arsenal_v_Everton_-_52223142689_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Maryland GovPics",
+      "license": "CC BY 2.0"
+    }
   },
   "matchday": {
     "401915312": "2026-10-21",
