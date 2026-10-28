@@ -199,7 +199,8 @@
     "https://sports.uz/oz/news/view/manchester-yunayted-brunu-fernandeshni-sotishni-rejalashtirmoqda",
     "https://daryo.uz/2026/10/28/tatildan-yevropa-taxtiga-mojizaviy-chempionlik-va-bemor-qizi-uchun-gol-urgan-ota-hikoyasi/",
     "https://daryo.uz/2026/10/28/arsenal-nega-tortinchi-divizion-klubiga-maglub-boldi-arteta-sababini-aytdi/",
-    "https://sports.uz/oz/news/view/barselona-hujum-chizig-iga-apldan-nomzod-topdi"
+    "https://sports.uz/oz/news/view/barselona-hujum-chizig-iga-apldan-nomzod-topdi",
+    "yt:ybo5B4IV4Gw"
   ],
   "used_quiz": [
     23,
@@ -285,9 +286,9 @@
     "“Arsenal” nega to‘rtinchi divizion klubiga mag‘lub bo‘ldi? Arteta sababini aytdi",
     "«Barselona» hujum chizig‘iga APLdan nomzod topdi"
   ],
-  "last_slot": "2026-10-28 15:30",
+  "last_slot": "2026-10-28 16:30",
   "scorers_idx": 5,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 2,
   "live": {
     "401915403": {
@@ -838,7 +839,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 354,
+    "last_id": 355,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
