@@ -881,13 +881,15 @@
     "401874799": {
       "goals": [
         "114-2878.0",
+        "114-3698.0",
+        "114-4015.0",
         "114-582.0",
         "4007-2548.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         1,
-        2
+        4
       ],
       "lag": 0
     }
@@ -897,7 +899,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 383,
+    "last_id": 386,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1125,7 +1127,14 @@
     "Gustavo Varela": null,
     "Gustavo Varela (footballer)": null,
     "Matteo Politano": null,
-    "Matteo Politano (footballer)": null
+    "Matteo Politano (footballer)": null,
+    "Rafa Marín": null,
+    "Rafa Marín (footballer)": null,
+    "Kevin De Bruyne": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg/1280px-Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    }
   },
   "matchday": {
     "401915312": "2026-10-21",
