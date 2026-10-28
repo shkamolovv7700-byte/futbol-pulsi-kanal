@@ -202,7 +202,8 @@
     "https://sports.uz/oz/news/view/barselona-hujum-chizig-iga-apldan-nomzod-topdi",
     "yt:ybo5B4IV4Gw",
     "https://daryo.uz/2026/10/28/lamin-yamalning-otasi-ofitsiantga-tupurdi-oav/",
-    "yt:cC8PE268iK0"
+    "yt:cC8PE268iK0",
+    "https://sports.uz/oz/news/view/atletiko-brunu-fernandeshni-sotib-olish-bo-yicha-faollashdi"
   ],
   "used_quiz": [
     23,
@@ -228,7 +229,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Premyer-liganing olti futbolchisi tiz cho‘kishdan bosh tortdi",
     "“Real” Yevropa Superligasi xarajatlarini qoplash uchun Angliya klublarini sudga berishi mumkin",
     "Oʻzbekiston milliy jamoasi Rossiya bilan oʻrtoqlik oʻyini oʻtkazadi.",
     "Messi va Ronalduning barcha davrlarning \"Oltin to‘p\"iga da’vogar",
@@ -287,9 +287,10 @@
     "Ta’tildan Yevropa taxtiga: mo‘jizaviy chempionlik va bemor qizi uchun gol urgan ota hikoyasi",
     "“Arsenal” nega to‘rtinchi divizion klubiga mag‘lub bo‘ldi? Arteta sababini aytdi",
     "«Barselona» hujum chizig‘iga APLdan nomzod topdi",
-    "Lamin Yamalning otasi ofitsiantga tupurdi — OAV"
+    "Lamin Yamalning otasi ofitsiantga tupurdi — OAV",
+    "«Atletiko» Brunu Fernandesni sotib olish bo‘yicha faollashdi"
   ],
-  "last_slot": "2026-10-28 20:30",
+  "last_slot": "2026-10-28 21:30",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -842,7 +843,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 362,
+    "last_id": 364,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1026,7 +1027,16 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Marcus_Thuram_France_v_Senegal_16_June_2026-261_%28cropped%29.jpg/1280px-Marcus_Thuram_France_v_Senegal_16_June_2026-261_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
-    }
+    },
+    "Metropolitano Stadium": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Atleti_vs_Villarreal_-_September_2025.jpg/1280px-Atleti_vs_Villarreal_-_September_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Elwin594",
+      "license": "CC0"
+    },
+    "Milutin Osmajic": null,
+    "Milutin Osmajic (footballer)": null,
+    "Bremer": null,
+    "Bremer (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
@@ -1044,7 +1054,8 @@
     "401876422": "2026-10-26",
     "401874780": "2026-10-27",
     "401874993": "2026-10-28",
-    "401874773": "2026-10-28"
+    "401874773": "2026-10-28",
+    "401874988": "2026-10-28"
   },
   "kickoff": {
     "401876422": "2026-10-27",
