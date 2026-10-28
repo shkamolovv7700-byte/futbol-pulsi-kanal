@@ -286,10 +286,10 @@
     "“Arsenal” nega to‘rtinchi divizion klubiga mag‘lub bo‘ldi? Arteta sababini aytdi",
     "«Barselona» hujum chizig‘iga APLdan nomzod topdi"
   ],
-  "last_slot": "2026-10-28 16:30",
+  "last_slot": "2026-10-28 17:00",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
-  "table_idx": 2,
+  "table_idx": 3,
   "live": {
     "401915403": {
       "goals": [
@@ -839,7 +839,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 355,
+    "last_id": 356,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
