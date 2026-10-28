@@ -842,21 +842,27 @@
       "goals": [
         "103-1589.0",
         "103-801.0",
-        "107-462.0"
+        "107-3582.0",
+        "107-3673.0",
+        "107-462.0",
+        "107-5127.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         2,
-        1
+        4
       ],
       "lag": 0
     },
     "401874773": {
-      "goals": [],
-      "ft": false,
+      "goals": [
+        "110-4740.0",
+        "110-4894.0"
+      ],
+      "ft": true,
       "score": [
         0,
-        0
+        2
       ],
       "lag": 0
     }
@@ -866,7 +872,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 370,
+    "last_id": 376,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1061,7 +1067,21 @@
     "Bremer": null,
     "Bremer (footballer)": null,
     "Alphadjo Cissè": null,
-    "Alphadjo Cissè (footballer)": null
+    "Alphadjo Cissè (footballer)": null,
+    "Davide Bartesaghi": null,
+    "Davide Bartesaghi (footballer)": null,
+    "Samuel Mbangula": null,
+    "Samuel Mbangula (footballer)": null,
+    "Matías Moreno": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Durand-Moreno.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Carolus-Duran",
+      "license": "Public domain"
+    },
+    "Redouane Halhal": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Redouane_Halhal_France_v_Morocco_9_July_2026-134.jpg/1280px-Redouane_Halhal_France_v_Morocco_9_July_2026-134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    }
   },
   "matchday": {
     "401915312": "2026-10-21",
