@@ -291,7 +291,7 @@
     "Lamin Yamalning otasi ofitsiantga tupurdi — OAV",
     "«Atletiko» Brunu Fernandesni sotib olish bo‘yicha faollashdi"
   ],
-  "last_slot": "2026-10-28 22:00",
+  "last_slot": "2026-10-28 22:30",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 3,
@@ -837,6 +837,27 @@
         2
       ],
       "lag": 0
+    },
+    "401874993": {
+      "goals": [
+        "103-801.0",
+        "107-462.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        1
+      ],
+      "lag": 0
+    },
+    "401874773": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -844,7 +865,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 364,
+    "last_id": 369,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1037,7 +1058,9 @@
     "Milutin Osmajic": null,
     "Milutin Osmajic (footballer)": null,
     "Bremer": null,
-    "Bremer (footballer)": null
+    "Bremer (footballer)": null,
+    "Alphadjo Cissè": null,
+    "Alphadjo Cissè (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
@@ -1060,6 +1083,8 @@
   },
   "kickoff": {
     "401876422": "2026-10-27",
-    "401874780": "2026-10-28"
+    "401874780": "2026-10-28",
+    "401874993": "2026-10-28",
+    "401874773": "2026-10-28"
   }
 }
