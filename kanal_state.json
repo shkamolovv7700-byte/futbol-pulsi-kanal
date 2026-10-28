@@ -223,7 +223,8 @@
     14,
     15,
     11,
-    0
+    0,
+    2
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -288,7 +289,7 @@
     "«Barselona» hujum chizig‘iga APLdan nomzod topdi",
     "Lamin Yamalning otasi ofitsiantga tupurdi — OAV"
   ],
-  "last_slot": "2026-10-28 19:30",
+  "last_slot": "2026-10-28 20:30",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -841,7 +842,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 360,
+    "last_id": 362,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
