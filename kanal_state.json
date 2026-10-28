@@ -201,7 +201,8 @@
     "https://daryo.uz/2026/10/28/arsenal-nega-tortinchi-divizion-klubiga-maglub-boldi-arteta-sababini-aytdi/",
     "https://sports.uz/oz/news/view/barselona-hujum-chizig-iga-apldan-nomzod-topdi",
     "yt:ybo5B4IV4Gw",
-    "https://daryo.uz/2026/10/28/lamin-yamalning-otasi-ofitsiantga-tupurdi-oav/"
+    "https://daryo.uz/2026/10/28/lamin-yamalning-otasi-ofitsiantga-tupurdi-oav/",
+    "yt:cC8PE268iK0"
   ],
   "used_quiz": [
     23,
@@ -287,9 +288,9 @@
     "«Barselona» hujum chizig‘iga APLdan nomzod topdi",
     "Lamin Yamalning otasi ofitsiantga tupurdi — OAV"
   ],
-  "last_slot": "2026-10-28 18:30",
+  "last_slot": "2026-10-28 19:30",
   "scorers_idx": 5,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 3,
   "live": {
     "401915403": {
@@ -840,7 +841,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 357,
+    "last_id": 360,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1007,6 +1008,23 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Arsenal_v_Everton_-_52223142689_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Maryland GovPics",
       "license": "CC BY 2.0"
+    },
+    "Adrien Rabiot": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Adrien_Rabiot_France_v_Senegal_16_June_2026-253.jpg/1280px-Adrien_Rabiot_France_v_Senegal_16_June_2026-253.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Federico Bernardeschi": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/11/FC_Zenit_Saint_Petersburg_vs._Juventus%2C_20_October_2021_17_%28Federico_Bernardeschi%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Kirill Venediktov",
+      "license": "CC BY-SA 3.0"
+    },
+    "Antoine Hainaut": null,
+    "Antoine Hainaut (footballer)": null,
+    "Marcus Thuram": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Marcus_Thuram_France_v_Senegal_16_June_2026-261_%28cropped%29.jpg/1280px-Marcus_Thuram_France_v_Senegal_16_June_2026-261_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -1023,7 +1041,9 @@
     "401878765": "2026-10-25",
     "401884760": "2026-10-25",
     "401876422": "2026-10-26",
-    "401874780": "2026-10-27"
+    "401874780": "2026-10-27",
+    "401874993": "2026-10-28",
+    "401874773": "2026-10-28"
   },
   "kickoff": {
     "401876422": "2026-10-27",
