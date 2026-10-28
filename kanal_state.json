@@ -865,6 +865,29 @@
         2
       ],
       "lag": 0
+    },
+    "401874988": {
+      "goals": [
+        "3263-1679.0",
+        "3263-692.0"
+      ],
+      "ft": false,
+      "score": [
+        2,
+        0
+      ],
+      "lag": 0
+    },
+    "401874799": {
+      "goals": [
+        "114-582.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -872,7 +895,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 376,
+    "last_id": 381,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1081,6 +1104,21 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Redouane_Halhal_France_v_Morocco_9_July_2026-134.jpg/1280px-Redouane_Halhal_France_v_Morocco_9_July_2026-134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Rasmus Højlund": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Rasmus_H%C3%B8jlund_with_a_fan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "VietnamJ25",
+      "license": "CC0"
+    },
+    "Kingsley Ehizibue": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/2021-08-08_FC_Carl_Zeiss_Jena_gegen_1._FC_K%C3%B6ln_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93165.jpg/1280px-2021-08-08_FC_Carl_Zeiss_Jena_gegen_1._FC_K%C3%B6ln_%28DFB-Pokal%29_by_Sandro_Halank%E2%80%93165.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Sandro Halank, Wikimedia Commons",
+      "license": "CC BY-SA 4.0"
+    },
+    "Tommaso Baldanzi": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Tommaso_Baldanzi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Jimmy Baikovicius from Montevideo, Urugu",
+      "license": "CC BY-SA 2.0"
     }
   },
   "matchday": {
@@ -1106,6 +1144,7 @@
     "401876422": "2026-10-27",
     "401874780": "2026-10-28",
     "401874993": "2026-10-28",
-    "401874773": "2026-10-28"
+    "401874773": "2026-10-28",
+    "401874988": "2026-10-29"
   }
 }
