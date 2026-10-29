@@ -204,7 +204,8 @@
     "https://daryo.uz/2026/10/28/lamin-yamalning-otasi-ofitsiantga-tupurdi-oav/",
     "yt:cC8PE268iK0",
     "https://sports.uz/oz/news/view/atletiko-brunu-fernandeshni-sotib-olish-bo-yicha-faollashdi",
-    "yt:wrHXytoFczk"
+    "yt:wrHXytoFczk",
+    "https://daryo.uz/2026/10/29/angliya-liga-kubogi-manchester-siti-chorak-finalga-yol-oldi-husanov-zaxiradan-maydonga-tushdi/"
   ],
   "used_quiz": [
     23,
@@ -230,7 +231,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“Real” Yevropa Superligasi xarajatlarini qoplash uchun Angliya klublarini sudga berishi mumkin",
     "Oʻzbekiston milliy jamoasi Rossiya bilan oʻrtoqlik oʻyini oʻtkazadi.",
     "Messi va Ronalduning barcha davrlarning \"Oltin to‘p\"iga da’vogar",
     "“Barselona” prezidenti: “Yamal — daho”",
@@ -289,9 +289,10 @@
     "“Arsenal” nega to‘rtinchi divizion klubiga mag‘lub bo‘ldi? Arteta sababini aytdi",
     "«Barselona» hujum chizig‘iga APLdan nomzod topdi",
     "Lamin Yamalning otasi ofitsiantga tupurdi — OAV",
-    "«Atletiko» Brunu Fernandesni sotib olish bo‘yicha faollashdi"
+    "«Atletiko» Brunu Fernandesni sotib olish bo‘yicha faollashdi",
+    "Angliya Liga Kubogi. “Manchester Siti” chorak finalga yo‘l oldi, Husanov zaxiradan maydonga tushdi"
   ],
-  "last_slot": "2026-10-29 10:30",
+  "last_slot": "2026-10-29 11:00",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 3,
@@ -899,7 +900,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 389,
+    "last_id": 390,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
