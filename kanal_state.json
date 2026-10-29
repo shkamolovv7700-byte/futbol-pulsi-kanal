@@ -206,7 +206,8 @@
     "https://sports.uz/oz/news/view/atletiko-brunu-fernandeshni-sotib-olish-bo-yicha-faollashdi",
     "yt:wrHXytoFczk",
     "https://daryo.uz/2026/10/29/angliya-liga-kubogi-manchester-siti-chorak-finalga-yol-oldi-husanov-zaxiradan-maydonga-tushdi/",
-    "https://sports.uz/oz/news/view/kurtua-rasing-ga-qarshi-o-yinda-maydonga-tushishi-mumkin"
+    "https://sports.uz/oz/news/view/kurtua-rasing-ga-qarshi-o-yinda-maydonga-tushishi-mumkin",
+    "yt:gp1-b88iwdI"
   ],
   "used_quiz": [
     23,
@@ -294,9 +295,9 @@
     "Angliya Liga Kubogi. “Manchester Siti” chorak finalga yo‘l oldi, Husanov zaxiradan maydonga tushdi",
     "Kurtua «Rasing»ga qarshi o‘yinda maydonga tushishi mumkin"
   ],
-  "last_slot": "2026-10-29 15:30",
+  "last_slot": "2026-10-29 16:00",
   "scorers_idx": 1,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 3,
   "live": {
     "401915403": {
@@ -902,7 +903,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 393,
+    "last_id": 394,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
