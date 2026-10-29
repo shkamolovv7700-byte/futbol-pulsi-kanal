@@ -208,7 +208,8 @@
     "https://daryo.uz/2026/10/29/angliya-liga-kubogi-manchester-siti-chorak-finalga-yol-oldi-husanov-zaxiradan-maydonga-tushdi/",
     "https://sports.uz/oz/news/view/kurtua-rasing-ga-qarshi-o-yinda-maydonga-tushishi-mumkin",
     "yt:gp1-b88iwdI",
-    "https://sports.uz/oz/news/view/brunu-fernandesh-manchester-yunayted-klubini-tark-etishi-mumkin"
+    "https://sports.uz/oz/news/view/brunu-fernandesh-manchester-yunayted-klubini-tark-etishi-mumkin",
+    "yt:eBLnW0Y3K24"
   ],
   "used_quiz": [
     23,
@@ -296,9 +297,9 @@
     "Kurtua «Rasing»ga qarshi o‘yinda maydonga tushishi mumkin",
     "Brunu Fernandes «Manchester Yunayted» klubini tark etishi mumkin"
   ],
-  "last_slot": "2026-10-29 18:00",
+  "last_slot": "2026-10-29 19:00",
   "scorers_idx": 1,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 4,
   "live": {
     "401915403": {
@@ -904,7 +905,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 396,
+    "last_id": 397,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
