@@ -232,7 +232,8 @@
     15,
     11,
     0,
-    2
+    2,
+    1
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -297,7 +298,7 @@
     "Kurtua «Rasing»ga qarshi o‘yinda maydonga tushishi mumkin",
     "Brunu Fernandes «Manchester Yunayted» klubini tark etishi mumkin"
   ],
-  "last_slot": "2026-10-29 19:00",
+  "last_slot": "2026-10-29 20:00",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 4,
@@ -905,7 +906,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 397,
+    "last_id": 398,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
