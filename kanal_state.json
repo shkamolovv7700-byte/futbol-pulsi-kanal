@@ -215,7 +215,8 @@
     30,
     6,
     16,
-    25
+    25,
+    24
   ],
   "used_poll": [
     19,
@@ -292,7 +293,7 @@
     "«Atletiko» Brunu Fernandesni sotib olish bo‘yicha faollashdi",
     "Angliya Liga Kubogi. “Manchester Siti” chorak finalga yo‘l oldi, Husanov zaxiradan maydonga tushdi"
   ],
-  "last_slot": "2026-10-29 11:30",
+  "last_slot": "2026-10-29 13:00",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 3,
@@ -900,7 +901,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 390,
+    "last_id": 391,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
