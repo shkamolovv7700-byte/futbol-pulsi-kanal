@@ -209,7 +209,8 @@
     "https://sports.uz/oz/news/view/kurtua-rasing-ga-qarshi-o-yinda-maydonga-tushishi-mumkin",
     "yt:gp1-b88iwdI",
     "https://sports.uz/oz/news/view/brunu-fernandesh-manchester-yunayted-klubini-tark-etishi-mumkin",
-    "yt:eBLnW0Y3K24"
+    "yt:eBLnW0Y3K24",
+    "https://daryo.uz/2026/10/29/ronaldu-bu-yutuq-sizniki-hamdir/"
   ],
   "used_quiz": [
     23,
@@ -237,7 +238,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“Barselona” prezidenti: “Yamal — daho”",
     "\"Barsa\" mag‘lubiyatiga sababchi bo‘lgan futbolchilar ko‘rsatildi",
     "Kvaratsxeliya to‘qqiz oy futbol o‘ynolmaydi",
     "\"Barsa\" Evropada gol urgan oʻyinchilar soni boʻyicha yetakchiga aylandi",
@@ -296,9 +296,10 @@
     "«Atletiko» Brunu Fernandesni sotib olish bo‘yicha faollashdi",
     "Angliya Liga Kubogi. “Manchester Siti” chorak finalga yo‘l oldi, Husanov zaxiradan maydonga tushdi",
     "Kurtua «Rasing»ga qarshi o‘yinda maydonga tushishi mumkin",
-    "Brunu Fernandes «Manchester Yunayted» klubini tark etishi mumkin"
+    "Brunu Fernandes «Manchester Yunayted» klubini tark etishi mumkin",
+    "Ronaldu: “Bu yutuq sizniki hamdir”"
   ],
-  "last_slot": "2026-10-29 20:30",
+  "last_slot": "2026-10-29 21:30",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 4,
@@ -906,7 +907,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 398,
+    "last_id": 399,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
