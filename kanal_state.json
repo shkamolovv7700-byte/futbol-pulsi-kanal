@@ -217,7 +217,8 @@
     "https://sports.uz/oz/news/view/bastoni-barselona-ga-o-tish-uchun-flik-bilan-shaxsiy-suhbat-o-tkazishni-istamoqda",
     "yt:3MJSa5kpqBM",
     "https://sports.uz/oz/news/view/david-rayya-arsenaldan-la-ligaga-ketmoqchi-30-10-2026",
-    "yt:ZdRuKW3XUzo"
+    "yt:ZdRuKW3XUzo",
+    "https://daryo.uz/2026/10/30/superliga-paxtakor-songgi-daqiqalarda-kiritilgan-gol-evaziga-galaba-qozondi-yana-ikkita-bahsda-durang-qayd-etildi/"
   ],
   "used_quiz": [
     23,
@@ -247,7 +248,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "O‘zbekiston ayollar milliy terma jamoasining Jahon chempionati saralashidagi o‘yinlar taqvimi ma’lum bo‘ldi",
     "Flik PSJ \"Barsa\"dan ustun ekanini tan oldi",
     "O'zbek futbolchisi UEFA Chempionlar Ligasi tarixini yangilashga yordam berdi",
     "\"Real\" yozga ikki yulduzni tanladi",
@@ -306,9 +306,10 @@
     "“Xet-trik bilan jamoam g‘alabasiga yordam berganimdan xursandman” — Ronaldu",
     "Ronaldu ikki yarim yil ichida ilk bor het-trikka erishdi",
     "Bastoni «Barselona»ga o‘tish uchun Flik bilan shaxsiy suhbat o‘tkazishni istamoqda",
-    "David Rayya “Arsenal”dan La Ligaga ketmoqchi"
+    "David Rayya “Arsenal”dan La Ligaga ketmoqchi",
+    "Superliga. “Paxtakor” so‘nggi daqiqalarda kiritilgan gol evaziga g‘alaba qozondi, yana ikkita bahsda durang qayd etildi"
   ],
-  "last_slot": "2026-10-30 20:30",
+  "last_slot": "2026-10-30 21:30",
   "scorers_idx": 2,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -916,7 +917,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 413,
+    "last_id": 414,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
