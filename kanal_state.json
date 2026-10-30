@@ -242,7 +242,8 @@
     11,
     0,
     2,
-    1
+    1,
+    17
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -307,7 +308,7 @@
     "Bastoni «Barselona»ga o‘tish uchun Flik bilan shaxsiy suhbat o‘tkazishni istamoqda",
     "David Rayya “Arsenal”dan La Ligaga ketmoqchi"
   ],
-  "last_slot": "2026-10-30 19:00",
+  "last_slot": "2026-10-30 20:00",
   "scorers_idx": 2,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -915,7 +916,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 411,
+    "last_id": 413,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1155,7 +1156,9 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2022_Hansi_Flick_%28cropped%29.jpg/1280px-2022_Hansi_Flick_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Steffen Prößdorf",
       "license": "CC BY-SA 4.0"
-    }
+    },
+    "Josh Maja": null,
+    "Josh Maja (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
@@ -1174,7 +1177,8 @@
     "401874780": "2026-10-27",
     "401874993": "2026-10-28",
     "401874773": "2026-10-28",
-    "401874988": "2026-10-28"
+    "401874988": "2026-10-28",
+    "401876421": "2026-10-30"
   },
   "kickoff": {
     "401876422": "2026-10-27",
