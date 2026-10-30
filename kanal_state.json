@@ -213,7 +213,8 @@
     "https://daryo.uz/2026/10/29/ronaldu-bu-yutuq-sizniki-hamdir/",
     "yt:LVT3Y2RG1l8",
     "https://daryo.uz/2026/10/30/xet-trik-bilan-jamoam-galabasiga-yordam-berganimdan-xursandman-ronaldu/",
-    "https://kun.uz/news/2026/10/30/ronaldu-ikki-yarim-yil-ichida-ilk-bor-het-trikka-erishdi-58625"
+    "https://kun.uz/news/2026/10/30/ronaldu-ikki-yarim-yil-ichida-ilk-bor-het-trikka-erishdi-58625",
+    "https://sports.uz/oz/news/view/bastoni-barselona-ga-o-tish-uchun-flik-bilan-shaxsiy-suhbat-o-tkazishni-istamoqda"
   ],
   "used_quiz": [
     23,
@@ -242,7 +243,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "\"Barsa\" Evropada gol urgan oʻyinchilar soni boʻyicha yetakchiga aylandi",
     "Lamin Yamal Kilian Mbappening Chempionlar Ligasidagi rekordini takrorladi",
     "O‘zbekiston ayollar milliy terma jamoasining Jahon chempionati saralashidagi o‘yinlar taqvimi ma’lum bo‘ldi",
     "Flik PSJ \"Barsa\"dan ustun ekanini tan oldi",
@@ -301,9 +301,10 @@
     "Brunu Fernandes «Manchester Yunayted» klubini tark etishi mumkin",
     "Ronaldu: “Bu yutuq sizniki hamdir”",
     "“Xet-trik bilan jamoam g‘alabasiga yordam berganimdan xursandman” — Ronaldu",
-    "Ronaldu ikki yarim yil ichida ilk bor het-trikka erishdi"
+    "Ronaldu ikki yarim yil ichida ilk bor het-trikka erishdi",
+    "Bastoni «Barselona»ga o‘tish uchun Flik bilan shaxsiy suhbat o‘tkazishni istamoqda"
   ],
-  "last_slot": "2026-10-30 13:30",
+  "last_slot": "2026-10-30 14:30",
   "scorers_idx": 1,
   "last_video_source": "LaLiga",
   "table_idx": 4,
@@ -911,7 +912,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 405,
+    "last_id": 406,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1145,6 +1146,11 @@
     "Kevin De Bruyne": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg/1280px-Kevin_De_Bruyne_USMNT_v_Belgium_Mar_28_2026-64_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Hansi Flick": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/2022_Hansi_Flick_%28cropped%29.jpg/1280px-2022_Hansi_Flick_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Steffen Prößdorf",
       "license": "CC BY-SA 4.0"
     }
   },
