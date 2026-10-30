@@ -218,7 +218,8 @@
     "yt:3MJSa5kpqBM",
     "https://sports.uz/oz/news/view/david-rayya-arsenaldan-la-ligaga-ketmoqchi-30-10-2026",
     "yt:ZdRuKW3XUzo",
-    "https://daryo.uz/2026/10/30/superliga-paxtakor-songgi-daqiqalarda-kiritilgan-gol-evaziga-galaba-qozondi-yana-ikkita-bahsda-durang-qayd-etildi/"
+    "https://daryo.uz/2026/10/30/superliga-paxtakor-songgi-daqiqalarda-kiritilgan-gol-evaziga-galaba-qozondi-yana-ikkita-bahsda-durang-qayd-etildi/",
+    "yt:uDCTpF6OKlY"
   ],
   "used_quiz": [
     23,
@@ -309,9 +310,9 @@
     "David Rayya “Arsenal”dan La Ligaga ketmoqchi",
     "Superliga. “Paxtakor” so‘nggi daqiqalarda kiritilgan gol evaziga g‘alaba qozondi, yana ikkita bahsda durang qayd etildi"
   ],
-  "last_slot": "2026-10-30 21:30",
+  "last_slot": "2026-10-30 22:30",
   "scorers_idx": 2,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 5,
   "live": {
     "401915403": {
@@ -917,7 +918,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 414,
+    "last_id": 415,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
