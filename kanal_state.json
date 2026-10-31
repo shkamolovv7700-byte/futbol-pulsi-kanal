@@ -317,7 +317,7 @@
     "Anchelotti \"Barsa\"ga keskin javob qaytardi",
     "APL. «Chelsi» — «Manchester Yunayted»: Asosiy tarkiblar e’lon qilindi"
   ],
-  "last_slot": "2026-10-31 19:00",
+  "last_slot": "2026-10-31 19:30",
   "scorers_idx": 3,
   "last_video_source": "Serie A",
   "table_idx": 6,
@@ -942,7 +942,7 @@
         "363-3787.0",
         "363-4232.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         2,
         0
@@ -952,7 +952,20 @@
     "401882820": {
       "goals": [
         "1068-2105.0",
+        "1068-3664.0",
         "1068-939.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        2
+      ],
+      "lag": 0
+    },
+    "401884753": {
+      "goals": [
+        "134-802.0",
+        "134-804.0"
       ],
       "ft": false,
       "score": [
@@ -967,7 +980,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 444,
+    "last_id": 448,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1267,7 +1280,12 @@
       "license": "CC BY-SA 4.0"
     },
     "Estêvão": null,
-    "Estêvão (footballer)": null
+    "Estêvão (footballer)": null,
+    "Giuliano Simeone": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Giuliano_Simeone_Argentina_v_Spain_19_July_2026-268.jpg/1280px-Giuliano_Simeone_Argentina_v_Spain_19_July_2026-268.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    }
   },
   "matchday": {
     "401915312": "2026-10-21",
@@ -1300,6 +1318,7 @@
     "401874988": "2026-10-29",
     "401876421": "2026-10-30",
     "401879248": "2026-10-31",
-    "401882820": "2026-10-31"
+    "401882820": "2026-10-31",
+    "401884753": "2026-10-31"
   }
 }
