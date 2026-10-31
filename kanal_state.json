@@ -1001,11 +1001,12 @@
         "104-2215.0",
         "104-2217.0",
         "104-555.0",
-        "104-556.0"
+        "104-556.0",
+        "118-2964.0"
       ],
       "ft": false,
       "score": [
-        0,
+        1,
         4
       ],
       "lag": 0
@@ -1022,10 +1023,13 @@
       "lag": 0
     },
     "401884754": {
-      "goals": [],
+      "goals": [
+        "124-1990.0",
+        "132-2235.0"
+      ],
       "ft": false,
       "score": [
-        0,
+        1,
         0
       ],
       "lag": 0
@@ -1036,7 +1040,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 465,
+    "last_id": 467,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1371,6 +1375,13 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Rangers_v_Tottenham_Hotspur_-_54202663229_%28Archie_Gray%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Jim Easton",
       "license": "CC0"
+    },
+    "Nicolò Zaniolo": null,
+    "Nicolò Zaniolo (footballer)": null,
+    "Konrad Laimer": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2137_by_Stepro_%28cropped%29.jpg/1280px-2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2137_by_Stepro_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Steffen Prößdorf",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
