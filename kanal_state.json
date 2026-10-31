@@ -314,7 +314,7 @@
     "Levandovski \"Arsenal\"ni \"chaqib\" oldi",
     "Anchelotti \"Barsa\"ga keskin javob qaytardi"
   ],
-  "last_slot": "2026-10-31 14:00",
+  "last_slot": "2026-10-31 14:30",
   "scorers_idx": 2,
   "last_video_source": "Serie A",
   "table_idx": 5,
@@ -939,7 +939,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 430,
+    "last_id": 431,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1203,6 +1203,13 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Bryan_Mbeumo_00-02-31.18.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "AFC Bournemouth",
       "license": "CC BY 3.0"
+    },
+    "Roger Brugué": null,
+    "Roger Brugué (footballer)": null,
+    "Álex Baena": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Alex_Baena_France_v_Spain_7.24.26-024.jpg/1280px-Alex_Baena_France_v_Spain_7.24.26-024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -1224,7 +1231,8 @@
     "401874773": "2026-10-28",
     "401874988": "2026-10-28",
     "401876421": "2026-10-30",
-    "401879248": "2026-10-31"
+    "401879248": "2026-10-31",
+    "401882820": "2026-10-31"
   },
   "kickoff": {
     "401876422": "2026-10-27",
