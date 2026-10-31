@@ -223,7 +223,8 @@
     "https://daryo.uz/2026/10/31/real-va-barselona-bir-futbolchiga-qiziqish-bildirmoqda-fichajes/",
     "https://sports.uz/oz/news/view/levandovski-arsenal-ni-chaqib-oldi",
     "https://sports.uz/oz/news/view/anchelotti-barsa-ga-keskin-javob-qaytardi",
-    "yt:21rmDFisqG8"
+    "yt:21rmDFisqG8",
+    "https://sports.uz/oz/news/view/apl-chelsi-manchester-yunayted-asosiy-tarkiblar-elon-qilindi-31-10-2026"
   ],
   "used_quiz": [
     23,
@@ -254,7 +255,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“Aston Villa” Yevropa ligasida yordam bergan oʻyinchiga yangi shartnoma taklif qiladi",
     "O‘zimizga qayt, “Real”da o‘ynay olmayapsan",
     "Manchesterliklar bosh murabbiylikka to‘rtta nomzod tanladi",
     "“Mashgʻulotlar chempioni”. “Barselona”ning yoqimsiz magʻlubiyati haqida",
@@ -313,9 +313,10 @@
     "Superliga. “Paxtakor” so‘nggi daqiqalarda kiritilgan gol evaziga g‘alaba qozondi, yana ikkita bahsda durang qayd etildi",
     "“Real” va “Barselona” bir futbolchiga qiziqish bildirmoqda — Fichajes",
     "Levandovski \"Arsenal\"ni \"chaqib\" oldi",
-    "Anchelotti \"Barsa\"ga keskin javob qaytardi"
+    "Anchelotti \"Barsa\"ga keskin javob qaytardi",
+    "APL. «Chelsi» — «Manchester Yunayted»: Asosiy tarkiblar e’lon qilindi"
   ],
-  "last_slot": "2026-10-31 17:30",
+  "last_slot": "2026-10-31 18:30",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 6,
@@ -942,6 +943,17 @@
         0
       ],
       "lag": 0
+    },
+    "401882820": {
+      "goals": [
+        "1068-939.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -949,7 +961,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 436,
+    "last_id": 438,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1264,6 +1276,7 @@
     "401874773": "2026-10-28",
     "401874988": "2026-10-29",
     "401876421": "2026-10-30",
-    "401879248": "2026-10-31"
+    "401879248": "2026-10-31",
+    "401882820": "2026-10-31"
   }
 }
