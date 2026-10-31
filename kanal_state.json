@@ -320,7 +320,7 @@
     "APL. «Chelsi» — «Manchester Yunayted»: Asosiy tarkiblar e’lon qilindi",
     "\"Manchester Yunayted\"ni kimlar tiz cho‘ktirdi?"
   ],
-  "last_slot": "2026-10-31 22:00",
+  "last_slot": "2026-10-31 22:30",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 6,
@@ -996,13 +996,37 @@
     },
     "401874990": {
       "goals": [
+        "104-1821.0",
+        "104-1962.0",
+        "104-2215.0",
+        "104-2217.0",
         "104-555.0",
         "104-556.0"
       ],
       "ft": false,
       "score": [
         0,
-        1
+        4
+      ],
+      "lag": 0
+    },
+    "401878761": {
+      "goals": [
+        "367-1441.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        0
+      ],
+      "lag": 0
+    },
+    "401884754": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
       ],
       "lag": 0
     }
@@ -1012,7 +1036,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 461,
+    "last_id": 465,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1337,6 +1361,16 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Bryan-Cristante-2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Werner100359",
       "license": "CC BY-SA 4.0"
+    },
+    "Evan Ndicka": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Evan_Ndicka_Cote_D%27Ivoire_v_Ecuador_14_June_2026-59.jpg/1280px-Evan_Ndicka_Cote_D%27Ivoire_v_Ecuador_14_June_2026-59.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Archie Gray": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Rangers_v_Tottenham_Hotspur_-_54202663229_%28Archie_Gray%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Jim Easton",
+      "license": "CC0"
     }
   },
   "matchday": {
