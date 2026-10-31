@@ -1000,24 +1000,27 @@
         "104-1962.0",
         "104-2215.0",
         "104-2217.0",
+        "104-5400.0",
         "104-555.0",
         "104-556.0",
-        "118-2964.0"
+        "118-2964.0",
+        "118-4635.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
-        1,
-        4
+        2,
+        5
       ],
       "lag": 0
     },
     "401878761": {
       "goals": [
-        "367-1441.0"
+        "367-1441.0",
+        "367-4370.0"
       ],
       "ft": false,
       "score": [
-        1,
+        2,
         0
       ],
       "lag": 0
@@ -1025,12 +1028,15 @@
     "401884754": {
       "goals": [
         "124-1990.0",
-        "132-2235.0"
+        "124-3565.0",
+        "132-2235.0",
+        "132-3919.0",
+        "132-3921.0"
       ],
       "ft": false,
       "score": [
-        1,
-        0
+        2,
+        1
       ],
       "lag": 0
     }
@@ -1040,7 +1046,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 467,
+    "last_id": 473,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1382,6 +1388,28 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2137_by_Stepro_%28cropped%29.jpg/1280px-2022-07-21_Fu%C3%9Fball%2C_M%C3%A4nner%2CFreundschaftsspiel%2C_RB_Leipzig_-_FC_Liverpool_1DX_2137_by_Stepro_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Steffen Prößdorf",
       "license": "CC BY-SA 4.0"
+    },
+    "Matteo Palma": null,
+    "Matteo Palma (footballer)": null,
+    "Daniele Ghilardi": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Ghilardi_ASRoma_%28cropped%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "LittleWhites",
+      "license": "CC BY-SA 4.0"
+    },
+    "Serhou Guirassy": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Serhou_Guirassy_2024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "feguifoot",
+      "license": "Public domain"
+    },
+    "Dayot Upamecano": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Dayot_Upamecano_France_v_Senegal_16_June_2026-402_%28cropped%29.jpg/1280px-Dayot_Upamecano_France_v_Senegal_16_June_2026-402_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Jan Paul van Hecke": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg/1280px-Jan_Paul_van_Hecke_24012026_%282%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Timmy96",
+      "license": "CC0"
     }
   },
   "matchday": {
