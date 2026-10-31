@@ -222,7 +222,8 @@
     "yt:uDCTpF6OKlY",
     "https://daryo.uz/2026/10/31/real-va-barselona-bir-futbolchiga-qiziqish-bildirmoqda-fichajes/",
     "https://sports.uz/oz/news/view/levandovski-arsenal-ni-chaqib-oldi",
-    "https://sports.uz/oz/news/view/anchelotti-barsa-ga-keskin-javob-qaytardi"
+    "https://sports.uz/oz/news/view/anchelotti-barsa-ga-keskin-javob-qaytardi",
+    "yt:21rmDFisqG8"
   ],
   "used_quiz": [
     23,
@@ -314,9 +315,9 @@
     "Levandovski \"Arsenal\"ni \"chaqib\" oldi",
     "Anchelotti \"Barsa\"ga keskin javob qaytardi"
   ],
-  "last_slot": "2026-10-31 15:30",
+  "last_slot": "2026-10-31 16:00",
   "scorers_idx": 3,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 5,
   "live": {
     "401915403": {
@@ -939,7 +940,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 432,
+    "last_id": 434,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1210,6 +1211,18 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Alex_Baena_France_v_Spain_7.24.26-024.jpg/1280px-Alex_Baena_France_v_Spain_7.24.26-024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Patrik Schick": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3672_by_Stepro.jpg/1280px-2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3672_by_Stepro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Steffen Prößdorf",
+      "license": "CC BY-SA 4.0"
+    },
+    "Ermedin Demirovic": null,
+    "Ermedin Demirovic (footballer)": null,
+    "BayArena": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bayarena_Leverkusen_2020.jpg/1280px-Bayarena_Leverkusen_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Arne Müseler",
+      "license": "CC BY-SA 3.0 de"
     }
   },
   "matchday": {
@@ -1232,7 +1245,8 @@
     "401874988": "2026-10-28",
     "401876421": "2026-10-30",
     "401879248": "2026-10-31",
-    "401882820": "2026-10-31"
+    "401882820": "2026-10-31",
+    "401884753": "2026-10-31"
   },
   "kickoff": {
     "401876422": "2026-10-27",
