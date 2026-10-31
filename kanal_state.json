@@ -224,7 +224,8 @@
     "https://sports.uz/oz/news/view/levandovski-arsenal-ni-chaqib-oldi",
     "https://sports.uz/oz/news/view/anchelotti-barsa-ga-keskin-javob-qaytardi",
     "yt:21rmDFisqG8",
-    "https://sports.uz/oz/news/view/apl-chelsi-manchester-yunayted-asosiy-tarkiblar-elon-qilindi-31-10-2026"
+    "https://sports.uz/oz/news/view/apl-chelsi-manchester-yunayted-asosiy-tarkiblar-elon-qilindi-31-10-2026",
+    "yt:DDMdh8Pwpm4"
   ],
   "used_quiz": [
     23,
@@ -316,9 +317,9 @@
     "Anchelotti \"Barsa\"ga keskin javob qaytardi",
     "APL. «Chelsi» — «Manchester Yunayted»: Asosiy tarkiblar e’lon qilindi"
   ],
-  "last_slot": "2026-10-31 18:30",
+  "last_slot": "2026-10-31 19:00",
   "scorers_idx": 3,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 6,
   "live": {
     "401915403": {
@@ -936,22 +937,27 @@
       "lag": 0
     },
     "401879248": {
-      "goals": [],
+      "goals": [
+        "363-2943.0",
+        "363-3787.0",
+        "363-4232.0"
+      ],
       "ft": false,
       "score": [
-        0,
+        2,
         0
       ],
       "lag": 0
     },
     "401882820": {
       "goals": [
+        "1068-2105.0",
         "1068-939.0"
       ],
       "ft": false,
       "score": [
         0,
-        0
+        1
       ],
       "lag": 0
     }
@@ -961,7 +967,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 438,
+    "last_id": 444,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1244,7 +1250,24 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Bayarena_Leverkusen_2020.jpg/1280px-Bayarena_Leverkusen_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Arne Müseler",
       "license": "CC BY-SA 3.0 de"
-    }
+    },
+    "Morgan Rogers": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Morgan_Rogers_England_v_Panama_27_June_26-144_%28cropped%29.jpg/1280px-Morgan_Rogers_England_v_Panama_27_June_26-144_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Cole Palmer": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Cole_Palmer_2025_FIFA_Club_World_Cup_Final.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "The White House",
+      "license": "Public domain"
+    },
+    "Alejandro Grimaldo": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Alex_Grimaldo_Argentina_v_Spain_19_July_2026-314.jpg/1280px-Alex_Grimaldo_Argentina_v_Spain_19_July_2026-314.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Estêvão": null,
+    "Estêvão (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
