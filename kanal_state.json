@@ -262,7 +262,8 @@
     2,
     1,
     17,
-    12
+    12,
+    10
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -327,7 +328,7 @@
     "\"Barsa\" oʻz futbolchisiga PSJ \"kўz olaytirayotganini\" bilib qoldi",
     "“Chelsi” orzusidagi o‘yinchini olish uchun 100 million funt sarflashi kerak"
   ],
-  "last_slot": "2026-11-01 19:30",
+  "last_slot": "2026-11-01 20:00",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 1,
@@ -1079,6 +1080,15 @@
         1
       ],
       "lag": 0
+    },
+    "401882819": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1086,7 +1096,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 503,
+    "last_id": 505,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1524,6 +1534,7 @@
     "401876421": "2026-10-30",
     "401879248": "2026-10-31",
     "401882820": "2026-10-31",
-    "401884753": "2026-10-31"
+    "401884753": "2026-10-31",
+    "401882819": "2026-11-01"
   }
 }
