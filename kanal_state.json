@@ -229,7 +229,8 @@
     "https://sports.uz/oz/news/view/manchester-yunayted-ni-kimlar-tiz-cho-ktirdi",
     "yt:c3Ct099QZ-8",
     "https://daryo.uz/2026/11/01/el-klasiko-vaqtida-real-futbolchisining-uyini-tunab-ketishdi-el-mundo/",
-    "https://sports.uz/oz/news/view/bavariya-da-etiroz-uyg-otgan-yulduzga-uchta-badavlat-xaridor-chiqdi"
+    "https://sports.uz/oz/news/view/bavariya-da-etiroz-uyg-otgan-yulduzga-uchta-badavlat-xaridor-chiqdi",
+    "https://sports.uz/oz/news/view/barsa-o-z-futbolchisiga-psj-ko-z-olaytirayotganini-bilib-qoldi"
   ],
   "used_quiz": [
     23,
@@ -262,7 +263,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "«Barselona» «PSJ» muxlislarining bannerni yuzasidan UEFAga shikoyat qildi",
     "Jahon chempionati. Bugun 6 nafar bokchimiz chorak final uchun jang qiladi",
     "«Barselona» bir oyga muhim oʻyinchisiz qoldi",
     "O‘zbekiston Kubogi. Yarimfinalning barcha ishtirokchilari ma’lum bo‘ldi",
@@ -321,9 +321,10 @@
     "APL. «Chelsi» — «Manchester Yunayted»: Asosiy tarkiblar e’lon qilindi",
     "\"Manchester Yunayted\"ni kimlar tiz cho‘ktirdi?",
     "“El-Klasiko” vaqtida “Real” futbolchisining uyini tunab ketishdi — El Mundo",
-    "“Bavariya”da e’tiroz uyg‘otgan yulduzga uchta badavlat xaridor chiqdi"
+    "“Bavariya”da e’tiroz uyg‘otgan yulduzga uchta badavlat xaridor chiqdi",
+    "\"Barsa\" oʻz futbolchisiga PSJ \"kўz olaytirayotganini\" bilib qoldi"
   ],
-  "last_slot": "2026-11-01 13:30",
+  "last_slot": "2026-11-01 14:30",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 6,
@@ -1082,7 +1083,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 494,
+    "last_id": 495,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
