@@ -1109,10 +1109,13 @@
       "lag": 0
     },
     "401874949": {
-      "goals": [],
+      "goals": [
+        "111-4174.0",
+        "111-5189.0"
+      ],
       "ft": false,
       "score": [
-        0,
+        2,
         0
       ],
       "lag": 0
@@ -1120,7 +1123,8 @@
     "401876417": {
       "goals": [
         "176-1475.0",
-        "176-60.0"
+        "176-60.0",
+        "179-4062.0"
       ],
       "ft": false,
       "score": [
@@ -1135,7 +1139,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 518,
+    "last_id": 522,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1566,6 +1570,23 @@
     "Amine Gouiri": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Lens_-_Stade_Rennais_%2820-08-2023%29_22.jpg/1280px-Lens_-_Stade_Rennais_%2820-08-2023%29_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Supporterhéninois",
+      "license": "CC0"
+    },
+    "Casper Tengstedt": null,
+    "Casper Tengstedt (footballer)": null,
+    "Stade Vélodrome": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Stade_V%C3%A9lodrome_en_novembre_2021_%281%29.jpg/1280px-Stade_V%C3%A9lodrome_en_novembre_2021_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Sophie P.",
+      "license": "CC BY-SA 4.0"
+    },
+    "Kerim Alajbegovic": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Jahresbeginnfeier_FC_RB_Salzburg_%282026-01-25_RB_Arena%29_10.jpg/1280px-Jahresbeginnfeier_FC_RB_Salzburg_%282026-01-25_RB_Arena%29_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Werner100359",
+      "license": "CC BY-SA 4.0"
+    },
+    "Jérémie Boga": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Boga_asse_ogcn_2425.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Paté kroute",
       "license": "CC0"
     }
   },
