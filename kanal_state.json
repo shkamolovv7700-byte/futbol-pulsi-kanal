@@ -328,7 +328,7 @@
     "\"Barsa\" oʻz futbolchisiga PSJ \"kўz olaytirayotganini\" bilib qoldi",
     "“Chelsi” orzusidagi o‘yinchini olish uchun 100 million funt sarflashi kerak"
   ],
-  "last_slot": "2026-11-01 20:00",
+  "last_slot": "2026-11-01 20:30",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 1,
@@ -1082,11 +1082,14 @@
       "lag": 0
     },
     "401882819": {
-      "goals": [],
+      "goals": [
+        "86-1260.0",
+        "86-658.0"
+      ],
       "ft": false,
       "score": [
         0,
-        0
+        2
       ],
       "lag": 0
     }
@@ -1096,7 +1099,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 505,
+    "last_id": 507,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1496,6 +1499,11 @@
     },
     "Bukayo Saka": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Bukayo_Saka_England_v_Ghana_23_June_2026-057_%28cropped%29.jpg/1280px-Bukayo_Saka_England_v_Ghana_23_June_2026-057_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Jude Bellingham": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/1280px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
     }
