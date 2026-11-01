@@ -231,7 +231,8 @@
     "https://daryo.uz/2026/11/01/el-klasiko-vaqtida-real-futbolchisining-uyini-tunab-ketishdi-el-mundo/",
     "https://sports.uz/oz/news/view/bavariya-da-etiroz-uyg-otgan-yulduzga-uchta-badavlat-xaridor-chiqdi",
     "https://sports.uz/oz/news/view/barsa-o-z-futbolchisiga-psj-ko-z-olaytirayotganini-bilib-qoldi",
-    "yt:oBwS2OFDvY8"
+    "yt:oBwS2OFDvY8",
+    "https://sports.uz/oz/news/view/chelsi-orzusidagi-o-yinchini-olish-uchun-100-million-funt-sarflashi-kerak"
   ],
   "used_quiz": [
     23,
@@ -264,7 +265,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Jahon chempionati. Bugun 6 nafar bokchimiz chorak final uchun jang qiladi",
     "«Barselona» bir oyga muhim oʻyinchisiz qoldi",
     "O‘zbekiston Kubogi. Yarimfinalning barcha ishtirokchilari ma’lum bo‘ldi",
     "\"Manchester Yunayted\" inglizlar yuzini yerga qaratdi",
@@ -323,9 +323,10 @@
     "\"Manchester Yunayted\"ni kimlar tiz cho‘ktirdi?",
     "“El-Klasiko” vaqtida “Real” futbolchisining uyini tunab ketishdi — El Mundo",
     "“Bavariya”da e’tiroz uyg‘otgan yulduzga uchta badavlat xaridor chiqdi",
-    "\"Barsa\" oʻz futbolchisiga PSJ \"kўz olaytirayotganini\" bilib qoldi"
+    "\"Barsa\" oʻz futbolchisiga PSJ \"kўz olaytirayotganini\" bilib qoldi",
+    "“Chelsi” orzusidagi o‘yinchini olish uchun 100 million funt sarflashi kerak"
   ],
-  "last_slot": "2026-11-01 17:30",
+  "last_slot": "2026-11-01 18:00",
   "scorers_idx": 4,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -1084,7 +1085,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 499,
+    "last_id": 502,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1476,6 +1477,16 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Yassir_Zabiri_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Abdelali Bentarki",
       "license": "CC BY 4.0"
+    },
+    "Alexander Isak": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Alexander_Isak_-_Sweden_-_Greece21_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Mikael Hervestad",
+      "license": "CC BY-SA 4.0"
+    },
+    "Bukayo Saka": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Bukayo_Saka_England_v_Ghana_23_June_2026-057_%28cropped%29.jpg/1280px-Bukayo_Saka_England_v_Ghana_23_June_2026-057_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -1500,7 +1511,8 @@
     "401879248": "2026-10-31",
     "401882820": "2026-10-31",
     "401884753": "2026-10-31",
-    "401882819": "2026-11-01"
+    "401882819": "2026-11-01",
+    "401879246": "2026-11-01"
   },
   "kickoff": {
     "401876422": "2026-10-27",
