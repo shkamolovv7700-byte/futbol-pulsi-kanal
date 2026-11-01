@@ -234,7 +234,8 @@
     "yt:oBwS2OFDvY8",
     "https://sports.uz/oz/news/view/chelsi-orzusidagi-o-yinchini-olish-uchun-100-million-funt-sarflashi-kerak",
     "yt:B9xXDHKF7-w",
-    "https://daryo.uz/2026/11/01/abbosbek-fayzullayev-samsunsporga-qarshi-bahsning-eng-yaxshi-futbolchisi-boldi/"
+    "https://daryo.uz/2026/11/01/abbosbek-fayzullayev-samsunsporga-qarshi-bahsning-eng-yaxshi-futbolchisi-boldi/",
+    "yt:DnC7DzKt9o8"
   ],
   "used_quiz": [
     23,
@@ -329,9 +330,9 @@
     "“Chelsi” orzusidagi o‘yinchini olish uchun 100 million funt sarflashi kerak",
     "Abbosbek Fayzullayev “Samsunspor”ga qarshi bahsning eng yaxshi futbolchisi bo‘ldi"
   ],
-  "last_slot": "2026-11-01 21:00",
+  "last_slot": "2026-11-01 22:00",
   "scorers_idx": 4,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 1,
   "live": {
     "401915403": {
@@ -1094,6 +1095,18 @@
         3
       ],
       "lag": 0
+    },
+    "401879246": {
+      "goals": [
+        "359-930.0",
+        "359-931.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1101,7 +1114,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 510,
+    "last_id": 513,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1518,6 +1531,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg/1280px-Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Kai Havertz": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg/1280px-Kai_Havertz_Ecuador_v_Germany_25_June_2026-118.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -1556,6 +1574,7 @@
     "401879248": "2026-10-31",
     "401882820": "2026-10-31",
     "401884753": "2026-10-31",
-    "401882819": "2026-11-01"
+    "401882819": "2026-11-01",
+    "401879246": "2026-11-01"
   }
 }
