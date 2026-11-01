@@ -242,7 +242,8 @@
     25,
     24,
     10,
-    2
+    2,
+    8
   ],
   "used_poll": [
     19,
@@ -322,7 +323,7 @@
     "“El-Klasiko” vaqtida “Real” futbolchisining uyini tunab ketishdi — El Mundo",
     "“Bavariya”da e’tiroz uyg‘otgan yulduzga uchta badavlat xaridor chiqdi"
   ],
-  "last_slot": "2026-11-01 12:00",
+  "last_slot": "2026-11-01 13:00",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 6,
@@ -1081,7 +1082,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 493,
+    "last_id": 494,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
