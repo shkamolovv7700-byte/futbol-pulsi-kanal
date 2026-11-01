@@ -233,7 +233,8 @@
     "https://sports.uz/oz/news/view/barsa-o-z-futbolchisiga-psj-ko-z-olaytirayotganini-bilib-qoldi",
     "yt:oBwS2OFDvY8",
     "https://sports.uz/oz/news/view/chelsi-orzusidagi-o-yinchini-olish-uchun-100-million-funt-sarflashi-kerak",
-    "yt:B9xXDHKF7-w"
+    "yt:B9xXDHKF7-w",
+    "https://daryo.uz/2026/11/01/abbosbek-fayzullayev-samsunsporga-qarshi-bahsning-eng-yaxshi-futbolchisi-boldi/"
   ],
   "used_quiz": [
     23,
@@ -267,7 +268,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "«Barselona» bir oyga muhim oʻyinchisiz qoldi",
     "O‘zbekiston Kubogi. Yarimfinalning barcha ishtirokchilari ma’lum bo‘ldi",
     "\"Manchester Yunayted\" inglizlar yuzini yerga qaratdi",
     "“Bizda tiklanish uchun raqibga nisbatan 24 soatdan kamroq vaqt bor” — Mourinyo “El klasiko” haqida",
@@ -326,9 +326,10 @@
     "“El-Klasiko” vaqtida “Real” futbolchisining uyini tunab ketishdi — El Mundo",
     "“Bavariya”da e’tiroz uyg‘otgan yulduzga uchta badavlat xaridor chiqdi",
     "\"Barsa\" oʻz futbolchisiga PSJ \"kўz olaytirayotganini\" bilib qoldi",
-    "“Chelsi” orzusidagi o‘yinchini olish uchun 100 million funt sarflashi kerak"
+    "“Chelsi” orzusidagi o‘yinchini olish uchun 100 million funt sarflashi kerak",
+    "Abbosbek Fayzullayev “Samsunspor”ga qarshi bahsning eng yaxshi futbolchisi bo‘ldi"
   ],
-  "last_slot": "2026-11-01 20:30",
+  "last_slot": "2026-11-01 21:00",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 1,
@@ -1084,12 +1085,13 @@
     "401882819": {
       "goals": [
         "86-1260.0",
+        "86-2158.0",
         "86-658.0"
       ],
       "ft": false,
       "score": [
         0,
-        2
+        3
       ],
       "lag": 0
     }
@@ -1099,7 +1101,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 507,
+    "last_id": 510,
     "strikes": {},
     "reset_day": "2026-10-27"
   },
@@ -1506,6 +1508,16 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg/1280px-Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Abbosbek Fayzullaev": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Abbosbek_Fayzullaev_11_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_UECL_20250821_%285%29.jpg/1280px-Abbosbek_Fayzullaev_11_%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_FK_UECL_20250821_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Zafer",
+      "license": "CC BY 4.0"
+    },
+    "Yan Diomande": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg/1280px-Yan_Diomande_Cote_D%27Ivoire_v_Ecuador_14_June_2026-17_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -1531,7 +1543,8 @@
     "401882820": "2026-10-31",
     "401884753": "2026-10-31",
     "401882819": "2026-11-01",
-    "401879246": "2026-11-01"
+    "401879246": "2026-11-01",
+    "401874949": "2026-11-01"
   },
   "kickoff": {
     "401876422": "2026-10-27",
