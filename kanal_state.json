@@ -244,7 +244,8 @@
     "yt:vezTrOsT6JU",
     "yt:FE-9LM2Iaek",
     "yt:jdz-RKWTKbw",
-    "https://sports.uz/oz/news/view/barsa-yulduzi-manchesterliklarga-javob-qaytardi"
+    "https://sports.uz/oz/news/view/barsa-yulduzi-manchesterliklarga-javob-qaytardi",
+    "https://kun.uz/news/2026/11/02/real-barsani-taqib-etmoqda-arsenal-sitini-quvib-otdi-58900"
   ],
   "used_quiz": [
     23,
@@ -278,7 +279,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "\"Manchester Yunayted\" inglizlar yuzini yerga qaratdi",
     "“Bizda tiklanish uchun raqibga nisbatan 24 soatdan kamroq vaqt bor” — Mourinyo “El klasiko” haqida",
     "“Chelsi”ning yo‘li ochildi: “Bavariya” “Barsa” yulduzi uchun kurashdan chiqdi",
     "Xabi Alonso Trentni «Chelsi»ga olib kelmoqchi",
@@ -337,9 +337,10 @@
     "\"Barsa\" oʻz futbolchisiga PSJ \"kўz olaytirayotganini\" bilib qoldi",
     "“Chelsi” orzusidagi o‘yinchini olish uchun 100 million funt sarflashi kerak",
     "Abbosbek Fayzullayev “Samsunspor”ga qarshi bahsning eng yaxshi futbolchisi bo‘ldi",
-    "\"Barsa\" yulduzi manchesterliklarga javob qaytardi"
+    "\"Barsa\" yulduzi manchesterliklarga javob qaytardi",
+    "«Real» «Barsa»ni taʼqib etmoqda, «Arsenal» «Siti»ni quvib o‘tdi"
   ],
-  "last_slot": "2026-11-02 11:00",
+  "last_slot": "2026-11-02 12:00",
   "scorers_idx": 4,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -1148,7 +1149,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 528,
+    "last_id": 529,
     "strikes": {},
     "reset_day": "2026-11-02"
   },
