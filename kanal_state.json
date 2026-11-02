@@ -250,7 +250,8 @@
     "yt:C-TgaCuzua4",
     "https://sports.uz/oz/news/view/husanov-barsa-uchun-ideal-variant-deb-topildi",
     "yt:Xn1b99UH8i8",
-    "https://sports.uz/oz/news/view/barsa-ashaddiy-raqib-real-kutayotgan-o-yinchini-transfer-qilmoqchi"
+    "https://sports.uz/oz/news/view/barsa-ashaddiy-raqib-real-kutayotgan-o-yinchini-transfer-qilmoqchi",
+    "yt:VUBKuX8nl-U"
   ],
   "used_quiz": [
     23,
@@ -347,9 +348,9 @@
     "Husanov “Barsa” uchun ideal variant deb topildi",
     "\"Barsa\" ashaddiy raqib \"Real\" kutayotgan oʻyinchini transfer qilmoqchi"
   ],
-  "last_slot": "2026-11-02 21:00",
+  "last_slot": "2026-11-02 22:00",
   "scorers_idx": 5,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 2,
   "live": {
     "401915403": {
@@ -1156,7 +1157,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 538,
+    "last_id": 539,
     "strikes": {},
     "reset_day": "2026-11-02"
   },
