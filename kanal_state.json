@@ -280,7 +280,8 @@
     1,
     17,
     12,
-    10
+    10,
+    18
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -345,7 +346,7 @@
     "Lionel Messi gollari sonini 937 taga yetkazib oldi",
     "Husanov “Barsa” uchun ideal variant deb topildi"
   ],
-  "last_slot": "2026-11-02 19:00",
+  "last_slot": "2026-11-02 20:00",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 2,
@@ -1154,7 +1155,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 536,
+    "last_id": 537,
     "strikes": {},
     "reset_day": "2026-11-02"
   },
