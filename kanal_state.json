@@ -235,7 +235,15 @@
     "https://sports.uz/oz/news/view/chelsi-orzusidagi-o-yinchini-olish-uchun-100-million-funt-sarflashi-kerak",
     "yt:B9xXDHKF7-w",
     "https://daryo.uz/2026/11/01/abbosbek-fayzullayev-samsunsporga-qarshi-bahsning-eng-yaxshi-futbolchisi-boldi/",
-    "yt:DnC7DzKt9o8"
+    "yt:DnC7DzKt9o8",
+    "yt:QtI8YWwpZSw",
+    "yt:FKF8xRURBbY",
+    "yt:oSSYBA535kc",
+    "yt:sDF9qfhjvBg",
+    "yt:iqciggyhLvM",
+    "yt:vezTrOsT6JU",
+    "yt:FE-9LM2Iaek",
+    "yt:jdz-RKWTKbw"
   ],
   "used_quiz": [
     23,
@@ -330,7 +338,7 @@
     "“Chelsi” orzusidagi o‘yinchini olish uchun 100 million funt sarflashi kerak",
     "Abbosbek Fayzullayev “Samsunspor”ga qarshi bahsning eng yaxshi futbolchisi bo‘ldi"
   ],
-  "last_slot": "2026-11-02 9:00",
+  "last_slot": "2026-11-02 10:00",
   "scorers_idx": 4,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -1139,7 +1147,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 525,
+    "last_id": 527,
     "strikes": {},
     "reset_day": "2026-11-02"
   },
