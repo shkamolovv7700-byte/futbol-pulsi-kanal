@@ -252,7 +252,8 @@
     "yt:Xn1b99UH8i8",
     "https://sports.uz/oz/news/view/barsa-ashaddiy-raqib-real-kutayotgan-o-yinchini-transfer-qilmoqchi",
     "yt:VUBKuX8nl-U",
-    "https://sports.uz/oz/news/view/tottenxem-futbolchisi-barsa-ga-yordam-beradi"
+    "https://sports.uz/oz/news/view/tottenxem-futbolchisi-barsa-ga-yordam-beradi",
+    "https://sports.uz/oz/news/view/tottenxem-futbolchisining-narxini-real-va-barsa-ga-aytdi"
   ],
   "used_quiz": [
     23,
@@ -289,7 +290,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Toshkent metropoliteni “Paxtakor” bekatidagi tirbandlikka izoh berdi",
     "Mourin'yo \"Barsa\" hujumiga qarshi \"mukammal qurol\" topib qo'ydi",
     "O‘zbekiston va Ozarbayjonda o‘tkaziladigan U-20 Jahon chempionatining sanalari ma’lum qilindi",
     "Eddi Xau — “Manchester Yunayted” bosh murabbiyligiga asosiy nomzod",
@@ -348,9 +348,10 @@
     "Lionel Messi gollari sonini 937 taga yetkazib oldi",
     "Husanov “Barsa” uchun ideal variant deb topildi",
     "\"Barsa\" ashaddiy raqib \"Real\" kutayotgan oʻyinchini transfer qilmoqchi",
-    "\"Tottenxem\" futbolchisi \"Barsa\"ga yordam beradi"
+    "\"Tottenxem\" futbolchisi \"Barsa\"ga yordam beradi",
+    "\"Tottenxem\" futbolchisining narxini \"Real\" va \"Barsa\"ga aytdi"
   ],
-  "last_slot": "2026-11-03 13:00",
+  "last_slot": "2026-11-03 14:00",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -1159,7 +1160,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 543,
+    "last_id": 544,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
