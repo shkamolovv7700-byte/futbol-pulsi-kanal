@@ -254,7 +254,8 @@
     "yt:VUBKuX8nl-U",
     "https://sports.uz/oz/news/view/tottenxem-futbolchisi-barsa-ga-yordam-beradi",
     "https://sports.uz/oz/news/view/tottenxem-futbolchisining-narxini-real-va-barsa-ga-aytdi",
-    "yt:NCAR_WAlF-I"
+    "yt:NCAR_WAlF-I",
+    "https://sports.uz/oz/news/view/arsenal-vinisius-evaziga-o-z-futbolchisini-beradigan-bo-ldi"
   ],
   "used_quiz": [
     23,
@@ -291,7 +292,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Mourin'yo \"Barsa\" hujumiga qarshi \"mukammal qurol\" topib qo'ydi",
     "O‘zbekiston va Ozarbayjonda o‘tkaziladigan U-20 Jahon chempionatining sanalari ma’lum qilindi",
     "Eddi Xau — “Manchester Yunayted” bosh murabbiyligiga asosiy nomzod",
     "O‘zbekiston kubogi. Yarim final uchrashuvlari 24 noyabr kuni o‘tkaziladi",
@@ -350,9 +350,10 @@
     "Husanov “Barsa” uchun ideal variant deb topildi",
     "\"Barsa\" ashaddiy raqib \"Real\" kutayotgan oʻyinchini transfer qilmoqchi",
     "\"Tottenxem\" futbolchisi \"Barsa\"ga yordam beradi",
-    "\"Tottenxem\" futbolchisining narxini \"Real\" va \"Barsa\"ga aytdi"
+    "\"Tottenxem\" futbolchisining narxini \"Real\" va \"Barsa\"ga aytdi",
+    "\"Arsenal\" Vinisius evaziga oʻz futbolchisini beradiган boʻldi"
   ],
-  "last_slot": "2026-11-03 17:00",
+  "last_slot": "2026-11-03 18:00",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 3,
@@ -1161,7 +1162,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 547,
+    "last_id": 548,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -1613,6 +1614,11 @@
     },
     "Lionel Messi": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg/1280px-Leo_Messi_Argentina_v_Egypt_7_July_2026-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Vinícius Júnior": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/1280px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
     }
