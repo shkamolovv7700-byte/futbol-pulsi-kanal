@@ -1159,6 +1159,65 @@
         0
       ],
       "lag": 0
+    },
+    "401915386": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
+    },
+    "401915387": {
+      "goals": [
+        "83-416.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        0
+      ],
+      "lag": 0
+    },
+    "401915307": {
+      "goals": [
+        "110-1987.0",
+        "110-1989.0",
+        "110-462.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        2
+      ],
+      "lag": 0
+    },
+    "401915308": {
+      "goals": [
+        "104-1019.0",
+        "104-646.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        2
+      ],
+      "lag": 0
+    },
+    "401915309": {
+      "goals": [
+        "160-508.0",
+        "160-661.0",
+        "160-757.0",
+        "160-962.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        4
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1166,7 +1225,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 552,
+    "last_id": 561,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -1645,6 +1704,33 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/1280px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Yann Bisseck": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Yann_Aurel_Bisseck_1._FC_K%C3%B6ln_%2833947266338%29_%28cropped%29.jpg/1280px-Yann_Aurel_Bisseck_1._FC_K%C3%B6ln_%2833947266338%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "dronepicr",
+      "license": "CC BY 2.0"
+    },
+    "Matìas Soulè": null,
+    "Matìas Soulè (footballer)": null,
+    "João Neves": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Joao_Neves_Croatia_v_Portugal_2_July_2026-102.jpg/1280px-Joao_Neves_Croatia_v_Portugal_2_July_2026-102.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Désiré Doué": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Desire_Doue_France_v_Senegal_16_June_2026-264.jpg/1280px-Desire_Doue_France_v_Senegal_16_June_2026-264.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Fabián Ruiz": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Fabian_Ruiz_Argentina_v_Spain_19_July_2026-315_%28cropped%29.jpg/1280px-Fabian_Ruiz_Argentina_v_Spain_19_July_2026-315_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Pio Esposito": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Francesco_Pio_Esposito_a_La_Spezia_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "NewMicrosoikos",
+      "license": "CC0"
     }
   },
   "matchday": {
@@ -1688,6 +1774,9 @@
     "401884753": "2026-10-31",
     "401882819": "2026-11-01",
     "401879246": "2026-11-01",
-    "401874949": "2026-11-02"
+    "401874949": "2026-11-02",
+    "401915386": "2026-11-04",
+    "401915387": "2026-11-04",
+    "401915307": "2026-11-04"
   }
 }
