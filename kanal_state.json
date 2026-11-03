@@ -267,7 +267,8 @@
     10,
     2,
     8,
-    9
+    9,
+    32
   ],
   "used_poll": [
     19,
@@ -349,7 +350,7 @@
     "\"Barsa\" ashaddiy raqib \"Real\" kutayotgan oʻyinchini transfer qilmoqchi",
     "\"Tottenxem\" futbolchisi \"Barsa\"ga yordam beradi"
   ],
-  "last_slot": "2026-11-03 11:30",
+  "last_slot": "2026-11-03 13:00",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -1158,7 +1159,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 542,
+    "last_id": 543,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
