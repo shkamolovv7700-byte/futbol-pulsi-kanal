@@ -1,0 +1,39 @@
+{
+  "izoh": "Faqat muallifi aniq iqtiboslar. 'manba' - asar nomi (aniq bo'lmasa bo'sh). 'turkum': jahon / ozbek / motivatsiya.",
+  "iqtiboslar": [
+    {"matn": "Barcha baxtli oilalar bir-biriga o‘xshaydi, har bir baxtsiz oila esa o‘zicha baxtsiz.", "muallif": "Lev Tolstoy", "manba": "Anna Karenina", "turkum": "jahon"},
+    {"matn": "Eng kuchli ikki jangchi — sabr va vaqt.", "muallif": "Lev Tolstoy", "manba": "Urush va tinchlik", "turkum": "jahon"},
+    {"matn": "Hamma dunyoni o‘zgartirishni o‘ylaydi, lekin hech kim o‘zini o‘zgartirishni o‘ylamaydi.", "muallif": "Lev Tolstoy", "manba": "", "turkum": "jahon"},
+    {"matn": "Dunyoni go‘zallik qutqaradi.", "muallif": "Fyodor Dostoyevskiy", "manba": "Telba", "turkum": "jahon"},
+    {"matn": "Katta aql va chuqur qalb egasi uchun azob va iztirob doimo muqarrar.", "muallif": "Fyodor Dostoyevskiy", "manba": "Jinoyat va jazo", "turkum": "jahon"},
+    {"matn": "Eng muhimi — o‘zingizga yolg‘on gapirmang.", "muallif": "Fyodor Dostoyevskiy", "manba": "Aka-uka Karamazovlar", "turkum": "jahon"},
+    {"matn": "Aqlli ish qilish uchun faqat aqlning o‘zi yetarli emas.", "muallif": "Fyodor Dostoyevskiy", "manba": "Jinoyat va jazo", "turkum": "jahon"},
+    {"matn": "Kitob ichimizdagi muzlagan dengiz uchun bolta bo‘lishi kerak.", "muallif": "Frans Kafka", "manba": "Oskar Pollakka maktub, 1904", "turkum": "jahon"},
+    {"matn": "Agar biror narsani chin dildan istasang, butun koinot uning amalga oshishiga yordam beradi.", "muallif": "Paulo Koelo", "manba": "Alkimyogar", "turkum": "jahon"},
+    {"matn": "Hayotni qiziqarli qiladigan narsa — orzuning ro‘yobga chiqish ehtimoli.", "muallif": "Paulo Koelo", "manba": "Alkimyogar", "turkum": "jahon"},
+    {"matn": "Sevganimizda, biz har doim bor bo‘lganimizdan yaxshiroq bo‘lishga intilamiz.", "muallif": "Paulo Koelo", "manba": "Alkimyogar", "turkum": "jahon"},
+    {"matn": "Faqat yurak bilan aniq ko‘rish mumkin. Eng muhim narsalarni ko‘z ko‘rmaydi.", "muallif": "Antuan de Sent-Ekzyuperi", "manba": "Kichkina shahzoda", "turkum": "jahon"},
+    {"matn": "Sen o‘zingga o‘rgatganing uchun umrbod javobgarsan.", "muallif": "Antuan de Sent-Ekzyuperi", "manba": "Kichkina shahzoda", "turkum": "jahon"},
+    {"matn": "Insonni yo‘q qilish mumkin, ammo uni yengib bo‘lmaydi.", "muallif": "Ernest Xeminguey", "manba": "Chol va dengiz", "turkum": "jahon"},
+    {"matn": "Barcha hayvonlar teng, lekin ba’zilari boshqalardan ko‘ra tengroq.", "muallif": "Jorj Oruell", "manba": "Hayvonlar xo‘jaligi", "turkum": "jahon"},
+    {"matn": "Erkinlik — ikki qo‘shuv ikki to‘rt bo‘lishini aytish erkinligidir.", "muallif": "Jorj Oruell", "manba": "1984", "turkum": "jahon"},
+    {"matn": "Hayot — inson yashagan narsa emas, balki u eslab qolgan va qanday eslab qolgan narsadir.", "muallif": "Gabriel Garsia Markes", "manba": "Hikoya qilish uchun yashash", "turkum": "jahon"},
+    {"matn": "Biror kishining nuqtai nazaridan qaramaguningizcha, uni hech qachon chinakam tushunolmaysiz.", "muallif": "Xarper Li", "manba": "Masxarabozni o‘ldirish", "turkum": "jahon"},
+    {"matn": "Bizdan faqat bir narsa talab qilinadi: bizga berilgan vaqt bilan nima qilishni hal qilish.", "muallif": "Jon R. R. Tolkin", "manba": "Uzuklar hukmdori", "turkum": "jahon"},
+    {"matn": "Daydigan har kim ham adashgan emas.", "muallif": "Jon R. R. Tolkin", "manba": "Uzuklar hukmdori", "turkum": "jahon"},
+    {"matn": "Qisqalik — iste’dodning singlisi.", "muallif": "Anton Chexov", "manba": "Maktublaridan, 1889", "turkum": "jahon"},
+    {"matn": "Hayotingizdagi baxt fikrlaringiz sifatiga bog‘liq.", "muallif": "Mark Avreliy", "manba": "O‘zim bilan suhbatlar", "turkum": "jahon"},
+    {"matn": "Biz ishni ortga surib turgan paytda hayot shoshib o‘tib ketadi.", "muallif": "Seneka", "manba": "Lutsiliyga maktublar", "turkum": "jahon"},
+
+    {"matn": "Odami ersang, demagil odami — oniki yo‘q xalq g‘amidin g‘ami.", "muallif": "Alisher Navoiy", "manba": "", "turkum": "ozbek"},
+    {"matn": "Ko‘ngil durjining qulfi til va ul qulfning kaliti so‘z bil.", "muallif": "Alisher Navoiy", "manba": "Mahbub ul-qulub", "turkum": "ozbek"},
+    {"matn": "Har kimki vafo qilsa, vafo topqusidir, har kimki jafo qilsa, jafo topqusidir.", "muallif": "Zahiriddin Muhammad Bobur", "manba": "Rubolar", "turkum": "ozbek"},
+    {"matn": "Moziyga qaytib ish ko‘rish xayrlik, deydilar.", "muallif": "Abdulla Qodiriy", "manba": "O‘tkan kunlar", "turkum": "ozbek"},
+    {"matn": "Tarbiya biz uchun yo hayot — yo mamot, yo najot — yo halokat, yo saodat — yo falokat masalasidir.", "muallif": "Abdulla Avloniy", "manba": "Turkiy guliston yoxud axloq", "turkum": "ozbek"},
+
+    {"matn": "Ishni oxirini ko‘zlab boshlang.", "muallif": "Stiven Kovi", "manba": "Yuqori samarali odamlarning 7 ko‘nikmasi", "turkum": "motivatsiya"},
+    {"matn": "Siz maqsadlaringiz darajasiga ko‘tarilmaysiz, balki tizimlaringiz darajasiga tushasiz.", "muallif": "Jeyms Klir", "manba": "Atom odatlar", "turkum": "motivatsiya"},
+    {"matn": "Har bir inson uchun uning ismi har qanday tildagi eng shirin va eng muhim tovushdir.", "muallif": "Deyl Karnegi", "manba": "Do‘st orttirish va odamlarga ta’sir o‘tkazish san’ati", "turkum": "motivatsiya"},
+    {"matn": "Insondan hamma narsani tortib olish mumkin, faqat bittasidan tashqari: har qanday vaziyatda o‘z munosabatini tanlash erkinligidan.", "muallif": "Viktor Frankl", "manba": "Inson ma’no izlab", "turkum": "motivatsiya"}
+  ]
+}

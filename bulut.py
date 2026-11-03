@@ -4,6 +4,7 @@ Kanal egasi - ikkinchi akkaunt. Kirish kaliti GitHub maxfiy o'zgaruvchisida (TG_
 
   python bulut.py        - Futbol Pulsi (kanal.py)
   python bulut.py cs2    - CS2 Pulsi (cs2.py)
+  python bulut.py kitob  - Kitob Pulsi (kitob.py)
 
 Kerakli muhit o'zgaruvchilari: TG_API_ID, TG_API_HASH, TG_SESSION, KANAL_USERNAME, TZ=Asia/Tashkent
 """
@@ -22,7 +23,7 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 
 
 async def main() -> None:
-    module = importlib.import_module("cs2" if sys.argv[1:] == ["cs2"] else "kanal")
+    module = importlib.import_module(sys.argv[1] if sys.argv[1:] in (["cs2"], ["kitob"]) else "kanal")
     client = TelegramClient(StringSession(os.environ["TG_SESSION"]),
                             int(os.environ["TG_API_ID"]), os.environ["TG_API_HASH"])
     await client.connect()

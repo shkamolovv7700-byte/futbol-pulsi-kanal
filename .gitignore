@@ -27,3 +27,8 @@
 !.github/workflows/bot.yml
 !foto.py
 !video.py
+!kitob.py
+!kitob_rasm.py
+!kitob_kontent.json
+!kitob_state.json
+!.github/workflows/kitob.yml
