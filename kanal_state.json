@@ -251,7 +251,8 @@
     "https://sports.uz/oz/news/view/husanov-barsa-uchun-ideal-variant-deb-topildi",
     "yt:Xn1b99UH8i8",
     "https://sports.uz/oz/news/view/barsa-ashaddiy-raqib-real-kutayotgan-o-yinchini-transfer-qilmoqchi",
-    "yt:VUBKuX8nl-U"
+    "yt:VUBKuX8nl-U",
+    "https://sports.uz/oz/news/view/tottenxem-futbolchisi-barsa-ga-yordam-beradi"
   ],
   "used_quiz": [
     23,
@@ -287,7 +288,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“Kuzgi masala”. “Manchester Yunayted”ga qanday murabbiy kerak?",
     "Toshkent metropoliteni “Paxtakor” bekatidagi tirbandlikka izoh berdi",
     "Mourin'yo \"Barsa\" hujumiga qarshi \"mukammal qurol\" topib qo'ydi",
     "O‘zbekiston va Ozarbayjonda o‘tkaziladigan U-20 Jahon chempionatining sanalari ma’lum qilindi",
@@ -346,9 +346,10 @@
     "«Real» «Barsa»ni taʼqib etmoqda, «Arsenal» «Siti»ni quvib o‘tdi",
     "Lionel Messi gollari sonini 937 taga yetkazib oldi",
     "Husanov “Barsa” uchun ideal variant deb topildi",
-    "\"Barsa\" ashaddiy raqib \"Real\" kutayotgan oʻyinchini transfer qilmoqchi"
+    "\"Barsa\" ashaddiy raqib \"Real\" kutayotgan oʻyinchini transfer qilmoqchi",
+    "\"Tottenxem\" futbolchisi \"Barsa\"ga yordam beradi"
   ],
-  "last_slot": "2026-11-03 10:30",
+  "last_slot": "2026-11-03 11:30",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -1157,7 +1158,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 541,
+    "last_id": 542,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
