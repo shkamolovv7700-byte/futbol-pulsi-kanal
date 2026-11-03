@@ -356,7 +356,7 @@
     "\"Arsenal\" Vinisius evaziga oʻz futbolchisini beradiган boʻldi",
     "Mourinyo Kamavinga haqidagi fikrini butunlay o‘zgartirdi"
   ],
-  "last_slot": "2026-11-03 21:00",
+  "last_slot": "2026-11-03 21:30",
   "scorers_idx": 1,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -1624,6 +1624,26 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg/1280px-Vin%C3%ADcius_J%C3%BAnior_Brazil_V_Morocco_13_June_2026-207_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Harry Kane": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg/1280px-Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Nicolas Jackson": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/Nicolas_Jackson_France_v_Senegal_16_June_2026-369_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Gjivai Zechiël": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/GjivaiZechi%C3%ABl2023.jpg/1280px-GjivaiZechi%C3%ABl2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Carlo Bruil Fotografie",
+      "license": "CC BY 2.0"
+    },
+    "Lautaro Martínez": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg/1280px-Lautaro_Martinez_Argentina_v_Spain_19_July_2026-049_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -1650,7 +1670,10 @@
     "401884753": "2026-10-31",
     "401882819": "2026-11-01",
     "401879246": "2026-11-01",
-    "401874949": "2026-11-01"
+    "401874949": "2026-11-01",
+    "401915386": "2026-11-03",
+    "401915387": "2026-11-03",
+    "401915307": "2026-11-03"
   },
   "kickoff": {
     "401876422": "2026-10-27",
