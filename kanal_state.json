@@ -289,7 +289,8 @@
     17,
     12,
     10,
-    18
+    18,
+    7
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -354,7 +355,7 @@
     "\"Tottenxem\" futbolchisining narxini \"Real\" va \"Barsa\"ga aytdi",
     "\"Arsenal\" Vinisius evaziga oʻz futbolchisini beradiган boʻldi"
   ],
-  "last_slot": "2026-11-03 19:00",
+  "last_slot": "2026-11-03 20:00",
   "scorers_idx": 1,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -1163,7 +1164,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 549,
+    "last_id": 550,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
