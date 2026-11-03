@@ -257,7 +257,8 @@
     "yt:NCAR_WAlF-I",
     "https://sports.uz/oz/news/view/arsenal-vinisius-evaziga-o-z-futbolchisini-beradigan-bo-ldi",
     "yt:nYFcrFUwioo",
-    "https://sports.uz/oz/news/view/mourino-kamavinga-haqidagi-fikrini-butunlay-o-zgartirdi"
+    "https://sports.uz/oz/news/view/mourino-kamavinga-haqidagi-fikrini-butunlay-o-zgartirdi",
+    "yt:4AJmJR_4fGI"
   ],
   "used_quiz": [
     23,
@@ -356,9 +357,9 @@
     "\"Arsenal\" Vinisius evaziga oʻz futbolchisini beradiган boʻldi",
     "Mourinyo Kamavinga haqidagi fikrini butunlay o‘zgartirdi"
   ],
-  "last_slot": "2026-11-03 21:30",
+  "last_slot": "2026-11-03 22:30",
   "scorers_idx": 1,
-  "last_video_source": "LaLiga",
+  "last_video_source": "UEFA",
   "table_idx": 3,
   "live": {
     "401915403": {
@@ -1165,7 +1166,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 551,
+    "last_id": 552,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
