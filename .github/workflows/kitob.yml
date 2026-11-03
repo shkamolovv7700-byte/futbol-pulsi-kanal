@@ -2,9 +2,9 @@ name: Kitob Pulsi kanali
 
 on:
   schedule:
-    # Toshkent 08:00-23:59 = UTC 03-18: har soatda 1 ta iqtibos. Har 20 daqiqada tekshiradi
+    # Toshkent 08,10,12,14,16,18-22 = UTC 03,05,07,09,11,13-17: kuniga 10 ta iqtibos. Har 20 daqiqada tekshiradi
     # (GitHub kechiksa ham o'sha soat ichida joylanadi), har bir ishga tushish 1 daqiqa atrofida.
-    - cron: "5,25,45 3-18 * * *"
+    - cron: "5,25,45 3,5,7,9,11,13-17 * * *"
   workflow_dispatch:
 
 permissions:

@@ -1,5 +1,5 @@
 """
-"Kitob Pulsi 📖" kanali (t.me/kitobpulsi_uz): har soatda (08:00-23:00) kitobdan iqtibos (rasm-kartochka).
+"Kitob Pulsi 📖" kanali (t.me/kitobpulsi_uz): kuniga 10 marta (08:00-22:00) kitobdan iqtibos (rasm-kartochka).
 Bulutda (GitHub Actions) ishlaydi: `python bulut.py kitob`. Iqtiboslar kitob_kontent.json da.
 Muhokama guruhi moderatsiyasi - moderator.py.
 """
@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent
 STATE_FILE = BASE_DIR / "kitob_state.json"
 CONTENT_FILE = BASE_DIR / "kitob_kontent.json"
 USERNAME = "kitobpulsi_uz"
-SLOTS = list(range(8, 24))  # Toshkent vaqti: 08:00 dan 23:00 gacha har soatda (tunda joylanmaydi)
+SLOTS = [8, 10, 12, 14, 16, 18, 19, 20, 21, 22]  # Toshkent vaqti: kuniga 10 ta, kechqurun zichroq
 LATE_HOURS = 1              # GitHub kechiksa ham shu soat ichida joylanadi
 TAGS = {"jahon": "#jahon_adabiyoti", "ozbek": "#ozbek_adabiyoti", "motivatsiya": "#motivatsiya"}
 
