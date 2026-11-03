@@ -53,9 +53,12 @@ def next_quote(quotes: list[dict]) -> tuple[int, dict]:
 def caption(q: dict) -> str:
     source = f", «{html.escape(q['manba'])}»" if q.get("manba") else ""
     author_tag = "#" + re.sub(r"\W", "", q["muallif"].split()[-1])
-    return (f"📖 <i>«{html.escape(q['matn'])}»</i>\n\n— <b>{html.escape(q['muallif'])}</b>{source}\n\n"
+    tail = (f"— <b>{html.escape(q['muallif'])}</b>{source}\n\n"
             f"💬 Sizga qaysi so'z yoqdi? Izohlarda yozing\n\n#iqtibos {TAGS.get(q.get('turkum'), '')} {author_tag}"
             f"\n\n📲 @{USERNAME}")
+    text = f"📖 <i>«{html.escape(q['matn'])}»</i>\n\n" + tail
+    # Telegram rasm izohi 1024 belgigacha: juda uzun parcha faqat kartochkada qoladi
+    return text if len(re.sub(r"<[^>]+>", "", html.unescape(text))) <= 1024 else "📖 " + tail
 
 
 def due_slot() -> str | None:

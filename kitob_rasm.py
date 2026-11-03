@@ -91,9 +91,13 @@ def quote_card(quote: str, author: str, source: str = "", style: int = 0) -> io.
     # iqtibos: uzunligiga qarab shrift o'lchami tanlanadi
     n = len(quote)
     size = 64 if n < 90 else 56 if n < 160 else 48 if n < 260 else 40 if n < 380 else 34
-    fqt = font("Lora-Italic.ttf", size, "Medium")
-    lines = _wrap(d, quote, fqt, W - 220)
-    line_h = int(size * 1.42)
+    while True:  # uzun parchalar ham sig'ishi uchun shrift kichraytiriladi
+        fqt = font("Lora-Italic.ttf", size, "Medium")
+        lines = _wrap(d, quote, fqt, W - 220)
+        line_h = int(size * 1.42)
+        if len(lines) * line_h <= 720 or size <= 24:
+            break
+        size -= 2
     block = len(lines) * line_h
     y = max(330, (H - block) / 2 - 40)
     for line in lines:
