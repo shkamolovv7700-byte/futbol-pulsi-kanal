@@ -1161,21 +1161,26 @@
       "lag": 0
     },
     "401915386": {
-      "goals": [],
+      "goals": [
+        "132-3202.0",
+        "132-4418.0"
+      ],
       "ft": false,
       "score": [
         0,
-        0
+        2
       ],
       "lag": 0
     },
     "401915387": {
       "goals": [
+        "83-3112.0",
+        "83-3836.0",
         "83-416.0"
       ],
       "ft": false,
       "score": [
-        1,
+        3,
         0
       ],
       "lag": 0
@@ -1184,29 +1189,34 @@
       "goals": [
         "110-1987.0",
         "110-1989.0",
+        "110-3210.0",
+        "110-3213.0",
         "110-462.0"
       ],
       "ft": false,
       "score": [
         0,
-        2
+        3
       ],
       "lag": 0
     },
     "401915308": {
       "goals": [
         "104-1019.0",
-        "104-646.0"
+        "104-646.0",
+        "360-3472.0"
       ],
       "ft": false,
       "score": [
-        0,
+        1,
         2
       ],
       "lag": 0
     },
     "401915309": {
       "goals": [
+        "160-2968.0",
+        "160-4670.0",
         "160-508.0",
         "160-661.0",
         "160-757.0",
@@ -1215,7 +1225,7 @@
       "ft": false,
       "score": [
         0,
-        4
+        6
       ],
       "lag": 0
     }
@@ -1225,7 +1235,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 561,
+    "last_id": 568,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -1731,7 +1741,21 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Francesco_Pio_Esposito_a_La_Spezia_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "NewMicrosoikos",
       "license": "CC0"
-    }
+    },
+    "Lennart Karl": null,
+    "Lennart Karl (footballer)": null,
+    "Piotr Zielinski": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Piotr_Zielinski_2018_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Екатерина Лаут",
+      "license": "CC BY-SA 3.0"
+    },
+    "Bruno Fernandes": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_%28cropped%29.jpg/1280px-Bruno_Fernandes_USMNT_v_Portugal_Mar_31_2026-27_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "David Boly": null,
+    "David Boly (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
