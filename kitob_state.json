@@ -1,13 +1,14 @@
 {
   "used": [
-    0
+    0,
+    23
   ],
   "group_id": 4292333539,
   "moderator": {
     "admins": [
       8456959367
     ],
-    "last_id": 5
+    "last_id": 6
   },
-  "last_slot": "2026-11-03 19"
+  "last_slot": "2026-11-03 20"
 }
