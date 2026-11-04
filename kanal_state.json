@@ -259,7 +259,8 @@
     "yt:nYFcrFUwioo",
     "https://sports.uz/oz/news/view/mourino-kamavinga-haqidagi-fikrini-butunlay-o-zgartirdi",
     "yt:4AJmJR_4fGI",
-    "https://sports.uz/oz/news/view/xabi-alonso-real-ning-eng-baquvvat-himoyachisini-chelsi-ga-chaqiryapti"
+    "https://sports.uz/oz/news/view/xabi-alonso-real-ning-eng-baquvvat-himoyachisini-chelsi-ga-chaqiryapti",
+    "yt:9cGah8J8gyM"
   ],
   "used_quiz": [
     23,
@@ -359,9 +360,9 @@
     "Mourinyo Kamavinga haqidagi fikrini butunlay o‘zgartirdi",
     "Xabi Alonso \"Real\"ning eng baquvvat himoyachisini \"Chelsi\"ga chaqiryapti"
   ],
-  "last_slot": "2026-11-04 15:00",
+  "last_slot": "2026-11-04 16:00",
   "scorers_idx": 2,
-  "last_video_source": "UEFA",
+  "last_video_source": "LaLiga",
   "table_idx": 3,
   "live": {
     "401915403": {
@@ -1239,7 +1240,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 580,
+    "last_id": 581,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
