@@ -20,7 +20,8 @@ BASE_DIR = Path(__file__).resolve().parent
 STATE_FILE = BASE_DIR / "kitob_state.json"
 CONTENT_FILE = BASE_DIR / "kitob_kontent.json"
 USERNAME = "kitobpulsi_uz"
-SLOTS = [8, 10, 12, 14, 16, 18, 19, 20, 21, 22]  # Toshkent vaqti: kuniga 10 ta, kechqurun zichroq
+SLOTS = [8, 10, 13, 15, 17, 18, 19, 20, 21, 22]  # Toshkent vaqti: kuniga 10 ta, kechqurun zichroq
+LONG_SLOTS = {13, 21}  # bu soatlarda uzunroq "kitobdan parcha" (odamlar bo'sh, ko'proq o'qiydi)
 LATE_HOURS = 1              # GitHub kechiksa ham shu soat ichida joylanadi
 TAGS = {"jahon": "#jahon_adabiyoti", "ozbek": "#ozbek_adabiyoti", "motivatsiya": "#motivatsiya"}
 
@@ -38,13 +39,19 @@ def save_state() -> None:
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def next_quote(quotes: list[dict], priority: list[str] = ()) -> tuple[int, dict]:
+def is_long(q: dict) -> bool:
+    return q.get("turi") == "parcha"
+
+
+def next_quote(quotes: list[dict], priority: list[str] = (), long: bool = False) -> tuple[int, dict]:
     """Avval ustuvor mualliflar (masalan, yangi yuborilgan kitob) ketma-ket chiqadi, keyin turkumlar
-    navbatma-navbat aralashtiriladi (jahon -> o'zbek -> motivatsiya); hammasi tugasa - boshidan."""
+    navbatma-navbat aralashtiriladi (jahon -> o'zbek -> motivatsiya); hammasi tugasa - boshidan.
+    long=True - parcha slotida faqat parchalar (tugasa - oddiy iqtibos), aks holda faqat qisqa iqtiboslar."""
     free = [i for i in range(len(quotes)) if i not in state["used"]]
     if not free:
         log.warning("Barcha iqtiboslar ishlatildi - qaytadan boshlanmoqda. kitob_kontent.json ni to'ldiring!")
         state["used"], free = [], list(range(len(quotes)))
+    free = [i for i in free if is_long(quotes[i]) == long] or free
     for author in priority:  # ro'yxat tartibida: birinchi muallif tugasa - keyingisi
         first = next((i for i in free if quotes[i]["muallif"] == author), None)
         if first is not None:
@@ -61,7 +68,8 @@ def caption(q: dict) -> str:
     tail = (f"— <b>{html.escape(q['muallif'])}</b>{source}\n\n"
             f"💬 Sizga qaysi so'z yoqdi? Izohlarda yozing\n\n#iqtibos {TAGS.get(q.get('turkum'), '')} {author_tag}"
             f"\n\n📲 @{USERNAME}")
-    text = f"📖 <i>«{html.escape(q['matn'])}»</i>\n\n" + tail
+    head = "📜 <b>KITOBDAN PARCHA</b>\n\n" if is_long(q) else "📖 "
+    text = f"{head}<i>«{html.escape(q['matn'])}»</i>\n\n" + tail
     # Telegram rasm izohi 1024 belgigacha: juda uzun parcha faqat kartochkada qoladi
     return text if len(re.sub(r"<[^>]+>", "", html.unescape(text))) <= 1024 else "📖 " + tail
 
@@ -81,8 +89,10 @@ async def run_once(client: TelegramClient) -> None:
     slot = due_slot()
     if slot:
         content = json.loads(CONTENT_FILE.read_text(encoding="utf-8"))
-        idx, q = next_quote(content["iqtiboslar"], content.get("ustuvor", []))
-        card = kitob_rasm.quote_card(q["matn"], q["muallif"], q.get("manba", ""), style=len(state["used"]))
+        long = int(slot.split()[1]) in LONG_SLOTS
+        idx, q = next_quote(content["iqtiboslar"], content.get("ustuvor", []), long)
+        card = kitob_rasm.quote_card(q["matn"], q["muallif"], q.get("manba", ""), style=len(state["used"]),
+                                     label="KITOBDAN PARCHA" if is_long(q) else kitob_rasm.BRAND)
         await client.send_file(channel, card, caption=caption(q), parse_mode="html")
         state["used"].append(idx)
         state["last_slot"] = slot

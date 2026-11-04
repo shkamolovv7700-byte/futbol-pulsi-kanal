@@ -75,7 +75,7 @@ def _background(W: int, H: int, pal) -> Image.Image:
     return Image.composite(Image.new("RGB", (W, H), (0, 0, 0)), img, vig)
 
 
-def quote_card(quote: str, author: str, source: str = "", style: int = 0) -> io.BytesIO:
+def quote_card(quote: str, author: str, source: str = "", style: int = 0, label: str = BRAND) -> io.BytesIO:
     """Iqtibos kartochkasi: katta qo'shtirnoq, iqtibos (kursiv), muallif va asar nomi."""
     W, H = 1080, 1350
     pal = PALETTES[style % len(PALETTES)]
@@ -83,7 +83,7 @@ def quote_card(quote: str, author: str, source: str = "", style: int = 0) -> io.
     d = ImageDraw.Draw(img, "RGBA")
     # yuqorida kanal belgisi
     fb = font("Oswald.ttf", 30, "SemiBold")
-    d.text(((W - d.textlength(BRAND, font=fb)) / 2, 70), BRAND, font=fb, fill=pal[4])
+    d.text(((W - d.textlength(label, font=fb)) / 2, 70), label, font=fb, fill=pal[4])
     d.line((W / 2 - 60, 120, W / 2 + 60, 120), fill=pal[4] + (180,), width=2)
     # katta qo'shtirnoq
     fq = font("Lora.ttf", 260, "Bold")
