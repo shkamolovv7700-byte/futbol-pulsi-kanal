@@ -1242,14 +1242,15 @@
       "goals": [
         "86-1914.0",
         "86-4628.0",
+        "86-5400.0",
         "887-4468.0",
         "887-4469.0",
         "887-671.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         2,
-        2
+        3
       ],
       "lag": 0
     },
@@ -1258,12 +1259,53 @@
         "364-1475.0",
         "364-4105.0",
         "436-1704.0",
-        "436-4365.0"
+        "436-4365.0",
+        "436-4714.0"
+      ],
+      "ft": true,
+      "score": [
+        3,
+        2
+      ],
+      "lag": 0
+    },
+    "401915301": {
+      "goals": [
+        "437-631.0"
       ],
       "ft": false,
       "score": [
-        2,
-        2
+        1,
+        0
+      ],
+      "lag": 0
+    },
+    "401915381": {
+      "goals": [
+        "359-509.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
+    },
+    "401915304": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
+    },
+    "401915306": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
       ],
       "lag": 0
     }
@@ -1273,7 +1315,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 596,
+    "last_id": 603,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -1836,7 +1878,22 @@
       "license": "CC BY-SA 4.0"
     },
     "Stavros Pilios": null,
-    "Stavros Pilios (footballer)": null
+    "Stavros Pilios (footballer)": null,
+    "Federico Valverde": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Federico_Valverde_2021_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Real Madrid",
+      "license": "CC BY 3.0"
+    },
+    "Vedat Muriqi": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Vedat_Muriqi_Fenerbah%C3%A7e_20260717_%286%29.jpg/1280px-Vedat_Muriqi_Fenerbah%C3%A7e_20260717_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Zafer",
+      "license": "CC BY 4.0"
+    },
+    "Noni Madueke": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Noni_Madueke_England_v_Panama_27_June_26-054.jpg/1280px-Noni_Madueke_England_v_Panama_27_June_26-054.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    }
   },
   "matchday": {
     "401915312": "2026-10-21",
@@ -1887,6 +1944,7 @@
     "401915387": "2026-11-04",
     "401915307": "2026-11-04",
     "401915383": "2026-11-04",
-    "401915382": "2026-11-04"
+    "401915382": "2026-11-04",
+    "401915304": "2026-11-05"
   }
 }
