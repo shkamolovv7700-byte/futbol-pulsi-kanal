@@ -1272,11 +1272,14 @@
     "401915301": {
       "goals": [
         "114-2546.0",
+        "437-4215.0",
+        "437-4781.0",
+        "437-5354.0",
         "437-631.0"
       ],
       "ft": false,
       "score": [
-        1,
+        4,
         1
       ],
       "lag": 0
@@ -1284,32 +1287,42 @@
     "401915381": {
       "goals": [
         "359-2221.0",
-        "359-509.0"
+        "359-509.0",
+        "494-5348.0",
+        "494-5350.0"
       ],
       "ft": false,
       "score": [
-        0,
+        1,
         2
       ],
       "lag": 0
     },
     "401915304": {
-      "goals": [],
+      "goals": [
+        "124-2931.0",
+        "124-4287.0",
+        "244-4004.0"
+      ],
       "ft": false,
       "score": [
-        0,
-        0
+        2,
+        1
       ],
       "lag": 0
     },
     "401915306": {
       "goals": [
-        "382-2192.0"
+        "11420-2915.0",
+        "11420-3643.0",
+        "382-2192.0",
+        "382-3454.0",
+        "382-4648.0"
       ],
       "ft": false,
       "score": [
-        0,
-        1
+        2,
+        3
       ],
       "lag": 0
     }
@@ -1319,7 +1332,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 607,
+    "last_id": 618,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -1911,6 +1924,47 @@
     "Scott McTominay": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Scott_McTominay_Scotland_v_Bolivia_6_June_2026-41.jpg/1280px-Scott_McTominay_Scotland_v_Bolivia_6_June_2026-41.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Ridle Baku": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Ridle_Baku_2020-09-20_Fu%C3%9Fball%2C_M%C3%A4nner%2C_1._Bundesliga%2C_RB_Leipzig_-_1._FSV_Mainz_05_1DX_1394_by_Stepro_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Original:  Steffen Prößdorf; Derivative ",
+      "license": "CC BY-SA 4.0"
+    },
+    "Enzo Fernández": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Enzo_Fernandez_Argentina_v_Spain_19_July_2026-050_%28cropped%29.jpg/1280px-Enzo_Fernandez_Argentina_v_Spain_19_July_2026-050_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Antonio Nusa": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Antonio_Nusa_Morocco_v_Norway_7_June_2026-110_%28cropped%29.jpg/1280px-Antonio_Nusa_Morocco_v_Norway_7_June_2026-110_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Aitor Ruibal": null,
+    "Aitor Ruibal (footballer)": null,
+    "Gabri Veiga": null,
+    "Gabri Veiga (footballer)": null,
+    "Konstantinos Karetsas": null,
+    "Konstantinos Karetsas (footballer)": null,
+    "Erling Haaland": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/1280px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Jakub Kiwior": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/1_Jakub_Kiwior_arsenal_2025_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Chensiyuan",
+      "license": "CC BY-SA 4.0"
+    },
+    "Wiktor Nowak": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/SK_Slavia_Praha_20261019_%2817%29_%28Wiktor_Nowak%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "User:Zafer",
+      "license": "CC BY-SA 4.0"
+    },
+    "Samu Aghehowa": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Uzbekistan_vs._Spain%2C_2024_Summer_Olympic_men%27s_association_football%2C_2024-07-24_%28471%29_-_Samu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Like tears in rain",
       "license": "CC BY-SA 4.0"
     }
   },
