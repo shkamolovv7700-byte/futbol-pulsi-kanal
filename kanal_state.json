@@ -360,10 +360,10 @@
     "Mourinyo Kamavinga haqidagi fikrini butunlay o‘zgartirdi",
     "Xabi Alonso \"Real\"ning eng baquvvat himoyachisini \"Chelsi\"ga chaqiryapti"
   ],
-  "last_slot": "2026-11-04 16:00",
+  "last_slot": "2026-11-04 17:00",
   "scorers_idx": 2,
   "last_video_source": "LaLiga",
-  "table_idx": 3,
+  "table_idx": 4,
   "live": {
     "401915403": {
       "goals": [
@@ -1240,7 +1240,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 581,
+    "last_id": 582,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
