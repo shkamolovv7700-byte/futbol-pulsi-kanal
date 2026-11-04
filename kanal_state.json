@@ -1237,6 +1237,30 @@
         6
       ],
       "lag": 0
+    },
+    "401915383": {
+      "goals": [
+        "86-1914.0",
+        "887-671.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        1
+      ],
+      "lag": 0
+    },
+    "401915382": {
+      "goals": [
+        "364-1475.0",
+        "436-1704.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        1
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1244,7 +1268,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 589,
+    "last_id": 593,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -1784,6 +1808,21 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Signal_iduna_park_stadium_dortmund_4.jpg/1280px-Signal_iduna_park_stadium_dortmund_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Arne Müseler / www.arne-mueseler.com",
       "license": "CC BY-SA 3.0 de"
+    },
+    "Aboubakary Koita": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Aboubakary_Ko%C3%AFta_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Anneprudence",
+      "license": "CC0"
+    },
+    "Trey Nyoni": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Trey_Nyoni_04012026_%281%29.jpg/1280px-Trey_Nyoni_04012026_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Timmy96",
+      "license": "CC0"
+    },
+    "Mason Greenwood": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Mason_Greenwood_11_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29_%28cropped%29.JPG/1280px-Mason_Greenwood_11_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "User:Zafer",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -1833,6 +1872,8 @@
     "401874949": "2026-11-02",
     "401915386": "2026-11-04",
     "401915387": "2026-11-04",
-    "401915307": "2026-11-04"
+    "401915307": "2026-11-04",
+    "401915383": "2026-11-04",
+    "401915382": "2026-11-04"
   }
 }
