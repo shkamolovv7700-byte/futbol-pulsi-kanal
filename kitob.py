@@ -38,12 +38,16 @@ def save_state() -> None:
     STATE_FILE.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def next_quote(quotes: list[dict]) -> tuple[int, dict]:
-    """Turkumlarni navbatma-navbat aralashtiradi (jahon -> o'zbek -> motivatsiya); hammasi tugasa - boshidan."""
+def next_quote(quotes: list[dict], priority: list[str] = ()) -> tuple[int, dict]:
+    """Avval ustuvor mualliflar (masalan, yangi yuborilgan kitob) ketma-ket chiqadi, keyin turkumlar
+    navbatma-navbat aralashtiriladi (jahon -> o'zbek -> motivatsiya); hammasi tugasa - boshidan."""
     free = [i for i in range(len(quotes)) if i not in state["used"]]
     if not free:
         log.warning("Barcha iqtiboslar ishlatildi - qaytadan boshlanmoqda. kitob_kontent.json ni to'ldiring!")
         state["used"], free = [], list(range(len(quotes)))
+    first = next((i for i in free if quotes[i]["muallif"] in priority), None)
+    if first is not None:
+        return first, quotes[first]
     order = ["jahon", "ozbek", "motivatsiya"]
     want = order[len(state["used"]) % len(order)]
     idx = next((i for i in free if quotes[i].get("turkum") == want), free[0])
@@ -75,8 +79,8 @@ async def run_once(client: TelegramClient) -> None:
     channel = await client.get_entity(USERNAME)
     slot = due_slot()
     if slot:
-        quotes = json.loads(CONTENT_FILE.read_text(encoding="utf-8"))["iqtiboslar"]
-        idx, q = next_quote(quotes)
+        content = json.loads(CONTENT_FILE.read_text(encoding="utf-8"))
+        idx, q = next_quote(content["iqtiboslar"], content.get("ustuvor", []))
         card = kitob_rasm.quote_card(q["matn"], q["muallif"], q.get("manba", ""), style=len(state["used"]))
         await client.send_file(channel, card, caption=caption(q), parse_mode="html")
         state["used"].append(idx)
