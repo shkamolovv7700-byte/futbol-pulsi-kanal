@@ -1271,23 +1271,25 @@
     },
     "401915301": {
       "goals": [
+        "114-2546.0",
         "437-631.0"
       ],
       "ft": false,
       "score": [
         1,
-        0
+        1
       ],
       "lag": 0
     },
     "401915381": {
       "goals": [
+        "359-2221.0",
         "359-509.0"
       ],
       "ft": false,
       "score": [
         0,
-        1
+        2
       ],
       "lag": 0
     },
@@ -1301,11 +1303,13 @@
       "lag": 0
     },
     "401915306": {
-      "goals": [],
+      "goals": [
+        "382-2192.0"
+      ],
       "ft": false,
       "score": [
         0,
-        0
+        1
       ],
       "lag": 0
     }
@@ -1315,7 +1319,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 603,
+    "last_id": 607,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -1891,6 +1895,21 @@
     },
     "Noni Madueke": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Noni_Madueke_England_v_Panama_27_June_26-054.jpg/1280px-Noni_Madueke_England_v_Panama_27_June_26-054.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Viktor Gyökeres": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Viktor_Gyokeres_France_v_Sweden_6.30.26-123_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Castello Lukeba": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Castello_Lukeba_in_2022.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "ESTAC Troyes",
+      "license": "CC BY-SA 3.0"
+    },
+    "Scott McTominay": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Scott_McTominay_Scotland_v_Bolivia_6_June_2026-41.jpg/1280px-Scott_McTominay_Scotland_v_Bolivia_6_June_2026-41.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
     }
