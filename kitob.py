@@ -45,9 +45,10 @@ def next_quote(quotes: list[dict], priority: list[str] = ()) -> tuple[int, dict]
     if not free:
         log.warning("Barcha iqtiboslar ishlatildi - qaytadan boshlanmoqda. kitob_kontent.json ni to'ldiring!")
         state["used"], free = [], list(range(len(quotes)))
-    first = next((i for i in free if quotes[i]["muallif"] in priority), None)
-    if first is not None:
-        return first, quotes[first]
+    for author in priority:  # ro'yxat tartibida: birinchi muallif tugasa - keyingisi
+        first = next((i for i in free if quotes[i]["muallif"] == author), None)
+        if first is not None:
+            return first, quotes[first]
     order = ["jahon", "ozbek", "motivatsiya"]
     want = order[len(state["used"]) % len(order)]
     idx = next((i for i in free if quotes[i].get("turkum") == want), free[0])

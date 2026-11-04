@@ -1,6 +1,6 @@
 {
   "izoh": "Faqat muallifi aniq iqtiboslar. 'manba' - asar nomi (aniq bo'lmasa bo'sh). 'turkum': jahon / ozbek / motivatsiya.",
-  "ustuvor": ["Brayan Treysi"],
+  "ustuvor": ["Brayan Treysi", "Lev Tolstoy"],
   "iqtiboslar": [
     {"matn": "Barcha baxtli oilalar bir-biriga o‘xshaydi, har bir baxtsiz oila esa o‘zicha baxtsiz.", "muallif": "Lev Tolstoy", "manba": "Anna Karenina", "turkum": "jahon"},
     {"matn": "Eng kuchli ikki jangchi — sabr va vaqt.", "muallif": "Lev Tolstoy", "manba": "Urush va tinchlik", "turkum": "jahon"},
@@ -63,6 +63,21 @@
     {"matn": "Chinakam muvaffaqiyatli odamlarning barchasi o‘z ishini sevadi.", "muallif": "Brayan Treysi", "manba": "Sotuv psixologiyasi", "turkum": "motivatsiya"},
     {"matn": "O‘zingizga his bilan aytgan har bir gapni ongostingiz buyruq sifatida qabul qiladi.", "muallif": "Brayan Treysi", "manba": "Sotuv psixologiyasi", "turkum": "motivatsiya"},
     {"matn": "Muvaffaqiyatsizlikdan qo‘rqish bolalikda, ko‘pincha ota-onaning qattiq tanqidi natijasida paydo bo‘ladi.", "muallif": "Brayan Treysi", "manba": "Sotuv psixologiyasi", "turkum": "motivatsiya"},
-    {"matn": "Hayotingizdagi har qanday yaxshilanish xayolingizdagi tasvirlar yaxshilanishidan boshlanadi.", "muallif": "Brayan Treysi", "manba": "Sotuv psixologiyasi", "turkum": "motivatsiya"}
+    {"matn": "Hayotingizdagi har qanday yaxshilanish xayolingizdagi tasvirlar yaxshilanishidan boshlanadi.", "muallif": "Brayan Treysi", "manba": "Sotuv psixologiyasi", "turkum": "motivatsiya"},
+    {"matn": "Biz faqat hech narsa bilmasligimizni bila olamiz. Bu esa inson donoligining eng oliy darajasidir.", "muallif": "Lev Tolstoy", "manba": "Urush va tinchlik", "turkum": "jahon"},
+    {"matn": "Kuta olgan odamga hamma narsa o‘z vaqtida keladi.", "muallif": "Lev Tolstoy", "manba": "Urush va tinchlik", "turkum": "jahon"},
+    {"matn": "Baxtli lahzalarni tuting, seving va sevilib yashang! Dunyodagi yagona haqiqat shu, qolgani — bema’nilik.", "muallif": "Lev Tolstoy", "manba": "Urush va tinchlik", "turkum": "jahon"},
+    {"matn": "Sevgi — hayotning o‘zi. Men tushungan hamma narsani faqat sevganim uchun tushunaman.", "muallif": "Lev Tolstoy", "manba": "Urush va tinchlik", "turkum": "jahon"},
+    {"matn": "Soddalik, ezgulik va haqiqat bo‘lmagan joyda buyuklik ham bo‘lmaydi.", "muallif": "Lev Tolstoy", "manba": "Urush va tinchlik", "turkum": "jahon"},
+    {"matn": "Sof va to‘liq qayg‘u ham, sof va to‘liq quvonch kabi, bo‘lishi mumkin emas.", "muallif": "Lev Tolstoy", "manba": "Urush va tinchlik", "turkum": "jahon"},
+    {"matn": "Agar har kim faqat o‘z e’tiqodi uchun kurashganida, urush bo‘lmas edi.", "muallif": "Lev Tolstoy", "manba": "Urush va tinchlik", "turkum": "jahon"},
+    {"matn": "Hurmat sevgi bo‘lishi kerak bo‘lgan bo‘sh joyni yashirish uchun o‘ylab topilgan.", "muallif": "Lev Tolstoy", "manba": "Anna Karenina", "turkum": "jahon"},
+    {"matn": "Hayotning barcha rang-barangligi, butun jozibasi va go‘zalligi yorug‘lik va soyadan iborat.", "muallif": "Lev Tolstoy", "manba": "Anna Karenina", "turkum": "jahon"},
+    {"matn": "Boshlar qancha bo‘lsa, aqllar shuncha bo‘lsa, yuraklar qancha bo‘lsa, sevgining turlari ham shuncha.", "muallif": "Lev Tolstoy", "manba": "Anna Karenina", "turkum": "jahon"},
+    {"matn": "U unga uzoq qaramaslikka urindi, xuddi quyoshga qaramagandek. Lekin quyoshni ko‘rgandek, qaramasa ham uni ko‘rib turardi.", "muallif": "Lev Tolstoy", "manba": "Anna Karenina", "turkum": "jahon"},
+    {"matn": "Bahor — rejalar va niyatlar fasli.", "muallif": "Lev Tolstoy", "manba": "Anna Karenina", "turkum": "jahon"},
+    {"matn": "Ivan Ilichning hayoti eng oddiy, eng odatiy hayot edi — va shuning uchun eng dahshatlisi edi.", "muallif": "Lev Tolstoy", "manba": "Ivan Ilichning o‘limi", "turkum": "jahon"},
+    {"matn": "Agar butun hayotim noto‘g‘ri o‘tgan bo‘lsa-chi?", "muallif": "Lev Tolstoy", "manba": "Ivan Ilichning o‘limi", "turkum": "jahon"},
+    {"matn": "Odamlar daryoga o‘xshaydi: suv hammasida bir xil, lekin har bir daryo goh tor, goh tez, goh keng, goh sokin bo‘ladi. Odamlar ham shunday.", "muallif": "Lev Tolstoy", "manba": "Tirilish", "turkum": "jahon"}
   ]
 }
