@@ -1241,24 +1241,29 @@
     "401915383": {
       "goals": [
         "86-1914.0",
+        "86-4628.0",
+        "887-4468.0",
+        "887-4469.0",
         "887-671.0"
       ],
       "ft": false,
       "score": [
-        1,
-        1
+        2,
+        2
       ],
       "lag": 0
     },
     "401915382": {
       "goals": [
         "364-1475.0",
-        "436-1704.0"
+        "364-4105.0",
+        "436-1704.0",
+        "436-4365.0"
       ],
       "ft": false,
       "score": [
-        1,
-        1
+        2,
+        2
       ],
       "lag": 0
     }
@@ -1268,7 +1273,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 593,
+    "last_id": 596,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -1823,7 +1828,15 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Mason_Greenwood_11_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29_%28cropped%29.JPG/1280px-Mason_Greenwood_11_Fenerbah%C3%A7e_20260805_%284%29_%28cropped%29_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "User:Zafer",
       "license": "CC BY-SA 4.0"
-    }
+    },
+    "Archie Brown": null,
+    "Archie Brown (footballer)": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Archie_Brown_3_Fenerbah%C3%A7e_20260805_%289%29_%28cropped%29.JPG/1280px-Archie_Brown_3_Fenerbah%C3%A7e_20260805_%289%29_%28cropped%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "User:Zafer",
+      "license": "CC BY-SA 4.0"
+    },
+    "Stavros Pilios": null,
+    "Stavros Pilios (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
