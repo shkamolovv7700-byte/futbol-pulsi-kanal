@@ -258,7 +258,8 @@
     "https://sports.uz/oz/news/view/arsenal-vinisius-evaziga-o-z-futbolchisini-beradigan-bo-ldi",
     "yt:nYFcrFUwioo",
     "https://sports.uz/oz/news/view/mourino-kamavinga-haqidagi-fikrini-butunlay-o-zgartirdi",
-    "yt:4AJmJR_4fGI"
+    "yt:4AJmJR_4fGI",
+    "https://sports.uz/oz/news/view/xabi-alonso-real-ning-eng-baquvvat-himoyachisini-chelsi-ga-chaqiryapti"
   ],
   "used_quiz": [
     23,
@@ -297,7 +298,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Eddi Xau — “Manchester Yunayted” bosh murabbiyligiga asosiy nomzod",
     "O‘zbekiston kubogi. Yarim final uchrashuvlari 24 noyabr kuni o‘tkaziladi",
     "“Paxtakor” — “An-Nassr” o‘yinining eng qimmat chiptalari 3 mln so‘mdan sotuvga chiqarildi",
     "«Chelsi», «Barselona» va «Bavariya» 19 yoshli himoyachini ko‘zlamoqda",
@@ -356,9 +356,10 @@
     "\"Tottenxem\" futbolchisi \"Barsa\"ga yordam beradi",
     "\"Tottenxem\" futbolchisining narxini \"Real\" va \"Barsa\"ga aytdi",
     "\"Arsenal\" Vinisius evaziga oʻz futbolchisini beradiган boʻldi",
-    "Mourinyo Kamavinga haqidagi fikrini butunlay o‘zgartirdi"
+    "Mourinyo Kamavinga haqidagi fikrini butunlay o‘zgartirdi",
+    "Xabi Alonso \"Real\"ning eng baquvvat himoyachisini \"Chelsi\"ga chaqiryapti"
   ],
-  "last_slot": "2026-11-04 13:00",
+  "last_slot": "2026-11-04 14:00",
   "scorers_idx": 1,
   "last_video_source": "UEFA",
   "table_idx": 3,
@@ -1238,7 +1239,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 578,
+    "last_id": 579,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
