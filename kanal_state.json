@@ -274,7 +274,8 @@
     2,
     8,
     9,
-    32
+    32,
+    28
   ],
   "used_poll": [
     19,
@@ -357,7 +358,7 @@
     "\"Arsenal\" Vinisius evaziga oʻz futbolchisini beradiган boʻldi",
     "Mourinyo Kamavinga haqidagi fikrini butunlay o‘zgartirdi"
   ],
-  "last_slot": "2026-11-04 11:30",
+  "last_slot": "2026-11-04 13:00",
   "scorers_idx": 1,
   "last_video_source": "UEFA",
   "table_idx": 3,
@@ -1237,7 +1238,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 577,
+    "last_id": 578,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
