@@ -296,7 +296,8 @@
     12,
     10,
     18,
-    7
+    7,
+    6
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -361,7 +362,7 @@
     "Mourinyo Kamavinga haqidagi fikrini butunlay o‘zgartirdi",
     "Xabi Alonso \"Real\"ning eng baquvvat himoyachisini \"Chelsi\"ga chaqiryapti"
   ],
-  "last_slot": "2026-11-04 19:00",
+  "last_slot": "2026-11-04 20:00",
   "scorers_idx": 2,
   "last_video_source": "Serie A",
   "table_idx": 4,
@@ -1241,7 +1242,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 583,
+    "last_id": 586,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -1766,6 +1767,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg/1280px-Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Alexis Mac Allister": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Alexis_Mac_Allister_Argentina_v_Spain_19_July_2026-162_%28cropped%29.jpg/1280px-Alexis_Mac_Allister_Argentina_v_Spain_19_July_2026-162_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -1795,7 +1801,9 @@
     "401874949": "2026-11-01",
     "401915386": "2026-11-03",
     "401915387": "2026-11-03",
-    "401915307": "2026-11-03"
+    "401915307": "2026-11-03",
+    "401915383": "2026-11-04",
+    "401915382": "2026-11-04"
   },
   "kickoff": {
     "401876422": "2026-10-27",
