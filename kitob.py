@@ -51,11 +51,12 @@ def next_quote(quotes: list[dict], priority: list[str] = (), long: bool = False)
     if not free:
         log.warning("Barcha iqtiboslar ishlatildi - qaytadan boshlanmoqda. kitob_kontent.json ni to'ldiring!")
         state["used"], free = [], list(range(len(quotes)))
+    for author in priority:  # ro'yxat tartibida: muallif butunlay tugamaguncha faqat u chiqadi
+        mine = [i for i in free if quotes[i]["muallif"] == author]
+        if mine:
+            idx = next((i for i in mine if is_long(quotes[i]) == long), mine[0])
+            return idx, quotes[idx]
     free = [i for i in free if is_long(quotes[i]) == long] or free
-    for author in priority:  # ro'yxat tartibida: birinchi muallif tugasa - keyingisi
-        first = next((i for i in free if quotes[i]["muallif"] == author), None)
-        if first is not None:
-            return first, quotes[first]
     order = ["jahon", "ozbek", "motivatsiya"]
     want = order[len(state["used"]) % len(order)]
     idx = next((i for i in free if quotes[i].get("turkum") == want), free[0])
