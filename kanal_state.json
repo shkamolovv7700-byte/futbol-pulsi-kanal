@@ -305,7 +305,8 @@
     10,
     18,
     7,
-    6
+    6,
+    5
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -370,7 +371,7 @@
     "O‘zbekiston milliy jamoasining noyabr oyidagi o‘yinlari boshlanish vaqti ma’lum bo‘ldi",
     "Chempionlar ligasida Yamaldan zo‘r futbolchi kashf qilindi"
   ],
-  "last_slot": "2026-11-05 19:00",
+  "last_slot": "2026-11-05 20:00",
   "scorers_idx": 3,
   "last_video_source": "UEFA",
   "table_idx": 5,
@@ -1338,7 +1339,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 632,
+    "last_id": 634,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -1972,6 +1973,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Uzbekistan_vs._Spain%2C_2024_Summer_Olympic_men%27s_association_football%2C_2024-07-24_%28471%29_-_Samu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Like tears in rain",
       "license": "CC BY-SA 4.0"
+    },
+    "Kristoffer Zachariassen": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/FC_Salzburg_vs._Ferencv%C3%A1ros_Budapest_%282025-10-23_UEFA_Euroleague%29_33_%28Kristoffer_Zachariassen%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Werner100359",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -2004,7 +2010,8 @@
     "401915307": "2026-11-03",
     "401915383": "2026-11-04",
     "401915382": "2026-11-04",
-    "401915304": "2026-11-04"
+    "401915304": "2026-11-04",
+    "401915534": "2026-11-05"
   },
   "kickoff": {
     "401876422": "2026-10-27",
