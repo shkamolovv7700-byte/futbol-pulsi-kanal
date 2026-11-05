@@ -324,7 +324,11 @@
             "Medial quadrant -> parasternal nodes along internal thoracic vessels",
             "Medial route: spread to the opposite breast"
           ],
-          "izoh": "Limfa oqimi sut bezi saratonining qayerga metastaz berishini belgilaydi, shuning uchun USMLE da muhim.\n\n➡️ Lateral yo'l (taxminan 75%): so'rg'ich, yuqori, lateral va pastki kvadrantlardan limfa qo'ltiq limfa tugunlariga, avval pektoral guruhga boradi. Shuning uchun saratonda birinchi bo'lib qo'ltiq tugunlari tekshiriladi.\n\n⬅️ Medial yo'l: medial kvadrantdan limfa asosan to'sh yonidagi (parasternal) tugunlarga, ichki ko'krak tomirlari bo'ylab boradi. Saraton aynan shu yo'l orqali qarama-qarshi sut beziga tarqalishi mumkin."
+          "izoh": "Limfa oqimi sut bezi saratonining qayerga metastaz berishini belgilaydi, shuning uchun USMLE da muhim.\n\n➡️ Lateral yo'l (taxminan 75%): so'rg'ich, yuqori, lateral va pastki kvadrantlardan limfa qo'ltiq limfa tugunlariga, avval pektoral guruhga boradi. Shuning uchun saratonda birinchi bo'lib qo'ltiq tugunlari tekshiriladi.\n\n⬅️ Medial yo'l: medial kvadrantdan limfa asosan to'sh yonidagi (parasternal) tugunlarga, ichki ko'krak tomirlari bo'ylab boradi. Saraton aynan shu yo'l orqali qarama-qarshi sut beziga tarqalishi mumkin.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_02.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
         },
         {
           "sarlavha": "Mastectomy nerve injuries",
@@ -440,7 +444,11 @@
             "Alveolar macrophages: 'dust cells', 'heart failure cells' (hemosiderin)",
             "NRDS: prematurity, maternal diabetes, C-section; L/S ratio < 1.5; give maternal steroids"
           ],
-          "izoh": "🫧 Alveola hujayralari:\n• I tip pnevmotsitlar - yassi, alveola yuzasining 97% ini qoplaydi, gaz almashinuvi uchun.\n• II tip pnevmotsitlar - kubsimon. Ular surfaktant (asosan dipalmitoilfosfatidilxolin) ishlab chiqaradi va zararlanishda I va II tip hujayralarga aylanuvchi o'zak hujayra vazifasini bajaradi.\n• Alveolyar makrofaglar - 'chang hujayralari'; yurak yetishmovchiligida gemosiderinli 'yurak nuqsoni hujayralari'.\nKon teshikchalari alveolalarni bir-biriga bog'laydi (pnevmoniyada bakteriyalar ham shu yo'l bilan tarqaladi).\n\nSurfaktant sirt tarangligini kamaytiradi va alveolalarni yopishib qolishdan saqlaydi. Laplas qonuni: yopilish bosimi = 2 x taranglik / radius. Surfaktant ~20-haftadan hosil bo'la boshlaydi, ~35-haftada yetarli bo'ladi.\n\n👶 Chaqaloqlar RDS: surfaktant yetishmasligi, rentgenda 'xira oyna'. Xavf: chala tug'ilish, onadagi diabet, kesarcha kesish. L/S nisbati < 1.5. Davolash: tug'ruqdan oldin onaga glyukokortikoid, chaqaloqqa surfaktant. Kislorod asoratlari - RIB: retinopatiya, qorinchaga qon quyilish, bronxopulmonal displaziya."
+          "izoh": "🫧 Alveola hujayralari:\n• I tip pnevmotsitlar - yassi, alveola yuzasining 97% ini qoplaydi, gaz almashinuvi uchun.\n• II tip pnevmotsitlar - kubsimon. Ular surfaktant (asosan dipalmitoilfosfatidilxolin) ishlab chiqaradi va zararlanishda I va II tip hujayralarga aylanuvchi o'zak hujayra vazifasini bajaradi.\n• Alveolyar makrofaglar - 'chang hujayralari'; yurak yetishmovchiligida gemosiderinli 'yurak nuqsoni hujayralari'.\nKon teshikchalari alveolalarni bir-biriga bog'laydi (pnevmoniyada bakteriyalar ham shu yo'l bilan tarqaladi).\n\nSurfaktant sirt tarangligini kamaytiradi va alveolalarni yopishib qolishdan saqlaydi. Laplas qonuni: yopilish bosimi = 2 x taranglik / radius. Surfaktant ~20-haftadan hosil bo'la boshlaydi, ~35-haftada yetarli bo'ladi.\n\n👶 Chaqaloqlar RDS: surfaktant yetishmasligi, rentgenda 'xira oyna'. Xavf: chala tug'ilish, onadagi diabet, kesarcha kesish. L/S nisbati < 1.5. Davolash: tug'ruqdan oldin onaga glyukokortikoid, chaqaloqqa surfaktant. Kislorod asoratlari - RIB: retinopatiya, qorinchaga qon quyilish, bronxopulmonal displaziya.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_10.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
         }
       ],
       "savollar": [
@@ -604,7 +612,11 @@
             "Layers: skin -> superficial fascia -> serratus anterior -> external -> internal intercostal",
             "Several adjacent nerves blocked: dermatomes overlap"
           ],
-          "izoh": "Qovurg'alararo nerv blokadasi qovurg'a sinishi yoki o'rab oluvchi temiratki (herpes zoster) og'rig'ini qoldirish uchun qilinadi.\n\n📍 Igna qovurg'aning orqa burchagida, uning PASTKI qirrasi bo'ylab kiritiladi - nerv shu yerda egatda yotadi va anestetik uni 'yuvadi'. Nervning kollateral tarmoqlari ham anesteziya qilinishi kerak.\n\n💉 Qavatlar: teri -> yuza fassiya -> oldingi tishli mushak -> tashqi qovurg'alararo -> ichki qovurg'alararo mushak.\n\n💡 Bitta emas, bir nechta qo'shni nervlar blokada qilinadi, chunki qo'shni dermatomlar bir-birini qoplaydi.\n\nTorakosentez bilan farqni eslab qoling: torakosentezda igna qovurg'aning YUQORI qirrasidan (tomirlardan qochish), blokadada esa PASTKI qirrasidan (nervga yetish)."
+          "izoh": "Qovurg'alararo nerv blokadasi qovurg'a sinishi yoki o'rab oluvchi temiratki (herpes zoster) og'rig'ini qoldirish uchun qilinadi.\n\n📍 Igna qovurg'aning orqa burchagida, uning PASTKI qirrasi bo'ylab kiritiladi - nerv shu yerda egatda yotadi va anestetik uni 'yuvadi'. Nervning kollateral tarmoqlari ham anesteziya qilinishi kerak.\n\n💉 Qavatlar: teri -> yuza fassiya -> oldingi tishli mushak -> tashqi qovurg'alararo -> ichki qovurg'alararo mushak.\n\n💡 Bitta emas, bir nechta qo'shni nervlar blokada qilinadi, chunki qo'shni dermatomlar bir-birini qoplaydi.\n\nTorakosentez bilan farqni eslab qoling: torakosentezda igna qovurg'aning YUQORI qirrasidan (tomirlardan qochish), blokadada esa PASTKI qirrasidan (nervga yetish).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_02.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
         },
         {
           "sarlavha": "Thoracic outlet syndrome",
@@ -660,7 +672,11 @@
             "Bronchioles: no cartilage, no glands; highest proportion of smooth muscle; club cells",
             "Lung endothelium makes ACE (angiotensin I -> II)"
           ],
-          "izoh": "O'pka tashqi muhitga ochiq, shuning uchun ifloslanish va infeksiyalarga sezgir. U butun yurak qon haydashini qabul qiladi va qon tarkibini o'zgartiradi: o'pka endoteliysi angiotenzin I ni II ga aylantiruvchi fermentni (APF) ishlab chiqaradi.\n\n🔬 Gistologik farqlar:\n\nTraxeya: ko'p qatorli kiprikli silindrsimon epiteliy + qadahsimon hujayralar; 16-20 ta C-shaklidagi tog'ay halqalar; seroz-shilliq bezlar; silliq mushak halqalarning ochiq uchlari orasida.\n\nBronxlar: epiteliy asta-sekin oddiy silindrsimonga o'tadi; tog'ay notekis plastinkalar; bezlar kamroq; silliq mushak yaxshi rivojlangan.\n\nBronxiolalar: kiprikli hujayralar, kam qadahsimon hujayra, terminal bronxiolalarda klub hujayralari. Tog'ay ham, bez ham YO'Q. Bronx daraxtida silliq mushak ulushi eng yuqori (astmada bronxospazmning sababi!). Elastik tolalar ko'p."
+          "izoh": "O'pka tashqi muhitga ochiq, shuning uchun ifloslanish va infeksiyalarga sezgir. U butun yurak qon haydashini qabul qiladi va qon tarkibini o'zgartiradi: o'pka endoteliysi angiotenzin I ni II ga aylantiruvchi fermentni (APF) ishlab chiqaradi.\n\n🔬 Gistologik farqlar:\n\nTraxeya: ko'p qatorli kiprikli silindrsimon epiteliy + qadahsimon hujayralar; 16-20 ta C-shaklidagi tog'ay halqalar; seroz-shilliq bezlar; silliq mushak halqalarning ochiq uchlari orasida.\n\nBronxlar: epiteliy asta-sekin oddiy silindrsimonga o'tadi; tog'ay notekis plastinkalar; bezlar kamroq; silliq mushak yaxshi rivojlangan.\n\nBronxiolalar: kiprikli hujayralar, kam qadahsimon hujayra, terminal bronxiolalarda klub hujayralari. Tog'ay ham, bez ham YO'Q. Bronx daraxtida silliq mushak ulushi eng yuqori (astmada bronxospazmning sababi!). Elastik tolalar ko'p.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_06.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
         },
         {
           "sarlavha": "Airway epithelial cells",
@@ -671,7 +687,11 @@
             "Neuroendocrine (Kulchitsky, APUD) cells at branch points; brush cells may be sensory",
             "Club cells: nonciliated, CYP450 detox, surfactant component, progenitors; smoking -> reversible squamous metaplasia"
           ],
-          "izoh": "Traxeya epiteliysi hujayralari:\n\n• Kiprikli silindrsimon hujayralar - har birida 200-300 kiprik. Ular shilliq qavatni halqum tomon haydaydi, u yerda yutib yuboriladi - 'mukotsiliar eskalator'.\n• Qadahsimon hujayralar va shilliq osti bezlari shilliq ishlab chiqaradi. U chang, bakteriya, viruslarni ushlaydi va ozon, oltingugurt dioksidi kabi zararli gazlarni yutadi.\n• Bazal hujayralar - kiprikli va qadahsimon hujayralarning o'zak hujayralari. Ular bo'shliqqa yetmaydi, shuning uchun epiteliy 'ko'p qatorli' ko'rinadi.\n• Neyroendokrin (Kulchitskiy, APUD) hujayralar - tarmoqlanish joylarida guruh bo'lib joylashadi.\n• Cho'tkasimon hujayralar - sezuvchi retseptor bo'lishi mumkin.\n• Klub hujayralari (bronxiolalarda) - kipriksiz, sekretor donachali; toksinlarni CYP450 orqali parchalaydi, surfaktant komponentini ajratadi, o'zak hujayra vazifasini bajaradi.\n\n🚬 Chekishda kiprikli epiteliy yassi epiteliyga aylanadi - yassi hujayrali metaplaziya. Bu jarayon qaytar. Tozalash mexanizmi buzilsa - infeksiya yoki pnevmokonioz."
+          "izoh": "Traxeya epiteliysi hujayralari:\n\n• Kiprikli silindrsimon hujayralar - har birida 200-300 kiprik. Ular shilliq qavatni halqum tomon haydaydi, u yerda yutib yuboriladi - 'mukotsiliar eskalator'.\n• Qadahsimon hujayralar va shilliq osti bezlari shilliq ishlab chiqaradi. U chang, bakteriya, viruslarni ushlaydi va ozon, oltingugurt dioksidi kabi zararli gazlarni yutadi.\n• Bazal hujayralar - kiprikli va qadahsimon hujayralarning o'zak hujayralari. Ular bo'shliqqa yetmaydi, shuning uchun epiteliy 'ko'p qatorli' ko'rinadi.\n• Neyroendokrin (Kulchitskiy, APUD) hujayralar - tarmoqlanish joylarida guruh bo'lib joylashadi.\n• Cho'tkasimon hujayralar - sezuvchi retseptor bo'lishi mumkin.\n• Klub hujayralari (bronxiolalarda) - kipriksiz, sekretor donachali; toksinlarni CYP450 orqali parchalaydi, surfaktant komponentini ajratadi, o'zak hujayra vazifasini bajaradi.\n\n🚬 Chekishda kiprikli epiteliy yassi epiteliyga aylanadi - yassi hujayrali metaplaziya. Bu jarayon qaytar. Tozalash mexanizmi buzilsa - infeksiya yoki pnevmokonioz.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_07.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
         },
         {
           "sarlavha": "Cystic fibrosis",
@@ -682,7 +702,11 @@
             "S. aureus in childhood, P. aeruginosa in adults; pancreatic insufficiency, meconium ileus, male infertility",
             "Rx: DNase, hypertonic saline, azithromycin, pancrelipase; potentiator ivacaftor, correctors lumacaftor/tezacaftor"
           ],
-          "izoh": "🧬 Mukovissidoz - autosom retsessiv; 7-xromosomadagi CFTR geni. Ko'pincha deltaF508 deletsiyasi: oqsil noto'g'ri buklanadi va hujayra membranasiga yetib bormaydi.\n\nMexanizm: CFTR - ATF bilan ochiladigan Cl- kanali (o'pka va ichakda Cl- chiqaradi, ter bezida qayta so'radi). Cl- va suv chiqishi kamayadi, Na+ ENaC orqali ko'proq so'riladi -> shilliq quyuq bo'ladi. Ter testida Cl- yuqori. Chaqaloqlar skriningida immunoreaktiv tripsinogen oshgan.\n\n🫁 Klinika: takroriy infeksiyalar (bolalikda S. aureus, kattalarda P. aeruginosa, ABPA), bronxoektazlar, burun poliplari, barmoqlar 'baraban tayoqchasi'; me'da osti bezi yetishmovchiligi, steatoreya, A, D, E, K yetishmasligi, mukovissidozli diabet; yangi tug'ilganda mekoniy ileus; erkaklarda bepushtlik (urug' yo'li yo'q).\n\n💊 Davolash: fizioterapiya, dornaza alfa, gipertonik eritma ingalyatsiyasi, azitromitsin, ibuprofen, pankrelipaza; CFTR modulyatorlari - potensiator (ivakaftor) va korrektorlar (lumakaftor, tezakaftor)."
+          "izoh": "🧬 Mukovissidoz - autosom retsessiv; 7-xromosomadagi CFTR geni. Ko'pincha deltaF508 deletsiyasi: oqsil noto'g'ri buklanadi va hujayra membranasiga yetib bormaydi.\n\nMexanizm: CFTR - ATF bilan ochiladigan Cl- kanali (o'pka va ichakda Cl- chiqaradi, ter bezida qayta so'radi). Cl- va suv chiqishi kamayadi, Na+ ENaC orqali ko'proq so'riladi -> shilliq quyuq bo'ladi. Ter testida Cl- yuqori. Chaqaloqlar skriningida immunoreaktiv tripsinogen oshgan.\n\n🫁 Klinika: takroriy infeksiyalar (bolalikda S. aureus, kattalarda P. aeruginosa, ABPA), bronxoektazlar, burun poliplari, barmoqlar 'baraban tayoqchasi'; me'da osti bezi yetishmovchiligi, steatoreya, A, D, E, K yetishmasligi, mukovissidozli diabet; yangi tug'ilganda mekoniy ileus; erkaklarda bepushtlik (urug' yo'li yo'q).\n\n💊 Davolash: fizioterapiya, dornaza alfa, gipertonik eritma ingalyatsiyasi, azitromitsin, ibuprofen, pankrelipaza; CFTR modulyatorlari - potensiator (ivakaftor) va korrektorlar (lumakaftor, tezakaftor).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_08.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
         },
         {
           "sarlavha": "Heart position and pericardium",
@@ -966,7 +990,11 @@
             "Kidneys, Esophagus (thoracic part), Rectum (partly)",
             "Injury -> blood or gas in the retroperitoneal space"
           ],
-          "izoh": "Retroperitoneal a'zolar qorin parda bo'shlig'idan orqada va undan tashqarida joylashadi. Ular shikastlansa, qon yoki havo qorin parda orqasidagi bo'shliqda to'planadi. Shuning uchun peritonit belgilari kech va noaniq bo'lishi mumkin.\n\nEslab qolish: SAD PUCKER\n• S - buyrak usti bezlari (Suprarenal)\n• A - Aorta va pastki kovak vena\n• D - o'n ikki barmoqli ichak (Duodenum), 2-4 qismlari\n• P - me'da osti bezi (Pancreas), dumidan tashqari\n• U - siydik nayi (Ureter)\n• C - ko'tariluvchi va tushuvchi chambar ichak (Colon)\n• K - buyraklar (Kidneys)\n• E - qizilo'ngachning ko'krak qismi (Esophagus)\n• R - to'g'ri ichak, qisman (Rectum)\n\n💡 Me'da osti bezi dumi taloq-buyrak boylami ichida yotadi, shuning uchun retroperitoneal hisoblanmaydi."
+          "izoh": "Retroperitoneal a'zolar qorin parda bo'shlig'idan orqada va undan tashqarida joylashadi. Ular shikastlansa, qon yoki havo qorin parda orqasidagi bo'shliqda to'planadi. Shuning uchun peritonit belgilari kech va noaniq bo'lishi mumkin.\n\nEslab qolish: SAD PUCKER\n• S - buyrak usti bezlari (Suprarenal)\n• A - Aorta va pastki kovak vena\n• D - o'n ikki barmoqli ichak (Duodenum), 2-4 qismlari\n• P - me'da osti bezi (Pancreas), dumidan tashqari\n• U - siydik nayi (Ureter)\n• C - ko'tariluvchi va tushuvchi chambar ichak (Colon)\n• K - buyraklar (Kidneys)\n• E - qizilo'ngachning ko'krak qismi (Esophagus)\n• R - to'g'ri ichak, qisman (Rectum)\n\n💡 Me'da osti bezi dumi taloq-buyrak boylami ichida yotadi, shuning uchun retroperitoneal hisoblanmaydi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d4_08.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
         },
         {
           "sarlavha": "Gastrointestinal ligaments",
@@ -992,7 +1020,11 @@
             "Duodenum: Brunner glands (HCO3-); jejunum: tall plicae, 'feathered'",
             "Ileum: Peyer patches, most goblet cells; colon: crypts + goblet cells, NO villi"
           ],
-          "izoh": "🧱 Ichak devori qavatlari (ichkaridan tashqariga - MSMS):\n• Shilliq qavat - epiteliy, xususiy plastinka, shilliq qavat mushagi\n• Shilliq osti qavat - Meysner nerv chigali (sekretsiya)\n• Mushak qavati - Auerbax nerv chigali (motorika)\n• Seroz qavat (intraperitoneal a'zolarda) yoki adventitsiya (retroperitonealda)\nEroziya faqat shilliq qavatda; yara shilliq osti va mushak qavatlarigacha chuqurlashadi.\n\nSekin to'lqinlar Kaxal hujayralaridan: o'n ikki barmoqli ichak > yonbosh ichak > me'da.\n\n🔬 Gistologiya:\n• Qizilo'ngach - muguzlanmaydigan ko'p qavatli yassi epiteliy; yuqori 1/3 ko'ndalang-targ'il, pastki 2/3 silliq mushak\n• Me'da - parietal hujayralar pushti (eozinofil), bosh hujayralar ko'k (bazofil)\n• O'n ikki barmoqli ichak - vorsinkalar, shilliq osti qavatdagi Brunner bezlari (bikarbonat), Liberkyun kriptalari (o'zak hujayralar va defensin, lizotsim ajratuvchi Paneth hujayralari)\n• Och ichak - baland, ko'p burmalar, kontrastda 'pat' ko'rinishi\n• Yonbosh ichak - Peyer pilakchalari, qadahsimon hujayralar eng ko'p\n• Yo'g'on ichak - kriptalar va ko'p qadahsimon hujayralar, vorsinkalar YO'Q"
+          "izoh": "🧱 Ichak devori qavatlari (ichkaridan tashqariga - MSMS):\n• Shilliq qavat - epiteliy, xususiy plastinka, shilliq qavat mushagi\n• Shilliq osti qavat - Meysner nerv chigali (sekretsiya)\n• Mushak qavati - Auerbax nerv chigali (motorika)\n• Seroz qavat (intraperitoneal a'zolarda) yoki adventitsiya (retroperitonealda)\nEroziya faqat shilliq qavatda; yara shilliq osti va mushak qavatlarigacha chuqurlashadi.\n\nSekin to'lqinlar Kaxal hujayralaridan: o'n ikki barmoqli ichak > yonbosh ichak > me'da.\n\n🔬 Gistologiya:\n• Qizilo'ngach - muguzlanmaydigan ko'p qavatli yassi epiteliy; yuqori 1/3 ko'ndalang-targ'il, pastki 2/3 silliq mushak\n• Me'da - parietal hujayralar pushti (eozinofil), bosh hujayralar ko'k (bazofil)\n• O'n ikki barmoqli ichak - vorsinkalar, shilliq osti qavatdagi Brunner bezlari (bikarbonat), Liberkyun kriptalari (o'zak hujayralar va defensin, lizotsim ajratuvchi Paneth hujayralari)\n• Och ichak - baland, ko'p burmalar, kontrastda 'pat' ko'rinishi\n• Yonbosh ichak - Peyer pilakchalari, qadahsimon hujayralar eng ko'p\n• Yo'g'on ichak - kriptalar va ko'p qadahsimon hujayralar, vorsinkalar YO'Q",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d4_10.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
         }
       ],
       "savollar": [
