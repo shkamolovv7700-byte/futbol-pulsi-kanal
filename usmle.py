@@ -170,49 +170,79 @@ def due_slot() -> str | None:
     return None
 
 
+DAY_START, DAY_END = 8 * 60, 22 * 60  # dars postlari 08:00-22:00 oralig'ida
+MAX_TRIES = 3  # bir post 3 marta xato bersa, o'tkazib yuboriladi (kanal to'xtab qolmasin)
+
+
+def step_lessons(step: str) -> list[int]:
+    """'3:postlar' -> [3]; 'aralash:1,2,3,4' -> [1, 2, 3, 4]."""
+    return [int(x) for x in step.split(":")[1].split(",")] if step.startswith("aralash:") else [int(step.split(":")[0])]
+
+
 def plan_steps(data: dict) -> list[str]:
-    """Qadamlar tartibi: avval 'reja' (masalan, dushanbagacha faqat mavzular), keyin rejada yo'q darslar
-    odatiy tartibda - 1 kun mavzu ('5:postlar'), ertasi masalalar ('5:savollar')."""
+    """Qadamlar tartibi: avval 'reja', keyin rejada yo'q darslar odatiy tartibda -
+    1 kun mavzu ('5:postlar'), ertasi o'sha darsning masalalari ('5:savollar').
+    'aralash:1,2,3,4' - shu darslarning barcha vaziyatli masalalari bir kunda, aralashtirib."""
     steps = list(data.get("reja", []))
+    covered = {f"{n}:savollar" for s in steps if s.startswith("aralash:") for n in step_lessons(s)}
     for n in range(1, len(data["darslar"]) + 1):
-        steps += [s for s in (f"{n}:postlar", f"{n}:savollar") if s not in steps]
+        steps += [s for s in (f"{n}:postlar", f"{n}:savollar") if s not in steps and s not in covered]
     return steps
 
 
-def lesson_item(data: dict, today: str) -> tuple[int, dict, str, int, dict] | None:
-    """Har kuni bitta qadam (10 slot). Kun tugaguncha chiqmay qolgan postlar ertasi kuni davom etadi
-    (ma'lumot to'liq chiqishi uchun). Darsi hali qo'shilmagan qadam o'tkazib yuboriladi va dars
-    qo'shilganda navbatdagi bo'ladi. Qaytaradi: (dars raqami, dars, bosqich, tartib, element) yoki None."""
-    lessons = data["darslar"]
+def step_items(lessons: list[dict], step: str | None) -> list[tuple[int, str, int, dict]] | None:
+    """Qadam elementlari: (dars raqami 0 dan, bosqich, dars ichidagi tartib, element). Dars hali yo'q - None."""
+    if not step or any(n > len(lessons) for n in step_lessons(step)):
+        return None
+    if step.startswith("aralash:"):
+        groups = [[(n - 1, "savollar", k, q) for k, q in enumerate(lessons[n - 1]["savollar"])]
+                  for n in step_lessons(step)]
+        return [g[i] for i in range(max(map(len, groups))) for g in groups if i < len(g)]  # navbatma-navbat
+    n, stage = step.split(":")
+    return [(int(n) - 1, stage, k, x) for k, x in enumerate(lessons[int(n) - 1][stage])]
+
+
+def due_count(total: int, now: datetime) -> int:
+    """Hozirgacha nechta post chiqqan bo'lishi kerak: 10 tagacha - SLOTS soatlarida,
+    ko'proq bo'lsa (aralash kun) - 08:00-22:00 oralig'ida teng taqsimlanadi."""
+    if total <= len(SLOTS):
+        return min(total, sum(1 for h in SLOTS if h <= now.hour))
+    minutes = now.hour * 60 + now.minute
+    if minutes < DAY_START:
+        return 0
+    return min(total, int((minutes - DAY_START) / ((DAY_END - DAY_START) / total)) + 1)
+
+
+def lesson_item(data: dict, now: datetime):
+    """Har kuni bitta qadam. Kun tugaguncha chiqmay qolgan postlar ertasi kuni davom etadi (ma'lumot
+    to'liq chiqishi uchun). Darsi hali qo'shilmagan qadam o'tkazib yuboriladi va dars qo'shilganda
+    navbatdagi bo'ladi. Qaytaradi: (qadam, tartib, jami, (dars, bosqich, k, element)) yoki None."""
+    lessons, today = data["darslar"], f"{now:%Y-%m-%d}"
     d = state.setdefault("dars", {})
     if "idx" in d:  # eski holat formati -> yangi
         d.update(joriy=f"{d.pop('idx') + 1}:{d.pop('bosqich')}", bajarildi=[])
     d.setdefault("bajarildi", [])
     d.setdefault("pos", 0)
-
-    def items(step: str | None) -> list | None:
-        if not step:
-            return None
-        n, stage = step.split(":")
-        return lessons[int(n) - 1][stage] if int(n) <= len(lessons) else None
-
     if d.get("kun") != today:
-        cur = items(d.get("joriy"))
+        cur = step_items(lessons, d.get("joriy"))
         if cur is None or d["pos"] >= len(cur):  # joriy qadam tugagan - keyingisini tanlaymiz
             if cur is not None:
                 d["bajarildi"].append(d["joriy"])
-            d["joriy"] = next((s for s in plan_steps(data) if s not in d["bajarildi"] and items(s)), None)
+            d["joriy"] = next((s for s in plan_steps(data) if s not in d["bajarildi"] and step_items(lessons, s)), None)
             d["pos"] = 0
-        d["kun"] = today
-    cur = items(d.get("joriy"))
+        d["kun"], d["boshlanish"] = today, d["pos"]  # bugun shu tartibdan boshladik
+    cur = step_items(lessons, d.get("joriy"))
     if not cur or d["pos"] >= len(cur):
         return None  # bugungi qadam tugadi yoki yangi dars yo'q
-    n, stage = d["joriy"].split(":")
-    return int(n) - 1, lessons[int(n) - 1], stage, d["pos"], cur[d["pos"]]
+    start = d.get("boshlanish", 0)
+    if d["pos"] - start >= due_count(len(cur) - start, now):
+        return None  # keyingi post vaqti hali kelmadi
+    return d["joriy"], d["pos"], len(cur), cur[d["pos"]]
 
 
-async def post_lesson(client: TelegramClient, channel, n: int, lesson: dict, stage: str, pos: int, item: dict) -> None:
-    total = len(lesson[stage])
+async def post_lesson(client: TelegramClient, channel, step: str, pos: int, total: int, entry: tuple) -> None:
+    n, stage, k, item = entry
+    lesson = json.loads(LESSONS_FILE.read_text(encoding="utf-8"))["darslar"][n]
     head = f"{n + 1}-DARS: {lesson['nomi']}"
     tag = f"#dars{n + 1} #{re.sub(r'\W', '', lesson['fan'])}"
     if stage == "postlar":
@@ -228,29 +258,46 @@ async def post_lesson(client: TelegramClient, channel, n: int, lesson: dict, sta
             await client.send_message(channel, text, parse_mode="html", reply_to=photo.id)
     else:
         options, correct = shuffled(item)
-        text = (f"🧩 <b>Vaziyatli masala {pos + 1}/{total}</b> | {html.escape(head)}\n\n"
-                f"{html.escape(item['vinyetka'], quote=False)}\n\n❓ <b>{html.escape(item['savol'], quote=False)}</b>\n\n"
+        if step.startswith("aralash:"):
+            title = f"🧩 <b>Vaziyatli masala {pos + 1}/{total}</b> | {n + 1}-dars: {html.escape(lesson['nomi'])}"
+        else:
+            title = f"🧩 <b>Vaziyatli masala {pos + 1}/{total}</b> | {html.escape(head)}"
+        text = (f"{title}\n\n{html.escape(item['vinyetka'], quote=False)}\n\n"
+                f"❓ <b>{html.escape(item['savol'], quote=False)}</b>\n\n"
                 f"👇 Javobni viktorinada belgilang, izoh javobdan keyin chiqadi\n\n{tag} #vaziyatli_masala{FOOTER}")
         msg = await client.send_message(channel, text, parse_mode="html")
         await client.send_file(channel, kanal.build_poll(f"🧠 {item['savol']}"[:255], options, True, correct,
                                                          item["izoh"][:200]), reply_to=msg.id)
-    state["dars"]["pos"] += 1
-    log.info("%s: %s %d/%d", head, stage, pos + 1, total)
+    log.info("%s: %s %d/%d (%s)", head, stage, pos + 1, total, step)
 
 
 async def run_once(client: TelegramClient) -> None:
     load_state()
-    slot = due_slot()
-    if not slot:
-        return
-    state["last_slot"] = slot  # avval belgilaymiz: xato bo'lsa ham shu soatda qayta-qayta urinmasin
-    item = lesson_item(json.loads(LESSONS_FILE.read_text(encoding="utf-8")), slot.split()[0])
+    now = datetime.now()
+    lessons = json.loads(LESSONS_FILE.read_text(encoding="utf-8"))
+    item = lesson_item(lessons, now)
     save_state()
-    if item:
+    if not item:
+        d = state["dars"]
+        lessons_left = step_items(lessons["darslar"], d.get("joriy")) is not None
+        if not LESSONS_ONLY and not lessons_left:  # darslar tugagan - umumiy kontent eski jadval bo'yicha
+            slot = due_slot()
+            if slot:
+                state["last_slot"] = slot
+                save_state()
+                content = json.loads(CONTENT_FILE.read_text(encoding="utf-8"))
+                await POSTERS[SLOTS[int(slot.split()[1])]](client, await client.get_entity(USERNAME), content)
+                save_state()
+        return
+    d = state["dars"]
+    d["urinish"] = d.get("urinish", 0) + 1
+    save_state()
+    try:
         await post_lesson(client, await client.get_entity(USERNAME), *item)
-    elif LESSONS_ONLY:
-        log.info("Bugungi dars bosqichi tugagan yoki yangi dars yo'q - post joylanmadi")
-    else:
-        content = json.loads(CONTENT_FILE.read_text(encoding="utf-8"))
-        await POSTERS[SLOTS[int(slot.split()[1])]](client, await client.get_entity(USERNAME), content)
+    except Exception:
+        if d["urinish"] < MAX_TRIES:
+            raise
+        log.exception("Post %s %d %d marta xato berdi - o'tkazib yuborildi", d["joriy"], d["pos"] + 1, MAX_TRIES)
+    d["pos"] += 1
+    d["urinish"] = 0
     save_state()

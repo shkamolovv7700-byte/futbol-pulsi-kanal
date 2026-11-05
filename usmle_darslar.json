@@ -1,14 +1,11 @@
 {
-  "izoh": "Har bir dars: 'postlar' (mavzu tushuntirishi: kartochka + o'zbekcha izoh) va 'savollar' (vaziyatli masalalar). Kuniga 10 slot - har ro'yxatda 10 tadan. Har kuni 'reja' dagi bitta qadam chiqadi ('3:postlar' = 3-dars mavzusi), rejadan keyin qolgan darslar odatiy tartibda: 1 kun mavzu, ertasi masalalar. 'manba' - Desktop/USMLE dagi PDF nomi. Matnlar darslikdan so'zma-so'z ko'chirilmasdan, o'z so'zlarimiz bilan yozilgan.",
+  "izoh": "Har bir dars: 'postlar' (mavzu tushuntirishi: kartochka + o'zbekcha izoh) va 'savollar' (vaziyatli masalalar). Kuniga 10 slot - har ro'yxatda 10 tadan. Har kuni 'reja' dagi bitta qadam chiqadi ('3:postlar' = 3-dars mavzusi, 'aralash:1,2,3,4' = shu darslarning barcha masalalari bir kunda aralash), rejadan keyin qolgan darslar odatiy tartibda: 1 kun mavzu, ertasi masalalar. 'manba' - Desktop/USMLE dagi PDF nomi. Matnlar darslikdan so'zma-so'z ko'chirilmasdan, o'z so'zlarimiz bilan yozilgan.",
   "reja": [
     "1:postlar",
     "2:postlar",
     "3:postlar",
     "4:postlar",
-    "1:savollar",
-    "2:savollar",
-    "3:savollar",
-    "4:savollar"
+    "aralash:1,2,3,4"
   ],
   "darslar": [
     {
