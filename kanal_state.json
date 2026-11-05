@@ -1347,12 +1347,13 @@
     },
     "401915529": {
       "goals": [
-        "111-1124.0"
+        "111-1124.0",
+        "111-2197.0"
       ],
       "ft": false,
       "score": [
         0,
-        1
+        2
       ],
       "lag": 0
     },
@@ -1371,7 +1372,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 640,
+    "last_id": 641,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2017,6 +2018,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Teun_Koopmeiners_Manchester_United_v_Atalanta_BC%2C_20_October_2021_%2812%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Ardfern",
       "license": "CC BY-SA 4.0"
+    },
+    "Randal Kolo Muani": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Randal_Kolo_Muani_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Supporterhéninois",
+      "license": "CC0"
     }
   },
   "matchday": {
