@@ -1344,6 +1344,26 @@
         2
       ],
       "lag": 0
+    },
+    "401915529": {
+      "goals": [
+        "111-1124.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
+    },
+    "401915533": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1351,7 +1371,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 638,
+    "last_id": 640,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -1992,7 +2012,12 @@
       "license": "CC BY-SA 4.0"
     },
     "Lenny Joseph": null,
-    "Lenny Joseph (footballer)": null
+    "Lenny Joseph (footballer)": null,
+    "Teun Koopmeiners": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Teun_Koopmeiners_Manchester_United_v_Atalanta_BC%2C_20_October_2021_%2812%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Ardfern",
+      "license": "CC BY-SA 4.0"
+    }
   },
   "matchday": {
     "401915312": "2026-10-21",
