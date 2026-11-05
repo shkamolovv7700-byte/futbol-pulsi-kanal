@@ -13,151 +13,311 @@
       "fan": "Anatomy",
       "postlar": [
         {
-          "sarlavha": "Vertebral column curvatures",
+          "sarlavha": "Vertebral column: normal curvatures",
           "bandlar": [
-            "Primary curves (fetal): thoracic and sacral",
-            "Secondary curves (after birth): cervical (holding head) and lumbar (walking)",
-            "Kyphosis: exaggerated thoracic curve (elderly, osteoporosis)",
-            "Lordosis: exaggerated lumbar curve (pregnancy, spondylolisthesis)",
-            "Scoliosis: lateral deviation + rotation (polio, short leg, hip disease)"
+            "Primary curves: thoracic + sacral (concave anteriorly)",
+            "Formed in the fetal period (fetal 'C' shape)",
+            "Secondary curves: cervical + lumbar (convex anteriorly)",
+            "Cervical: when the infant lifts the head; lumbar: when it walks"
           ],
-          "izoh": "Umurtqa pog'onasining egriliklari ikki xil bo'ladi.\n\n🔹 Birlamchi egriliklar (ko'krak va dumg'aza) homila davridayoq shakllanadi.\n🔹 Ikkilamchi egriliklar tug'ilgandan keyin paydo bo'ladi: bo'yin egriligi bola boshini ko'tara boshlaganda, bel egriligi esa yura boshlaganda.\n\nPatologiyalar:\n• Kifoz - ko'krak egriligining kuchayishi (keksalarda osteoporoz tufayli 'bukchayish')\n• Lordoz - bel egriligining kuchayishi (homiladorlik, spondilolistez, katta qorin)\n• Skolioz - umurtqaning yonga og'ishi va buralishi (poliomiyelit, oyoqlar uzunligi farqi, son bo'g'imi kasalliklari)",
+          "izoh": "🦴 Umurtqa pog'onasi to'g'ri ustun emas - yon tomondan qaraganda unda 4 ta egrilik bor.\n\n🔹 Birlamchi (primar) egriliklar - ko'krak va dumg'aza egriliklari. Ular homila davrida shakllanadi: homila bachadonda bukchaygan holatda yotadi va butun umurtqa pog'onasi bitta 'C' harfiga o'xshaydi. Bu egriliklar oldinga botiq.\n\n🔹 Ikkilamchi (sekundar) egriliklar - bo'yin va bel egriliklari. Ular tug'ilgandan keyin, bolaning harakat rivojlanishi bilan paydo bo'ladi:\n• bo'yin egriligi - chaqaloq boshini ko'tara boshlaganda (taxminan 3 oylik);\n• bel egriligi - bola tik turib yura boshlaganda (taxminan 1 yosh).\nBu egriliklar oldinga qavariq.\n\n💡 Eslab qolish: homilada bor bo'lganlari - birlamchi (ko'krak, dumg'aza); 'bosh va oyoq' harakati bilan kelganlari - ikkilamchi (bo'yin, bel).",
           "rasm": {
             "fayl": "usmle_rasmlar/d1_01.jpg",
             "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
           }
         },
         {
-          "sarlavha": "Craniovertebral joints: YES and NO",
+          "sarlavha": "Abnormal curvatures: kyphosis, lordosis, scoliosis",
           "bandlar": [
-            "Atlanto-occipital (occiput - C1): nodding YES + lateral tilt",
-            "Atlantoaxial (C1 - C2): rotation NO",
-            "Both are synovial joints with NO intervertebral disc",
-            "Alar ligaments (dens -> foramen magnum) limit excessive rotation"
+            "Kyphosis: exaggerated THORACIC curve ('hunchback')",
+            "Kyphosis causes: osteoporosis, disc degeneration in the elderly",
+            "Lordosis: exaggerated LUMBAR curve - pregnancy, spondylolisthesis, 'potbelly'",
+            "Scoliosis: lateral deviation + rotation (torsion)",
+            "Scoliosis causes: poliomyelitis, short leg, hip disease"
           ],
-          "izoh": "Boshning harakatlari ikki bo'g'imda bo'ladi - oson eslab qolish uchun 'HA' va 'YO'Q'.\n\n✅ 'HA' (bosh irg'ash) - atlanto-oksipital bo'g'imda: ensa suyagi do'mboqlari bilan atlant (C1) yuqori bo'g'im yuzalari orasida. Boshni yonga egish ham shu yerda.\n\n❌ 'YO'Q' (boshni chapga-o'ngga burish) - atlantoaksial bo'g'imda: C1 va C2 orasida. Bu yerda ikkita lateral va bitta median bo'g'im bor (C1 old ravog'i bilan C2 tishi - dens orasida).\n\nIkkala bo'g'im ham sinovial, ularda umurtqalararo disk YO'Q. Ortiqcha burilishni alar boylamlar cheklaydi.",
+          "izoh": "Egriliklar me'yordan kuchayib ketsa yoki yonga og'sa - patologiya.\n\n🔸 Kifoz - ko'krak egriligining haddan tashqari kuchayishi ('bukrilik'). Ko'pincha keksalarda: osteoporoz tufayli umurtqa tanalari ponasimon ezilib qoladi yoki disklar degeneratsiyaga uchraydi.\n\n🔸 Lordoz - bel egriligining kuchayishi. Sabablari: homiladorlik (og'irlik markazi oldinga suriladi), spondilolistez (umurtqa oldinga sirpanadi) va katta qorin ('potbelly').\n\n🔸 Skolioz - murakkab deformatsiya: umurtqa pog'onasi yonga og'adi va bir vaqtning o'zida o'z o'qi atrofida buraladi (torsiya). Sabablari: poliomiyelit (bir tomon mushaklari falaji), oyoqlar uzunligidagi farq, son bo'g'imi kasalliklari.\n\n💡 USMLE: kifoz - ko'krak, lordoz - bel; skolioz - yonga og'ish + rotatsiya. Rasmda pastki ko'krak va yuqori bel umurtqalari yon tomondan ko'rinadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_n08.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie I (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Atlanto-occipital joint: the YES joint",
+          "bandlar": [
+            "Occipital condyles + superior articular facets of atlas (C1)",
+            "Movements: nodding 'YES' and lateral tilting of the head",
+            "Synovial joint - NO intervertebral disc",
+            "Limited by anterior and posterior atlanto-occipital membranes"
+          ],
+          "izoh": "✅ Atlanto-oksipital bo'g'im - 'HA' bo'g'imi.\n\nTuzilishi: ensa suyagining ikkita do'mbog'i (condyli occipitales) atlant (C1) ning yuqori bo'g'im yuzalariga tayanadi.\n\nHarakatlar:\n• boshni oldinga-orqaga irg'itish - 'ha' ishorasi;\n• boshni yonga egish.\n\nBu bo'g'im sinovial bo'g'im bo'lib, unda umurtqalararo disk YO'Q - C1 umurtqa tanasiz, ensa suyagi bilan atlant orasida disk bo'lmaydi.\n\nOrtiqcha harakatni oldingi va orqa atlanto-oksipital membranalar cheklaydi (rasmda membrana atlantooccipitalis posterior ko'rinib turibdi).\n\n💡 USMLE: 'HA' - atlanto-oksipital, 'YO'Q' - atlantoaksial. Ikkalasi ham disksiz sinovial bo'g'im.",
           "rasm": {
             "fayl": "usmle_rasmlar/d1_02.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie I (1921), public domain"
           }
         },
         {
-          "sarlavha": "Atlantoaxial subluxation",
+          "sarlavha": "Atlantoaxial joint: the NO joint",
           "bandlar": [
-            "Cause: rupture of transverse ligament of atlas",
-            "Trauma (Jefferson fracture) or rheumatoid arthritis",
-            "Mobile dens compresses cervical cord or medulla",
-            "Dens held by: cruciate ligament, alar ligaments, tectorial membrane",
-            "Wide atlantodental interval = transverse ligament tear"
+            "Between atlas (C1) and axis (C2)",
+            "2 lateral joints: inferior facets of C1 + superior facets of C2",
+            "1 median joint: anterior arch of C1 + dens of C2",
+            "Movement: rotation of the head - 'NO'",
+            "Synovial, no disc; alar ligaments limit excess rotation"
           ],
-          "izoh": "C2 tishi (dens) o'z joyida atlantning ko'ndalang boylami bilan ushlab turiladi. Bu boylam yirtilsa - atlantoaksial chiqish (subluksatsiya) yuzaga keladi.\n\nSabablari: shikast (masalan, Jefferson sinishi) yoki revmatoid artrit.\n\n⚠️ Xavfi: harakatchan bo'lib qolgan dens bo'yin orqa miyasini (tetraplegiya) yoki uzunchoq miyani (nafas markazi - to'satdan o'lim) ezishi mumkin.\n\nDensni ushlab turuvchi tuzilmalar:\n• ko'ndalang boylam (yuqori va pastki bo'ylama tutamlar bilan birga - xochsimon boylam)\n• alar boylamlar\n• tektorial parda (orqa bo'ylama boylamning davomi)\n\n💡 USMLE: revmatoid artritli bemorni intubatsiya qilishdan oldin bo'yin holatiga e'tibor!",
-          "rasm": {
-            "fayl": "usmle_rasmlar/d1_03.jpg",
-            "manba": "Rasm: Spalteholz, Handatlas der Anatomie I (1921), public domain"
-          }
-        },
-        {
-          "sarlavha": "Spondylolysis vs spondylolisthesis",
-          "bandlar": [
-            "Spondylolysis: stress fracture of pars interarticularis",
-            "Adolescent athletes, usually L4-L5; 'collar on Scottie dog' on oblique X-ray",
-            "Spondylolisthesis: vertebral body slips ANTERIORLY on the one below",
-            "Degenerative: L4-L5; congenital: L5-S1",
-            "May follow spondylolysis; causes lordosis"
-          ],
-          "izoh": "Ikki o'xshash nomli, lekin farqli holat:\n\n🔹 Spondiloliz - pars interarticularis'ning (ravoqning oyoqcha va plastinka orasidagi qismi) charchoq sinishi. Ko'pincha o'smir sportchilarda (gimnastika, futbol), L4 yoki L5 da. Qiyshiq rentgenogrammada 'skotch-terer itining bo'ynidagi bo'yinbog'' belgisi ko'rinadi.\n\n🔹 Spondilolistez (yunoncha 'umurtqaning sirpanishi') - umurtqa tanasining pastdagi umurtqaga nisbatan OLDINGA siljishi. Lordozni kuchaytiradi.\n• Degenerativ shakli - odatda L4-L5\n• Tug'ma shakli - odatda L5-S1\n• Ko'pincha spondilolizning asorati bo'ladi.",
-          "rasm": {
-            "fayl": "usmle_rasmlar/d1_04.jpg",
-            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
-          }
-        },
-        {
-          "sarlavha": "Spine fractures by mechanism",
-          "bandlar": [
-            "Jefferson: axial compression of head -> C1 burst at multiple sites",
-            "Jefferson: C1 lateral masses displaced beyond C2 + transverse ligament tear",
-            "Whiplash (hyperextension): neck muscle strain; severe -> anterior longitudinal ligament tear",
-            "Chance (seat belt, hyperflexion): L2-L3 transverse fracture through body and arch",
-            "Chance: posterior ligaments torn, intra-abdominal injuries common"
-          ],
-          "izoh": "USMLE da sinish turi mexanizmdan topiladi:\n\n💥 Jefferson sinishi - boshga yuqoridan kuch (masalan, sayoz suvga sho'ng'ish). C1 bir necha joydan sinadi, yon massalari C2 chegarasidan tashqariga chiqadi, ko'ndalang boylam yirtiladi.\n\n🚗 Giperekstenziya (whiplash) - mashinaga orqadan urilganda. Ko'pincha bo'yin mushaklari cho'ziladi xolos; og'irrog'ida old bo'ylama boylam va disk old qismi yirtilib, rentgenda (masalan, C5-C6) disk oralig'i oldinda kengayadi.\n\n🔒 Chance sinishi - 'xavfsizlik kamari jarohati', keskin bukilish. Odatda L2-L3: umurtqa tanasi va ravog'i ko'ndalang sinadi, disk, orqa bo'ylama, sariq, qirralararo va qirra usti boylamlar yirtiladi. Orqa miya odatda zararlanmaydi, lekin qorin ichi a'zolari jarohati ko'p uchraydi!",
+          "izoh": "❌ Atlantoaksial bo'g'im - 'YO'Q' bo'g'imi.\n\nU atlant (C1) va o'q umurtqasi - aksis (C2, eski lotincha nomi epistropheus) orasida. Aslida bu 3 ta bo'g'im:\n• 2 ta lateral bo'g'im - C1 ning pastki va C2 ning yuqori bo'g'im yuzalari orasida;\n• 1 ta median bo'g'im - C1 ning oldingi ravog'i va C2 tishi (dens) orasida. Dens orqadan atlantning ko'ndalang boylami bilan ushlab turiladi (rasmda ligamentum transversum atlantis).\n\nHarakat: boshni chapga-o'ngga burish - 'yo'q' ishorasi. Atlant boshni ko'tarib, dens atrofida aylanadi.\n\nBu bo'g'im ham sinovial, disk yo'q. Ortiqcha burilishni alar boylamlar cheklaydi: ular dens yon tomonlaridan katta ensa teshigining lateral chetlariga boradi.\n\n💡 Bo'yin burilishining taxminan yarmi aynan shu bo'g'imda bo'ladi.",
           "rasm": {
             "fayl": "usmle_rasmlar/d1_05.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie I (1921), public domain"
           }
         },
         {
-          "sarlavha": "Intervertebral disc and herniation",
+          "sarlavha": "Atlantoaxial subluxation",
           "bandlar": [
-            "Discs = ~25% of vertebral column length (cartilaginous joints)",
-            "Anulus fibrosus (outer fibrocartilage) + nucleus pulposus (notochord remnant)",
-            "Herniation: posterolateral (PLL is strong in midline)",
-            "Most common: L4/L5, L5/S1 and C5/C6, C6/C7",
-            "Compresses the root ONE number below: L4 disc -> L5 root"
+            "Cause: rupture of the transverse ligament of the atlas",
+            "Due to trauma (Jefferson fracture) or rheumatoid arthritis",
+            "Dens becomes mobile inside the vertebral canal",
+            "Risk: cervical cord -> quadriplegia; medulla -> respiratory arrest, sudden death"
           ],
-          "izoh": "Umurtqalararo disk umurtqa pog'onasi uzunligining chorak qismini tashkil qiladi. Disk o'zidan yuqoridagi umurtqa nomi bilan ataladi.\n\nTuzilishi:\n• Fibroz halqa - tashqi tolali-tog'ay halqalar\n• Pulpoz yadro - ichki yumshoq, elastik 'amortizator'. Bu xordaning tug'ilgandan keyingi qoldig'i (USMLE da tez-tez so'raladi!)\n\nDisk churrasi: pulpoz yadro fibroz halqani yorib chiqadi. Odatda orqa-yon tomonga, chunki o'rtada orqa bo'ylama boylam mustahkam.\n\n📍 Ko'p uchraydigan sathlar: L4/L5, L5/S1 va C5/C6, C6/C7.\n\n⚡️ Asosiy qoida: churra o'zidan BITTA PASTDAGI ildizni ezadi. L4 disk -> L5 ildiz, C7 disk -> C8 ildiz. Natijada nerv bo'ylab og'riq (masalan, ishias).",
+          "izoh": "⚠️ Atlantoaksial chiqish (subluksatsiya) - atlant ko'ndalang boylamining yirtilishi.\n\nSabablari:\n• shikast - masalan, Jefferson sinishi;\n• revmatoid artrit - surunkali sinovit boylamni yemiradi va bo'shashtiradi.\n\nNima bo'ladi: boylam densni ushlab turmay qo'yadi va dens umurtqa kanali ichida harakatchan bo'lib qoladi. Rasmda (median kesim) dens orqasida orqa miya va uzunchoq miya qanchalik yaqin joylashgani ko'rinib turibdi.\n\nXavfi:\n• bo'yin orqa miyasi eziladi -> tetraplegiya (to'rt a'zo falaji);\n• uzunchoq miya eziladi -> nafas markazi falaji va to'satdan o'lim.\n\n💡 USMLE: revmatoid artritli bemorga umumiy narkoz va intubatsiyadan oldin bo'yin bukilgan va yozilgan holatdagi rentgenogramma qilinadi - boshni orqaga keskin tashlash xavfli bo'lishi mumkin.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_03.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie I (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "What holds the dens in place",
+          "bandlar": [
+            "Transverse ligament of atlas + superior and inferior longitudinal bands = cruciate ligament",
+            "Alar ligaments: dens -> margins of foramen magnum",
+            "Tectorial membrane = upward continuation of posterior longitudinal ligament",
+            "Wide atlantodental interval (C1 anterior arch to dens) = transverse ligament tear"
+          ],
+          "izoh": "🔒 Densni joyida ushlab turuvchi tuzilmalar:\n\n1️⃣ Xochsimon boylam (lig. cruciforme atlantis) - u uch qismdan iborat:\n• ko'ndalang boylam (lig. transversum atlantis) - eng muhimi, densni atlantning oldingi ravog'iga bosib turadi;\n• yuqori bo'ylama tutam - ensa suyagiga;\n• pastki bo'ylama tutam - C2 tanasiga.\n\n2️⃣ Alar boylamlar (ligg. alaria) - dens uchining yon tomonlaridan katta ensa teshigi chetlariga boradi; burilishni cheklaydi.\n\n3️⃣ Tektorial parda (membrana tectoria) - orqa bo'ylama boylamning yuqoriga davomi; barcha boylamlarni orqadan qoplaydi.\n\nShuningdek dens uchi boylami (lig. apicis dentis) ham bor (rasmda ko'rsatilgan).\n\n📏 Rentgen belgisi: atlant-tish oralig'i (C1 oldingi ravog'i va dens orasidagi masofa) kengaygan bo'lsa - ko'ndalang boylam yirtilgan.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_n06.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie I (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Spondylolysis",
+          "bandlar": [
+            "Stress fracture of the pars interarticularis",
+            "Pars = part of the arch between pedicle and lamina",
+            "Adolescent athletes (gymnastics, football); usually L4 or L5",
+            "Oblique X-ray: radiolucent 'collar' on the neck of the 'Scottie dog'",
+            "Fracture margins sclerotic; may progress to spondylolisthesis"
+          ],
+          "izoh": "🔸 Spondiloliz - umurtqa ravog'ining pars interarticularis qismida charchoq (stress) sinishi.\n\nPars interarticularis nima: umurtqa ravog'ining oyoqchasi (pediculus) va plastinkasi (lamina) orasidagi tor qism, yuqori va pastki bo'g'im o'simtalari orasida joylashadi. Rasmda bel umurtqalarining bo'g'im o'simtalari (processus articularis superior et inferior) ko'rinib turibdi.\n\nKimda: o'smir sportchilarda - gimnastika, futbol, kurash, ya'ni belni qayta-qayta orqaga egish (giperekstenziya) bor sport turlari. Ko'pincha L4 yoki L5 da.\n\n🩻 Tashxis: qiyshiq (oblique) rentgenogrammada umurtqa 'skotch-teryer iti' shaklida ko'rinadi. Sinish joyi itning bo'ynidagi yorug' 'bo'yinbog'' kabi ko'rinadi, chetlari sklerozlangan.\n\n💡 Belgilari: orqaga egilganda kuchayadigan bel og'rig'i. Asorati - spondilolistez.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_04.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
+          }
+        },
+        {
+          "sarlavha": "Spondylolisthesis",
+          "bandlar": [
+            "Anterior slip of a vertebral body over the vertebra below",
+            "Greek: 'spondylo' = vertebra, 'olisthesis' = slipping down a slope",
+            "Causes: degenerated or underdeveloped pedicles, or after spondylolysis",
+            "Degenerative type: usually L4-L5; congenital type: usually L5-S1",
+            "Produces exaggerated lumbar lordosis"
+          ],
+          "izoh": "🔸 Spondilolistez (yunoncha 'spondylo' - umurtqa, 'olisthesis' - qiyalikdan sirpanish) - umurtqa tanasining pastdagi umurtqaga nisbatan OLDINGA siljishi.\n\nSabablari:\n• bel umurtqasining oyoqchalari degeneratsiyaga uchrasa yoki tug'ma kam rivojlangan bo'lsa;\n• spondilolizning asorati sifatida - pars interarticularis sinsa, umurtqa tanasi orqadagi 'tayanch'ini yo'qotadi va oldinga sirpanadi.\n\nTurlari:\n• degenerativ - odatda L4-L5 sathida (keksalarda);\n• tug'ma (displastik) - odatda L5-S1 sathida.\n\nNatija: bel lordozi kuchayadi. Yon rentgenogrammada siljigan umurtqa tanasi pastdagisidan oldinga chiqib turadi (masalan, L5 ning S1 ga nisbatan siljishi).\n\n💡 Farqi: spondiloliz - sinish (siljishsiz), spondilolistez - siljish.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_s08.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Jefferson fracture (C1 burst)",
+          "bandlar": [
+            "Mechanism: axial compression - force on top of the head (shallow dive)",
+            "C1 ring fractured at multiple sites",
+            "Lateral masses of C1 displaced beyond the margins of C2",
+            "Transverse ligament often torn -> spinal cord at risk",
+            "CT shows the ring broken in several places"
+          ],
+          "izoh": "💥 Jefferson sinishi - atlant (C1) halqasining 'portlovchi' sinishi.\n\nMexanizm: bo'yin umurtqalariga o'q bo'ylab kompressiya - kuch boshning tepasiga tushadi. Klassik misol: sayoz suvga boshi bilan sho'ng'ish yoki yuqoridan og'ir narsa tushishi.\n\nPatologiya:\n• atlant halqasi bir necha joydan sinadi (odatda oldingi va orqa ravoqlar);\n• atlantning yon massalari (massae laterales) C2 chegarasidan tashqariga, yonga suriladi;\n• atlantning ko'ndalang boylami yirtiladi.\n\nRasmda atlant yuqoridan ko'rinib turibdi: halqa shaklidagi suyak, yon massalar va dens uchun chuqurcha (fovea dentis).\n\n⚠️ Ko'ndalang boylam yirtilsa, orqa miya xavf ostida qoladi. Tashxis - KT: halqa bir necha joydan singanini ko'rsatadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_n09.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
+          }
+        },
+        {
+          "sarlavha": "Hyperextension (whiplash) injury",
+          "bandlar": [
+            "Mechanism: hyperextension of the neck (rear-end car crash, face hits dashboard)",
+            "Usually only strain of paravertebral and neck muscles",
+            "Severe: tear of anterior longitudinal ligament + anterior disc attachment",
+            "X-ray: anterior widening of the disc space (e.g., C5-C6)",
+            "Violent (football head-on): fractures of posterior cervical elements"
+          ],
+          "izoh": "🚗 Giperekstenziya ('qamchi', whiplash) jarohati - bo'yinning keskin orqaga qayrilishi.\n\nMexanizm:\n• avtomobilga orqadan urilish - tana oldinga, bosh orqaga 'tashlanadi';\n• avariyada iyak yoki peshona torpedoga urilishi;\n• amerika futbolida boshma-bosh to'qnashuv.\n\nOg'irlik darajasi:\n• odatda faqat umurtqa yonidagi va bo'yin mushaklarining cho'zilishi;\n• og'irroq holatda - old bo'ylama boylam va diskning old birikmasi yirtiladi, umurtqalararo oraliq oldinda kengayadi (rentgenda, masalan, C5-C6 da). Sinish va chiqishlar kam uchraydi;\n• juda kuchli zarbada - bo'yin umurtqalarining orqa qismlari sinishi mumkin.\n\nRasmda bo'yin umurtqa pog'onasi va uning boylamlari yon tomondan ko'rinib turibdi.\n\n💡 Esda tuting: giperekstenziya -> OLDINGI tuzilmalar cho'ziladi va yirtiladi (old bo'ylama boylam).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_n10.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie I (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Chance fracture (seat-belt injury)",
+          "bandlar": [
+            "Mechanism: hyperflexion over a lap seat belt in sudden deceleration",
+            "Usually L2 or L3",
+            "Transverse fracture through vertebral body AND arch; disc ruptured",
+            "Torn: posterior longitudinal lig., lig. flavum, interspinous + supraspinous ligs",
+            "Spinal cord usually spared; intra-abdominal injuries common"
+          ],
+          "izoh": "🔒 Chance sinishi - 'xavfsizlik kamari jarohati'.\n\nMexanizm: avtomobil keskin to'xtaganda yo'lovchi faqat bel kamari bilan bog'langan bo'lsa, tana kamar ustida oldinga keskin bukiladi (giperfleksiya). Kamar 'o'q' vazifasini bajaradi va umurtqa orqadan oldinga qarab cho'ziladi.\n\nSathi: ko'pincha L2 yoki L3.\n\nPatologiya:\n• umurtqa tanasi va ravog'i orqali ko'ndalang sinish;\n• umurtqalararo disk yoriladi;\n• orqa boylamlar yirtiladi: orqa bo'ylama boylam, sariq boylam (rasmda ligamentum flavum), qirralararo va qirra usti boylamlar.\n\nRentgen: umurtqa tanasi ezilgan, qirrali o'simtalar orasidagi masofa kattalashgan.\n\n⚠️ Orqa miya odatda zararlanmaydi, lekin qorin ichi a'zolari (ichak, tutqich) jarohati ko'p uchraydi - shuning uchun qorin KT si shart!",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_n15.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie I (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Intervertebral disc: structure",
+          "bandlar": [
+            "Discs = about 25% of the length of the vertebral column",
+            "Cartilaginous joints (symphyses) between vertebral bodies",
+            "Each disc numbered by the vertebra ABOVE it",
+            "Anulus fibrosus: outer rings of fibrocartilage",
+            "Nucleus pulposus: inner shock absorber = postnatal remnant of the notochord"
+          ],
+          "izoh": "💿 Umurtqalararo disk (eski lotincha nomi fibrocartilago intervertebralis).\n\n• Disklar umurtqa pog'onasi umumiy uzunligining taxminan 25 foizini tashkil qiladi.\n• Ular umurtqa tanalari orasidagi tog'ayli bo'g'imlar bo'lib, umurtqalar orasida cheklangan harakatni ta'minlaydi.\n• Har bir disk o'zidan YUQORIDAGI umurtqa nomi bilan ataladi (L4 disk - L4 va L5 orasida).\n\nTuzilishi (rasmdagi median kesimda ikkalasi ham ko'rinadi):\n🔹 Fibroz halqa (anulus fibrosus) - tashqi, konsentrik joylashgan tolali tog'ay va biriktiruvchi to'qima halqalari. Qo'shni umurtqa tanalarini bog'laydi.\n🔹 Pulpoz yadro (nucleus pulposus) - ichki, yumshoq, elastik, siqiluvchan modda. Tashqi kuchlarga qarshi amortizator vazifasini bajaradi.\n\n💡 USMLE sevimli savoli: pulpoz yadro - XORDANING (notochord) tug'ilgandan keyingi qoldig'i.",
           "rasm": {
             "fayl": "usmle_rasmlar/d1_06.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie I (1921), public domain"
           }
         },
         {
-          "sarlavha": "Lumbar puncture",
+          "sarlavha": "Herniated disc",
           "bandlar": [
-            "Adult spinal cord ends at L1-L2; subarachnoid space (CSF) to S2",
-            "Puncture at L3-L4 or L4-L5 (cauda equina level)",
-            "Layers: skin -> fat -> supraspinous -> interspinous -> ligamentum flavum",
-            "Epidural space: epidural anesthesia stops here",
-            "Then dura + arachnoid -> subarachnoid space (CSF)"
+            "Nucleus pulposus herniates through the anulus fibrosus",
+            "Usually POSTEROLATERAL: posterior longitudinal ligament is strong in the midline",
+            "Common levels: L4/L5, L5/S1 (lumbar); C5/C6, C6/C7 (cervical)",
+            "Compresses the root ONE number below: L4 disc -> L5 root; C7 disc -> C8 root",
+            "Pain along the nerve, e.g. sciatica"
           ],
-          "izoh": "Kattalarda orqa miya L1-L2 sathida tugaydi, lekin subaraxnoidal bo'shliq (likvor bilan) S2 gacha davom etadi. Shuning uchun lyumbal punksiya L3-L4 yoki L4-L5 oralig'ida qilinadi - bu yerda faqat ot dumi (cauda equina) ildizlari bor, ular igna oldidan 'qochadi'.\n\n💉 Igna o'tadigan qavatlar ketma-ketligi:\n1. Teri\n2. Fassiya va yog' qavati\n3. Qirra usti boylami\n4. Qirralararo boylam\n5. Sariq boylam (ligamentum flavum) - oxirgi 'qarshilik'\n6. Epidural bo'shliq - epidural anesteziyada igna shu yerda to'xtaydi\n7. Qattiq va o'rgimchaksimon pardalar\n8. Subaraxnoidal bo'shliq - likvor shu yerdan olinadi",
+          "izoh": "⚡️ Disk churrasi - pulpoz yadro fibroz halqani yorib chiqadi.\n\nYo'nalishi: ko'pincha ORQA-YON (posterolateral) tomonga. Sababi - orqa bo'ylama boylam o'rta chiziqda mustahkam va keng, yon tomonlarda esa ingichka.\n\nKo'p uchraydigan sathlar:\n• bel - L4/L5 va L5/S1;\n• bo'yin - C5/C6 va C6/C7.\n\n📍 Asosiy qoida: churra o'zidan BITTA PASTDAGI orqa miya nervi ildizini ezadi.\n• L4 disk churrasi -> L5 ildiz;\n• L5 disk churrasi -> S1 ildiz;\n• C7 disk churrasi -> C8 ildiz.\n\nNatija: shu nerv bo'ylab tarqaluvchi og'riq (masalan, oyoqqa tushadigan ishias), sezgi buzilishi, mushak kuchsizligi va reflekslar pasayishi.\n\n💡 Klinikada: L5 - bosh barmoqni ko'tara olmaslik, oyoq orqasida uvishish; S1 - Axill refleksi pasayishi, tovonda yurish emas, oyoq uchida yurish qiyin.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_s13.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Spinal cord: lower end",
+          "bandlar": [
+            "Adult spinal cord ends at lower border of L1-L2 (conus medullaris)",
+            "Subarachnoid space (CSF) continues to lower border of S2",
+            "Below the cord: cauda equina (nerve roots) floating in CSF",
+            "Lumbar puncture at L3-L4 or L4-L5 avoids the cord"
+          ],
+          "izoh": "🧠 Orqa miya qayerda tugaydi?\n\n• Kattalarda orqa miya L1-L2 umurtqalarining pastki chegarasida tugaydi. Uning konussimon uchi - conus medullaris (rasmda 'Ende des conus medullaris').\n• Subaraxnoidal bo'shliq (likvor bilan to'la) esa ancha pastgacha - S2 umurtqasining pastki chegarasigacha davom etadi (dura mater qopi).\n• Konusdan pastda umurtqa kanalida faqat nerv ildizlari - ot dumi (cauda equina) bor. Ular likvorda erkin suzib yuradi.\n\n💉 Shuning uchun lyumbal punksiya L3-L4 yoki L4-L5 oralig'ida qilinadi:\n• bu sathda orqa miya yo'q - uni shikastlash xavfi yo'q;\n• igna ildizlarga tegsa, ular siljib ketadi.\n\n💡 Eslab qolish: 'orqa miyani tirik saqlash uchun ignani L3 va L5 orasida tuting'. Chaqaloqlarda orqa miya pastroq (L3 gacha) tugaydi.",
           "rasm": {
             "fayl": "usmle_rasmlar/d1_07.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
           }
         },
         {
-          "sarlavha": "Spinal nerve anatomy",
+          "sarlavha": "Lumbar puncture: layers pierced",
           "bandlar": [
-            "Dorsal root: sensory; DRG holds pseudounipolar cell bodies",
-            "Ventral root: motor axons from ventral/lateral horn",
-            "Dorsal rami: skin of back + deep (intrinsic) back muscles",
-            "Ventral rami: anterolateral trunk + limbs; form plexuses",
-            "31 pairs: 8C, 12T, 5L, 5S, 1Co; C1-C7 exit ABOVE, C8 and below exit BELOW their vertebra"
+            "Skin -> fascia and fat -> supraspinous ligament",
+            "Interspinous ligament -> ligamentum flavum",
+            "Epidural space: epidural anesthesia needle stops here",
+            "Dura mater + arachnoid mater",
+            "Subarachnoid space: CSF is collected here"
           ],
-          "izoh": "Orqa miya nervi ikki ildizdan hosil bo'ladi:\n• Orqa ildiz - sezuvchi. Unda spinal ganglion bor, uning ichida psevdounipolyar neyronlar tanasi joylashgan.\n• Old ildiz - harakatlantiruvchi. Neyron tanalari old (va yon) shoxlarda.\n\nIkkala ildiz qo'shilib, nerv umurtqalararo teshikdan chiqadi va shoxlarga bo'linadi:\n• Orqa shoxlar - orqa terisi va orqaning chuqur (xususiy) mushaklari\n• Old shoxlar - tananing old-yon qismi va qo'l-oyoqlar; yelka va bel-dumg'aza chigallarini hosil qiladi\n\n🔢 31 juft: 8 bo'yin, 12 ko'krak, 5 bel, 5 dumg'aza, 1 dum.\n\n⚡️ Chiqish qoidasi: C1-C7 o'z umurtqasidan YUQORIDA chiqadi (C3 - C3 umurtqa ustidan). C8 - C7 va T1 orasidan. Qolganlari o'z umurtqasidan PASTDA chiqadi (L2 - L2 ostidan).",
+          "izoh": "💉 Lyumbal punksiyada igna o'tadigan qavatlar - ketma-ket:\n\n1. Teri\n2. Fassiya va yog' to'qimasi\n3. Qirra usti boylami (lig. supraspinale)\n4. Qirralararo boylam (lig. interspinale)\n5. Sariq boylam (lig. flavum) - eng zich, oxirgi 'qarshilik'\n6. Epidural bo'shliq - EPIDURAL ANESTEZIYADA IGNA SHU YERDA TO'XTAYDI (sariq boylamdan keyin 'qarshilik yo'qolishi' seziladi)\n7. Qattiq parda (dura mater) va o'rgimchaksimon parda (arachnoidea)\n8. Subaraxnoidal bo'shliq - LIKVOR SHU YERDAN OLINADI\n\n💡 USMLE savollari ko'pincha: 'epidural bo'shliqqa kirishdan oldingi oxirgi boylam qaysi?' -> sariq boylam. 'Likvor qaysi bo'shliqdan olinadi?' -> subaraxnoidal.\n\n12-postdagi (disk) atlas rasmida bu boylamlarning haqiqiy ko'rinishi bor.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_s15.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Spinal nerve: roots and rami",
+          "bandlar": [
+            "Dorsal root: sensory; dorsal root ganglion = pseudounipolar cell bodies",
+            "Ventral root: motor axons; cell bodies in ventral (and lateral) horn",
+            "Spinal nerve = dorsal + ventral roots; exits via intervertebral foramen",
+            "Dorsal rami: skin of back, neck, facet joints, deep (intrinsic) back muscles",
+            "Ventral rami: anterolateral trunk + limbs; form brachial and lumbosacral plexuses"
+          ],
+          "izoh": "🌿 Orqa miya nervi qanday hosil bo'ladi?\n\n🔹 Orqa ildiz (radix posterior) - SEZUVCHI tolalar. Periferiyadan orqa miyaning orqa tomoniga kiradi. Unda spinal ganglion (ganglion spinale) bor - u yerda psevdounipolyar neyronlar tanasi joylashgan.\n\n🔹 Old ildiz (radix anterior) - HARAKATLANTIRUVCHI tolalar. Neyronlar tanasi orqa miya kulrang moddasining old (va yon) shoxlarida.\n\n🔹 Ikkala ildiz qo'shilib orqa miya nervini hosil qiladi; u umurtqalararo teshik orqali chiqadi va ikki shoxga bo'linadi:\n• Orqa shox (ramus posterior) - orqa va bo'yin terisi, bo'g'im o'simtalari bo'g'imlari va orqaning chuqur (xususiy) mushaklari;\n• Old shox (ramus anterior) - tananing old-yon devori terisi va mushaklari, qo'l-oyoqlar. Old shoxlar yelka va bel-dumg'aza chigallarini hosil qiladi.\n\n💡 Ildizlar - faqat sezuvchi yoki faqat harakat; nerv va shoxlar - aralash.",
           "rasm": {
             "fayl": "usmle_rasmlar/d1_08.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
           }
         },
         {
-          "sarlavha": "Autonomic NS: sympathetic outflow",
+          "sarlavha": "31 pairs of spinal nerves and their exit",
           "bandlar": [
-            "ANS: smooth muscle, cardiac muscle, glands; 2 neurons (pre + post)",
-            "Sympathetic = thoracolumbar: lateral horn T1-L2",
-            "Chain (paravertebral) ganglia: body wall, limbs, head (T1-2), thoracic viscera (T1-5)",
-            "Thoracic splanchnics T5-T12 -> celiac, aorticorenal, SMG: foregut + midgut",
-            "Lumbar splanchnics L1-L2 -> IMG, pelvic ganglia: hindgut + pelvis"
+            "31 pairs: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal",
+            "C1-C7 exit ABOVE their vertebra (C3 above C3)",
+            "C8 exits between C7 and T1 (there is no C8 vertebra)",
+            "All others exit BELOW their vertebra (L2 below L2)"
           ],
-          "izoh": "Vegetativ nerv tizimi silliq mushak, yurak mushagi va bezlarni boshqaradi. Har doim 2 neyron: preganglionar (tanasi MNS da) va postganglionar (tanasi periferik gangliyda).\n\n🔴 Simpatik tizim = torakolumbal. Preganglionar neyronlar T1-L2 segmentlari yon shoxida (14 segment).\n\nSinaps joylari:\n• Simpatik zanjir (paravertebral) gangliylari -> tana devori, qo'l-oyoqlar, bosh (T1-2) va ko'krak a'zolari (T1-5)\n• Ko'krak splanxnik nervlari (T5-T12) -> prevertebral gangliylar (seliak, aortorenal, yuqori tutqich) -> oldingi va o'rta ichak\n• Bel splanxnik nervlari (L1-L2) -> pastki tutqich va tos gangliylari -> orqa ichak va tos a'zolari\n\n💡 Istisnolar: buyrak usti bezi mag'iz qismiga preganglionar tolalar BEVOSITA keladi; ter bezlari simpatik, lekin xolinergik (atsetilxolin) tolalar bilan innervatsiya qilinadi.",
+          "izoh": "🔢 Orqa miya nervlari - 31 juft:\n• 8 bo'yin (C1-C8)\n• 12 ko'krak (T1-T12)\n• 5 bel (L1-L5)\n• 5 dumg'aza (S1-S5)\n• 1 dum (Co1)\n\nE'tibor bering: bo'yin umurtqasi 7 ta, lekin bo'yin nervi 8 ta!\n\n📍 Chiqish qoidasi:\n• C1-C7 nervlari o'z umurtqasidan YUQORIDA chiqadi (masalan, C3 nervi C3 umurtqasining ustidan).\n• C8 nervi C7 va T1 umurtqalari orasidan chiqadi.\n• Qolgan barcha nervlar o'z umurtqasidan PASTDA chiqadi (masalan, L2 nervi L2 umurtqasi ostidan).\n\nRasmda orqa miya va undan chiqayotgan nervlar raqamlari bilan ko'rsatilgan (N. cervicalis I, N. thoracalis I, N. lumbalis I, N. sacralis I).\n\n💡 Bu qoida disk churrasi va radikulopatiya savollarini yechishda kerak bo'ladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_n17.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Autonomic nervous system: overview",
+          "bandlar": [
+            "Motor to smooth muscle, cardiac muscle and glands",
+            "Sympathetic + parasympathetic; always 2 neurons",
+            "Preganglionic: cell body in CNS; postganglionic: cell body in a ganglion (PNS)",
+            "Adrenal medulla: innervated directly by PREganglionic sympathetic fibers",
+            "Sweat glands: sympathetic but CHOLINERGIC (muscarinic)"
+          ],
+          "izoh": "⚙️ Vegetativ (avtonom) nerv tizimi silliq mushaklar, yurak mushagi va bezlarni harakatlantiruvchi innervatsiya bilan ta'minlaydi. U ikki qismga bo'linadi: simpatik va parasimpatik.\n\n🔹 Ikkala tizimda ham periferiyada 2 ta neyron bor:\n• preganglionar neyron - tanasi markaziy nerv tizimida (orqa miya yoki miya ustuni);\n• postganglionar neyron - tanasi periferik gangliyda.\nRasmdagi ko'krak kesimida orqa miya nervi, unga simpatik stvol gangliyidan keluvchi ramus communicans va simpatik stvol gangliyi ko'rinadi.\n\n💡 USMLE istisnolari:\n• Buyrak usti bezi mag'iz qismi - simpatik PREganglionar tolalar bilan to'g'ridan-to'g'ri innervatsiya qilinadi (uning hujayralari o'zgargan postganglionar neyronlar).\n• Ter bezlari - simpatik tizimga tegishli, lekin postganglionar tolalari atsetilxolin ajratadi (xolinergik, muskarin retseptorlari).\n• Tos splanxnik nervlari va III, VII, IX, X bosh miya nervlari - parasimpatik.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_n18.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Sympathetic NS: thoracolumbar outflow",
+          "bandlar": [
+            "Preganglionic neurons: lateral horn of T1-L2 (14 segments)",
+            "Chain (paravertebral) ganglia -> body wall, limbs, head (T1-2), thoracic viscera (T1-5)",
+            "Thoracic splanchnics (T5-T12) -> celiac, aorticorenal, superior mesenteric ganglia: foregut + midgut",
+            "Lumbar splanchnics (L1-L2) -> inferior mesenteric + pelvic ganglia: hindgut + pelvic viscera",
+            "Prevertebral (collateral) ganglia exist only in abdomen and pelvis"
+          ],
+          "izoh": "🔴 Simpatik tizim = TORAKOLUMBAL.\n\nPreganglionar neyronlar tanasi orqa miyaning T1-L2 segmentlari (14 segment) kulrang moddasining YON shoxida.\n\nPostganglionar neyronlar 2 xil gangliyda:\n1️⃣ Simpatik zanjir (paravertebral) gangliylari - umurtqa pog'onasi yonida. Ular orqali:\n• tana devori va qo'l-oyoqlarning silliq mushaklari, bezlari (T1-L2);\n• bosh (T1-2);\n• ko'krak a'zolari (T1-5).\n\n2️⃣ Prevertebral (kollateral) gangliylar - faqat qorin va tosda:\n• Ko'krak splanxnik nervlari (T5-T12) -> seliak, aortorenal, yuqori tutqich gangliylari -> oldingi va o'rta ichak silliq mushaklari va bezlari;\n• Bel splanxnik nervlari (L1-L2) -> pastki tutqich va tos gangliylari -> orqa ichak va tos a'zolari.\n\nRasmda o'ng simpatik stvol, ko'krak gangliylari va katta-kichik splanxnik nervlar (N. splanchnicus major et minor) ko'rinadi.\n\n💡 Splanxnik nervlar - PREganglionar tolalar, ular zanjirda sinaps qilmasdan o'tib ketadi.",
           "rasm": {
             "fayl": "usmle_rasmlar/d1_09.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
           }
         },
         {
-          "sarlavha": "Horner syndrome and parasympathetic outflow",
+          "sarlavha": "Horner syndrome",
           "bandlar": [
-            "Horner: Ptosis + Anhidrosis + Miosis ('PAM is Horny')",
-            "1st neuron: lateral medullary syndrome, pontine bleed, cord lesion above T1",
-            "2nd neuron: stellate ganglion compression by Pancoast tumor",
-            "3rd neuron: carotid dissection (painful), sweating usually spared",
-            "Parasympathetic = craniosacral: CN III, VII, IX, X + S2-S4 (pelvic splanchnics)"
+            "Loss of sympathetic supply to one side of the face",
+            "Ptosis (superior tarsal muscle), Miosis, Anhidrosis + no facial flushing",
+            "1st neuron: lateral medullary syndrome, pontine hemorrhage, cord lesion above T1",
+            "2nd neuron: stellate ganglion compressed by Pancoast tumor",
+            "3rd neuron: carotid dissection (painful); anhidrosis usually absent"
           ],
-          "izoh": "👁 Horner sindromi - yuzning bir tomonida simpatik innervatsiya yo'qolishi:\n• Ptoz (yuqori tarsal mushak falaji - qovoq biroz tushadi)\n• Mioz (qorachiq torayishi)\n• Angidroz (terlash va qizarishning yo'qligi)\nEslab qolish: 'PAM is Horny'.\n\nZararlanish sathi bo'yicha:\n1️⃣ 1-neyron: uzunchoq miya lateral sindromi, Varoliy ko'prigiga qon quyilish, T1 dan yuqori orqa miya zararlanishi\n2️⃣ 2-neyron: yulduzsimon gangliyni Pankost o'smasi ezishi\n3️⃣ 3-neyron: uyqu arteriyasi disseksiyasi (og'riqli), angidroz odatda bo'lmaydi\n\n🟢 Parasimpatik tizim = kraniosakral: III, VII, IX, X bosh miya nervlari va S2-S4 (tos splanxnik nervlari). Postganglionar neyronlar a'zo yonida yoki devorida. X nerv bo'yin, ko'krak, oldingi va o'rta ichakni; tos splanxniklari orqa ichak, qovuq va jinsiy a'zolarni innervatsiya qiladi.",
+          "izoh": "👁 Horner sindromi - yuzning bir tomonida simpatik innervatsiyaning yo'qolishi.\n\nUchlik belgilar:\n• Ptoz - yuqori qovoq biroz tushadi (yuqori tarsal mushak - Myuller mushagi falaji);\n• Mioz - qorachiq torayadi;\n• Angidroz - shu tomonda terlash va yuzning qizarishi bo'lmaydi.\n🧠 Eslab qolish: 'PAM is Horny' - Ptosis, Anhidrosis, Miosis.\n\nSimpatik yo'l 3 neyrondan iborat. Zararlanish joyi bo'yicha:\n1️⃣ 1-neyron (gipotalamusdan T1 gacha): uzunchoq miya lateral sindromi (Wallenberg), Varoliy ko'prigiga qon quyilish, T1 dan yuqori orqa miya zararlanishi (Braun-Sekar sindromi, kech siringomiyeliya).\n2️⃣ 2-neyron (preganglionar, T1 dan yuqori bo'yin gangliyigacha): yulduzsimon gangliyni o'pka cho'qqisidagi Pankost o'smasi ezishi.\n3️⃣ 3-neyron (postganglionar, ichki uyqu arteriyasi bo'ylab): uyqu arteriyasi disseksiyasi - og'riqli; angidroz odatda bo'lmaydi, chunki yuz ter bezlari tashqi uyqu arteriyasi bo'ylab boruvchi tolalar bilan ta'minlanadi.\n\nRasmda bo'yindagi simpatik stvol va uning gangliylari ko'rinadi (ganglion cervicale superius, medium).",
           "rasm": {
             "fayl": "usmle_rasmlar/d1_10.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Parasympathetic NS: craniosacral outflow",
+          "bandlar": [
+            "Preganglionic neurons: brainstem nuclei of CN III, VII, IX, X + sacral cord S2-S4",
+            "Postganglionic neurons: terminal ganglia near or in the organ wall",
+            "CN III, VII, IX -> glands and smooth muscle of the head",
+            "CN X (vagus) -> viscera of neck, thorax, foregut and midgut",
+            "Pelvic splanchnics (S2-S4) -> hindgut and pelvic viscera (bladder, rectum, erectile tissue)"
+          ],
+          "izoh": "🟢 Parasimpatik tizim = KRANIOSAKRAL.\n\nPreganglionar neyronlar tanasi 2 joyda:\n• miya ustunidagi III, VII, IX va X bosh miya nervlari yadrolarida;\n• orqa miyaning S2, S3, S4 sakral segmentlarida (tos splanxnik nervlari).\n\nPostganglionar neyronlar - terminal gangliylarda, odatda innervatsiya qilinadigan a'zo yonida yoki uning devori ichida. Shuning uchun parasimpatik preganglionar tolalar uzun, postganglionarlari esa qisqa (simpatikda aksincha).\n\nTaqsimlanishi:\n• III, VII, IX nervlar -> boshning bezlari va silliq mushaklari (qorachiq, ko'z yosh, so'lak bezlari);\n• X nerv (adashgan nerv) -> bo'yin, ko'krak a'zolari, oldingi va o'rta ichak;\n• tos splanxnik nervlari (S2-S4) -> orqa ichak va tos a'zolari: qovuq, to'g'ri ichak, jinsiy a'zolarning g'orsimon to'qimasi (ereksiya).\n\nRasmda chap adashgan nervning ko'krak va qorin bo'shlig'idagi yo'li ko'rinadi.\n\n💡 'S2, 3, 4 keeps the penis off the floor' - ereksiya parasimpatik (S2-S4).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d1_n21.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
           }
         }
@@ -292,6 +452,97 @@
           ],
           "togri": 0,
           "izoh": "Ter bezlari simpatik tizimga tegishli, lekin postganglionar tolalari atsetilxolin ajratadi (muskarin retseptorlari). Shuning uchun antixolinergik dorilar terlashni to'xtatadi."
+        },
+        {
+          "vinyetka": "A 6-week-old infant is brought for a routine visit. The parents ask when the curvature of their baby's neck will develop. On lateral view, the infant's entire spine forms a single C-shaped curve.",
+          "savol": "Which spinal curvatures are present at birth?",
+          "javoblar": [
+            "Thoracic and sacral",
+            "Cervical and lumbar",
+            "Cervical and thoracic",
+            "Lumbar and sacral",
+            "Only the cervical"
+          ],
+          "togri": 0,
+          "izoh": "Birlamchi egriliklar (ko'krak, dumg'aza) homila davrida bor. Ikkilamchi: bo'yin - bosh ko'tarilganda, bel - yura boshlaganda paydo bo'ladi."
+        },
+        {
+          "vinyetka": "During a neurological examination, a patient is asked to nod his head 'yes' repeatedly. The movement occurs without any rotation of the head.",
+          "savol": "At which joint does this movement mainly occur?",
+          "javoblar": [
+            "Atlanto-occipital joint",
+            "Median atlantoaxial joint",
+            "Lateral atlantoaxial joints",
+            "C2-C3 zygapophyseal joints",
+            "Uncovertebral joints"
+          ],
+          "togri": 0,
+          "izoh": "'Ha' (bosh irg'ash va yonga egish) - atlanto-oksipital bo'g'imda. 'Yo'q' (burilish) - atlantoaksial bo'g'imlarda. Ikkalasida ham disk yo'q."
+        },
+        {
+          "vinyetka": "A 55-year-old woman has chronic low back pain. A lateral lumbar radiograph shows the body of L4 displaced anteriorly relative to L5 without a pars defect. She has marked degenerative changes of the facet joints.",
+          "savol": "What is the most likely diagnosis?",
+          "javoblar": [
+            "Degenerative spondylolisthesis",
+            "Spondylolysis",
+            "Chance fracture",
+            "Congenital spondylolisthesis at L5-S1",
+            "Scheuermann kyphosis"
+          ],
+          "togri": 0,
+          "izoh": "Umurtqa tanasining oldinga siljishi - spondilolistez. Degenerativ turi odatda L4-L5 da (keksalarda), tug'ma turi L5-S1 da."
+        },
+        {
+          "vinyetka": "A 3-month-old infant needs a lumbar puncture for suspected meningitis. A medical student asks why the needle is never inserted at the L1-L2 interspace in adults.",
+          "savol": "At what vertebral level does the spinal cord end in adults?",
+          "javoblar": [
+            "Lower border of L1-L2",
+            "T10",
+            "L4-L5",
+            "S2",
+            "Coccyx"
+          ],
+          "togri": 0,
+          "izoh": "Kattalarda orqa miya L1-L2 da (conus medullaris) tugaydi, dura qopi S2 gacha. Shuning uchun punksiya L3-L4 yoki L4-L5 da - u yerda faqat cauda equina."
+        },
+        {
+          "vinyetka": "A 45-year-old man has neck pain radiating to the middle finger and a diminished triceps reflex. MRI shows a posterolateral disc herniation between the C6 and C7 vertebrae.",
+          "savol": "Which spinal nerve is most likely compressed?",
+          "javoblar": [
+            "C7",
+            "C6",
+            "C8",
+            "C5",
+            "T1"
+          ],
+          "togri": 0,
+          "izoh": "C1-C7 nervlari o'z umurtqasidan yuqorida chiqadi: C6-C7 orasidan C7 chiqadi. C7 - triceps refleksi va o'rta barmoq. C8 C7 bilan T1 orasidan chiqadi."
+        },
+        {
+          "vinyetka": "A 40-year-old man with a T12 complete spinal cord transection has urinary retention and erectile dysfunction months later, despite intact sacral reflex arcs at first. A urologist discusses the nerves that normally contract the detrusor and produce erection.",
+          "savol": "Which nerves carry this parasympathetic outflow?",
+          "javoblar": [
+            "Pelvic splanchnic nerves (S2-S4)",
+            "Lumbar splanchnic nerves (L1-L2)",
+            "Greater splanchnic nerve (T5-T9)",
+            "Vagus nerve",
+            "Pudendal nerve"
+          ],
+          "togri": 0,
+          "izoh": "Tos splanxnik nervlari (S2-S4) - parasimpatik: qovuq detruzori, to'g'ri ichak va ereksiya. Vagus faqat o'rta ichakkacha boradi."
+        },
+        {
+          "vinyetka": "A 35-year-old woman has episodic headaches, palpitations and sweating. Imaging reveals an adrenal medullary tumor. A student asks how the normal adrenal medulla is innervated.",
+          "savol": "Which fibers directly innervate chromaffin cells of the adrenal medulla?",
+          "javoblar": [
+            "Preganglionic sympathetic fibers releasing acetylcholine",
+            "Postganglionic sympathetic fibers releasing norepinephrine",
+            "Parasympathetic fibers of the vagus",
+            "Pelvic splanchnic nerves",
+            "Somatic motor fibers of T10"
+          ],
+          "togri": 0,
+          "izoh": "Buyrak usti mag'iz qismiga simpatik PREganglionar tolalar bevosita keladi (atsetilxolin, N-retseptor). Xromaffin hujayralar - o'zgargan postganglionar neyronlar."
         }
       ],
       "manba": "1-lesson._Back_autonomic_nervous_sytem.pdf"
