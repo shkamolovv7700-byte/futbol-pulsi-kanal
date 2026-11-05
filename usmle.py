@@ -264,16 +264,28 @@ async def post_lesson(client: TelegramClient, channel, step: str, pos: int, tota
             first = sent[0] if isinstance(sent, list) else sent
             await client.send_message(channel, text, parse_mode="html", reply_to=first.id)
     else:
-        options, correct = shuffled(item)
+        uz = item.get("javoblar_uz") or []
+        # variant: "inglizcha (o'zbekcha)"; Telegram cheklovi 100 belgi - oshsa faqat inglizcha qoladi
+        both = [f"{en} ({u})" if u and len(f"{en} ({u})") <= 100 else en
+                for en, u in zip(item["javoblar"], uz + [""] * len(item["javoblar"]))]
+        options, correct = shuffled({**item, "javoblar": both})
         if step.startswith("aralash:"):
             title = f"🧩 <b>Vaziyatli masala {pos + 1}/{total}</b> | {n + 1}-dars: {html.escape(lesson['nomi'])}"
         else:
             title = f"🧩 <b>Vaziyatli masala {pos + 1}/{total}</b> | {html.escape(head)}"
-        text = (f"{title}\n\n{html.escape(item['vinyetka'], quote=False)}\n\n"
-                f"❓ <b>{html.escape(item['savol'], quote=False)}</b>\n\n"
+        uz_text = ""
+        if item.get("vinyetka_uz"):
+            uz_text = (f"🇺🇿 <i>{html.escape(item['vinyetka_uz'], quote=False)}</i>\n\n")
+        question = f"❓ <b>{html.escape(item['savol'], quote=False)}</b>"
+        if item.get("savol_uz"):
+            question += f"\n❓ <b>{html.escape(item['savol_uz'], quote=False)}</b>"
+        text = (f"{title}\n\n🇬🇧 {html.escape(item['vinyetka'], quote=False)}\n\n{uz_text}{question}\n\n"
                 f"👇 Javobni viktorinada belgilang, izoh javobdan keyin chiqadi\n\n{tag} #vaziyatli_masala{FOOTER}")
+        poll_q = f"🧠 {item['savol']} ({item['savol_uz']})" if item.get("savol_uz") else f"🧠 {item['savol']}"
+        if len(poll_q) > 255:
+            poll_q = f"🧠 {item['savol']}"
         msg = await client.send_message(channel, text, parse_mode="html")
-        await client.send_file(channel, kanal.build_poll(f"🧠 {item['savol']}"[:255], options, True, correct,
+        await client.send_file(channel, kanal.build_poll(poll_q[:255], options, True, correct,
                                                          item["izoh"][:200]), reply_to=msg.id)
     log.info("%s: %s %d/%d (%s)", head, stage, pos + 1, total, step)
 

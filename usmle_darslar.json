@@ -334,7 +334,16 @@
             "Torticollis"
           ],
           "togri": 0,
-          "izoh": "Kifoz - ko'krak egriligining kuchayishi, keksalarda osteoporozdagi kompression sinishlar tufayli. Lordoz - bel egriligi, skolioz - yonga og'ish."
+          "izoh": "Kifoz - ko'krak egriligining kuchayishi, keksalarda osteoporozdagi kompression sinishlar tufayli. Lordoz - bel egriligi, skolioz - yonga og'ish.",
+          "vinyetka_uz": "Osteoporozi uzoq yillardan beri bo'lgan 74 yoshli ayolni qizi olib keldi. Uning so'zlariga ko'ra, onasi so'nggi 5 yil ichida asta-sekin 'bukchayib' qolgan. Ko'rikda orqaning yuqori qismida oldinga egilish kuchaygani aniqlandi.",
+          "savol_uz": "Qaysi umurtqa deformatsiyasi mavjud?",
+          "javoblar_uz": [
+            "kifoz",
+            "lordoz",
+            "skolioz",
+            "spondilolistez",
+            "qiyshiq bo'yin"
+          ]
         },
         {
           "vinyetka": "A 58-year-old woman with long-standing rheumatoid arthritis is scheduled for elective surgery. Preoperative flexion radiographs of the cervical spine show a markedly widened atlantodental interval.",
@@ -347,7 +356,16 @@
             "Supraspinous ligament"
           ],
           "togri": 0,
-          "izoh": "Atlant-tish oralig'i kengaygan = atlantning ko'ndalang boylami shikastlangan. RA da atlantoaksial subluksatsiya: dens orqa miya va uzunchoq miyani ezishi mumkin."
+          "izoh": "Atlant-tish oralig'i kengaygan = atlantning ko'ndalang boylami shikastlangan. RA da atlantoaksial subluksatsiya: dens orqa miya va uzunchoq miyani ezishi mumkin.",
+          "vinyetka_uz": "Uzoq yillik revmatoid artriti bor 58 yoshli ayolga rejali operatsiya belgilangan. Operatsiyadan oldingi bo'yin umurtqalarining bukilgan holatdagi rentgenogrammasida atlant-tish oralig'i keskin kengaygan.",
+          "savol_uz": "Qaysi tuzilmaning shikastlanishi bunga sabab bo'lgan?",
+          "javoblar_uz": [
+            "atlantning ko'ndalang boylami",
+            "old bo'ylama boylam",
+            "sariq boylam",
+            "ensa boylami",
+            "qirra usti boylami"
+          ]
         },
         {
           "vinyetka": "A 19-year-old man dives into a shallow lake and strikes the top of his head on the bottom. CT of the cervical spine shows fractures of the atlas at several sites, with its lateral masses displaced beyond the margins of the axis.",
@@ -360,7 +378,16 @@
             "Clay-shoveler fracture"
           ],
           "togri": 0,
-          "izoh": "Boshga yuqoridan kuch (o'q bo'ylab kompressiya) -> C1 bir necha joydan sinadi = Jefferson sinishi. Ko'pincha ko'ndalang boylam ham yirtiladi."
+          "izoh": "Boshga yuqoridan kuch (o'q bo'ylab kompressiya) -> C1 bir necha joydan sinadi = Jefferson sinishi. Ko'pincha ko'ndalang boylam ham yirtiladi.",
+          "vinyetka_uz": "19 yoshli yigit sayoz ko'lga sho'ng'ib, boshining tepasi bilan tubiga urilgan. Bo'yin KT sida atlant bir necha joydan singan, uning yon massalari aksis chegarasidan tashqariga surilgan.",
+          "savol_uz": "Eng ehtimolli tashxis qaysi?",
+          "javoblar_uz": [
+            "Jefferson sinishi",
+            "'osilgan odam' sinishi",
+            "Chance sinishi",
+            "dens sinishi, II tip",
+            "qirrali o'simta sinishi"
+          ]
         },
         {
           "vinyetka": "A 15-year-old female gymnast has 3 months of low back pain that worsens with back extension. An oblique lumbar radiograph shows a radiolucent defect resembling a 'collar' on the neck of the 'Scottie dog' at L5.",
@@ -373,7 +400,16 @@
             "Intervertebral disc"
           ],
           "togri": 0,
-          "izoh": "Spondiloliz: pars interarticularis charchoq sinishi. O'smir sportchilar, L4-L5. Rentgenda 'skotch-teryer bo'ynidagi bo'yinbog''. Spondilolistezga o'tishi mumkin."
+          "izoh": "Spondiloliz: pars interarticularis charchoq sinishi. O'smir sportchilar, L4-L5. Rentgenda 'skotch-teryer bo'ynidagi bo'yinbog''. Spondilolistezga o'tishi mumkin.",
+          "vinyetka_uz": "15 yoshli gimnastikachi qiz 3 oydan beri bel og'rig'idan shikoyat qiladi, og'riq belni orqaga egganda kuchayadi. Qiyshiq rentgenogrammada L5 da 'skotch-teryer itining bo'ynidagi bo'yinbog'' ga o'xshash yorug' nuqson ko'rinadi.",
+          "savol_uz": "Umurtqaning qaysi qismi zararlangan?",
+          "javoblar_uz": [
+            "bo'g'imlararo qism",
+            "umurtqa tanasi",
+            "qirrali o'simta",
+            "ko'ndalang o'simta",
+            "umurtqalararo disk"
+          ]
         },
         {
           "vinyetka": "A 32-year-old restrained driver wearing only a lap belt is involved in a high-speed head-on collision. Radiographs show a horizontal fracture through the L2 vertebral body, pedicles and spinous process. Bruising is seen across the lower abdomen.",
@@ -386,7 +422,16 @@
             "Pelvic fracture"
           ],
           "togri": 0,
-          "izoh": "Chance sinishi (kamar jarohati, giperfleksiya, L2-L3): orqa miya kam zararlanadi, lekin ichak va tutqich jarohatlari ko'p uchraydi - qorinni KT bilan tekshirish shart."
+          "izoh": "Chance sinishi (kamar jarohati, giperfleksiya, L2-L3): orqa miya kam zararlanadi, lekin ichak va tutqich jarohatlari ko'p uchraydi - qorinni KT bilan tekshirish shart.",
+          "vinyetka_uz": "Faqat bel kamari taqib olgan 32 yoshli haydovchi katta tezlikda peshonama-peshona to'qnashuvga uchradi. Rentgenda L2 umurtqa tanasi, oyoqchalari va qirrali o'simtasi orqali gorizontal sinish; qorin pastida ko'karish bor.",
+          "savol_uz": "Qaysi qo'shimcha jarohatni albatta istisno qilish kerak?",
+          "javoblar_uz": [
+            "qorin ichi a'zolari jarohati",
+            "aorta ravog'i yorilishi",
+            "atlantoaksial chiqish",
+            "pnevmotoraks",
+            "tos sinishi"
+          ]
         },
         {
           "vinyetka": "A 27-year-old woman's car is struck from behind while she is stopped at a traffic light. She has neck pain and stiffness. A lateral cervical radiograph shows widening of the anterior part of the C5-C6 intervertebral space without fracture.",
@@ -399,7 +444,16 @@
             "Interspinous ligament"
           ],
           "togri": 0,
-          "izoh": "Orqadan urilish -> giperekstenziya (whiplash). Og'ir holatda old bo'ylama boylam yirtiladi va disk oralig'i OLDINDA kengayadi. Sinish kam uchraydi."
+          "izoh": "Orqadan urilish -> giperekstenziya (whiplash). Og'ir holatda old bo'ylama boylam yirtiladi va disk oralig'i OLDINDA kengayadi. Sinish kam uchraydi.",
+          "vinyetka_uz": "27 yoshli ayolning mashinasiga svetoforda turganida orqadan urildi. Bo'yin og'rig'i va qotishi bor. Yon rentgenda sinish yo'q, lekin C5-C6 umurtqalararo oralig'i oldinda kengaygan.",
+          "savol_uz": "Qaysi boylam yirtilgan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "old bo'ylama boylam",
+            "orqa bo'ylama boylam",
+            "sariq boylam",
+            "alar boylam",
+            "qirralararo boylam"
+          ]
         },
         {
           "vinyetka": "A 41-year-old man has sharp low back pain radiating down the lateral leg to the dorsum of the foot after lifting heavy boxes. He has weakness of great toe extension. MRI shows a posterolateral disc herniation at the L4-L5 level.",
@@ -412,7 +466,16 @@
             "S2"
           ],
           "togri": 0,
-          "izoh": "Churra pastdagi ildizni ezadi: L4-L5 disk -> L5 ildiz (bosh barmoqni ko'tarish kuchsiz, oyoq orqasida uvishish). L5-S1 bo'lsa - S1 (Axill refleksi pasayadi)."
+          "izoh": "Churra pastdagi ildizni ezadi: L4-L5 disk -> L5 ildiz (bosh barmoqni ko'tarish kuchsiz, oyoq orqasida uvishish). L5-S1 bo'lsa - S1 (Axill refleksi pasayadi).",
+          "vinyetka_uz": "41 yoshli erkak og'ir qutilarni ko'targandan keyin oyog'ining yon tomoni bo'ylab oyoq panjasi orqasigacha tarqaluvchi o'tkir bel og'rig'idan shikoyat qiladi. Bosh barmoqni ko'tarish kuchsiz. MRTda L4-L5 sathida orqa-yon disk churrasi.",
+          "savol_uz": "Qaysi nerv ildizi ezilgan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "L5",
+            "L4",
+            "S1",
+            "L3",
+            "S2"
+          ]
         },
         {
           "vinyetka": "A 30-year-old woman in labor requests epidural analgesia. The anesthesiologist inserts the needle in the midline at the L3-L4 interspace and feels a distinct 'loss of resistance' as the needle tip enters the epidural space.",
@@ -425,7 +488,16 @@
             "Arachnoid mater"
           ],
           "togri": 0,
-          "izoh": "Qavatlar: teri, yog', qirra usti, qirralararo, SARIQ boylam -> epidural bo'shliq. Sariq boylamdan keyin 'qarshilik yo'qolishi' sezilib, igna shu yerda to'xtatiladi."
+          "izoh": "Qavatlar: teri, yog', qirra usti, qirralararo, SARIQ boylam -> epidural bo'shliq. Sariq boylamdan keyin 'qarshilik yo'qolishi' sezilib, igna shu yerda to'xtatiladi.",
+          "vinyetka_uz": "Tug'ruqdagi 30 yoshli ayol epidural og'riqsizlantirishni so'radi. Anesteziolog ignani L3-L4 oralig'ida o'rta chiziq bo'ylab kiritadi va igna uchi epidural bo'shliqqa kirganda aniq 'qarshilik yo'qolishi'ni sezadi.",
+          "savol_uz": "Epidural bo'shliqqa kirishdan oldin igna oxirgi bo'lib qaysi tuzilmani teshdi?",
+          "javoblar_uz": [
+            "sariq boylam",
+            "qattiq parda",
+            "qirra usti boylami",
+            "orqa bo'ylama boylam",
+            "o'rgimchaksimon parda"
+          ]
         },
         {
           "vinyetka": "A 63-year-old man with a 50-pack-year smoking history has shoulder pain radiating down the medial arm. His right eyelid droops slightly, his right pupil is smaller than the left, and the right side of his face does not sweat. Chest X-ray shows a right apical lung mass.",
@@ -438,20 +510,38 @@
             "Edinger-Westphal nucleus"
           ],
           "togri": 0,
-          "izoh": "Pankost o'smasi (o'pka cho'qqisi) yulduzsimon gangliyni ezadi -> 2-neyron Horner sindromi: ptoz, mioz, angidroz. Yelka og'rig'i - yelka chigali ham ezilgan."
+          "izoh": "Pankost o'smasi (o'pka cho'qqisi) yulduzsimon gangliyni ezadi -> 2-neyron Horner sindromi: ptoz, mioz, angidroz. Yelka og'rig'i - yelka chigali ham ezilgan.",
+          "vinyetka_uz": "50 quti-yil chekish tarixi bor 63 yoshli erkakda qo'lning ichki tomoniga tarqaluvchi yelka og'rig'i bor. O'ng qovog'i biroz tushgan, o'ng qorachig'i chapdagidan kichik, yuzining o'ng tomoni terlamaydi. Rentgenda o'ng o'pka cho'qqisida o'sma.",
+          "savol_uz": "Simpatik yo'l qayerda uzilgan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "2-neyron, yulduzsimon gangliy",
+            "1-neyron, gipotalamus",
+            "3-neyron, ichki uyqu arteriyasi",
+            "ko'zni harakatlantiruvchi nerv",
+            "Edinger-Vestfal yadrosi"
+          ]
         },
         {
           "vinyetka": "A 4-year-old boy ingests several of his grandmother's anticholinergic pills. He is agitated, febrile, flushed, and his skin is hot and completely dry. Pupils are dilated.",
-          "savol": "Why is sweating absent in this patient?",
+          "savol": "Which innervation of sweat glands explains the absent sweating?",
           "javoblar": [
-            "Sweat glands receive sympathetic cholinergic (muscarinic) innervation",
-            "Sweat glands receive parasympathetic innervation via CN X",
-            "Sweat glands are innervated by adrenergic beta-2 fibers",
-            "Sweat glands are controlled only by circulating epinephrine",
-            "Sweat glands have nicotinic receptors blocked by the drug"
+            "Sympathetic cholinergic (muscarinic) fibers",
+            "Parasympathetic fibers via CN X",
+            "Adrenergic beta-2 fibers",
+            "Circulating epinephrine only",
+            "Nicotinic receptors blocked by the drug"
           ],
           "togri": 0,
-          "izoh": "Ter bezlari simpatik tizimga tegishli, lekin postganglionar tolalari atsetilxolin ajratadi (muskarin retseptorlari). Shuning uchun antixolinergik dorilar terlashni to'xtatadi."
+          "izoh": "Ter bezlari simpatik tizimga tegishli, lekin postganglionar tolalari atsetilxolin ajratadi (muskarin retseptorlari). Shuning uchun antixolinergik dorilar terlashni to'xtatadi.",
+          "vinyetka_uz": "4 yoshli bola buvisining antixolinergik dorisidan bir nechta tabletka yutib yuborgan. U bezovta, isitmasi bor, yuzi qizargan, terisi issiq va butunlay quruq. Qorachiqlari kengaygan.",
+          "savol_uz": "Ter bezlarining qaysi innervatsiyasi terlash yo'qligini tushuntiradi?",
+          "javoblar_uz": [
+            "simpatik xolinergik (M) tolalar",
+            "X nerv orqali parasimpatik",
+            "adrenergik beta-2 tolalar",
+            "faqat qondagi adrenalin",
+            "nikotin retseptorlari blokadasi"
+          ]
         },
         {
           "vinyetka": "A 6-week-old infant is brought for a routine visit. The parents ask when the curvature of their baby's neck will develop. On lateral view, the infant's entire spine forms a single C-shaped curve.",
@@ -464,7 +554,16 @@
             "Only the cervical"
           ],
           "togri": 0,
-          "izoh": "Birlamchi egriliklar (ko'krak, dumg'aza) homila davrida bor. Ikkilamchi: bo'yin - bosh ko'tarilganda, bel - yura boshlaganda paydo bo'ladi."
+          "izoh": "Birlamchi egriliklar (ko'krak, dumg'aza) homila davrida bor. Ikkilamchi: bo'yin - bosh ko'tarilganda, bel - yura boshlaganda paydo bo'ladi.",
+          "vinyetka_uz": "6 haftalik chaqaloq muntazam ko'rikka olib kelindi. Ota-onasi bolaning bo'yin egriligi qachon paydo bo'lishini so'rashmoqda. Yon tomondan qaraganda chaqaloqning butun umurtqa pog'onasi bitta 'C' shaklidagi egrilik hosil qiladi.",
+          "savol_uz": "Tug'ilganda qaysi umurtqa egriliklari mavjud?",
+          "javoblar_uz": [
+            "ko'krak va dumg'aza",
+            "bo'yin va bel",
+            "bo'yin va ko'krak",
+            "bel va dumg'aza",
+            "faqat bo'yin"
+          ]
         },
         {
           "vinyetka": "During a neurological examination, a patient is asked to nod his head 'yes' repeatedly. The movement occurs without any rotation of the head.",
@@ -477,7 +576,16 @@
             "Uncovertebral joints"
           ],
           "togri": 0,
-          "izoh": "'Ha' (bosh irg'ash va yonga egish) - atlanto-oksipital bo'g'imda. 'Yo'q' (burilish) - atlantoaksial bo'g'imlarda. Ikkalasida ham disk yo'q."
+          "izoh": "'Ha' (bosh irg'ash va yonga egish) - atlanto-oksipital bo'g'imda. 'Yo'q' (burilish) - atlantoaksial bo'g'imlarda. Ikkalasida ham disk yo'q.",
+          "vinyetka_uz": "Nevrologik ko'rikda bemordan boshini qayta-qayta 'ha' ishorasi bilan irg'itish so'raladi. Harakat boshni burmasdan bajariladi.",
+          "savol_uz": "Bu harakat asosan qaysi bo'g'imda bo'ladi?",
+          "javoblar_uz": [
+            "atlanto-oksipital",
+            "median atlantoaksial",
+            "lateral atlantoaksial",
+            "C2-C3 qirrali bo'g'imlar",
+            "unkovertebral bo'g'imlar"
+          ]
         },
         {
           "vinyetka": "A 55-year-old woman has chronic low back pain. A lateral lumbar radiograph shows the body of L4 displaced anteriorly relative to L5 without a pars defect. She has marked degenerative changes of the facet joints.",
@@ -490,7 +598,16 @@
             "Scheuermann kyphosis"
           ],
           "togri": 0,
-          "izoh": "Umurtqa tanasining oldinga siljishi - spondilolistez. Degenerativ turi odatda L4-L5 da (keksalarda), tug'ma turi L5-S1 da."
+          "izoh": "Umurtqa tanasining oldinga siljishi - spondilolistez. Degenerativ turi odatda L4-L5 da (keksalarda), tug'ma turi L5-S1 da.",
+          "vinyetka_uz": "55 yoshli ayolda surunkali bel og'rig'i. Yon rentgenogrammada L4 tanasi L5 ga nisbatan oldinga siljigan, bo'g'imlararo qismda nuqson yo'q. Bo'g'im o'simtalari bo'g'imlarida kuchli degenerativ o'zgarishlar.",
+          "savol_uz": "Eng ehtimolli tashxis qaysi?",
+          "javoblar_uz": [
+            "degenerativ spondilolistez",
+            "spondiloliz",
+            "Chance sinishi",
+            "L5-S1 tug'ma spondilolistez",
+            "Scheuermann kifozi"
+          ]
         },
         {
           "vinyetka": "A 3-month-old infant needs a lumbar puncture for suspected meningitis. A medical student asks why the needle is never inserted at the L1-L2 interspace in adults.",
@@ -503,7 +620,16 @@
             "Coccyx"
           ],
           "togri": 0,
-          "izoh": "Kattalarda orqa miya L1-L2 da (conus medullaris) tugaydi, dura qopi S2 gacha. Shuning uchun punksiya L3-L4 yoki L4-L5 da - u yerda faqat cauda equina."
+          "izoh": "Kattalarda orqa miya L1-L2 da (conus medullaris) tugaydi, dura qopi S2 gacha. Shuning uchun punksiya L3-L4 yoki L4-L5 da - u yerda faqat cauda equina.",
+          "vinyetka_uz": "Meningitga shubha bilan 3 oylik chaqaloqqa lyumbal punksiya kerak. Tibbiyot talabasi kattalarda nega igna hech qachon L1-L2 oralig'iga kiritilmasligini so'raydi.",
+          "savol_uz": "Kattalarda orqa miya qaysi sathda tugaydi?",
+          "javoblar_uz": [
+            "L1-L2 pastki chegarasi",
+            "T10",
+            "L4-L5",
+            "S2",
+            "dum suyagi"
+          ]
         },
         {
           "vinyetka": "A 45-year-old man has neck pain radiating to the middle finger and a diminished triceps reflex. MRI shows a posterolateral disc herniation between the C6 and C7 vertebrae.",
@@ -516,7 +642,16 @@
             "T1"
           ],
           "togri": 0,
-          "izoh": "C1-C7 nervlari o'z umurtqasidan yuqorida chiqadi: C6-C7 orasidan C7 chiqadi. C7 - triceps refleksi va o'rta barmoq. C8 C7 bilan T1 orasidan chiqadi."
+          "izoh": "C1-C7 nervlari o'z umurtqasidan yuqorida chiqadi: C6-C7 orasidan C7 chiqadi. C7 - triceps refleksi va o'rta barmoq. C8 C7 bilan T1 orasidan chiqadi.",
+          "vinyetka_uz": "45 yoshli erkakda o'rta barmoqqa tarqaluvchi bo'yin og'rig'i bor, triseps refleksi pasaygan. MRTda C6 va C7 umurtqalari orasida orqa-yon disk churrasi.",
+          "savol_uz": "Qaysi orqa miya nervi ezilgan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "C7",
+            "C6",
+            "C8",
+            "C5",
+            "T1"
+          ]
         },
         {
           "vinyetka": "A 40-year-old man with a T12 complete spinal cord transection has urinary retention and erectile dysfunction months later, despite intact sacral reflex arcs at first. A urologist discusses the nerves that normally contract the detrusor and produce erection.",
@@ -529,7 +664,16 @@
             "Pudendal nerve"
           ],
           "togri": 0,
-          "izoh": "Tos splanxnik nervlari (S2-S4) - parasimpatik: qovuq detruzori, to'g'ri ichak va ereksiya. Vagus faqat o'rta ichakkacha boradi."
+          "izoh": "Tos splanxnik nervlari (S2-S4) - parasimpatik: qovuq detruzori, to'g'ri ichak va ereksiya. Vagus faqat o'rta ichakkacha boradi.",
+          "vinyetka_uz": "T12 sathida orqa miyasi to'liq uzilgan 40 yoshli erkakda bir necha oydan keyin siydik tutilishi va erektil disfunksiya kuzatilmoqda. Urolog odatda detruzorni qisqartiradigan va ereksiyani ta'minlaydigan nervlarni tushuntiradi.",
+          "savol_uz": "Bu parasimpatik tolalarni qaysi nervlar olib boradi?",
+          "javoblar_uz": [
+            "tos splanxnik nervlari",
+            "bel splanxnik nervlari",
+            "katta splanxnik nerv",
+            "adashgan nerv",
+            "uyat nervi"
+          ]
         },
         {
           "vinyetka": "A 35-year-old woman has episodic headaches, palpitations and sweating. Imaging reveals an adrenal medullary tumor. A student asks how the normal adrenal medulla is innervated.",
@@ -542,7 +686,16 @@
             "Somatic motor fibers of T10"
           ],
           "togri": 0,
-          "izoh": "Buyrak usti mag'iz qismiga simpatik PREganglionar tolalar bevosita keladi (atsetilxolin, N-retseptor). Xromaffin hujayralar - o'zgargan postganglionar neyronlar."
+          "izoh": "Buyrak usti mag'iz qismiga simpatik PREganglionar tolalar bevosita keladi (atsetilxolin, N-retseptor). Xromaffin hujayralar - o'zgargan postganglionar neyronlar.",
+          "vinyetka_uz": "35 yoshli ayolda xurujsimon bosh og'rig'i, yurak urib ketishi va terlash bor. Tekshiruvda buyrak usti bezi mag'iz qismi o'smasi topildi. Talaba sog'lom buyrak usti mag'izi qanday innervatsiya qilinishini so'raydi.",
+          "savol_uz": "Buyrak usti mag'izining xromaffin hujayralarini qaysi tolalar bevosita innervatsiya qiladi?",
+          "javoblar_uz": [
+            "preganglionar simpatik (ACh)",
+            "postganglionar simpatik (NA)",
+            "vagusning parasimpatik tolalari",
+            "tos splanxnik nervlari",
+            "T10 somatik tolalari"
+          ]
         }
       ],
       "manba": "1-lesson._Back_autonomic_nervous_sytem.pdf"
@@ -892,7 +1045,16 @@
             "Internal thoracic vessels"
           ],
           "togri": 0,
-          "izoh": "O'sma Kuper (osuvchi) boylamlarini tortadi -> teri botadi, 'apelsin po'sti'. Kuper boylamlari bezni teriga va chuqur fassiyaga bog'laydi."
+          "izoh": "O'sma Kuper (osuvchi) boylamlarini tortadi -> teri botadi, 'apelsin po'sti'. Kuper boylamlari bezni teriga va chuqur fassiyaga bog'laydi.",
+          "vinyetka_uz": "52 yoshli ayol chap sut bezida og'riqsiz tugun sezdi. Ko'rikda yuqori-tashqi kvadrantda 3 sm li qattiq o'sma, uning ustidagi teri ichkariga tortilgan va botiq, apelsin po'stiga o'xshaydi.",
+          "savol_uz": "Terining botishini qaysi tuzilmalarning zararlanishi eng yaxshi tushuntiradi?",
+          "javoblar_uz": [
+            "Kuper boylamlari",
+            "sut yo'llari",
+            "faqat katta ko'krak fassiyasi",
+            "faqat areola osti limfa chigali",
+            "ichki ko'krak tomirlari"
+          ]
         },
         {
           "vinyetka": "A 47-year-old woman has a biopsy-proven carcinoma in the upper medial quadrant of the right breast. Axillary lymph nodes are clinically negative.",
@@ -905,7 +1067,16 @@
             "Posterior mediastinal nodes"
           ],
           "togri": 0,
-          "izoh": "Medial kvadrant limfasi asosan parasternal tugunlarga (ichki ko'krak tomirlari bo'ylab) boradi. Shu yo'l orqali saraton qarama-qarshi sut beziga ham o'tadi."
+          "izoh": "Medial kvadrant limfasi asosan parasternal tugunlarga (ichki ko'krak tomirlari bo'ylab) boradi. Shu yo'l orqali saraton qarama-qarshi sut beziga ham o'tadi.",
+          "vinyetka_uz": "47 yoshli ayolda o'ng sut bezining yuqori-medial kvadrantida biopsiya bilan tasdiqlangan karsinoma bor. Qo'ltiq limfa tugunlari klinik jihatdan o'zgarmagan.",
+          "savol_uz": "Bu o'smaning dastlabki metastazlari qaysi limfa tugunlariga borishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "to'sh yoni tugunlari",
+            "qo'ltiqning pektoral guruhi",
+            "chap o'mrov usti tugunlari",
+            "chov tugunlari",
+            "orqa ko'ks oralig'i tugunlari"
+          ]
         },
         {
           "vinyetka": "Three weeks after a modified radical mastectomy with axillary node dissection, a 55-year-old woman cannot raise her arm above shoulder level. When she pushes against a wall, the medial border of her scapula protrudes posteriorly.",
@@ -918,7 +1089,16 @@
             "Dorsal scapular nerve"
           ],
           "togri": 0,
-          "izoh": "Qanotsimon kurak = uzun ko'krak nervi (C5-C7) -> oldingi tishli mushak. Lateral ko'krak arteriyasini bog'lashda shikastlanadi; qo'l 90° dan yuqori ko'tarilmaydi."
+          "izoh": "Qanotsimon kurak = uzun ko'krak nervi (C5-C7) -> oldingi tishli mushak. Lateral ko'krak arteriyasini bog'lashda shikastlanadi; qo'l 90° dan yuqori ko'tarilmaydi.",
+          "vinyetka_uz": "Qo'ltiq tugunlari olib tashlangan modifikatsiyalangan radikal mastektomiyadan 3 hafta o'tib, 55 yoshli ayol qo'lini yelka sathidan yuqori ko'tara olmaydi. Qo'li bilan devorga tiralganda kurakning medial chegarasi orqaga bo'rtib chiqadi.",
+          "savol_uz": "Operatsiya vaqtida qaysi nerv shikastlangan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "uzun ko'krak nervi",
+            "ko'krak-orqa nervi",
+            "qo'ltiq nervi",
+            "kurak usti nervi",
+            "kurak orqa nervi"
+          ]
         },
         {
           "vinyetka": "A 45-year-old man develops a right subphrenic abscess after an appendectomy. In addition to fever and right upper quadrant pain, he complains of pain at the tip of his right shoulder.",
@@ -931,7 +1111,16 @@
             "Vagus nerve fibers"
           ],
           "togri": 0,
-          "izoh": "Diafragma markaziy qismining sezgisi diafragma nervi (C3-C5) orqali. Shuning uchun og'riq shu segmentlarning teri sohasi - yelkaga uzatiladi."
+          "izoh": "Diafragma markaziy qismining sezgisi diafragma nervi (C3-C5) orqali. Shuning uchun og'riq shu segmentlarning teri sohasi - yelkaga uzatiladi.",
+          "vinyetka_uz": "45 yoshli erkakda appendektomiyadan keyin o'ng diafragma osti abssessi rivojlandi. Isitma va o'ng qovurg'a ostidagi og'riqdan tashqari, u o'ng yelka uchidagi og'riqdan shikoyat qiladi.",
+          "savol_uz": "Yelka og'rig'i orqa miyaning qaysi segmentlari sezuvchi tolalari orqali o'tadi?",
+          "javoblar_uz": [
+            "C3-C5, diafragma nervi",
+            "T7-T9, qovurg'alararo nervlar",
+            "T10, qovurg'a osti nervi",
+            "C8-T1, yelka chigali",
+            "adashgan nerv tolalari"
+          ]
         },
         {
           "vinyetka": "During an anatomy session, students trace the structures passing through the diaphragm. One opening lies at the level of the T8 vertebra within the central tendon.",
@@ -944,7 +1133,16 @@
             "Greater splanchnic nerve only"
           ],
           "togri": 0,
-          "izoh": "'I ate (8) ten (10) eggs at twelve (12)': T8 - pastki kovak vena (+ o'ng diafragma nervi), T10 - qizilo'ngach va vagus, T12 - aorta, ko'krak limfa yo'li, toq vena."
+          "izoh": "'I ate (8) ten (10) eggs at twelve (12)': T8 - pastki kovak vena (+ o'ng diafragma nervi), T10 - qizilo'ngach va vagus, T12 - aorta, ko'krak limfa yo'li, toq vena.",
+          "vinyetka_uz": "Anatomiya mashg'ulotida talabalar diafragma orqali o'tuvchi tuzilmalarni kuzatmoqda. Teshiklardan biri T8 umurtqasi sathida, markaziy pay ichida joylashgan.",
+          "savol_uz": "Bu teshikdan qaysi tuzilmalar o'tadi?",
+          "javoblar_uz": [
+            "pastki kovak vena, o'ng diafragma n.",
+            "qizilo'ngach va vagus stvollari",
+            "aorta, ko'krak limfa yo'li, toq vena",
+            "simpatik stvol",
+            "faqat katta splanxnik nerv"
+          ]
         },
         {
           "vinyetka": "A 30-year-old man is stabbed in the right chest. The knife entered the intercostal space immediately below the inferior border of the 6th rib and passed deep to the internal intercostal muscle.",
@@ -957,7 +1155,16 @@
             "Thoracic duct"
           ],
           "togri": 0,
-          "izoh": "Qovurg'alararo vena, arteriya va nerv (V-A-N) qovurg'aning PASTKI qirrasidagi egatda, ichki va eng ichki qovurg'alararo mushaklar orasida yotadi."
+          "izoh": "Qovurg'alararo vena, arteriya va nerv (V-A-N) qovurg'aning PASTKI qirrasidagi egatda, ichki va eng ichki qovurg'alararo mushaklar orasida yotadi.",
+          "vinyetka_uz": "30 yoshli erkakning ko'kragi o'ng tomonidan pichoq bilan jarohatlandi. Pichoq 6-qovurg'aning pastki qirrasi ostidan qovurg'alararo oraliqqa kirib, ichki qovurg'alararo mushakdan chuqurroqqa o'tgan.",
+          "savol_uz": "Bu joyda qaysi tuzilmalar eng ko'p xavf ostida?",
+          "javoblar_uz": [
+            "qovurg'alararo V-A-N",
+            "ichki ko'krak arteriyasi",
+            "uzun ko'krak nervi",
+            "toq vena",
+            "ko'krak limfa yo'li"
+          ]
         },
         {
           "vinyetka": "A 24-year-old man with right lower lobe pneumonia has sharp, localized pain over the right lateral chest wall that worsens with each deep breath.",
@@ -970,7 +1177,16 @@
             "Recurrent laryngeal nerve"
           ],
           "togri": 0,
-          "izoh": "Qovurg'a (kostal) plevrasi qovurg'alararo nervlar bilan innervatsiya qilinadi -> devorda mahalliy og'riq. Mediastinal plevra og'rig'i diafragma nervi orqali yelkaga uzatiladi."
+          "izoh": "Qovurg'a (kostal) plevrasi qovurg'alararo nervlar bilan innervatsiya qilinadi -> devorda mahalliy og'riq. Mediastinal plevra og'rig'i diafragma nervi orqali yelkaga uzatiladi.",
+          "vinyetka_uz": "O'ng pastki bo'lak pnevmoniyasi bo'lgan 24 yoshli yigitda o'ng ko'krak qafasining yon devorida chuqur nafas olganda kuchayadigan o'tkir, aniq joylashgan og'riq bor.",
+          "savol_uz": "Bu og'riq qaysi nervlar orqali o'tkaziladi?",
+          "javoblar_uz": [
+            "qovurg'alararo nervlar",
+            "diafragma nervi",
+            "adashgan nerv",
+            "katta splanxnik nerv",
+            "qaytuvchi hiqildoq nervi"
+          ]
         },
         {
           "vinyetka": "A 28-year-old man is brought in after a motorcycle crash. He is dyspneic, BP 78/40, HR 132, with distended neck veins. Breath sounds are absent on the left, and the trachea is shifted to the right.",
@@ -983,7 +1199,16 @@
             "Endotracheal intubation and observation"
           ],
           "togri": 0,
-          "izoh": "Taranglashgan pnevmotoraks - klinik tashxis: traxeya sog' tomonga og'gan, gipotenziya, venalar bo'rtgan. Rentgen kutilmaydi, darhol igna dekompressiyasi, keyin drenaj."
+          "izoh": "Taranglashgan pnevmotoraks - klinik tashxis: traxeya sog' tomonga og'gan, gipotenziya, venalar bo'rtgan. Rentgen kutilmaydi, darhol igna dekompressiyasi, keyin drenaj.",
+          "vinyetka_uz": "28 yoshli yigit mototsikl avariyasidan keyin keltirildi. Hansiraydi, AQB 78/40, puls 132, bo'yin venalari bo'rtgan. Chap tomonda nafas eshitilmaydi, traxeya o'ngga surilgan.",
+          "savol_uz": "Darhol qilinadigan eng to'g'ri qadam qaysi?",
+          "javoblar_uz": [
+            "chap tomonga igna dekompressiyasi",
+            "ko'krak rentgeni",
+            "ko'krak KT si",
+            "perikardiotsentez",
+            "intubatsiya va kuzatuv"
+          ]
         },
         {
           "vinyetka": "A 70-year-old bedridden man with dysphagia after a stroke develops fever and cough. He has been lying supine most of the day. Chest imaging shows a new infiltrate consistent with aspiration pneumonia.",
@@ -996,7 +1221,16 @@
             "Basal segments of the left lower lobe"
           ],
           "togri": 0,
-          "izoh": "Aspiratsiya ko'pincha o'ng o'pkaga (o'ng bosh bronx kengroq, tikroq, kaltaroq). Chalqancha yotganda - o'ng pastki bo'lakning yuqori segmenti."
+          "izoh": "Aspiratsiya ko'pincha o'ng o'pkaga (o'ng bosh bronx kengroq, tikroq, kaltaroq). Chalqancha yotganda - o'ng pastki bo'lakning yuqori segmenti.",
+          "vinyetka_uz": "Insultdan keyin yutishi buzilgan, yotoqqa mixlangan 70 yoshli erkakda isitma va yo'tal paydo bo'ldi. U kunning ko'p qismini chalqancha yotib o'tkazadi. Ko'krak tasvirida aspiratsion pnevmoniyaga xos yangi infiltrat.",
+          "savol_uz": "O'pkaning qaysi segmenti zararlangan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "o'ng pastki bo'lak yuqori segmenti",
+            "chap yuqori bo'lak cho'qqi segmenti",
+            "lingula",
+            "o'ng o'rta bo'lak",
+            "chap pastki bo'lak bazal segmentlari"
+          ]
         },
         {
           "vinyetka": "A boy born at 29 weeks of gestation to a mother with poorly controlled diabetes develops grunting, nasal flaring and retractions within hours of birth. Chest X-ray shows diffuse bilateral ground-glass opacities.",
@@ -1009,7 +1243,16 @@
             "Ciliated columnar cells"
           ],
           "togri": 0,
-          "izoh": "Chaqaloqlar RDS: II tip pnevmotsitlar surfaktantni yetarli ishlab chiqarmaydi. Chala tug'ilish va onadagi diabet (homila insulini) xavfni oshiradi. L/S < 1.5."
+          "izoh": "Chaqaloqlar RDS: II tip pnevmotsitlar surfaktantni yetarli ishlab chiqarmaydi. Chala tug'ilish va onadagi diabet (homila insulini) xavfni oshiradi. L/S < 1.5.",
+          "vinyetka_uz": "Diabeti yomon nazorat qilingan onadan 29 haftalikda tug'ilgan o'g'il bolada tug'ilgandan bir necha soat o'tib ingrash, burun qanotlarining kerilishi va qovurg'alararo tortilishlar paydo bo'ldi. Rentgenda ikki tomonlama 'xira oyna' ko'rinishi.",
+          "savol_uz": "Qaysi hujayralar funksiyasining yetishmasligi asosiy sabab?",
+          "javoblar_uz": [
+            "II tip pnevmotsitlar",
+            "I tip pnevmotsitlar",
+            "alveolyar makrofaglar",
+            "klub hujayralari",
+            "kiprikli silindrsimon hujayralar"
+          ]
         },
         {
           "vinyetka": "Two weeks after a left mastectomy with axillary node dissection, a 50-year-old woman reports difficulty climbing a ladder and pulling herself up. Shoulder abduction is normal, and the scapula does not wing. Extension and internal rotation of the arm are weak.",
@@ -1022,7 +1265,16 @@
             "Suprascapular nerve"
           ],
           "togri": 0,
-          "izoh": "Ko'krak-orqa nervi -> orqaning eng keng mushagi: qo'lni orqaga uzatish va ichkariga burish kuchsiz. Qanotsimon kurak bo'lsa - uzun ko'krak nervi."
+          "izoh": "Ko'krak-orqa nervi -> orqaning eng keng mushagi: qo'lni orqaga uzatish va ichkariga burish kuchsiz. Qanotsimon kurak bo'lsa - uzun ko'krak nervi.",
+          "vinyetka_uz": "Qo'ltiq tugunlari olib tashlangan chap mastektomiyadan ikki hafta o'tib, 50 yoshli ayol narvonga chiqish va o'zini tortib ko'tarish qiyinligidan shikoyat qiladi. Yelka abduksiyasi normal, kurak qanotsimon emas. Qo'lni orqaga uzatish va ichkariga burish kuchsiz.",
+          "savol_uz": "Qaysi nerv shikastlangan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "ko'krak-orqa nervi",
+            "uzun ko'krak nervi",
+            "qo'ltiq nervi",
+            "lateral ko'krak nervi",
+            "kurak usti nervi"
+          ]
         },
         {
           "vinyetka": "After a cardiac operation, a 64-year-old man becomes short of breath. Fluoroscopy shows that during inspiration the left hemidiaphragm moves upward while the right moves downward.",
@@ -1035,7 +1287,16 @@
             "Left sympathetic trunk"
           ],
           "togri": 0,
-          "izoh": "Diafragma nervi shikastlansa, gumbaz falajlanadi va nafas olganda qorin bosimi bilan yuqoriga ko'tariladi - paradoksal harakat. Rentgenda gumbaz baland."
+          "izoh": "Diafragma nervi shikastlansa, gumbaz falajlanadi va nafas olganda qorin bosimi bilan yuqoriga ko'tariladi - paradoksal harakat. Rentgenda gumbaz baland.",
+          "vinyetka_uz": "Yurak operatsiyasidan keyin 64 yoshli erkakda hansirash paydo bo'ldi. Rentgenoskopiyada nafas olganda chap diafragma gumbazi yuqoriga, o'ngi esa pastga harakatlanadi.",
+          "savol_uz": "Qaysi nervning shikastlanishi bu holatni tushuntiradi?",
+          "javoblar_uz": [
+            "chap diafragma nervi",
+            "chap adashgan nerv",
+            "chap qaytuvchi hiqildoq nervi",
+            "chap T7-T11 qovurg'alararo n.",
+            "chap simpatik stvol"
+          ]
         },
         {
           "vinyetka": "A 58-year-old man has progressive dysphagia. Imaging shows a tumor at the gastroesophageal region where the esophagus passes through the diaphragm together with two nerve trunks.",
@@ -1048,7 +1309,16 @@
             "L1"
           ],
           "togri": 0,
-          "izoh": "Qizilo'ngach teshigi T10 da: qizilo'ngach va vagus stvollari. T8 - pastki kovak vena, T12 - aorta, ko'krak limfa yo'li, toq vena."
+          "izoh": "Qizilo'ngach teshigi T10 da: qizilo'ngach va vagus stvollari. T8 - pastki kovak vena, T12 - aorta, ko'krak limfa yo'li, toq vena.",
+          "vinyetka_uz": "58 yoshli erkakda yutish tobora qiyinlashmoqda. Tasvirda qizilo'ngach ikki nerv stvoli bilan birga diafragmadan o'tadigan me'da-qizilo'ngach sohasida o'sma aniqlandi.",
+          "savol_uz": "Bu teshik qaysi umurtqa sathida joylashgan?",
+          "javoblar_uz": [
+            "T10",
+            "T8",
+            "T12",
+            "T4",
+            "L1"
+          ]
         },
         {
           "vinyetka": "A 21-year-old tall, thin man who smokes has sudden right-sided pleuritic chest pain and dyspnea while sitting at his desk. The right side shows hyperresonance and absent breath sounds. Blood pressure is normal and the trachea is midline.",
@@ -1061,7 +1331,16 @@
             "Barotrauma from mechanical ventilation"
           ],
           "togri": 0,
-          "izoh": "Birlamchi spontan pnevmotoraks: baland, ozg'in, chekuvchi yosh erkak - o'pka cho'qqisidagi subplevral pufakcha yoriladi. Ikkilamchi - kasal o'pkada (emfizema)."
+          "izoh": "Birlamchi spontan pnevmotoraks: baland, ozg'in, chekuvchi yosh erkak - o'pka cho'qqisidagi subplevral pufakcha yoriladi. Ikkilamchi - kasal o'pkada (emfizema).",
+          "vinyetka_uz": "Chekadigan, baland bo'yli, ozg'in 21 yoshli yigit stolda o'tirganida to'satdan o'ng tomonda plevral og'riq va hansirash paydo bo'ldi. O'ng tomonda timpanit, nafas eshitilmaydi. AQB normal, traxeya o'rtada.",
+          "savol_uz": "Eng ehtimolli sabab qaysi?",
+          "javoblar_uz": [
+            "cho'qqidagi pufakcha yorilishi",
+            "emfizema bullalari yorilishi",
+            "qovurg'a sinishi",
+            "o'pka arteriyasi emboliyasi",
+            "sun'iy ventilyatsiya barotravmasi"
+          ]
         },
         {
           "vinyetka": "A pulmonology student is measuring airway resistance along the bronchial tree with a catheter. She expects the total resistance to be lowest at the most distal conducting airways.",
@@ -1074,7 +1353,16 @@
             "They participate in gas exchange"
           ],
           "togri": 0,
-          "izoh": "Terminal bronxiolalar juda ko'p va parallel ulangan - umumiy qarshilik eng kam. Eng yuqori qarshilik o'rta va yirik bronxlarda."
+          "izoh": "Terminal bronxiolalar juda ko'p va parallel ulangan - umumiy qarshilik eng kam. Eng yuqori qarshilik o'rta va yirik bronxlarda.",
+          "vinyetka_uz": "Pulmonologiya talabasi kateter yordamida bronx daraxti bo'ylab havo yo'li qarshiligini o'lchamoqda. U eng distal o'tkazuvchi yo'llarda umumiy qarshilik eng past bo'lishini kutmoqda.",
+          "savol_uz": "Nega terminal bronxiolalarda havo yo'li qarshiligi eng past?",
+          "javoblar_uz": [
+            "juda ko'p va parallel joylashgan",
+            "tog'ay plastinkalari bor",
+            "silliq mushak yo'q",
+            "yassi epiteliy bilan qoplangan",
+            "gaz almashinuvida qatnashadi"
+          ]
         },
         {
           "vinyetka": "A 70-year-old man with long-standing congestive heart failure dies. Lung histology shows many alveolar macrophages containing golden-brown granules that stain positive with Prussian blue.",
@@ -1087,7 +1375,16 @@
             "Lipofuscin from aging"
           ],
           "togri": 0,
-          "izoh": "'Yurak nuqsoni hujayralari' - alveolaga chiqqan eritrotsitlarni yutib, gemosideringa (Prussiya ko'ki +) to'lgan alveolyar makrofaglar. Changni yutganlari - 'chang hujayralari'."
+          "izoh": "'Yurak nuqsoni hujayralari' - alveolaga chiqqan eritrotsitlarni yutib, gemosideringa (Prussiya ko'ki +) to'lgan alveolyar makrofaglar. Changni yutganlari - 'chang hujayralari'.",
+          "vinyetka_uz": "Uzoq yillik dimlanish yurak yetishmovchiligi bo'lgan 70 yoshli erkak vafot etdi. O'pka gistologiyasida Prussiya ko'ki bilan musbat bo'yaluvchi oltinrang-jigarrang donachalarga ega ko'p alveolyar makrofaglar topildi.",
+          "savol_uz": "Bu hujayralarda nima bor?",
+          "javoblar_uz": [
+            "eritrotsitlardan gemosiderin",
+            "antrakotik ko'mir pigmenti",
+            "surfaktant lamellyar tanachalari",
+            "asbest tolalari",
+            "qarilik lipofussini"
+          ]
         }
       ]
     },
@@ -1452,7 +1749,16 @@
             "Along the lower border of the 10th rib"
           ],
           "togri": 0,
-          "izoh": "V-A-N yuqoridagi (9) qovurg'aning pastki qirrasi ostida yotadi. Shuning uchun igna pastdagi (10) qovurg'aning YUQORI qirrasidan, nafas chiqarishda kiritiladi."
+          "izoh": "V-A-N yuqoridagi (9) qovurg'aning pastki qirrasi ostida yotadi. Shuning uchun igna pastdagi (10) qovurg'aning YUQORI qirrasidan, nafas chiqarishda kiritiladi.",
+          "vinyetka_uz": "Yurak yetishmovchiligi bo'lgan 66 yoshli erkakda o'ng tomonda katta plevral suyuqlik bor. O'rta qo'ltiq chizig'ida 9-qovurg'alararo oraliqda torakosentez rejalashtirilgan.",
+          "savol_uz": "Qovurg'alararo tomir-nerv tutamidan qochish uchun igna qayerdan kiritilishi kerak?",
+          "javoblar_uz": [
+            "10-qovurg'a yuqori qirrasi ustidan",
+            "9-qovurg'a pastki qirrasi ostidan",
+            "oraliq o'rtasidan, teriga tik",
+            "9-qovurg'a suyak usti pardasi orqali",
+            "10-qovurg'a pastki qirrasi bo'ylab"
+          ]
         },
         {
           "vinyetka": "A 72-year-old woman has severe burning pain and a vesicular rash in a band along the left T6 dermatome due to herpes zoster. An intercostal nerve block is planned.",
@@ -1465,7 +1771,16 @@
             "Herpes zoster always spreads to adjacent ganglia"
           ],
           "togri": 0,
-          "izoh": "Qo'shni dermatomlar bir-birini qoplaydi va nervning kollateral tarmoqlari bor. Shuning uchun og'riqni to'liq qoldirish uchun bir nechta qo'shni nervlar blokada qilinadi."
+          "izoh": "Qo'shni dermatomlar bir-birini qoplaydi va nervning kollateral tarmoqlari bor. Shuning uchun og'riqni to'liq qoldirish uchun bir nechta qo'shni nervlar blokada qilinadi.",
+          "vinyetka_uz": "72 yoshli ayolda o'rab oluvchi temiratki tufayli chap T6 dermatomi bo'ylab kuchli achishtiruvchi og'riq va pufakchali toshma bor. Qovurg'alararo nerv blokadasi rejalashtirilgan.",
+          "savol_uz": "Nega T5 va T7 qovurg'alararo nervlari ham blokada qilinishi kerak?",
+          "javoblar_uz": [
+            "qo'shni dermatomlar qoplanadi",
+            "T6 nervining kollaterali yo'q",
+            "anestetik egatga yetmaydi",
+            "T6 faqat simpatik tola oladi",
+            "temiratki doim qo'shni gangliyga o'tadi"
+          ]
         },
         {
           "vinyetka": "A 25-year-old woman has numbness of the medial forearm and hand and wasting of the hypothenar and interosseous muscles. Her radial pulse diminishes when she turns her head to the opposite side. Neck X-ray shows an extra rib arising from C7.",
@@ -1478,7 +1793,16 @@
             "Long thoracic nerve and axillary artery"
           ],
           "togri": 0,
-          "izoh": "Ko'krak qafasi chiqish sindromi: bo'yin qovurg'asi pastki stvol (C8-T1) va o'mrov osti arteriyasini ezadi -> Klumpke'ga o'xshash belgilar va puls susayishi."
+          "izoh": "Ko'krak qafasi chiqish sindromi: bo'yin qovurg'asi pastki stvol (C8-T1) va o'mrov osti arteriyasini ezadi -> Klumpke'ga o'xshash belgilar va puls susayishi.",
+          "vinyetka_uz": "25 yoshli ayolda bilak va qo'l panjasining ichki tomonida uvishish, gipotenar va suyaklararo mushaklar atrofiyasi bor. Boshini qarama-qarshi tomonga burganda bilak arteriyasi pulsi susayadi. Bo'yin rentgenida C7 dan chiquvchi qo'shimcha qovurg'a.",
+          "savol_uz": "Qaysi tuzilmalar ezilgan?",
+          "javoblar_uz": [
+            "pastki stvol va o'mrov osti a.",
+            "yuqori stvol va umurtqa arteriyasi",
+            "kaft kanalida o'rta nerv",
+            "medial do'mboqda tirsak nervi",
+            "uzun ko'krak n. va qo'ltiq a."
+          ]
         },
         {
           "vinyetka": "A first-year resident reviews a normal posteroanterior chest radiograph with a radiologist and is asked to identify the chamber forming the lower part of the right cardiac border.",
@@ -1491,20 +1815,38 @@
             "Superior vena cava"
           ],
           "togri": 0,
-          "izoh": "PA rentgenda o'ng yurak chegarasi pastda - o'ng bo'lmacha, chap chegara - chap qorincha. O'ng qorincha old tomonda bo'lgani uchun chegara hosil qilmaydi."
+          "izoh": "PA rentgenda o'ng yurak chegarasi pastda - o'ng bo'lmacha, chap chegara - chap qorincha. O'ng qorincha old tomonda bo'lgani uchun chegara hosil qilmaydi.",
+          "vinyetka_uz": "Birinchi yil rezidenti radiolog bilan normal to'g'ri (PA) ko'krak rentgenogrammasini ko'rib chiqmoqda. Undan yurakning o'ng chegarasining pastki qismini qaysi bo'shliq hosil qilishini aytish so'raladi.",
+          "savol_uz": "Bu chegarani qaysi bo'shliq hosil qiladi?",
+          "javoblar_uz": [
+            "o'ng bo'lmacha",
+            "o'ng qorincha",
+            "chap bo'lmacha",
+            "chap qorincha",
+            "yuqori kovak vena"
+          ]
         },
         {
           "vinyetka": "A 34-year-old woman has 12 days of nasal congestion, purulent discharge and pain over both cheeks that worsens when she bends forward. Imaging shows an air-fluid level in the right maxillary sinus.",
           "savol": "Why is this sinus most commonly affected?",
           "javoblar": [
-            "Its ostium is high on the medial wall, so it drains against gravity",
+            "Ostium high on medial wall (drains against gravity)",
             "It drains into the inferior meatus",
             "It has no mucociliary clearance",
             "It is the only sinus present at birth",
             "It drains directly into the nasopharynx"
           ],
           "togri": 0,
-          "izoh": "Yuqori jag' bo'shlig'ining teshigi yuqori-medialda, o'rta burun yo'liga ochiladi -> suyuqlik og'irlik kuchiga qarshi chiqadi va osonlikcha to'planadi."
+          "izoh": "Yuqori jag' bo'shlig'ining teshigi yuqori-medialda, o'rta burun yo'liga ochiladi -> suyuqlik og'irlik kuchiga qarshi chiqadi va osonlikcha to'planadi.",
+          "vinyetka_uz": "34 yoshli ayolda 12 kundan beri burun bitishi, yiringli ajralma va oldinga engashganda kuchayadigan ikkala yonoq ustidagi og'riq bor. Tasvirda o'ng yuqori jag' bo'shlig'ida havo-suyuqlik sathi.",
+          "savol_uz": "Nega aynan shu bo'shliq eng ko'p zararlanadi?",
+          "javoblar_uz": [
+            "teshigi yuqorida - og'irlikka qarshi",
+            "pastki burun yo'liga ochiladi",
+            "mukotsiliar tozalash yo'q",
+            "tug'ilganda bor yagona bo'shliq",
+            "to'g'ridan-to'g'ri halqumga ochiladi"
+          ]
         },
         {
           "vinyetka": "A 9-year-old boy has recurrent nosebleeds after picking his nose. Each episode stops with direct pressure on the soft part of the nose. Examination shows prominent vessels on the anterior nasal septum.",
@@ -1517,33 +1859,60 @@
             "Nasopharyngeal angiofibroma"
           ],
           "togri": 0,
-          "izoh": "Burundan qon ketishning ko'p qismi oldingi to'siqdagi Kisselbax chigalidan (LEGS). Xavfli orqa qon ketish - sfenopalatin arteriyasidan."
+          "izoh": "Burundan qon ketishning ko'p qismi oldingi to'siqdagi Kisselbax chigalidan (LEGS). Xavfli orqa qon ketish - sfenopalatin arteriyasidan.",
+          "vinyetka_uz": "9 yoshli bolaning burnini kovlagandan keyin qayta-qayta burnidan qon ketadi. Har gal burunning yumshoq qismini qisganda to'xtaydi. Ko'rikda burun to'sig'ining old qismida bo'rtgan tomirlar.",
+          "savol_uz": "Qon ketishning eng ehtimolli manbai qaysi?",
+          "javoblar_uz": [
+            "Kisselbax chigali",
+            "sfenopalatin arteriya",
+            "faqat orqa g'alvirsimon a.",
+            "ichki uyqu arteriyasi",
+            "burun-halqum angiofibromasi"
+          ]
         },
         {
           "vinyetka": "A 58-year-old man who has smoked 2 packs a day for 35 years undergoes bronchoscopy. Biopsy of the bronchial lining shows stratified squamous epithelium without dysplasia in place of the normal lining.",
           "savol": "Which statement about this change is correct?",
           "javoblar": [
-            "It is squamous metaplasia and is reversible if he stops smoking",
+            "Squamous metaplasia, reversible if he stops smoking",
             "It is invasive squamous cell carcinoma",
             "It is irreversible dysplasia",
             "It represents normal bronchial epithelium",
             "It results from loss of club cells only"
           ],
           "togri": 0,
-          "izoh": "Chekish ko'p qatorli kiprikli epiteliyni yassi epiteliyga aylantiradi - yassi hujayrali metaplaziya. Bu himoya moslashuvi va chekish tashlansa qaytadi."
+          "izoh": "Chekish ko'p qatorli kiprikli epiteliyni yassi epiteliyga aylantiradi - yassi hujayrali metaplaziya. Bu himoya moslashuvi va chekish tashlansa qaytadi.",
+          "vinyetka_uz": "35 yildan beri kuniga 2 quti chekadigan 58 yoshli erkakka bronxoskopiya qilindi. Bronx devori biopsiyasida normal qoplam o'rnida displaziyasiz ko'p qavatli yassi epiteliy.",
+          "savol_uz": "Bu o'zgarish haqida qaysi fikr to'g'ri?",
+          "javoblar_uz": [
+            "yassi metaplaziya, qaytar",
+            "invaziv yassi hujayrali karsinoma",
+            "qaytmas displaziya",
+            "normal bronx epiteliysi",
+            "faqat klub hujayralari yo'qolishi"
+          ]
         },
         {
           "vinyetka": "A 6-year-old boy has recurrent pneumonia, chronic cough with thick sputum, and bulky foul-smelling stools. A pilocarpine sweat test shows elevated chloride. Genetic testing reveals homozygous deletion of phenylalanine at position 508.",
           "savol": "What is the main consequence of this mutation at the cellular level?",
           "javoblar": [
-            "Misfolded CFTR protein fails to reach the cell membrane",
+            "Misfolded CFTR fails to reach the membrane",
             "CFTR channel reaches the membrane but cannot open",
             "Excess chloride secretion into airways",
             "Absent epithelial sodium channels",
             "Defective dynein arms in cilia"
           ],
           "togri": 0,
-          "izoh": "deltaF508: CFTR oqsili noto'g'ri buklanadi va membranaga yetib bormaydi -> Cl- va suv chiqishi kamayadi, quyuq shilliq. Korrektorlar (lumakaftor) aynan shu nuqsonga ta'sir qiladi."
+          "izoh": "deltaF508: CFTR oqsili noto'g'ri buklanadi va membranaga yetib bormaydi -> Cl- va suv chiqishi kamayadi, quyuq shilliq. Korrektorlar (lumakaftor) aynan shu nuqsonga ta'sir qiladi.",
+          "vinyetka_uz": "6 yoshli bolada takroriy pnevmoniya, quyuq balg'amli surunkali yo'tal va hajmli, badbo'y najas bor. Pilokarpinli ter testida xlorid yuqori. Genetik tahlilda 508-pozitsiyadagi fenilalaninning gomozigot deletsiyasi.",
+          "savol_uz": "Bu mutatsiyaning hujayra darajasidagi asosiy oqibati qaysi?",
+          "javoblar_uz": [
+            "CFTR noto'g'ri buklanib membranaga yetmaydi",
+            "kanal membranada, lekin ochilmaydi",
+            "yo'llarga ortiqcha xlorid sekretsiyasi",
+            "epiteliy Na kanallari yo'q",
+            "kiprikchalarda dinein nuqsoni"
+          ]
         },
         {
           "vinyetka": "A 46-year-old woman with long-standing rheumatic mitral stenosis develops progressive hoarseness and difficulty swallowing solid food. Echocardiography shows a markedly enlarged left atrium.",
@@ -1556,7 +1925,16 @@
             "Hypoglossal nerve"
           ],
           "togri": 0,
-          "izoh": "Chap bo'lmacha - yurakning eng orqa qismi. Kattalashsa qizilo'ngachni (disfagiya) va chap qaytuvchi hiqildoq nervini ezadi (ovoz bo'g'ilishi) - Ortner sindromi."
+          "izoh": "Chap bo'lmacha - yurakning eng orqa qismi. Kattalashsa qizilo'ngachni (disfagiya) va chap qaytuvchi hiqildoq nervini ezadi (ovoz bo'g'ilishi) - Ortner sindromi.",
+          "vinyetka_uz": "Uzoq yillik revmatik mitral stenozi bo'lgan 46 yoshli ayolda ovozi tobora bo'g'ilmoqda va qattiq ovqatni yutish qiyinlashgan. Exokardiografiyada chap bo'lmacha keskin kattalashgan.",
+          "savol_uz": "Ovoz bo'g'ilishini qaysi nervning ezilishi tushuntiradi?",
+          "javoblar_uz": [
+            "chap qaytuvchi hiqildoq nervi",
+            "o'ng qaytuvchi hiqildoq nervi",
+            "chap diafragma nervi",
+            "tashqi hiqildoq nervi",
+            "til osti nervi"
+          ]
         },
         {
           "vinyetka": "A 61-year-old man has an acute inferior wall myocardial infarction with ST elevation in II, III and aVF. His heart rate drops to 38/min and ECG shows complete heart block.",
@@ -1569,7 +1947,16 @@
             "Diagonal branch of LAD"
           ],
           "togri": 0,
-          "izoh": "O'ng toj arteriyasi ko'pchilikda SA va AV tugunlarini ta'minlaydi va PDA ni beradi (o'ng dominantlik). Pastki infarktda bradikardiya va AV blokada shu sababli."
+          "izoh": "O'ng toj arteriyasi ko'pchilikda SA va AV tugunlarini ta'minlaydi va PDA ni beradi (o'ng dominantlik). Pastki infarktda bradikardiya va AV blokada shu sababli.",
+          "vinyetka_uz": "61 yoshli erkakda II, III, aVF da ST ko'tarilishi bilan o'tkir pastki miokard infarkti. Yurak urishi 38/min gacha tushdi, EKGda to'liq AV blokada.",
+          "savol_uz": "O'tkazuvchanlik buzilishiga qaysi arteriyaning tiqilishi sabab bo'lgan?",
+          "javoblar_uz": [
+            "o'ng toj arteriyasi",
+            "oldingi qorinchalararo a.",
+            "chap aylanma arteriya",
+            "chap bosh toj arteriyasi",
+            "LAD diagonal tarmog'i"
+          ]
         },
         {
           "vinyetka": "A 7-year-old boy has tearing of the left eye and clear discharge from the left nostril whenever he cries. His mother asks where tears reach the nose.",
@@ -1582,7 +1969,16 @@
             "Hiatus semilunaris"
           ],
           "togri": 0,
-          "izoh": "Burun-ko'z yosh kanali PASTKI burun yo'liga ochiladi. O'rta yo'l - peshona, yuqori jag', oldingi g'alvirsimon; yuqori yo'l - orqa g'alvirsimon katakchalar."
+          "izoh": "Burun-ko'z yosh kanali PASTKI burun yo'liga ochiladi. O'rta yo'l - peshona, yuqori jag', oldingi g'alvirsimon; yuqori yo'l - orqa g'alvirsimon katakchalar.",
+          "vinyetka_uz": "7 yoshli bola yig'laganda chap ko'zidan yosh oqadi va chap burun teshigidan tiniq suyuqlik keladi. Onasi ko'z yoshi burunga qayerdan tushishini so'raydi.",
+          "savol_uz": "Burun-ko'z yosh kanali burun bo'shlig'ining qaysi qismiga ochiladi?",
+          "javoblar_uz": [
+            "pastki burun yo'li",
+            "o'rta burun yo'li",
+            "yuqori burun yo'li",
+            "ponasimon-g'alvirsimon chuqurcha",
+            "yarimoysimon yoriq"
+          ]
         },
         {
           "vinyetka": "A 52-year-old woman with hypertension is started on lisinopril. A pharmacology student asks where most of the enzyme blocked by this drug is located.",
@@ -1595,7 +1991,16 @@
             "Type II pneumocytes"
           ],
           "togri": 0,
-          "izoh": "APF (angiotenzin I -> II) asosan o'pka kapillyarlari endoteliysida ishlab chiqariladi. Reninni - buyrakning yukstaglomerulyar hujayralari, angiotenzinogenni - jigar."
+          "izoh": "APF (angiotenzin I -> II) asosan o'pka kapillyarlari endoteliysida ishlab chiqariladi. Reninni - buyrakning yukstaglomerulyar hujayralari, angiotenzinogenni - jigar.",
+          "vinyetka_uz": "Gipertoniyasi bo'lgan 52 yoshli ayolga lizinopril buyurildi. Farmakologiya talabasi bu dori bloklaydigan fermentning asosiy qismi qayerda joylashganini so'raydi.",
+          "savol_uz": "Angiotenzinni aylantiruvchi ferment asosan qayerda ishlab chiqariladi?",
+          "javoblar_uz": [
+            "o'pka kapillyarlari endoteliysi",
+            "buyrak yukstaglomerulyar hujayralari",
+            "gepatotsitlar",
+            "buyrak usti koptokchali zonasi",
+            "II tip pnevmotsitlar"
+          ]
         },
         {
           "vinyetka": "A 63-year-old heavy smoker has a central lung mass. Biopsy shows small round blue cells with scant cytoplasm that stain for chromogranin and synaptophysin.",
@@ -1608,7 +2013,16 @@
             "Basal cells of the alveoli"
           ],
           "togri": 0,
-          "izoh": "Mayda hujayrali o'pka saratoni neyroendokrin (Kulchitskiy, APUD) hujayralardan: xromogranin, sinaptofizin musbat; markaziy joylashadi, chekish bilan kuchli bog'liq."
+          "izoh": "Mayda hujayrali o'pka saratoni neyroendokrin (Kulchitskiy, APUD) hujayralardan: xromogranin, sinaptofizin musbat; markaziy joylashadi, chekish bilan kuchli bog'liq.",
+          "vinyetka_uz": "Ko'p chekadigan 63 yoshli erkakda o'pkaning markaziy qismida o'sma. Biopsiyada sitoplazmasi kam, mayda dumaloq ko'k hujayralar; xromogranin va sinaptofizin bilan bo'yaladi.",
+          "savol_uz": "Bu o'sma qaysi normal nafas yo'li hujayralaridan kelib chiqqan?",
+          "javoblar_uz": [
+            "neyroendokrin (Kulchitskiy) hujayralar",
+            "klub hujayralari",
+            "I tip pnevmotsitlar",
+            "qadahsimon hujayralar",
+            "alveolalar bazal hujayralari"
+          ]
         },
         {
           "vinyetka": "A 26-year-old man with recurrent sinusitis and two episodes of pneumonia is evaluated for infertility. Semen analysis shows azoospermia, and the vas deferens cannot be palpated bilaterally. Sweat chloride is elevated.",
@@ -1621,7 +2035,16 @@
             "Retrograde ejaculation"
           ],
           "togri": 0,
-          "izoh": "Mukovissidozda erkaklarda urug' yo'li tug'ma yo'q - azoospermiya, lekin spermatogenez saqlanishi mumkin. Kartagener sindromida esa spermatozoid harakatsiz."
+          "izoh": "Mukovissidozda erkaklarda urug' yo'li tug'ma yo'q - azoospermiya, lekin spermatogenez saqlanishi mumkin. Kartagener sindromida esa spermatozoid harakatsiz.",
+          "vinyetka_uz": "Takroriy sinusit va ikki marta pnevmoniya o'tkazgan 26 yoshli erkak bepushtlik sababli tekshirilmoqda. Spermogrammada azoospermiya, ikkala tomonda urug' yo'li paypaslanmaydi. Terdagi xlorid yuqori.",
+          "savol_uz": "Bepushtlikning eng ehtimolli sababi qaysi?",
+          "javoblar_uz": [
+            "ikki tomonlama urug' yo'li tug'ma yo'q",
+            "spermatozoid dumi harakatsiz",
+            "birlamchi moyak yetishmovchiligi",
+            "varikotsele",
+            "retrograd eyakulyatsiya"
+          ]
         },
         {
           "vinyetka": "An 11-year-old girl with cystic fibrosis carries a gating mutation (G551D): CFTR protein reaches the apical membrane but the channel rarely opens.",
@@ -1634,7 +2057,16 @@
             "Azithromycin"
           ],
           "togri": 0,
-          "izoh": "Kanal membranada, lekin ochilmaydi -> potensiator IVAKAFTOR darvozani ochiq tutadi. Oqsil membranaga yetmasa (deltaF508) -> korrektor lumakaftor/tezakaftor."
+          "izoh": "Kanal membranada, lekin ochilmaydi -> potensiator IVAKAFTOR darvozani ochiq tutadi. Oqsil membranaga yetmasa (deltaF508) -> korrektor lumakaftor/tezakaftor.",
+          "vinyetka_uz": "Mukovissidozli 11 yoshli qizda 'darvoza' mutatsiyasi (G551D) bor: CFTR oqsili apikal membranaga yetib boradi, lekin kanal kam ochiladi.",
+          "savol_uz": "Qaysi dori aynan shu nuqsonga ta'sir qiladi?",
+          "javoblar_uz": [
+            "ivakaftor",
+            "lumakaftor",
+            "dornaza alfa",
+            "pankrelipaza",
+            "azitromitsin"
+          ]
         },
         {
           "vinyetka": "A 30-year-old man has sharp retrosternal chest pain 1 week after a viral illness. The pain improves when he leans forward and radiates to the left trapezius ridge and shoulder. A friction rub is heard.",
@@ -1647,7 +2079,16 @@
             "Greater splanchnic nerve"
           ],
           "togri": 0,
-          "izoh": "Perikard diafragma nervi (C3-C5) bilan innervatsiya qilinadi - perikardit og'rig'i bo'yin va yelkaga (trapetsiya qirrasi) uzatiladi. Engashganda kamayadi."
+          "izoh": "Perikard diafragma nervi (C3-C5) bilan innervatsiya qilinadi - perikardit og'rig'i bo'yin va yelkaga (trapetsiya qirrasi) uzatiladi. Engashganda kamayadi.",
+          "vinyetka_uz": "30 yoshli erkakda virusli kasallikdan 1 hafta o'tib to'sh ortida o'tkir og'riq paydo bo'ldi. Oldinga engashganda kamayadi va chap trapetsiya qirrasi hamda yelkaga uzatiladi. Perikard ishqalanish shovqini eshitiladi.",
+          "savol_uz": "Yelkaga uzatilgan og'riqni qaysi nerv o'tkazadi?",
+          "javoblar_uz": [
+            "diafragma nervi",
+            "adashgan nerv",
+            "qovurg'a-yelka nervi",
+            "uzun ko'krak nervi",
+            "katta splanxnik nerv"
+          ]
         },
         {
           "vinyetka": "A 57-year-old man has an acute anterior wall myocardial infarction with ST elevation in V1-V4. He later develops a new ventricular septal defect.",
@@ -1660,7 +2101,16 @@
             "Right marginal artery"
           ],
           "togri": 0,
-          "izoh": "LAD - chap qorincha old devori va qorinchalararo to'siqning old 2/3 qismi. Eng ko'p tiqiladigan arteriya; asorati - to'siq yorilishi."
+          "izoh": "LAD - chap qorincha old devori va qorinchalararo to'siqning old 2/3 qismi. Eng ko'p tiqiladigan arteriya; asorati - to'siq yorilishi.",
+          "vinyetka_uz": "57 yoshli erkakda V1-V4 da ST ko'tarilishi bilan o'tkir oldingi devor miokard infarkti. Keyinchalik unda yangi qorinchalararo to'siq nuqsoni paydo bo'ldi.",
+          "savol_uz": "Qaysi arteriya tiqilgan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "oldingi qorinchalararo a. (LAD)",
+            "o'ng toj arteriyasi",
+            "chap aylanma arteriya",
+            "orqa qorinchalararo arteriya",
+            "o'ng chekka arteriya"
+          ]
         }
       ]
     },
@@ -2012,7 +2462,16 @@
             "Regression of the vitelline duct"
           ],
           "togri": 0,
-          "izoh": "Qiyshiq chov churrasi: qin o'simtasi yopilmagan, chuqur halqa orqali epigastral tomirlardan LATERALDA kiradi va yorg'oqqa tushadi. Gidrotsele ham shu sababdan."
+          "izoh": "Qiyshiq chov churrasi: qin o'simtasi yopilmagan, chuqur halqa orqali epigastral tomirlardan LATERALDA kiradi va yorg'oqqa tushadi. Gidrotsele ham shu sababdan.",
+          "vinyetka_uz": "3 oylik o'g'il bolaning o'ng chov sohasida yig'laganda yorg'oqqacha tushadigan, vaqti-vaqti bilan paydo bo'ladigan bo'rtma bor. Operatsiyada churra qopi chov kanaliga pastki epigastral tomirlardan lateralda kirgani aniqlandi.",
+          "savol_uz": "Qaysi embrional jarayonning buzilishi bu churraga sabab bo'lgan?",
+          "javoblar_uz": [
+            "qin o'simtasining yopilishi",
+            "plevra-qorinparda membranasi yopilishi",
+            "gubernakulumning tushishi",
+            "urorektal to'siq qo'shilishi",
+            "sariqlik yo'li regressiyasi"
+          ]
         },
         {
           "vinyetka": "A 72-year-old man with chronic constipation and benign prostatic hyperplasia has a groin bulge that appears on straining and disappears when he lies down. At surgery the bulge is medial to the inferior epigastric vessels.",
@@ -2025,7 +2484,16 @@
             "Linea alba"
           ],
           "togri": 0,
-          "izoh": "To'g'ri chov churrasi: Hesselbax uchburchagida ko'ndalang fassiya zaiflashadi, epigastral tomirlardan MEDIALDA. Keksa erkaklar, kuchanish (qabziyat, BPH)."
+          "izoh": "To'g'ri chov churrasi: Hesselbax uchburchagida ko'ndalang fassiya zaiflashadi, epigastral tomirlardan MEDIALDA. Keksa erkaklar, kuchanish (qabziyat, BPH).",
+          "vinyetka_uz": "Surunkali qabziyati va prostata xavfsiz giperplaziyasi bo'lgan 72 yoshli erkakda kuchanganda paydo bo'lib, yotganda yo'qoladigan chov bo'rtmasi bor. Operatsiyada bo'rtma pastki epigastral tomirlardan medialda.",
+          "savol_uz": "Qaysi tuzilmaning zaiflashuvi asosiy sabab?",
+          "javoblar_uz": [
+            "Hesselbax uchburchagida ko'ndalang fassiya",
+            "chuqur chov halqasi",
+            "son kanali",
+            "Spigel aponevrozi",
+            "oq chiziq"
+          ]
         },
         {
           "vinyetka": "A 65-year-old woman has a painful, tender, irreducible lump in the right groin with vomiting. The mass lies below the inguinal ligament and lateral to the pubic tubercle.",
@@ -2038,7 +2506,16 @@
             "Lateral to the femoral nerve"
           ],
           "togri": 0,
-          "izoh": "Son churrasi: son kanali orqali, chov boylamidan pastda, son venasidan medialda. Ayollarda ko'proq va qisilish xavfi eng yuqori - shoshilinch operatsiya."
+          "izoh": "Son churrasi: son kanali orqali, chov boylamidan pastda, son venasidan medialda. Ayollarda ko'proq va qisilish xavfi eng yuqori - shoshilinch operatsiya.",
+          "vinyetka_uz": "65 yoshli ayolning o'ng chov sohasida og'riqli, bosganda og'riydigan, qaytmaydigan tugun va qusish bor. Tugun chov boylamidan pastda va qov do'mbog'idan lateralda joylashgan.",
+          "savol_uz": "Bu churra qaysi bo'shliq orqali o'tgan?",
+          "javoblar_uz": [
+            "son kanali, son venasidan medialda",
+            "chuqur chov halqasi",
+            "Hesselbax uchburchagi",
+            "yopqich kanal",
+            "son nervidan lateralda"
+          ]
         },
         {
           "vinyetka": "A 28-year-old man is diagnosed with a seminoma of the left testis. Staging CT is ordered to look for lymph node metastases.",
@@ -2051,7 +2528,16 @@
             "Internal iliac nodes"
           ],
           "togri": 0,
-          "izoh": "Moyak limfasi moyak tomirlari bo'ylab bel (aorta yoni) tugunlariga boradi. Yorg'oq terisi esa yuza chov tugunlariga - farqini eslab qoling."
+          "izoh": "Moyak limfasi moyak tomirlari bo'ylab bel (aorta yoni) tugunlariga boradi. Yorg'oq terisi esa yuza chov tugunlariga - farqini eslab qoling.",
+          "vinyetka_uz": "28 yoshli erkakda chap moyak seminomasi aniqlandi. Limfa tugunlariga metastazlarni izlash uchun KT buyurildi.",
+          "savol_uz": "Birinchi bo'lib qaysi limfa tugunlari zararlanadi?",
+          "javoblar_uz": [
+            "bel (para-aortal) tugunlar",
+            "yuza chov tugunlari",
+            "chuqur chov tugunlari",
+            "tashqi yonbosh tugunlari",
+            "ichki yonbosh tugunlari"
+          ]
         },
         {
           "vinyetka": "After an open inguinal hernia repair, a 35-year-old man is found to have absent elevation of the testis when the skin of his upper medial thigh is stroked. Sensation over the thigh is normal.",
@@ -2064,7 +2550,16 @@
             "Pudendal nerve"
           ],
           "togri": 0,
-          "izoh": "Kremaster refleksi: sezuvchi - yonbosh-chov nervi (L1), harakat - son-jinsiy nervning jinsiy tarmog'i. Sezgi saqlangan, javob yo'q -> harakat tarmog'i shikastlangan."
+          "izoh": "Kremaster refleksi: sezuvchi - yonbosh-chov nervi (L1), harakat - son-jinsiy nervning jinsiy tarmog'i. Sezgi saqlangan, javob yo'q -> harakat tarmog'i shikastlangan.",
+          "vinyetka_uz": "Ochiq usulda chov churrasi operatsiyasidan keyin 35 yoshli erkakda sonning yuqori-ichki terisi silanganda moyak ko'tarilmaydi. Sondagi sezgi normal.",
+          "savol_uz": "Qaysi nervning shikastlanishi bu holatni eng yaxshi tushuntiradi?",
+          "javoblar_uz": [
+            "son-jinsiy nervning jinsiy tarmog'i",
+            "yonbosh-chov nervi",
+            "yonbosh-qorinosti nervi",
+            "yopqich nerv",
+            "uyat nervi"
+          ]
         },
         {
           "vinyetka": "A full-term newborn develops severe respiratory distress immediately after birth. The abdomen is scaphoid, and bowel sounds are heard over the left hemithorax. Chest X-ray shows bowel loops in the left chest with mediastinal shift to the right.",
@@ -2072,12 +2567,21 @@
           "javoblar": [
             "Incomplete closure of the pleuroperitoneal membrane",
             "Laxity of the phrenoesophageal membrane",
-            "Failure of the septum transversum to form the central tendon only",
+            "Septum transversum failed to form central tendon",
             "Persistent processus vaginalis",
             "Defect in the Spigelian aponeurosis"
           ],
           "togri": 0,
-          "izoh": "Tug'ma diafragma churrasi: plevra-qorinparda membranasi yopilmagan, ko'pincha CHAPda (o'ngni jigar himoyalaydi). Qorin 'botiq', o'pka gipoplaziyasi xavfi."
+          "izoh": "Tug'ma diafragma churrasi: plevra-qorinparda membranasi yopilmagan, ko'pincha CHAPda (o'ngni jigar himoyalaydi). Qorin 'botiq', o'pka gipoplaziyasi xavfi.",
+          "vinyetka_uz": "Muddatida tug'ilgan chaqaloqda tug'ilgan zahoti og'ir nafas yetishmovchiligi paydo bo'ldi. Qorni ichiga botgan, ichak shovqinlari chap ko'krakda eshitiladi. Rentgenda chap ko'krakda ichak halqalari, ko'ks oralig'i o'ngga surilgan.",
+          "savol_uz": "Qaysi embrional nuqson sabab bo'lgan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "plevra-qorinparda membranasi yopilmagan",
+            "qizilo'ngach-diafragma membranasi bo'shligi",
+            "ko'ndalang to'siq markaziy pay hosil qilmagan",
+            "qin o'simtasi ochiq qolgan",
+            "Spigel aponevrozi nuqsoni"
+          ]
         },
         {
           "vinyetka": "A 58-year-old obese woman has chronic heartburn and regurgitation. Barium swallow shows the gastroesophageal junction located above the diaphragm, with an 'hourglass' configuration of the stomach.",
@@ -2090,7 +2594,16 @@
             "Epigastric hernia"
           ],
           "togri": 0,
-          "izoh": "Sirpanuvchi hiatal churra: me'da-qizilo'ngach tutashuvi diafragmadan yuqoriga siljiydi, 'qum soati' ko'rinishi, GERK. Paraezofagealda tutashuv joyida qoladi."
+          "izoh": "Sirpanuvchi hiatal churra: me'da-qizilo'ngach tutashuvi diafragmadan yuqoriga siljiydi, 'qum soati' ko'rinishi, GERK. Paraezofagealda tutashuv joyida qoladi.",
+          "vinyetka_uz": "Semiz 58 yoshli ayolda surunkali jig'ildon qaynashi va regurgitatsiya bor. Bariy bilan rentgenda me'da-qizilo'ngach tutashuvi diafragmadan yuqorida, me'da 'qum soati' shaklida.",
+          "savol_uz": "Qaysi turdagi churra mavjud?",
+          "javoblar_uz": [
+            "sirpanuvchi hiatal churra",
+            "paraezofageal hiatal churra",
+            "tug'ma diafragma churrasi",
+            "Spigel churrasi",
+            "epigastral churra"
+          ]
         },
         {
           "vinyetka": "During laparotomy for a liver laceration after a car crash, the surgeon places a vascular clamp across the free edge of the lesser omentum at the omental foramen to control bleeding.",
@@ -2103,7 +2616,16 @@
             "Superior mesenteric artery and vein"
           ],
           "togri": 0,
-          "izoh": "Pringl manyovri: jigar-o'n ikki barmoqli ichak boylami (portal triada) qisiladi. Qon ketish davom etsa, manba jigar venalari yoki pastki kovak vena."
+          "izoh": "Pringl manyovri: jigar-o'n ikki barmoqli ichak boylami (portal triada) qisiladi. Qon ketish davom etsa, manba jigar venalari yoki pastki kovak vena.",
+          "vinyetka_uz": "Avtohalokatdan keyingi jigar yirtilishida laparotomiya paytida jarroh qon ketishini to'xtatish uchun charvi teshigi sohasida kichik charvining erkin chetiga tomir qisqichini qo'yadi.",
+          "savol_uz": "Bu manyovr qaysi tuzilmalarni qisadi?",
+          "javoblar_uz": [
+            "jigar a., darvoza v., umumiy o't yo'li",
+            "jigar venalari va pastki kovak vena",
+            "taloq arteriyasi va venasi",
+            "chap me'da arteriyasi va venasi",
+            "yuqori tutqich arteriyasi va venasi"
+          ]
         },
         {
           "vinyetka": "A 50-year-old man with a perforated duodenal ulcer has been lying flat in bed for several hours. He develops generalized peritonitis.",
@@ -2116,7 +2638,16 @@
             "Pelvic inlet"
           ],
           "togri": 0,
-          "izoh": "Chalqancha yotganda eng past nuqta - jigar-buyrak chuqurchasi. Tik turganda suyuqlik erkaklarda to'g'ri ichak-qovuq, ayollarda to'g'ri ichak-bachadon cho'ntagiga oqadi."
+          "izoh": "Chalqancha yotganda eng past nuqta - jigar-buyrak chuqurchasi. Tik turganda suyuqlik erkaklarda to'g'ri ichak-qovuq, ayollarda to'g'ri ichak-bachadon cho'ntagiga oqadi.",
+          "vinyetka_uz": "Teshilgan o'n ikki barmoqli ichak yarasi bo'lgan 50 yoshli erkak bir necha soatdan beri chalqancha yotibdi. Unda tarqalgan peritonit rivojlandi.",
+          "savol_uz": "Bu holatda qorin parda suyuqligi bo'shliqning eng past nuqtasida - qayerda to'planadi?",
+          "javoblar_uz": [
+            "jigar-buyrak chuqurchasi (Morison)",
+            "to'g'ri ichak-qovuq cho'ntagi",
+            "chap yonbosh ariqcha",
+            "kichik charvi xaltasi",
+            "kichik tos kirish teshigi"
+          ]
         },
         {
           "vinyetka": "A pathology resident examines a biopsy from the small intestine. It shows villi on the surface and coiled bicarbonate-secreting mucous glands located in the submucosa.",
@@ -2129,7 +2660,16 @@
             "Gastric antrum"
           ],
           "togri": 0,
-          "izoh": "Shilliq osti qavatdagi Brunner bezlari (bikarbonat) faqat o'n ikki barmoqli ichakda. Yonbosh ichakda - Peyer pilakchalari, yo'g'on ichakda vorsinka yo'q."
+          "izoh": "Shilliq osti qavatdagi Brunner bezlari (bikarbonat) faqat o'n ikki barmoqli ichakda. Yonbosh ichakda - Peyer pilakchalari, yo'g'on ichakda vorsinka yo'q.",
+          "vinyetka_uz": "Patologiya rezidenti ingichka ichak biopsiyasini ko'rmoqda. Yuzasida vorsinkalar, shilliq osti qavatda esa bikarbonat ajratuvchi buralgan shilliq bezlar bor.",
+          "savol_uz": "Biopsiya oshqozon-ichak yo'lining qaysi qismidan olingan?",
+          "javoblar_uz": [
+            "o'n ikki barmoqli ichak",
+            "och ichak",
+            "yonbosh ichak",
+            "ko'ndalang chambar ichak",
+            "me'da antrumi"
+          ]
         },
         {
           "vinyetka": "A 34-year-old woman undergoes laparoscopic surgery. The surgeon notes a band of tissue traveling through the right inguinal canal from the uterus toward the labium majus.",
@@ -2142,7 +2682,16 @@
             "Tunica albuginea"
           ],
           "togri": 0,
-          "izoh": "Ayollarda chov kanalidan bachadonning yumaloq boylami o'tadi - erkaklardagi gubernaculum testis gomologi. U kaudal jinsiy boylam qoldig'i."
+          "izoh": "Ayollarda chov kanalidan bachadonning yumaloq boylami o'tadi - erkaklardagi gubernaculum testis gomologi. U kaudal jinsiy boylam qoldig'i.",
+          "vinyetka_uz": "34 yoshli ayolga laparoskopik operatsiya qilinmoqda. Jarroh o'ng chov kanali orqali bachadondan katta jinsiy lab tomon ketayotgan to'qima tasmasini ko'radi.",
+          "savol_uz": "Bu tuzilma erkaklardagi qaysi tuzilmaning embrional gomologi?",
+          "javoblar_uz": [
+            "moyak yo'naltiruvchisi",
+            "qin o'simtasi",
+            "urug' yo'li",
+            "kremaster mushagi",
+            "oqsil parda"
+          ]
         },
         {
           "vinyetka": "A 31-year-old man has a dull ache in the left scrotum that worsens with standing. Examination shows a 'bag of worms' above the left testis that decreases when he lies down.",
@@ -2155,7 +2704,16 @@
             "Vas deferens"
           ],
           "togri": 0,
-          "izoh": "Varikotsele - pampinform venoz chigal kengayishi ('chuvalchanglar xaltasi'). Bu chigal moyakni sovutadi; kengaysa harorat oshib, bepushtlik xavfi."
+          "izoh": "Varikotsele - pampinform venoz chigal kengayishi ('chuvalchanglar xaltasi'). Bu chigal moyakni sovutadi; kengaysa harorat oshib, bepushtlik xavfi.",
+          "vinyetka_uz": "31 yoshli erkakda tik turganda kuchayadigan chap yorg'oqdagi lo'qillovchi og'riq bor. Ko'rikda chap moyak ustida yotganda kichrayadigan 'chuvalchanglar xaltasi' seziladi.",
+          "savol_uz": "Qaysi tuzilmaning kengayishi bu holatni tushuntiradi?",
+          "javoblar_uz": [
+            "pampinform venoz chigal",
+            "moyak arteriyasi",
+            "qin o'simtasi",
+            "urug' tizimchasi limfa tomirlari",
+            "urug' yo'li"
+          ]
         },
         {
           "vinyetka": "A 45-year-old man is evaluated for a groin bulge. When the examiner invaginates the scrotal skin and places a finger in the superficial inguinal ring, a mass strikes the TIP of the finger on coughing.",
@@ -2168,7 +2726,16 @@
             "Obturator hernia"
           ],
           "togri": 0,
-          "izoh": "Qiyshiq churra kanal bo'ylab keladi va barmoq UCHIGA uriladi; to'g'ri churra devordan bevosita bo'rtib, barmoq YUMSHOQ qismiga (pulpa) tegadi."
+          "izoh": "Qiyshiq churra kanal bo'ylab keladi va barmoq UCHIGA uriladi; to'g'ri churra devordan bevosita bo'rtib, barmoq YUMSHOQ qismiga (pulpa) tegadi.",
+          "vinyetka_uz": "45 yoshli erkak chov sohasidagi bo'rtma sababli tekshirilmoqda. Shifokor yorg'oq terisini ichkariga botirib, barmog'ini yuza chov halqasiga kiritadi; yo'talganda bo'rtma barmoq UCHIGA uriladi.",
+          "savol_uz": "Qaysi turdagi churra bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "qiyshiq chov churrasi",
+            "to'g'ri chov churrasi",
+            "son churrasi",
+            "Spigel churrasi",
+            "yopqich churra"
+          ]
         },
         {
           "vinyetka": "A cardiology fellow plans femoral venous access. She palpates the femoral arterial pulse just below the inguinal ligament.",
@@ -2176,12 +2743,21 @@
           "javoblar": [
             "Just medial to the femoral artery",
             "Just lateral to the femoral artery",
-            "Directly beneath the inguinal ligament midpoint, deep to the nerve",
+            "Beneath inguinal ligament midpoint, deep to nerve",
             "Lateral to the femoral nerve",
             "Into the femoral canal medial to the lymph nodes"
           ],
           "togri": 0,
-          "izoh": "NAVEL - lateraldan medialga: nerv, arteriya, vena, bo'sh joy, limfa. Vena arteriyadan medialda. Nerv son g'ilofidan tashqarida, eng lateralda."
+          "izoh": "NAVEL - lateraldan medialga: nerv, arteriya, vena, bo'sh joy, limfa. Vena arteriyadan medialda. Nerv son g'ilofidan tashqarida, eng lateralda.",
+          "vinyetka_uz": "Kardiologiya rezidenti son venasiga kateter qo'yishni rejalashtirmoqda. U chov boylamidan sal pastda son arteriyasi pulsini paypaslaydi.",
+          "savol_uz": "Son venasiga yetish uchun igna qayerga yo'naltirilishi kerak?",
+          "javoblar_uz": [
+            "arteriyadan sal medialga",
+            "arteriyadan sal lateralga",
+            "boylam o'rtasi ostiga, nervdan chuqurroq",
+            "son nervidan lateralga",
+            "limfa tugunlaridan medialga"
+          ]
         },
         {
           "vinyetka": "A 62-year-old woman has a painful mass in the lower abdomen lateral to the rectus abdominis, below the umbilicus. Physical examination is equivocal; ultrasound shows a defect in the aponeurosis along the semilunar line.",
@@ -2194,7 +2770,16 @@
             "Incisional hernia"
           ],
           "togri": 0,
-          "izoh": "Spigel churrasi - to'g'ri mushak va yarimoysimon chiziq orasidagi aponevroz nuqsoni, ko'pincha qorin pastida (orqa qin yo'q). Tashxis - UTT, KT."
+          "izoh": "Spigel churrasi - to'g'ri mushak va yarimoysimon chiziq orasidagi aponevroz nuqsoni, ko'pincha qorin pastida (orqa qin yo'q). Tashxis - UTT, KT.",
+          "vinyetka_uz": "62 yoshli ayolda kindikdan pastda, to'g'ri qorin mushagidan lateralda og'riqli tugun bor. Ko'rik natijasi noaniq; UTTda yarimoysimon chiziq bo'ylab aponevroz nuqsoni.",
+          "savol_uz": "Eng ehtimolli tashxis qaysi?",
+          "javoblar_uz": [
+            "Spigel churrasi",
+            "to'g'ri chov churrasi",
+            "kindik churrasi",
+            "epigastral churra",
+            "operatsiyadan keyingi churra"
+          ]
         },
         {
           "vinyetka": "A 40-year-old man has a perforated posterior gastric ulcer. Imaging shows fluid collecting directly behind the stomach, separate from the rest of the peritoneal cavity.",
@@ -2207,7 +2792,16 @@
             "Foramen of Bochdalek"
           ],
           "togri": 0,
-          "izoh": "Me'da orqasidagi kichik charvi xaltasi katta xalta bilan charvi (Vinslov) teshigi orqali tutashadi. Teshik oldida - lig. hepatoduodenale (portal triada)."
+          "izoh": "Me'da orqasidagi kichik charvi xaltasi katta xalta bilan charvi (Vinslov) teshigi orqali tutashadi. Teshik oldida - lig. hepatoduodenale (portal triada).",
+          "vinyetka_uz": "40 yoshli erkakda me'da orqa devori yarasi teshildi. Tasvirda suyuqlik bevosita me'da orqasida, qorin bo'shlig'ining qolgan qismidan alohida to'plangan.",
+          "savol_uz": "Bu bo'shliq katta xalta bilan qaysi teshik orqali tutashadi?",
+          "javoblar_uz": [
+            "charvi (Vinslov) teshigi",
+            "qizilo'ngach teshigi",
+            "chuqur chov halqasi",
+            "son halqasi",
+            "Boxdalek teshigi"
+          ]
         },
         {
           "vinyetka": "A 50-year-old man is stabbed in the back. CT shows a hematoma limited to the space behind the parietal peritoneum, surrounding the second part of the duodenum and the head of the pancreas.",
@@ -2220,7 +2814,16 @@
             "Jejunum"
           ],
           "togri": 0,
-          "izoh": "SAD PUCKER: buyrak usti, aorta/PKV, duodenum 2-4, me'da osti bezi (dumsiz), siydik nayi, ko'tariluvchi va tushuvchi chambar ichak, buyrak, qizilo'ngach, rektum."
+          "izoh": "SAD PUCKER: buyrak usti, aorta/PKV, duodenum 2-4, me'da osti bezi (dumsiz), siydik nayi, ko'tariluvchi va tushuvchi chambar ichak, buyrak, qizilo'ngach, rektum.",
+          "vinyetka_uz": "50 yoshli erkakning orqasiga pichoq urildi. KT da gematoma faqat parietal qorin parda orqasidagi bo'shliqda, o'n ikki barmoqli ichakning 2-qismi va me'da osti bezi boshi atrofida.",
+          "savol_uz": "Quyidagi a'zolardan qaysi biri ham shu bo'shliqda joylashgan?",
+          "javoblar_uz": [
+            "ko'tariluvchi chambar ichak",
+            "ko'ndalang chambar ichak",
+            "me'da",
+            "taloq",
+            "och ichak"
+          ]
         }
       ]
     }
