@@ -368,8 +368,8 @@
     "O‘zbekiston milliy jamoasining noyabr oyidagi o‘yinlari boshlanish vaqti ma’lum bo‘ldi",
     "Chempionlar ligasida Yamaldan zo‘r futbolchi kashf qilindi"
   ],
-  "last_slot": "2026-11-05 14:00",
-  "scorers_idx": 2,
+  "last_slot": "2026-11-05 15:00",
+  "scorers_idx": 3,
   "last_video_source": "UEFA",
   "table_idx": 4,
   "live": {
@@ -1336,7 +1336,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 628,
+    "last_id": 629,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
