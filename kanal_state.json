@@ -265,7 +265,8 @@
     "https://daryo.uz/2026/11/04/rafinya-neymar-va-rivaldoning-natijasini-yangiladi/",
     "yt:8tFkVM6eBxg",
     "https://sports.uz/oz/news/view/barsa-qiziqayotgan-husanov-siti-ning-o-ziga-ham-kerak",
-    "https://daryo.uz/2026/11/05/ozbekiston-milliy-jamoasining-noyabr-oyidagi-oyinlari-boshlanish-vaqti-malum-boldi/"
+    "https://daryo.uz/2026/11/05/ozbekiston-milliy-jamoasining-noyabr-oyidagi-oyinlari-boshlanish-vaqti-malum-boldi/",
+    "https://sports.uz/oz/news/view/chempionlar-ligasida-yamaldan-zo-r-futbolchi-kashf-qilindi"
   ],
   "used_quiz": [
     23,
@@ -306,7 +307,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Ronalduning \"Paxtakor\"ga qarshi oʻyiniga chiptalar narxi \"uchdi\"!",
     "“Liverpul” “Valensiya” qanot himoyachisi uchun 30 million yevro to‘lashga tayyor",
     "Trent \"Real\" bo‘yicha yakuniy qarorga keldi",
     "\"Chelsi\" va \"Arsenal\"dan porlagan oʻyinchi futboldan haydaladigan boʻlyapti",
@@ -365,9 +365,10 @@
     "Xabi Alonso \"Real\"ning eng baquvvat himoyachisini \"Chelsi\"ga chaqiryapti",
     "Rafinya Neymar va Rivaldoning natijasini yangiladi",
     "“Barsa” qiziqayotgan Husanov “Siti”ning o‘ziga ham kerak!",
-    "O‘zbekiston milliy jamoasining noyabr oyidagi o‘yinlari boshlanish vaqti ma’lum bo‘ldi"
+    "O‘zbekiston milliy jamoasining noyabr oyidagi o‘yinlari boshlanish vaqti ma’lum bo‘ldi",
+    "Chempionlar ligasida Yamaldan zo‘r futbolchi kashf qilindi"
   ],
-  "last_slot": "2026-11-05 13:00",
+  "last_slot": "2026-11-05 14:00",
   "scorers_idx": 2,
   "last_video_source": "UEFA",
   "table_idx": 4,
@@ -1335,7 +1336,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 627,
+    "last_id": 628,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
