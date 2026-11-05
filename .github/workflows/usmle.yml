@@ -1,0 +1,49 @@
+name: USMLE Pulsi kanali
+
+on:
+  schedule:
+    # GitHub jadvali soatlab kechikadi, shuning uchun bu faqat ertalab ishga tushirish va zaxira:
+    # ishga tushgan nusxa 23:00 gacha uzluksiz ishlaydi va postlarni aniq vaqtida (1 daqiqa ichida) joylaydi.
+    # Toshkent 07:00-22:59 = UTC 02-17. Postlar: 08,10,12,13,15,17,18,19,21,22 (usmle.py dagi SLOTS).
+    - cron: "*/20 2-17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write  # o'zini qayta ishga tushirish uchun
+
+concurrency:
+  group: usmle
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      TZ: Asia/Tashkent
+      TG_API_ID: ${{ secrets.TG_API_ID }}
+      TG_API_HASH: ${{ secrets.TG_API_HASH }}
+      TG_SESSION: ${{ secrets.TG_SESSION_USMLE }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main  # eng yangi holat (takroriy postlar bo'lmasin)
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-bulut.txt
+      - run: pip install -r requirements-bulut.txt
+      - run: |
+          git config user.name "kanal-bot"
+          git config user.email "kanal-bot@users.noreply.github.com"
+      # har daqiqada tekshiradi; holat har postdan keyin darhol repoga yoziladi
+      - run: python bulut.py usmle --loop 330 --until 23
+        timeout-minutes: 340
+      - name: Keyingi nusxani ishga tushirish
+        if: success()  # xato bo'lsa - zaxira jadval 20 daqiqada qayta urinadi
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(date +%H)" -lt 22 ]; then gh workflow run usmle.yml --ref main; fi

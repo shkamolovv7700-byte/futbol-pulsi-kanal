@@ -5,6 +5,7 @@ Kanal egasi - ikkinchi akkaunt. Kirish kaliti GitHub maxfiy o'zgaruvchisida (TG_
   python bulut.py        - Futbol Pulsi (kanal.py)
   python bulut.py cs2    - CS2 Pulsi (cs2.py)
   python bulut.py kitob  - Kitob Pulsi (kitob.py)
+  python bulut.py usmle  - USMLE Pulsi (usmle.py)
   python bulut.py kitob --loop 330 --until 23
                          - uzluksiz rejim: 330 daqiqa yoki soat 23:00 gacha har daqiqada tekshiradi
                            (GitHub jadvali soatlab kechikadi - postlar aniq vaqtida chiqishi uchun)
@@ -57,7 +58,7 @@ async def loop(module, client: TelegramClient, minutes: int, until_hour: int) ->
 
 async def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("name", nargs="?", default="kanal", choices=["kanal", "cs2", "kitob"])
+    parser.add_argument("name", nargs="?", default="kanal", choices=["kanal", "cs2", "kitob", "usmle"])
     parser.add_argument("--loop", type=int, default=0, help="uzluksiz rejim davomiyligi, daqiqa")
     parser.add_argument("--until", type=int, default=24, help="shu soatda to'xtaydi (Toshkent vaqti)")
     args = parser.parse_args()

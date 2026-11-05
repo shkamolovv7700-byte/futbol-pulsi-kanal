@@ -32,3 +32,8 @@
 !kitob_kontent.json
 !kitob_state.json
 !.github/workflows/kitob.yml
+!usmle.py
+!usmle_rasm.py
+!usmle_kontent.json
+!usmle_state.json
+!.github/workflows/usmle.yml
