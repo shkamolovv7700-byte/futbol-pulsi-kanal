@@ -2,13 +2,15 @@ name: Kitob Pulsi kanali
 
 on:
   schedule:
-    # Toshkent 08,10,13,15,17,18-22 = UTC 03,05,08,10,12-17: kuniga 10 ta (13 va 21 da - parcha). Har 20 daqiqada tekshiradi
-    # (GitHub kechiksa ham o'sha soat ichida joylanadi), har bir ishga tushish 1 daqiqa atrofida.
-    - cron: "5,25,45 3,5,8,10,12-17 * * *"
+    # GitHub jadvali soatlab kechikadi, shuning uchun bu faqat ertalab ishga tushirish va zaxira:
+    # ishga tushgan nusxa 23:00 gacha uzluksiz ishlaydi va postlarni aniq vaqtida (1 daqiqa ichida) joylaydi.
+    # Toshkent 07:00-22:59 = UTC 02-17. Postlar: 08,10,13,15,17,18-22 (13 va 21 da - parcha).
+    - cron: "*/20 2-17 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+  actions: write  # o'zini qayta ishga tushirish uchun
 
 concurrency:
   group: kitob
@@ -17,7 +19,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 350
     env:
       TZ: Asia/Tashkent
       TG_API_ID: ${{ secrets.TG_API_ID }}
@@ -33,14 +35,15 @@ jobs:
           cache: pip
           cache-dependency-path: requirements-bulut.txt
       - run: pip install -r requirements-bulut.txt
-      - run: python bulut.py kitob
-        timeout-minutes: 5
-      - name: Holatni saqlash
-        if: always()
-        run: |
+      - run: |
           git config user.name "kanal-bot"
           git config user.email "kanal-bot@users.noreply.github.com"
-          git add kitob_state.json
-          git diff --cached --quiet || git commit -m "kitob holati"
-          git pull --rebase -X theirs || git rebase --abort
-          git push
+      # har daqiqada tekshiradi; holat har postdan keyin darhol repoga yoziladi
+      - run: python bulut.py kitob --loop 330 --until 23
+        timeout-minutes: 340
+      - name: Keyingi nusxani ishga tushirish
+        if: success()  # xato bo'lsa - zaxira jadval 20 daqiqada qayta urinadi
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "$(date +%H)" -lt 22 ]; then gh workflow run kitob.yml --ref main; fi
