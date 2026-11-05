@@ -282,7 +282,8 @@
     8,
     9,
     32,
-    28
+    28,
+    13
   ],
   "used_poll": [
     19,
@@ -366,7 +367,7 @@
     "“Barsa” qiziqayotgan Husanov “Siti”ning o‘ziga ham kerak!",
     "O‘zbekiston milliy jamoasining noyabr oyidagi o‘yinlari boshlanish vaqti ma’lum bo‘ldi"
   ],
-  "last_slot": "2026-11-05 12:00",
+  "last_slot": "2026-11-05 13:00",
   "scorers_idx": 2,
   "last_video_source": "UEFA",
   "table_idx": 4,
@@ -1334,7 +1335,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 626,
+    "last_id": 627,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
