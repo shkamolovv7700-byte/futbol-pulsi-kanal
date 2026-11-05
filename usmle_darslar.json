@@ -754,6 +754,254 @@
           "izoh": "O'ng toj arteriyasi ko'pchilikda SA va AV tugunlarini ta'minlaydi va PDA ni beradi (o'ng dominantlik). Pastki infarktda bradikardiya va AV blokada shu sababli."
         }
       ]
+    },
+    {
+      "nomi": "Qorin anatomiyasi (1-qism)",
+      "fan": "Anatomy",
+      "manba": "4-lesson._Abdominal_anatomy_1-part.pdf",
+      "postlar": [
+        {
+          "sarlavha": "Anterior abdominal wall layers",
+          "bandlar": [
+            "Skin -> superficial fascia: Camper (fatty) + Scarpa (membranous)",
+            "External oblique -> internal oblique -> transversus abdominis",
+            "Transversalis fascia (weakness -> direct hernia)",
+            "Extraperitoneal connective tissue -> parietal peritoneum"
+          ],
+          "izoh": "Qorin old devori qavatlari - tashqaridan ichkariga. Laparotomiya, laparoskopiya va churralarni tushunish uchun asos.\n\n1. Teri\n2. Yuza fassiya - ikki qavat: yog'li Kamper qavati va zichroq, tolali Skarpa qavati\n3. Tashqi qiyshiq mushak\n4. Ichki qiyshiq mushak\n5. Ko'ndalang mushak\n6. Ko'ndalang fassiya\n7. Qorin parda oldi (ekstraperitoneal) biriktiruvchi to'qima\n8. Parietal qorin parda\n\n💡 USMLE uchun: ko'ndalang fassiyaning yoshga bog'liq zaiflashuvi to'g'ri chov churrasining sababi. Uchta yassi mushak va ularning aponevrozlari chov kanali devorlarini ham hosil qiladi."
+        },
+        {
+          "sarlavha": "Inguinal canal",
+          "bandlar": [
+            "Oblique passage ~4 cm, above medial half of inguinal ligament",
+            "Deep ring: lateral to inferior epigastric vessels, above midpoint of inguinal ligament",
+            "Superficial ring: superolateral to pubic tubercle",
+            "Female: round ligament of uterus (homologue of gubernaculum)",
+            "Ilioinguinal nerve (L1) exits superficial ring: mons pubis, labia majora / anterior scrotum"
+          ],
+          "izoh": "Chov kanali - qorin old devorining pastki qismidagi qiyshiq yo'l, uzunligi taxminan 4 sm. Chov boylamining medial yarmiga parallel va undan yuqorida yotadi. Chov churralari aynan shu sohada paydo bo'ladi.\n\n🔹 Chuqur (ichki) halqa - kanalga kirish joyi. Pastki epigastral tomirlardan LATERALDA, chov boylamining o'rtasidan sal yuqorida.\n🔹 Yuza (tashqi) halqa - kanalning medial chiqish teshigi, qov do'mbog'idan yuqori-lateralda.\n\n♀️ Ayollarda kanal orqali bachadonning yumaloq boylami o'tadi - u bachadondan katta jinsiy lablarga boradi va erkaklardagi moyak yo'naltiruvchisining (gubernaculum) gomologi.\n\n⚡️ Yonbosh-chov nervi (L1, bel chigali tarmog'i) yuza halqadan chiqib, ayollarda qov tepaligi va katta jinsiy lablar, erkaklarda yorg'oqning old-yon terisini innervatsiya qiladi."
+        },
+        {
+          "sarlavha": "Spermatic cord and cremasteric reflex",
+          "bandlar": [
+            "Cord: deep ring -> inguinal canal -> superficial ring -> scrotum",
+            "Testicular artery (from aorta), pampiniform plexus (cooling), vas deferens + its artery",
+            "Also autonomic nerves and lymphatics",
+            "Testis lymph -> lumbar (para-aortic) nodes, NOT superficial inguinal",
+            "Cremasteric reflex: afferent ilioinguinal (L1), efferent genital branch of genitofemoral"
+          ],
+          "izoh": "Urug' tizimchasi moyak tushishi davomida hosil bo'ladi. U chuqur halqadan boshlanib, chov kanali orqali o'tadi va yuza halqadan chiqib yorg'oqqa tushadi.\n\nTarkibi:\n• Moyak arteriyasi - qorin aortasidan\n• Pampinform venoz chigal - moyakni sovutib, haroratini boshqaradi; chuqur halqada moyak venasiga qo'shiladi\n• Urug' yo'li va uning arteriyasi\n• Vegetativ nervlar va limfa tomirlari\n\n⚠️ Muhim: moyak limfasi bel (aorta yoni) limfa tugunlariga boradi, yuza chov tugunlariga EMAS (oraliqning qolgan qismidan farqli). Moyak saratoni metastazi shuni hisobga olib izlanadi.\n\n🔨 Kremaster refleksi: sonning yuqori-ichki yuzasiga yengil tegilganda moyak biroz ko'tariladi.\n• Sezuvchi yo'l - yonbosh-chov nervining L1 tolalari\n• Harakat yo'li - son-jinsiy nervning jinsiy tarmog'i (kremaster mushagi)"
+        },
+        {
+          "sarlavha": "Indirect vs direct inguinal hernia",
+          "bandlar": [
+            "Indirect: through deep ring, LATERAL to inferior epigastric vessels",
+            "Indirect: patent processus vaginalis; infants and young males; can reach scrotum; all 3 spermatic fasciae",
+            "Direct: through Hesselbach triangle, MEDIAL to inferior epigastric vessels",
+            "Direct: weak transversalis fascia; older men; only external spermatic fascia",
+            "'MDs don't lie': Medial = Direct, Lateral = indirect"
+          ],
+          "izoh": "🔸 Qiyshiq (bilvosita) chov churrasi:\n• chuqur halqa -> chov kanali -> yuza halqa -> yorg'oqqa tushishi mumkin\n• pastki epigastral tomirlardan LATERALDA kiradi\n• sababi: qin o'simtasi (processus vaginalis) yopilmay qolgan (gidrotsele ham shu sababdan)\n• chaqaloqlarda yoki kattalikda aniqlanadi, erkaklarda ancha ko'p; moyak tushgan yo'ldan boradi\n• urug' tizimchasining uchala fassiyasi bilan qoplangan\n• eng ko'p uchraydigan churra; ko'rikda barmoq uchi bilan seziladi\n\n🔸 To'g'ri (bevosita) chov churrasi:\n• Hesselbax uchburchagi orqali to'g'ridan-to'g'ri qorin devoridan chiqadi\n• pastki epigastral tomirlardan MEDIALDA, to'g'ri mushakdan lateralda\n• faqat yuza halqadan o'tadi, faqat tashqi urug' fassiyasi bilan qoplangan\n• keksa erkaklarda, ko'ndalang fassiya zaiflashganda; qabziyat, prostata kattalashuvi xavfni oshiradi\n• kuchanganda chiqadi, tinch holatda yo'qoladi\n\n💡 'MDs don't lie': Medial - Direct, Lateral - indirect."
+        },
+        {
+          "sarlavha": "Femoral region and femoral hernia",
+          "bandlar": [
+            "Femoral triangle, lateral to medial: Nerve-Artery-Vein-(Empty space)-Lymphatics = NAVEL",
+            "Femoral sheath: artery, vein and femoral canal (deep inguinal nodes), NOT the nerve",
+            "Femoral hernia: through femoral canal, BELOW inguinal ligament",
+            "Below and lateral to pubic tubercle, medial to femoral vein",
+            "More common in women; highest risk of incarceration/strangulation"
+          ],
+          "izoh": "🦵 Son uchburchagi tarkibi lateraldan medialga: Nerv - Arteriya - Vena - (bo'sh joy) - Limfa = NAVEL. 'Kindikni topish uchun lateraldan medialga yurasiz'. Vena jinsiy a'zoga eng yaqin.\n\n🔹 Son g'ilofi - chov boylamidan 3-4 sm pastgacha davom etuvchi fassial nay. Ichida son arteriyasi, venasi va son kanali (chuqur chov limfa tugunlari) bor. Son nervi g'ilofdan TASHQARIDA.\n\n🔸 Son churrasi:\n• son kanali orqali, chov boylamidan PASTDA chiqadi\n• qov do'mbog'idan pastda va lateralda (chov churrasi esa yuqorida va medialda)\n• son venasidan medialda\n• ayollarda ko'proq (ko'pincha o'ngda), lekin umuman olganda ayollarda ham chov churrasi ko'proq uchraydi\n• kanal tor bo'lgani uchun erta qisilish (inkarseratsiya, strangulyatsiya) xavfi eng yuqori - kechiktirmay operatsiya qilinadi."
+        },
+        {
+          "sarlavha": "Spigelian and diaphragmatic hernias",
+          "bandlar": [
+            "Spigelian: through Spigelian aponeurosis between rectus and semilunar line; mostly lower abdomen",
+            "Diagnose Spigelian hernia with ultrasound or CT",
+            "Congenital (infants): pleuroperitoneal membrane defect, usually LEFT (liver protects right)",
+            "Sliding hiatal hernia: GE junction moves up, 'hourglass stomach', GERD; most common",
+            "Paraesophageal: GE junction normal, fundus protrudes into thorax"
+          ],
+          "izoh": "🔸 Spigel churrasi (yarimoysimon chiziq churrasi) - to'g'ri mushak va yarimoysimon chiziq orasidagi Spigel aponevrozi nuqsonidan chiqadi. Ko'pincha qorin pastki qismida, chunki u yerda to'g'ri mushakning orqa qini yo'q. Belgilari: qorin og'rig'i, shu chiziq bo'ylab qo'lga unnaydigan bo'rtma. Tashxis - UTT va KT.\n\n🔸 Diafragma churrasi - qorin a'zolari ko'krak qafasiga chiqadi; ko'krakda ichak shovqinlari eshitiladi.\n• Chaqaloqlarda - plevra-qorinparda membranasining tug'ma nuqsoni. Ko'pincha CHAP tomonda, chunki o'ng gumbazni jigar himoya qiladi.\n• Kattalarda - qizilo'ngach-diafragma membranasi bo'shashib, hiatal churra.\n\nHiatal churra turlari:\n• Sirpanuvchi - me'da-qizilo'ngach tutashuvi yuqoriga siljiydi, 'qum soatisimon me'da'. Eng ko'p uchraydi, GERK bilan bog'liq.\n• Paraezofageal - tutashuv joyida qoladi, lekin me'da tubi ko'krakka chiqadi."
+        },
+        {
+          "sarlavha": "Peritoneal sacs and fluid flow",
+          "bandlar": [
+            "Lesser sac (omental bursa) connects to greater sac via omental (Winslow) foramen",
+            "Formed by 90-degree clockwise rotation of the stomach",
+            "Paracolic gutters along ascending and descending colon",
+            "Upright: fluid flows down -> rectovesical / rectouterine pouch",
+            "Supine: fluid flows up -> subphrenic + hepatorenal recess (lowest point); shoulder pain via phrenic"
+          ],
+          "izoh": "🔹 Kichik charvi xaltasi (omental bursa) - me'da embrional davrda soat yo'nalishida 90° burilishi natijasida hosil bo'ladi. Katta qorin parda bo'shlig'i bilan charvi (Vinslov) teshigi orqali tutashadi.\nChegaralari: oldinda - jigar, me'da va kichik charvi; orqada - me'da osti bezi, chap buyrak va diafragma; o'ngda - jigar; chapda - me'da-taloq va taloq-buyrak boylamlari.\n\n🔹 Katta qorin parda xaltasi - qolgan bo'shliq, diafragmadan tosgacha. Unda cho'ntaklar, chuqurchalar va yonbosh (parakolik) ariqchalar bor.\n\n💧 Suyuqlik harakati:\n• Normada qorin parda suyuqligi ko'tariluvchi va tushuvchi chambar ichak yonidagi ariqchalar bo'ylab diafragma ostiga ko'tariladi va diafragma limfa tomirlariga so'riladi.\n• O'tirgan yoki tik turganda (peritonit, assit) - pastga oqadi: erkaklarda to'g'ri ichak-qovuq, ayollarda to'g'ri ichak-bachadon cho'ntagiga.\n• Chalqancha yotganda - yuqoriga, diafragma osti va jigar-buyrak chuqurchasiga oqadi. Jigar-buyrak chuqurchasi bu holatda eng past nuqta. Diafragma nervi (C3-C5) ta'sirlanib, yelka og'rig'i paydo bo'lishi mumkin."
+        },
+        {
+          "sarlavha": "Retroperitoneal structures",
+          "bandlar": [
+            "Behind and outside the peritoneal cavity",
+            "SAD PUCKER: Suprarenal glands, Aorta + IVC, Duodenum (2nd-4th parts)",
+            "Pancreas (except tail), Ureters, Colon (ascending + descending)",
+            "Kidneys, Esophagus (thoracic part), Rectum (partly)",
+            "Injury -> blood or gas in the retroperitoneal space"
+          ],
+          "izoh": "Retroperitoneal a'zolar qorin parda bo'shlig'idan orqada va undan tashqarida joylashadi. Ular shikastlansa, qon yoki havo qorin parda orqasidagi bo'shliqda to'planadi. Shuning uchun peritonit belgilari kech va noaniq bo'lishi mumkin.\n\nEslab qolish: SAD PUCKER\n• S - buyrak usti bezlari (Suprarenal)\n• A - Aorta va pastki kovak vena\n• D - o'n ikki barmoqli ichak (Duodenum), 2-4 qismlari\n• P - me'da osti bezi (Pancreas), dumidan tashqari\n• U - siydik nayi (Ureter)\n• C - ko'tariluvchi va tushuvchi chambar ichak (Colon)\n• K - buyraklar (Kidneys)\n• E - qizilo'ngachning ko'krak qismi (Esophagus)\n• R - to'g'ri ichak, qisman (Rectum)\n\n💡 Me'da osti bezi dumi taloq-buyrak boylami ichida yotadi, shuning uchun retroperitoneal hisoblanmaydi."
+        },
+        {
+          "sarlavha": "Gastrointestinal ligaments",
+          "bandlar": [
+            "Falciform: liver -> anterior wall; ligamentum teres (fetal umbilical vein)",
+            "Hepatoduodenal: portal triad (proper hepatic a., portal v., CBD); Pringle maneuver",
+            "Hepatogastric: lesser curvature, gastric vessels (lesser omentum + hepatoduodenal)",
+            "Gastrocolic (gastroepiploic a.) and gastrosplenic (short gastrics): greater omentum",
+            "Splenorenal: splenic a. and v., tail of pancreas"
+          ],
+          "izoh": "Qorin bo'shlig'i boylamlari:\n\n🔹 Ventral tutqichdan:\n• O'roqsimon boylam - jigardan qorin old devoriga. Ichida jigarning yumaloq boylami (homila kindik venasining qoldig'i) va kindik oldi venalari.\n• Jigar-o'n ikki barmoqli ichak boylami - ichida portal triada: xususiy jigar arteriyasi, darvoza venasi, umumiy o't yo'li. Charvi teshigining old chegarasi. Pringl manyovri: shu boylam qisiladi - qon to'xtasa manba darvoza venasi/jigar arteriyasi, to'xtamasa jigar venalari yoki pastki kovak vena.\n• Jigar-me'da boylami - me'daning kichik egriligiga, me'da tomirlari bilan. O'ngda katta va kichik xaltalarni ajratadi; kichik xaltaga kirish uchun kesiladi.\nBu ikkalasi birga - kichik charvi.\n\n🔹 Dorsal tutqichdan (katta charvi):\n• Me'da-chambar ichak boylami - me'da-charvi arteriyalari\n• Me'da-taloq boylami - qisqa me'da arteriyalari va chap me'da-charvi tomirlari; chapda xaltalarni ajratadi\n• Taloq-buyrak boylami - taloq arteriyasi va venasi, me'da osti bezi dumi"
+        },
+        {
+          "sarlavha": "Gut wall and GI histology",
+          "bandlar": [
+            "Wall (inside out, MSMS): mucosa, submucosa (Meissner), muscularis externa (Auerbach), serosa/adventitia",
+            "Slow waves from interstitial cells of Cajal: duodenum > ileum > stomach",
+            "Esophagus: nonkeratinized squamous; upper 1/3 striated muscle",
+            "Duodenum: Brunner glands (HCO3-); jejunum: tall plicae, 'feathered'",
+            "Ileum: Peyer patches, most goblet cells; colon: crypts + goblet cells, NO villi"
+          ],
+          "izoh": "🧱 Ichak devori qavatlari (ichkaridan tashqariga - MSMS):\n• Shilliq qavat - epiteliy, xususiy plastinka, shilliq qavat mushagi\n• Shilliq osti qavat - Meysner nerv chigali (sekretsiya)\n• Mushak qavati - Auerbax nerv chigali (motorika)\n• Seroz qavat (intraperitoneal a'zolarda) yoki adventitsiya (retroperitonealda)\nEroziya faqat shilliq qavatda; yara shilliq osti va mushak qavatlarigacha chuqurlashadi.\n\nSekin to'lqinlar Kaxal hujayralaridan: o'n ikki barmoqli ichak > yonbosh ichak > me'da.\n\n🔬 Gistologiya:\n• Qizilo'ngach - muguzlanmaydigan ko'p qavatli yassi epiteliy; yuqori 1/3 ko'ndalang-targ'il, pastki 2/3 silliq mushak\n• Me'da - parietal hujayralar pushti (eozinofil), bosh hujayralar ko'k (bazofil)\n• O'n ikki barmoqli ichak - vorsinkalar, shilliq osti qavatdagi Brunner bezlari (bikarbonat), Liberkyun kriptalari (o'zak hujayralar va defensin, lizotsim ajratuvchi Paneth hujayralari)\n• Och ichak - baland, ko'p burmalar, kontrastda 'pat' ko'rinishi\n• Yonbosh ichak - Peyer pilakchalari, qadahsimon hujayralar eng ko'p\n• Yo'g'on ichak - kriptalar va ko'p qadahsimon hujayralar, vorsinkalar YO'Q"
+        }
+      ],
+      "savollar": [
+        {
+          "vinyetka": "A 3-month-old boy has an intermittent bulge in the right groin that extends into the scrotum when he cries. At surgery, the hernia sac is found entering the inguinal canal lateral to the inferior epigastric vessels.",
+          "savol": "Failure of which embryologic process caused this hernia?",
+          "javoblar": [
+            "Obliteration of the processus vaginalis",
+            "Closure of the pleuroperitoneal membrane",
+            "Descent of the gubernaculum",
+            "Fusion of the urorectal septum",
+            "Regression of the vitelline duct"
+          ],
+          "togri": 0,
+          "izoh": "Qiyshiq chov churrasi: qin o'simtasi yopilmagan, chuqur halqa orqali epigastral tomirlardan LATERALDA kiradi va yorg'oqqa tushadi. Gidrotsele ham shu sababdan."
+        },
+        {
+          "vinyetka": "A 72-year-old man with chronic constipation and benign prostatic hyperplasia has a groin bulge that appears on straining and disappears when he lies down. At surgery the bulge is medial to the inferior epigastric vessels.",
+          "savol": "Weakness of which structure is the main cause?",
+          "javoblar": [
+            "Transversalis fascia in the Hesselbach triangle",
+            "Deep inguinal ring",
+            "Femoral canal",
+            "Spigelian aponeurosis",
+            "Linea alba"
+          ],
+          "togri": 0,
+          "izoh": "To'g'ri chov churrasi: Hesselbax uchburchagida ko'ndalang fassiya zaiflashadi, epigastral tomirlardan MEDIALDA. Keksa erkaklar, kuchanish (qabziyat, BPH)."
+        },
+        {
+          "vinyetka": "A 65-year-old woman has a painful, tender, irreducible lump in the right groin with vomiting. The mass lies below the inguinal ligament and lateral to the pubic tubercle.",
+          "savol": "Through which space did this hernia most likely pass?",
+          "javoblar": [
+            "Femoral canal, medial to the femoral vein",
+            "Deep inguinal ring",
+            "Hesselbach triangle",
+            "Obturator canal",
+            "Lateral to the femoral nerve"
+          ],
+          "togri": 0,
+          "izoh": "Son churrasi: son kanali orqali, chov boylamidan pastda, son venasidan medialda. Ayollarda ko'proq va qisilish xavfi eng yuqori - shoshilinch operatsiya."
+        },
+        {
+          "vinyetka": "A 28-year-old man is diagnosed with a seminoma of the left testis. Staging CT is ordered to look for lymph node metastases.",
+          "savol": "Which lymph nodes are the first to be involved?",
+          "javoblar": [
+            "Lumbar (para-aortic) nodes",
+            "Superficial inguinal nodes",
+            "Deep inguinal nodes",
+            "External iliac nodes",
+            "Internal iliac nodes"
+          ],
+          "togri": 0,
+          "izoh": "Moyak limfasi moyak tomirlari bo'ylab bel (aorta yoni) tugunlariga boradi. Yorg'oq terisi esa yuza chov tugunlariga - farqini eslab qoling."
+        },
+        {
+          "vinyetka": "After an open inguinal hernia repair, a 35-year-old man is found to have absent elevation of the testis when the skin of his upper medial thigh is stroked. Sensation over the thigh is normal.",
+          "savol": "Injury to which nerve best explains this finding?",
+          "javoblar": [
+            "Genital branch of the genitofemoral nerve",
+            "Ilioinguinal nerve",
+            "Iliohypogastric nerve",
+            "Obturator nerve",
+            "Pudendal nerve"
+          ],
+          "togri": 0,
+          "izoh": "Kremaster refleksi: sezuvchi - yonbosh-chov nervi (L1), harakat - son-jinsiy nervning jinsiy tarmog'i. Sezgi saqlangan, javob yo'q -> harakat tarmog'i shikastlangan."
+        },
+        {
+          "vinyetka": "A full-term newborn develops severe respiratory distress immediately after birth. The abdomen is scaphoid, and bowel sounds are heard over the left hemithorax. Chest X-ray shows bowel loops in the left chest with mediastinal shift to the right.",
+          "savol": "Which embryologic defect is most likely responsible?",
+          "javoblar": [
+            "Incomplete closure of the pleuroperitoneal membrane",
+            "Laxity of the phrenoesophageal membrane",
+            "Failure of the septum transversum to form the central tendon only",
+            "Persistent processus vaginalis",
+            "Defect in the Spigelian aponeurosis"
+          ],
+          "togri": 0,
+          "izoh": "Tug'ma diafragma churrasi: plevra-qorinparda membranasi yopilmagan, ko'pincha CHAPda (o'ngni jigar himoyalaydi). Qorin 'botiq', o'pka gipoplaziyasi xavfi."
+        },
+        {
+          "vinyetka": "A 58-year-old obese woman has chronic heartburn and regurgitation. Barium swallow shows the gastroesophageal junction located above the diaphragm, with an 'hourglass' configuration of the stomach.",
+          "savol": "What type of hernia is present?",
+          "javoblar": [
+            "Sliding hiatal hernia",
+            "Paraesophageal hiatal hernia",
+            "Congenital diaphragmatic hernia",
+            "Spigelian hernia",
+            "Epigastric hernia"
+          ],
+          "togri": 0,
+          "izoh": "Sirpanuvchi hiatal churra: me'da-qizilo'ngach tutashuvi diafragmadan yuqoriga siljiydi, 'qum soati' ko'rinishi, GERK. Paraezofagealda tutashuv joyida qoladi."
+        },
+        {
+          "vinyetka": "During laparotomy for a liver laceration after a car crash, the surgeon places a vascular clamp across the free edge of the lesser omentum at the omental foramen to control bleeding.",
+          "savol": "Which structures are compressed by this maneuver?",
+          "javoblar": [
+            "Proper hepatic artery, portal vein and common bile duct",
+            "Hepatic veins and inferior vena cava",
+            "Splenic artery and vein",
+            "Left gastric artery and vein",
+            "Superior mesenteric artery and vein"
+          ],
+          "togri": 0,
+          "izoh": "Pringl manyovri: jigar-o'n ikki barmoqli ichak boylami (portal triada) qisiladi. Qon ketish davom etsa, manba jigar venalari yoki pastki kovak vena."
+        },
+        {
+          "vinyetka": "A 50-year-old man with a perforated duodenal ulcer has been lying flat in bed for several hours. He develops generalized peritonitis.",
+          "savol": "In this position, where does peritoneal fluid tend to collect at the lowest point of the peritoneal cavity?",
+          "javoblar": [
+            "Hepatorenal recess (Morison pouch)",
+            "Rectovesical pouch",
+            "Left paracolic gutter",
+            "Lesser sac",
+            "Pelvic inlet"
+          ],
+          "togri": 0,
+          "izoh": "Chalqancha yotganda eng past nuqta - jigar-buyrak chuqurchasi. Tik turganda suyuqlik erkaklarda to'g'ri ichak-qovuq, ayollarda to'g'ri ichak-bachadon cho'ntagiga oqadi."
+        },
+        {
+          "vinyetka": "A pathology resident examines a biopsy from the small intestine. It shows villi on the surface and coiled bicarbonate-secreting mucous glands located in the submucosa.",
+          "savol": "From which part of the GI tract was the biopsy most likely taken?",
+          "javoblar": [
+            "Duodenum",
+            "Jejunum",
+            "Ileum",
+            "Transverse colon",
+            "Gastric antrum"
+          ],
+          "togri": 0,
+          "izoh": "Shilliq osti qavatdagi Brunner bezlari (bikarbonat) faqat o'n ikki barmoqli ichakda. Yonbosh ichakda - Peyer pilakchalari, yo'g'on ichakda vorsinka yo'q."
+        }
+      ]
     }
   ]
 }
