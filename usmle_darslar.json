@@ -310,7 +310,11 @@
             "Lateral thoracic artery (from axillary): lateral part, runs with long thoracic nerve",
             "Tumor pulls Cooper ligaments -> skin dimpling, 'orange peel'"
           ],
-          "izoh": "Sut bezi - ko'krak sohasidagi teri osti bezi, aslida o'zgargan ter bezi. Uning shakli va hajmini bez atrofidagi yog' to'qimasi belgilaydi.\n\n🔹 Kuper boylamlari - bezni teriga 'osib' turuvchi boylamlar, teridan chuqur fassiyagacha boradi.\n\n🩸 Qon bilan ta'minlanishi:\n• Ichki ko'krak arteriyasi (o'mrov osti arteriyasi tarmog'i) - bezning medial qismi\n• Lateral ko'krak arteriyasi (qo'ltiq arteriyasi tarmog'i) - lateral qismi. U oldingi tishli mushak ustida uzun ko'krak nervi bilan yonma-yon yuradi (keyingi postlarda bu muhim bo'ladi!)\n\n⚠️ Klinika: o'sma Kuper boylamlarini tortib, terida botiqlik va 'apelsin po'sti' ko'rinishini keltirib chiqaradi."
+          "izoh": "Sut bezi - ko'krak sohasidagi teri osti bezi, aslida o'zgargan ter bezi. Uning shakli va hajmini bez atrofidagi yog' to'qimasi belgilaydi.\n\n🔹 Kuper boylamlari - bezni teriga 'osib' turuvchi boylamlar, teridan chuqur fassiyagacha boradi.\n\n🩸 Qon bilan ta'minlanishi:\n• Ichki ko'krak arteriyasi (o'mrov osti arteriyasi tarmog'i) - bezning medial qismi\n• Lateral ko'krak arteriyasi (qo'ltiq arteriyasi tarmog'i) - lateral qismi. U oldingi tishli mushak ustida uzun ko'krak nervi bilan yonma-yon yuradi (keyingi postlarda bu muhim bo'ladi!)\n\n⚠️ Klinika: o'sma Kuper boylamlarini tortib, terida botiqlik va 'apelsin po'sti' ko'rinishini keltirib chiqaradi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_01.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
         },
         {
           "sarlavha": "Lymphatic drainage of the breast",
@@ -331,7 +335,11 @@
             "Thoracodorsal nerve -> latissimus dorsi: weak extension + medial rotation",
             "Also: stab wounds of lateral chest wall"
           ],
-          "izoh": "Mastektomiyada ikki nerv xavf ostida:\n\n1️⃣ Uzun ko'krak nervi (C5-C7, 'jannat qanotlari' - wings of heaven). Oldingi tishli mushakni innervatsiya qiladi. Lateral ko'krak arteriyasini bog'lashda yoki qo'ltiq limfa tugunlarini olib tashlashda shikastlanadi.\nNatija: kurak suyagi ko'krak qafasiga yopishib turmaydi - 'qanotsimon kurak'. Bemor qo'lini gorizontaldan (90°) yuqori ko'tara olmaydi. Ko'pincha operatsiyadan bir necha hafta keyin seziladi. Yon tomondan pichoq jarohatlarida ham uchraydi.\n\n2️⃣ Ko'krak-orqa (torakodorsal) nervi - orqaning eng keng mushagini innervatsiya qiladi. Shikastlansa - qo'lni orqaga uzatish va ichkariga burish kuchsizlanadi."
+          "izoh": "Mastektomiyada ikki nerv xavf ostida:\n\n1️⃣ Uzun ko'krak nervi (C5-C7, 'jannat qanotlari' - wings of heaven). Oldingi tishli mushakni innervatsiya qiladi. Lateral ko'krak arteriyasini bog'lashda yoki qo'ltiq limfa tugunlarini olib tashlashda shikastlanadi.\nNatija: kurak suyagi ko'krak qafasiga yopishib turmaydi - 'qanotsimon kurak'. Bemor qo'lini gorizontaldan (90°) yuqori ko'tara olmaydi. Ko'pincha operatsiyadan bir necha hafta keyin seziladi. Yon tomondan pichoq jarohatlarida ham uchraydi.\n\n2️⃣ Ko'krak-orqa (torakodorsal) nervi - orqaning eng keng mushagini innervatsiya qiladi. Shikastlansa - qo'lni orqaga uzatish va ichkariga burish kuchsizlanadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_03.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
+          }
         },
         {
           "sarlavha": "Diaphragm: innervation and openings",
@@ -342,7 +350,11 @@
             "Referred pain: shoulder (C5) and trapezius ridge (C3-4)",
             "T8: IVC + right phrenic; T10: esophagus + vagal trunks; T12: aorta, thoracic duct, azygos"
           ],
-          "izoh": "Diafragma - nafas olishning asosiy mushagi. U ko'krak qafasining vertikal, ko'ndalang va old-orqa o'lchamlarini oshiradi.\n\n⚡️ Innervatsiya: diafragma nervi (C3-C5). U ham harakat, ham sezgi tolalarini beradi; diafragma chekkasining sezgisi esa qovurg'alararo nervlardan.\n\n⚠️ Diafragma nervi shikastlansa, shu tomondagi gumbaz falajlanadi: nafas olganda pastga tushmaydi, aksincha qorin bosimi ta'sirida yuqoriga ko'tariladi (paradoksal harakat). Rentgenda gumbaz baland turadi.\n\nDiafragma ta'sirlanganda og'riq yelkaga (C5) va trapetsiya mushagi qirrasiga (C3-4) uzatiladi.\n\n🕳 Teshiklar - 'I ate (8) ten (10) eggs at twelve (12)':\n• T8 - pastki kovak vena va o'ng diafragma nervi\n• T10 - qizilo'ngach va adashgan nerv stvollari\n• T12 - aorta, ko'krak limfa yo'li, toq vena"
+          "izoh": "Diafragma - nafas olishning asosiy mushagi. U ko'krak qafasining vertikal, ko'ndalang va old-orqa o'lchamlarini oshiradi.\n\n⚡️ Innervatsiya: diafragma nervi (C3-C5). U ham harakat, ham sezgi tolalarini beradi; diafragma chekkasining sezgisi esa qovurg'alararo nervlardan.\n\n⚠️ Diafragma nervi shikastlansa, shu tomondagi gumbaz falajlanadi: nafas olganda pastga tushmaydi, aksincha qorin bosimi ta'sirida yuqoriga ko'tariladi (paradoksal harakat). Rentgenda gumbaz baland turadi.\n\nDiafragma ta'sirlanganda og'riq yelkaga (C5) va trapetsiya mushagi qirrasiga (C3-4) uzatiladi.\n\n🕳 Teshiklar - 'I ate (8) ten (10) eggs at twelve (12)':\n• T8 - pastki kovak vena va o'ng diafragma nervi\n• T10 - qizilo'ngach va adashgan nerv stvollari\n• T12 - aorta, ko'krak limfa yo'li, toq vena",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_04.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
         },
         {
           "sarlavha": "Breathing muscles and rib movements",
@@ -353,7 +365,11 @@
             "Ribs 1-6: 'pump handle' -> AP diameter; lower ribs: 'bucket handle' -> lateral diameter",
             "Quiet expiration is passive; forced: abdominal wall muscles"
           ],
-          "izoh": "🫁 Nafas olish:\n• Diafragma - asosiy mushak\n• Tashqi qovurg'alararo mushaklar qovurg'alarni ko'taradi (jismoniy yuklama yoki o'pka kasalligida faol)\n• Yordamchi mushaklar: to'sh-o'mrov-so'rg'ichsimon, katta va kichik ko'krak, narvonsimon mushaklar\n\nQovurg'alar harakati:\n• 1-6 qovurg'alar - 'nasos dastasi': to'sh oldinga-yuqoriga suriladi, old-orqa o'lcham oshadi\n• Pastki qovurg'alar - 'chelak dastasi': yonga-yuqoriga ko'tariladi, ko'ndalang o'lcham oshadi\n\n😮‍💨 Nafas chiqarish odatda passiv - o'pka elastikligi hisobiga. Kuchli nafas chiqarishda ichki va eng ichki qovurg'alararo mushaklar hamda qorin devori mushaklari (tashqi va ichki qiyshiq, ko'ndalang) ishlaydi.\n\n📍 Qovurg'alararo vena, arteriya va nerv (yuqoridan pastga V-A-N) ichki va eng ichki qovurg'alararo mushaklar orasida, qovurg'aning PASTKI qirrasidagi egatda yotadi."
+          "izoh": "🫁 Nafas olish:\n• Diafragma - asosiy mushak\n• Tashqi qovurg'alararo mushaklar qovurg'alarni ko'taradi (jismoniy yuklama yoki o'pka kasalligida faol)\n• Yordamchi mushaklar: to'sh-o'mrov-so'rg'ichsimon, katta va kichik ko'krak, narvonsimon mushaklar\n\nQovurg'alar harakati:\n• 1-6 qovurg'alar - 'nasos dastasi': to'sh oldinga-yuqoriga suriladi, old-orqa o'lcham oshadi\n• Pastki qovurg'alar - 'chelak dastasi': yonga-yuqoriga ko'tariladi, ko'ndalang o'lcham oshadi\n\n😮‍💨 Nafas chiqarish odatda passiv - o'pka elastikligi hisobiga. Kuchli nafas chiqarishda ichki va eng ichki qovurg'alararo mushaklar hamda qorin devori mushaklari (tashqi va ichki qiyshiq, ko'ndalang) ishlaydi.\n\n📍 Qovurg'alararo vena, arteriya va nerv (yuqoridan pastga V-A-N) ichki va eng ichki qovurg'alararo mushaklar orasida, qovurg'aning PASTKI qirrasidagi egatda yotadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_05.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
+          }
         },
         {
           "sarlavha": "Pleura and pleuritic pain",
@@ -364,7 +380,11 @@
             "Costal pleurisy: local chest wall pain via intercostal nerves",
             "Mediastinal (and central diaphragmatic) pleura: referred to shoulder via phrenic (C3-5)"
           ],
-          "izoh": "Plevra - o'pkani o'rab turuvchi seroz parda, ikki varaqdan iborat:\n\n🔹 Parietal plevra ko'krak qafasi devorini qoplaydi va joyiga qarab nomlanadi:\n• qovurg'a plevrasi - qovurg'alar va oraliqlar ichki yuzasi\n• diafragma plevrasi\n• mediastinal plevra - ko'ks oralig'i tomonida\n• bo'yin plevrasi - 1-qovurg'adan yuqorida, o'pka cho'qqisini qoplaydi\n\n🔹 Visseral plevra o'pkaga mahkam yopishgan, barcha yoriqlarga kirib boradi. Ikkala varaq o'pka ildizida bir-biriga o'tadi.\n\n⚠️ Plevrit (parietal plevra yallig'lanishi) nafas olganda o'tkir og'riq beradi:\n• qovurg'a plevrasi -> qovurg'alararo nervlar orqali ko'krak devorida mahalliy og'riq\n• mediastinal plevra -> diafragma nervi orqali yelkaga (C3-5) uzatilgan og'riq"
+          "izoh": "Plevra - o'pkani o'rab turuvchi seroz parda, ikki varaqdan iborat:\n\n🔹 Parietal plevra ko'krak qafasi devorini qoplaydi va joyiga qarab nomlanadi:\n• qovurg'a plevrasi - qovurg'alar va oraliqlar ichki yuzasi\n• diafragma plevrasi\n• mediastinal plevra - ko'ks oralig'i tomonida\n• bo'yin plevrasi - 1-qovurg'adan yuqorida, o'pka cho'qqisini qoplaydi\n\n🔹 Visseral plevra o'pkaga mahkam yopishgan, barcha yoriqlarga kirib boradi. Ikkala varaq o'pka ildizida bir-biriga o'tadi.\n\n⚠️ Plevrit (parietal plevra yallig'lanishi) nafas olganda o'tkir og'riq beradi:\n• qovurg'a plevrasi -> qovurg'alararo nervlar orqali ko'krak devorida mahalliy og'riq\n• mediastinal plevra -> diafragma nervi orqali yelkaga (C3-5) uzatilgan og'riq",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_06.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
         },
         {
           "sarlavha": "Pneumothorax",
@@ -375,7 +395,11 @@
             "Traumatic: rib fracture, gunshot, central line, lung biopsy",
             "Tension: trachea deviates AWAY, hypotension, JVD -> immediate needle decompression + chest tube"
           ],
-          "izoh": "Pnevmotoraks - plevra bo'shlig'ida havo to'planishi. Zararlangan tomonda: hansirash, ko'krak og'rig'i, nafas harakatlarining notekisligi, perkussiyada timpanit, ovoz titrashi va nafas tovushlari susaygan.\n\nTurlari:\n• Birlamchi spontan - o'pka cho'qqisidagi subplevral pufakcha yorilishi. Ko'pincha baland bo'yli, ozg'in yosh erkaklarda, chekish bilan bog'liq.\n• Ikkilamchi spontan - kasal o'pkada (emfizema bullalari, Marfan sindromi, infeksiyalar) yoki yuqori bosimli sun'iy ventilyatsiyada.\n• Travmatik - qovurg'a sinishi, o'q jarohati yoki yatrogen (markaziy kateter, o'pka biopsiyasi).\n\n🚨 Taranglashgan pnevmotoraks: havo kiradi, lekin chiqmaydi. Ko'ks oralig'i suriladi, pastki kovak vena bukiladi, venoz qaytish va yurak qon haydashi kamayadi -> obstruktiv shok (gipotenziya, taxikardiya, bo'yin venalari bo'rtishi). Traxeya sog' tomonga og'adi. Darhol igna dekompressiyasi, keyin plevra drenaji!"
+          "izoh": "Pnevmotoraks - plevra bo'shlig'ida havo to'planishi. Zararlangan tomonda: hansirash, ko'krak og'rig'i, nafas harakatlarining notekisligi, perkussiyada timpanit, ovoz titrashi va nafas tovushlari susaygan.\n\nTurlari:\n• Birlamchi spontan - o'pka cho'qqisidagi subplevral pufakcha yorilishi. Ko'pincha baland bo'yli, ozg'in yosh erkaklarda, chekish bilan bog'liq.\n• Ikkilamchi spontan - kasal o'pkada (emfizema bullalari, Marfan sindromi, infeksiyalar) yoki yuqori bosimli sun'iy ventilyatsiyada.\n• Travmatik - qovurg'a sinishi, o'q jarohati yoki yatrogen (markaziy kateter, o'pka biopsiyasi).\n\n🚨 Taranglashgan pnevmotoraks: havo kiradi, lekin chiqmaydi. Ko'ks oralig'i suriladi, pastki kovak vena bukiladi, venoz qaytish va yurak qon haydashi kamayadi -> obstruktiv shok (gipotenziya, taxikardiya, bo'yin venalari bo'rtishi). Traxeya sog' tomonga og'adi. Darhol igna dekompressiyasi, keyin plevra drenaji!",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_07.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
         },
         {
           "sarlavha": "Conducting vs respiratory zone",
@@ -386,7 +410,11 @@
             "Pseudostratified ciliated columnar -> cuboidal at terminal bronchioles",
             "Respiratory zone: respiratory bronchioles, alveolar ducts, alveoli; cilia end in respiratory bronchioles"
           ],
-          "izoh": "Nafas yo'llari ikki zonaga bo'linadi:\n\n🌬 O'tkazuvchi zona: burun, halqum, hiqildoq, traxeya, bronxlar, bronxiolalar va terminal bronxiolalar. Havoni isitadi, namlaydi va tozalaydi, lekin gaz almashinuvida qatnashmaydi - 'anatomik o'lik bo'shliq'.\n• Havo yo'li qarshiligi eng katta - yirik va o'rta bronxlarda; eng kam - terminal bronxiolalarda, chunki ular juda ko'p va parallel joylashgan.\n• Tog'ay va qadahsimon hujayralar bronxlar oxirigacha boradi.\n• Ko'p qatorli kiprikli silindrsimon epiteliy terminal bronxiolalar boshigacha, keyin kubsimon epiteliy. Kiprikchalar shilliqni yuqoriga haydaydi - 'mukotsiliar eskalator'.\n• Silliq mushak terminal bronxiolalar oxirigacha.\n\n🫧 Respirator zona: respirator bronxiolalar, alveolyar yo'llar va alveolalar - gaz almashinuvi shu yerda. Kiprikchalar respirator bronxiolalarda tugaydi; alveolyar makrofaglar changni tozalaydi."
+          "izoh": "Nafas yo'llari ikki zonaga bo'linadi:\n\n🌬 O'tkazuvchi zona: burun, halqum, hiqildoq, traxeya, bronxlar, bronxiolalar va terminal bronxiolalar. Havoni isitadi, namlaydi va tozalaydi, lekin gaz almashinuvida qatnashmaydi - 'anatomik o'lik bo'shliq'.\n• Havo yo'li qarshiligi eng katta - yirik va o'rta bronxlarda; eng kam - terminal bronxiolalarda, chunki ular juda ko'p va parallel joylashgan.\n• Tog'ay va qadahsimon hujayralar bronxlar oxirigacha boradi.\n• Ko'p qatorli kiprikli silindrsimon epiteliy terminal bronxiolalar boshigacha, keyin kubsimon epiteliy. Kiprikchalar shilliqni yuqoriga haydaydi - 'mukotsiliar eskalator'.\n• Silliq mushak terminal bronxiolalar oxirigacha.\n\n🫧 Respirator zona: respirator bronxiolalar, alveolyar yo'llar va alveolalar - gaz almashinuvi shu yerda. Kiprikchalar respirator bronxiolalarda tugaydi; alveolyar makrofaglar changni tozalaydi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_08.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
         },
         {
           "sarlavha": "Lung lobes, fissures and aspiration",
@@ -397,7 +425,11 @@
             "Hilum: pulmonary artery RALS - Right Anterior, Left Superior to bronchus",
             "Aspiration -> RIGHT lung: supine = superior segment RLL; right side = RUL; upright = RLL"
           ],
-          "izoh": "🫁 O'ng o'pka - 3 bo'lak (yuqori, o'rta, pastki), ularni gorizontal va qiyshiq yoriqlar ajratadi. Chap o'pka - 2 bo'lak va qiyshiq yoriq; o'rta bo'lak o'rnida yurak joylashgan, uning o'xshashi - lingula.\n\n📍 Yoriqlar proyeksiyasi:\n• Qiyshiq yoriq - o'rta o'mrov chizig'ida 5-qovurg'alararo oraliq, medialda 6-qovurg'a tog'ayi ortida tugaydi\n• Gorizontal yoriq - o'ng 5-oraliqdagi qiyshiq yoriqdan o'ng 4-qovurg'a tog'ayigacha\n\nO'pka darvozasida o'pka arteriyasi bronxga nisbatan: RALS - o'ngda oldinda, chapda yuqorida. Karina ko'tariluvchi aorta ortida.\n\n🥜 Yot jism ko'pincha O'NG o'pkaga tushadi: o'ng bosh bronx kengroq, tikroq va kaltaroq.\n• chalqancha yotganda - o'ng pastki bo'lakning yuqori segmenti\n• o'ng yonboshda - o'ng yuqori bo'lak\n• tik turganda - o'ng pastki bo'lak"
+          "izoh": "🫁 O'ng o'pka - 3 bo'lak (yuqori, o'rta, pastki), ularni gorizontal va qiyshiq yoriqlar ajratadi. Chap o'pka - 2 bo'lak va qiyshiq yoriq; o'rta bo'lak o'rnida yurak joylashgan, uning o'xshashi - lingula.\n\n📍 Yoriqlar proyeksiyasi:\n• Qiyshiq yoriq - o'rta o'mrov chizig'ida 5-qovurg'alararo oraliq, medialda 6-qovurg'a tog'ayi ortida tugaydi\n• Gorizontal yoriq - o'ng 5-oraliqdagi qiyshiq yoriqdan o'ng 4-qovurg'a tog'ayigacha\n\nO'pka darvozasida o'pka arteriyasi bronxga nisbatan: RALS - o'ngda oldinda, chapda yuqorida. Karina ko'tariluvchi aorta ortida.\n\n🥜 Yot jism ko'pincha O'NG o'pkaga tushadi: o'ng bosh bronx kengroq, tikroq va kaltaroq.\n• chalqancha yotganda - o'ng pastki bo'lakning yuqori segmenti\n• o'ng yonboshda - o'ng yuqori bo'lak\n• tik turganda - o'ng pastki bo'lak",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_09.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
         },
         {
           "sarlavha": "Alveolar cells and neonatal RDS",
@@ -557,7 +589,11 @@
             "Needle just ABOVE the upper border of rib 10 (avoid V-A-N under rib 9)",
             "Layers: skin -> superficial fascia -> external, internal, innermost intercostals -> parietal pleura"
           ],
-          "izoh": "Torakosentez - plevra bo'shlig'idan suyuqlik olish (tahlil uchun) yoki qon/yiringni chiqarish.\n\n📍 Joyi: o'rta qo'ltiq chizig'ida 9-qovurg'alararo oraliq, nafas chiqarish paytida - o'pkaning pastki chegarasini shikastlamaslik uchun.\n\n⚡️ Asosiy qoida: igna pastdagi qovurg'aning (10-qovurg'a) YUQORI qirrasi bo'ylab, biroz yuqoriga qiyalatib kiritiladi. Chunki qovurg'alararo vena, arteriya va nerv yuqoridagi qovurg'aning pastki qirrasi ostida yotadi.\n\n💉 Igna o'tadigan qavatlar:\nteri -> yuza fassiya -> tashqi qovurg'alararo mushak -> ichki qovurg'alararo mushak -> eng ichki qovurg'alararo mushak -> parietal plevra"
+          "izoh": "Torakosentez - plevra bo'shlig'idan suyuqlik olish (tahlil uchun) yoki qon/yiringni chiqarish.\n\n📍 Joyi: o'rta qo'ltiq chizig'ida 9-qovurg'alararo oraliq, nafas chiqarish paytida - o'pkaning pastki chegarasini shikastlamaslik uchun.\n\n⚡️ Asosiy qoida: igna pastdagi qovurg'aning (10-qovurg'a) YUQORI qirrasi bo'ylab, biroz yuqoriga qiyalatib kiritiladi. Chunki qovurg'alararo vena, arteriya va nerv yuqoridagi qovurg'aning pastki qirrasi ostida yotadi.\n\n💉 Igna o'tadigan qavatlar:\nteri -> yuza fassiya -> tashqi qovurg'alararo mushak -> ichki qovurg'alararo mushak -> eng ichki qovurg'alararo mushak -> parietal plevra",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_01.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
         },
         {
           "sarlavha": "Intercostal nerve block",
@@ -579,7 +615,11 @@
             "Atrophy of thenar, hypothenar and interossei; medial forearm/hand numbness (like Klumpke)",
             "Weak radial pulse when head turned to opposite side, subclavian bruit"
           ],
-          "izoh": "Ko'krak qafasi chiqish sindromi - yelka chigalining pastki stvoli (C8-T1) va/yoki o'mrov osti tomirlarining ezilishi, ko'pincha narvonsimon mushaklar uchburchagida.\n\nSabablari: qo'shimcha bo'yin qovurg'asi yoki anomal 1-qovurg'a, Pankost o'smasi.\n\n🖐 Nerv belgilari (Klumpke falajiga o'xshash):\n• tenar va gipotenar tepaliklar, suyaklararo mushaklar atrofiyasi\n• bilak va qo'l panjasining medial tomonida sezgi buzilishi\n\n🩸 Tomir belgilari: ishemiya, og'riq, shish; boshni qarama-qarshi tomonga burganda bilak arteriyasi pulsi susayadi, o'mrov osti arteriyasi ustida shovqin. Qo'llarni ko'targan holda angiografiyada o'mrov osti arteriyasida qisman torayish ko'rinadi."
+          "izoh": "Ko'krak qafasi chiqish sindromi - yelka chigalining pastki stvoli (C8-T1) va/yoki o'mrov osti tomirlarining ezilishi, ko'pincha narvonsimon mushaklar uchburchagida.\n\nSabablari: qo'shimcha bo'yin qovurg'asi yoki anomal 1-qovurg'a, Pankost o'smasi.\n\n🖐 Nerv belgilari (Klumpke falajiga o'xshash):\n• tenar va gipotenar tepaliklar, suyaklararo mushaklar atrofiyasi\n• bilak va qo'l panjasining medial tomonida sezgi buzilishi\n\n🩸 Tomir belgilari: ishemiya, og'riq, shish; boshni qarama-qarshi tomonga burganda bilak arteriyasi pulsi susayadi, o'mrov osti arteriyasi ustida shovqin. Qo'llarni ko'targan holda angiografiyada o'mrov osti arteriyasida qisman torayish ko'rinadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_03.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
         },
         {
           "sarlavha": "Chest X-ray landmarks",
@@ -590,7 +630,11 @@
             "Lateral view: ascending aorta and pulmonary outflow tract in front",
             "Lateral view: aortic arch, upper lobe bronchi, confluence of pulmonary veins"
           ],
-          "izoh": "Ko'krak qafasi rentgenogrammasida tuzilmalarni tanib olish USMLE rasmli savollarida tez-tez kerak bo'ladi.\n\n🩻 To'g'ri (PA) proyeksiya:\n• O'ng chegara: yuqorida yuqori kovak vena / toq vena, pastda O'NG BO'LMACHA\n• Chap chegara: yuqoridan pastga - aorta ravog'i ('aorta tugmasi'), chap o'pka arteriyasi, CHAP QORINCHA\n• Markazda: traxeya, o'ng va chap bosh bronxlar; o'ng o'pka arteriyasi va uning yuqori bo'lak tarmog'i, o'ng pastki o'pka venasi\n\n🩻 Yon proyeksiya:\n• oldinda - o'pka ustuni chiqish yo'li va ko'tariluvchi aorta\n• aorta ravog'i va undan chiquvchi yelka-bosh tomirlari\n• traxeya, o'ng va chap yuqori bo'lak bronxlari\n• o'ng va chap o'pka arteriyalari, o'pka venalarining qo'shilish joyi\n\n💡 Esda tuting: o'ng yurak chegarasi = o'ng bo'lmacha, chap chegara = chap qorincha."
+          "izoh": "Ko'krak qafasi rentgenogrammasida tuzilmalarni tanib olish USMLE rasmli savollarida tez-tez kerak bo'ladi.\n\n🩻 To'g'ri (PA) proyeksiya:\n• O'ng chegara: yuqorida yuqori kovak vena / toq vena, pastda O'NG BO'LMACHA\n• Chap chegara: yuqoridan pastga - aorta ravog'i ('aorta tugmasi'), chap o'pka arteriyasi, CHAP QORINCHA\n• Markazda: traxeya, o'ng va chap bosh bronxlar; o'ng o'pka arteriyasi va uning yuqori bo'lak tarmog'i, o'ng pastki o'pka venasi\n\n🩻 Yon proyeksiya:\n• oldinda - o'pka ustuni chiqish yo'li va ko'tariluvchi aorta\n• aorta ravog'i va undan chiquvchi yelka-bosh tomirlari\n• traxeya, o'ng va chap yuqori bo'lak bronxlari\n• o'ng va chap o'pka arteriyalari, o'pka venalarining qo'shilish joyi\n\n💡 Esda tuting: o'ng yurak chegarasi = o'ng bo'lmacha, chap chegara = chap qorincha.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_04.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
         },
         {
           "sarlavha": "Sinusitis and epistaxis",
@@ -601,7 +645,11 @@
             "Anterior epistaxis (most common): Kiesselbach plexus - 'LEGS'",
             "Posterior (life-threatening): sphenopalatine artery; angiofibroma in adolescent males"
           ],
-          "izoh": "👃 Rinosinusit - bo'shliq teshigi berkilib, suyuqlik to'planadi va yallig'lanadi.\n• Yuqori burun yo'li - orqa g'alvirsimon katakchalar\n• O'rta yo'l - peshona, yuqori jag' va oldingi g'alvirsimon bo'shliqlar\n• Pastki yo'l - burun-ko'z yosh kanali\nYuqori jag' bo'shlig'i eng ko'p zararlanadi: teshigi yuqori-medialda, suyuqlik og'irlik kuchiga qarshi oqadi. Avval virus (rinovirus), keyin bakteriya: tiplanmaydigan H. influenzae, S. pneumoniae, M. catarrhalis. Asoratlar: ko'z kosasi flegmonasi, kavernoz sinus sindromi, meningit.\n\n🩸 Burundan qon ketish:\n• Ko'pincha oldingi qismdan - Kisselbax chigali. Eslab qolish 'Kiesselbach drives his Lexus with his LEGS': yuqori Lab, oldingi va orqa Ethmoidal, katta tanglay (Greater palatine), Sfenopalatin arteriyalari.\n• Hayot uchun xavfli - orqa qismdan, sfenopalatin arteriyasidan (yuqori jag' arteriyasi tarmog'i).\nSabablar: yot jism, travma, allergik rinit; o'smir o'g'il bolalarda - burun-halqum angiofibromasi."
+          "izoh": "👃 Rinosinusit - bo'shliq teshigi berkilib, suyuqlik to'planadi va yallig'lanadi.\n• Yuqori burun yo'li - orqa g'alvirsimon katakchalar\n• O'rta yo'l - peshona, yuqori jag' va oldingi g'alvirsimon bo'shliqlar\n• Pastki yo'l - burun-ko'z yosh kanali\nYuqori jag' bo'shlig'i eng ko'p zararlanadi: teshigi yuqori-medialda, suyuqlik og'irlik kuchiga qarshi oqadi. Avval virus (rinovirus), keyin bakteriya: tiplanmaydigan H. influenzae, S. pneumoniae, M. catarrhalis. Asoratlar: ko'z kosasi flegmonasi, kavernoz sinus sindromi, meningit.\n\n🩸 Burundan qon ketish:\n• Ko'pincha oldingi qismdan - Kisselbax chigali. Eslab qolish 'Kiesselbach drives his Lexus with his LEGS': yuqori Lab, oldingi va orqa Ethmoidal, katta tanglay (Greater palatine), Sfenopalatin arteriyalari.\n• Hayot uchun xavfli - orqa qismdan, sfenopalatin arteriyasidan (yuqori jag' arteriyasi tarmog'i).\nSabablar: yot jism, travma, allergik rinit; o'smir o'g'il bolalarda - burun-halqum angiofibromasi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_05.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
         },
         {
           "sarlavha": "Airway histology",
@@ -645,7 +693,11 @@
             "Pericardium: fibrous -> parietal -> visceral (epicardium); space between parietal and visceral",
             "Pericardium innervated by phrenic nerve: pericarditis pain to neck, arms, shoulders"
           ],
-          "izoh": "❤️ Yurak bo'shliqlarining joylashuvi:\n\n• Chap bo'lmacha - yurakning eng ORQA qismi. U kattalashsa (masalan, mitral stenozda) qizilo'ngachni ezib, yutish qiyinlashadi yoki chap qaytuvchi hiqildoq nervini (adashgan nerv tarmog'i) ezib, ovoz bo'g'iladi - Ortner sindromi.\n• O'ng qorincha - eng OLDINGI qismi. Ko'krakning old tomondan jarohatlarida eng ko'p shikastlanadi.\n• Pastki (diafragma) yuzasining ~2/3 qismi chap qorincha, ~1/3 qismi o'ng qorincha.\n\n🛡 Perikard - tashqaridan ichkariga 3 qavat:\n1. Fibroz perikard\n2. Parietal perikard\n3. Epikard (visseral perikard)\nPerikard bo'shlig'i parietal perikard va epikard orasida.\n\nPerikard diafragma nervi bilan innervatsiya qilinadi, shuning uchun perikardit og'rig'i bo'yin, qo'llar yoki yelkaga (ko'pincha chapga) uzatiladi."
+          "izoh": "❤️ Yurak bo'shliqlarining joylashuvi:\n\n• Chap bo'lmacha - yurakning eng ORQA qismi. U kattalashsa (masalan, mitral stenozda) qizilo'ngachni ezib, yutish qiyinlashadi yoki chap qaytuvchi hiqildoq nervini (adashgan nerv tarmog'i) ezib, ovoz bo'g'iladi - Ortner sindromi.\n• O'ng qorincha - eng OLDINGI qismi. Ko'krakning old tomondan jarohatlarida eng ko'p shikastlanadi.\n• Pastki (diafragma) yuzasining ~2/3 qismi chap qorincha, ~1/3 qismi o'ng qorincha.\n\n🛡 Perikard - tashqaridan ichkariga 3 qavat:\n1. Fibroz perikard\n2. Parietal perikard\n3. Epikard (visseral perikard)\nPerikard bo'shlig'i parietal perikard va epikard orasida.\n\nPerikard diafragma nervi bilan innervatsiya qilinadi, shuning uchun perikardit og'rig'i bo'yin, qo'llar yoki yelkaga (ko'pincha chapga) uzatiladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_09.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
         },
         {
           "sarlavha": "Coronary blood supply",
@@ -656,7 +708,11 @@
             "Right-dominant (most common): PDA from RCA; left-dominant: PDA from LCX",
             "LV flow peaks in early diastole; coronary sinus (left AV groove) drains to RA"
           ],
-          "izoh": "🫀 Toj arteriyalari:\n\n• Oldingi qorinchalararo arteriya (LAD) - qorinchalararo to'siqning old 2/3 qismi, old-lateral so'rg'ichsimon mushak va chap qorincha old devori. Eng ko'p tiqiladigan arteriya.\n• Orqa qorinchalararo arteriya (PDA) - to'siqning orqa 1/3 qismi, qorinchalar orqa devorlari va orqa-medial so'rg'ichsimon mushak.\n• O'ng toj arteriyasi (RCA) - sinus-bo'lmacha (SA) va bo'lmacha-qorincha (AV) tugunlarini qon bilan ta'minlaydi. Shuning uchun pastki infarktda bradikardiya va blokada bo'ladi. O'tkir chekka tarmog'i - o'ng qorinchaga.\n\nDominantlik (PDA qayerdan chiqishi):\n• o'ng dominant (eng ko'p) - RCA dan\n• chap dominant - aylanma arteriyadan (LCX)\n• kodominant - ikkalasidan\n\n💡 Chap qorincha va to'siqqa qon oqimi diastola boshida eng yuqori. Toj sinus chap AV egatida yotadi va o'ng bo'lmachaga quyiladi."
+          "izoh": "🫀 Toj arteriyalari:\n\n• Oldingi qorinchalararo arteriya (LAD) - qorinchalararo to'siqning old 2/3 qismi, old-lateral so'rg'ichsimon mushak va chap qorincha old devori. Eng ko'p tiqiladigan arteriya.\n• Orqa qorinchalararo arteriya (PDA) - to'siqning orqa 1/3 qismi, qorinchalar orqa devorlari va orqa-medial so'rg'ichsimon mushak.\n• O'ng toj arteriyasi (RCA) - sinus-bo'lmacha (SA) va bo'lmacha-qorincha (AV) tugunlarini qon bilan ta'minlaydi. Shuning uchun pastki infarktda bradikardiya va blokada bo'ladi. O'tkir chekka tarmog'i - o'ng qorinchaga.\n\nDominantlik (PDA qayerdan chiqishi):\n• o'ng dominant (eng ko'p) - RCA dan\n• chap dominant - aylanma arteriyadan (LCX)\n• kodominant - ikkalasidan\n\n💡 Chap qorincha va to'siqqa qon oqimi diastola boshida eng yuqori. Toj sinus chap AV egatida yotadi va o'ng bo'lmachaga quyiladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_10.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
         }
       ],
       "savollar": [
@@ -805,7 +861,11 @@
             "Transversalis fascia (weakness -> direct hernia)",
             "Extraperitoneal connective tissue -> parietal peritoneum"
           ],
-          "izoh": "Qorin old devori qavatlari - tashqaridan ichkariga. Laparotomiya, laparoskopiya va churralarni tushunish uchun asos.\n\n1. Teri\n2. Yuza fassiya - ikki qavat: yog'li Kamper qavati va zichroq, tolali Skarpa qavati\n3. Tashqi qiyshiq mushak\n4. Ichki qiyshiq mushak\n5. Ko'ndalang mushak\n6. Ko'ndalang fassiya\n7. Qorin parda oldi (ekstraperitoneal) biriktiruvchi to'qima\n8. Parietal qorin parda\n\n💡 USMLE uchun: ko'ndalang fassiyaning yoshga bog'liq zaiflashuvi to'g'ri chov churrasining sababi. Uchta yassi mushak va ularning aponevrozlari chov kanali devorlarini ham hosil qiladi."
+          "izoh": "Qorin old devori qavatlari - tashqaridan ichkariga. Laparotomiya, laparoskopiya va churralarni tushunish uchun asos.\n\n1. Teri\n2. Yuza fassiya - ikki qavat: yog'li Kamper qavati va zichroq, tolali Skarpa qavati\n3. Tashqi qiyshiq mushak\n4. Ichki qiyshiq mushak\n5. Ko'ndalang mushak\n6. Ko'ndalang fassiya\n7. Qorin parda oldi (ekstraperitoneal) biriktiruvchi to'qima\n8. Parietal qorin parda\n\n💡 USMLE uchun: ko'ndalang fassiyaning yoshga bog'liq zaiflashuvi to'g'ri chov churrasining sababi. Uchta yassi mushak va ularning aponevrozlari chov kanali devorlarini ham hosil qiladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d4_01.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
         },
         {
           "sarlavha": "Inguinal canal",
@@ -816,7 +876,11 @@
             "Female: round ligament of uterus (homologue of gubernaculum)",
             "Ilioinguinal nerve (L1) exits superficial ring: mons pubis, labia majora / anterior scrotum"
           ],
-          "izoh": "Chov kanali - qorin old devorining pastki qismidagi qiyshiq yo'l, uzunligi taxminan 4 sm. Chov boylamining medial yarmiga parallel va undan yuqorida yotadi. Chov churralari aynan shu sohada paydo bo'ladi.\n\n🔹 Chuqur (ichki) halqa - kanalga kirish joyi. Pastki epigastral tomirlardan LATERALDA, chov boylamining o'rtasidan sal yuqorida.\n🔹 Yuza (tashqi) halqa - kanalning medial chiqish teshigi, qov do'mbog'idan yuqori-lateralda.\n\n♀️ Ayollarda kanal orqali bachadonning yumaloq boylami o'tadi - u bachadondan katta jinsiy lablarga boradi va erkaklardagi moyak yo'naltiruvchisining (gubernaculum) gomologi.\n\n⚡️ Yonbosh-chov nervi (L1, bel chigali tarmog'i) yuza halqadan chiqib, ayollarda qov tepaligi va katta jinsiy lablar, erkaklarda yorg'oqning old-yon terisini innervatsiya qiladi."
+          "izoh": "Chov kanali - qorin old devorining pastki qismidagi qiyshiq yo'l, uzunligi taxminan 4 sm. Chov boylamining medial yarmiga parallel va undan yuqorida yotadi. Chov churralari aynan shu sohada paydo bo'ladi.\n\n🔹 Chuqur (ichki) halqa - kanalga kirish joyi. Pastki epigastral tomirlardan LATERALDA, chov boylamining o'rtasidan sal yuqorida.\n🔹 Yuza (tashqi) halqa - kanalning medial chiqish teshigi, qov do'mbog'idan yuqori-lateralda.\n\n♀️ Ayollarda kanal orqali bachadonning yumaloq boylami o'tadi - u bachadondan katta jinsiy lablarga boradi va erkaklardagi moyak yo'naltiruvchisining (gubernaculum) gomologi.\n\n⚡️ Yonbosh-chov nervi (L1, bel chigali tarmog'i) yuza halqadan chiqib, ayollarda qov tepaligi va katta jinsiy lablar, erkaklarda yorg'oqning old-yon terisini innervatsiya qiladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d4_02.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
+          }
         },
         {
           "sarlavha": "Spermatic cord and cremasteric reflex",
@@ -827,7 +891,11 @@
             "Testis lymph -> lumbar (para-aortic) nodes, NOT superficial inguinal",
             "Cremasteric reflex: afferent ilioinguinal (L1), efferent genital branch of genitofemoral"
           ],
-          "izoh": "Urug' tizimchasi moyak tushishi davomida hosil bo'ladi. U chuqur halqadan boshlanib, chov kanali orqali o'tadi va yuza halqadan chiqib yorg'oqqa tushadi.\n\nTarkibi:\n• Moyak arteriyasi - qorin aortasidan\n• Pampinform venoz chigal - moyakni sovutib, haroratini boshqaradi; chuqur halqada moyak venasiga qo'shiladi\n• Urug' yo'li va uning arteriyasi\n• Vegetativ nervlar va limfa tomirlari\n\n⚠️ Muhim: moyak limfasi bel (aorta yoni) limfa tugunlariga boradi, yuza chov tugunlariga EMAS (oraliqning qolgan qismidan farqli). Moyak saratoni metastazi shuni hisobga olib izlanadi.\n\n🔨 Kremaster refleksi: sonning yuqori-ichki yuzasiga yengil tegilganda moyak biroz ko'tariladi.\n• Sezuvchi yo'l - yonbosh-chov nervining L1 tolalari\n• Harakat yo'li - son-jinsiy nervning jinsiy tarmog'i (kremaster mushagi)"
+          "izoh": "Urug' tizimchasi moyak tushishi davomida hosil bo'ladi. U chuqur halqadan boshlanib, chov kanali orqali o'tadi va yuza halqadan chiqib yorg'oqqa tushadi.\n\nTarkibi:\n• Moyak arteriyasi - qorin aortasidan\n• Pampinform venoz chigal - moyakni sovutib, haroratini boshqaradi; chuqur halqada moyak venasiga qo'shiladi\n• Urug' yo'li va uning arteriyasi\n• Vegetativ nervlar va limfa tomirlari\n\n⚠️ Muhim: moyak limfasi bel (aorta yoni) limfa tugunlariga boradi, yuza chov tugunlariga EMAS (oraliqning qolgan qismidan farqli). Moyak saratoni metastazi shuni hisobga olib izlanadi.\n\n🔨 Kremaster refleksi: sonning yuqori-ichki yuzasiga yengil tegilganda moyak biroz ko'tariladi.\n• Sezuvchi yo'l - yonbosh-chov nervining L1 tolalari\n• Harakat yo'li - son-jinsiy nervning jinsiy tarmog'i (kremaster mushagi)",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d4_03.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
         },
         {
           "sarlavha": "Indirect vs direct inguinal hernia",
@@ -838,7 +906,11 @@
             "Direct: weak transversalis fascia; older men; only external spermatic fascia",
             "'MDs don't lie': Medial = Direct, Lateral = indirect"
           ],
-          "izoh": "🔸 Qiyshiq (bilvosita) chov churrasi:\n• chuqur halqa -> chov kanali -> yuza halqa -> yorg'oqqa tushishi mumkin\n• pastki epigastral tomirlardan LATERALDA kiradi\n• sababi: qin o'simtasi (processus vaginalis) yopilmay qolgan (gidrotsele ham shu sababdan)\n• chaqaloqlarda yoki kattalikda aniqlanadi, erkaklarda ancha ko'p; moyak tushgan yo'ldan boradi\n• urug' tizimchasining uchala fassiyasi bilan qoplangan\n• eng ko'p uchraydigan churra; ko'rikda barmoq uchi bilan seziladi\n\n🔸 To'g'ri (bevosita) chov churrasi:\n• Hesselbax uchburchagi orqali to'g'ridan-to'g'ri qorin devoridan chiqadi\n• pastki epigastral tomirlardan MEDIALDA, to'g'ri mushakdan lateralda\n• faqat yuza halqadan o'tadi, faqat tashqi urug' fassiyasi bilan qoplangan\n• keksa erkaklarda, ko'ndalang fassiya zaiflashganda; qabziyat, prostata kattalashuvi xavfni oshiradi\n• kuchanganda chiqadi, tinch holatda yo'qoladi\n\n💡 'MDs don't lie': Medial - Direct, Lateral - indirect."
+          "izoh": "🔸 Qiyshiq (bilvosita) chov churrasi:\n• chuqur halqa -> chov kanali -> yuza halqa -> yorg'oqqa tushishi mumkin\n• pastki epigastral tomirlardan LATERALDA kiradi\n• sababi: qin o'simtasi (processus vaginalis) yopilmay qolgan (gidrotsele ham shu sababdan)\n• chaqaloqlarda yoki kattalikda aniqlanadi, erkaklarda ancha ko'p; moyak tushgan yo'ldan boradi\n• urug' tizimchasining uchala fassiyasi bilan qoplangan\n• eng ko'p uchraydigan churra; ko'rikda barmoq uchi bilan seziladi\n\n🔸 To'g'ri (bevosita) chov churrasi:\n• Hesselbax uchburchagi orqali to'g'ridan-to'g'ri qorin devoridan chiqadi\n• pastki epigastral tomirlardan MEDIALDA, to'g'ri mushakdan lateralda\n• faqat yuza halqadan o'tadi, faqat tashqi urug' fassiyasi bilan qoplangan\n• keksa erkaklarda, ko'ndalang fassiya zaiflashganda; qabziyat, prostata kattalashuvi xavfni oshiradi\n• kuchanganda chiqadi, tinch holatda yo'qoladi\n\n💡 'MDs don't lie': Medial - Direct, Lateral - indirect.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d4_04.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
         },
         {
           "sarlavha": "Femoral region and femoral hernia",
@@ -849,7 +921,11 @@
             "Below and lateral to pubic tubercle, medial to femoral vein",
             "More common in women; highest risk of incarceration/strangulation"
           ],
-          "izoh": "🦵 Son uchburchagi tarkibi lateraldan medialga: Nerv - Arteriya - Vena - (bo'sh joy) - Limfa = NAVEL. 'Kindikni topish uchun lateraldan medialga yurasiz'. Vena jinsiy a'zoga eng yaqin.\n\n🔹 Son g'ilofi - chov boylamidan 3-4 sm pastgacha davom etuvchi fassial nay. Ichida son arteriyasi, venasi va son kanali (chuqur chov limfa tugunlari) bor. Son nervi g'ilofdan TASHQARIDA.\n\n🔸 Son churrasi:\n• son kanali orqali, chov boylamidan PASTDA chiqadi\n• qov do'mbog'idan pastda va lateralda (chov churrasi esa yuqorida va medialda)\n• son venasidan medialda\n• ayollarda ko'proq (ko'pincha o'ngda), lekin umuman olganda ayollarda ham chov churrasi ko'proq uchraydi\n• kanal tor bo'lgani uchun erta qisilish (inkarseratsiya, strangulyatsiya) xavfi eng yuqori - kechiktirmay operatsiya qilinadi."
+          "izoh": "🦵 Son uchburchagi tarkibi lateraldan medialga: Nerv - Arteriya - Vena - (bo'sh joy) - Limfa = NAVEL. 'Kindikni topish uchun lateraldan medialga yurasiz'. Vena jinsiy a'zoga eng yaqin.\n\n🔹 Son g'ilofi - chov boylamidan 3-4 sm pastgacha davom etuvchi fassial nay. Ichida son arteriyasi, venasi va son kanali (chuqur chov limfa tugunlari) bor. Son nervi g'ilofdan TASHQARIDA.\n\n🔸 Son churrasi:\n• son kanali orqali, chov boylamidan PASTDA chiqadi\n• qov do'mbog'idan pastda va lateralda (chov churrasi esa yuqorida va medialda)\n• son venasidan medialda\n• ayollarda ko'proq (ko'pincha o'ngda), lekin umuman olganda ayollarda ham chov churrasi ko'proq uchraydi\n• kanal tor bo'lgani uchun erta qisilish (inkarseratsiya, strangulyatsiya) xavfi eng yuqori - kechiktirmay operatsiya qilinadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d4_05.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
         },
         {
           "sarlavha": "Spigelian and diaphragmatic hernias",
@@ -860,7 +936,11 @@
             "Sliding hiatal hernia: GE junction moves up, 'hourglass stomach', GERD; most common",
             "Paraesophageal: GE junction normal, fundus protrudes into thorax"
           ],
-          "izoh": "🔸 Spigel churrasi (yarimoysimon chiziq churrasi) - to'g'ri mushak va yarimoysimon chiziq orasidagi Spigel aponevrozi nuqsonidan chiqadi. Ko'pincha qorin pastki qismida, chunki u yerda to'g'ri mushakning orqa qini yo'q. Belgilari: qorin og'rig'i, shu chiziq bo'ylab qo'lga unnaydigan bo'rtma. Tashxis - UTT va KT.\n\n🔸 Diafragma churrasi - qorin a'zolari ko'krak qafasiga chiqadi; ko'krakda ichak shovqinlari eshitiladi.\n• Chaqaloqlarda - plevra-qorinparda membranasining tug'ma nuqsoni. Ko'pincha CHAP tomonda, chunki o'ng gumbazni jigar himoya qiladi.\n• Kattalarda - qizilo'ngach-diafragma membranasi bo'shashib, hiatal churra.\n\nHiatal churra turlari:\n• Sirpanuvchi - me'da-qizilo'ngach tutashuvi yuqoriga siljiydi, 'qum soatisimon me'da'. Eng ko'p uchraydi, GERK bilan bog'liq.\n• Paraezofageal - tutashuv joyida qoladi, lekin me'da tubi ko'krakka chiqadi."
+          "izoh": "🔸 Spigel churrasi (yarimoysimon chiziq churrasi) - to'g'ri mushak va yarimoysimon chiziq orasidagi Spigel aponevrozi nuqsonidan chiqadi. Ko'pincha qorin pastki qismida, chunki u yerda to'g'ri mushakning orqa qini yo'q. Belgilari: qorin og'rig'i, shu chiziq bo'ylab qo'lga unnaydigan bo'rtma. Tashxis - UTT va KT.\n\n🔸 Diafragma churrasi - qorin a'zolari ko'krak qafasiga chiqadi; ko'krakda ichak shovqinlari eshitiladi.\n• Chaqaloqlarda - plevra-qorinparda membranasining tug'ma nuqsoni. Ko'pincha CHAP tomonda, chunki o'ng gumbazni jigar himoya qiladi.\n• Kattalarda - qizilo'ngach-diafragma membranasi bo'shashib, hiatal churra.\n\nHiatal churra turlari:\n• Sirpanuvchi - me'da-qizilo'ngach tutashuvi yuqoriga siljiydi, 'qum soatisimon me'da'. Eng ko'p uchraydi, GERK bilan bog'liq.\n• Paraezofageal - tutashuv joyida qoladi, lekin me'da tubi ko'krakka chiqadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d4_06.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
         },
         {
           "sarlavha": "Peritoneal sacs and fluid flow",
@@ -871,7 +951,11 @@
             "Upright: fluid flows down -> rectovesical / rectouterine pouch",
             "Supine: fluid flows up -> subphrenic + hepatorenal recess (lowest point); shoulder pain via phrenic"
           ],
-          "izoh": "🔹 Kichik charvi xaltasi (omental bursa) - me'da embrional davrda soat yo'nalishida 90° burilishi natijasida hosil bo'ladi. Katta qorin parda bo'shlig'i bilan charvi (Vinslov) teshigi orqali tutashadi.\nChegaralari: oldinda - jigar, me'da va kichik charvi; orqada - me'da osti bezi, chap buyrak va diafragma; o'ngda - jigar; chapda - me'da-taloq va taloq-buyrak boylamlari.\n\n🔹 Katta qorin parda xaltasi - qolgan bo'shliq, diafragmadan tosgacha. Unda cho'ntaklar, chuqurchalar va yonbosh (parakolik) ariqchalar bor.\n\n💧 Suyuqlik harakati:\n• Normada qorin parda suyuqligi ko'tariluvchi va tushuvchi chambar ichak yonidagi ariqchalar bo'ylab diafragma ostiga ko'tariladi va diafragma limfa tomirlariga so'riladi.\n• O'tirgan yoki tik turganda (peritonit, assit) - pastga oqadi: erkaklarda to'g'ri ichak-qovuq, ayollarda to'g'ri ichak-bachadon cho'ntagiga.\n• Chalqancha yotganda - yuqoriga, diafragma osti va jigar-buyrak chuqurchasiga oqadi. Jigar-buyrak chuqurchasi bu holatda eng past nuqta. Diafragma nervi (C3-C5) ta'sirlanib, yelka og'rig'i paydo bo'lishi mumkin."
+          "izoh": "🔹 Kichik charvi xaltasi (omental bursa) - me'da embrional davrda soat yo'nalishida 90° burilishi natijasida hosil bo'ladi. Katta qorin parda bo'shlig'i bilan charvi (Vinslov) teshigi orqali tutashadi.\nChegaralari: oldinda - jigar, me'da va kichik charvi; orqada - me'da osti bezi, chap buyrak va diafragma; o'ngda - jigar; chapda - me'da-taloq va taloq-buyrak boylamlari.\n\n🔹 Katta qorin parda xaltasi - qolgan bo'shliq, diafragmadan tosgacha. Unda cho'ntaklar, chuqurchalar va yonbosh (parakolik) ariqchalar bor.\n\n💧 Suyuqlik harakati:\n• Normada qorin parda suyuqligi ko'tariluvchi va tushuvchi chambar ichak yonidagi ariqchalar bo'ylab diafragma ostiga ko'tariladi va diafragma limfa tomirlariga so'riladi.\n• O'tirgan yoki tik turganda (peritonit, assit) - pastga oqadi: erkaklarda to'g'ri ichak-qovuq, ayollarda to'g'ri ichak-bachadon cho'ntagiga.\n• Chalqancha yotganda - yuqoriga, diafragma osti va jigar-buyrak chuqurchasiga oqadi. Jigar-buyrak chuqurchasi bu holatda eng past nuqta. Diafragma nervi (C3-C5) ta'sirlanib, yelka og'rig'i paydo bo'lishi mumkin.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d4_07.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
         },
         {
           "sarlavha": "Retroperitoneal structures",
@@ -893,7 +977,11 @@
             "Gastrocolic (gastroepiploic a.) and gastrosplenic (short gastrics): greater omentum",
             "Splenorenal: splenic a. and v., tail of pancreas"
           ],
-          "izoh": "Qorin bo'shlig'i boylamlari:\n\n🔹 Ventral tutqichdan:\n• O'roqsimon boylam - jigardan qorin old devoriga. Ichida jigarning yumaloq boylami (homila kindik venasining qoldig'i) va kindik oldi venalari.\n• Jigar-o'n ikki barmoqli ichak boylami - ichida portal triada: xususiy jigar arteriyasi, darvoza venasi, umumiy o't yo'li. Charvi teshigining old chegarasi. Pringl manyovri: shu boylam qisiladi - qon to'xtasa manba darvoza venasi/jigar arteriyasi, to'xtamasa jigar venalari yoki pastki kovak vena.\n• Jigar-me'da boylami - me'daning kichik egriligiga, me'da tomirlari bilan. O'ngda katta va kichik xaltalarni ajratadi; kichik xaltaga kirish uchun kesiladi.\nBu ikkalasi birga - kichik charvi.\n\n🔹 Dorsal tutqichdan (katta charvi):\n• Me'da-chambar ichak boylami - me'da-charvi arteriyalari\n• Me'da-taloq boylami - qisqa me'da arteriyalari va chap me'da-charvi tomirlari; chapda xaltalarni ajratadi\n• Taloq-buyrak boylami - taloq arteriyasi va venasi, me'da osti bezi dumi"
+          "izoh": "Qorin bo'shlig'i boylamlari:\n\n🔹 Ventral tutqichdan:\n• O'roqsimon boylam - jigardan qorin old devoriga. Ichida jigarning yumaloq boylami (homila kindik venasining qoldig'i) va kindik oldi venalari.\n• Jigar-o'n ikki barmoqli ichak boylami - ichida portal triada: xususiy jigar arteriyasi, darvoza venasi, umumiy o't yo'li. Charvi teshigining old chegarasi. Pringl manyovri: shu boylam qisiladi - qon to'xtasa manba darvoza venasi/jigar arteriyasi, to'xtamasa jigar venalari yoki pastki kovak vena.\n• Jigar-me'da boylami - me'daning kichik egriligiga, me'da tomirlari bilan. O'ngda katta va kichik xaltalarni ajratadi; kichik xaltaga kirish uchun kesiladi.\nBu ikkalasi birga - kichik charvi.\n\n🔹 Dorsal tutqichdan (katta charvi):\n• Me'da-chambar ichak boylami - me'da-charvi arteriyalari\n• Me'da-taloq boylami - qisqa me'da arteriyalari va chap me'da-charvi tomirlari; chapda xaltalarni ajratadi\n• Taloq-buyrak boylami - taloq arteriyasi va venasi, me'da osti bezi dumi",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d4_09.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
         },
         {
           "sarlavha": "Gut wall and GI histology",
