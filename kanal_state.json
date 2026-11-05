@@ -267,7 +267,8 @@
     "https://sports.uz/oz/news/view/barsa-qiziqayotgan-husanov-siti-ning-o-ziga-ham-kerak",
     "https://daryo.uz/2026/11/05/ozbekiston-milliy-jamoasining-noyabr-oyidagi-oyinlari-boshlanish-vaqti-malum-boldi/",
     "https://sports.uz/oz/news/view/chempionlar-ligasida-yamaldan-zo-r-futbolchi-kashf-qilindi",
-    "yt:EEBgiZWK0r4"
+    "yt:EEBgiZWK0r4",
+    "yt:OVcoVweCVuY"
   ],
   "used_quiz": [
     23,
@@ -369,9 +370,9 @@
     "O‘zbekiston milliy jamoasining noyabr oyidagi o‘yinlari boshlanish vaqti ma’lum bo‘ldi",
     "Chempionlar ligasida Yamaldan zo‘r futbolchi kashf qilindi"
   ],
-  "last_slot": "2026-11-05 17:30",
+  "last_slot": "2026-11-05 19:00",
   "scorers_idx": 3,
-  "last_video_source": "Serie A",
+  "last_video_source": "UEFA",
   "table_idx": 5,
   "live": {
     "401915403": {
@@ -1337,7 +1338,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 631,
+    "last_id": 632,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
