@@ -1,3 +1,14 @@
 {
-  "channel_id": 3958695331
+  "channel_id": 3958695331,
+  "used_savol": [],
+  "used_fakt": [],
+  "used_maslahat": [],
+  "seen_news": [],
+  "dars": {
+    "bajarildi": [],
+    "pos": 0,
+    "joriy": "1:postlar",
+    "kun": "2026-11-06",
+    "boshlanish": 0
+  }
 }
