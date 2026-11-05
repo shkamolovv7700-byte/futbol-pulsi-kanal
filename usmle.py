@@ -250,12 +250,19 @@ async def post_lesson(client: TelegramClient, channel, step: str, pos: int, tota
                                     label=f"{n + 1}-DARS  •  {pos + 1}/{total}")
         text = (f"📚 <b>{html.escape(head)}</b> | {pos + 1}/{total}\n\n<b>{html.escape(item['sarlavha'])}</b>\n\n"
                 f"{html.escape(item['izoh'], quote=False)}\n\n{tag}{FOOTER}")
-        if len(re.sub(r"<[^>]+>", "", text)) <= 1024:
-            await client.send_file(channel, card, caption=text, parse_mode="html")
-        else:  # rasm izohi 1024 belgigacha - uzun tushuntirish rasmga javob sifatida alohida chiqadi
-            photo = await client.send_file(channel, card, caption=f"📚 <b>{html.escape(head)}</b> | {pos + 1}/{total}",
-                                           parse_mode="html")
-            await client.send_message(channel, text, parse_mode="html", reply_to=photo.id)
+        files = [card]
+        pic = item.get("rasm")
+        if pic and (BASE_DIR / pic["fayl"]).exists():  # anatomik rasm (lotincha yozuvlar) - kartochka bilan albom
+            files.append(str(BASE_DIR / pic["fayl"]))
+            text = text.replace(FOOTER, f"\n🖼 <i>{html.escape(pic['manba'])}</i>{FOOTER}")
+        short = f"📚 <b>{html.escape(head)}</b> | {pos + 1}/{total}"
+        fits = len(re.sub(r"<[^>]+>", "", text)) <= 1024
+        sent = await client.send_file(channel, files if len(files) > 1 else card,
+                                      caption=([text if fits else short] + [""] * (len(files) - 1)) if len(files) > 1
+                                      else (text if fits else short), parse_mode="html")
+        if not fits:  # rasm izohi 1024 belgigacha - uzun tushuntirish rasmga javob sifatida alohida chiqadi
+            first = sent[0] if isinstance(sent, list) else sent
+            await client.send_message(channel, text, parse_mode="html", reply_to=first.id)
     else:
         options, correct = shuffled(item)
         if step.startswith("aralash:"):

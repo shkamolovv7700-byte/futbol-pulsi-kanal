@@ -38,3 +38,5 @@
 !usmle_state.json
 !.github/workflows/usmle.yml
 !usmle_darslar.json
+!usmle_rasmlar/
+!usmle_rasmlar/*
