@@ -553,151 +553,329 @@
       "manba": "2-lesson._Thorax_anatomy_1-part.pdf",
       "postlar": [
         {
-          "sarlavha": "Breast: structure and blood supply",
+          "sarlavha": "Breast: structure",
           "bandlar": [
-            "Modified sweat gland in superficial pectoral region; fat gives shape and size",
-            "Cooper (suspensory) ligaments: skin -> deep fascia",
-            "Internal thoracic artery (from subclavian): medial part",
-            "Lateral thoracic artery (from axillary): lateral part, runs with long thoracic nerve",
-            "Tumor pulls Cooper ligaments -> skin dimpling, 'orange peel'"
+            "Subcutaneous glandular organ of the superficial pectoral region",
+            "A modified sweat gland; in women produces and secretes milk",
+            "Fat around glands and ducts determines size and shape",
+            "Cooper (suspensory) ligaments: skin -> deep fascia"
           ],
-          "izoh": "Sut bezi - ko'krak sohasidagi teri osti bezi, aslida o'zgargan ter bezi. Uning shakli va hajmini bez atrofidagi yog' to'qimasi belgilaydi.\n\n🔹 Kuper boylamlari - bezni teriga 'osib' turuvchi boylamlar, teridan chuqur fassiyagacha boradi.\n\n🩸 Qon bilan ta'minlanishi:\n• Ichki ko'krak arteriyasi (o'mrov osti arteriyasi tarmog'i) - bezning medial qismi\n• Lateral ko'krak arteriyasi (qo'ltiq arteriyasi tarmog'i) - lateral qismi. U oldingi tishli mushak ustida uzun ko'krak nervi bilan yonma-yon yuradi (keyingi postlarda bu muhim bo'ladi!)\n\n⚠️ Klinika: o'sma Kuper boylamlarini tortib, terida botiqlik va 'apelsin po'sti' ko'rinishini keltirib chiqaradi.",
+          "izoh": "🌸 Sut bezi (mamma) - ko'krakning yuza sohasidagi teri osti bez a'zosi.\n\n• Kelib chiqishi bo'yicha u o'zgargan TER BEZI hisoblanadi; ayollarda sut ishlab chiqarish va ajratishga moslashgan.\n• Bez to'qimasi va sut yo'llari atrofida turli miqdorda YOG' to'qimasi bor - aynan yog' ayol ko'krak bezining shakli va hajmini belgilaydi.\n• Kuper boylamlari (osuvchi boylamlar) bezni teriga 'osib' turadi: ular teridan chuqur (ko'krak) fassiyagacha boradi va bez bo'laklarini ajratib turadi.\n\nRasmda sut bezining tuzilishi: bo'laklar (lobi), sut yo'llari, so'rg'ich (papilla mammae) va bez ostidagi katta ko'krak mushagi fassiyasi.\n\n💡 Kuper boylamlarining klinik ahamiyati - keyingi postlarda (o'sma va 'apelsin po'sti').",
           "rasm": {
             "fayl": "usmle_rasmlar/d2_01.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
           }
         },
         {
-          "sarlavha": "Lymphatic drainage of the breast",
+          "sarlavha": "Breast: blood supply",
           "bandlar": [
-            "~75% of lymph -> axillary nodes (pectoral group first)",
-            "Axillary route: nipple + superior, lateral and inferior quadrants",
-            "Medial quadrant -> parasternal nodes along internal thoracic vessels",
-            "Medial route: spread to the opposite breast"
+            "Internal thoracic (internal mammary) artery - branch of subclavian",
+            "Supplies the MEDIAL part of the gland",
+            "Lateral thoracic artery - branch of axillary artery",
+            "Supplies the LATERAL part of the gland and lateral chest wall",
+            "Lateral thoracic a. runs with the long thoracic nerve on serratus anterior"
           ],
-          "izoh": "Limfa oqimi sut bezi saratonining qayerga metastaz berishini belgilaydi, shuning uchun USMLE da muhim.\n\n➡️ Lateral yo'l (taxminan 75%): so'rg'ich, yuqori, lateral va pastki kvadrantlardan limfa qo'ltiq limfa tugunlariga, avval pektoral guruhga boradi. Shuning uchun saratonda birinchi bo'lib qo'ltiq tugunlari tekshiriladi.\n\n⬅️ Medial yo'l: medial kvadrantdan limfa asosan to'sh yonidagi (parasternal) tugunlarga, ichki ko'krak tomirlari bo'ylab boradi. Saraton aynan shu yo'l orqali qarama-qarshi sut beziga tarqalishi mumkin.",
+          "izoh": "🩸 Sut bezi juda boy qon bilan ta'minlanadi. Ikki asosiy manba:\n\n1️⃣ Ichki ko'krak arteriyasi (a. thoracica interna, eski nomi - ichki sut bezi arteriyasi) - o'mrov osti arteriyasining tarmog'i. To'sh suyagi yonidan pastga tushadi va bezning MEDIAL qismini qon bilan ta'minlaydi (qovurg'alararo oraliqlar orqali teshib chiquvchi tarmoqlar bilan). Rasmda u to'sh yonida aniq ko'rinadi.\n\n2️⃣ Lateral ko'krak arteriyasi (a. thoracica lateralis) - qo'ltiq arteriyasining tarmog'i. Bezning LATERAL qismini va ko'krak qafasining yon devorini ta'minlaydi.\n\n⚠️ Muhim anatomik yondoshlik: lateral ko'krak arteriyasi oldingi tishli mushak ustida UZUN KO'KRAK NERVI bilan yonma-yon yuradi. Shuning uchun mastektomiyada bu arteriyani bog'lashda nerv shikastlanishi mumkin (keyingi postlar).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_01.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Breast cancer: skin dimpling",
+          "bandlar": [
+            "Tumor infiltrates and shortens Cooper ligaments",
+            "Result: retraction (dimpling) of the overlying skin",
+            "Lymphatic obstruction -> edema with 'orange peel' (peau d'orange) look",
+            "Nipple retraction may occur when ducts are pulled"
+          ],
+          "izoh": "⚠️ Sut bezi saratonining teri belgilari.\n\n🔸 Teri botishi (dimpling): o'sma Kuper boylamlariga o'sib kiradi va ularni qisqartiradi/tortadi. Boylamlar teriga birikkani uchun, o'sma ustidagi teri ichkariga tortilib botadi.\n\n🔸 'Apelsin po'sti' (peau d'orange): o'sma teri limfa tomirlarini to'sadi -> teri shishadi, soch follikulalari va ter bezlari teshiklari esa boylamlar bilan joyida qolgani uchun botiq nuqtalar paydo bo'ladi - teri apelsin po'stiga o'xshaydi.\n\n🔸 So'rg'ichning ichkariga tortilishi - o'sma sut yo'llarini tortganda.\n\nRasmda sut bezining gorizontal kesimi: bo'laklar, yog' to'qimasi, teri bilan bog'lovchi tolalar (retinacula cutis) va pastda katta ko'krak mushagi.\n\n💡 USMLE vinyetkalarida 'teri botishi' yoki 'apelsin po'sti' = Kuper boylamlari / limfa tomirlari zararlangan saraton.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_n03.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Breast: lymphatic drainage",
+          "bandlar": [
+            "Lymph drainage = main route of breast cancer metastasis",
+            "~75% LATERAL: nipple + superior, lateral, inferior quadrants -> axillary nodes",
+            "Axillary drainage reaches the PECTORAL group first",
+            "MEDIAL quadrant -> parasternal nodes along internal thoracic vessels",
+            "Medial route allows spread to the opposite breast"
+          ],
+          "izoh": "🧭 Sut bezining limfa oqimi - saraton metastazining asosiy yo'li, shuning uchun juda muhim.\n\nIkki asosiy yo'nalish:\n\n➡️ LATERAL yo'l - limfaning taxminan 75 foizi. So'rg'ich hamda bezning yuqori, lateral va pastki kvadrantlaridan limfa QO'LTIQ limfa tugunlariga boradi, eng avval PEKTORAL (oldingi) guruhga. Shuning uchun saratonda birinchi bo'lib qo'ltiq tugunlari tekshiriladi va 'qo'riqchi tugun' biopsiyasi olinadi.\n\n⬅️ MEDIAL yo'l - medial kvadrantdan limfa asosan TO'SH YONI (parasternal) tugunlariga boradi; bu tugunlar ichki ko'krak tomirlari bo'ylab joylashgan.\n\n⚠️ Saraton aynan medial yo'l orqali qarama-qarshi sut beziga ham tarqalishi mumkin.\n\nSxemada kvadrantlar, ikki limfa yo'li va tugunlar guruhlari lotincha nomlari bilan ko'rsatilgan.",
           "rasm": {
             "fayl": "usmle_rasmlar/d2_02.jpg",
             "manba": "Sxema: USMLE Pulsi"
           }
         },
         {
-          "sarlavha": "Mastectomy nerve injuries",
+          "sarlavha": "Mastectomy: long thoracic nerve",
           "bandlar": [
-            "Long thoracic nerve (C5-C7) -> serratus anterior",
-            "Injured while ligating lateral thoracic artery or axillary dissection",
-            "Result: winged scapula, cannot abduct arm above 90 degrees",
-            "Thoracodorsal nerve -> latissimus dorsi: weak extension + medial rotation",
-            "Also: stab wounds of lateral chest wall"
+            "Long thoracic nerve: roots C5-C7 ('wings of heaven')",
+            "Supplies serratus anterior",
+            "Injured while ligating the lateral thoracic artery / axillary dissection",
+            "Also by stab wounds of the lateral chest wall",
+            "Winged scapula; cannot abduct the arm above 90 degrees"
           ],
-          "izoh": "Mastektomiyada ikki nerv xavf ostida:\n\n1️⃣ Uzun ko'krak nervi (C5-C7, 'jannat qanotlari' - wings of heaven). Oldingi tishli mushakni innervatsiya qiladi. Lateral ko'krak arteriyasini bog'lashda yoki qo'ltiq limfa tugunlarini olib tashlashda shikastlanadi.\nNatija: kurak suyagi ko'krak qafasiga yopishib turmaydi - 'qanotsimon kurak'. Bemor qo'lini gorizontaldan (90°) yuqori ko'tara olmaydi. Ko'pincha operatsiyadan bir necha hafta keyin seziladi. Yon tomondan pichoq jarohatlarida ham uchraydi.\n\n2️⃣ Ko'krak-orqa (torakodorsal) nervi - orqaning eng keng mushagini innervatsiya qiladi. Shikastlansa - qo'lni orqaga uzatish va ichkariga burish kuchsizlanadi.",
+          "izoh": "🪽 Radikal mastektomiyada eng ko'p shikastlanadigan nerv - UZUN KO'KRAK NERVI (n. thoracicus longus).\n\n• Ildizlari: C5, C6, C7. Eslab qolish: 'C5-6-7 - jannat qanotlari' (wings of heaven).\n• Innervatsiya qiladi: oldingi tishli mushak (m. serratus anterior). Rasmda bu mushak ko'krak qafasining yon yuzasida tishlari bilan ko'rinadi.\n\nQanday shikastlanadi:\n• lateral ko'krak arteriyasini bog'lashda (ular yonma-yon yuradi);\n• qo'ltiq limfa tugunlarini olib tashlashda;\n• ko'krak qafasining yon tomonidan pichoq jarohatlarida.\n\nBelgilari (ko'pincha operatsiyadan bir necha hafta keyin):\n• 'QANOTSIMON KURAK' - kurakning medial chegarasi orqaga bo'rtib chiqadi, ayniqsa qo'l bilan devorga tiralganda;\n• kurak ko'krak qafasiga 'mahkamlanmaydi', shuning uchun qo'lni gorizontal holatdan (90°) yuqori ko'tara olmaydi.",
           "rasm": {
             "fayl": "usmle_rasmlar/d2_03.jpg",
             "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
           }
         },
         {
-          "sarlavha": "Diaphragm: innervation and openings",
+          "sarlavha": "Mastectomy: thoracodorsal nerve",
           "bandlar": [
-            "Main muscle of inspiration; phrenic nerve C3-C5 ('C3, 4, 5 keeps the diaphragm alive')",
-            "Phrenic: motor + sensory (center); periphery sensory via intercostal nerves",
-            "Phrenic lesion: elevated hemidiaphragm, paradoxical movement",
-            "Referred pain: shoulder (C5) and trapezius ridge (C3-4)",
-            "T8: IVC + right phrenic; T10: esophagus + vagal trunks; T12: aorta, thoracic duct, azygos"
+            "Thoracodorsal nerve supplies latissimus dorsi",
+            "May also be damaged during mastectomy / axillary dissection",
+            "Weak EXTENSION of the arm",
+            "Weak MEDIAL (internal) ROTATION of the arm",
+            "Weak adduction (e.g., climbing, swimming)"
           ],
-          "izoh": "Diafragma - nafas olishning asosiy mushagi. U ko'krak qafasining vertikal, ko'ndalang va old-orqa o'lchamlarini oshiradi.\n\n⚡️ Innervatsiya: diafragma nervi (C3-C5). U ham harakat, ham sezgi tolalarini beradi; diafragma chekkasining sezgisi esa qovurg'alararo nervlardan.\n\n⚠️ Diafragma nervi shikastlansa, shu tomondagi gumbaz falajlanadi: nafas olganda pastga tushmaydi, aksincha qorin bosimi ta'sirida yuqoriga ko'tariladi (paradoksal harakat). Rentgenda gumbaz baland turadi.\n\nDiafragma ta'sirlanganda og'riq yelkaga (C5) va trapetsiya mushagi qirrasiga (C3-4) uzatiladi.\n\n🕳 Teshiklar - 'I ate (8) ten (10) eggs at twelve (12)':\n• T8 - pastki kovak vena va o'ng diafragma nervi\n• T10 - qizilo'ngach va adashgan nerv stvollari\n• T12 - aorta, ko'krak limfa yo'li, toq vena",
+          "izoh": "🔹 Mastektomiyada shikastlanishi mumkin bo'lgan ikkinchi nerv - ko'krak-orqa nervi (n. thoracodorsalis).\n\n• U qo'ltiq chuqurchasining orqa devori bo'ylab pastga tushadi va orqaning eng keng mushagini (m. latissimus dorsi) innervatsiya qiladi. Rasmda bu mushak ko'krak qafasining yon-orqa qismida ko'rinadi.\n\nShikastlansa:\n• qo'lni orqaga uzatish (ekstenziya) kuchsizlanadi;\n• qo'lni ichkariga burish (medial rotatsiya) kuchsizlanadi;\n• qo'lni tanaga yaqinlashtirish ham sustlashadi - bemorga narvonga chiqish, suzish, tayoqqa tayanib turish qiyin bo'ladi.\n\n💡 Farqlang:\n• uzun ko'krak nervi -> oldingi tishli mushak -> qanotsimon kurak, qo'l 90° dan yuqori ko'tarilmaydi;\n• ko'krak-orqa nervi -> orqaning eng keng mushagi -> ekstenziya va medial rotatsiya kuchsiz.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_n11.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
+          }
+        },
+        {
+          "sarlavha": "Diaphragm: function and innervation",
+          "bandlar": [
+            "The most important muscle of inspiration",
+            "Increases vertical, transverse ('bucket handle') and AP ('pump handle') diameters",
+            "Phrenic nerves (ventral rami C3-C5): motor + sensory",
+            "Periphery of the diaphragm: sensory via intercostal nerves",
+            "'C3, 4, 5 keeps the diaphragm alive'"
+          ],
+          "izoh": "🫁 Diafragma - nafas olishning ENG MUHIM mushagi.\n\nU qisqarganda gumbazi pastga tushadi va qovurg'alarni ko'taradi, natijada ko'krak qafasining uchala o'lchami ham kattalashadi:\n• vertikal o'lcham;\n• ko'ndalang o'lcham - 'chelak dastasi' harakati;\n• old-orqa o'lcham - 'nasos dastasi' harakati.\n\n⚡️ Innervatsiya:\n• Diafragma nervlari (nn. phrenici) - C3, C4, C5 old shoxlaridan. Ular diafragmaga ham HARAKAT, ham SEZGI tolalarini beradi (markaziy qism sezgisi).\n• Diafragma chekka qismining sezgisi - pastki qovurg'alararo nervlar orqali.\n\n🧠 Eslab qolish: 'C3, 4, 5 keeps the diaphragm alive' - bo'yinning yuqori qismi shikastlanib, C3-C5 zararlansa, bemor mustaqil nafas ololmaydi.\n\nRasmda diafragma pastdan: markaziy pay (centrum tendineum), qovurg'a va bel qismlari, oyoqchalari (crura) va teshiklari.",
           "rasm": {
             "fayl": "usmle_rasmlar/d2_04.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
           }
         },
         {
-          "sarlavha": "Breathing muscles and rib movements",
+          "sarlavha": "Phrenic nerve lesion and referred pain",
           "bandlar": [
-            "External intercostals: elevate ribs (inspiration in exercise/disease)",
-            "Internal + innermost intercostals: forced expiration",
-            "Intercostal V-A-N: between internal and innermost, in costal groove (lower border of rib)",
-            "Ribs 1-6: 'pump handle' -> AP diameter; lower ribs: 'bucket handle' -> lateral diameter",
-            "Quiet expiration is passive; forced: abdominal wall muscles"
+            "Phrenic lesion -> paralysis of that hemidiaphragm",
+            "Paralyzed dome does NOT descend on inspiration",
+            "It is pushed UP by abdominal pressure: paradoxical movement",
+            "X-ray: elevated ipsilateral hemidiaphragm",
+            "Diaphragm irritation -> referred pain to shoulder (C5) and trapezius ridge (C3-4)"
           ],
-          "izoh": "🫁 Nafas olish:\n• Diafragma - asosiy mushak\n• Tashqi qovurg'alararo mushaklar qovurg'alarni ko'taradi (jismoniy yuklama yoki o'pka kasalligida faol)\n• Yordamchi mushaklar: to'sh-o'mrov-so'rg'ichsimon, katta va kichik ko'krak, narvonsimon mushaklar\n\nQovurg'alar harakati:\n• 1-6 qovurg'alar - 'nasos dastasi': to'sh oldinga-yuqoriga suriladi, old-orqa o'lcham oshadi\n• Pastki qovurg'alar - 'chelak dastasi': yonga-yuqoriga ko'tariladi, ko'ndalang o'lcham oshadi\n\n😮‍💨 Nafas chiqarish odatda passiv - o'pka elastikligi hisobiga. Kuchli nafas chiqarishda ichki va eng ichki qovurg'alararo mushaklar hamda qorin devori mushaklari (tashqi va ichki qiyshiq, ko'ndalang) ishlaydi.\n\n📍 Qovurg'alararo vena, arteriya va nerv (yuqoridan pastga V-A-N) ichki va eng ichki qovurg'alararo mushaklar orasida, qovurg'aning PASTKI qirrasidagi egatda yotadi.",
+          "izoh": "⚠️ Diafragma nervi shikastlanganda:\n\n• Shu tomondagi diafragma gumbazi falajlanadi.\n• Nafas olganda falaj gumbaz pastga tushmaydi; aksincha, qorin ichidagi bosim oshgani uchun YUQORIGA ko'tariladi - bu PARADOKSAL harakat (sog' tomon pastga, falaj tomon yuqoriga).\n• Rentgenogrammada shu tomondagi diafragma gumbazi baland turadi.\n\nSabablari: ko'ks oralig'i o'smalari, yurak operatsiyalari, bo'yin jarohatlari.\n\n📍 Uzatilgan og'riq: diafragma (yoki uni qoplovchi plevra, perikard) ta'sirlansa, og'riq C3-C5 dermatomlariga uzatiladi:\n• yelka uchi - C5;\n• trapetsiya mushagi qirrasi - C3, C4.\nMasalan, o't pufagi yallig'lanishi yoki diafragma ostidagi abssess o'ng yelkaga og'riq beradi.\n\nRasmda ko'ks oralig'i va perikard yonidan pastga tushayotgan diafragma nervi (N. phrenicus) ko'rinadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_n08.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Diaphragm: openings (T8, T10, T12)",
+          "bandlar": [
+            "T8: inferior vena cava + right phrenic nerve",
+            "T10: esophagus + vagal trunks (CN X, 2 trunks)",
+            "T12: aorta (red), thoracic duct (white), azygos vein (blue)",
+            "'I ate (8) ten (10) eggs at twelve (12)'",
+            "Other levels: common carotid bifurcates C4, trachea T4, abdominal aorta L4"
+          ],
+          "izoh": "🕳 Diafragma teshiklari - USMLE ning eng sevimli mavzularidan.\n\n• T8 - pastki kovak vena teshigi (foramen venae cavae): pastki kovak vena va o'ng diafragma nervi.\n• T10 - qizilo'ngach teshigi (hiatus oesophageus): qizilo'ngach va adashgan nervning 2 ta stvoli.\n• T12 - aorta teshigi (hiatus aorticus): aorta (qizil), ko'krak limfa yo'li (oq), toq vena (ko'k) - 'T12 da qizil, oq va ko'k'.\n\n🧠 Eslab qolish usullari:\n• 'I ate (8) ten (10) eggs at twelve (12)'.\n• Harflar soni = umurtqa sathi: vena cava (8 harf) - T8; oesophagus (10) - T10; aortic hiatus (12) - T12.\n\n📍 Boshqa muhim sathlar (bifurkatsiyalar):\n• umumiy uyqu arteriyasi - C4;\n• traxeya - T4;\n• qorin aortasi - L4.\n\nRasmda diafragmaning bel qismi va uning teshiklari ko'rinadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d4_06.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Intercostal muscles and neurovascular bundle",
+          "bandlar": [
+            "Thin muscle layers in intercostal spaces 1-11; keep spaces rigid",
+            "External intercostals: elevate ribs - inspiration (exercise, lung disease)",
+            "Internal + innermost intercostals: forced expiration",
+            "Intercostal V-A-N: between internal and innermost layers",
+            "In the costal groove at the LOWER border of each rib"
+          ],
+          "izoh": "🦴 Qovurg'alararo mushaklar - 1-11 qovurg'alararo oraliqlarni to'ldiruvchi yupqa mushak qavatlari. Ular nafas olish va chiqarishda oraliqlarni 'qattiq' saqlaydi (ichkariga tortilib yoki bo'rtib ketmasligi uchun).\n\n• Tashqi qovurg'alararo mushaklar - qovurg'alarni KO'TARADI; jismoniy yuklama yoki o'pka kasalligida nafas olishga yordam beradi.\n• Ichki qovurg'alararo mushaklar - jismoniy yuklama yoki o'pka kasalligida nafas CHIQARISHGA yordam beradi.\n• Eng ichki qovurg'alararo mushaklar - ichki mushaklar bilan birga ishlaydi deb hisoblanadi.\n\n📍 Qovurg'alararo vena, arteriya va nerv (yuqoridan pastga: V-A-N) ICHKI va ENG ICHKI mushaklar orasida yotadi. Ular qovurg'aning PASTKI qirrasidagi qovurg'a egatida (sulcus costae) yo'naladi.\n\n💡 Shuning uchun plevra punksiyasi qovurg'aning YUQORI qirrasidan qilinadi (3-darsda batafsil).\n\nRasmda ko'krak va qorin devori mushaklari, jumladan qovurg'alararo mushaklar ko'rinadi.",
           "rasm": {
             "fayl": "usmle_rasmlar/d2_05.jpg",
             "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
           }
         },
         {
-          "sarlavha": "Pleura and pleuritic pain",
+          "sarlavha": "Accessory muscles of respiration",
           "bandlar": [
-            "Parietal pleura: costal, diaphragmatic, mediastinal, cervical (above 1st rib)",
-            "Visceral pleura covers lung, follows all fissures",
-            "Layers are continuous at the root (hilum) of the lung",
-            "Costal pleurisy: local chest wall pain via intercostal nerves",
-            "Mediastinal (and central diaphragmatic) pleura: referred to shoulder via phrenic (C3-5)"
+            "Inspiration (exercise/lung disease): sternocleidomastoid, pectoralis major + minor, scalenes",
+            "Also: serratus posterior superior, levatores costarum",
+            "Serratus posterior inferior and transversus thoracis act on the ribs too",
+            "Forced expiration: external + internal oblique, transversus abdominis, rectus abdominis",
+            "Abdominal muscles also used in the Valsalva maneuver"
           ],
-          "izoh": "Plevra - o'pkani o'rab turuvchi seroz parda, ikki varaqdan iborat:\n\n🔹 Parietal plevra ko'krak qafasi devorini qoplaydi va joyiga qarab nomlanadi:\n• qovurg'a plevrasi - qovurg'alar va oraliqlar ichki yuzasi\n• diafragma plevrasi\n• mediastinal plevra - ko'ks oralig'i tomonida\n• bo'yin plevrasi - 1-qovurg'adan yuqorida, o'pka cho'qqisini qoplaydi\n\n🔹 Visseral plevra o'pkaga mahkam yopishgan, barcha yoriqlarga kirib boradi. Ikkala varaq o'pka ildizida bir-biriga o'tadi.\n\n⚠️ Plevrit (parietal plevra yallig'lanishi) nafas olganda o'tkir og'riq beradi:\n• qovurg'a plevrasi -> qovurg'alararo nervlar orqali ko'krak devorida mahalliy og'riq\n• mediastinal plevra -> diafragma nervi orqali yelkaga (C3-5) uzatilgan og'riq",
+          "izoh": "💪 Nafasning yordamchi mushaklari - tinch nafasda deyarli ishlamaydi, lekin jismoniy yuklama yoki o'pka kasalligida (masalan, KOAH, astma xuruji) faollashadi.\n\n🔹 Nafas olishga yordam beradi (qovurg'alarga birikib, ularni ko'taradi):\n• to'sh-o'mrov-so'rg'ichsimon mushak;\n• katta va kichik ko'krak mushaklari;\n• narvonsimon mushaklar (mm. scaleni);\n• yuqori orqa tishli mushak, qovurg'alarni ko'taruvchi mushaklar.\nShuningdek pastki orqa tishli mushak va ko'krakning ko'ndalang mushagi ham qovurg'alarga ta'sir qiladi.\n\n🔹 Kuchli nafas chiqarishga yordam beradi:\n• tashqi va ichki qiyshiq mushaklar, ko'ndalang qorin mushagi, to'g'ri qorin mushagi.\nUlar diafragmani yuqoriga itaradi. Shu mushaklar Valsalva manyovrida ham ishlatiladi.\n\n💡 Klinikada: bemor bo'yin mushaklari va qorin mushaklarini nafasga jalb qilsa - og'ir nafas yetishmovchiligi belgisi.\n\nRasmda orqa tishli mushaklar (m. serratus posterior superior et inferior) va narvonsimon mushaklar.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_n06.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Rib movements: pump handle and bucket handle",
+          "bandlar": [
+            "Ribs 1-6 (sloped down) rotate at their tubercles",
+            "Sternum pushed forward and up: 'PUMP HANDLE' -> AP diameter increases",
+            "Lower ribs swing up and out: 'BUCKET HANDLE' -> lateral diameter increases",
+            "Quiet expiration is passive: elastic recoil of the lungs",
+            "Forced expiration: abdominal wall muscles push the diaphragm up"
+          ],
+          "izoh": "🔄 Nafas olishda qovurg'alar qanday harakatlanadi?\n\n🔸 'NASOS DASTASI' (pump handle) - yuqori qovurg'alar (1-6):\nUlar pastga qiya joylashgan va umurtqalardagi bo'g'im chuqurchalarida o'z do'mboqchalari atrofida aylanadi. Natijada to'sh suyagi OLDINGA va YUQORIGA suriladi -> ko'krak qafasining OLD-ORQA o'lchami kattalashadi.\n\n🔸 'CHELAK DASTASI' (bucket handle) - pastki qovurg'alar:\nShakli va do'mboqchalarining cheklangan harakati tufayli ular yuqoriga va YONGA ko'tariladi -> KO'NDALANG (lateral) o'lcham kattalashadi.\n\n😮‍💨 Nafas chiqarish:\n• tinch holatda asosan PASSIV - o'pkaning elastikligi hisobiga;\n• kuchli nafas chiqarishda qorin devori mushaklari (asosan tashqi va ichki qiyshiq hamda ko'ndalang qorin mushaklari) qisqaradi va diafragmani yuqoriga itaradi.\n\nRasmda ko'krak qafasi oldindan: qovurg'alar, to'sh suyagi va qovurg'a tog'aylari.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_n12.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie I (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Pleura: parietal and visceral",
+          "bandlar": [
+            "Serous membrane investing the lungs in the lateral thoracic compartments",
+            "Parietal: costal, diaphragmatic, mediastinal, cervical (cupula above 1st rib)",
+            "Visceral pleura: firmly attached to the lung, follows all fissures and lobes",
+            "The two layers are continuous at the root (hilum) of the lung"
+          ],
+          "izoh": "🫁 Plevra - o'pkani o'rab turuvchi seroz parda; ko'krak bo'shlig'ining ikki yon bo'limida joylashgan.\n\n🔹 Parietal plevra - ko'krak devori, diafragma va ko'ks oralig'ining ichki yuzasini qoplaydi. Joyiga qarab nomlanadi:\n• qovurg'a plevrasi (pleura costalis) - lateral; qovurg'alar va qovurg'alararo oraliqlar ichki yuzasi;\n• diafragma plevrasi - diafragmaning ko'krak yuzasi;\n• mediastinal plevra - medial; ko'ks oralig'ini qoplaydi va o'pka darvozasida visseral plevraga o'tadi;\n• bo'yin plevrasi (cupula pleurae) - 1-qovurg'adan YUQORIDA bo'yinga chiqadi va o'pka cho'qqisini qoplaydi (o'mrov ustidagi jarohatlarda pnevmotoraks xavfi!).\n\n🔹 Visseral plevra - o'pka yuzasiga mahkam yopishgan, barcha yoriqlar va bo'laklarga kirib boradi.\n\nIkkala varaq o'pka ildizida (darvozasida) bir-biriga davom etadi. Rasmda o'ng plevra bo'shlig'i va ko'ks oralig'i (o'pka olib tashlangan).",
           "rasm": {
             "fayl": "usmle_rasmlar/d2_06.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
           }
         },
         {
-          "sarlavha": "Pneumothorax",
+          "sarlavha": "Pleurisy: where does the pain go?",
           "bandlar": [
-            "Air in pleural space: dyspnea, chest pain, hyperresonance, decreased breath sounds and fremitus",
-            "Primary spontaneous: apical bleb rupture; tall thin young male smokers",
-            "Secondary: emphysema bullae, Marfan, infection, ventilator barotrauma",
-            "Traumatic: rib fracture, gunshot, central line, lung biopsy",
-            "Tension: trachea deviates AWAY, hypotension, JVD -> immediate needle decompression + chest tube"
+            "Pleurisy = inflammation of the parietal pleura: sharp pain on breathing",
+            "Visceral pleura is insensitive to pain",
+            "Costal pleura -> intercostal nerves -> localized chest wall pain",
+            "Mediastinal (and central diaphragmatic) pleura -> phrenic nerve",
+            "Referred pain to shoulder dermatomes C3-C5"
           ],
-          "izoh": "Pnevmotoraks - plevra bo'shlig'ida havo to'planishi. Zararlangan tomonda: hansirash, ko'krak og'rig'i, nafas harakatlarining notekisligi, perkussiyada timpanit, ovoz titrashi va nafas tovushlari susaygan.\n\nTurlari:\n• Birlamchi spontan - o'pka cho'qqisidagi subplevral pufakcha yorilishi. Ko'pincha baland bo'yli, ozg'in yosh erkaklarda, chekish bilan bog'liq.\n• Ikkilamchi spontan - kasal o'pkada (emfizema bullalari, Marfan sindromi, infeksiyalar) yoki yuqori bosimli sun'iy ventilyatsiyada.\n• Travmatik - qovurg'a sinishi, o'q jarohati yoki yatrogen (markaziy kateter, o'pka biopsiyasi).\n\n🚨 Taranglashgan pnevmotoraks: havo kiradi, lekin chiqmaydi. Ko'ks oralig'i suriladi, pastki kovak vena bukiladi, venoz qaytish va yurak qon haydashi kamayadi -> obstruktiv shok (gipotenziya, taxikardiya, bo'yin venalari bo'rtishi). Traxeya sog' tomonga og'adi. Darhol igna dekompressiyasi, keyin plevra drenaji!",
+          "izoh": "🔥 Plevrit - parietal plevraning yallig'lanishi. Nafas olganda kuchayadigan o'tkir, sanchuvchi og'riq beradi.\n\n💡 Visseral plevra og'riqni sezmaydi (vegetativ innervatsiya), og'riq faqat PARIETAL plevradan keladi.\n\nOg'riq qayerda seziladi - qaysi qismi ta'sirlanganiga bog'liq:\n• Qovurg'a plevrasi -> qovurg'alararo nervlar orqali -> ko'krak devorida, aniq joyda, dermatom bo'ylab MAHALLIY og'riq (masalan, pnevmoniyada yon tomondagi og'riq).\n• Mediastinal plevra (va diafragmaning markaziy qismi plevrasi) -> diafragma nervi orqali -> YELKAGA uzatilgan og'riq (C3-C5 dermatomlari).\n\nRasmda ko'krak qafasining ko'ndalang kesimlari: qovurg'a plevrasi, mediastinal plevra, plevra bo'shlig'i, o'pka bo'laklari va diafragma nervlari.\n\n💡 USMLE: pnevmoniyali bemorda 'yon tomondagi mahalliy og'riq' -> qovurg'alararo nervlar; 'yelkaga beruvchi og'riq' -> diafragma nervi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_n14.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Pneumothorax: types",
+          "bandlar": [
+            "Air in the pleural space: dyspnea, uneven chest expansion, chest pain",
+            "Affected side: decreased fremitus, hyperresonance, diminished breath sounds",
+            "Primary spontaneous: apical subpleural bleb rupture; tall thin young male smokers",
+            "Secondary spontaneous: emphysema bullae, Marfan, infections, ventilator barotrauma",
+            "Traumatic: rib fracture, gunshot, central line, lung biopsy"
+          ],
+          "izoh": "💨 Pnevmotoraks - plevra bo'shlig'ida havo to'planishi.\n\nBelgilari (zararlangan tomonda): hansirash, ko'krak qafasining notekis kengayishi, ko'krak og'rig'i, ovoz titrashi susaygan, perkussiyada timpanit (giperrezonans), nafas tovushlari susaygan.\n\nTurlari:\n🔸 Birlamchi spontan - o'pka CHO'QQISIDAGI subplevral pufakcha yoki kistaning yorilishi. Ko'pincha baland bo'yli, ozg'in yosh erkaklarda; chekish bilan bog'liq.\n🔸 Ikkilamchi spontan - KASAL o'pkada: emfizema bullalari, Marfan sindromi, infeksiyalar, yuqori bosimli sun'iy ventilyatsiya (barotravma).\n🔸 Travmatik:\n• to'mtoq - qovurg'a sinishi;\n• teshib o'tuvchi - o'q, pichoq;\n• yatrogen - markaziy venaga kateter qo'yish, o'pka biopsiyasi, sun'iy ventilyatsiya.\n\nRasmda ko'krak qafasi ochilgan: o'pkalar, plevra va ko'ks oralig'i o'z joyida.\n\n💡 Har qanday turi taranglashgan pnevmotoraksga aylanishi mumkin (keyingi post).",
           "rasm": {
             "fayl": "usmle_rasmlar/d2_07.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
           }
         },
         {
-          "sarlavha": "Conducting vs respiratory zone",
+          "sarlavha": "Tension pneumothorax",
           "bandlar": [
-            "Conducting: nose -> bronchi -> terminal bronchioles; anatomic dead space",
-            "Highest resistance: large-medium bronchi; least: terminal bronchioles (in parallel)",
-            "Cartilage and goblet cells end with bronchi; smooth muscle to terminal bronchioles",
-            "Pseudostratified ciliated columnar -> cuboidal at terminal bronchioles",
-            "Respiratory zone: respiratory bronchioles, alveolar ducts, alveoli; cilia end in respiratory bronchioles"
+            "Air enters the pleural space but cannot exit (one-way valve)",
+            "Trachea deviates AWAY from the affected side",
+            "Mediastinal shift -> kinking of IVC -> decreased venous return",
+            "Decreased cardiac output: obstructive shock, hypotension, tachycardia, JVD",
+            "Immediate needle decompression, then chest tube"
           ],
-          "izoh": "Nafas yo'llari ikki zonaga bo'linadi:\n\n🌬 O'tkazuvchi zona: burun, halqum, hiqildoq, traxeya, bronxlar, bronxiolalar va terminal bronxiolalar. Havoni isitadi, namlaydi va tozalaydi, lekin gaz almashinuvida qatnashmaydi - 'anatomik o'lik bo'shliq'.\n• Havo yo'li qarshiligi eng katta - yirik va o'rta bronxlarda; eng kam - terminal bronxiolalarda, chunki ular juda ko'p va parallel joylashgan.\n• Tog'ay va qadahsimon hujayralar bronxlar oxirigacha boradi.\n• Ko'p qatorli kiprikli silindrsimon epiteliy terminal bronxiolalar boshigacha, keyin kubsimon epiteliy. Kiprikchalar shilliqni yuqoriga haydaydi - 'mukotsiliar eskalator'.\n• Silliq mushak terminal bronxiolalar oxirigacha.\n\n🫧 Respirator zona: respirator bronxiolalar, alveolyar yo'llar va alveolalar - gaz almashinuvi shu yerda. Kiprikchalar respirator bronxiolalarda tugaydi; alveolyar makrofaglar changni tozalaydi.",
+          "izoh": "🚨 Taranglashgan pnevmotoraks - hayot uchun xavfli holat.\n\nMexanizm: jarohat 'klapan' kabi ishlaydi - har nafas olishda havo plevra bo'shlig'iga KIRADI, lekin CHIQA OLMAYDI. Havo to'planib, bosim tobora oshadi.\n\nOqibatlari:\n• ko'krak ichi bosimi oshadi -> ko'ks oralig'i sog' tomonga suriladi;\n• pastki kovak vena bukiladi/eziladi -> yurakka venoz qaytish kamayadi;\n• yurak qon haydashi kamayadi -> OBSTRUKTIV SHOK: gipotenziya, taxikardiya;\n• bo'yin venalari bo'rtadi (venoz qaytish to'silgan).\n\nBelgilar: traxeya SOG' tomonga og'adi; zararlangan tomonda nafas eshitilmaydi, timpanit.\n\n💉 Davolash: DARHOL igna dekompressiyasi (rentgenni kutmasdan!), keyin plevra drenaji (chest tube).\n\n💡 USMLE: taranglashgan pnevmotoraks - klinik tashxis. 'Gipotenziya + bo'yin venalari bo'rtgan + bir tomonda nafas yo'q + traxeya og'gan' -> igna.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_s16.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Conducting zone",
+          "bandlar": [
+            "Nose, pharynx, larynx, trachea, bronchi, bronchioles, terminal bronchioles",
+            "Warms, humidifies, filters air; no gas exchange = anatomic dead space",
+            "Highest resistance: large-medium bronchi; least: terminal bronchioles (in parallel)",
+            "Cartilage and goblet cells to the end of bronchi; smooth muscle to terminal bronchioles",
+            "Pseudostratified ciliated columnar -> cuboidal; mucociliary escalator"
+          ],
+          "izoh": "🌬 Nafas yo'llarining O'TKAZUVCHI zonasi.\n\nTarkibi:\n• yirik yo'llar - burun, halqum, hiqildoq, traxeya, bronxlar;\n• mayda yo'llar - bronxiolalar va terminal bronxiolalar.\n\nVazifasi: havoni ISITADI, NAMLAYDI va TOZALAYDI, lekin gaz almashinuvida QATNASHMAYDI - shuning uchun 'anatomik o'lik bo'shliq' deyiladi.\n\n📌 Havo yo'li qarshiligi:\n• ENG YUQORI - yirik va o'rta bronxlarda;\n• ENG PAST - terminal bronxiolalarda, chunki ular juda ko'p va parallel ulangan.\n\n🔬 Devor tuzilishi:\n• tog'ay va qadahsimon hujayralar - bronxlar oxirigacha;\n• ko'p qatorli kiprikli silindrsimon epiteliy - bronxlarda va terminal bronxiolalar boshigacha, keyin kubsimon epiteliyga o'tadi;\n• silliq mushak - terminal bronxiolalar oxirigacha (undan keyin juda kam).\n\nKiprikchalar shilliq va changni yuqoriga haydaydi - 'mukotsiliar eskalator'.\n\nRasmda traxeya, uning bifurkatsiyasi va bosh bronxlar.",
           "rasm": {
             "fayl": "usmle_rasmlar/d2_08.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
           }
         },
         {
-          "sarlavha": "Lung lobes, fissures and aspiration",
+          "sarlavha": "Respiratory zone",
           "bandlar": [
-            "Right lung: 3 lobes, horizontal + oblique fissures; left: 2 lobes + lingula",
-            "Oblique fissure: 5th ICS at midclavicular line -> 6th costal cartilage",
-            "Horizontal fissure: right 4th costal cartilage",
-            "Hilum: pulmonary artery RALS - Right Anterior, Left Superior to bronchus",
-            "Aspiration -> RIGHT lung: supine = superior segment RLL; right side = RUL; upright = RLL"
+            "Lung parenchyma: respiratory bronchioles, alveolar ducts, alveoli",
+            "Participates in gas exchange",
+            "Mostly cuboidal cells in respiratory bronchioles, then simple squamous up to alveoli",
+            "Cilia terminate in respiratory bronchioles",
+            "Alveolar macrophages clear debris and take part in immune response"
           ],
-          "izoh": "🫁 O'ng o'pka - 3 bo'lak (yuqori, o'rta, pastki), ularni gorizontal va qiyshiq yoriqlar ajratadi. Chap o'pka - 2 bo'lak va qiyshiq yoriq; o'rta bo'lak o'rnida yurak joylashgan, uning o'xshashi - lingula.\n\n📍 Yoriqlar proyeksiyasi:\n• Qiyshiq yoriq - o'rta o'mrov chizig'ida 5-qovurg'alararo oraliq, medialda 6-qovurg'a tog'ayi ortida tugaydi\n• Gorizontal yoriq - o'ng 5-oraliqdagi qiyshiq yoriqdan o'ng 4-qovurg'a tog'ayigacha\n\nO'pka darvozasida o'pka arteriyasi bronxga nisbatan: RALS - o'ngda oldinda, chapda yuqorida. Karina ko'tariluvchi aorta ortida.\n\n🥜 Yot jism ko'pincha O'NG o'pkaga tushadi: o'ng bosh bronx kengroq, tikroq va kaltaroq.\n• chalqancha yotganda - o'ng pastki bo'lakning yuqori segmenti\n• o'ng yonboshda - o'ng yuqori bo'lak\n• tik turganda - o'ng pastki bo'lak",
+          "izoh": "🫧 Nafas yo'llarining RESPIRATOR zonasi - o'pka parenximasi.\n\nTarkibi:\n• respirator bronxiolalar;\n• alveolyar yo'llar;\n• alveolalar.\n\nVazifasi: GAZ ALMASHINUVI - kislorod qonga o'tadi, karbonat angidrid chiqariladi.\n\n🔬 Epiteliy:\n• respirator bronxiolalarda asosan kubsimon hujayralar;\n• alveolalargacha esa bir qavatli yassi epiteliy.\n\n💡 Kiprikchalar respirator bronxiolalarda TUGAYDI. Shuning uchun undan pastga tushgan chang va mikroblarni kiprikchalar emas, ALVEOLYAR MAKROFAGLAR tozalaydi; ular immun javobda ham qatnashadi.\n\n📌 O'tkazuvchi va respirator zonalar chegarasi: terminal bronxiola (oxirgi o'tkazuvchi) -> respirator bronxiola (birinchi respirator).\n\nSxemada bronx daraxti va ikki zona chegarasi ko'rsatilgan.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_s18.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Lungs: lobes and fissures",
+          "bandlar": [
+            "Right lung: 3 lobes (superior, middle, inferior), 2 fissures",
+            "Horizontal fissure: superior vs middle; oblique fissure: middle vs inferior",
+            "Left lung: 2 lobes + lingula (homologue of the right middle lobe); space for the heart",
+            "Oblique fissure: 5th ICS at midclavicular line -> deep to 6th costal cartilage",
+            "Horizontal fissure: right 5th ICS (oblique fissure) -> right 4th costal cartilage"
+          ],
+          "izoh": "🫁 O'pka bo'laklari va yoriqlari.\n\n🔹 O'ng o'pka - 3 bo'lak (yuqori, o'rta, pastki) va 2 yoriq:\n• gorizontal yoriq - yuqori bo'lakni o'rta bo'lakdan ajratadi;\n• qiyshiq yoriq - o'rta bo'lakni pastki bo'lakdan ajratadi.\n\n🔹 Chap o'pka - 2 bo'lak (yuqori va pastki), 1 ta qiyshiq yoriq. O'rta bo'lak o'rnida yurak joylashadi (yurak o'ymasi). Chap yuqori bo'lakning tilchasi (lingula) - o'ng o'rta bo'lakning gomologi.\n\n📍 Yoriqlarning ko'krak devoridagi proyeksiyasi (auskultatsiya va punksiya uchun muhim):\n• qiyshiq yoriq (ikkala o'pkada) - oldinda o'rta o'mrov chizig'ida taxminan 5-qovurg'alararo oraliqda, medialda 6-qovurg'a tog'ayi ortida tugaydi;\n• gorizontal yoriq - o'ng 5-qovurg'alararo oraliqdagi qiyshiq yoriqdan gorizontal ravishda o'ng 4-qovurg'a tog'ayigacha.\n\nRasmda o'ng va chap o'pka yon tomondan: bo'laklar va yoriqlar (incisurae interlobares).",
           "rasm": {
             "fayl": "usmle_rasmlar/d2_09.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
           }
         },
         {
-          "sarlavha": "Alveolar cells and neonatal RDS",
+          "sarlavha": "Hilum (RALS), carina and aspiration",
           "bandlar": [
-            "Type I pneumocytes: squamous, 97% of surface, gas exchange",
-            "Type II: cuboidal; make surfactant (DPPC) from lamellar bodies; stem cells for type I and II",
-            "Surfactant lowers surface tension; collapsing pressure = 2T/r (Laplace)",
-            "Alveolar macrophages: 'dust cells', 'heart failure cells' (hemosiderin)",
-            "NRDS: prematurity, maternal diabetes, C-section; L/S ratio < 1.5; give maternal steroids"
+            "Pulmonary artery vs bronchus at hilum: RALS = Right Anterior, Left Superior",
+            "Carina: posterior to ascending aorta, anteromedial to descending aorta",
+            "Right main bronchus: wider, more vertical, shorter -> foreign bodies go RIGHT",
+            "Supine: superior segment of right lower lobe; lying on right side: right upper lobe",
+            "Upright: right lower lobe"
           ],
-          "izoh": "🫧 Alveola hujayralari:\n• I tip pnevmotsitlar - yassi, alveola yuzasining 97% ini qoplaydi, gaz almashinuvi uchun.\n• II tip pnevmotsitlar - kubsimon. Ular surfaktant (asosan dipalmitoilfosfatidilxolin) ishlab chiqaradi va zararlanishda I va II tip hujayralarga aylanuvchi o'zak hujayra vazifasini bajaradi.\n• Alveolyar makrofaglar - 'chang hujayralari'; yurak yetishmovchiligida gemosiderinli 'yurak nuqsoni hujayralari'.\nKon teshikchalari alveolalarni bir-biriga bog'laydi (pnevmoniyada bakteriyalar ham shu yo'l bilan tarqaladi).\n\nSurfaktant sirt tarangligini kamaytiradi va alveolalarni yopishib qolishdan saqlaydi. Laplas qonuni: yopilish bosimi = 2 x taranglik / radius. Surfaktant ~20-haftadan hosil bo'la boshlaydi, ~35-haftada yetarli bo'ladi.\n\n👶 Chaqaloqlar RDS: surfaktant yetishmasligi, rentgenda 'xira oyna'. Xavf: chala tug'ilish, onadagi diabet, kesarcha kesish. L/S nisbati < 1.5. Davolash: tug'ruqdan oldin onaga glyukokortikoid, chaqaloqqa surfaktant. Kislorod asoratlari - RIB: retinopatiya, qorinchaga qon quyilish, bronxopulmonal displaziya.",
+          "izoh": "🔍 O'pka darvozasi va aspiratsiya.\n\n📌 O'pka darvozasida o'pka arteriyasi bronxga nisbatan qayerda? - RALS:\n• Right Anterior - o'ngda arteriya bronxdan OLDINDA;\n• Left Superior - chapda arteriya bronxdan YUQORIDA.\n\n📌 Karina (traxeya bifurkatsiyasi) - ko'tariluvchi aortadan orqada, tushuvchi aortadan oldinda-medialda joylashadi.\n\n🥜 Yot jism aspiratsiyasi:\nO'ng bosh bronx chapga nisbatan KENGROQ, TIKROQ (vertikalroq) va KALTAROQ - shuning uchun yot jism ko'pincha O'NG o'pkaga tushadi. Qaysi segment - tana holatiga bog'liq:\n• chalqancha yotganda - o'ng pastki bo'lakning YUQORI segmenti;\n• o'ng yonboshda yotganda - o'ng YUQORI bo'lak;\n• tik turganda yoki o'tirganda - o'ng PASTKI bo'lak (bazal segmentlar).\n\nRasmda o'ng o'pka medial tomondan: darvoza, bronx, o'pka arteriyasi va venalari, limfa tugunlari.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_n20.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Alveolar cells, surfactant and macrophages",
+          "bandlar": [
+            "Type I pneumocytes: squamous, cover 97% of alveolar surface, gas exchange",
+            "Type II: cuboidal, clustered; secrete surfactant (DPPC) from lamellar bodies",
+            "Type II = stem cells for type I and II; proliferate after lung damage",
+            "Pores of Kohn: connect alveoli (air, fluid, phagocytes, bacteria in pneumonia)",
+            "Alveolar macrophages: 'dust cells'; hemosiderin-laden 'heart failure cells'"
+          ],
+          "izoh": "🔬 Alveola hujayralari.\n\n🔹 I tip pnevmotsitlar - YASSI hujayralar; alveola yuzasining 97 foizini yupqa qatlam bilan qoplaydi - optimal gaz almashinuvi uchun.\n\n🔹 II tip pnevmotsitlar - KUBSIMON, guruh bo'lib joylashadi; 2 vazifasi bor:\n1. I va II tip hujayralarning o'zak (prekursor) hujayrasi - o'pka shikastlanganda ko'payib, uni tiklaydi;\n2. lamellyar tanachalardan SURFAKTANT ajratadi.\n\n🔹 Kon teshikchalari (pori alveolares) - qo'shni alveolalarni bog'laydi; ular orqali havo, suyuqlik, fagotsitlar va pnevmoniyada BAKTERIYALAR ham o'tadi.\n\n🔹 Alveolyar makrofaglar - yot moddalarni fagotsitoz qiladi, sitokin va proteazalar ajratadi. Boshqa nomlari:\n• 'chang hujayralari' - chang va sigaret zarrachalarini yutganlar;\n• 'yurak nuqsoni hujayralari' - yurak yetishmovchiligida alveolaga chiqqan eritrotsitlarni yutib, gemosideringa to'lganlar (o'pka shishi, alveolyar qon quyilish).",
           "rasm": {
             "fayl": "usmle_rasmlar/d2_10.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Surfactant and neonatal RDS",
+          "bandlar": [
+            "Surfactant: lowers surface tension -> less collapse, less recoil, more compliance",
+            "Mainly lecithins - dipalmitoylphosphatidylcholine (DPPC)",
+            "Laplace: collapsing pressure = 2T / r -> small alveoli collapse on expiration",
+            "Synthesis from ~20 weeks, mature ~35 weeks; glucocorticoids help",
+            "NRDS: prematurity, maternal diabetes, C-section; L/S < 1.5; ground-glass X-ray"
+          ],
+          "izoh": "🫧 Surfaktant va chaqaloqlarning respirator distress sindromi (RDS).\n\nSurfaktant: alveolalardagi sirt tarangligini KAMAYTIRADI -> alveolalar yopishib qolmaydi, o'pka cho'ziluvchanligi oshadi. Asosiy komponenti - letsitinlar, ayniqsa dipalmitoilfosfatidilxolin (DPPC).\n\n📐 Laplas qonuni: yopilish bosimi = 2 x sirt tarangligi / radius. Nafas chiqarishda radius kichrayadi -> alveola yopilishga moyil. Surfaktant aynan shuni oldini oladi.\n\n⏳ Sintez ~20-haftada boshlanadi, ~35-haftada yetarli darajaga yetadi. Glyukokortikoidlar homila o'pkasining yetilishi uchun muhim.\n\n👶 RDS - surfaktant yetishmasligi: sirt tarangligi oshadi, alveolalar yopiladi, rentgenda 'xira oyna'.\nXavf omillari:\n• chala tug'ilish;\n• onadagi diabet (homila insulini surfaktant sintezini susaytiradi);\n• kesarcha kesish (stress kam -> homila glyukokortikoidlari kam).\n\nTashxis: amniotik suyuqlikda L/S nisbati - 2 va undan yuqori - me'yor, 1.5 dan past - RDS xavfi.\n💊 Davolash: tug'ruqdan oldin onaga glyukokortikoid, chaqaloqqa surfaktant. Kislorod asoratlari - RIB: retinopatiya, qorinchaga qon quyilish, bronxopulmonal displaziya; doimiy past kislorod - ochiq arterial yo'lak xavfi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_s23.jpg",
             "manba": "Sxema: USMLE Pulsi"
           }
         }
@@ -832,6 +1010,84 @@
           ],
           "togri": 0,
           "izoh": "Chaqaloqlar RDS: II tip pnevmotsitlar surfaktantni yetarli ishlab chiqarmaydi. Chala tug'ilish va onadagi diabet (homila insulini) xavfni oshiradi. L/S < 1.5."
+        },
+        {
+          "vinyetka": "Two weeks after a left mastectomy with axillary node dissection, a 50-year-old woman reports difficulty climbing a ladder and pulling herself up. Shoulder abduction is normal, and the scapula does not wing. Extension and internal rotation of the arm are weak.",
+          "savol": "Which nerve was most likely injured?",
+          "javoblar": [
+            "Thoracodorsal nerve",
+            "Long thoracic nerve",
+            "Axillary nerve",
+            "Lateral pectoral nerve",
+            "Suprascapular nerve"
+          ],
+          "togri": 0,
+          "izoh": "Ko'krak-orqa nervi -> orqaning eng keng mushagi: qo'lni orqaga uzatish va ichkariga burish kuchsiz. Qanotsimon kurak bo'lsa - uzun ko'krak nervi."
+        },
+        {
+          "vinyetka": "After a cardiac operation, a 64-year-old man becomes short of breath. Fluoroscopy shows that during inspiration the left hemidiaphragm moves upward while the right moves downward.",
+          "savol": "Injury to which nerve explains this finding?",
+          "javoblar": [
+            "Left phrenic nerve",
+            "Left vagus nerve",
+            "Left recurrent laryngeal nerve",
+            "Left intercostal nerves T7-T11",
+            "Left sympathetic trunk"
+          ],
+          "togri": 0,
+          "izoh": "Diafragma nervi shikastlansa, gumbaz falajlanadi va nafas olganda qorin bosimi bilan yuqoriga ko'tariladi - paradoksal harakat. Rentgenda gumbaz baland."
+        },
+        {
+          "vinyetka": "A 58-year-old man has progressive dysphagia. Imaging shows a tumor at the gastroesophageal region where the esophagus passes through the diaphragm together with two nerve trunks.",
+          "savol": "At which vertebral level does this opening lie?",
+          "javoblar": [
+            "T10",
+            "T8",
+            "T12",
+            "T4",
+            "L1"
+          ],
+          "togri": 0,
+          "izoh": "Qizilo'ngach teshigi T10 da: qizilo'ngach va vagus stvollari. T8 - pastki kovak vena, T12 - aorta, ko'krak limfa yo'li, toq vena."
+        },
+        {
+          "vinyetka": "A 21-year-old tall, thin man who smokes has sudden right-sided pleuritic chest pain and dyspnea while sitting at his desk. The right side shows hyperresonance and absent breath sounds. Blood pressure is normal and the trachea is midline.",
+          "savol": "What is the most likely cause?",
+          "javoblar": [
+            "Rupture of an apical subpleural bleb",
+            "Rupture of emphysematous bullae",
+            "Rib fracture",
+            "Pulmonary embolism",
+            "Barotrauma from mechanical ventilation"
+          ],
+          "togri": 0,
+          "izoh": "Birlamchi spontan pnevmotoraks: baland, ozg'in, chekuvchi yosh erkak - o'pka cho'qqisidagi subplevral pufakcha yoriladi. Ikkilamchi - kasal o'pkada (emfizema)."
+        },
+        {
+          "vinyetka": "A pulmonology student is measuring airway resistance along the bronchial tree with a catheter. She expects the total resistance to be lowest at the most distal conducting airways.",
+          "savol": "Why is airway resistance lowest at the terminal bronchioles?",
+          "javoblar": [
+            "They are very numerous and arranged in parallel",
+            "They contain cartilage plates",
+            "They have no smooth muscle",
+            "They are lined by squamous epithelium",
+            "They participate in gas exchange"
+          ],
+          "togri": 0,
+          "izoh": "Terminal bronxiolalar juda ko'p va parallel ulangan - umumiy qarshilik eng kam. Eng yuqori qarshilik o'rta va yirik bronxlarda."
+        },
+        {
+          "vinyetka": "A 70-year-old man with long-standing congestive heart failure dies. Lung histology shows many alveolar macrophages containing golden-brown granules that stain positive with Prussian blue.",
+          "savol": "What do these cells contain?",
+          "javoblar": [
+            "Hemosiderin from phagocytosed red blood cells",
+            "Anthracotic carbon pigment",
+            "Surfactant lamellar bodies",
+            "Asbestos fibers",
+            "Lipofuscin from aging"
+          ],
+          "togri": 0,
+          "izoh": "'Yurak nuqsoni hujayralari' - alveolaga chiqqan eritrotsitlarni yutib, gemosideringa (Prussiya ko'ki +) to'lgan alveolyar makrofaglar. Changni yutganlari - 'chang hujayralari'."
         }
       ]
     },
