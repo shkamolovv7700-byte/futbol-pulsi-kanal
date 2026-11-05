@@ -1348,21 +1348,24 @@
     "401915529": {
       "goals": [
         "111-1124.0",
-        "111-2197.0"
+        "111-2197.0",
+        "140-5233.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
-        0,
+        1,
         2
       ],
       "lag": 0
     },
     "401915533": {
-      "goals": [],
-      "ft": false,
+      "goals": [
+        "176-4613.0"
+      ],
+      "ft": true,
       "score": [
         0,
-        0
+        1
       ],
       "lag": 0
     }
@@ -1372,7 +1375,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 641,
+    "last_id": 644,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2023,7 +2026,9 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Randal_Kolo_Muani_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Supporterhéninois",
       "license": "CC0"
-    }
+    },
+    "Mexx Meerdink": null,
+    "Mexx Meerdink (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
