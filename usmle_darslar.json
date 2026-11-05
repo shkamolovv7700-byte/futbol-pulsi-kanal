@@ -1099,149 +1099,343 @@
         {
           "sarlavha": "Thoracentesis",
           "bandlar": [
-            "Purpose: sample pleural fluid or drain blood/pus",
+            "Purpose: sample pleural fluid, or remove blood or pus",
             "Site: 9th intercostal space, midaxillary line, during expiration",
-            "Needle just ABOVE the upper border of rib 10 (avoid V-A-N under rib 9)",
+            "Expiration: avoids the inferior border of the lung",
+            "Needle angled upward, just ABOVE the upper border of rib 10",
             "Layers: skin -> superficial fascia -> external, internal, innermost intercostals -> parietal pleura"
           ],
-          "izoh": "Torakosentez - plevra bo'shlig'idan suyuqlik olish (tahlil uchun) yoki qon/yiringni chiqarish.\n\n📍 Joyi: o'rta qo'ltiq chizig'ida 9-qovurg'alararo oraliq, nafas chiqarish paytida - o'pkaning pastki chegarasini shikastlamaslik uchun.\n\n⚡️ Asosiy qoida: igna pastdagi qovurg'aning (10-qovurg'a) YUQORI qirrasi bo'ylab, biroz yuqoriga qiyalatib kiritiladi. Chunki qovurg'alararo vena, arteriya va nerv yuqoridagi qovurg'aning pastki qirrasi ostida yotadi.\n\n💉 Igna o'tadigan qavatlar:\nteri -> yuza fassiya -> tashqi qovurg'alararo mushak -> ichki qovurg'alararo mushak -> eng ichki qovurg'alararo mushak -> parietal plevra",
-          "rasm": {
-            "fayl": "usmle_rasmlar/d3_01.jpg",
-            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
-          }
-        },
-        {
-          "sarlavha": "Intercostal nerve block",
-          "bandlar": [
-            "Indication: pain of rib fracture or herpes zoster (shingles)",
-            "Needle at the posterior angle of the rib, along its LOWER border",
-            "Collateral branches of the nerve must also be bathed",
-            "Layers: skin -> superficial fascia -> serratus anterior -> external -> internal intercostal",
-            "Several adjacent nerves blocked: dermatomes overlap"
-          ],
-          "izoh": "Qovurg'alararo nerv blokadasi qovurg'a sinishi yoki o'rab oluvchi temiratki (herpes zoster) og'rig'ini qoldirish uchun qilinadi.\n\n📍 Igna qovurg'aning orqa burchagida, uning PASTKI qirrasi bo'ylab kiritiladi - nerv shu yerda egatda yotadi va anestetik uni 'yuvadi'. Nervning kollateral tarmoqlari ham anesteziya qilinishi kerak.\n\n💉 Qavatlar: teri -> yuza fassiya -> oldingi tishli mushak -> tashqi qovurg'alararo -> ichki qovurg'alararo mushak.\n\n💡 Bitta emas, bir nechta qo'shni nervlar blokada qilinadi, chunki qo'shni dermatomlar bir-birini qoplaydi.\n\nTorakosentez bilan farqni eslab qoling: torakosentezda igna qovurg'aning YUQORI qirrasidan (tomirlardan qochish), blokadada esa PASTKI qirrasidan (nervga yetish).",
+          "izoh": "💉 Torakosentez (plevra punksiyasi) - plevra bo'shlig'idan suyuqlik olish (tahlil uchun) yoki qon/yiringni chiqarish.\n\n📍 Joyi: o'rta qo'ltiq chizig'ida 9-qovurg'alararo oraliq.\n⏱ Vaqti: NAFAS CHIQARISH paytida - o'pkaning pastki chegarasi yuqoriga ko'tariladi va igna o'pkaga tegmaydi.\n\n⚡️ Asosiy qoida: igna pastdagi qovurg'aning (10-qovurg'a) YUQORI qirrasiga yaqin, biroz yuqoriga qiyalatib kiritiladi. Sababi - qovurg'alararo vena, arteriya va nerv yuqoridagi qovurg'aning PASTKI qirrasi ostidagi egatda yotadi; igna ulardan uzoqda bo'ladi.\n\n🔪 Igna o'tadigan qavatlar:\nteri -> yuza fassiya -> tashqi qovurg'alararo mushak -> ichki qovurg'alararo mushak -> eng ichki qovurg'alararo mushak -> parietal plevra.\n\nSxemada qovurg'alararo oraliq kesimi va ikki xil igna yo'li ko'rsatilgan.",
           "rasm": {
             "fayl": "usmle_rasmlar/d3_02.jpg",
             "manba": "Sxema: USMLE Pulsi"
           }
         },
         {
-          "sarlavha": "Thoracic outlet syndrome",
+          "sarlavha": "Intercostal nerve block",
           "bandlar": [
-            "Compression of lower trunk of brachial plexus (C8-T1) +/- subclavian vessels",
-            "Usually within the scalene triangle",
-            "Causes: cervical (anomalous first) rib, Pancoast tumor",
-            "Atrophy of thenar, hypothenar and interossei; medial forearm/hand numbness (like Klumpke)",
-            "Weak radial pulse when head turned to opposite side, subclavian bruit"
+            "Relieves pain of rib fracture or herpes zoster (shingles)",
+            "Needle at the posterior angle of the rib, along its LOWER border",
+            "Collateral branches of the nerve must also be bathed in anesthetic",
+            "Layers: skin -> superficial fascia -> serratus anterior -> external -> internal intercostal",
+            "Several adjacent nerves blocked: neighbouring dermatomes overlap"
           ],
-          "izoh": "Ko'krak qafasi chiqish sindromi - yelka chigalining pastki stvoli (C8-T1) va/yoki o'mrov osti tomirlarining ezilishi, ko'pincha narvonsimon mushaklar uchburchagida.\n\nSabablari: qo'shimcha bo'yin qovurg'asi yoki anomal 1-qovurg'a, Pankost o'smasi.\n\n🖐 Nerv belgilari (Klumpke falajiga o'xshash):\n• tenar va gipotenar tepaliklar, suyaklararo mushaklar atrofiyasi\n• bilak va qo'l panjasining medial tomonida sezgi buzilishi\n\n🩸 Tomir belgilari: ishemiya, og'riq, shish; boshni qarama-qarshi tomonga burganda bilak arteriyasi pulsi susayadi, o'mrov osti arteriyasi ustida shovqin. Qo'llarni ko'targan holda angiografiyada o'mrov osti arteriyasida qisman torayish ko'rinadi.",
+          "izoh": "🧊 Qovurg'alararo nerv blokadasi - qovurg'a sinishi yoki o'rab oluvchi temiratki (herpes zoster) og'rig'ini qoldirish uchun.\n\n📍 Igna qovurg'aning ORQA burchagida, qovurg'aning PASTKI qirrasi bo'ylab kiritiladi - nerv aynan shu yerda, qovurg'a egatida yotadi va anestetik uni 'yuvadi'. Nervning kollateral tarmoqlari ham anesteziya qilinishi kerak.\n\n🔪 Igna o'tadigan qavatlar: teri -> yuza fassiya -> oldingi tishli mushak -> tashqi qovurg'alararo mushak -> ichki qovurg'alararo mushak.\n\n💡 Bitta nerv yetarli emas: qo'shni dermatomlar bir-birini QOPLAYDI (nerv kollaterallari tufayli), shuning uchun og'riqni to'liq qoldirish uchun bir nechta qo'shni nervlar blokada qilinadi.\n\n⚖️ Torakosentez bilan farq:\n• torakosentez - qovurg'aning YUQORI qirrasi (tomir va nervdan qochish);\n• nerv blokadasi - qovurg'aning PASTKI qirrasi (nervga yetish).\n\nRasmda ko'krak devorining ichki yuzasi: ichki ko'krak arteriyasi va qovurg'alararo tomirlar.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_01.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Thoracic outlet syndrome: anatomy",
+          "bandlar": [
+            "Compression of the LOWER trunk of brachial plexus (C8-T1)",
+            "And/or the subclavian vessels",
+            "Most often within the scalene triangle (anterior + middle scalenes, 1st rib)",
+            "Causes: cervical rib (anomalous first rib), Pancoast tumor",
+            "Neurologic picture resembles Klumpke palsy"
+          ],
+          "izoh": "🔻 Ko'krak qafasidan chiqish sindromi (thoracic outlet syndrome).\n\nNima eziladi:\n• yelka chigalining PASTKI stvoli (C8-T1);\n• va/yoki o'mrov osti arteriyasi va venasi.\n\nQayerda: ko'pincha NARVONSIMON UCHBURCHAKDA - oldingi va o'rta narvonsimon mushaklar hamda 1-qovurg'a orasida. Yelka chigali va o'mrov osti arteriyasi aynan shu tor oraliqdan o'tadi (rasmda m. scalenus anterior va medius, plexus brachialis, a. subclavia ko'rinadi).\n\nSabablari:\n• qo'shimcha BO'YIN QOVURG'ASI (C7 dan chiquvchi) yoki anomal 1-qovurg'a;\n• o'pka cho'qqisidagi PANKOST o'smasi.\n\n💡 Nerv belgilari KLUMPKE falajiga o'xshaydi (C8-T1): qo'l panjasi mayda mushaklari zararlanadi.\n\nKeyingi postda - klinik belgilar va tashxis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_n03.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Thoracic outlet syndrome: clinical findings",
+          "bandlar": [
+            "Atrophy of thenar and hypothenar eminences and interosseous muscles",
+            "Sensory deficit on the medial side of forearm and hand",
+            "Vascular: ischemia, pain, edema",
+            "Diminished radial pulse when the head is turned to the opposite side",
+            "Bruit over the subclavian artery; angiogram with arms abducted shows narrowing"
+          ],
+          "izoh": "🩺 Ko'krak qafasidan chiqish sindromining klinik belgilari.\n\n🔹 Nerv belgilari (pastki stvol, C8-T1):\n• tenar va gipotenar tepaliklar atrofiyasi;\n• suyaklararo mushaklar atrofiyasi (qo'l panjasi 'ozib' ketadi);\n• bilak va qo'l panjasining MEDIAL tomonida sezgi buzilishi.\n\n🔹 Tomir belgilari (o'mrov osti arteriyasi/venasi):\n• ishemiya - qo'l oqarishi, sovuqqonlik, og'riq;\n• shish (vena ezilsa);\n• boshni QARAMA-QARSHI tomonga burganda bilak arteriyasida puls SUSAYADI;\n• o'mrov osti arteriyasi ustida shovqin (bruit).\n\n🔬 Tashxis: ikkala qo'l yuqoriga ko'tarilgan (abduksiya) holatda angiografiya - o'mrov osti arteriyalarida qon oqimining qisman to'silishini ko'rsatadi.\n\nRasmda bo'yin arteriyalari: o'mrov osti arteriyasi va uning narvonsimon mushaklar orasidan o'tishi.",
           "rasm": {
             "fayl": "usmle_rasmlar/d3_03.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
           }
         },
         {
-          "sarlavha": "Chest X-ray landmarks",
+          "sarlavha": "Chest X-ray: PA view",
           "bandlar": [
-            "PA view right border: SVC/azygos above, right atrium below",
-            "PA view left border: aortic knob -> left pulmonary artery -> left ventricle",
-            "Also on PA: trachea, right and left main bronchi, right inferior pulmonary vein",
-            "Lateral view: ascending aorta and pulmonary outflow tract in front",
-            "Lateral view: aortic arch, upper lobe bronchi, confluence of pulmonary veins"
+            "Midline: trachea, right and left main bronchi",
+            "Right border: SVC/azygos above, RIGHT ATRIUM below",
+            "Left border: aortic knob -> left pulmonary artery -> LEFT VENTRICLE",
+            "Hila: right and left pulmonary arteries, right upper lobe artery",
+            "Right inferior pulmonary vein"
           ],
-          "izoh": "Ko'krak qafasi rentgenogrammasida tuzilmalarni tanib olish USMLE rasmli savollarida tez-tez kerak bo'ladi.\n\n🩻 To'g'ri (PA) proyeksiya:\n• O'ng chegara: yuqorida yuqori kovak vena / toq vena, pastda O'NG BO'LMACHA\n• Chap chegara: yuqoridan pastga - aorta ravog'i ('aorta tugmasi'), chap o'pka arteriyasi, CHAP QORINCHA\n• Markazda: traxeya, o'ng va chap bosh bronxlar; o'ng o'pka arteriyasi va uning yuqori bo'lak tarmog'i, o'ng pastki o'pka venasi\n\n🩻 Yon proyeksiya:\n• oldinda - o'pka ustuni chiqish yo'li va ko'tariluvchi aorta\n• aorta ravog'i va undan chiquvchi yelka-bosh tomirlari\n• traxeya, o'ng va chap yuqori bo'lak bronxlari\n• o'ng va chap o'pka arteriyalari, o'pka venalarining qo'shilish joyi\n\n💡 Esda tuting: o'ng yurak chegarasi = o'ng bo'lmacha, chap chegara = chap qorincha.",
+          "izoh": "🩻 Ko'krak qafasi rentgenogrammasi - to'g'ri (PA, orqa-old) proyeksiya.\n\nTanib olish kerak bo'lgan tuzilmalar:\n• o'rtada - traxeya, o'ng va chap bosh bronxlar;\n• aorta ravog'i - 'aorta tugmasi' (aortic knob) chap yuqorida;\n• toq vena / yuqori kovak vena - o'ng yuqorida;\n• o'ng va chap o'pka arteriyalari, o'ng yuqori bo'lak o'pka arteriyasi;\n• o'ng pastki o'pka venasi;\n• O'NG BO'LMACHA - yurakning o'ng chegarasi;\n• CHAP QORINCHA - yurakning chap chegarasi.\n\n💡 Eng ko'p so'raladigan: yurakning o'ng chegarasini o'ng BO'LMACHA, chap chegarasini chap QORINCHA hosil qiladi. O'ng qorincha oldinda bo'lgani uchun PA rentgenda chegara hosil qilmaydi.\n\nRasmda yurak va katta qon tomirlarning old tomondan joylashuvi - rentgen 'soyasi' aynan shularning konturidan iborat.",
           "rasm": {
             "fayl": "usmle_rasmlar/d3_04.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
           }
         },
         {
-          "sarlavha": "Sinusitis and epistaxis",
+          "sarlavha": "Chest X-ray: lateral view",
           "bandlar": [
-            "Superior meatus: posterior ethmoid; middle: frontal, maxillary, anterior ethmoid; inferior: nasolacrimal duct",
-            "Maxillary sinus most affected: ostium superomedial, drains against gravity",
-            "Viral first; bacterial: nontypeable H. influenzae, S. pneumoniae, M. catarrhalis",
-            "Anterior epistaxis (most common): Kiesselbach plexus - 'LEGS'",
-            "Posterior (life-threatening): sphenopalatine artery; angiofibroma in adolescent males"
+            "Anterior: pulmonary outflow tract and ascending aorta",
+            "Aortic arch and brachiocephalic vessels above",
+            "Trachea; right and left upper lobar bronchi",
+            "Right and left pulmonary arteries",
+            "Confluence of pulmonary veins (posterior: left atrium region)"
           ],
-          "izoh": "👃 Rinosinusit - bo'shliq teshigi berkilib, suyuqlik to'planadi va yallig'lanadi.\n• Yuqori burun yo'li - orqa g'alvirsimon katakchalar\n• O'rta yo'l - peshona, yuqori jag' va oldingi g'alvirsimon bo'shliqlar\n• Pastki yo'l - burun-ko'z yosh kanali\nYuqori jag' bo'shlig'i eng ko'p zararlanadi: teshigi yuqori-medialda, suyuqlik og'irlik kuchiga qarshi oqadi. Avval virus (rinovirus), keyin bakteriya: tiplanmaydigan H. influenzae, S. pneumoniae, M. catarrhalis. Asoratlar: ko'z kosasi flegmonasi, kavernoz sinus sindromi, meningit.\n\n🩸 Burundan qon ketish:\n• Ko'pincha oldingi qismdan - Kisselbax chigali. Eslab qolish 'Kiesselbach drives his Lexus with his LEGS': yuqori Lab, oldingi va orqa Ethmoidal, katta tanglay (Greater palatine), Sfenopalatin arteriyalari.\n• Hayot uchun xavfli - orqa qismdan, sfenopalatin arteriyasidan (yuqori jag' arteriyasi tarmog'i).\nSabablar: yot jism, travma, allergik rinit; o'smir o'g'il bolalarda - burun-halqum angiofibromasi.",
+          "izoh": "🩻 Ko'krak qafasi rentgenogrammasi - yon proyeksiya.\n\nTanib olish kerak bo'lgan tuzilmalar:\n• OLDINDA - o'pka ustuni chiqish yo'li (o'ng qorincha) va ko'tariluvchi aorta;\n• yuqorida - aorta ravog'i va undan chiquvchi yelka-bosh tomirlari;\n• o'rtada - traxeya, o'ng va chap yuqori bo'lak bronxlari;\n• o'ng va chap o'pka arteriyalari;\n• ORQADA - o'pka venalarining qo'shilish joyi (chap bo'lmacha sohasi).\n\n💡 Yon rentgenda: o'ng qorincha - yurakning OLD konturi (to'sh orqasida), chap bo'lmacha - ORQA-yuqori konturi. Chap bo'lmacha kattalashsa (mitral stenoz), yon rentgenda orqaga, qizilo'ngach tomonga bo'rtadi.\n\nRasmda ko'ks oralig'i o'ng tomondan: yuqori kovak vena, o'pka ildizi, yurak va qizilo'ngach - yon rentgendagi tuzilmalarning haqiqiy joylashuvi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_06.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Paranasal sinuses: drainage",
+          "bandlar": [
+            "Superior meatus: posterior ethmoid cells",
+            "Middle meatus: frontal, maxillary and anterior ethmoid sinuses",
+            "Inferior meatus: nasolacrimal duct",
+            "Sphenoid sinus: sphenoethmoidal recess",
+            "Maxillary ostium is high on the medial wall -> drains against gravity"
+          ],
+          "izoh": "👃 Burun yon bo'shliqlari va ular qayerga ochiladi.\n\nBurun bo'shlig'ining lateral devorida 3 ta chig'anoq va ular ostida 3 ta burun yo'li bor:\n\n• YUQORI burun yo'li -> orqa g'alvirsimon katakchalar;\n• O'RTA burun yo'li -> peshona bo'shlig'i, yuqori jag' (gaymor) bo'shlig'i va oldingi g'alvirsimon katakchalar (yarimoysimon yoriq - hiatus semilunaris orqali);\n• PASTKI burun yo'li -> burun-ko'z yosh kanali (shuning uchun yig'laganda burundan suv oqadi);\n• ponasimon bo'shliq -> ponasimon-g'alvirsimon chuqurcha (yuqori chig'anoqdan yuqorida).\n\n💡 Yuqori jag' bo'shlig'ining teshigi bo'shliqning YUQORI-medial qismida joylashgan, shuning uchun suyuqlik og'irlik kuchiga QARSHI oqib chiqishi kerak - u eng oson to'lib qoladi va eng ko'p yallig'lanadi.\n\nRasmda burun bo'shlig'ining o'ng lateral devori (o'rta chig'anoq olib tashlangan): hiatus semilunaris, bulla ethmoidalis, infundibulum.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_n08.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Rhinosinusitis",
+          "bandlar": [
+            "Blocked sinus drainage -> inflammation and pain over the sinus",
+            "Maxillary sinuses most often affected (ostium drains against gravity)",
+            "Acute: usually viral (rhinovirus)",
+            "Bacterial superinfection: nontypeable H. influenzae, S. pneumoniae, M. catarrhalis",
+            "Complications: orbital cellulitis, cavernous sinus syndrome, meningitis"
+          ],
+          "izoh": "🤧 Rinosinusit - burun yon bo'shlig'ining yallig'lanishi.\n\nMexanizm: bo'shliqning burun bo'shlig'iga ochiladigan teshigi shilliq qavat shishi bilan BERKILADI -> suyuqlik to'planadi -> yallig'lanish va shu soha ustida og'riq (oldinga engashganda kuchayadi).\n\n📍 Ko'pincha YUQORI JAG' bo'shlig'i zararlanadi - teshigi yuqori-medialda, suyuqlik og'irlik kuchiga qarshi chiqadi. Rentgen/KT da bo'shliqda suyuqlik sathi ko'rinadi.\n\n🦠 Qo'zg'atuvchilar:\n• o'tkir rinosinusit ko'pincha VIRUSLI (rinovirus);\n• ustiga bakterial infeksiya qo'shilishi mumkin: tiplanmaydigan H. influenzae, S. pneumoniae, M. catarrhalis.\n\n⚠️ Asoratlari - infeksiya qo'shni tuzilmalarga tarqaladi:\n• ko'z kosasi flegmonasi (orbital cellulitis);\n• kavernoz sinus sindromi;\n• meningit, miya abssessi.\n\nRasmda boshning frontal kesimi: yuqori jag' bo'shliqlari (sinus maxillaris), burun chig'anoqlari va yo'llari, ko'z kosalari - asoratlar nega ko'zga o'tishi ko'rinib turibdi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_n09.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Epistaxis",
+          "bandlar": [
+            "Most common: ANTERIOR septum - Kiesselbach plexus",
+            "'Kiesselbach drives his Lexus with his LEGS'",
+            "LEGS: superior Labial, anterior + posterior Ethmoidal, Greater palatine, Sphenopalatine",
+            "Life-threatening: POSTERIOR - sphenopalatine artery (branch of maxillary)",
+            "Causes: foreign body, trauma, allergic rhinitis, nasal angiofibroma (adolescent males)"
+          ],
+          "izoh": "🩸 Burundan qon ketish (epistaksis).\n\n🔹 OLDINGI qon ketish - eng ko'p uchraydi. Manba - burun to'sig'ining old qismidagi KISSELBAX chigali; odatda bosim bilan to'xtaydi.\n\nKisselbax chigalini hosil qiluvchi arteriyalar - 'Kiesselbach drives his Lexus with his LEGS':\n• L - yuqori lab arteriyasi (superior Labial);\n• E - oldingi va orqa g'alvirsimon arteriyalar (anterior and posterior Ethmoidal);\n• G - katta tanglay arteriyasi (Greater palatine);\n• S - sfenopalatin arteriyasi (Sphenopalatine).\n\n🔹 ORQA qon ketish - kam uchraydi, lekin HAYOT UCHUN XAVFLI. Manba - sfenopalatin arteriyasi (yuqori jag' arteriyasining tarmog'i).\n\nSabablari: yot jism, travma (burun kovlash ham), allergik rinit, burun-halqum angiofibromasi (o'smir o'g'il bolalarda - takroriy kuchli qon ketish).\n\nRasmda burun to'sig'i arteriyalari ko'rinadi.",
           "rasm": {
             "fayl": "usmle_rasmlar/d3_05.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
           }
         },
         {
-          "sarlavha": "Airway histology",
+          "sarlavha": "Respiratory histology: trachea",
           "bandlar": [
-            "Trachea: pseudostratified ciliated columnar + goblet cells; 16-20 C-shaped cartilages; seromucous glands",
-            "Trachea: smooth muscle bridges open ends of the C-rings",
-            "Bronchi: irregular cartilage plates, fewer glands, prominent smooth muscle",
-            "Bronchioles: no cartilage, no glands; highest proportion of smooth muscle; club cells",
-            "Lung endothelium makes ACE (angiotensin I -> II)"
+            "Lungs are open to the environment: pollution and bacteria",
+            "Lungs receive the entire cardiac output",
+            "Pulmonary endothelium: ACE (angiotensin I -> II), lipoprotein and prostaglandin metabolism",
+            "Trachea: pseudostratified ciliated columnar + goblet cells",
+            "16-20 C-shaped cartilages, seromucous glands, smooth muscle between the open ends"
           ],
-          "izoh": "O'pka tashqi muhitga ochiq, shuning uchun ifloslanish va infeksiyalarga sezgir. U butun yurak qon haydashini qabul qiladi va qon tarkibini o'zgartiradi: o'pka endoteliysi angiotenzin I ni II ga aylantiruvchi fermentni (APF) ishlab chiqaradi.\n\n🔬 Gistologik farqlar:\n\nTraxeya: ko'p qatorli kiprikli silindrsimon epiteliy + qadahsimon hujayralar; 16-20 ta C-shaklidagi tog'ay halqalar; seroz-shilliq bezlar; silliq mushak halqalarning ochiq uchlari orasida.\n\nBronxlar: epiteliy asta-sekin oddiy silindrsimonga o'tadi; tog'ay notekis plastinkalar; bezlar kamroq; silliq mushak yaxshi rivojlangan.\n\nBronxiolalar: kiprikli hujayralar, kam qadahsimon hujayra, terminal bronxiolalarda klub hujayralari. Tog'ay ham, bez ham YO'Q. Bronx daraxtida silliq mushak ulushi eng yuqori (astmada bronxospazmning sababi!). Elastik tolalar ko'p.",
+          "izoh": "🔬 Nafas yo'llari gistologiyasi - umumiy tushuncha va traxeya.\n\n• O'pka tashqi muhitga OCHIQ - shuning uchun havodagi ifloslanish va bakteriyalarga sezgir.\n• O'pka butun yurak qon haydashini qabul qiladi va qon tarkibini o'zgartirishga qodir:\n  - o'pka endoteliysi lipoproteinlar va prostaglandinlar almashinuvida faol qatnashadi;\n  - angiotenzin I ni angiotenzin II ga aylantiruvchi FERMENT (APF) aynan o'pka endoteliy hujayralarida ishlab chiqariladi (APF ingibitorlari bilan bog'liq savollarda kerak!).\n\n🫁 Traxeya:\n• epiteliy - ko'p qatorli kiprikli silindrsimon + qadahsimon hujayralar;\n• 16-20 ta C-shaklidagi tog'ay halqa;\n• seroz-shilliq bezlar;\n• silliq mushak - halqalarning ochiq (orqa) uchlari orasida;\n• elastik tolalar bor.\n\nSxemadagi jadvalda traxeya, bronx va bronxiola devori solishtirilgan.",
           "rasm": {
             "fayl": "usmle_rasmlar/d3_06.jpg",
             "manba": "Sxema: USMLE Pulsi"
           }
         },
         {
-          "sarlavha": "Airway epithelial cells",
+          "sarlavha": "Histology: bronchi vs bronchioles",
           "bandlar": [
-            "Ciliated columnar: 200-300 cilia each -> mucociliary escalator",
-            "Goblet cells + submucosal glands: mucus traps dust, microbes, soluble gases",
-            "Basal cells: stem cells; with neuroendocrine cells give 'pseudostratified' look",
-            "Neuroendocrine (Kulchitsky, APUD) cells at branch points; brush cells may be sensory",
-            "Club cells: nonciliated, CYP450 detox, surfactant component, progenitors; smoking -> reversible squamous metaplasia"
+            "Bronchi: epithelium from pseudostratified to simple columnar",
+            "Bronchi: irregular cartilage plates, fewer glands, prominent smooth muscle",
+            "Bronchioles: ciliated cells, few goblet cells, club cells in terminal bronchioles",
+            "Bronchioles: NO cartilage, NO glands",
+            "Bronchioles: highest proportion of smooth muscle; abundant elastic fibers"
           ],
-          "izoh": "Traxeya epiteliysi hujayralari:\n\n• Kiprikli silindrsimon hujayralar - har birida 200-300 kiprik. Ular shilliq qavatni halqum tomon haydaydi, u yerda yutib yuboriladi - 'mukotsiliar eskalator'.\n• Qadahsimon hujayralar va shilliq osti bezlari shilliq ishlab chiqaradi. U chang, bakteriya, viruslarni ushlaydi va ozon, oltingugurt dioksidi kabi zararli gazlarni yutadi.\n• Bazal hujayralar - kiprikli va qadahsimon hujayralarning o'zak hujayralari. Ular bo'shliqqa yetmaydi, shuning uchun epiteliy 'ko'p qatorli' ko'rinadi.\n• Neyroendokrin (Kulchitskiy, APUD) hujayralar - tarmoqlanish joylarida guruh bo'lib joylashadi.\n• Cho'tkasimon hujayralar - sezuvchi retseptor bo'lishi mumkin.\n• Klub hujayralari (bronxiolalarda) - kipriksiz, sekretor donachali; toksinlarni CYP450 orqali parchalaydi, surfaktant komponentini ajratadi, o'zak hujayra vazifasini bajaradi.\n\n🚬 Chekishda kiprikli epiteliy yassi epiteliyga aylanadi - yassi hujayrali metaplaziya. Bu jarayon qaytar. Tozalash mexanizmi buzilsa - infeksiya yoki pnevmokonioz.",
+          "izoh": "🔬 Bronx va bronxiola devori - farqlar.\n\n🔹 BRONXLAR:\n• epiteliy - ko'p qatorli kiprikli silindrsimondan asta-sekin oddiy silindrsimonga o'tadi;\n• tog'ay - halqa emas, NOTEKIS PLASTINKALAR;\n• seroz-shilliq bezlar - traxeyadagidan kamroq;\n• silliq mushak - yaxshi rivojlangan;\n• elastik tolalar ko'p.\n\n🔹 BRONXIOLALAR:\n• epiteliy - kiprikli hujayralar, oz miqdorda qadahsimon hujayralar, terminal bronxiolalarda KLUB hujayralari;\n• tog'ay YO'Q;\n• bezlar YO'Q;\n• silliq mushak ulushi bronx daraxtida ENG YUQORI;\n• elastik tolalar ko'p.\n\n💡 Klinik ahamiyati: tog'ay yo'qligi va silliq mushak ko'pligi tufayli bronxiolalar astma xurujida (bronxospazm) eng ko'p torayadi.\n\nRasmda traxeya, bifurkatsiya va bosh bronxlar.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d2_08.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Mucociliary escalator",
+          "bandlar": [
+            "Ciliated columnar cells: 200-300 motile cilia each, mixed with microvilli",
+            "Cilia beat to move the mucus layer toward the pharynx, where it is swallowed",
+            "Goblet cells secrete polysaccharide mucus; submucosal mixed glands add more",
+            "Mucus traps dust, bacteria, viruses",
+            "Mucus absorbs water-soluble noxious gases (ozone, sulfur dioxide)"
+          ],
+          "izoh": "🧹 Mukotsiliar eskalator - nafas yo'llarining o'z-o'zini tozalash tizimi.\n\n🔹 Kiprikli silindrsimon hujayralar - bazal membranadan bo'shliqqacha cho'zilgan; har birining yuzasida 200-300 ta HARAKATCHAN kiprikcha bor, ular orasida mikrovorsinkalar ham joylashgan.\n\n🔹 Qadahsimon hujayralar - bo'shliqqa polisaxaridli SHILLIQ ajratadi. Shilliq ishlab chiqarishni shilliq osti qavatdagi aralash bezlar ham to'ldiradi.\n\nQanday ishlaydi:\n1. Shilliq qatlam havodagi chang, bakteriya va viruslarni ushlab qoladi; ozon, oltingugurt dioksidi kabi suvda eriydigan zararli gazlarni yutadi.\n2. Kiprikchalar muvofiqlashgan holda tebranib, shilliq qatlamni HALQUM tomon haydaydi.\n3. Halqumda shilliq yutib yuboriladi va hazm qilinadi.\n\n💡 Kiprikchalar ishlamasa (Kartagener sindromi - dinein nuqsoni) yoki shilliq juda quyuq bo'lsa (mukovissidoz) - takroriy infeksiyalar.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_s13.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Basal, neuroendocrine and brush cells",
+          "bandlar": [
+            "Basal cells: stem cells for ciliated and goblet cells; do not reach the lumen",
+            "Basal + neuroendocrine cells give the 'pseudostratified' appearance",
+            "Pulmonary neuroendocrine cells = APUD, DNES, Kulchitsky (K) cells",
+            "Occur in clusters, often at airway branch points (like gut endocrine cells)",
+            "Brush cells: short microvilli; may be sensory receptors (synapse with nerves)"
+          ],
+          "izoh": "🔬 Traxeya epiteliysidagi boshqa hujayralar.\n\n🔹 BAZAL hujayralar - kiprikli va qadahsimon hujayralarning O'ZAK hujayralari. Bazal membranada yotadi, lekin bo'shliqqa yetib bormaydi. Aynan bazal va neyroendokrin hujayralar tufayli epiteliy 'ko'p qatorli' ko'rinadi: barcha hujayralar membranada turadi, lekin yadrolari turli balandlikda.\n\n🔹 O'pka NEYROENDOKRIN hujayralari - ichakdagi endokrin hujayralarga o'xshaydi. Boshqa nomlari: APUD hujayralar (Amine Precursor Uptake Decarboxylase), DNES (diffuz neyroendokrin tizim), Kulchitskiy (K) hujayralari. Guruh bo'lib, ko'pincha nafas yo'llarining tarmoqlanish joylarida joylashadi.\n💡 Mayda hujayrali o'pka saratoni va karsinoid o'smalar shu hujayralardan kelib chiqadi.\n\n🔹 CHO'TKASIMON hujayralar - yuzasida kalta mikrovorsinkalar bor. Sekretini chiqarib bo'lgan qadahsimon hujayralar yoki kiprikli/qadahsimon hujayralarning oraliq bosqichi bo'lishi mumkin. Ba'zilari epiteliy ichidagi nervlar bilan sinaps hosil qiladi - SEZUVCHI retseptor bo'lishi mumkin.",
           "rasm": {
             "fayl": "usmle_rasmlar/d3_07.jpg",
             "manba": "Sxema: USMLE Pulsi"
           }
         },
         {
-          "sarlavha": "Cystic fibrosis",
+          "sarlavha": "Smoking: squamous metaplasia",
           "bandlar": [
-            "AR; CFTR gene on chr 7; most often deltaF508 -> misfolded protein, not at membrane",
-            "Less Cl- (and water) secretion, more Na+ reabsorption via ENaC -> thick mucus",
-            "High sweat Cl- (pilocarpine test); newborn screen: high immunoreactive trypsinogen",
-            "S. aureus in childhood, P. aeruginosa in adults; pancreatic insufficiency, meconium ileus, male infertility",
-            "Rx: DNase, hypertonic saline, azithromycin, pancrelipase; potentiator ivacaftor, correctors lumacaftor/tezacaftor"
+            "Columnar and goblet cells are sensitive to irritation",
+            "Irritation: taller ciliated cells, more goblet cells and submucosal glands",
+            "Intense irritation (smoking): ciliated epithelium -> stratified squamous",
+            "Squamous metaplasia is REVERSIBLE",
+            "Failed clearance -> infection or pneumoconiosis; CF: thick mucus, cilia cannot move it"
           ],
-          "izoh": "🧬 Mukovissidoz - autosom retsessiv; 7-xromosomadagi CFTR geni. Ko'pincha deltaF508 deletsiyasi: oqsil noto'g'ri buklanadi va hujayra membranasiga yetib bormaydi.\n\nMexanizm: CFTR - ATF bilan ochiladigan Cl- kanali (o'pka va ichakda Cl- chiqaradi, ter bezida qayta so'radi). Cl- va suv chiqishi kamayadi, Na+ ENaC orqali ko'proq so'riladi -> shilliq quyuq bo'ladi. Ter testida Cl- yuqori. Chaqaloqlar skriningida immunoreaktiv tripsinogen oshgan.\n\n🫁 Klinika: takroriy infeksiyalar (bolalikda S. aureus, kattalarda P. aeruginosa, ABPA), bronxoektazlar, burun poliplari, barmoqlar 'baraban tayoqchasi'; me'da osti bezi yetishmovchiligi, steatoreya, A, D, E, K yetishmasligi, mukovissidozli diabet; yangi tug'ilganda mekoniy ileus; erkaklarda bepushtlik (urug' yo'li yo'q).\n\n💊 Davolash: fizioterapiya, dornaza alfa, gipertonik eritma ingalyatsiyasi, azitromitsin, ibuprofen, pankrelipaza; CFTR modulyatorlari - potensiator (ivakaftor) va korrektorlar (lumakaftor, tezakaftor).",
+          "izoh": "🚬 Chekish va nafas yo'li epiteliysi.\n\nSilindrsimon va qadahsimon hujayralar ta'sirlanishga sezgir. Ta'sirlanish davom etsa:\n• kiprikli hujayralar balandlashadi;\n• qadahsimon hujayralar va shilliq osti bezlari soni ortadi (shuning uchun chekuvchilarda balg'am ko'p).\n\n🔸 Kuchli va uzoq ta'sirlanishda (chekish) - YASSI HUJAYRALI METAPLAZIYA: ko'p qatorli kiprikli epiteliy ko'p qavatli yassi epiteliyga aylanadi. Bu himoya moslashuvi, lekin kiprikchalar yo'qoladi va tozalash buziladi.\n✅ Bu jarayon QAYTAR - chekish tashlansa, epiteliy tiklanadi. (Davom etsa - displaziya va yassi hujayrali karsinoma xavfi.)\n\n⚠️ Mukotsiliar tozalash samarasiz bo'lsa yoki 'zo'riqib' qolsa:\n• infeksiya (patogen bakteriyalar);\n• pnevmokonioz (changdan kelib chiqadigan kasallik).\n\nMukovissidozda shilliq juda quyuq va yopishqoq - kiprikchalar uni halqum tomon surishga qiynaladi, bemorlarda nafas yo'llari infeksiyalari tez-tez takrorlanadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_s15.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Club cells",
+          "bandlar": [
+            "Nonciliated, low columnar/cuboidal cells with secretory granules",
+            "Located in bronchioles (especially terminal bronchioles)",
+            "Degrade toxins via cytochrome P-450",
+            "Secrete a component of surfactant",
+            "Progenitor cells for club and ciliated cells"
+          ],
+          "izoh": "🔹 Klub hujayralari (eski nomi - Klara hujayralari).\n\nTuzilishi: KIPRIKSIZ, past silindrsimon yoki kubsimon hujayralar, sitoplazmasida SEKRETOR DONACHALAR bor. Bo'shliqqa gumbazsimon bo'rtib turadi.\n\nJoylashuvi: bronxiolalarda, ayniqsa terminal bronxiolalarda (u yerda qadahsimon hujayralar deyarli yo'q).\n\nVazifalari - 3 ta (USMLE uchun yodlang):\n1️⃣ Toksinlarni SITOXROM P-450 orqali parchalaydi (detoksikatsiya);\n2️⃣ SURFAKTANT komponentini ajratadi;\n3️⃣ Klub va kiprikli hujayralarning PROGENITOR (o'zak) hujayrasi - bronxiolalar shikastlanganda epiteliyni tiklaydi.\n\n💡 Esda tuting: traxeya va bronxlarda o'zak hujayra - BAZAL hujayra; bronxiolalarda - KLUB hujayra; alveolalarda - II tip PNEVMOTSIT.\n\nSxemada terminal bronxiolaning ko'ndalang kesimi: klub hujayralari, silliq mushak qavati, tog'ay va bezlar yo'q.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_s16.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Cystic fibrosis: genetics and mechanism",
+          "bandlar": [
+            "Autosomal recessive; CFTR gene on chromosome 7; most common: deltaF508",
+            "Most common lethal genetic disease in people of European ancestry",
+            "CFTR = ATP-gated Cl- channel: secretes Cl- in lungs/GI, reabsorbs Cl- in sweat glands",
+            "deltaF508: misfolded protein, improper trafficking -> absent from membrane",
+            "Less Cl- and water secretion -> more Na+ via ENaC -> more water reabsorbed -> thick mucus"
+          ],
+          "izoh": "🧬 Mukovissidoz (kistoz fibroz).\n\n• Nasl: AUTOSOM RETSESSIV.\n• Gen: CFTR, 7-xromosomada. Eng ko'p uchraydigan mutatsiya - deltaF508 (508-pozitsiyadagi fenilalanin deletsiyasi).\n• Yevropa kelib chiqishli odamlarda eng ko'p uchraydigan o'limga olib keluvchi irsiy kasallik.\n\n⚙️ CFTR oqsili - ATF bilan ochiladigan Cl- kanali:\n• o'pka va oshqozon-ichak yo'lida Cl- ni CHIQARADI (sekretsiya);\n• ter bezlarida Cl- ni QAYTA SO'RADI.\n\n🔻 deltaF508 da nima bo'ladi:\n1. oqsil noto'g'ri BUKLANADI;\n2. hujayra ichida noto'g'ri tashiladi (endoplazmatik to'rda parchalanadi);\n3. hujayra MEMBRANASIDA kanal YO'Q;\n4. Cl- (va u bilan suv) sekretsiyasi kamayadi;\n5. kompensator ravishda epiteliy Na+ kanallari (ENaC) orqali Na+ qayta so'rilishi KUCHAYADI -> suv ham ko'proq so'riladi;\n6. o'pka va ichakka g'ayritabiiy QUYUQ shilliq ajraladi.\n\n💡 Na+ so'rilishi oshgani uchun epiteliy orqali potensiallar farqi ko'proq MANFIY bo'ladi (burun potensiali testi).",
           "rasm": {
             "fayl": "usmle_rasmlar/d3_08.jpg",
             "manba": "Sxema: USMLE Pulsi"
           }
         },
         {
-          "sarlavha": "Heart position and pericardium",
+          "sarlavha": "Cystic fibrosis: diagnosis and clinical features",
           "bandlar": [
-            "Left atrium: most POSTERIOR chamber; enlarged LA -> dysphagia, hoarseness (Ortner)",
-            "Right ventricle: most ANTERIOR chamber, most often injured in trauma",
-            "Inferior surface: LV about 2/3, RV about 1/3",
-            "Pericardium: fibrous -> parietal -> visceral (epicardium); space between parietal and visceral",
-            "Pericardium innervated by phrenic nerve: pericarditis pain to neck, arms, shoulders"
+            "High Cl- in pilocarpine-induced sweat test; newborn screen: high immunoreactive trypsinogen",
+            "Contraction alkalosis + hypokalemia (sweat losses, like a loop diuretic)",
+            "Lungs: S. aureus (childhood), P. aeruginosa (adults), ABPA, bronchiectasis",
+            "Nasal polyps, sinus opacification, clubbing; meconium ileus in newborns",
+            "Pancreatic insufficiency, steatorrhea, ADEK deficiency, CF diabetes, biliary cirrhosis; male infertility"
           ],
-          "izoh": "❤️ Yurak bo'shliqlarining joylashuvi:\n\n• Chap bo'lmacha - yurakning eng ORQA qismi. U kattalashsa (masalan, mitral stenozda) qizilo'ngachni ezib, yutish qiyinlashadi yoki chap qaytuvchi hiqildoq nervini (adashgan nerv tarmog'i) ezib, ovoz bo'g'iladi - Ortner sindromi.\n• O'ng qorincha - eng OLDINGI qismi. Ko'krakning old tomondan jarohatlarida eng ko'p shikastlanadi.\n• Pastki (diafragma) yuzasining ~2/3 qismi chap qorincha, ~1/3 qismi o'ng qorincha.\n\n🛡 Perikard - tashqaridan ichkariga 3 qavat:\n1. Fibroz perikard\n2. Parietal perikard\n3. Epikard (visseral perikard)\nPerikard bo'shlig'i parietal perikard va epikard orasida.\n\nPerikard diafragma nervi bilan innervatsiya qilinadi, shuning uchun perikardit og'rig'i bo'yin, qo'llar yoki yelkaga (ko'pincha chapga) uzatiladi.",
+          "izoh": "🩺 Mukovissidoz: tashxis va klinika.\n\n🔬 Tashxis:\n• pilokarpin bilan TER TESTI - terda Cl- YUQORI (ter bezida qayta so'rilmaydi);\n• chaqaloqlar skriningi - qonda immunoreaktiv TRIPSINOGEN oshgan (me'da osti bezi yo'li tiqilib qolgani uchun).\n• Elektrolitlar: ter bilan suv va Na+ yo'qotilishi -> KONTRAKSION ALKALOZ va GIPOKALIEMIYA (buyrak K+ va H+ ni yo'qotadi - halqa diuretigiga o'xshash ta'sir).\n\n🫁 O'pka: takroriy infeksiyalar - erta bolalikda S. aureus, kattalarda P. aeruginosa; allergik bronxopulmonal aspergillyoz (ABPA); surunkali bronxit va BRONXOEKTAZLAR; rentgenda retikulonodulyar o'zgarish.\n👃 Burun: poliplar, yon bo'shliqlar xiralashuvi; barmoqlar 'baraban tayoqchasi'.\n🍽 Oshqozon-ichak: me'da osti bezi yetishmovchiligi, steatoreya, A, D, E, K vitaminlari yetishmasligi, keyinchalik mukovissidozli DIABET; biliar sirroz; yangi tug'ilganda MEKONIY ILEUS.\n👨 Erkaklar: bepushtlik - urug' yo'li YO'Q (spermatogenez saqlangan bo'lishi mumkin). Ayollar: amenoreya, bachadon bo'yni shilliqi quyuq.",
           "rasm": {
-            "fayl": "usmle_rasmlar/d3_09.jpg",
+            "fayl": "usmle_rasmlar/d3_s18.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Cystic fibrosis: treatment",
+          "bandlar": [
+            "Mucus clearance: chest physiotherapy, inhaled dornase alfa (DNase), inhaled hypertonic saline",
+            "Azithromycin prevents acute exacerbations; ibuprofen as anti-inflammatory",
+            "Pancrelipase for pancreatic insufficiency",
+            "CFTR potentiator (ivacaftor): holds the channel gate open",
+            "CFTR correctors (lumacaftor, tezacaftor): help folding -> protein reaches the membrane"
+          ],
+          "izoh": "💊 Mukovissidoz davolash - kompleks (multifaktorial).\n\n🔹 Shilliqni tozalash:\n• ko'krak qafasi fizioterapiyasi;\n• ingalyatsion DORNAZA ALFA (DNaza) - shilliqdagi DNKni parchalab, uni suyultiradi;\n• ingalyatsion GIPERTONIK eritma - shilliqqa suv tortadi.\n\n🔹 Infeksiya va yallig'lanish:\n• AZITROMITSIN - o'tkir qo'zishlarning oldini oladi;\n• IBUPROFEN - yallig'lanishga qarshi ta'sir.\n\n🔹 Me'da osti bezi yetishmovchiligi - PANKRELIPAZA (fermentlar o'rnini bosish).\n\n🔹 CFTR MODULYATORLARI - yakka yoki kombinatsiyada; samaradorligi mutatsiya turiga bog'liq (farmakogenomika):\n• POTENSIATORLAR - kanal 'darvozasini' OCHIQ ushlab turadi, Cl- membrana orqali o'tadi. Misol: IVAKAFTOR.\n• KORREKTORLAR - CFTR oqsiliga to'g'ri 3D shaklni olishga yordam beradi, oqsil hujayra yuzasiga chiqadi. Misol: LUMAKAFTOR, TEZAKAFTOR (deltaF508 uchun).\n\n💡 USMLE: 'kanal membranada bor, lekin ochilmaydi' -> potensiator; 'oqsil membranaga yetib bormaydi' -> korrektor.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_s19.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Heart: anterior and inferior surfaces",
+          "bandlar": [
+            "Right ventricle: the most ANTERIOR part of the heart",
+            "RV is most commonly injured in anterior chest trauma (stab wounds)",
+            "Inferior (diaphragmatic) surface: LV about 2/3, RV about 1/3",
+            "Inferior MI therefore involves the LV inferior wall (and RV if RCA)"
+          ],
+          "izoh": "❤️ Yurakning joylashuvi - old va pastki yuzalar.\n\n🔹 O'NG QORINCHA - yurakning eng OLDINGI qismi. To'sh suyagi va qovurg'a tog'aylari ortida yotadi. Shuning uchun ko'krakning old tomondan pichoq yoki o'q jarohatlarida eng ko'p o'ng qorincha shikastlanadi.\n\n🔹 Pastki (diafragma) yuzasi:\n• taxminan 2/3 qismi - chap qorincha;\n• taxminan 1/3 qismi - o'ng qorincha.\n\n💡 Klinik bog'liqlik:\n• 'pastki infarkt' (II, III, aVF) - diafragma yuzasi, ko'pincha o'ng toj arteriyasi;\n• PA rentgenda o'ng qorincha chegara hosil qilmaydi (oldinda), o'ng chegarani o'ng bo'lmacha hosil qiladi.\n\nRasmda yurak old tomondan: o'ng bo'lmacha, o'ng qorincha (old yuzaning katta qismi), chap qorinchaning bir qismi, aorta va o'pka ustuni, oldingi qorinchalararo egat.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_n22.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
           }
         },
         {
-          "sarlavha": "Coronary blood supply",
+          "sarlavha": "Left atrium: the most posterior chamber",
           "bandlar": [
-            "LAD: anterior 2/3 of septum, anterolateral papillary muscle, anterior LV; most often occluded",
-            "PDA: posterior 1/3 of septum, posterior walls, posteromedial papillary muscle",
-            "RCA: SA and AV nodes -> infarct gives bradycardia/heart block; acute marginal -> RV",
-            "Right-dominant (most common): PDA from RCA; left-dominant: PDA from LCX",
-            "LV flow peaks in early diastole; coronary sinus (left AV groove) drains to RA"
+            "LEFT ATRIUM is the most POSTERIOR part of the heart",
+            "Lies directly in front of the esophagus",
+            "Enlarged LA (e.g., mitral stenosis) -> compresses esophagus: dysphagia",
+            "Can compress the left recurrent laryngeal nerve -> hoarseness (Ortner syndrome)",
+            "Coronary sinus runs in the posterior (left) AV groove and drains into the RA"
           ],
-          "izoh": "🫀 Toj arteriyalari:\n\n• Oldingi qorinchalararo arteriya (LAD) - qorinchalararo to'siqning old 2/3 qismi, old-lateral so'rg'ichsimon mushak va chap qorincha old devori. Eng ko'p tiqiladigan arteriya.\n• Orqa qorinchalararo arteriya (PDA) - to'siqning orqa 1/3 qismi, qorinchalar orqa devorlari va orqa-medial so'rg'ichsimon mushak.\n• O'ng toj arteriyasi (RCA) - sinus-bo'lmacha (SA) va bo'lmacha-qorincha (AV) tugunlarini qon bilan ta'minlaydi. Shuning uchun pastki infarktda bradikardiya va blokada bo'ladi. O'tkir chekka tarmog'i - o'ng qorinchaga.\n\nDominantlik (PDA qayerdan chiqishi):\n• o'ng dominant (eng ko'p) - RCA dan\n• chap dominant - aylanma arteriyadan (LCX)\n• kodominant - ikkalasidan\n\n💡 Chap qorincha va to'siqqa qon oqimi diastola boshida eng yuqori. Toj sinus chap AV egatida yotadi va o'ng bo'lmachaga quyiladi.",
+          "izoh": "❤️ Chap bo'lmacha - yurakning eng ORQA qismi.\n\n• Chap bo'lmacha bevosita QIZILO'NGACH oldida yotadi (shuning uchun transezofageal exokardiografiyada u juda yaxshi ko'rinadi).\n\n⚠️ Chap bo'lmacha kattalashsa (masalan, MITRAL STENOZDA yoki bo'lmachalar fibrillyatsiyasida):\n• qizilo'ngachni ezadi -> yutish qiyinlashadi (DISFAGIYA);\n• chap qaytuvchi hiqildoq nervini (adashgan nerv tarmog'i) ezadi -> ovoz BO'G'ILADI. Bu holat ORTNER sindromi deyiladi.\n\n🔹 Toj sinus (sinus coronarius) - yurakning orqa tomonida, chap bo'lmacha-qorincha egatida yotadi; yurak venalari qonini yig'ib, O'NG BO'LMACHAGA quyadi.\n\nRasmda yurak pastdan-orqadan: chap bo'lmacha va o'pka venalari, pastki kovak vena, toj sinus, katta, o'rta va kichik yurak venalari.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_n25.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Pericardium",
+          "bandlar": [
+            "3 layers (outer -> inner): fibrous pericardium, parietal pericardium, epicardium (visceral)",
+            "Pericardial space: between parietal pericardium and epicardium",
+            "Innervated by the phrenic nerve",
+            "Pericarditis: referred pain to neck, arms, one or both shoulders (often left)"
+          ],
+          "izoh": "🛡 Perikard - yurak xaltasi.\n\nQavatlari (tashqaridan ichkariga):\n1. FIBROZ perikard - zich, cho'zilmaydigan tashqi qavat; yurakni haddan tashqari kengayishdan saqlaydi;\n2. PARIETAL (seroz) perikard - fibroz qavatning ichki yuzasini qoplaydi;\n3. EPIKARD (visseral perikard) - yurak yuzasiga yopishgan.\n\n🔹 Perikard bo'shlig'i - parietal perikard va epikard orasida; oz miqdorda seroz suyuqlik bor. Bu bo'shliqda suyuqlik yoki qon tez to'plansa - yurak tamponadasi.\n\n⚡️ Innervatsiya: DIAFRAGMA NERVI (C3-C5). Rasmda ikkala diafragma nervi perikardning yon tomonlaridan pastga tushib borayotgani ko'rinadi.\n\n🩺 Shuning uchun PERIKARDIT og'rig'i bo'yin, qo'llar, bir yoki ikkala YELKAGA (ko'pincha chapga) uzatiladi. Og'riq odatda oldinga engashganda kamayadi, chalqancha yotganda kuchayadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_n23.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Coronary arteries: territories",
+          "bandlar": [
+            "LAD: anterior 2/3 of IV septum, anterolateral papillary muscle, anterior LV - most often occluded",
+            "PDA: posterior 1/3 of IV septum, posterior 2/3 of ventricular walls, posteromedial papillary muscle",
+            "RCA: supplies SA and AV nodes -> infarct: bradycardia, heart block",
+            "Right (acute) marginal artery: supplies the RV",
+            "Posteromedial papillary muscle (single supply) ruptures more often"
+          ],
+          "izoh": "🫀 Toj arteriyalari va ular qon bilan ta'minlaydigan sohalar.\n\n🔹 OLDINGI QORINCHALARARO arteriya (LAD, chap toj arteriyasi tarmog'i):\n• qorinchalararo to'siqning OLD 2/3 qismi;\n• old-lateral so'rg'ichsimon mushak;\n• chap qorincha OLD devori.\n⚠️ ENG KO'P tiqiladigan arteriya.\n\n🔹 ORQA QORINCHALARARO arteriya (PDA):\n• to'siqning ORQA 1/3 qismi;\n• qorinchalar orqa devorlarining 2/3 qismi;\n• orqa-medial so'rg'ichsimon mushak.\n\n🔹 O'NG TOJ arteriyasi (RCA):\n• sinus-bo'lmacha (SA) va bo'lmacha-qorincha (AV) TUGUNLARINI ta'minlaydi -> infarktda tugun disfunksiyasi: BRADIKARDIYA yoki YURAK BLOKADASI;\n• o'ng (o'tkir) chekka arteriyasi - O'NG QORINCHAni ta'minlaydi.\n\n💡 Orqa-medial so'rg'ichsimon mushak faqat bitta arteriyadan (PDA) qon oladi - shuning uchun infarktdan keyin u ko'proq yoriladi (o'tkir mitral regurgitatsiya).\n\nRasmda yurak arteriyalari pastdan: o'ng va chap toj arteriyalari, orqa qorinchalararo tarmoq.",
           "rasm": {
             "fayl": "usmle_rasmlar/d3_10.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Coronary dominance, flow and venous drainage",
+          "bandlar": [
+            "Right-dominant (most common): PDA arises from RCA",
+            "Left-dominant: PDA arises from LCX",
+            "Codominant: PDA from both LCX and RCA",
+            "Coronary flow to LV and septum peaks in EARLY DIASTOLE",
+            "Coronary sinus: in the left AV groove, drains into the RA"
+          ],
+          "izoh": "🫀 Toj qon aylanishining dominantligi, oqim va venoz chiqish.\n\n📌 DOMINANTLIK - orqa qorinchalararo arteriya (PDA) qayerdan chiqishiga qarab aniqlanadi:\n• O'NG dominant (eng ko'p uchraydi, ~80-85%) - PDA o'ng toj arteriyasidan (RCA);\n• CHAP dominant - PDA chap aylanma arteriyadan (LCX);\n• KODOMINANT - PDA ham RCA, ham LCX dan.\n\n📌 Qon oqimi vaqti: chap qorincha va qorinchalararo to'siqqa toj qon oqimi DIASTOLA BOSHIDA eng yuqori bo'ladi. Sistolada qisqargan miokard tomirlarni ezadi. Shuning uchun TAXIKARDIYA (diastola qisqaradi) ishemiyani kuchaytiradi.\n\n📌 Venoz chiqish: yurak venalari (katta, o'rta, kichik) TOJ SINUSGA quyiladi; toj sinus chap bo'lmacha-qorincha egatida (orqada) yotadi va O'NG BO'LMACHAGA ochiladi.\n\nRasmda yurak va uning katta tomirlari; toj sinusni oldingi postlardagi orqa ko'rinishda ko'rgansiz.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d3_09.jpg",
             "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
           }
         }
@@ -1376,6 +1570,97 @@
           ],
           "togri": 0,
           "izoh": "O'ng toj arteriyasi ko'pchilikda SA va AV tugunlarini ta'minlaydi va PDA ni beradi (o'ng dominantlik). Pastki infarktda bradikardiya va AV blokada shu sababli."
+        },
+        {
+          "vinyetka": "A 7-year-old boy has tearing of the left eye and clear discharge from the left nostril whenever he cries. His mother asks where tears reach the nose.",
+          "savol": "Into which part of the nasal cavity does the nasolacrimal duct open?",
+          "javoblar": [
+            "Inferior meatus",
+            "Middle meatus",
+            "Superior meatus",
+            "Sphenoethmoidal recess",
+            "Hiatus semilunaris"
+          ],
+          "togri": 0,
+          "izoh": "Burun-ko'z yosh kanali PASTKI burun yo'liga ochiladi. O'rta yo'l - peshona, yuqori jag', oldingi g'alvirsimon; yuqori yo'l - orqa g'alvirsimon katakchalar."
+        },
+        {
+          "vinyetka": "A 52-year-old woman with hypertension is started on lisinopril. A pharmacology student asks where most of the enzyme blocked by this drug is located.",
+          "savol": "Where is angiotensin-converting enzyme mainly produced?",
+          "javoblar": [
+            "Pulmonary capillary endothelial cells",
+            "Juxtaglomerular cells of the kidney",
+            "Hepatocytes",
+            "Zona glomerulosa of the adrenal",
+            "Type II pneumocytes"
+          ],
+          "togri": 0,
+          "izoh": "APF (angiotenzin I -> II) asosan o'pka kapillyarlari endoteliysida ishlab chiqariladi. Reninni - buyrakning yukstaglomerulyar hujayralari, angiotenzinogenni - jigar."
+        },
+        {
+          "vinyetka": "A 63-year-old heavy smoker has a central lung mass. Biopsy shows small round blue cells with scant cytoplasm that stain for chromogranin and synaptophysin.",
+          "savol": "From which normal airway cells does this tumor most likely arise?",
+          "javoblar": [
+            "Pulmonary neuroendocrine (Kulchitsky) cells",
+            "Club cells",
+            "Type I pneumocytes",
+            "Goblet cells",
+            "Basal cells of the alveoli"
+          ],
+          "togri": 0,
+          "izoh": "Mayda hujayrali o'pka saratoni neyroendokrin (Kulchitskiy, APUD) hujayralardan: xromogranin, sinaptofizin musbat; markaziy joylashadi, chekish bilan kuchli bog'liq."
+        },
+        {
+          "vinyetka": "A 26-year-old man with recurrent sinusitis and two episodes of pneumonia is evaluated for infertility. Semen analysis shows azoospermia, and the vas deferens cannot be palpated bilaterally. Sweat chloride is elevated.",
+          "savol": "What is the most likely cause of his infertility?",
+          "javoblar": [
+            "Congenital bilateral absence of the vas deferens",
+            "Immotile cilia of the sperm tail",
+            "Primary testicular failure",
+            "Varicocele",
+            "Retrograde ejaculation"
+          ],
+          "togri": 0,
+          "izoh": "Mukovissidozda erkaklarda urug' yo'li tug'ma yo'q - azoospermiya, lekin spermatogenez saqlanishi mumkin. Kartagener sindromida esa spermatozoid harakatsiz."
+        },
+        {
+          "vinyetka": "An 11-year-old girl with cystic fibrosis carries a gating mutation (G551D): CFTR protein reaches the apical membrane but the channel rarely opens.",
+          "savol": "Which drug directly targets this defect?",
+          "javoblar": [
+            "Ivacaftor",
+            "Lumacaftor",
+            "Dornase alfa",
+            "Pancrelipase",
+            "Azithromycin"
+          ],
+          "togri": 0,
+          "izoh": "Kanal membranada, lekin ochilmaydi -> potensiator IVAKAFTOR darvozani ochiq tutadi. Oqsil membranaga yetmasa (deltaF508) -> korrektor lumakaftor/tezakaftor."
+        },
+        {
+          "vinyetka": "A 30-year-old man has sharp retrosternal chest pain 1 week after a viral illness. The pain improves when he leans forward and radiates to the left trapezius ridge and shoulder. A friction rub is heard.",
+          "savol": "Which nerve carries the referred shoulder pain?",
+          "javoblar": [
+            "Phrenic nerve",
+            "Vagus nerve",
+            "Intercostobrachial nerve",
+            "Long thoracic nerve",
+            "Greater splanchnic nerve"
+          ],
+          "togri": 0,
+          "izoh": "Perikard diafragma nervi (C3-C5) bilan innervatsiya qilinadi - perikardit og'rig'i bo'yin va yelkaga (trapetsiya qirrasi) uzatiladi. Engashganda kamayadi."
+        },
+        {
+          "vinyetka": "A 57-year-old man has an acute anterior wall myocardial infarction with ST elevation in V1-V4. He later develops a new ventricular septal defect.",
+          "savol": "Which artery was most likely occluded?",
+          "javoblar": [
+            "Left anterior descending artery",
+            "Right coronary artery",
+            "Left circumflex artery",
+            "Posterior descending artery",
+            "Right marginal artery"
+          ],
+          "togri": 0,
+          "izoh": "LAD - chap qorincha old devori va qorinchalararo to'siqning old 2/3 qismi. Eng ko'p tiqiladigan arteriya; asorati - to'siq yorilishi."
         }
       ]
     },
