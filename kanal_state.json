@@ -312,7 +312,8 @@
     18,
     7,
     6,
-    5
+    5,
+    13
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -377,7 +378,7 @@
     "Himoyachilar endi Vinisiusdan qo‘rqmay qo‘ydi",
     "«Arsenal» va «Manchester Yunayted» «Bournemouth» futbolchisiga qiziqmoqda"
   ],
-  "last_slot": "2026-11-06 19:30",
+  "last_slot": "2026-11-06 20:30",
   "scorers_idx": 4,
   "last_video_source": "Serie A",
   "table_idx": 6,
@@ -1381,7 +1382,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 655,
+    "last_id": 656,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
