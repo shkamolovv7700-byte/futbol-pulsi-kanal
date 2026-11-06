@@ -270,7 +270,8 @@
     "yt:EEBgiZWK0r4",
     "yt:OVcoVweCVuY",
     "yt:z6hJ7xCro4I",
-    "https://sports.uz/oz/news/view/himoyachilar-endi-vinisiusdan-qo-rqmay-qo-ydi"
+    "https://sports.uz/oz/news/view/himoyachilar-endi-vinisiusdan-qo-rqmay-qo-ydi",
+    "https://sports.uz/oz/news/view/arsenal-va-manchester-yunayted-bornmut-futbolchisiga-qiziqmoqda"
   ],
   "used_quiz": [
     23,
@@ -313,7 +314,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Trent \"Real\" bo‘yicha yakuniy qarorga keldi",
     "\"Chelsi\" va \"Arsenal\"dan porlagan oʻyinchi futboldan haydaladigan boʻlyapti",
     "«PSJ» Matvey Safonovning kelajagini hal qildi",
     "APL. «Chelsi» — «Tottenxem»: Asosiy tarkiblar bilan tanishing",
@@ -372,9 +372,10 @@
     "“Barsa” qiziqayotgan Husanov “Siti”ning o‘ziga ham kerak!",
     "O‘zbekiston milliy jamoasining noyabr oyidagi o‘yinlari boshlanish vaqti ma’lum bo‘ldi",
     "Chempionlar ligasida Yamaldan zo‘r futbolchi kashf qilindi",
-    "Himoyachilar endi Vinisiusdan qo‘rqmay qo‘ydi"
+    "Himoyachilar endi Vinisiusdan qo‘rqmay qo‘ydi",
+    "«Arsenal» va «Manchester Yunayted» «Bournemouth» futbolchisiga qiziqmoqda"
   ],
-  "last_slot": "2026-11-06 13:00",
+  "last_slot": "2026-11-06 14:00",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -1378,7 +1379,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 650,
+    "last_id": 651,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
