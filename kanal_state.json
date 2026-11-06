@@ -272,7 +272,8 @@
     "yt:z6hJ7xCro4I",
     "https://sports.uz/oz/news/view/himoyachilar-endi-vinisiusdan-qo-rqmay-qo-ydi",
     "https://sports.uz/oz/news/view/arsenal-va-manchester-yunayted-bornmut-futbolchisiga-qiziqmoqda",
-    "yt:Zf6mc9QWKU0"
+    "yt:Zf6mc9QWKU0",
+    "yt:iu5lCqsYJqI"
   ],
   "used_quiz": [
     23,
@@ -376,9 +377,9 @@
     "Himoyachilar endi Vinisiusdan qo‘rqmay qo‘ydi",
     "«Arsenal» va «Manchester Yunayted» «Bournemouth» futbolchisiga qiziqmoqda"
   ],
-  "last_slot": "2026-11-06 17:30",
+  "last_slot": "2026-11-06 19:00",
   "scorers_idx": 4,
-  "last_video_source": "UEFA",
+  "last_video_source": "Serie A",
   "table_idx": 6,
   "live": {
     "401915403": {
@@ -1380,7 +1381,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 654,
+    "last_id": 655,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
