@@ -288,7 +288,8 @@
     9,
     32,
     28,
-    13
+    13,
+    27
   ],
   "used_poll": [
     19,
@@ -373,7 +374,7 @@
     "Chempionlar ligasida Yamaldan zo‘r futbolchi kashf qilindi",
     "Himoyachilar endi Vinisiusdan qo‘rqmay qo‘ydi"
   ],
-  "last_slot": "2026-11-06 12:00",
+  "last_slot": "2026-11-06 13:00",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -1377,7 +1378,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 649,
+    "last_id": 650,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
