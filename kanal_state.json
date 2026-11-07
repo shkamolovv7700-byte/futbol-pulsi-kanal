@@ -390,7 +390,7 @@
     "Rossiya O‘zbekistonga qarshi qaysi yulduzlarini chaqirdi?",
     "Mourinyo Luis Enrikedan yulduzlarni tiklash usulini o‘rgandi"
   ],
-  "last_slot": "2026-11-07 22:00",
+  "last_slot": "2026-11-07 22:30",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -1439,6 +1439,17 @@
         0
       ],
       "lag": 0
+    },
+    "401878757": {
+      "goals": [
+        "393-302.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        0
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1446,7 +1457,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 692,
+    "last_id": 693,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2143,6 +2154,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Martin_Odegaard_France_v_Norway_26_June_26-014.jpg/1280px-Martin_Odegaard_France_v_Norway_26_June_26-014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Jair Cunha": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Jair_Cunha_18-11-2024.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "BrazilianDude70",
+      "license": "CC BY 4.0"
     }
   },
   "matchday": {
