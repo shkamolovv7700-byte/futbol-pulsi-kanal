@@ -281,7 +281,8 @@
     "https://sports.uz/oz/news/view/arteta-angliya-terma-jamoasiga-chaqirilgan-besh-nafar-arsenal-o-yinchisiga-munosabat-bildirdi",
     "yt:o_2axSItZKM",
     "https://sports.uz/oz/news/view/rossiya-o-zbekistonga-qarshi-qaysi-yulduzlarini-chaqirdi",
-    "yt:L1uw_4y9A4w"
+    "yt:L1uw_4y9A4w",
+    "https://sports.uz/oz/news/view/mourino-luis-enrikedan-yulduzlarni-tiklash-usulini-o-rgandi"
   ],
   "used_quiz": [
     23,
@@ -327,7 +328,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Rodri: \"Real\" \"tuzo‘g‘i\"ga tushmaymiz",
     "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi.",
     "“El-Klassiko” oldidan “Real”da yo‘qotish: Kurtua gripp sababli o‘yinda qatnashmaydi",
     "«Natija bo‘lmasa, o‘zim ketaman» - Islom Ismoilov «Neftchi», futboldagi pullar, Ronaldu va Kannavaro haqida.",
@@ -386,9 +386,10 @@
     "Mourin'yo \"Real\"ning istiqbolli yangi futbolchisini diqqat bilan kuzatadi",
     "Shu maqsadda ishlayapman! Kannavaro Oʻzbekistondan keyin Italiya terma jamoasini boshqarmoqchi",
     "Arteta Angliya terma jamoasiga chaqirilgan besh nafar «Arsenal» oʻyinchisiga munosabat bildirdi",
-    "Rossiya O‘zbekistonga qarshi qaysi yulduzlarini chaqirdi?"
+    "Rossiya O‘zbekistonga qarshi qaysi yulduzlarini chaqirdi?",
+    "Mourinyo Luis Enrikedan yulduzlarni tiklash usulini o‘rgandi"
   ],
-  "last_slot": "2026-11-07 20:30",
+  "last_slot": "2026-11-07 21:00",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 1,
@@ -1400,17 +1401,21 @@
     },
     "401884745": {
       "goals": [
-        "124-3277.0"
+        "10388-4807.0",
+        "124-3277.0",
+        "124-4236.0",
+        "124-4237.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
-        1,
-        0
+        2,
+        1
       ],
       "lag": 0
     },
     "401884740": {
       "goals": [
+        "132-3361.0",
         "132-823.0",
         "2950-2387.0",
         "2950-2389.0"
@@ -1418,9 +1423,9 @@
       "ft": false,
       "score": [
         0,
-        1
+        2
       ],
-      "lag": 1
+      "lag": 0
     },
     "401878760": {
       "goals": [],
@@ -1437,7 +1442,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 682,
+    "last_id": 686,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2127,7 +2132,9 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Felix_Nmecha_Ecuador_v_Germany_25_June_2026-150.jpg/1280px-Felix_Nmecha_Ecuador_v_Germany_25_June_2026-150.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
-    }
+    },
+    "Noel Futkeu": null,
+    "Noel Futkeu (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
