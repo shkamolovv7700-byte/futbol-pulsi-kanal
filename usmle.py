@@ -17,7 +17,7 @@ import logging
 import random
 import re
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
@@ -309,14 +309,20 @@ async def run_once(client: TelegramClient) -> None:
                 save_state()
         return
     d = state["dars"]
+    if d.get("keyingi_urinish", "") > now.isoformat(timespec="minutes"):
+        return  # oldingi urinish xato berdi - biroz kutamiz (har daqiqada urinib, Telegramni zo'riqtirmaslik uchun)
     d["urinish"] = d.get("urinish", 0) + 1
     save_state()
     try:
         await post_lesson(client, await client.get_entity(USERNAME), *item)
-    except Exception:
-        if d["urinish"] < MAX_TRIES:
-            raise
-        log.exception("Post %s %d %d marta xato berdi - o'tkazib yuborildi", d["joriy"], d["pos"] + 1, MAX_TRIES)
+    except Exception as e:
+        # post O'TKAZIB YUBORILMAYDI (ma'lumot to'liq chiqishi kerak): xato yoziladi va 5 daqiqadan keyin qayta urinadi
+        log.exception("Post %s %d xato berdi (%d-urinish)", d["joriy"], d["pos"] + 1, d["urinish"])
+        d["oxirgi_xato"] = f"{now:%Y-%m-%d %H:%M} {d['joriy']} {d['pos'] + 1}: {e!r}"[:500]
+        d["keyingi_urinish"] = (now + timedelta(minutes=5)).isoformat(timespec="minutes")
+        save_state()
+        return
     d["pos"] += 1
     d["urinish"] = 0
+    d.pop("keyingi_urinish", None)
     save_state()
