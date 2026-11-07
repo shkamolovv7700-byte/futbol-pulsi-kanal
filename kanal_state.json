@@ -279,7 +279,8 @@
     "https://sports.uz/oz/news/view/mourino-real-ning-istiqbolli-yangi-futbolchisini-diqqat-bilan-kuzatadi",
     "https://sports.uz/oz/news/view/shu-maqsadda-ishlayapman-kannavaro-o-zbekistondan-keyin-italiya-terma-jamoasini-boshqarmoqchi",
     "https://sports.uz/oz/news/view/arteta-angliya-terma-jamoasiga-chaqirilgan-besh-nafar-arsenal-o-yinchisiga-munosabat-bildirdi",
-    "yt:o_2axSItZKM"
+    "yt:o_2axSItZKM",
+    "https://sports.uz/oz/news/view/rossiya-o-zbekistonga-qarshi-qaysi-yulduzlarini-chaqirdi"
   ],
   "used_quiz": [
     23,
@@ -324,7 +325,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "O‘zbekiston iftixori Qozog‘istondagi jahon chempionatida ishtirok etmaslik sababini tushuntirdi",
     "Rodri: \"Real\" \"tuzo‘g‘i\"ga tushmaymiz",
     "«Siti» ilk bor yutqazdi, «Arsenal» yetib oldi.",
     "“El-Klassiko” oldidan “Real”da yo‘qotish: Kurtua gripp sababli o‘yinda qatnashmaydi",
@@ -383,9 +383,10 @@
     "Ronaldu Portugaliya milliy jamoasidan nima uchun ketgani ma’lum bo‘ldi",
     "Mourin'yo \"Real\"ning istiqbolli yangi futbolchisini diqqat bilan kuzatadi",
     "Shu maqsadda ishlayapman! Kannavaro Oʻzbekistondan keyin Italiya terma jamoasini boshqarmoqchi",
-    "Arteta Angliya terma jamoasiga chaqirilgan besh nafar «Arsenal» oʻyinchisiga munosabat bildirdi"
+    "Arteta Angliya terma jamoasiga chaqirilgan besh nafar «Arsenal» oʻyinchisiga munosabat bildirdi",
+    "Rossiya O‘zbekistonga qarshi qaysi yulduzlarini chaqirdi?"
   ],
-  "last_slot": "2026-11-07 17:30",
+  "last_slot": "2026-11-07 18:30",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -1398,7 +1399,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 671,
+    "last_id": 672,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
