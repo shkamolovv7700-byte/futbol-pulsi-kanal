@@ -5,10 +5,12 @@
   "used_maslahat": [],
   "seen_news": [],
   "dars": {
-    "bajarildi": [],
-    "pos": 21,
-    "joriy": "1:postlar",
-    "kun": "2026-11-06",
+    "bajarildi": [
+      "1:postlar"
+    ],
+    "pos": 0,
+    "joriy": "2:postlar",
+    "kun": "2026-11-07",
     "boshlanish": 0,
     "urinish": 0
   }
