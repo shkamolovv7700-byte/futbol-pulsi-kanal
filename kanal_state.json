@@ -1453,6 +1453,36 @@
         1
       ],
       "lag": 0
+    },
+    "401874803": {
+      "goals": [
+        "104-1572.0",
+        "104-1789.0"
+      ],
+      "ft": false,
+      "score": [
+        2,
+        0
+      ],
+      "lag": 0
+    },
+    "401882808": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
+    },
+    "401876407": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1460,7 +1490,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 696,
+    "last_id": 698,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2172,6 +2202,16 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Rayan_Cherki_France_v_Norway_26_June_26-114.jpg/1280px-Rayan_Cherki_France_v_Norway_26_June_26-114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Mario Hermoso": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/Mario_Hermoso_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Анна Джалалян",
+      "license": "CC BY-SA 3.0"
+    },
+    "Sebastian Walukiewicz": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Das_Mapei_Stadium_von_Reggio_nell%60Emilia_%282026%29_%28Sebastian_Walukiewicz%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Vincenzo.togni",
+      "license": "CC BY 4.0"
     }
   },
   "matchday": {
