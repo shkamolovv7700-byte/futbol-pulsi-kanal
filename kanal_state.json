@@ -1442,13 +1442,14 @@
     },
     "401878757": {
       "goals": [
+        "382-3081.0",
         "393-1022.0",
         "393-302.0"
       ],
       "ft": false,
       "score": [
         2,
-        0
+        1
       ],
       "lag": 0
     }
@@ -1458,7 +1459,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 694,
+    "last_id": 695,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2165,6 +2166,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Liam_Delap_in_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "The White House",
       "license": "Public domain"
+    },
+    "Rayan Cherki": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Rayan_Cherki_France_v_Norway_26_June_26-114.jpg/1280px-Rayan_Cherki_France_v_Norway_26_June_26-114.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
