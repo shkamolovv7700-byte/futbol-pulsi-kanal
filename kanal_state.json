@@ -322,7 +322,8 @@
     7,
     6,
     5,
-    13
+    13,
+    3
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -387,7 +388,7 @@
     "Arteta Angliya terma jamoasiga chaqirilgan besh nafar «Arsenal» oʻyinchisiga munosabat bildirdi",
     "Rossiya O‘zbekistonga qarshi qaysi yulduzlarini chaqirdi?"
   ],
-  "last_slot": "2026-11-07 19:30",
+  "last_slot": "2026-11-07 20:00",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 1,
@@ -1407,6 +1408,19 @@
       "lag": 0
     },
     "401884740": {
+      "goals": [
+        "132-823.0",
+        "2950-2387.0",
+        "2950-2389.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
+    },
+    "401878760": {
       "goals": [],
       "ft": false,
       "score": [
@@ -1421,7 +1435,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 677,
+    "last_id": 681,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2096,6 +2110,16 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/FC_RB_Salzburg_gegen_FK_Austria_Wien_%282022-04-24%29_68.jpg/1280px-FC_RB_Salzburg_gegen_FK_Austria_Wien_%282022-04-24%29_68.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Werner100359",
       "license": "CC BY-SA 4.0"
+    },
+    "Joshua Kimmich": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Joshua_Kimmich_Ecuador_v_Germany_25_June_2026-149.jpg/1280px-Joshua_Kimmich_Ecuador_v_Germany_25_June_2026-149.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Lee Jae-Sung": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Asian_Nations_Cup_-_Jordan_and_South_Korea_%2874%29_%28cropped%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "M.Sadegh Nikgostar",
+      "license": "CC BY 4.0"
     }
   },
   "matchday": {
