@@ -385,10 +385,10 @@
     "Shu maqsadda ishlayapman! Kannavaro Oʻzbekistondan keyin Italiya terma jamoasini boshqarmoqchi",
     "Arteta Angliya terma jamoasiga chaqirilgan besh nafar «Arsenal» oʻyinchisiga munosabat bildirdi"
   ],
-  "last_slot": "2026-11-07 16:30",
+  "last_slot": "2026-11-07 17:00",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
-  "table_idx": 6,
+  "table_idx": 1,
   "live": {
     "401915403": {
       "goals": [
@@ -1389,7 +1389,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 669,
+    "last_id": 670,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
