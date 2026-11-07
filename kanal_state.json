@@ -1467,19 +1467,25 @@
       "lag": 0
     },
     "401882808": {
-      "goals": [],
+      "goals": [
+        "86-1624.0",
+        "86-2118.0"
+      ],
       "ft": false,
       "score": [
         0,
-        0
+        2
       ],
       "lag": 0
     },
     "401876407": {
-      "goals": [],
+      "goals": [
+        "160-2328.0",
+        "160-2330.0"
+      ],
       "ft": false,
       "score": [
-        0,
+        1,
         0
       ],
       "lag": 0
@@ -1490,7 +1496,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 698,
+    "last_id": 702,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2212,6 +2218,16 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Das_Mapei_Stadium_von_Reggio_nell%60Emilia_%282026%29_%28Sebastian_Walukiewicz%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Vincenzo.togni",
       "license": "CC BY 4.0"
+    },
+    "Arda Güler": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Arda_G%C3%BCler_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "LawEnthusiast",
+      "license": "CC BY-SA 4.0"
+    },
+    "Illia Zabarnyi": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Illya_Zabarnyi_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "AFC Bournemouth",
+      "license": "CC BY 3.0"
     }
   },
   "matchday": {
