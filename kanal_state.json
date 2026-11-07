@@ -280,7 +280,8 @@
     "https://sports.uz/oz/news/view/shu-maqsadda-ishlayapman-kannavaro-o-zbekistondan-keyin-italiya-terma-jamoasini-boshqarmoqchi",
     "https://sports.uz/oz/news/view/arteta-angliya-terma-jamoasiga-chaqirilgan-besh-nafar-arsenal-o-yinchisiga-munosabat-bildirdi",
     "yt:o_2axSItZKM",
-    "https://sports.uz/oz/news/view/rossiya-o-zbekistonga-qarshi-qaysi-yulduzlarini-chaqirdi"
+    "https://sports.uz/oz/news/view/rossiya-o-zbekistonga-qarshi-qaysi-yulduzlarini-chaqirdi",
+    "yt:L1uw_4y9A4w"
   ],
   "used_quiz": [
     23,
@@ -386,9 +387,9 @@
     "Arteta Angliya terma jamoasiga chaqirilgan besh nafar «Arsenal» oʻyinchisiga munosabat bildirdi",
     "Rossiya O‘zbekistonga qarshi qaysi yulduzlarini chaqirdi?"
   ],
-  "last_slot": "2026-11-07 18:30",
+  "last_slot": "2026-11-07 19:30",
   "scorers_idx": 5,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 1,
   "live": {
     "401915403": {
@@ -1385,6 +1386,27 @@
       "lag": 0
     },
     "401878758": {
+      "goals": [
+        "357-4712.0",
+        "357-4713.0"
+      ],
+      "ft": true,
+      "score": [
+        1,
+        0
+      ],
+      "lag": 0
+    },
+    "401884745": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
+    },
+    "401884740": {
       "goals": [],
       "ft": false,
       "score": [
@@ -1399,7 +1421,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 672,
+    "last_id": 677,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2069,6 +2091,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Michael_Olise_France_v_Senegal_16_June_2026-307_%28cropped%29.jpg/1280px-Michael_Olise_France_v_Senegal_16_June_2026-307_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Noah Okafor": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/FC_RB_Salzburg_gegen_FK_Austria_Wien_%282022-04-24%29_68.jpg/1280px-FC_RB_Salzburg_gegen_FK_Austria_Wien_%282022-04-24%29_68.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Werner100359",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -2127,6 +2154,8 @@
     "401915382": "2026-11-04",
     "401915304": "2026-11-05",
     "401915534": "2026-11-05",
-    "401878758": "2026-11-07"
+    "401878758": "2026-11-07",
+    "401884745": "2026-11-07",
+    "401884740": "2026-11-07"
   }
 }
