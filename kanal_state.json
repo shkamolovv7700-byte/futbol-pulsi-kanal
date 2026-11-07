@@ -278,7 +278,8 @@
     "yt:NCb3wtrrZSk",
     "https://sports.uz/oz/news/view/mourino-real-ning-istiqbolli-yangi-futbolchisini-diqqat-bilan-kuzatadi",
     "https://sports.uz/oz/news/view/shu-maqsadda-ishlayapman-kannavaro-o-zbekistondan-keyin-italiya-terma-jamoasini-boshqarmoqchi",
-    "https://sports.uz/oz/news/view/arteta-angliya-terma-jamoasiga-chaqirilgan-besh-nafar-arsenal-o-yinchisiga-munosabat-bildirdi"
+    "https://sports.uz/oz/news/view/arteta-angliya-terma-jamoasiga-chaqirilgan-besh-nafar-arsenal-o-yinchisiga-munosabat-bildirdi",
+    "yt:o_2axSItZKM"
   ],
   "used_quiz": [
     23,
@@ -384,9 +385,9 @@
     "Shu maqsadda ishlayapman! Kannavaro Oʻzbekistondan keyin Italiya terma jamoasini boshqarmoqchi",
     "Arteta Angliya terma jamoasiga chaqirilgan besh nafar «Arsenal» oʻyinchisiga munosabat bildirdi"
   ],
-  "last_slot": "2026-11-07 15:30",
+  "last_slot": "2026-11-07 16:00",
   "scorers_idx": 5,
-  "last_video_source": "UEFA",
+  "last_video_source": "Serie A",
   "table_idx": 6,
   "live": {
     "401915403": {
@@ -1388,7 +1389,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 666,
+    "last_id": 669,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2046,6 +2047,18 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Dominic_Calvert-Lewin_13092025_%285%29.jpg/1280px-Dominic_Calvert-Lewin_13092025_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Timmy96",
       "license": "CC0"
+    },
+    "Maurice Krattenmacher": null,
+    "Maurice Krattenmacher (footballer)": null,
+    "Phillip Tietz": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/PhillipTietz.jpg/1280px-PhillipTietz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Silesia711",
+      "license": "CC BY-SA 4.0"
+    },
+    "Michael Olise": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Michael_Olise_France_v_Senegal_16_June_2026-307_%28cropped%29.jpg/1280px-Michael_Olise_France_v_Senegal_16_June_2026-307_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -2080,7 +2093,9 @@
     "401915382": "2026-11-04",
     "401915304": "2026-11-04",
     "401915534": "2026-11-05",
-    "401878758": "2026-11-07"
+    "401878758": "2026-11-07",
+    "401884745": "2026-11-07",
+    "401884740": "2026-11-07"
   },
   "kickoff": {
     "401876422": "2026-10-27",
