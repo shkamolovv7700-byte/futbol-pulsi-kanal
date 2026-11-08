@@ -290,7 +290,8 @@
     "yt:r1e4tsIHeAo",
     "https://sports.uz/oz/news/view/manchester-yunayted-kerrik-o-rniga-hech-kim-kutmagan-murabbiyni-olib-keladi",
     "yt:oRjvY0kXefs",
-    "https://sports.uz/oz/news/view/manchester-yunayted-milan-himoyachisi-de-vinterga-qiziqmoqda"
+    "https://sports.uz/oz/news/view/manchester-yunayted-milan-himoyachisi-de-vinterga-qiziqmoqda",
+    "yt:WaYSXFW8KOY"
   ],
   "used_quiz": [
     23,
@@ -379,29 +380,11 @@
     "\"Manchester Yunayted\" Kerrik o‘rniga hech kim kutmagan murabbiyni olib keladi",
     "«Manchester Yunayted» «Milan» himoyachisi De Vinterga qiziqmoqda"
   ],
-  "last_slot": "2026-11-08 21:30",
+  "last_slot": "2026-11-08 22:00",
   "scorers_idx": 1,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 2,
   "live": {
-    "401915401": {
-      "goals": [
-        "382-2015.0",
-        "382-3394.0",
-        "382-3883.0",
-        "382-4548.0",
-        "382-4549.0",
-        "382-689.0",
-        "382-690.0",
-        "887-3064.0"
-      ],
-      "ft": true,
-      "score": [
-        5,
-        1
-      ],
-      "lag": 0
-    },
     "401915400": {
       "goals": [
         "114-2436.0",
@@ -1477,6 +1460,7 @@
     },
     "401879240": {
       "goals": [
+        "360-2620.0",
         "360-909.0",
         "362-220.0",
         "362-222.0",
@@ -1484,8 +1468,20 @@
       ],
       "ft": false,
       "score": [
-        1,
+        2,
         2
+      ],
+      "lag": 0
+    },
+    "401874808": {
+      "goals": [
+        "110-1115.0",
+        "110-693.0"
+      ],
+      "ft": false,
+      "score": [
+        2,
+        0
       ],
       "lag": 0
     }
@@ -1495,7 +1491,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 747,
+    "last_id": 751,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
