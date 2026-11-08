@@ -395,10 +395,10 @@
     "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi",
     "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi"
   ],
-  "last_slot": "2026-11-08 16:30",
+  "last_slot": "2026-11-08 17:00",
   "scorers_idx": 1,
   "last_video_source": "LaLiga",
-  "table_idx": 1,
+  "table_idx": 2,
   "live": {
     "401915403": {
       "goals": [
@@ -1496,6 +1496,17 @@
         0
       ],
       "lag": 0
+    },
+    "401874810": {
+      "goals": [
+        "112-1643.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1503,7 +1514,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 718,
+    "last_id": 721,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2247,6 +2258,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Brian_Brobbey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Timmy96",
       "license": "CC BY-SA 4.0"
+    },
+    "Davide Frattesi": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/FC_Salzburg_gegen_Inter_Mailand_%28UEFA_Championsleague_2023-11-08%29_14_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Werner100359",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
@@ -2310,6 +2326,7 @@
     "401915534": "2026-11-05",
     "401878758": "2026-11-07",
     "401884745": "2026-11-07",
-    "401884740": "2026-11-07"
+    "401884740": "2026-11-07",
+    "401874810": "2026-11-08"
   }
 }
