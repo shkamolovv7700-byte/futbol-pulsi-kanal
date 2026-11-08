@@ -288,7 +288,8 @@
     "https://daryo.uz/2026/11/08/arda-gyuler-realda-vinisiusning-natijasini-takrorladi/",
     "https://daryo.uz/2026/11/08/manchester-siti-songgi-7-yildagi-eng-yomon-natijasini-takrorladi/",
     "yt:r1e4tsIHeAo",
-    "https://sports.uz/oz/news/view/manchester-yunayted-kerrik-o-rniga-hech-kim-kutmagan-murabbiyni-olib-keladi"
+    "https://sports.uz/oz/news/view/manchester-yunayted-kerrik-o-rniga-hech-kim-kutmagan-murabbiyni-olib-keladi",
+    "yt:oRjvY0kXefs"
   ],
   "used_quiz": [
     23,
@@ -396,64 +397,11 @@
     "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi",
     "\"Manchester Yunayted\" Kerrik o‘rniga hech kim kutmagan murabbiyni olib keladi"
   ],
-  "last_slot": "2026-11-08 18:30",
+  "last_slot": "2026-11-08 19:30",
   "scorers_idx": 1,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 2,
   "live": {
-    "401915403": {
-      "goals": [
-        "436-230.0",
-        "436-643.0",
-        "494-5369.0",
-        "494-859.0"
-      ],
-      "ft": true,
-      "score": [
-        2,
-        2
-      ],
-      "lag": 0
-    },
-    "401915404": {
-      "goals": [
-        "124-3149.0",
-        "124-591.0",
-        "21922-2315.0"
-      ],
-      "ft": true,
-      "score": [
-        1,
-        2
-      ],
-      "lag": 0
-    },
-    "401915402": {
-      "goals": [
-        "104-1259.0",
-        "104-2295.0",
-        "104-3119.0",
-        "104-3430.0"
-      ],
-      "ft": true,
-      "score": [
-        4,
-        0
-      ],
-      "lag": 0
-    },
-    "401915398": {
-      "goals": [
-        "148-3413.0",
-        "148-3417.0"
-      ],
-      "ft": true,
-      "score": [
-        0,
-        1
-      ],
-      "lag": 0
-    },
     "401915397": {
       "goals": [
         "102-1688.0",
@@ -1509,6 +1457,45 @@
         1
       ],
       "lag": 0
+    },
+    "401879243": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
+    },
+    "401879239": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
+    },
+    "401875018": {
+      "goals": [
+        "103-1126.0",
+        "103-725.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        2
+      ],
+      "lag": 0
+    },
+    "401884738": {
+      "goals": [],
+      "ft": false,
+      "score": [
+        0,
+        0
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1516,7 +1503,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 724,
+    "last_id": 729,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2334,6 +2321,8 @@
     "401878758": "2026-11-07",
     "401884745": "2026-11-07",
     "401884740": "2026-11-07",
-    "401874810": "2026-11-08"
+    "401874810": "2026-11-08",
+    "401879243": "2026-11-08",
+    "401879239": "2026-11-08"
   }
 }
