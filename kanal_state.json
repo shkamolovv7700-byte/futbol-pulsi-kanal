@@ -378,7 +378,7 @@
     "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi",
     "\"Manchester Yunayted\" Kerrik o‘rniga hech kim kutmagan murabbiyni olib keladi"
   ],
-  "last_slot": "2026-11-08 20:00",
+  "last_slot": "2026-11-08 20:30",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 2,
@@ -1441,12 +1441,13 @@
     },
     "401879243": {
       "goals": [
-        "364-2356.0"
+        "364-2356.0",
+        "364-3218.0"
       ],
       "ft": false,
       "score": [
         0,
-        1
+        2
       ],
       "lag": 0
     },
@@ -1490,7 +1491,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 733,
+    "last_id": 734,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2254,6 +2255,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Aleix_Garcia_Serrano_SBS_Cup_2015_%28cropped%29.jpg/1280px-Aleix_Garcia_Serrano_SBS_Cup_2015_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Tam Tam from Shizuoka, JAPAN",
       "license": "CC BY-SA 2.0"
+    },
+    "Florian Wirtz": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
