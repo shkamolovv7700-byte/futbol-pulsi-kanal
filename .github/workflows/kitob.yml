@@ -5,7 +5,7 @@ on:
     # GitHub jadvali soatlab kechikadi, shuning uchun bu faqat ertalab ishga tushirish va zaxira:
     # ishga tushgan nusxa 23:00 gacha uzluksiz ishlaydi va postlarni aniq vaqtida (1 daqiqa ichida) joylaydi.
     # Toshkent 05:00-22:59 = UTC 00-17 (GitHub 1-2 soat kechiksa ham 08:00 gacha ishga tushib ulguradi).
-    # Postlar: 08:00-22:00 har soatda (13 va 21 da - parcha).
+    # Postlar: 08, 10, 13, 16, 18, 20, 22 - kuniga 7 ta (13 va 20 da - parcha).
     - cron: "*/20 0-17 * * *"
   workflow_dispatch:
 
