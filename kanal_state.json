@@ -1461,6 +1461,7 @@
     "401879240": {
       "goals": [
         "360-2620.0",
+        "360-5400.0",
         "360-909.0",
         "362-220.0",
         "362-222.0",
@@ -1470,9 +1471,9 @@
         "362-3140.0",
         "362-59.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
-        2,
+        4,
         4
       ],
       "lag": 0
@@ -1495,7 +1496,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 753,
+    "last_id": 756,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2287,6 +2288,11 @@
     "Leon Goretzka": {
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Leon_Goretzka_Ecuador_v_Germany_25_June_2026-159.jpg/1280px-Leon_Goretzka_Ecuador_v_Germany_25_June_2026-159.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Joshua Zirkzee": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Joshua_Zirkzee_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Sven Mandel",
       "license": "CC BY-SA 4.0"
     }
   },
