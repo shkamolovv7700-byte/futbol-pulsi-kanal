@@ -394,7 +394,7 @@
     "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi",
     "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi"
   ],
-  "last_slot": "2026-11-08 15:00",
+  "last_slot": "2026-11-08 15:30",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -1502,7 +1502,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 715,
+    "last_id": 717,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2236,7 +2236,17 @@
       "license": "CC BY 3.0"
     },
     "Gustav Isaksen": null,
-    "Gustav Isaksen (footballer)": null
+    "Gustav Isaksen (footballer)": null,
+    "Tyrick Mitchell": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Tyrick_Mitchell%2C_Manchester_United_v_Crystal_Palace%2C_5_December_2021_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Ardfern",
+      "license": "CC BY-SA 4.0"
+    },
+    "Brian Brobbey": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Brian_Brobbey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Timmy96",
+      "license": "CC BY-SA 4.0"
+    }
   },
   "matchday": {
     "401915312": "2026-10-21",
@@ -2273,7 +2283,9 @@
     "401878758": "2026-11-07",
     "401884745": "2026-11-07",
     "401884740": "2026-11-07",
-    "401874810": "2026-11-08"
+    "401874810": "2026-11-08",
+    "401879243": "2026-11-08",
+    "401879239": "2026-11-08"
   },
   "kickoff": {
     "401876422": "2026-10-27",
