@@ -289,7 +289,8 @@
     "https://daryo.uz/2026/11/08/manchester-siti-songgi-7-yildagi-eng-yomon-natijasini-takrorladi/",
     "yt:r1e4tsIHeAo",
     "https://sports.uz/oz/news/view/manchester-yunayted-kerrik-o-rniga-hech-kim-kutmagan-murabbiyni-olib-keladi",
-    "yt:oRjvY0kXefs"
+    "yt:oRjvY0kXefs",
+    "https://sports.uz/oz/news/view/manchester-yunayted-milan-himoyachisi-de-vinterga-qiziqmoqda"
   ],
   "used_quiz": [
     23,
@@ -317,7 +318,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Mbappe, Yamal yoki Keyn: “Oltin to‘p”ni kim qo‘lga kiritadi?",
     "Kilian Mbappe klassikolar rekordchisiga aylandi",
     "Mourinyo “El-klasiko”da o‘ziga xos natija qayd etdi",
     "FIFA Ronalduning 982-golini tan olmadi",
@@ -376,9 +376,10 @@
     "Ikkita taklif bor! Vinisius \"Real\"ni tark etishi kutilyapti",
     "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi",
     "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi",
-    "\"Manchester Yunayted\" Kerrik o‘rniga hech kim kutmagan murabbiyni olib keladi"
+    "\"Manchester Yunayted\" Kerrik o‘rniga hech kim kutmagan murabbiyni olib keladi",
+    "«Manchester Yunayted» «Milan» himoyachisi De Vinterga qiziqmoqda"
   ],
-  "last_slot": "2026-11-08 20:30",
+  "last_slot": "2026-11-08 21:00",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 2,
@@ -1442,12 +1443,14 @@
     "401879243": {
       "goals": [
         "364-2356.0",
-        "364-3218.0"
+        "364-3218.0",
+        "364-5332.0",
+        "384-5400.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
-        0,
-        2
+        1,
+        3
       ],
       "lag": 0
     },
@@ -1455,7 +1458,7 @@
       "goals": [
         "366-2123.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         1,
         0
@@ -1465,23 +1468,26 @@
     "401875018": {
       "goals": [
         "103-1126.0",
-        "103-725.0"
+        "103-725.0",
+        "3263-5252.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
-        0,
+        1,
         2
       ],
       "lag": 0
     },
     "401884738": {
       "goals": [
-        "131-397.0"
+        "131-397.0",
+        "131-5096.0",
+        "131-5097.0"
       ],
       "ft": false,
       "score": [
         0,
-        1
+        2
       ],
       "lag": 0
     }
@@ -1491,7 +1497,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 734,
+    "last_id": 742,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2259,6 +2265,16 @@
     "Florian Wirtz": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Florian_Wirtz_Ecuador_v_Germany_25_June_2026-181_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Mikael Ellertsson": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/Venezia_-_Empoli_Serie_A_04012025_Stadio_Pier_Luigi_Penzo_11_%28Mikael_Egill_Ellertsson%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "kallerna",
+      "license": "CC BY-SA 4.0"
+    },
+    "Eddie Nketiah": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/1_Eddie_Nketiah_2018.jpg/1280px-1_Eddie_Nketiah_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Chensiyuan",
       "license": "CC BY-SA 4.0"
     }
   },
