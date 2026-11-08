@@ -1447,24 +1447,28 @@
         "1068-541.0",
         "1068-543.0",
         "83-2659.0",
-        "83-2660.0"
+        "83-2660.0",
+        "83-3945.0",
+        "83-3947.0"
       ],
       "ft": false,
       "score": [
         1,
-        1
+        2
       ],
       "lag": 0
     },
     "401875003": {
       "goals": [
         "109-212.0",
-        "111-1876.0"
+        "109-3182.0",
+        "111-1876.0",
+        "111-3949.0"
       ],
       "ft": false,
       "score": [
-        1,
-        1
+        2,
+        2
       ],
       "lag": 0
     },
@@ -1472,12 +1476,13 @@
       "goals": [
         "175-1153.0",
         "175-1187.0",
+        "176-4872.0",
         "176-82.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         1,
-        1
+        2
       ],
       "lag": 0
     }
@@ -1487,7 +1492,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 763,
+    "last_id": 767,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2302,6 +2307,13 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ferm%C3%ADn_L%C3%B3pez_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Biso",
       "license": "CC BY 4.0"
+    },
+    "Alieu Njie": null,
+    "Alieu Njie (footballer)": null,
+    "Keyliane Abdallah": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Abdallah_asse_om_2425.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Paté kroute",
+      "license": "CC0"
     }
   },
   "matchday": {
