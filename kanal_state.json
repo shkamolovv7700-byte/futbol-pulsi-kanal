@@ -287,7 +287,8 @@
     "https://sports.uz/oz/news/view/ikkita-taklif-bor-vinisius-real-ni-tark-etishi-kutilyapti",
     "https://daryo.uz/2026/11/08/arda-gyuler-realda-vinisiusning-natijasini-takrorladi/",
     "https://daryo.uz/2026/11/08/manchester-siti-songgi-7-yildagi-eng-yomon-natijasini-takrorladi/",
-    "yt:r1e4tsIHeAo"
+    "yt:r1e4tsIHeAo",
+    "https://sports.uz/oz/news/view/manchester-yunayted-kerrik-o-rniga-hech-kim-kutmagan-murabbiyni-olib-keladi"
   ],
   "used_quiz": [
     23,
@@ -334,7 +335,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Mourinyo “Barselona”ni mag‘lub etishga yordam bergan asosiy qarorini aytdi",
     "Mbappe, Yamal yoki Keyn: “Oltin to‘p”ni kim qo‘lga kiritadi?",
     "Kilian Mbappe klassikolar rekordchisiga aylandi",
     "Mourinyo “El-klasiko”da o‘ziga xos natija qayd etdi",
@@ -393,9 +393,10 @@
     "Mourinyo Luis Enrikedan yulduzlarni tiklash usulini o‘rgandi",
     "Ikkita taklif bor! Vinisius \"Real\"ni tark etishi kutilyapti",
     "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi",
-    "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi"
+    "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi",
+    "\"Manchester Yunayted\" Kerrik o‘rniga hech kim kutmagan murabbiyni olib keladi"
   ],
-  "last_slot": "2026-11-08 17:30",
+  "last_slot": "2026-11-08 18:30",
   "scorers_idx": 1,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -1502,7 +1503,7 @@
         "112-1643.0",
         "114-2873.0"
       ],
-      "ft": false,
+      "ft": true,
       "score": [
         1,
         1
@@ -1515,7 +1516,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 722,
+    "last_id": 724,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
