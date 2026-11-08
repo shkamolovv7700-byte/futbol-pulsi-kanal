@@ -1445,12 +1445,14 @@
     "401882816": {
       "goals": [
         "1068-541.0",
-        "1068-543.0"
+        "1068-543.0",
+        "83-2659.0",
+        "83-2660.0"
       ],
       "ft": false,
       "score": [
         1,
-        0
+        1
       ],
       "lag": 0
     },
@@ -1485,7 +1487,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 762,
+    "last_id": 763,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2295,6 +2297,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Nick_Woltemade_Ecuador_v_Germany_25_June_2026-069.jpg/1280px-Nick_Woltemade_Ecuador_v_Germany_25_June_2026-069.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
+    },
+    "Fermín López": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Ferm%C3%ADn_L%C3%B3pez_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Biso",
+      "license": "CC BY 4.0"
     }
   },
   "matchday": {
