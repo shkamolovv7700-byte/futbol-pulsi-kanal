@@ -379,28 +379,11 @@
     "\"Manchester Yunayted\" Kerrik o‘rniga hech kim kutmagan murabbiyni olib keladi",
     "«Manchester Yunayted» «Milan» himoyachisi De Vinterga qiziqmoqda"
   ],
-  "last_slot": "2026-11-08 21:00",
+  "last_slot": "2026-11-08 21:30",
   "scorers_idx": 1,
   "last_video_source": "Serie A",
   "table_idx": 2,
   "live": {
-    "401915397": {
-      "goals": [
-        "102-1688.0",
-        "102-234.0",
-        "102-5180.0",
-        "364-2133.0",
-        "364-2700.0",
-        "364-3895.0",
-        "364-4077.0"
-      ],
-      "ft": true,
-      "score": [
-        4,
-        3
-      ],
-      "lag": 0
-    },
     "401915401": {
       "goals": [
         "382-2015.0",
@@ -1480,13 +1463,28 @@
     },
     "401884738": {
       "goals": [
+        "122-5400.0",
         "131-397.0",
         "131-5096.0",
         "131-5097.0"
       ],
+      "ft": true,
+      "score": [
+        1,
+        2
+      ],
+      "lag": 0
+    },
+    "401879240": {
+      "goals": [
+        "360-909.0",
+        "362-220.0",
+        "362-222.0",
+        "362-59.0"
+      ],
       "ft": false,
       "score": [
-        0,
+        1,
         2
       ],
       "lag": 0
@@ -1497,7 +1495,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 742,
+    "last_id": 747,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2276,7 +2274,11 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/1_Eddie_Nketiah_2018.jpg/1280px-1_Eddie_Nketiah_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Chensiyuan",
       "license": "CC BY-SA 4.0"
-    }
+    },
+    "Said El Mala": null,
+    "Said El Mala (footballer)": null,
+    "Alysson": null,
+    "Alysson (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
