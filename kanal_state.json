@@ -305,7 +305,8 @@
     28,
     13,
     27,
-    14
+    14,
+    17
   ],
   "used_poll": [
     19,
@@ -392,7 +393,7 @@
     "Ikkita taklif bor! Vinisius \"Real\"ni tark etishi kutilyapti",
     "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi"
   ],
-  "last_slot": "2026-11-08 12:30",
+  "last_slot": "2026-11-08 13:30",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -1500,7 +1501,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 711,
+    "last_id": 713,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2232,7 +2233,9 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Illya_Zabarnyi_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "AFC Bournemouth",
       "license": "CC BY 3.0"
-    }
+    },
+    "Gustav Isaksen": null,
+    "Gustav Isaksen (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
@@ -2268,7 +2271,8 @@
     "401915534": "2026-11-05",
     "401878758": "2026-11-07",
     "401884745": "2026-11-07",
-    "401884740": "2026-11-07"
+    "401884740": "2026-11-07",
+    "401874810": "2026-11-08"
   },
   "kickoff": {
     "401876422": "2026-10-27",
