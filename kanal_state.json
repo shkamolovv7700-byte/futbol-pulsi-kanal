@@ -395,7 +395,7 @@
     "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi",
     "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi"
   ],
-  "last_slot": "2026-11-08 17:00",
+  "last_slot": "2026-11-08 17:30",
   "scorers_idx": 1,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -1499,11 +1499,12 @@
     },
     "401874810": {
       "goals": [
-        "112-1643.0"
+        "112-1643.0",
+        "114-2873.0"
       ],
       "ft": false,
       "score": [
-        0,
+        1,
         1
       ],
       "lag": 0
@@ -1514,7 +1515,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 721,
+    "last_id": 722,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2263,6 +2264,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/FC_Salzburg_gegen_Inter_Mailand_%28UEFA_Championsleague_2023-11-08%29_14_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Werner100359",
       "license": "CC BY-SA 4.0"
+    },
+    "Alfonso Pedraza": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Alfonso_Pedraza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Антон Зайцев",
+      "license": "CC BY-SA 3.0"
     }
   },
   "matchday": {
