@@ -285,7 +285,8 @@
     "https://sports.uz/oz/news/view/mourino-luis-enrikedan-yulduzlarni-tiklash-usulini-o-rgandi",
     "yt:hvRu8DvfKqY",
     "https://sports.uz/oz/news/view/ikkita-taklif-bor-vinisius-real-ni-tark-etishi-kutilyapti",
-    "https://daryo.uz/2026/11/08/arda-gyuler-realda-vinisiusning-natijasini-takrorladi/"
+    "https://daryo.uz/2026/11/08/arda-gyuler-realda-vinisiusning-natijasini-takrorladi/",
+    "https://daryo.uz/2026/11/08/manchester-siti-songgi-7-yildagi-eng-yomon-natijasini-takrorladi/"
   ],
   "used_quiz": [
     23,
@@ -332,7 +333,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "«Natija bo‘lmasa, o‘zim ketaman» - Islom Ismoilov «Neftchi», futboldagi pullar, Ronaldu va Kannavaro haqida.",
     "Mourinyo “Barselona”ni mag‘lub etishga yordam bergan asosiy qarorini aytdi",
     "Mbappe, Yamal yoki Keyn: “Oltin to‘p”ni kim qo‘lga kiritadi?",
     "Kilian Mbappe klassikolar rekordchisiga aylandi",
@@ -391,9 +391,10 @@
     "Rossiya O‘zbekistonga qarshi qaysi yulduzlarini chaqirdi?",
     "Mourinyo Luis Enrikedan yulduzlarni tiklash usulini o‘rgandi",
     "Ikkita taklif bor! Vinisius \"Real\"ni tark etishi kutilyapti",
-    "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi"
+    "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi",
+    "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi"
   ],
-  "last_slot": "2026-11-08 13:30",
+  "last_slot": "2026-11-08 14:00",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -1501,7 +1502,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 713,
+    "last_id": 714,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
