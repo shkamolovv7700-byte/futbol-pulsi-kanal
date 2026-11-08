@@ -284,7 +284,8 @@
     "yt:L1uw_4y9A4w",
     "https://sports.uz/oz/news/view/mourino-luis-enrikedan-yulduzlarni-tiklash-usulini-o-rgandi",
     "yt:hvRu8DvfKqY",
-    "https://sports.uz/oz/news/view/ikkita-taklif-bor-vinisius-real-ni-tark-etishi-kutilyapti"
+    "https://sports.uz/oz/news/view/ikkita-taklif-bor-vinisius-real-ni-tark-etishi-kutilyapti",
+    "https://daryo.uz/2026/11/08/arda-gyuler-realda-vinisiusning-natijasini-takrorladi/"
   ],
   "used_quiz": [
     23,
@@ -330,7 +331,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“El-Klassiko” oldidan “Real”da yo‘qotish: Kurtua gripp sababli o‘yinda qatnashmaydi",
     "«Natija bo‘lmasa, o‘zim ketaman» - Islom Ismoilov «Neftchi», futboldagi pullar, Ronaldu va Kannavaro haqida.",
     "Mourinyo “Barselona”ni mag‘lub etishga yordam bergan asosiy qarorini aytdi",
     "Mbappe, Yamal yoki Keyn: “Oltin to‘p”ni kim qo‘lga kiritadi?",
@@ -389,9 +389,10 @@
     "Arteta Angliya terma jamoasiga chaqirilgan besh nafar «Arsenal» oʻyinchisiga munosabat bildirdi",
     "Rossiya O‘zbekistonga qarshi qaysi yulduzlarini chaqirdi?",
     "Mourinyo Luis Enrikedan yulduzlarni tiklash usulini o‘rgandi",
-    "Ikkita taklif bor! Vinisius \"Real\"ni tark etishi kutilyapti"
+    "Ikkita taklif bor! Vinisius \"Real\"ni tark etishi kutilyapti",
+    "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi"
   ],
-  "last_slot": "2026-11-08 11:30",
+  "last_slot": "2026-11-08 12:30",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 1,
@@ -1499,7 +1500,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 710,
+    "last_id": 711,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
