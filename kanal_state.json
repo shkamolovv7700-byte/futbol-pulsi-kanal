@@ -385,54 +385,6 @@
   "last_video_source": "LaLiga",
   "table_idx": 2,
   "live": {
-    "401915400": {
-      "goals": [
-        "114-2436.0",
-        "114-4468.0",
-        "114-5272.0",
-        "114-54.0",
-        "2980-1602.0",
-        "2980-3718.0",
-        "2980-3719.0",
-        "2980-5400.0"
-      ],
-      "ft": true,
-      "score": [
-        4,
-        3
-      ],
-      "lag": 0
-    },
-    "401915399": {
-      "goals": [
-        "160-2237.0",
-        "160-4283.0",
-        "160-4285.0",
-        "160-4813.0",
-        "160-5155.0",
-        "160-5158.0",
-        "83-3255.0",
-        "83-4706.0"
-      ],
-      "ft": true,
-      "score": [
-        4,
-        2
-      ],
-      "lag": 0
-    },
-    "401915392": {
-      "goals": [
-        "1068-2775.0",
-        "134-2138.0"
-      ],
-      "ft": true,
-      "score": [
-        1,
-        1
-      ],
-      "lag": 0
-    },
     "401915395": {
       "goals": [
         "2572-118.0",
@@ -1489,6 +1441,43 @@
         0
       ],
       "lag": 0
+    },
+    "401882816": {
+      "goals": [
+        "1068-541.0",
+        "1068-543.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        0
+      ],
+      "lag": 0
+    },
+    "401875003": {
+      "goals": [
+        "109-212.0",
+        "111-1876.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        1
+      ],
+      "lag": 0
+    },
+    "401876404": {
+      "goals": [
+        "175-1153.0",
+        "175-1187.0",
+        "176-82.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        1
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1496,7 +1485,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 757,
+    "last_id": 762,
     "strikes": {},
     "reset_day": "2026-11-03"
   },
@@ -2293,6 +2282,18 @@
     "Joshua Zirkzee": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Joshua_Zirkzee_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Sven Mandel",
+      "license": "CC BY-SA 4.0"
+    },
+    "Mateo Pellegrino": null,
+    "Mateo Pellegrino (footballer)": null,
+    "Florian Thauvin": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/FRA-ARG_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Антон Зайцев",
+      "license": "CC BY-SA 3.0"
+    },
+    "Nick Woltemade": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Nick_Woltemade_Ecuador_v_Germany_25_June_2026-069.jpg/1280px-Nick_Woltemade_Ecuador_v_Germany_25_June_2026-069.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
     }
   },
