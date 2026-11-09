@@ -299,7 +299,8 @@
     "yt:gdRtRsSLbOU",
     "https://daryo.uz/2026/11/09/manchester-yunayted-rahbariyati-kerrikni-istefoga-chiqarmoqchi-emas-oav/",
     "yt:QgA0vVRUNMs",
-    "https://sports.uz/oz/news/view/shomurodovni-uchinchi-o-ringa-surib-qo-yishdi"
+    "https://sports.uz/oz/news/view/shomurodovni-uchinchi-o-ringa-surib-qo-yishdi",
+    "yt:SkeFMwnSwQM"
   ],
   "used_quiz": [
     23,
@@ -390,9 +391,9 @@
     "“Manchester Yunayted” rahbariyati Kerrikni iste’foga chiqarmoqchi emas — OAV",
     "Shomurodovni uchinchi o‘ringa surib qo‘yishdi"
   ],
-  "last_slot": "2026-11-09 21:30",
+  "last_slot": "2026-11-09 22:30",
   "scorers_idx": 2,
-  "last_video_source": "LaLiga",
+  "last_video_source": "UEFA",
   "table_idx": 3,
   "live": {
     "401915395": {
@@ -1502,7 +1503,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 783,
+    "last_id": 784,
     "strikes": {},
     "reset_day": "2026-11-09"
   },
