@@ -292,7 +292,8 @@
     "yt:oRjvY0kXefs",
     "https://sports.uz/oz/news/view/manchester-yunayted-milan-himoyachisi-de-vinterga-qiziqmoqda",
     "yt:WaYSXFW8KOY",
-    "https://sports.uz/oz/news/view/barsa-chempionatda-madridliklarni-ketma-ket-beshinchi-bor-mag-lub-etdi"
+    "https://sports.uz/oz/news/view/barsa-chempionatda-madridliklarni-ketma-ket-beshinchi-bor-mag-lub-etdi",
+    "https://sports.uz/oz/news/view/faxrlanaman-simeone-barsa-ga-yutqazganidan-keyin-bor-gapni-aytdi"
   ],
   "used_quiz": [
     23,
@@ -320,7 +321,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Mourinyo “El-klasiko”da o‘ziga xos natija qayd etdi",
     "FIFA Ronalduning 982-golini tan olmadi",
     "Keyn so‘nggi 45 yil ichida “Oltin to‘p”ni qo‘lga kiritgan “Bavariya”ning birinchi futbolchisi bo‘ldi",
     "Conte \"Manchester Yunayted\"ga talablar qoʻydi",
@@ -379,9 +379,10 @@
     "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi",
     "\"Manchester Yunayted\" Kerrik o‘rniga hech kim kutmagan murabbiyni olib keladi",
     "«Manchester Yunayted» «Milan» himoyachisi De Vinterga qiziqmoqda",
-    "\"Barsa\" chempionatda madridliklarni ketma-ket beshinchi bor mag‘lub etdi"
+    "\"Barsa\" chempionatda madridliklarni ketma-ket beshinchi bor mag‘lub etdi",
+    "Fahrlanaman! Simeone \"Barsa\"ga yutqazganidan keyin bor gapni aytdi"
   ],
-  "last_slot": "2026-11-09 10:00",
+  "last_slot": "2026-11-09 11:00",
   "scorers_idx": 1,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -1493,7 +1494,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 772,
+    "last_id": 773,
     "strikes": {},
     "reset_day": "2026-11-09"
   },
