@@ -7,11 +7,12 @@
   "dars": {
     "bajarildi": [
       "1:postlar",
-      "2:postlar"
+      "2:postlar",
+      "3:postlar"
     ],
-    "pos": 23,
-    "joriy": "3:postlar",
-    "kun": "2026-11-08",
+    "pos": 0,
+    "joriy": "4:postlar",
+    "kun": "2026-11-09",
     "boshlanish": 0,
     "urinish": 0
   }
