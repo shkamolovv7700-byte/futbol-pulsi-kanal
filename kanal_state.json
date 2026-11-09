@@ -385,8 +385,8 @@
     "«Barselona» La Liga tarixidagi ikkinchi eng yaxshi natijani ko‘rsatdi",
     "\"Barsa\" futbolchisini Manchesterda kutishyapti"
   ],
-  "last_slot": "2026-11-09 14:30",
-  "scorers_idx": 1,
+  "last_slot": "2026-11-09 15:30",
+  "scorers_idx": 2,
   "last_video_source": "LaLiga",
   "table_idx": 2,
   "live": {
@@ -1497,7 +1497,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 776,
+    "last_id": 777,
     "strikes": {},
     "reset_day": "2026-11-09"
   },
