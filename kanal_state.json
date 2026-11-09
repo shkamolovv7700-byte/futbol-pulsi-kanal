@@ -291,7 +291,8 @@
     "https://sports.uz/oz/news/view/manchester-yunayted-kerrik-o-rniga-hech-kim-kutmagan-murabbiyni-olib-keladi",
     "yt:oRjvY0kXefs",
     "https://sports.uz/oz/news/view/manchester-yunayted-milan-himoyachisi-de-vinterga-qiziqmoqda",
-    "yt:WaYSXFW8KOY"
+    "yt:WaYSXFW8KOY",
+    "https://sports.uz/oz/news/view/barsa-chempionatda-madridliklarni-ketma-ket-beshinchi-bor-mag-lub-etdi"
   ],
   "used_quiz": [
     23,
@@ -319,7 +320,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Kilian Mbappe klassikolar rekordchisiga aylandi",
     "Mourinyo “El-klasiko”da o‘ziga xos natija qayd etdi",
     "FIFA Ronalduning 982-golini tan olmadi",
     "Keyn so‘nggi 45 yil ichida “Oltin to‘p”ni qo‘lga kiritgan “Bavariya”ning birinchi futbolchisi bo‘ldi",
@@ -378,9 +378,10 @@
     "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi",
     "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi",
     "\"Manchester Yunayted\" Kerrik o‘rniga hech kim kutmagan murabbiyni olib keladi",
-    "«Manchester Yunayted» «Milan» himoyachisi De Vinterga qiziqmoqda"
+    "«Manchester Yunayted» «Milan» himoyachisi De Vinterga qiziqmoqda",
+    "\"Barsa\" chempionatda madridliklarni ketma-ket beshinchi bor mag‘lub etdi"
   ],
-  "last_slot": "2026-11-09 9:00",
+  "last_slot": "2026-11-09 10:00",
   "scorers_idx": 1,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -1492,7 +1493,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 771,
+    "last_id": 772,
     "strikes": {},
     "reset_day": "2026-11-09"
   },
