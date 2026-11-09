@@ -296,7 +296,8 @@
     "https://sports.uz/oz/news/view/faxrlanaman-simeone-barsa-ga-yutqazganidan-keyin-bor-gapni-aytdi",
     "https://sports.uz/oz/news/view/barselona-la-liga-tarixidagi-ikkinchi-eng-yaxshi-natijani-ko-rsatdi",
     "https://sports.uz/oz/news/view/barsa-futbolchisini-manchesterda-kutishyapti",
-    "yt:gdRtRsSLbOU"
+    "yt:gdRtRsSLbOU",
+    "https://daryo.uz/2026/11/09/manchester-yunayted-rahbariyati-kerrikni-istefoga-chiqarmoqchi-emas-oav/"
   ],
   "used_quiz": [
     23,
@@ -325,7 +326,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Conte \"Manchester Yunayted\"ga talablar qoʻydi",
     "«Manchester Yunayted» Fernandesdan qutulishga qaror qildi",
     "Rossiyaliklarni Husanov, Shomurodov va Fayzullaev qiziqtiryapti",
     "Laporta: “Yamal ‘Oltin to‘p’ni yutishga loyiq edi”",
@@ -384,9 +384,10 @@
     "\"Barsa\" chempionatda madridliklarni ketma-ket beshinchi bor mag‘lub etdi",
     "Fahrlanaman! Simeone \"Barsa\"ga yutqazganidan keyin bor gapni aytdi",
     "«Barselona» La Liga tarixidagi ikkinchi eng yaxshi natijani ko‘rsatdi",
-    "\"Barsa\" futbolchisini Manchesterda kutishyapti"
+    "\"Barsa\" futbolchisini Manchesterda kutishyapti",
+    "“Manchester Yunayted” rahbariyati Kerrikni iste’foga chiqarmoqchi emas — OAV"
   ],
-  "last_slot": "2026-11-09 17:30",
+  "last_slot": "2026-11-09 18:30",
   "scorers_idx": 2,
   "last_video_source": "Serie A",
   "table_idx": 3,
@@ -1498,7 +1499,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 779,
+    "last_id": 780,
     "strikes": {},
     "reset_day": "2026-11-09"
   },
