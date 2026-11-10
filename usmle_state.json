@@ -8,11 +8,12 @@
     "bajarildi": [
       "1:postlar",
       "2:postlar",
-      "3:postlar"
+      "3:postlar",
+      "4:postlar"
     ],
-    "pos": 22,
-    "joriy": "4:postlar",
-    "kun": "2026-11-09",
+    "pos": 0,
+    "joriy": "aralash:1,2,3,4",
+    "kun": "2026-11-10",
     "boshlanish": 0,
     "urinish": 0
   }
