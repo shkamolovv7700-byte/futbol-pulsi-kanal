@@ -396,8 +396,8 @@
     "\"Barsa\" \"Siti\" himoyachisini transfer qilmoqchi",
     "Futbol bo‘yicha O‘zbekiston amputantlar jamoasi Jahon chempionatida qatnashish uchun Meksikaga yo‘l oldi"
   ],
-  "last_slot": "2026-11-10 14:30",
-  "scorers_idx": 2,
+  "last_slot": "2026-11-10 15:30",
+  "scorers_idx": 3,
   "last_video_source": "UEFA",
   "table_idx": 3,
   "live": {
@@ -1508,7 +1508,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 789,
+    "last_id": 790,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
