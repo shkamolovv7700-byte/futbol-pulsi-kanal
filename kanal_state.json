@@ -306,7 +306,8 @@
     "https://sports.uz/oz/news/view/barsa-siti-himoyachisini-transfer-qilmoqchi",
     "https://daryo.uz/2026/11/10/futbol-boyicha-ozbekiston-amputantlar-jamoasi-jahon-chempionatida-qatnashish-uchun-meksikaga-yol-oldi/",
     "yt:J-DnBMJ02p8",
-    "https://sports.uz/oz/news/view/rossiya-o-yinchisi-o-zbekiston-futbolchilari-salohiyatini-qanday-baholadi"
+    "https://sports.uz/oz/news/view/rossiya-o-yinchisi-o-zbekiston-futbolchilari-salohiyatini-qanday-baholadi",
+    "yt:15hGtRJ3aFk"
   ],
   "used_quiz": [
     23,
@@ -398,9 +399,9 @@
     "Futbol bo‘yicha O‘zbekiston amputantlar jamoasi Jahon chempionatida qatnashish uchun Meksikaga yo‘l oldi",
     "Rossiya oʻyinchisi Oʻzbekiston futbolchilari salohiyatini qanday baholadi?"
   ],
-  "last_slot": "2026-11-10 18:00",
+  "last_slot": "2026-11-10 19:30",
   "scorers_idx": 3,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 4,
   "live": {
     "401915395": {
@@ -1510,7 +1511,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 793,
+    "last_id": 794,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
