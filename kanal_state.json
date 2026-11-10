@@ -334,7 +334,8 @@
   ],
   "used_poll": [
     13,
-    10
+    10,
+    9
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -399,7 +400,7 @@
     "Futbol bo‘yicha O‘zbekiston amputantlar jamoasi Jahon chempionatida qatnashish uchun Meksikaga yo‘l oldi",
     "Rossiya oʻyinchisi Oʻzbekiston futbolchilari salohiyatini qanday baholadi?"
   ],
-  "last_slot": "2026-11-10 19:30",
+  "last_slot": "2026-11-10 20:00",
   "scorers_idx": 3,
   "last_video_source": "Serie A",
   "table_idx": 4,
@@ -1511,7 +1512,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 794,
+    "last_id": 795,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
