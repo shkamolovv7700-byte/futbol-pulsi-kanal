@@ -308,7 +308,8 @@
     "yt:J-DnBMJ02p8",
     "https://sports.uz/oz/news/view/rossiya-o-yinchisi-o-zbekiston-futbolchilari-salohiyatini-qanday-baholadi",
     "yt:15hGtRJ3aFk",
-    "https://sports.uz/oz/news/view/yanvarda-yuboringlar-napoli-barsa-dan-o-yinchi-so-rayapti"
+    "https://sports.uz/oz/news/view/yanvarda-yuboringlar-napoli-barsa-dan-o-yinchi-so-rayapti",
+    "yt:aqMFGtBGHRc"
   ],
   "used_quiz": [
     23,
@@ -401,9 +402,9 @@
     "Rossiya oʻyinchisi Oʻzbekiston futbolchilari salohiyatini qanday baholadi?",
     "Yanvarda yuboringlar! \"Napoli\" \"Barsa\"dan oʻyinchi soʻrayapti"
   ],
-  "last_slot": "2026-11-10 21:30",
+  "last_slot": "2026-11-10 22:30",
   "scorers_idx": 3,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 4,
   "live": {
     "401915395": {
@@ -1513,7 +1514,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 796,
+    "last_id": 797,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
