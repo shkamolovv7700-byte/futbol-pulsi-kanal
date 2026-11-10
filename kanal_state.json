@@ -305,7 +305,8 @@
     "https://daryo.uz/2026/11/10/pau-kubarsi-golden-boy-mukofotini-qolga-kiritdi/",
     "https://sports.uz/oz/news/view/barsa-siti-himoyachisini-transfer-qilmoqchi",
     "https://daryo.uz/2026/11/10/futbol-boyicha-ozbekiston-amputantlar-jamoasi-jahon-chempionatida-qatnashish-uchun-meksikaga-yol-oldi/",
-    "yt:J-DnBMJ02p8"
+    "yt:J-DnBMJ02p8",
+    "https://sports.uz/oz/news/view/rossiya-o-yinchisi-o-zbekiston-futbolchilari-salohiyatini-qanday-baholadi"
   ],
   "used_quiz": [
     23,
@@ -336,7 +337,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“Arsenal” nega to‘rtinchi divizion klubiga mag‘lub bo‘ldi? Arteta sababini aytdi",
     "«Barselona» hujum chizig‘iga APLdan nomzod topdi",
     "Lamin Yamalning otasi ofitsiantga tupurdi — OAV",
     "«Atletiko» Brunu Fernandesni sotib olish bo‘yicha faollashdi",
@@ -395,9 +395,10 @@
     "\"Manchester Yunayted\" Kerrik bilan muzokara boshlaydi",
     "Pau Kubarsi “Golden boy” mukofotini qo‘lga kiritdi",
     "\"Barsa\" \"Siti\" himoyachisini transfer qilmoqchi",
-    "Futbol bo‘yicha O‘zbekiston amputantlar jamoasi Jahon chempionatida qatnashish uchun Meksikaga yo‘l oldi"
+    "Futbol bo‘yicha O‘zbekiston amputantlar jamoasi Jahon chempionatida qatnashish uchun Meksikaga yo‘l oldi",
+    "Rossiya oʻyinchisi Oʻzbekiston futbolchilari salohiyatini qanday baholadi?"
   ],
-  "last_slot": "2026-11-10 17:00",
+  "last_slot": "2026-11-10 18:00",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 4,
@@ -1509,7 +1510,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 792,
+    "last_id": 793,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
@@ -2334,6 +2335,11 @@
     },
     "Pau Cubarsí": {
       "url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Pau_Cubarsi_Argentina_v_Spain_19_July_2026-181_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Mohamed Salah": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg/1280px-Mohamed_Salah_Argentina_v_Egypt_7_July_2026-163_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
     }
