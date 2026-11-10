@@ -304,7 +304,8 @@
     "https://sports.uz/oz/news/view/manchester-yunayted-kerrik-bilan-muzokara-boshlaydi",
     "https://daryo.uz/2026/11/10/pau-kubarsi-golden-boy-mukofotini-qolga-kiritdi/",
     "https://sports.uz/oz/news/view/barsa-siti-himoyachisini-transfer-qilmoqchi",
-    "https://daryo.uz/2026/11/10/futbol-boyicha-ozbekiston-amputantlar-jamoasi-jahon-chempionatida-qatnashish-uchun-meksikaga-yol-oldi/"
+    "https://daryo.uz/2026/11/10/futbol-boyicha-ozbekiston-amputantlar-jamoasi-jahon-chempionatida-qatnashish-uchun-meksikaga-yol-oldi/",
+    "yt:J-DnBMJ02p8"
   ],
   "used_quiz": [
     23,
@@ -396,9 +397,9 @@
     "\"Barsa\" \"Siti\" himoyachisini transfer qilmoqchi",
     "Futbol bo‘yicha O‘zbekiston amputantlar jamoasi Jahon chempionatida qatnashish uchun Meksikaga yo‘l oldi"
   ],
-  "last_slot": "2026-11-10 15:30",
+  "last_slot": "2026-11-10 16:30",
   "scorers_idx": 3,
-  "last_video_source": "UEFA",
+  "last_video_source": "LaLiga",
   "table_idx": 3,
   "live": {
     "401915395": {
@@ -1508,7 +1509,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 790,
+    "last_id": 791,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
