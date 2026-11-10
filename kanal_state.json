@@ -302,7 +302,8 @@
     "https://sports.uz/oz/news/view/shomurodovni-uchinchi-o-ringa-surib-qo-yishdi",
     "yt:SkeFMwnSwQM",
     "https://sports.uz/oz/news/view/manchester-yunayted-kerrik-bilan-muzokara-boshlaydi",
-    "https://daryo.uz/2026/11/10/pau-kubarsi-golden-boy-mukofotini-qolga-kiritdi/"
+    "https://daryo.uz/2026/11/10/pau-kubarsi-golden-boy-mukofotini-qolga-kiritdi/",
+    "https://sports.uz/oz/news/view/barsa-siti-himoyachisini-transfer-qilmoqchi"
   ],
   "used_quiz": [
     23,
@@ -332,7 +333,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "«Manchester Yunayted» Brunu Fernandesni sotishni rejalashtirmoqda",
     "Ta’tildan Yevropa taxtiga: mo‘jizaviy chempionlik va bemor qizi uchun gol urgan ota hikoyasi",
     "“Arsenal” nega to‘rtinchi divizion klubiga mag‘lub bo‘ldi? Arteta sababini aytdi",
     "«Barselona» hujum chizig‘iga APLdan nomzod topdi",
@@ -391,9 +391,10 @@
     "“Manchester Yunayted” rahbariyati Kerrikni iste’foga chiqarmoqchi emas — OAV",
     "Shomurodovni uchinchi o‘ringa surib qo‘yishdi",
     "\"Manchester Yunayted\" Kerrik bilan muzokara boshlaydi",
-    "Pau Kubarsi “Golden boy” mukofotini qo‘lga kiritdi"
+    "Pau Kubarsi “Golden boy” mukofotini qo‘lga kiritdi",
+    "\"Barsa\" \"Siti\" himoyachisini transfer qilmoqchi"
   ],
-  "last_slot": "2026-11-10 10:30",
+  "last_slot": "2026-11-10 11:30",
   "scorers_idx": 2,
   "last_video_source": "UEFA",
   "table_idx": 3,
@@ -1505,7 +1506,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 786,
+    "last_id": 787,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
