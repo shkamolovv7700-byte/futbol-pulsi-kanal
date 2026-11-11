@@ -345,7 +345,8 @@
   "used_poll": [
     13,
     10,
-    9
+    9,
+    6
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -410,7 +411,7 @@
     "Sёрlot «Atletiko»dan ketishi mumkin",
     "Van Deyk mavsum yakunida «Liverpul»dan ketishi mumkinligini istisno etmadi"
   ],
-  "last_slot": "2026-11-11 19:00",
+  "last_slot": "2026-11-11 20:00",
   "scorers_idx": 4,
   "last_video_source": "Premier League",
   "table_idx": 5,
@@ -1522,7 +1523,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 807,
+    "last_id": 808,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
