@@ -336,7 +336,8 @@
     14,
     17,
     0,
-    21
+    21,
+    4
   ],
   "used_poll": [
     13,
@@ -406,7 +407,7 @@
     "“Rossiyaga qarshi o‘yinda O‘zbekiston favorit” — Valeriy Nepomnyashiy",
     "Sёрlot «Atletiko»dan ketishi mumkin"
   ],
-  "last_slot": "2026-11-11 12:00",
+  "last_slot": "2026-11-11 13:00",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 4,
@@ -1518,7 +1519,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 801,
+    "last_id": 802,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
