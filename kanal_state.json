@@ -314,7 +314,8 @@
     "https://sports.uz/oz/news/view/o-zbekistonlik-mashhur-futbolchi-hali-maydonda-so-nggi-so-zini-aytmaganini-takidladi",
     "https://daryo.uz/2026/11/11/rossiyaga-qarshi-oyinda-ozbekiston-favorit-valeriy-nepomnyashiy/",
     "https://sports.uz/oz/news/view/syorlot-atletiko-dan-ketishi-mumkin",
-    "https://sports.uz/oz/news/view/van-deyk-mavsum-yakunida-liverpul-dan-ketishi-mumkinligini-istisno-etmadi"
+    "https://sports.uz/oz/news/view/van-deyk-mavsum-yakunida-liverpul-dan-ketishi-mumkinligini-istisno-etmadi",
+    "yt:Iazh_BIa7Aw"
   ],
   "used_quiz": [
     23,
@@ -408,9 +409,9 @@
     "Sёрlot «Atletiko»dan ketishi mumkin",
     "Van Deyk mavsum yakunida «Liverpul»dan ketishi mumkinligini istisno etmadi"
   ],
-  "last_slot": "2026-11-11 15:00",
+  "last_slot": "2026-11-11 16:00",
   "scorers_idx": 4,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 4,
   "live": {
     "401915395": {
@@ -1520,7 +1521,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 804,
+    "last_id": 805,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
