@@ -315,7 +315,8 @@
     "https://daryo.uz/2026/11/11/rossiyaga-qarshi-oyinda-ozbekiston-favorit-valeriy-nepomnyashiy/",
     "https://sports.uz/oz/news/view/syorlot-atletiko-dan-ketishi-mumkin",
     "https://sports.uz/oz/news/view/van-deyk-mavsum-yakunida-liverpul-dan-ketishi-mumkinligini-istisno-etmadi",
-    "yt:Iazh_BIa7Aw"
+    "yt:Iazh_BIa7Aw",
+    "yt:xjI1Kv9C7JI"
   ],
   "used_quiz": [
     23,
@@ -409,9 +410,9 @@
     "Sёрlot «Atletiko»dan ketishi mumkin",
     "Van Deyk mavsum yakunida «Liverpul»dan ketishi mumkinligini istisno etmadi"
   ],
-  "last_slot": "2026-11-11 17:30",
+  "last_slot": "2026-11-11 19:00",
   "scorers_idx": 4,
-  "last_video_source": "Serie A",
+  "last_video_source": "Premier League",
   "table_idx": 5,
   "live": {
     "401915395": {
@@ -1521,7 +1522,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 806,
+    "last_id": 807,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
