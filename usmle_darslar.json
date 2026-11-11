@@ -2826,6 +2826,795 @@
           ]
         }
       ]
+    },
+    {
+      "nomi": "Qorin anatomiyasi (2-qism)",
+      "fan": "Anatomy",
+      "manba": "5-lesson._Abdominal_anatomy_2-part.pdf",
+      "postlar": [
+        {
+          "sarlavha": "Foregut, midgut, hindgut: arteries and levels",
+          "bandlar": [
+            "Foregut: celiac trunk (T12/L1) - lower esophagus to proximal duodenum",
+            "Also foregut: liver, gallbladder, pancreas; spleen is mesoderm but celiac-fed",
+            "Midgut: SMA (L1) - distal duodenum to proximal 2/3 of transverse colon",
+            "Hindgut: IMA (L3) - distal 1/3 of transverse colon to upper anal canal"
+          ],
+          "izoh": "🧭 Ichak naychasi embrional jihatdan 3 qismga bo'linadi va har birining o'z arteriyasi bor:\n\n1️⃣ OLDINGI ichak (foregut) - QORIN USTUNI (truncus coeliacus), T12/L1 sathi:\n• qizilo'ngachning pastki qismi, oshqozon, o'n ikki barmoqli ichakning yuqori qismi (katta so'rg'ichgacha);\n• jigar, o't pufagi, oshqozon osti bezi;\n• taloq - aslida mezodermadan rivojlanadi (ichak emas), lekin qonni qorin ustunidan (taloq arteriyasi) oladi.\n\n2️⃣ O'RTA ichak (midgut) - YUQORI tutqich arteriyasi (AMS), L1:\n• o'n ikki barmoqli ichakning distal qismidan ko'ndalang chambar ichakning proksimal 2/3 qismigacha.\n\n3️⃣ ORQA ichak (hindgut) - PASTKI tutqich arteriyasi (AMI), L3:\n• ko'ndalang chambar ichakning distal 1/3 qismidan anal kanalning yuqori qismigacha (taroqsimon chiziqqacha).\n\n💡 USMLE: og'riq lokalizatsiyasi ham shunga mos - oldingi ichak og'rig'i epigastriyda, o'rta ichak - kindik atrofida, orqa ichak - qorin pastida (gipogastriy) seziladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_01.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "GI autonomic innervation",
+          "bandlar": [
+            "Parasympathetic: vagus for foregut (pharynx: vagus only) and midgut",
+            "Hindgut parasympathetics: pelvic splanchnic nerves (S2-S4)",
+            "Sympathetic: prevertebral ganglia - celiac, superior and inferior mesenteric",
+            "Thoracic splanchnic nerves (preganglionic) synapse in these ganglia"
+          ],
+          "izoh": "🔌 Hazm traktining vegetativ innervatsiyasi ham 3 bo'limga mos keladi.\n\n🟢 PARASIMPATIK:\n• oldingi ichak - ADASHGAN nerv (n. vagus); halqum (pharynx) faqat vagus orqali, qon bilan esa qorin ustuni emas, boshqa arteriyalar ta'minlaydi;\n• o'rta ichak - yana ADASHGAN nerv (ko'ndalang chambar ichakning 2/3 qismigacha);\n• orqa ichak - TOS splanxnik nervlari (nn. splanchnici pelvici, S2-S4).\n\n🔴 SIMPATIK:\n• ko'krak splanxnik nervlari (katta T5-T9, kichik T10-T11, eng kichik T12) preganglionar tolalar bilan umurtqa oldi tugunlariga boradi;\n• QORIN USTUNI tuguni (ganglion coeliacum) - oldingi ichak;\n• YUQORI tutqich tuguni - o'rta ichak;\n• PASTKI tutqich tuguni - orqa ichak.\nPostganglionar tolalar arteriyalar bo'ylab a'zolarga yetadi.\n\n💡 Simpatik - peristaltika va sekretsiyani susaytiradi, sfinkterlarni qisqartiradi; parasimpatik - aksincha.\n\nRasmda qorin vegetativ chigallari: ganglia coeliaca, plexus coeliacus, ganglion mesentericum superius, plexus mesentericus inferior.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_02.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Celiac trunk and its branches",
+          "bandlar": [
+            "Three branches: left gastric, splenic, common hepatic",
+            "Common hepatic -> proper hepatic + gastroduodenal (GDA)",
+            "Splenic -> short gastrics, left gastroepiploic, pancreatic branches",
+            "Left gastric -> esophageal branches; runs along lesser curvature"
+          ],
+          "izoh": "🌳 Qorin ustuni (truncus coeliacus) - aortadan T12/L1 sathida oldinga chiqadigan qisqa, toq tomir. Oldingi ichakning asosiy qon manbai.\n\nU 3 ta tarmoqqa bo'linadi:\n\n1. CHAP OSHQOZON arteriyasi (a. gastrica sinistra) - kichik egrilik bo'ylab yuradi, qizilo'ngachga tarmoqlar beradi.\n\n2. TALOQ arteriyasi (a. lienalis/splenica) - oshqozon osti bezi yuqori qirrasi bo'ylab egri-bugri yo'l bilan taloqqa boradi. Tarmoqlari: me'da osti bezi tarmoqlari, kalta oshqozon arteriyalari (fundusga), chap oshqozon-charvi (gastroepiploik) arteriyasi.\n\n3. UMUMIY JIGAR arteriyasi (a. hepatica communis) - ikkiga bo'linadi:\n• xususiy jigar arteriyasi -> o'ng va chap jigar arteriyalari, o'ng oshqozon arteriyasi; o't pufagi arteriyasi odatda o'ng jigar arteriyasidan;\n• oshqozon-o'n ikki barmoq arteriyasi (GDA) -> o'ng gastroepiploik va yuqori pankreatoduodenal arteriyalar.\n\n💡 USMLE: rasm/angiografiyada \"qaysi tomir\" savollari ko'p - shu daraxtni yod biling.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_03.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Stomach: arterial anastomoses",
+          "bandlar": [
+            "Lesser curvature: left gastric + right gastric anastomose",
+            "Greater curvature: left + right gastroepiploic anastomose",
+            "Rich collateral network - stomach rarely infarcts",
+            "Short gastrics (from splenic) to fundus: poor collaterals"
+          ],
+          "izoh": "🔗 Oshqozon - qon bilan juda yaxshi ta'minlangan a'zo, chunki tomirlar ikki egrilik bo'ylab halqa (arkada) hosil qiladi.\n\n▪️ KICHIK egrilik:\n• CHAP oshqozon arteriyasi (qorin ustunidan) + O'NG oshqozon arteriyasi (xususiy jigar arteriyasidan) o'zaro qo'shiladi.\n\n▪️ KATTA egrilik:\n• CHAP gastroepiploik (taloq arteriyasidan) + O'NG gastroepiploik (GDA dan) o'zaro qo'shiladi.\n\n▪️ FUNDUS:\n• kalta oshqozon arteriyalari (taloq arteriyasidan) - ular boshqa tomirlar bilan kuchsiz anastomoz qiladi. Taloq arteriyasi tiqilsa, fundus ishemiyaga moyil.\n\n💡 Klinik ahamiyati:\n• bir arteriya bog'lansa ham oshqozon odatda nekrozga uchramaydi;\n• qizilo'ngach rezeksiyasidan keyin oshqozon \"trubka\" qilib ko'tarilganda, asosiy qon o'ng gastroepiploik arteriya orqali saqlanadi.\n\nRasmda: a. gastrica sinistra et dextra, a. gastroepiploica dextra et sinistra.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_04.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Abdominal aorta: branching pattern",
+          "bandlar": [
+            "GI arteries: single (unpaired), arise ANTERIORLY - celiac, SMA, IMA",
+            "Non-GI arteries: paired, arise laterally or posteriorly",
+            "Lateral: inferior phrenic, suprarenal, renal, gonadal",
+            "Posterior: lumbar arteries; aorta bifurcates at L4"
+          ],
+          "izoh": "🩸 Qorin aortasi tarmoqlarini eslab qolishning oddiy qoidasi:\n\n🔹 Hazm a'zolariga boruvchi arteriyalar - TOQ va aortaning OLDINGI devoridan chiqadi:\n• qorin ustuni (T12/L1);\n• yuqori tutqich arteriyasi (L1);\n• pastki tutqich arteriyasi (L3).\n\n🔹 Hazm a'zosi bo'lmagan tuzilmalarga boruvchi arteriyalar - JUFT va YON yoki ORQA devordan chiqadi:\n• yon tomondan: pastki diafragma, o'rta buyrak usti bezi, buyrak (L1-L2), jinsiy bez (moyak/tuxumdon, L2) arteriyalari;\n• orqadan: bel arteriyalari (4 juft).\n\n🔹 Aorta L4 sathida o'ng va chap umumiy yonbosh arteriyalariga bo'linadi; bo'linish joyidan toq o'rta dumg'aza arteriyasi davom etadi.\n\n💡 USMLE: kindik sohasi L3-L4 ga, aorta bifurkatsiyasi esa L4 ga to'g'ri keladi - qorin aortasi anevrizmasi ko'pincha buyrak arteriyalaridan pastda va bifurkatsiyadan yuqorida bo'ladi.\n\nRasmda qorin aortasi va uning tarmoqlari oldindan.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_05.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Colonic watershed areas",
+          "bandlar": [
+            "Watershed = area supplied by the most distal branches of two arteries",
+            "Splenic flexure: boundary between SMA and IMA territories",
+            "Rectosigmoid junction: last sigmoid artery + superior rectal artery",
+            "Most vulnerable to ischemic colitis during hypotension"
+          ],
+          "izoh": "🌊 \"Suv ayirg'ich\" (watershed) zonalari - ikki arteriyaning eng chekka tarmoqlari tutashgan, shuning uchun eng kam qon oladigan sohalar.\n\nChambar ichakda ikkita shunday zona bor:\n\n1️⃣ TALOQ BURILISHI (flexura coli sinistra, Griffits nuqtasi):\n• yuqori tutqich (o'rta chambar) va pastki tutqich (chap chambar) arteriyalari chegarasi.\n\n2️⃣ TO'G'RI-SIGMASIMON CHEGARA (Sudek nuqtasi):\n• pastki tutqich arteriyasining oxirgi sigmasimon tarmog'i va yuqori to'g'ri ichak arteriyasi chegarasi.\n\n⚠️ Klinik ahamiyati - ISHEMIK KOLIT:\n• gipotenziya, shok, yurak operatsiyasi, aorta operatsiyasi (AMI bog'langanda) dan keyin;\n• keksa bemor, qorinning chap tomonida og'riq + qonli ich ketishi;\n• KT: chap tomonda devor qalinlashuvi, \"thumbprinting\".\n\n💡 Marginal arteriya (Drummond) SMA va IMA havzalarini bog'laydi, lekin taloq burilishida u ko'pincha ingichka yoki uzilgan.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_06.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Nutcracker syndrome",
+          "bandlar": [
+            "Left renal vein compressed between SMA (front) and aorta (behind)",
+            "Flank/abdominal pain, gross hematuria",
+            "Hematuria: rupture of thin-walled renal varicosities",
+            "Left-sided varicocele: left gonadal vein drains into left renal vein"
+          ],
+          "izoh": "🥜 \"Yong'oq chaqqich\" (nutcracker) sindromi.\n\n📍 Anatomiya: CHAP buyrak venasi IVC ga borishi uchun aortaning OLDIDAN, lekin yuqori tutqich arteriyasining (AMS) ORQASIDAN o'tadi. Ya'ni u AMS va aorta orasidagi tor burchakda yotadi - xuddi yong'oq chaqqich ichidagi yong'oqdek.\n\nBurchak torayib qolsa (ozg'inlik, anatomik variant), vena siqiladi -> buyrak tomonida venoz bosim oshadi.\n\n🩺 Belgilari:\n• qorin yoki bel (yon) sohasida og'riq;\n• makrogematuriya - buyrakdagi yupqa devorli venoz varikozlar yorilishidan;\n• CHAP tomonlama varikotsele - chunki chap moyak venasi chap buyrak venasiga quyiladi (o'ng moyak venasi to'g'ridan-to'g'ri IVC ga quyiladi);\n• ayollarda kichik chanoq venoz to'laqonligi.\n\n💡 USMLE: keksa erkakda to'satdan paydo bo'lgan CHAP varikotsele - chap buyrak venasini siquvchi o'smani (buyrak saratoni) ham o'ylatadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_07.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Superior mesenteric artery syndrome",
+          "bandlar": [
+            "SMA and aorta compress the third (transverse) part of the duodenum",
+            "Intermittent obstruction: postprandial pain, early satiety, vomiting",
+            "Cause: loss of mesenteric fat narrows the aortomesenteric angle",
+            "Rapid weight loss, malnutrition, low body weight, bariatric surgery"
+          ],
+          "izoh": "🍽️ Yuqori tutqich arteriyasi (AMS) sindromi.\n\n📍 Anatomiya: o'n ikki barmoqli ichakning III (ko'ndalang, gorizontal) qismi aorta va AMS orasidan o'tadi. Normada bu burchakni tutqich yog' to'qimasi \"yostiq\" kabi ochiq ushlab turadi.\n\n⚠️ Yog' kamaysa, burchak torayadi va duodenum siqiladi -> vaqti-vaqti bilan yuqori ichak tutilishi.\n\nXavf omillari:\n• tez ozish, ochlik, anoreksiya;\n• tana vazni past bo'lish, kaxeksiya (saraton, kuyish);\n• bariatrik (semizlik) operatsiyalari;\n• skolioz operatsiyasi yoki gips korset (burchakni o'zgartiradi).\n\n🩺 Belgilar:\n• OVQATDAN KEYIN qorin og'rig'i, erta to'yish, ko'ngil aynishi, safroli qusish;\n• ovqat yemaslik -> yana ozish -> ahvol yomonlashadi (yovuz doira);\n• yonboshga yoki tizza-tirsak holatida yotsa yengillashadi.\n\n💡 Nutcracker bilan solishtiring: o'sha burchak, lekin siqiladigan tuzilma boshqa - u yerda chap buyrak venasi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_08.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Duodenum: arterial supply",
+          "bandlar": [
+            "Supraduodenal a. (from GDA) - upper (first) part",
+            "Ant./post. superior pancreaticoduodenal aa. - from GDA (celiac)",
+            "Ant./post. inferior pancreaticoduodenal aa. - from SMA",
+            "Superior + inferior arcades: celiac-SMA collateral around pancreatic head"
+          ],
+          "izoh": "🩸 O'n ikki barmoqli ichak - oldingi va o'rta ichak chegarasida yotadi, shuning uchun ikki manbadan qon oladi.\n\n🔹 Qorin ustunidan (oldingi ichak qismi):\nAorta -> qorin ustuni -> umumiy jigar arteriyasi -> oshqozon-o'n ikki barmoq arteriyasi (GDA) ->\n• o'n ikki barmoq usti arteriyasi (supraduodenal) - I qism (bulbus);\n• OLDINGI va ORQA YUQORI pankreatoduodenal arteriyalar.\n\n🔹 Yuqori tutqich arteriyasidan (o'rta ichak qismi):\nAorta -> AMS -> OLDINGI va ORQA PASTKI pankreatoduodenal arteriyalar.\n\n🔁 Yuqori va pastki pankreatoduodenal arteriyalar me'da osti bezi boshi atrofida ikkita ARKADA hosil qiladi -> qorin ustuni va AMS o'rtasidagi muhim kollateral. Qorin ustuni stenozida qon AMS dan shu yo'l bilan keladi.\n\n💡 Chegara - katta duodenal so'rg'ich (II qism): undan yuqorisi oldingi ichak, pastrog'i o'rta ichak.\n\n⚠️ Whipple operatsiyasida bu arkadalar tufayli duodenum va me'da osti bezi boshi birga olinadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_09.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Peptic ulcer complication: hemorrhage",
+          "bandlar": [
+            "Most common complication of peptic ulcer disease",
+            "Posterior duodenal ulcer erodes the gastroduodenal artery",
+            "Lesser curvature gastric ulcer erodes the left gastric artery",
+            "Duodenal: posterior > anterior for bleeding"
+          ],
+          "izoh": "🩸 Peptik yara asoratlari ichida eng KO'P uchraydigani - QON KETISHI.\n\nYara qaysi devorda bo'lsa, uning orqasidagi arteriyani yemiradi:\n\n1️⃣ O'n ikki barmoqli ichakning ORQA devoridagi yara:\n• orqasida OSHQOZON-O'N IKKI BARMOQ arteriyasi (GDA) yotadi -> kuchli arterial qon ketish.\n• Duodenal yaralarda qon ketish ORQA devorda ko'proq (posterior > anterior).\n\n2️⃣ Oshqozonning KICHIK egriligidagi yara:\n• CHAP OSHQOZON arteriyasi yemiriladi.\n\n🩺 Klinika:\n• gematemezis (qon yoki \"kofe quyqasi\" qusish), melena (qora, smolasimon najas);\n• og'ir hollarda gipovolemik shok: taxikardiya, gipotenziya.\n\n💡 USMLE: \"posterior duodenal ulcer + massive bleeding -> which artery?\" -> GDA. Davolash: endoskopik gemostaz, bo'lmasa angioembolizatsiya yoki operatsiya.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_10.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Peptic ulcer: perforation and obstruction",
+          "bandlar": [
+            "Perforation: duodenal, anterior > posterior wall",
+            "Free air under the diaphragm (pneumoperitoneum) on upright X-ray",
+            "Referred shoulder pain: diaphragm irritation via phrenic nerve (C3-C5)",
+            "Obstruction: pyloric channel and duodenal ulcers (scarring, edema)"
+          ],
+          "izoh": "💥 PERFORATSIYA (teshilish):\n• ko'pincha o'n ikki barmoqli ichakning OLDINGI devoridagi yara (anterior > posterior) - chunki old devor erkin qorin bo'shlig'iga qaragan;\n• havo va oshqozon suyuqligi qorin bo'shlig'iga chiqadi -> PNEVMOPERITONEUM;\n• tik turgan holda rentgen: diafragma ostida o'roqsimon erkin havo;\n• to'satdan \"xanjar urgandek\" og'riq, \"taxtasimon\" qorin (peritonit);\n• yelka og'rig'i (irradiatsiya): diafragma ta'sirlanishi FRENIK nerv (C3-C5) orqali, C3-C5 dermatomlariga, ya'ni yelka sohasiga uzatiladi.\n\n⚠️ Orqa devor yarasi teshilsa - to'ldiruvchi xalta (bursa omentalis) yoki me'da osti beziga penetratsiya, og'riq orqaga tarqaladi.\n\n🚧 OBSTRUKSIYA (tutilish):\n• pilorik kanal va duodenal yaralar - shish va chandiq sababli;\n• erta to'yish, hazm bo'lmagan ovqat qusish, gipoxloremik gipokaliemik metabolik alkaloz.\n\n💡 Uch asoratni eslang: qon ketish (orqa, GDA), perforatsiya (old), obstruksiya (pilorus).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_11.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Upper vs lower GI bleeding",
+          "bandlar": [
+            "Landmark: ligament of Treitz (suspensory ligament of duodenum)",
+            "Upper (proximal): hematemesis and/or melena; PUD, varices",
+            "Lower (distal): usually hematochezia",
+            "Lower causes: diverticulosis, angiodysplasia, IBD, hemorrhoids, fissure, cancer"
+          ],
+          "izoh": "🚦 Oshqozon-ichakdan qon ketishining yuqori va pastki turlari Treyts boylami (lig. suspensorium duodeni) bilan ajratiladi. Bu boylam duodenum-jejunum burilishini (flexura duodenojejunalis) diafragma oyoqchasiga osib turadi.\n\n⬆️ YUQORI qon ketish (Treytsdan proksimal):\n• gematemezis (qon qusish) va/yoki MELENA (qora najas - qon kislota va bakteriyalar ta'sirida o'zgaradi);\n• sabablar: peptik yara (eng ko'p), qizilo'ngach varikozlari, Mallori-Veys yorilishi, gastrit;\n• qon oqsillari hazm bo'lishi sababli BUN oshadi.\n\n⬇️ PASTKI qon ketish (Treytsdan distal):\n• odatda GEMATOXEZIYA (to'q qizil qon);\n• sabablar: divertikulyoz (keksalarda eng ko'p), angiodisplaziya, yallig'lanishli ichak kasalligi, gemorroy, anal yoriq, saraton.\n\n💡 Diqqat: juda kuchli yuqori qon ketish ham gematoxeziya berishi mumkin (qon tez o'tadi).\n\nRasmda flexura et plica duodenojejunalis - chegara sohasi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_12.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Iron, folate and vitamin B12 absorption",
+          "bandlar": [
+            "Iron: absorbed as Fe2+ in the duodenum",
+            "Folate: absorbed in the small bowel (mainly jejunum)",
+            "B12: terminal ileum with bile salts; needs intrinsic factor",
+            "Mnemonic: 'Iron Fist, Bro' - duodenum, jejunum, ileum order"
+          ],
+          "izoh": "🧲 Muhim mikronutriyentlar ingichka ichakning turli qismlarida so'riladi - \"Iron Fist, Bro\" (Iron - Folate - B12) tartibida:\n\n1️⃣ TEMIR - o'n ikki barmoqli ichakda, Fe2+ (ikki valentli) shaklda.\n\n2️⃣ FOLAT - ingichka ichakda (asosan och ichakda).\n\n3️⃣ B12 VITAMINI - yonbosh ichakning OXIRGI qismida (terminal ileum), safro tuzlari bilan birga. Buning uchun oshqozonning parietal hujayralari ishlab chiqaradigan ICHKI OMIL (intrinsic factor) zarur.\n\n⚠️ Tanqislik kimda rivojlanadi:\n• ingichka ichak kasalliklari (seliakiya - duodenum zararlanadi -> temir/folat tanqisligi; Kron - terminal ileum -> B12);\n• ichak rezeksiyasi; qisqa ichak sindromi (intestinal yetishmovchilik);\n• bariatrik operatsiyalar (duodenum chetlab o'tilsa - temir tanqisligi);\n• terminal ileum rezeksiyasi -> B12 tanqisligi + safro tuzlari yo'qolishi (yog' so'rilishi buziladi, o't toshlari).\n\n💡 B12 zahirasi jigarda yillab yetadi - anemiya kech paydo bo'ladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_13.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Peyer patches",
+          "bandlar": [
+            "Unencapsulated lymphoid tissue in lamina propria and submucosa of ileum",
+            "M (microfold) cells sample antigens and present to immune cells",
+            "B cells in germinal centers become IgA-secreting plasma cells",
+            "IgA gets secretory component, then is transported into the lumen"
+          ],
+          "izoh": "🛡️ Peyer pilakchalari (noduli lymphatici aggregati) - ichakka bog'liq limfoid to'qimaning (GALT) bir qismi.\n\n📍 Joylashuvi: asosan YONBOSH ichakda (ileum), shilliq qavatning xususiy plastinkasi (lamina propria) va shilliq osti qavatida; kapsulasi YO'Q. Tutqich birikkan joyga qarama-qarshi devorda joylashadi.\n\n🔬 Ishlash mexanizmi:\n• ustidagi epiteliyda maxsus M hujayralar (microfold) bor - ular ichak bo'shlig'idagi antigenlarni \"tatib ko'rib\", ostidagi immun hujayralarga (dendritik hujayra, limfotsit) uzatadi;\n• germinativ markazlarda B hujayralar faollashib, IgA ishlab chiqaruvchi PLAZMA hujayralariga aylanadi va lamina propriaga joylashadi;\n• IgA epiteliydan o'tayotganda SEKRETOR komponent oladi va ichak bo'shlig'iga chiqariladi - antigenlarni neytrallaydi.\n\n💡 USMLE:\n• \"M\" hujayralar - \"iMmune\" ga antigen beradi;\n• Salmonella typhi, Shigella va poliovirus M hujayralar orqali kiradi;\n• Peyer pilakchalari giperplaziyasi ichak invaginatsiyasining yetakchi nuqtasi bo'lishi mumkin.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_14.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Jejunum and ileum: arterial supply",
+          "bandlar": [
+            "Both supplied by SMA via jejunal and ileal arteries",
+            "Branches form arcades that give off straight vasa recta",
+            "Jejunum: 1-2 arcades, LONG vasa recta",
+            "Ileum: 3-5 arcades, SHORT vasa recta, more mesenteric fat"
+          ],
+          "izoh": "🩸 Och va yonbosh ichak qonni YUQORI tutqich arteriyasidan (AMS) oladi:\n\nAorta -> AMS -> och ichak (aa. jejunales) va yonbosh ichak (aa. ileae) arteriyalari -> arterial ARKADALAR (yoysimon qo'shilishlar) -> TO'G'RI tomirlar (vasa recta) -> ichak devori.\n\n🔍 Och va yonbosh ichakni farqlash (operatsiyada ham, imtihonda ham):\n\n▪️ OCH ichak (jejunum):\n• 1-2 qator arkada;\n• to'g'ri tomirlar UZUN;\n• tutqichda yog' kam - tomirlar orasida \"oyna\"lar ko'rinadi;\n• devori qalin, diametri katta, burmalari (plicae circulares) baland va zich.\n\n▪️ YONBOSH ichak (ileum):\n• 3-5 qator arkada;\n• to'g'ri tomirlar KALTA;\n• tutqichda yog' ko'p;\n• devori yupqaroq, burmalari kam; Peyer pilakchalari bor.\n\n💡 AMS emboliyasi (ko'pincha bo'lmachalar fibrillyatsiyasida) - to'satdan, \"tekshiruvga nomutanosib\" kuchli qorin og'rig'i: o'tkir mezenterial ishemiya.\n\nRasmda a. mesenterica superior, aa. jejunales et ileae, a. ileocolica.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_15.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Appendix: arterial supply",
+          "bandlar": [
+            "Appendicular artery runs in the mesoappendix",
+            "SMA -> ileocolic a. -> (posterior cecal a.) -> appendicular a.",
+            "End artery: no collaterals",
+            "Obstruction -> ischemia -> gangrene and perforation"
+          ],
+          "izoh": "🐛 Chuvalchangsimon o'simta (appendiks) qonni CHUVALCHANGSIMON O'SIMTA arteriyasidan (a. appendicularis) oladi:\n\nAorta -> yuqori tutqich arteriyasi -> yonbosh-chambar arteriyasi (a. ileocolica) -> (ko'r ichak orqa arteriyasi) -> appendikulyar arteriya.\n\n📍 Arteriya appendiks tutqichi (mesoappendix, mesenteriolum) ichida, uning erkin qirrasi bo'ylab yuradi.\n\n⚠️ Bu - OXIRGI (terminal) arteriya, kollaterallari yo'q. Shuning uchun:\n• appendikulyar teshik tiqilsa (fekalit, limfoid giperplaziya), ichki bosim oshadi -> venoz qaytish buziladi -> arterial qon ham to'xtaydi;\n• oqibat - gangrena va PERFORATSIYA (ko'pincha 24-72 soat ichida).\n\n🩺 Appendisit og'rig'i: avval kindik atrofida (o'rta ichak visseral og'rig'i, T10), so'ng parietal qorin parda ta'sirlanganda o'ng yonbosh sohasiga (Mak-Burney nuqtasi) ko'chadi.\n\n💡 Appendektomiyada mezoappendiks bog'lanadi - shu bilan arteriya ham bog'lanadi.\n\nRasmda processus vermiformis va uning tutqichi (mesenteriolum).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_16.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Large intestine: arterial supply",
+          "bandlar": [
+            "Ascending colon: ileocolic + right colic (SMA)",
+            "Proximal 2/3 transverse colon: middle colic (SMA)",
+            "Distal 1/3 transverse + upper descending: left colic (IMA)",
+            "Lower descending/sigmoid: sigmoid aa. (IMA); marginal artery links SMA-IMA"
+          ],
+          "izoh": "🩸 Yo'g'on ichak qon ta'minoti - o'rta va orqa ichak chegarasi bo'yicha:\n\n🟢 YUQORI tutqich arteriyasidan (AMS):\n• yuqoriga ko'tariluvchi chambar ichak - yonbosh-chambar (a. ileocolica) va o'ng chambar (a. colica dextra) arteriyalari;\n• ko'ndalang chambar ichakning proksimal 2/3 qismi - O'RTA chambar arteriyasi (a. colica media).\n\n🔵 PASTKI tutqich arteriyasidan (AMI):\n• ko'ndalang chambar ichakning distal 1/3 qismi va pastga tushuvchi chambar ichakning yuqori qismi - CHAP chambar arteriyasi (a. colica sinistra);\n• pastga tushuvchi chambar ichakning pastki qismi va sigmasimon ichak - SIGMASIMON arteriyalar;\n• to'g'ri ichakning yuqori qismi - YUQORI to'g'ri ichak arteriyasi (AMI ning davomi).\n\n🔁 MARGINAL arteriya (Drummond) - chambar ichak qirrasi bo'ylab AMS va AMI tarmoqlarini bog'laydi.\n\n💡 Aorta operatsiyasida AMI bog'lansa, sigmasimon ichak marginal arteriya orqali qon oladi; u yetarli bo'lmasa - ishemik kolit.\n\nRasmda: a. ileocolica, a. colica dextra et sinistra, aa. sigmoideae, a. haemorrhoidalis (rectalis) superior.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_17.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Rectum: arterial supply",
+          "bandlar": [
+            "Superior rectal a.: terminal branch of IMA",
+            "Middle rectal a.: internal iliac artery",
+            "Inferior rectal a.: internal pudendal a. (from internal iliac)",
+            "The three anastomose freely in the rectal wall"
+          ],
+          "izoh": "🩸 To'g'ri ichak uchta arteriyadan qon oladi:\n\n1️⃣ YUQORI to'g'ri ichak arteriyasi (a. rectalis superior):\nAorta -> pastki tutqich arteriyasi (AMI) -> yuqori to'g'ri ichak arteriyasi. Bu AMI ning oxirgi davomi; to'g'ri ichak orqasida ikkiga bo'linadi.\n\n2️⃣ O'RTA to'g'ri ichak arteriyasi (a. rectalis media):\nAorta -> umumiy yonbosh -> ICHKI yonbosh arteriyasi -> o'rta to'g'ri ichak arteriyasi (doimiy emas).\n\n3️⃣ PASTKI to'g'ri ichak arteriyasi (a. rectalis inferior):\nAorta -> umumiy yonbosh -> ichki yonbosh -> ICHKI UYAT arteriyasi (a. pudenda interna) -> pastki to'g'ri ichak arteriyasi. U quymich-to'g'ri ichak chuqurchasi orqali anal kanal va tashqi sfinkterga boradi.\n\n🔁 Uchala arteriya to'g'ri ichak devorida o'zaro keng anastomoz qiladi - shuning uchun AMI bog'lansa ham to'g'ri ichak odatda nekrozga uchramaydi.\n\nRasmda erkak chanog'i arteriyalari: a. haemorrhoidalis (rectalis) superior, media, inferior va a. pudenda interna.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_18.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Rectum: venous drainage",
+          "bandlar": [
+            "Superior rectal v. -> IMV -> portal vein -> liver -> hepatic vv. -> IVC",
+            "Middle rectal v. -> internal iliac v. -> common iliac v. -> IVC",
+            "Inferior rectal v. -> internal pudendal v. -> internal iliac v. -> IVC",
+            "Rectal venous plexus = portosystemic anastomosis"
+          ],
+          "izoh": "🩸 To'g'ri ichak venalari ikki xil tizimga quyiladi - bu klinikada juda muhim.\n\n🔵 PORTAL tizimga:\n• YUQORI to'g'ri ichak venasi -> pastki tutqich venasi -> (taloq venasi) -> darvoza venasi -> jigar sinusoidlari -> markaziy venalar -> jigar venalari -> pastki kovak vena.\n\n🔴 SISTEMIK (kovak) tizimga:\n• O'RTA to'g'ri ichak venasi -> ichki yonbosh venasi -> umumiy yonbosh venasi -> IVC;\n• PASTKI to'g'ri ichak venasi -> ichki uyat venasi -> ichki yonbosh venasi -> umumiy yonbosh venasi -> IVC.\n\n🔁 Uchala vena to'g'ri ichak venoz chigalida (plexus rectalis/haemorrhoidalis) tutashadi -> bu PORTOKAVAL anastomoz.\n\n💡 Amaliy ahamiyati:\n• portal gipertenziyada bu chigal kengayib, anorektal varikozlar hosil qiladi;\n• to'g'ri ichak pastki qismiga yuborilgan dori (sham) qisman jigarni chetlab, to'g'ridan-to'g'ri sistemik qonga o'tadi;\n• to'g'ri ichak saratoni portal yo'l bilan JIGARGA, sistemik yo'l bilan O'PKAGA metastaz beradi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_19.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Portal vein: formation and liver blood supply",
+          "bandlar": [
+            "Portal vein = splenic v. + superior mesenteric v. (behind pancreatic neck)",
+            "Inferior mesenteric v. usually joins the splenic v.",
+            "Liver: portal vein ~80% + hepatic artery ~20% of blood",
+            "Arterial and portal blood mix in the hepatic sinusoids"
+          ],
+          "izoh": "🚪 Darvoza venasi (v. portae) - ichak, oshqozon, taloq va me'da osti bezidan kelgan qonni jigarga olib boradi.\n\n🔧 Hosil bo'lishi:\n• me'da osti bezi BO'YNI orqasida TALOQ venasi + YUQORI tutqich venasi (VMS) qo'shiladi;\n• PASTKI tutqich venasi (VMI) odatda taloq venasiga quyiladi (ba'zan VMS ga yoki ularning tutashgan joyiga);\n• chap oshqozon (koronar) venasi to'g'ridan-to'g'ri darvoza venasiga quyiladi.\n\nDarvoza venasi jigar-o'n ikki barmoq boylamida (lig. hepatoduodenale) - umumiy o't yo'li va xususiy jigar arteriyasining ORQASIDA yotadi.\n\n🩸 Jigarning IKKI TOMONLAMA qon ta'minoti:\n• darvoza venasi - qonning ~80% (ozuqaga boy, kislorodi kamroq);\n• jigar arteriyasi - ~20% (kislorodga boy).\nIkkala qon jigar SINUSOIDLARIDA aralashadi -> markaziy vena -> jigar venalari -> IVC.\n\n💡 Pringl manyovri: lig. hepatoduodenale qisilsa - darvoza venasi va jigar arteriyasi bir vaqtda to'xtatiladi (jigar jarohatida qonni to'xtatish).\n\nRasmda v. portae, v. lienalis, v. mesenterica superior et inferior.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_20.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Portosystemic anastomoses",
+          "bandlar": [
+            "Esophagus: left gastric v. <-> esophageal vv. (azygos) = esophageal varices",
+            "Umbilicus: paraumbilical vv. <-> epigastric vv. = caput medusae",
+            "Rectum: superior rectal v. <-> middle/inferior rectal vv. = anorectal varices",
+            "Mnemonic: varices of 'gut, butt, and caput' in portal hypertension"
+          ],
+          "izoh": "🔀 Portal gipertenziyada (ko'pincha jigar sirrozi) darvoza venasidagi qon jigardan o'tolmaydi va sistemik venalarga \"aylanma yo'l\" izlaydi. Bu yo'llar - portokaval anastomozlar.\n\n1️⃣ QIZILO'NGACH:\n• chap oshqozon (koronar) venasi <-> qizilo'ngach venalari (toq vena - v. azygos ga quyiladi);\n• natija: QIZILO'NGACH VARIKOZLARI - yorilsa, hayot uchun xavfli qon qusish.\n\n2️⃣ KINDIK:\n• kindik atrofi venalari (vv. paraumbilicales, jigar dumaloq boylami bo'ylab) <-> qorin old devorining kichik epigastral venalari (yuqori, pastki va yuza epigastral venalar tarmoqlari);\n• natija: \"MEDUZA BOSHI\" (caput medusae) - kindikdan tarqalgan kengaygan venalar.\n\n3️⃣ TO'G'RI ICHAK:\n• yuqori to'g'ri ichak venasi <-> o'rta va pastki to'g'ri ichak venalari;\n• natija: ANOREKTAL varikozlar.\n\n💡 Eslab qolish: \"gut, butt, caput\" - ichak (qizilo'ngach), dumba (to'g'ri ichak), kindik.\n\n⚠️ Anorektal varikozlar - ichki gemorroy bilan bir xil narsa emas; gemorroy portal gipertenziyasiz ham uchraydi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_21.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "TIPS",
+          "bandlar": [
+            "Transjugular intrahepatic portosystemic shunt",
+            "Stent connects portal vein to hepatic vein through the liver",
+            "Lowers portal pressure: varices, refractory ascites",
+            "Risk: hepatic encephalopathy (ammonia bypasses the liver)"
+          ],
+          "izoh": "🛠️ TIPS - transjugulyar jigar ichi portosistemik shunt.\n\n🔧 Qanday qilinadi:\n• kateter bo'yinturuq (ichki yugulyar) venasi orqali kiritiladi -> yuqori kovak vena -> o'ng bo'lmacha -> pastki kovak vena -> JIGAR venasi;\n• jigar to'qimasi orqali DARVOZA venasiga yo'l ochiladi va STENT qo'yiladi.\n\nNatijada portal qon jigarni chetlab, to'g'ridan-to'g'ri sistemik qon aylanishiga o'tadi -> portal bosim pasayadi.\n\n✅ Ko'rsatmalar:\n• davolab bo'lmaydigan yoki qayta-qayta qon ketadigan qizilo'ngach/me'da varikozlari;\n• dori va paratsentezga javob bermaydigan astsit;\n• Badd-Kiari sindromi.\n\n⚠️ Asosiy asorat - JIGAR ENTSEFALOPATIYASI:\n• ichakdan kelgan AMMIAK jigarda tozalanmaydi -> miyaga yetadi;\n• chalkashlik, uyquchanlik, \"asterixis\" (qo'l qaltirashi);\n• davolash: laktuloza, rifaksimin.\n\n💡 USMLE: \"TIPS dan keyin bemor chalkash bo'lib qoldi\" -> ammiak klirensining kamayishi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_22.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Anal canal: general features and arteries",
+          "bandlar": [
+            "About 4 cm: from anorectal junction to the anus",
+            "Pectinate line divides it into upper and lower parts",
+            "Upper: superior rectal a. (IMA); lower: inferior rectal a. (internal pudendal)",
+            "Middle rectal a. (internal iliac) anastomoses with both"
+          ],
+          "izoh": "📏 Anal kanal - taxminan 4 sm uzunlikdagi qism: anorektal tutashuvdan (m. puborectalis halqasi) orqa teshik (anus) gacha.\n\n✂️ TAROQSIMON (pektinat, tishsimon) chiziq kanalni ikki qismga ajratadi: yuqori va pastki. Bu chiziq bo'yicha qon ta'minoti, venalar, limfa, nervlar va epiteliy o'zgaradi.\n\n🩸 Arteriyalar:\n• YUQORI qism - yuqori to'g'ri ichak arteriyasi (aorta -> AMI -> a. rectalis superior);\n• PASTKI qism - pastki to'g'ri ichak arteriyasi (aorta -> umumiy yonbosh -> ichki yonbosh -> ichki uyat arteriyasi -> a. rectalis inferior);\n• O'RTA to'g'ri ichak arteriyasi (ichki yonbosh arteriyasidan) yuqori va pastki arteriyalar bilan anastomoz qiladi.\n\n🧱 Devor tuzilmalari:\n• anal ustunchalar (Morgani ustunlari) va ular orasidagi anal sinuslar - ularning pastki uchlari taroqsimon chiziqni hosil qiladi;\n• ichki sfinkter - silliq mushak (aylana qavat davomi);\n• tashqi sfinkter - ko'ndalang-targ'il mushak.\n\nRasmda ochilgan to'g'ri ichak: columnae rectales, sinus rectales, m. sphincter ani internus et externus.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_23.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Anal canal: innervation and venous drainage",
+          "bandlar": [
+            "Upper: autonomic - internal sphincter involuntary; stretch sensation only",
+            "Lower: somatic pudendal n. - external sphincter voluntary",
+            "Lower canal senses pain, temperature and touch",
+            "Veins: upper -> superior rectal -> portal; lower -> inferior rectal -> IVC"
+          ],
+          "izoh": "🔌 INNERVATSIYA:\n\n⬆️ Taroqsimon chiziqdan YUQORI:\n• vegetativ (simpatik va parasimpatik) nervlar;\n• ICHKI sfinkter - silliq mushak, ixtiyorsiz boshqariladi;\n• sezgi faqat CHO'ZILISH (to'lish) hissi; og'riq sezilmaydi.\n\n⬇️ Taroqsimon chiziqdan PASTDA:\n• somatik - UYAT nervi (n. pudendus, S2-S4) va uning pastki to'g'ri ichak tarmog'i;\n• TASHQI sfinkter - ko'ndalang-targ'il mushak, ixtiyoriy boshqariladi;\n• sezgi: og'riq, harorat, teginish - teri kabi.\n\n🩸 VENOZ OQIM:\n• yuqori qism -> yuqori to'g'ri ichak venasi -> pastki tutqich venasi -> darvoza venasi -> jigar -> jigar venalari -> IVC (PORTAL tizim);\n• pastki qism -> pastki to'g'ri ichak venasi -> ichki uyat venasi -> ichki yonbosh venasi -> umumiy yonbosh venasi -> IVC (SISTEMIK tizim).\n\n💡 Klinik xulosa:\n• taroqsimon chiziqdan yuqoridagi jarayonlar (ichki gemorroy, adenokarsinoma) og'riqsiz;\n• pastdagilar (tashqi gemorroy, yoriq, yassi hujayrali saraton) og'riqli.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_24.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Pectinate (dentate) line: above vs below",
+          "bandlar": [
+            "Above: endoderm (hindgut), simple columnar; below: ectoderm, stratified squamous",
+            "Lymph: above -> internal iliac (deep) nodes; below -> superficial inguinal",
+            "Above: adenocarcinoma, painless, no palpable groin nodes",
+            "Below: squamous cell carcinoma, painful, palpable inguinal nodes"
+          ],
+          "izoh": "📐 Taroqsimon (pektinat, tishsimon) chiziq - ENTODERMA (orqa ichak) va EKTODERMA (proktodeum - orqa chuqurcha) tutashgan joy. Shuning uchun undan yuqori va pastdagi hamma narsa farq qiladi.\n\n⬆️ Chiziqdan YUQORI:\n• kelib chiqishi: entoderma;\n• epiteliy: bir qavatli silindrsimon (ichak tipidagi);\n• limfa: CHUQUR - ichki yonbosh limfa tugunlari;\n• o'sma: ADENOKARSINOMA; og'riqsiz, chov tugunlari paypaslanmaydi;\n• ichki gemorroy - og'riqsiz.\n\n⬇️ Chiziqdan PASTDA:\n• kelib chiqishi: ektoderma;\n• epiteliy: ko'p qavatli yassi, muguzlanmaydigan;\n• limfa: YUZA CHOV limfa tugunlari;\n• o'sma: YASSI HUJAYRALI karsinoma (HPV bilan bog'liq); og'riqli, chov tugunlari kattalashgan va paypaslanadi;\n• tashqi gemorroy va anal yoriq - og'riqli.\n\n💡 USMLE: \"chov limfadenopatiyasi + anal o'sma\" -> taroqsimon chiziqdan PASTDAGI jarayon. Moyak esa chovga EMAS, paraaortal tugunlarga drenajlanadi - adashtirmang.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_25.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Internal vs external hemorrhoids",
+          "bandlar": [
+            "Internal: dilated anal venous plexus ABOVE pectinate line",
+            "Internal: visceral innervation - painless bleeding; covered by mucosa",
+            "External: BELOW the line, inferior rectal veins; covered by skin",
+            "External: somatic (inferior rectal n.) - painful if thrombosed"
+          ],
+          "izoh": "🍇 Gemorroy - anal venoz chigalning patologik kengayishi (varikozi).\n\nXavf omillari: keksa yosh, surunkali QABZIYAT va kuchanish, homiladorlik, uzoq o'tirish.\n\n🟣 ICHKI gemorroy:\n• taroqsimon chiziqdan YUQORIDA;\n• yuqori to'g'ri ichak venalari tarmoqlari (ichki venoz chigal);\n• to'g'ri ichak SHILLIQ qavati bilan qoplangan;\n• visseral innervatsiya -> OG'RIQSIZ;\n• asosiy belgi: najas ustida yoki unitazda tiniq qizil qon, tushib chiqish (prolaps).\n\n🟣 TASHQI gemorroy:\n• taroqsimon chiziqdan PASTDA;\n• pastki to'g'ri ichak venalari;\n• TERI (anoderma) bilan qoplangan;\n• somatik innervatsiya (uyat nervining pastki to'g'ri ichak tarmog'i) -> TROMBOZ bo'lsa juda OG'RIQLI, ko'kimtir tugun.\n\n💡 USMLE:\n• \"og'riqsiz tiniq qizil qon\" -> ichki gemorroy;\n• \"to'satdan og'riqli ko'k tugun anus chetida\" -> trombozlangan tashqi gemorroy;\n• 40-50 yoshdan oshgan bemorda rektal qon ketishini faqat gemorroyga bog'lamang - kolonoskopiya bilan saratonni istisno qiling.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_26.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Anal fissure",
+          "bandlar": [
+            "Tear in the anoderm BELOW the pectinate line",
+            "Pain during defecation; blood on toilet paper",
+            "Posterior midline - the most poorly perfused area",
+            "Associated with low-fiber diet and constipation"
+          ],
+          "izoh": "✂️ Anal yoriq (fissura ani) - taroqsimon chiziqdan PASTDAGI anal teri (anoderma) yorilishi.\n\n🩺 Belgilari:\n• defekatsiya paytida va undan keyin kuchli, kesuvchi OG'RIQ (somatik innervatsiya - uyat nervi);\n• tualet qog'ozida yoki najas ustida oz miqdorda tiniq qizil qon;\n• og'riq tufayli bemor hojatdan qochadi -> qabziyat kuchayadi -> yoriq chuqurlashadi (yovuz doira);\n• ichki sfinkter spazmi.\n\n📍 Joylashuvi: ko'pincha ORQA O'RTA CHIZIQDA (soat 6 da, litotomiya holatida) - chunki bu soha eng KAM qon bilan ta'minlangan, sfinkter spazmi esa qon oqimini yanada kamaytiradi.\n\nSabablar: tolaga kambag'al ovqatlanish, qattiq najas, qabziyat.\n\n⚠️ Yoriq o'rta chiziqdan TASHQARIDA (lateral) yoki ko'p bo'lsa - Kron kasalligi, sil, OIV, sifilis, saratonni o'ylang.\n\n💊 Davolash: tola, suyuqlik, iliq vannalar; sfinkterni bo'shashtiruvchi nitratlar, kalsiy blokatorlari; botulotoksin; kerak bo'lsa lateral ichki sfinkterotomiya.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_27.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Liver lobule architecture",
+          "bandlar": [
+            "Hexagonal lobules around a central vein; portal triads at the corners",
+            "Triad: portal vein, hepatic artery, bile duct (+ lymphatics)",
+            "Hepatocytes: apical side -> bile canaliculi; basolateral -> sinusoids",
+            "Kupffer cells in sinusoids; stellate (Ito) cells in space of Disse"
+          ],
+          "izoh": "🔬 Jigar bo'lakchasi (lobulus hepatis) - jigarning klassik struktura birligi.\n\n⬡ Tuzilishi:\n• OLTI QIRRALI bo'lakcha, markazida MARKAZIY vena;\n• burchaklarida PORTAL TRIADALAR: darvoza venasi tarmog'i, jigar arteriyasi tarmog'i, o't yo'li (+ limfa tomirlari);\n• triadadan markazga qarab gepatotsit tasmalari va ular orasida SINUSOIDLAR yotadi.\n\n🧱 Gepatotsitning qutblanishi:\n• APIKAL yuza - o't kapillyarlariga (canaliculi biliferi) qaragan -> o't shu yerga ajraladi;\n• BAZOLATERAL yuza - sinusoidlarga (Disse bo'shlig'iga) qaragan -> qon bilan modda almashinuvi.\n\n🧹 KUPFER hujayralari - sinusoidlardagi maxsus makrofaglar; bakteriyalar va eskirgan/shikastlangan eritrotsitlarni yutadi.\n\n⭐ JIGAR YULDUZSIMON (Ito) hujayralari - Disse bo'shlig'ida:\n• tinch holatda A VITAMINI saqlaydi;\n• faollashganda (alkogol, virus) hujayradan tashqari matriks (kollagen) ishlab chiqaradi -> jigar FIBROZI va sirroz.\n\n🩸 Qon: darvoza venasi (~80%) + jigar arteriyasi (~20%) -> sinusoidlarda aralashadi -> markaziy vena. O't esa teskari yo'nalishda - triada tomon oqadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_28.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Liver zones (acinus)",
+          "bandlar": [
+            "Zone I (periportal): best oxygenated; viral hepatitis; ingested toxins (cocaine)",
+            "Zone II (intermediate): yellow fever",
+            "Zone III (centrilobular): least O2 - first hit by ischemia; most CYP450",
+            "Zone III: ethanol, CCl4, rifampin, acetaminophen; alcoholic hepatitis"
+          ],
+          "izoh": "🎯 Jigar atsinusi zonalari - portal triadadan markaziy vena tomon qon oqimi bo'yicha ajratiladi.\n\n🔵 ZONA I - PERIPORTAL (triadaga yaqin):\n• eng ko'p KISLOROD oladi -> qon aylanishi buzilishiga eng chidamli;\n• VIRUSLI gepatit birinchi shu yerni zararlaydi;\n• yutilgan toksinlar (masalan, KOKAIN) ta'siri.\n\n🟡 ZONA II - ORALIQ:\n• SARIQ ISITMA (yellow fever) - o'ziga xos zararlanish.\n\n🔴 ZONA III - SENTROLOBULYAR (markaziy venaga yaqin):\n• eng KAM kislorod -> ISHEMIYA (shok, yurak yetishmovchiligi) da birinchi zararlanadi;\n• SITOXROM P-450 eng ko'p -> metabolik toksinlarga eng sezgir: ETANOL, CCl4, RIFAMPITSIN, PARATSETAMOL (atsetaminofen - toksik NAPQI metaboliti);\n• ALKOGOLLI gepatit shu zonada boshlanadi.\n\n💡 USMLE:\n• \"shok/gipotenziyadan keyin transaminazalar keskin oshdi\" -> zona III (\"ishemik gepatit\");\n• \"paratsetamol zaharlanishi biopsiyasi\" -> sentrolobulyar nekroz; antidot - N-atsetilsistein.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d5_29.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        }
+      ],
+      "savollar": [
+        {
+          "vinyetka": "A 58-year-old man who takes ibuprofen daily for arthritis presents with hematemesis and hypotension. Endoscopy shows a deep ulcer in the posterior wall of the duodenal bulb with an actively bleeding vessel.",
+          "savol": "Which artery is most likely bleeding?",
+          "javoblar": [
+            "Gastroduodenal artery",
+            "Left gastric artery",
+            "Splenic artery",
+            "Superior mesenteric artery",
+            "Right gastroepiploic artery"
+          ],
+          "togri": 0,
+          "izoh": "Duodenum bulbusining ORQA devoridagi yara orqasida oshqozon-o'n ikki barmoq arteriyasi (GDA) yotadi - kuchli qon ketishning klassik manbai.",
+          "vinyetka_uz": "Artrit uchun har kuni ibuprofen ichadigan 58 yoshli erkak qon qusish va gipotenziya bilan keldi. Endoskopiyada o'n ikki barmoqli ichak bulbusining orqa devorida chuqur yara va undan faol qon ketayotgan tomir aniqlandi.",
+          "savol_uz": "Qaysi arteriyadan qon ketayotgani ehtimoli eng yuqori?",
+          "javoblar_uz": [
+            "oshqozon-o'n ikki barmoq arteriyasi",
+            "chap oshqozon arteriyasi",
+            "taloq arteriyasi",
+            "yuqori tutqich arteriyasi",
+            "o'ng gastroepiploik arteriya"
+          ]
+        },
+        {
+          "vinyetka": "A 66-year-old woman has melena and dizziness. Endoscopy reveals a gastric ulcer on the lesser curvature of the stomach that has eroded into an adjacent artery.",
+          "savol": "Which artery has most likely been eroded?",
+          "javoblar": [
+            "Left gastric artery",
+            "Gastroduodenal artery",
+            "Short gastric arteries",
+            "Left gastroepiploic artery",
+            "Inferior pancreaticoduodenal artery"
+          ],
+          "togri": 0,
+          "izoh": "Kichik egrilik bo'ylab chap oshqozon arteriyasi yuradi - kichik egrilik yarasi shu arteriyani yemiradi.",
+          "vinyetka_uz": "66 yoshli ayolda melena va bosh aylanishi bor. Endoskopiyada oshqozonning kichik egriligida qo'shni arteriyani yemirgan yara topildi.",
+          "savol_uz": "Qaysi arteriya yemirilgan bo'lishi ehtimoli eng yuqori?",
+          "javoblar_uz": [
+            "chap oshqozon arteriyasi",
+            "oshqozon-o'n ikki barmoq arteriyasi",
+            "kalta oshqozon arteriyalari",
+            "chap gastroepiploik arteriya",
+            "pastki pankreatoduodenal arteriya"
+          ]
+        },
+        {
+          "vinyetka": "A 45-year-old man with long-standing epigastric pain develops sudden severe abdominal pain and a rigid abdomen. He also reports pain at the tip of his right shoulder. Upright chest x-ray shows air under the diaphragm.",
+          "savol": "The shoulder pain is carried by which nerve roots?",
+          "javoblar": [
+            "C3-C5 via the phrenic nerve",
+            "T5-T9 via greater splanchnic nerves",
+            "T10 via intercostal nerves",
+            "S2-S4 via pelvic splanchnic nerves",
+            "L1 via the iliohypogastric nerve"
+          ],
+          "togri": 0,
+          "izoh": "Old devor duodenal yarasi teshilib, havo diafragma ostiga chiqdi. Diafragma ta'sirlanishi frenik nerv (C3-C5) orqali yelka og'rig'i beradi.",
+          "vinyetka_uz": "Uzoq vaqtdan beri epigastral og'rig'i bo'lgan 45 yoshli erkakda to'satdan kuchli qorin og'rig'i va taxtasimon qorin paydo bo'ldi. U o'ng yelka uchida ham og'riq sezmoqda. Tik holatdagi rentgenda diafragma ostida havo bor.",
+          "savol_uz": "Yelka og'rig'i qaysi nerv ildizlari orqali uzatiladi?",
+          "javoblar_uz": [
+            "frenik nerv orqali C3-C5",
+            "katta splanxnik nervlar orqali T5-T9",
+            "qovurg'alararo nerv orqali T10",
+            "tos splanxnik nervlari orqali S2-S4",
+            "yonbosh-qorinosti nervi orqali L1"
+          ]
+        },
+        {
+          "vinyetka": "A thin 24-year-old man has recurrent left flank pain and episodes of gross hematuria. Examination shows a left-sided scrotal varicocele that does not decompress when supine. Doppler shows a dilated left renal vein proximal to the aorta.",
+          "savol": "Which structure compresses the vein?",
+          "javoblar": [
+            "Superior mesenteric artery",
+            "Inferior mesenteric artery",
+            "Celiac trunk",
+            "Left renal artery",
+            "Third part of the duodenum"
+          ],
+          "togri": 0,
+          "izoh": "Nutcracker sindromi: chap buyrak venasi AMS va aorta orasida siqiladi. Chap moyak venasi chap buyrak venasiga quyilgani uchun chap varikotsele.",
+          "vinyetka_uz": "Ozg'in 24 yoshli erkakda takroriy chap bel og'rig'i va makrogematuriya xurujlari bor. Ko'rikda yotganda kichraymaydigan chap varikotsele aniqlandi. Dopplerda aortadan oldingi qismda kengaygan chap buyrak venasi ko'rindi.",
+          "savol_uz": "Venani qaysi tuzilma siqmoqda?",
+          "javoblar_uz": [
+            "yuqori tutqich arteriyasi",
+            "pastki tutqich arteriyasi",
+            "qorin ustuni",
+            "chap buyrak arteriyasi",
+            "duodenumning III qismi"
+          ]
+        },
+        {
+          "vinyetka": "A 19-year-old woman lost 15 kg over 3 months due to anorexia nervosa. She now has postprandial epigastric pain, early satiety and bilious vomiting that improves in the knee-chest position. Imaging shows a dilated stomach and proximal duodenum.",
+          "savol": "Compression of which structure explains her symptoms?",
+          "javoblar": [
+            "Third (horizontal) part of the duodenum",
+            "Pylorus",
+            "Second part of the duodenum",
+            "Duodenojejunal flexure by Treitz",
+            "Common bile duct"
+          ],
+          "togri": 0,
+          "izoh": "AMS sindromi: tutqich yog'i kamayib, aorta-AMS burchagi torayadi va duodenumning III (gorizontal) qismi siqiladi.",
+          "vinyetka_uz": "19 yoshli ayol anoreksiya tufayli 3 oyda 15 kg ozdi. Hozir ovqatdan keyin epigastral og'riq, erta to'yish va tizza-ko'krak holatida yengillashadigan safroli qusish bor. Tasvirda oshqozon va proksimal duodenum kengaygan.",
+          "savol_uz": "Qaysi tuzilmaning siqilishi belgilarni tushuntiradi?",
+          "javoblar_uz": [
+            "duodenumning III (gorizontal) qismi",
+            "pilorus",
+            "duodenumning II qismi",
+            "Treyts burilishi",
+            "umumiy o't yo'li"
+          ]
+        },
+        {
+          "vinyetka": "A 74-year-old man becomes hypotensive during cardiac surgery. Two days later he has left-sided abdominal pain and bloody diarrhea. CT shows wall thickening of the colon at one region.",
+          "savol": "Which segment is most likely affected?",
+          "javoblar": [
+            "Splenic flexure",
+            "Cecum",
+            "Hepatic flexure",
+            "Proximal transverse colon",
+            "Ascending colon"
+          ],
+          "togri": 0,
+          "izoh": "Ishemik kolit: SMA va IMA chegarasidagi watershed zona - taloq burilishi (va to'g'ri-sigmasimon chegara) gipotenziyada birinchi zararlanadi.",
+          "vinyetka_uz": "74 yoshli erkakda yurak operatsiyasi vaqtida gipotenziya bo'ldi. Ikki kundan keyin chap tomonda qorin og'rig'i va qonli ich ketishi boshlandi. KT da chambar ichakning bir sohasida devor qalinlashgan.",
+          "savol_uz": "Qaysi qism zararlangan bo'lishi ehtimoli eng yuqori?",
+          "javoblar_uz": [
+            "taloq burilishi",
+            "ko'r ichak",
+            "jigar burilishi",
+            "ko'ndalang chambar ichak boshi",
+            "ko'tariluvchi chambar ichak"
+          ]
+        },
+        {
+          "vinyetka": "A 35-year-old woman with Crohn disease underwent resection of 100 cm of terminal ileum 4 years ago. She now has fatigue, glossitis, paresthesias of the feet and macrocytic anemia.",
+          "savol": "Malabsorption of which nutrient explains these findings?",
+          "javoblar": [
+            "Vitamin B12",
+            "Iron",
+            "Folate",
+            "Vitamin C",
+            "Vitamin B1"
+          ],
+          "togri": 0,
+          "izoh": "B12 terminal ileumda ichki omil bilan so'riladi. Rezeksiyadan yillar o'tib makrotsitar anemiya va neyropatiya - B12 tanqisligi.",
+          "vinyetka_uz": "Kron kasalligi bo'lgan 35 yoshli ayolga 4 yil oldin terminal ileumning 100 sm qismi rezeksiya qilingan. Hozir unda holsizlik, glossit, oyoqlarda uvishish va makrotsitar anemiya bor.",
+          "savol_uz": "Qaysi moddaning so'rilmasligi bu belgilarni tushuntiradi?",
+          "javoblar_uz": [
+            "B12 vitamini",
+            "temir",
+            "folat",
+            "C vitamini",
+            "B1 vitamini"
+          ]
+        },
+        {
+          "vinyetka": "A 42-year-old woman had a Roux-en-Y gastric bypass 3 years ago, which bypasses the duodenum. She now has fatigue, pica and a microcytic anemia with low ferritin.",
+          "savol": "Where is the deficient nutrient normally absorbed?",
+          "javoblar": [
+            "Duodenum, as Fe2+",
+            "Terminal ileum, with bile salts",
+            "Jejunum, as polyglutamate",
+            "Stomach, bound to intrinsic factor",
+            "Colon, by bacteria"
+          ],
+          "togri": 0,
+          "izoh": "Temir asosan duodenumda Fe2+ shaklida so'riladi. Duodenum chetlab o'tilsa temir tanqisligi anemiyasi rivojlanadi.",
+          "vinyetka_uz": "42 yoshli ayolga 3 yil oldin duodenumni chetlab o'tuvchi Roux-en-Y gastroshunt operatsiyasi qilingan. Hozir holsizlik, pika va ferritini past mikrotsitar anemiya bor.",
+          "savol_uz": "Tanqis modda normada qayerda so'riladi?",
+          "javoblar_uz": [
+            "duodenumda, Fe2+ shaklida",
+            "terminal ileumda, safro tuzlari bilan",
+            "och ichakda, poliglutamat sifatida",
+            "oshqozonda, ichki omilga bog'langan",
+            "yo'g'on ichakda, bakteriyalar orqali"
+          ]
+        },
+        {
+          "vinyetka": "A 55-year-old man with alcoholic cirrhosis vomits a large amount of bright red blood. Endoscopy shows bleeding varices in the distal esophagus.",
+          "savol": "Which portal vein tributary feeds these varices?",
+          "javoblar": [
+            "Left gastric vein",
+            "Paraumbilical veins",
+            "Superior rectal vein",
+            "Inferior epigastric vein",
+            "Azygos vein"
+          ],
+          "togri": 0,
+          "izoh": "Qizilo'ngach varikozlari: portal tomondan chap oshqozon venasi, sistemik tomondan qizilo'ngach venalari (azygosga quyiladi).",
+          "vinyetka_uz": "Alkogolli sirrozi bo'lgan 55 yoshli erkak ko'p miqdorda tiniq qizil qon qusdi. Endoskopiyada qizilo'ngachning pastki qismida qonayotgan varikozlar aniqlandi.",
+          "savol_uz": "Bu varikozlarni darvoza venasining qaysi irmog'i to'ldiradi?",
+          "javoblar_uz": [
+            "chap oshqozon venasi",
+            "kindik atrofi venalari",
+            "yuqori to'g'ri ichak venasi",
+            "pastki epigastral vena",
+            "toq vena (azygos)"
+          ]
+        },
+        {
+          "vinyetka": "A 60-year-old man with cirrhosis and ascites has dilated, tortuous veins radiating from the umbilicus across the anterior abdominal wall.",
+          "savol": "Which veins connect the portal system to these superficial veins?",
+          "javoblar": [
+            "Paraumbilical veins",
+            "Left gastric vein",
+            "Superior rectal vein",
+            "Short gastric veins",
+            "Middle rectal veins"
+          ],
+          "togri": 0,
+          "izoh": "Meduza boshi: kindik atrofi venalari (lig. teres bo'ylab) portal tizimni qorin old devori epigastral venalari bilan bog'laydi.",
+          "vinyetka_uz": "Sirrozi va astsiti bo'lgan 60 yoshli erkakda kindikdan qorin old devori bo'ylab tarqalgan kengaygan, egri-bugri venalar bor.",
+          "savol_uz": "Portal tizimni bu yuza venalar bilan qaysi venalar bog'laydi?",
+          "javoblar_uz": [
+            "kindik atrofi venalari",
+            "chap oshqozon venasi",
+            "yuqori to'g'ri ichak venasi",
+            "kalta oshqozon venalari",
+            "o'rta to'g'ri ichak venalari"
+          ]
+        },
+        {
+          "vinyetka": "A 57-year-old man with cirrhosis and recurrent variceal bleeding undergoes placement of a stent between the portal vein and a hepatic vein. One week later he is confused and has a flapping tremor of the hands.",
+          "savol": "What is the most likely cause of his new symptoms?",
+          "javoblar": [
+            "Decreased hepatic clearance of ammonia",
+            "Stent thrombosis with portal hypertension",
+            "Hyponatremia from diuretics",
+            "Hepatic artery occlusion",
+            "Subdural hematoma"
+          ],
+          "togri": 0,
+          "izoh": "TIPS portal qonni jigarni chetlab sistemaga o'tkazadi - ammiak tozalanmaydi va jigar entsefalopatiyasi (asterixis) rivojlanadi.",
+          "vinyetka_uz": "Sirrozi va takroriy varikoz qon ketishi bo'lgan 57 yoshli erkakka darvoza venasi bilan jigar venasi orasiga stent qo'yildi. Bir haftadan keyin u chalkash va qo'llarida \"qanot qoqish\" titrog'i bor.",
+          "savol_uz": "Yangi belgilarning eng ehtimolli sababi nima?",
+          "javoblar_uz": [
+            "jigarda ammiak tozalanishining kamayishi",
+            "stent trombozi va portal gipertenziya",
+            "diuretiklardan giponatriyemiya",
+            "jigar arteriyasi okklyuziyasi",
+            "subdural gematoma"
+          ]
+        },
+        {
+          "vinyetka": "A 48-year-old man with chronic constipation notices bright red blood on the stool surface. He has no anal pain. Anoscopy shows dilated vascular cushions covered by mucosa above the pectinate line.",
+          "savol": "These dilated veins ultimately drain into which vessel?",
+          "javoblar": [
+            "Portal vein via the inferior mesenteric vein",
+            "IVC via the internal pudendal vein",
+            "IVC via the gonadal vein",
+            "Azygos vein",
+            "Great saphenous vein"
+          ],
+          "togri": 0,
+          "izoh": "Ichki gemorroy taroqsimon chiziqdan yuqorida, og'riqsiz. Yuqori to'g'ri ichak venasi -> VMI -> darvoza venasi.",
+          "vinyetka_uz": "Surunkali qabziyati bor 48 yoshli erkak najas ustida tiniq qizil qon ko'rmoqda. Anal og'riq yo'q. Anoskopiyada taroqsimon chiziqdan yuqorida shilliq qavat bilan qoplangan kengaygan tomir yostiqchalari bor.",
+          "savol_uz": "Bu kengaygan venalar oxir-oqibat qaysi tomirga quyiladi?",
+          "javoblar_uz": [
+            "VMI orqali darvoza venasiga",
+            "ichki uyat venasi orqali IVC ga",
+            "jinsiy bez venasi orqali IVC ga",
+            "toq venaga (azygos)",
+            "katta teri osti venasiga"
+          ]
+        },
+        {
+          "vinyetka": "A 30-year-old woman with constipation has severe tearing pain during every bowel movement and a few drops of blood on toilet paper. Gentle examination shows a linear tear in the anoderm.",
+          "savol": "Where is this lesion most likely located?",
+          "javoblar": [
+            "Posterior midline, below the pectinate line",
+            "Anterior midline, above the pectinate line",
+            "Lateral wall, above the pectinate line",
+            "Rectosigmoid junction",
+            "Posterior midline, above the pectinate line"
+          ],
+          "togri": 0,
+          "izoh": "Anal yoriq - taroqsimon chiziqdan pastda (og'riqli), eng kam qon bilan ta'minlangan ORQA o'rta chiziqda.",
+          "vinyetka_uz": "Qabziyati bor 30 yoshli ayolda har defekatsiyada kuchli yirtuvchi og'riq va tualet qog'ozida bir necha tomchi qon bor. Ehtiyotkor ko'rikda anodermada chiziqsimon yorilish aniqlandi.",
+          "savol_uz": "Bu zararlanish ko'pincha qayerda joylashadi?",
+          "javoblar_uz": [
+            "orqa o'rta chiziq, taroqsimon chiziqdan pastda",
+            "old o'rta chiziq, taroqsimon chiziqdan yuqorida",
+            "yon devor, taroqsimon chiziqdan yuqorida",
+            "to'g'ri-sigmasimon chegara",
+            "orqa o'rta chiziq, taroqsimon chiziqdan yuqorida"
+          ]
+        },
+        {
+          "vinyetka": "A 52-year-old man with HIV has a painful anal mass. Biopsy shows squamous cell carcinoma arising below the pectinate line.",
+          "savol": "To which lymph nodes would this tumor first spread?",
+          "javoblar": [
+            "Superficial inguinal nodes",
+            "Internal iliac nodes",
+            "Para-aortic nodes",
+            "Inferior mesenteric nodes",
+            "Celiac nodes"
+          ],
+          "togri": 0,
+          "izoh": "Taroqsimon chiziqdan pastki qism (ektoderma) limfasi yuza chov tugunlariga oqadi; yuqori qism - ichki yonbosh tugunlariga.",
+          "vinyetka_uz": "OIV infeksiyasi bor 52 yoshli erkakda og'riqli anal o'sma bor. Biopsiyada taroqsimon chiziqdan pastda o'sgan yassi hujayrali karsinoma aniqlandi.",
+          "savol_uz": "Bu o'sma birinchi navbatda qaysi limfa tugunlariga tarqaladi?",
+          "javoblar_uz": [
+            "yuza chov tugunlari",
+            "ichki yonbosh tugunlari",
+            "paraaortal tugunlar",
+            "pastki tutqich tugunlari",
+            "qorin ustuni tugunlari"
+          ]
+        },
+        {
+          "vinyetka": "A 23-year-old woman ingests a large amount of acetaminophen. Three days later her transaminases are markedly elevated and a liver biopsy is performed.",
+          "savol": "Which region of the hepatic lobule shows the most necrosis?",
+          "javoblar": [
+            "Zone III (centrilobular)",
+            "Zone I (periportal)",
+            "Zone II (intermediate)",
+            "Portal triads",
+            "Bile ductules only"
+          ],
+          "togri": 0,
+          "izoh": "Zona III da sitoxrom P450 eng ko'p va kislorod eng kam - paratsetamolning toksik metaboliti (NAPQI) sentrolobulyar nekroz beradi.",
+          "vinyetka_uz": "23 yoshli ayol ko'p miqdorda paratsetamol (atsetaminofen) ichdi. Uch kundan keyin transaminazalar keskin oshgan va jigar biopsiyasi olindi.",
+          "savol_uz": "Jigar bo'lakchasining qaysi sohasida nekroz eng kuchli?",
+          "javoblar_uz": [
+            "zona III (sentrolobulyar)",
+            "zona I (periportal)",
+            "zona II (oraliq)",
+            "portal triadalar",
+            "faqat o't yo'lchalari"
+          ]
+        },
+        {
+          "vinyetka": "A 50-year-old man with chronic hepatitis C develops progressive liver fibrosis. Research shows that cells in the space of Disse lose their vitamin A droplets and begin producing collagen.",
+          "savol": "Which cells are these?",
+          "javoblar": [
+            "Hepatic stellate (Ito) cells",
+            "Kupffer cells",
+            "Hepatocytes",
+            "Sinusoidal endothelial cells",
+            "Cholangiocytes"
+          ],
+          "togri": 0,
+          "izoh": "Ito (yulduzsimon) hujayralar Disse bo'shlig'ida A vitaminini saqlaydi; faollashganda kollagen ishlab chiqarib fibrozga sabab bo'ladi.",
+          "vinyetka_uz": "Surunkali gepatit C bo'lgan 50 yoshli erkakda jigar fibrozi kuchaymoqda. Tadqiqotda Disse bo'shlig'idagi hujayralar A vitamini tomchilarini yo'qotib, kollagen ishlab chiqara boshlagani ko'rsatildi.",
+          "savol_uz": "Bu qanday hujayralar?",
+          "javoblar_uz": [
+            "jigar yulduzsimon (Ito) hujayralari",
+            "Kupfer hujayralari",
+            "gepatotsitlar",
+            "sinusoid endoteliy hujayralari",
+            "xolangiotsitlar"
+          ]
+        },
+        {
+          "vinyetka": "A 12-year-old boy develops typhoid fever after eating contaminated food. Salmonella Typhi enters the body by crossing specialized epithelial cells overlying lymphoid follicles in the distal ileum.",
+          "savol": "Which cells normally sample luminal antigens at this site?",
+          "javoblar": [
+            "Microfold (M) cells",
+            "Paneth cells",
+            "Goblet cells",
+            "Enteroendocrine cells",
+            "Tuft cells"
+          ],
+          "togri": 0,
+          "izoh": "Peyer pilakchalari ustidagi M hujayralar antigenlarni olib immun hujayralarga beradi; Salmonella shu yo'l bilan kiradi. Natija - IgA javobi.",
+          "vinyetka_uz": "12 yoshli bola ifloslangan ovqat yegandan keyin qorin tifi bilan kasallandi. Salmonella Typhi distal ileumdagi limfoid follikullar ustidagi maxsus epiteliy hujayralari orqali organizmga kiradi.",
+          "savol_uz": "Bu sohada normada ichak antigenlarini qaysi hujayralar \"tatib ko'radi\"?",
+          "javoblar_uz": [
+            "mikroburma (M) hujayralar",
+            "Paneth hujayralari",
+            "qadahsimon hujayralar",
+            "enteroendokrin hujayralar",
+            "cho'tkasimon hujayralar"
+          ]
+        }
+      ]
     }
   ]
 }
