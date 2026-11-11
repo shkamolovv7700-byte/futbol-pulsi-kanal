@@ -312,7 +312,8 @@
     "yt:aqMFGtBGHRc",
     "https://sports.uz/oz/news/view/flik-barsa-futbolchilarini-ketkazib-yubordi",
     "https://sports.uz/oz/news/view/o-zbekistonlik-mashhur-futbolchi-hali-maydonda-so-nggi-so-zini-aytmaganini-takidladi",
-    "https://daryo.uz/2026/11/11/rossiyaga-qarshi-oyinda-ozbekiston-favorit-valeriy-nepomnyashiy/"
+    "https://daryo.uz/2026/11/11/rossiyaga-qarshi-oyinda-ozbekiston-favorit-valeriy-nepomnyashiy/",
+    "https://sports.uz/oz/news/view/syorlot-atletiko-dan-ketishi-mumkin"
   ],
   "used_quiz": [
     23,
@@ -344,7 +345,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Kurtua «Rasing»ga qarshi o‘yinda maydonga tushishi mumkin",
     "Brunu Fernandes «Manchester Yunayted» klubini tark etishi mumkin",
     "Ronaldu: “Bu yutuq sizniki hamdir”",
     "“Xet-trik bilan jamoam g‘alabasiga yordam berganimdan xursandman” — Ronaldu",
@@ -403,9 +403,10 @@
     "Yanvarda yuboringlar! \"Napoli\" \"Barsa\"dan oʻyinchi soʻrayapti",
     "Flik \"Barsa\" futbolchilarini ketkazib yubordi",
     "O'zbekistonlik mashhur futbolchi hali maydonda so'nggi so'zini aytmaganini ta'kidladi",
-    "“Rossiyaga qarshi o‘yinda O‘zbekiston favorit” — Valeriy Nepomnyashiy"
+    "“Rossiyaga qarshi o‘yinda O‘zbekiston favorit” — Valeriy Nepomnyashiy",
+    "Sёрlot «Atletiko»dan ketishi mumkin"
   ],
-  "last_slot": "2026-11-11 11:00",
+  "last_slot": "2026-11-11 12:00",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 4,
@@ -1517,7 +1518,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 800,
+    "last_id": 801,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
