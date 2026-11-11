@@ -317,7 +317,8 @@
     "https://sports.uz/oz/news/view/van-deyk-mavsum-yakunida-liverpul-dan-ketishi-mumkinligini-istisno-etmadi",
     "yt:Iazh_BIa7Aw",
     "yt:xjI1Kv9C7JI",
-    "https://sports.uz/oz/news/view/kannavaro-o-zbekiston-terma-jamoasidan-ketishi-haqida-gapirdi"
+    "https://sports.uz/oz/news/view/kannavaro-o-zbekiston-terma-jamoasidan-ketishi-haqida-gapirdi",
+    "yt:LcWWVJeRO60"
   ],
   "used_quiz": [
     23,
@@ -412,9 +413,9 @@
     "Van Deyk mavsum yakunida «Liverpul»dan ketishi mumkinligini istisno etmadi",
     "Kannavaro O‘zbekiston terma jamoasidan ketishi haqida gapirdi"
   ],
-  "last_slot": "2026-11-11 21:30",
+  "last_slot": "2026-11-11 22:30",
   "scorers_idx": 4,
-  "last_video_source": "Premier League",
+  "last_video_source": "LaLiga",
   "table_idx": 5,
   "live": {
     "401915395": {
@@ -1524,7 +1525,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 809,
+    "last_id": 810,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
