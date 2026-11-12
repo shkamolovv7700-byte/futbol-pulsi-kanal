@@ -319,7 +319,8 @@
     "yt:xjI1Kv9C7JI",
     "https://sports.uz/oz/news/view/kannavaro-o-zbekiston-terma-jamoasidan-ketishi-haqida-gapirdi",
     "yt:LcWWVJeRO60",
-    "https://daryo.uz/2026/11/12/siti-apldan-chetlatilsa-holand-qaysi-jamoaga-otishi-malum-qilindi-manba/"
+    "https://daryo.uz/2026/11/12/siti-apldan-chetlatilsa-holand-qaysi-jamoaga-otishi-malum-qilindi-manba/",
+    "https://sports.uz/oz/news/view/mbappe-zidandan-norozi"
   ],
   "used_quiz": [
     23,
@@ -353,7 +354,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Ronaldu ikki yarim yil ichida ilk bor het-trikka erishdi",
     "Bastoni «Barselona»ga o‘tish uchun Flik bilan shaxsiy suhbat o‘tkazishni istamoqda",
     "David Rayya “Arsenal”dan La Ligaga ketmoqchi",
     "Superliga. “Paxtakor” so‘nggi daqiqalarda kiritilgan gol evaziga g‘alaba qozondi, yana ikkita bahsda durang qayd etildi",
@@ -412,9 +412,10 @@
     "Sёрlot «Atletiko»dan ketishi mumkin",
     "Van Deyk mavsum yakunida «Liverpul»dan ketishi mumkinligini istisno etmadi",
     "Kannavaro O‘zbekiston terma jamoasidan ketishi haqida gapirdi",
-    "“Siti” APLdan chetlatilsa, Holand qaysi jamoaga o‘tishi ma’lum qilindi — manba"
+    "“Siti” APLdan chetlatilsa, Holand qaysi jamoaga o‘tishi ma’lum qilindi — manba",
+    "Mbappe Zidandan norozi"
   ],
-  "last_slot": "2026-11-12 9:00",
+  "last_slot": "2026-11-12 10:00",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -1526,7 +1527,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 811,
+    "last_id": 812,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
