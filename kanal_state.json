@@ -322,7 +322,8 @@
     "https://daryo.uz/2026/11/12/siti-apldan-chetlatilsa-holand-qaysi-jamoaga-otishi-malum-qilindi-manba/",
     "https://sports.uz/oz/news/view/mbappe-zidandan-norozi",
     "https://kun.uz/news/2026/11/12/fabio-kannavaro-ozbekistonda-ishini-davom-ettiradimi-60321",
-    "https://sports.uz/oz/news/view/terma-jamoaga-gvardiolani-olib-kelamiz"
+    "https://sports.uz/oz/news/view/terma-jamoaga-gvardiolani-olib-kelamiz",
+    "https://sports.uz/oz/news/view/ferdinand-manchester-yunayted-ga-pochettinoni-tavsiya-qildi"
   ],
   "used_quiz": [
     23,
@@ -357,7 +358,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Superliga. “Paxtakor” so‘nggi daqiqalarda kiritilgan gol evaziga g‘alaba qozondi, yana ikkita bahsda durang qayd etildi",
     "“Real” va “Barselona” bir futbolchiga qiziqish bildirmoqda — Fichajes",
     "Levandovski \"Arsenal\"ni \"chaqib\" oldi",
     "Anchelotti \"Barsa\"ga keskin javob qaytardi",
@@ -416,9 +416,10 @@
     "“Siti” APLdan chetlatilsa, Holand qaysi jamoaga o‘tishi ma’lum qilindi — manba",
     "Mbappe Zidandan norozi",
     "Fabio Kannavaro O‘zbekistonda ishini davom ettiradimi?",
-    "Terma jamoaga Gvardiolani olib kelamiz"
+    "Terma jamoaga Gvardiolani olib kelamiz",
+    "Ferdinand «Manchester Yunayted»ga Pochettinoni tavsiya qildi"
   ],
-  "last_slot": "2026-11-12 13:00",
+  "last_slot": "2026-11-12 14:00",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -1530,7 +1531,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 815,
+    "last_id": 816,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
