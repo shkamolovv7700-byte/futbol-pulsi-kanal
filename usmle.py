@@ -233,6 +233,8 @@ def lesson_item(data: dict, now: datetime):
             d["pos"] = 0
             d["qoshimcha"] = 0  # flesh-karta / rasm-test hisobi
             d.pop("xulosa", None)
+            if d["joriy"]:
+                state.setdefault("tarix", {})[today] = d["joriy"]  # yakshanba 'hafta xulosasi' uchun
         d["kun"], d["boshlanish"] = today, d["pos"]  # bugun shu tartibdan boshladik
     cur = step_items(lessons, d.get("joriy"))
     if not cur or d["pos"] >= len(cur):
@@ -272,7 +274,14 @@ async def post_lesson(client: TelegramClient, channel, step: str, pos: int, tota
         both = [f"{en} ({u})" if u and len(f"{en} ({u})") <= 100 else en
                 for en, u in zip(item["javoblar"], uz + [""] * len(item["javoblar"]))]
         options, correct = shuffled({**item, "javoblar": both})
-        if step.startswith("aralash:"):
+        if step == "takrorlash":
+            title = f"🔁 <b>TAKRORLASH | Vaziyatli masala</b> | {n + 1}-dars: {html.escape(lesson['nomi'])}"
+        elif step == "imtihon":
+            title = f"📝 <b>HAFTA IMTIHONI {pos + 1}/{total}</b> | {n + 1}-dars: {html.escape(lesson['nomi'])}"
+        elif step.startswith("qiyin:"):
+            title = (f"🏆 <b>HAFTANING ENG QIYIN SAVOLI #{pos + 1}</b> | {n + 1}-dars\n"
+                     f"<i>{html.escape(step.split(':', 1)[1])}</i>")
+        elif step.startswith("aralash:"):
             title = f"🧩 <b>Vaziyatli masala {pos + 1}/{total}</b> | {n + 1}-dars: {html.escape(lesson['nomi'])}"
         else:
             title = f"🧩 <b>Vaziyatli masala {pos + 1}/{total}</b> | {html.escape(head)}"
@@ -288,8 +297,12 @@ async def post_lesson(client: TelegramClient, channel, step: str, pos: int, tota
         if len(poll_q) > 255:
             poll_q = f"🧠 {item['savol']}"
         msg = await client.send_message(channel, text, parse_mode="html")
-        await client.send_file(channel, kanal.build_poll(poll_q[:255], options, True, correct,
-                                                         item["izoh"][:200]), reply_to=msg.id)
+        poll = await client.send_file(channel, kanal.build_poll(poll_q[:255], options, True, correct,
+                                                                item["izoh"][:200]), reply_to=msg.id)
+        if not step.startswith("qiyin:"):  # yakshanba 'eng qiyin savollar' uchun natijalarni keyin o'qiymiz
+            state.setdefault("sorovlar", []).append(
+                {"id": getattr(poll, "id", None), "dars": n, "k": k, "sana": f"{datetime.now():%Y-%m-%d}"})
+            state["sorovlar"] = state["sorovlar"][-300:]
     log.info("%s: %s %d/%d (%s)", head, stage, pos + 1, total, step)
 
 
@@ -376,10 +389,219 @@ async def post_extra(client: TelegramClient, channel, n: int, lesson: dict, k, t
     log.info("%d-dars qo'shimcha post: %s", n + 1, kind)
 
 
+# --- Yakshanba: takrorlash kuni ------------------------------------------------------------------------------
+REVIEW_DAY = 6  # datetime.weekday(): 6 = yakshanba
+MARATHON_START, MARATHON_END, MARATHON_N = 10 * 60, 19 * 60, 14
+WEEKDAYS = ["Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba", "Yakshanba"]
+
+
+def week_lessons(lessons: list[dict], today: datetime) -> list[int]:
+    """Oxirgi 7 kunda mavzusi chiqqan darslar (0 dan); tarix bo'lmasa - oxirgi o'tilgan 2 dars."""
+    since = f"{today - timedelta(days=7):%Y-%m-%d}"
+    done = [int(s.split(":")[0]) - 1 for day, s in sorted(state.get("tarix", {}).items())
+            if day >= since and s.endswith(":postlar") and not s.startswith("aralash")]
+    if not done:
+        taught = [int(s.split(":")[0]) - 1 for s in state.get("dars", {}).get("bajarildi", []) if s.endswith(":postlar")]
+        done = taught[-2:]
+    return [n for n in dict.fromkeys(done) if n < len(lessons)]
+
+
+def taught_lessons(lessons: list[dict]) -> list[int]:
+    d = state.get("dars", {})
+    steps = d.get("bajarildi", []) + ([d["joriy"]] if d.get("joriy") else [])
+    return [n for n in dict.fromkeys(int(s.split(":")[0]) - 1 for s in steps if s.endswith(":postlar"))
+            if n < len(lessons)]
+
+
+def build_review(lessons: list[dict], today: datetime) -> list[dict]:
+    """Yakshanba rejasi: [{"t": "HH:MM", "turi": ..., ...}] - kun boshida bir marta tuziladi."""
+    rnd = random.Random(f"{today:%Y-%m-%d}")
+    seen = set(state.get("takrorlangan", []))
+    week = week_lessons(lessons, today)
+    pool_cases = [(n, k) for n in taught_lessons(lessons) for k in range(len(lessons[n]["savollar"]))]
+    week_cases = [(n, k) for n in week for k in range(len(lessons[n]["savollar"]))]
+    cards = [(n, k) for n in taught_lessons(lessons) for k in range(len(lessons[n].get("kartalar", [])))]
+    tests = [(n, k) for n in taught_lessons(lessons) for k in range(len(lessons[n].get("rasm_testlar", [])))]
+
+    def take(pool, key, used):
+        fresh = [x for x in pool if f"{key}:{x[0]}:{x[1]}" not in seen and x not in used]
+        rnd.shuffle(fresh)
+        if not fresh:  # hammasi takrorlangan - yana boshidan
+            fresh = [x for x in pool if x not in used]
+            rnd.shuffle(fresh)
+        return fresh[0] if fresh else None
+
+    plan = [{"t": "09:00", "turi": "hafta_xulosa", "darslar": week}]
+    used_cases, used_cards, used_tests = [], [], []
+    cycle = ["masala", "karta", "masala", "rasm_test"]
+    step = (MARATHON_END - MARATHON_START) / (MARATHON_N - 1)
+    for i in range(MARATHON_N):
+        m = int(MARATHON_START + i * step)
+        hhmm = f"{m // 60:02d}:{m % 60:02d}"
+        if hhmm == "13:00":
+            m += 5
+            hhmm = f"{m // 60:02d}:{m % 60:02d}"
+        kind = cycle[i % len(cycle)]
+        pick = None
+        if kind == "karta":
+            pick = take(cards, "karta", used_cards)
+            used_cards.append(pick)
+        elif kind == "rasm_test":
+            pick = take(tests, "rasm_test", used_tests)
+            used_tests.append(pick)
+        if pick is None:
+            kind, pick = "masala", take(pool_cases, "masala", used_cases)
+            used_cases.append(pick)
+        if pick:
+            plan.append({"t": hhmm, "turi": kind, "n": pick[0], "k": pick[1]})
+    plan.append({"t": "13:00", "turi": "eng_qiyin", "darslar": week})
+    exam = []
+    for _ in range(10):
+        pick = take(week_cases or pool_cases, "masala", used_cases + exam)
+        if pick:
+            exam.append(pick)
+    plan.append({"t": "19:55", "turi": "imtihon_bosh", "soni": len(exam)})
+    for i, (n, k) in enumerate(exam):
+        plan.append({"t": f"20:{i * 5:02d}", "turi": "imtihon", "n": n, "k": k, "i": i, "soni": len(exam)})
+    plan.append({"t": "20:55", "turi": "imtihon_natija", "soni": len(exam)})
+    plan.append({"t": "21:30", "turi": "reja"})
+    return sorted(plan, key=lambda x: x["t"])
+
+
+async def hardest_cases(client: TelegramClient, channel, lessons: list[dict], today: datetime) -> list[tuple]:
+    """Oxirgi 7 kundagi viktorinalardan to'g'ri javob ulushi eng past 3 tasi: [(n, k, foiz, ovozlar)]."""
+    since = f"{today - timedelta(days=7):%Y-%m-%d}"
+    recs = [r for r in state.get("sorovlar", []) if r.get("id") and r.get("sana", "") >= since]
+    stats = []
+    for i in range(0, len(recs), 50):
+        chunk = recs[i:i + 50]
+        msgs = await client.get_messages(channel, ids=[r["id"] for r in chunk])
+        for r, m in zip(chunk, msgs):
+            res = getattr(getattr(getattr(m, "media", None), "results", None), "results", None) if m else None
+            total = getattr(getattr(getattr(m, "media", None), "results", None), "total_voters", 0) if m else 0
+            if not res or not total or total < 3:
+                continue
+            right = sum(x.voters for x in res if getattr(x, "correct", False))
+            stats.append((r["dars"], r["k"], round(100 * right / total), total))
+    stats.sort(key=lambda s: (s[2], -s[3]))
+    if len(stats) < 3:  # ovozlar kam - shu hafta darslaridan tasodifiy muhim savollar
+        rnd = random.Random(f"qiyin{today:%Y-%m-%d}")
+        extra = [(n, k, None, 0) for n in week_lessons(lessons, today) for k in range(len(lessons[n]["savollar"]))]
+        rnd.shuffle(extra)
+        stats += [e for e in extra if (e[0], e[1]) not in {(s[0], s[1]) for s in stats}]
+    return stats[:3]
+
+
+def upcoming_plan(lessons_data: dict, today: datetime) -> list[str]:
+    """Kelasi hafta (dushanba-shanba) uchun taxminiy jadval."""
+    d = state.get("dars", {})
+    done = list(d.get("bajarildi", [])) + ([d["joriy"]] if d.get("joriy") else [])
+    steps = [s for s in plan_steps(lessons_data) if s not in done]
+    n_lessons = len(lessons_data["darslar"])
+    nxt = n_lessons + 1
+    lines = []
+    for i in range(1, 7):
+        day = today + timedelta(days=i)
+        if steps:
+            s = steps.pop(0)
+            if s.startswith("aralash:"):
+                txt = f"{s.split(':')[1].replace(',', '- va ')}-darslar vaziyatli masalalari"
+            else:
+                num, stage = s.split(":")
+                nom = lessons_data["darslar"][int(num) - 1]["nomi"] if int(num) <= n_lessons else "yangi dars"
+                txt = f"{num}-dars: {nom}" + (" - vaziyatli masalalar" if stage == "savollar" else "")
+        else:
+            txt = f"{nxt}-dars (fayl kutilmoqda)" if i % 2 else f"{nxt}-dars vaziyatli masalalari"
+            nxt += 0 if i % 2 else 1
+        lines.append(f"• {WEEKDAYS[day.weekday()]} ({day:%d.%m}) - {txt}")
+    return lines
+
+
+async def post_review(client: TelegramClient, channel, lessons_data: dict, item: dict, today: datetime) -> None:
+    lessons = lessons_data["darslar"]
+    kind = item["turi"]
+    if kind == "hafta_xulosa":
+        blocks = []
+        for n in item["darslar"]:
+            L = lessons[n]
+            facts = L.get("xulosa") or [p["sarlavha"] for p in L["postlar"]]
+            blocks.append(f"📚 <b>{n + 1}-dars: {html.escape(L['nomi'])}</b>\n" +
+                          "\n".join(f"• {html.escape(f)}" for f in facts[:4]))
+        text = (f"🔁 <b>TAKRORLASH KUNI | Hafta xulosasi</b>\n\nBugun yangi dars yo'q - shu hafta o'tilganlarni "
+                f"mustahkamlaymiz. Kun bo'yi: takrorlash marafoni, 13:00 da haftaning eng qiyin savollari, "
+                f"20:00 da hafta imtihoni.\n\n" + "\n\n".join(blocks) + f"\n\n#takrorlash #hafta_xulosasi{FOOTER}")
+        await client.send_message(channel, text[:4096], parse_mode="html", link_preview=False)
+    elif kind == "masala":
+        n, k = item["n"], item["k"]
+        await post_lesson(client, channel, "takrorlash", 0, 1, (n, "savollar", k, lessons[n]["savollar"][k]))
+    elif kind in ("karta", "rasm_test"):
+        n, k = item["n"], item["k"]
+        src = lessons[n]["kartalar" if kind == "karta" else "rasm_testlar"][k]
+        await post_extra(client, channel, n, lessons[n], k, None, (kind, src))
+    elif kind == "eng_qiyin":
+        top = await hardest_cases(client, channel, lessons, today)
+        intro = ("🏆 <b>HAFTANING ENG QIYIN SAVOLLARI</b>\n\nKanaldagi viktorina natijalariga ko'ra shu hafta eng ko'p "
+                 "xato qilingan savollar. Yana bir bor urinib ko'ring - bu safar to'g'ri javob berasizmi?" +
+                 f"\n\n#takrorlash #eng_qiyin{FOOTER}")
+        await client.send_message(channel, intro, parse_mode="html")
+        for i, (n, k, pct, votes) in enumerate(top):
+            note = f"Faqat {pct}% to'g'ri javob berdi ({votes} ta ovoz)" if pct is not None else "Muhim savol"
+            await post_lesson(client, channel, f"qiyin:{note}", i, len(top), (n, "savollar", k, lessons[n]["savollar"][k]))
+    elif kind == "imtihon_bosh":
+        await client.send_message(channel, (
+            f"📝 <b>HAFTA IMTIHONI - 20:00</b>\n\nHozir shu hafta darslaridan {item['soni']} ta savol ketma-ket, "
+            f"har 5 daqiqada bittadan chiqadi. Qog'oz oling va to'g'ri javoblaringizni sanab boring! "
+            f"Natijani 20:55 da baholaymiz.\n\n#takrorlash #hafta_imtihoni{FOOTER}"), parse_mode="html")
+    elif kind == "imtihon":
+        n, k = item["n"], item["k"]
+        await post_lesson(client, channel, "imtihon", item["i"], item["soni"], (n, "savollar", k, lessons[n]["savollar"][k]))
+    elif kind == "imtihon_natija":
+        s = item["soni"]
+        await client.send_message(channel, (
+            f"📊 <b>HAFTA IMTIHONI - NATIJANGIZ</b>\n\nNechta to'g'ri javob berdingiz?\n\n"
+            f"🥇 {max(s - 2, 1)}-{s} ta - a'lo! Mavzular yaxshi o'zlashtirilgan.\n"
+            f"🥈 {max(s // 2, 1)}-{max(s - 3, 1)} ta - yaxshi, xato qilgan mavzularni qayta o'qing.\n"
+            f"📖 {max(s // 2 - 1, 0)} ta va undan kam - hafta xulosasi va kechki xulosalarni qayta ko'rib chiqing.\n\n"
+            f"💬 Natijangizni izohlarda yozing!\n\n#takrorlash #hafta_imtihoni{FOOTER}"), parse_mode="html")
+    elif kind == "reja":
+        lines = "\n".join(html.escape(x) for x in upcoming_plan(lessons_data, today))
+        await client.send_message(channel, (
+            f"📅 <b>KELASI HAFTA REJASI</b>\n\n{lines}\n\n🔁 Yakshanba - yana takrorlash kuni.\n"
+            f"Oldindan tayyorlanib boring! 💪\n\n#reja{FOOTER}"), parse_mode="html")
+    log.info("Takrorlash kuni: %s", kind)
+
+
+def review_due(lessons_data: dict, now: datetime):
+    tk = state.setdefault("takrorlash", {})
+    today = f"{now:%Y-%m-%d}"
+    if tk.get("kun") != today:
+        tk.clear()
+        tk.update(kun=today, reja=build_review(lessons_data["darslar"], now), pos=0)
+    if tk["pos"] >= len(tk["reja"]):
+        return None
+    item = tk["reja"][tk["pos"]]
+    return item if f"{now:%H:%M}" >= item["t"] else None
+
+
 async def run_once(client: TelegramClient) -> None:
     load_state()
     now = datetime.now()
     lessons = json.loads(LESSONS_FILE.read_text(encoding="utf-8"))
+    if now.weekday() == REVIEW_DAY:  # yakshanba - takrorlash kuni, yangi dars chiqmaydi
+        d = state.setdefault("dars", {})
+        rv = review_due(lessons, now) if d.get("keyingi_urinish", "") <= now.isoformat(timespec="minutes") else None
+        save_state()
+        if rv:
+            channel = await client.get_entity(USERNAME)
+            before = d.get("takrorlash_ok", 0)
+            await attempt(lambda: post_review(client, channel, lessons, rv, now), now, "takrorlash_ok")
+            if d.get("takrorlash_ok", 0) > before:
+                state["takrorlash"]["pos"] += 1
+                if rv["turi"] in ("masala", "karta", "rasm_test"):
+                    key = "masala" if rv["turi"] == "masala" else rv["turi"]
+                    state.setdefault("takrorlangan", []).append(f"{key}:{rv['n']}:{rv['k']}")
+                save_state()
+        return
     item = lesson_item(lessons, now)
     save_state()
     d = state["dars"]

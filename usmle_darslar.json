@@ -5,7 +5,10 @@
     "2:postlar",
     "3:postlar",
     "4:postlar",
-    "aralash:1,2,3,4"
+    "aralash:1,2,3,4",
+    "5:postlar",
+    "6:postlar",
+    "aralash:5,6"
   ],
   "darslar": [
     {
