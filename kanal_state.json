@@ -321,7 +321,8 @@
     "yt:LcWWVJeRO60",
     "https://daryo.uz/2026/11/12/siti-apldan-chetlatilsa-holand-qaysi-jamoaga-otishi-malum-qilindi-manba/",
     "https://sports.uz/oz/news/view/mbappe-zidandan-norozi",
-    "https://kun.uz/news/2026/11/12/fabio-kannavaro-ozbekistonda-ishini-davom-ettiradimi-60321"
+    "https://kun.uz/news/2026/11/12/fabio-kannavaro-ozbekistonda-ishini-davom-ettiradimi-60321",
+    "https://sports.uz/oz/news/view/terma-jamoaga-gvardiolani-olib-kelamiz"
   ],
   "used_quiz": [
     23,
@@ -355,7 +356,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "David Rayya “Arsenal”dan La Ligaga ketmoqchi",
     "Superliga. “Paxtakor” so‘nggi daqiqalarda kiritilgan gol evaziga g‘alaba qozondi, yana ikkita bahsda durang qayd etildi",
     "“Real” va “Barselona” bir futbolchiga qiziqish bildirmoqda — Fichajes",
     "Levandovski \"Arsenal\"ni \"chaqib\" oldi",
@@ -414,9 +414,10 @@
     "Kannavaro O‘zbekiston terma jamoasidan ketishi haqida gapirdi",
     "“Siti” APLdan chetlatilsa, Holand qaysi jamoaga o‘tishi ma’lum qilindi — manba",
     "Mbappe Zidandan norozi",
-    "Fabio Kannavaro O‘zbekistonda ishini davom ettiradimi?"
+    "Fabio Kannavaro O‘zbekistonda ishini davom ettiradimi?",
+    "Terma jamoaga Gvardiolani olib kelamiz"
   ],
-  "last_slot": "2026-11-12 11:00",
+  "last_slot": "2026-11-12 12:00",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -1528,7 +1529,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 813,
+    "last_id": 814,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
@@ -2365,6 +2366,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/20160604_AUT_NED_8876_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Ailura",
       "license": "CC BY-SA 3.0 at"
+    },
+    "Pep Guardiola": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Steffen Prößdorf",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
