@@ -318,7 +318,8 @@
     "yt:Iazh_BIa7Aw",
     "yt:xjI1Kv9C7JI",
     "https://sports.uz/oz/news/view/kannavaro-o-zbekiston-terma-jamoasidan-ketishi-haqida-gapirdi",
-    "yt:LcWWVJeRO60"
+    "yt:LcWWVJeRO60",
+    "https://daryo.uz/2026/11/12/siti-apldan-chetlatilsa-holand-qaysi-jamoaga-otishi-malum-qilindi-manba/"
   ],
   "used_quiz": [
     23,
@@ -352,7 +353,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“Xet-trik bilan jamoam g‘alabasiga yordam berganimdan xursandman” — Ronaldu",
     "Ronaldu ikki yarim yil ichida ilk bor het-trikka erishdi",
     "Bastoni «Barselona»ga o‘tish uchun Flik bilan shaxsiy suhbat o‘tkazishni istamoqda",
     "David Rayya “Arsenal”dan La Ligaga ketmoqchi",
@@ -411,9 +411,10 @@
     "“Rossiyaga qarshi o‘yinda O‘zbekiston favorit” — Valeriy Nepomnyashiy",
     "Sёрlot «Atletiko»dan ketishi mumkin",
     "Van Deyk mavsum yakunida «Liverpul»dan ketishi mumkinligini istisno etmadi",
-    "Kannavaro O‘zbekiston terma jamoasidan ketishi haqida gapirdi"
+    "Kannavaro O‘zbekiston terma jamoasidan ketishi haqida gapirdi",
+    "“Siti” APLdan chetlatilsa, Holand qaysi jamoaga o‘tishi ma’lum qilindi — manba"
   ],
-  "last_slot": "2026-11-11 22:30",
+  "last_slot": "2026-11-12 9:00",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 5,
@@ -1525,7 +1526,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 810,
+    "last_id": 811,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
