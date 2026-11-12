@@ -326,7 +326,8 @@
     "https://sports.uz/oz/news/view/ferdinand-manchester-yunayted-ga-pochettinoni-tavsiya-qildi",
     "yt:jh3H2Mk8H60",
     "https://sports.uz/oz/news/view/real-lester-dagi-yangi-istedodni-nishonga-oldi",
-    "yt:DJ1__FbbxsY"
+    "yt:DJ1__FbbxsY",
+    "https://sports.uz/oz/news/view/endrik-g-ayrioddiy-sababga-ko-ra-milan-taklifini-rad-etdi"
   ],
   "used_quiz": [
     23,
@@ -362,7 +363,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Levandovski \"Arsenal\"ni \"chaqib\" oldi",
     "Anchelotti \"Barsa\"ga keskin javob qaytardi",
     "APL. «Chelsi» — «Manchester Yunayted»: Asosiy tarkiblar e’lon qilindi",
     "\"Manchester Yunayted\"ni kimlar tiz cho‘ktirdi?",
@@ -421,9 +421,10 @@
     "Fabio Kannavaro O‘zbekistonda ishini davom ettiradimi?",
     "Terma jamoaga Gvardiolani olib kelamiz",
     "Ferdinand «Manchester Yunayted»ga Pochettinoni tavsiya qildi",
-    "\"Real\" \"Lester\"dagi yangi iste'dodni nishonga oldi"
+    "\"Real\" \"Lester\"dagi yangi iste'dodni nishonga oldi",
+    "Endrik g‘ayrioddiy sababga ko‘ra \"Milan\" taklifini rad etdi"
   ],
-  "last_slot": "2026-11-12 20:00",
+  "last_slot": "2026-11-12 21:00",
   "scorers_idx": 5,
   "last_video_source": "LaLiga",
   "table_idx": 6,
@@ -1535,7 +1536,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 822,
+    "last_id": 823,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
