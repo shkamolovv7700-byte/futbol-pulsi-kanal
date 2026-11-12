@@ -3614,6 +3614,101 @@
             "cho'tkasimon hujayralar"
           ]
         }
+      ],
+      "kartalar": [
+        {
+          "savol": "Oldingi ichak (foregut) qaysi arteriyadan qon oladi va u qaysi sathda chiqadi?",
+          "javob": "Truncus coeliacus - T12/L1 sathida"
+        },
+        {
+          "savol": "O'n ikki barmoqli ichak orqa devoridagi yara qon ketishiga qaysi arteriya sabab bo'ladi?",
+          "javob": "A. gastroduodenalis"
+        },
+        {
+          "savol": "Me'da kichik egriligidagi yara qaysi arteriyani yemiradi?",
+          "javob": "A. gastrica sinistra (chap me'da arteriyasi)"
+        },
+        {
+          "savol": "Yo'g'on ichakning ikkita 'suv ayirg'ich' (watershed) zonasi qaysi?",
+          "javob": "Taloq egilmasi (Griffits nuqtasi) va rektosigmoid tutashuv (Sudek nuqtasi)"
+        },
+        {
+          "savol": "'Nutcracker' sindromida qaysi vena qaysi ikki arteriya orasida eziladi?",
+          "javob": "Chap buyrak venasi - aorta va yuqori tutqich arteriyasi (AMS) orasida"
+        },
+        {
+          "savol": "Temir, foliy kislota va B12 vitamini qayerda so'riladi?",
+          "javob": "Temir - o'n ikki barmoqli ichak; foliy - och ichak; B12 - yonbosh ichakning oxirgi qismi"
+        },
+        {
+          "savol": "Darvoza venasi qaysi ikki venaning qo'shilishidan hosil bo'ladi?",
+          "javob": "Yuqori tutqich venasi va taloq venasi (oshqozon osti bezi bo'yni ortida)"
+        },
+        {
+          "savol": "Portal gipertenziyada kindik atrofida paydo bo'ladigan 'meduza boshi' qaysi anastomozdan?",
+          "javob": "Kindik oldi venalari (portal) - qorin devori epigastral venalari (kaval)"
+        },
+        {
+          "savol": "Tishsimon (pektinat) chiziqdan PASTDAGI gemorroy nega og'riqli?",
+          "javob": "Pastki qismni somatik n. pudendus (n. rectalis inferior) innervatsiya qiladi"
+        },
+        {
+          "savol": "Jigar atsinusining qaysi zonasi ishemiyaga eng sezgir?",
+          "javob": "III zona (markaziy vena atrofi) - kislorod eng kam, CYP450 eng ko'p"
+        }
+      ],
+      "rasm_testlar": [
+        {
+          "fayl": "usmle_rasmlar/t5_01.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain",
+          "savol": "Qorin bo'shlig'i a'zolari arteriyalari (oldindan). Rasmda '?' bilan belgilangan arteriya qaysi?",
+          "javoblar": [
+            "A. lienalis (a. splenica) - taloq arteriyasi",
+            "A. gastrica sinistra - chap me'da arteriyasi",
+            "A. hepatica communis - umumiy jigar arteriyasi",
+            "A. gastroepiploica sinistra - chap me'da-charvi a."
+          ],
+          "togri": 0,
+          "izoh": "Taloq arteriyasi seliak stvolining eng yirik tarmog'i; me'da osti bezi yuqori qirrasi bo'ylab egri-bugri yo'naladi. Eski nomi - a. lienalis."
+        },
+        {
+          "fayl": "usmle_rasmlar/t5_02.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain",
+          "savol": "To'g'ri ichak oldindan ochilgan. Anal kanal shilliq qavatidagi '?' bilan belgilangan bo'ylama burmalar qanday ataladi?",
+          "javoblar": [
+            "Columnae rectales (anales) - Morganyi ustunlari",
+            "Plicae transversales recti - Kolraush burmalari",
+            "Sinus rectales - anal sinuslar",
+            "Noduli lymphatici - limfa tugunchalari"
+          ],
+          "togri": 0,
+          "izoh": "Anal ustunlar (Morganyi) pastki uchlari tishsimon chiziqni hosil qiladi: yuqorisi - endoderma, pastisi - ektoderma."
+        },
+        {
+          "fayl": "usmle_rasmlar/t5_03.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain",
+          "savol": "Qorin bo'shlig'i arteriyalari (oldindan). Aortaning '?' bilan belgilangan tarmog'i qaysi?",
+          "javoblar": [
+            "A. mesenterica inferior - pastki tutqich arteriyasi",
+            "A. mesenterica superior - yuqori tutqich arteriyasi",
+            "A. colica sinistra - chap chambar ichak arteriyasi",
+            "A. testicularis - moyak arteriyasi"
+          ],
+          "togri": 0,
+          "izoh": "Pastki tutqich arteriyasi L3 sathida chiqib, orqa ichakni (ko'ndalang chambar ichakning distal 1/3 - rektum yuqorisi) ta'minlaydi."
+        }
+      ],
+      "xulosa": [
+        "Oldingi ichak - seliak stvoli (T12/L1), o'rta ichak - AMS (L1), orqa ichak - AMI (L3).",
+        "Seliak stvoli 3 tarmoq beradi: chap me'da, taloq va umumiy jigar arteriyalari.",
+        "O'n ikki barmoqli ichak orqa yarasi - a. gastroduodenalis; me'da kichik egrilik yarasi - a. gastrica sinistra.",
+        "Watershed zonalar: taloq egilmasi (Griffits) va rektosigmoid tutashuv (Sudek) - ishemik kolit.",
+        "Nutcracker: chap buyrak venasi aorta va AMS orasida eziladi - gematuriya, chap varikotsele.",
+        "AMS sindromi: duodenumning 3-qismi aorta va AMS orasida eziladi - tez ozgandan keyin qusish.",
+        "Temir - duodenum, foliy - och ichak, B12 - terminal ileum.",
+        "Darvoza venasi = yuqori tutqich + taloq venalari; jigarga qonning ~75 foizini olib keladi.",
+        "Portokaval anastomozlar: qizilo'ngach varikozi, 'meduza boshi', rektal varikoz; TIPS - portal bosimni tushiradi.",
+        "Tishsimon chiziqdan yuqorida - ichki gemorroy (og'riqsiz), pastda - tashqi gemorroy (og'riqli); jigar III zonasi ishemiyaga eng sezgir."
       ]
     }
   ]

@@ -25,6 +25,7 @@ from telethon import TelegramClient
 
 import cs2data
 import kanal
+import moderator
 import usmle_rasm
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -230,6 +231,8 @@ def lesson_item(data: dict, now: datetime):
                 d["bajarildi"].append(d["joriy"])
             d["joriy"] = next((s for s in plan_steps(data) if s not in d["bajarildi"] and step_items(lessons, s)), None)
             d["pos"] = 0
+            d["qoshimcha"] = 0  # flesh-karta / rasm-test hisobi
+            d.pop("xulosa", None)
         d["kun"], d["boshlanish"] = today, d["pos"]  # bugun shu tartibdan boshladik
     cur = step_items(lessons, d.get("joriy"))
     if not cur or d["pos"] >= len(cur):
@@ -290,39 +293,141 @@ async def post_lesson(client: TelegramClient, channel, step: str, pos: int, tota
     log.info("%s: %s %d/%d (%s)", head, stage, pos + 1, total, step)
 
 
+# --- Qo'shimcha formatlar (dars kuni): flesh-karta, "rasmni top" testi, kechki xulosa -------------------------
+EXTRA_EVERY = 3        # har 3 ta mavzu postidan keyin bitta qo'shimcha post
+EXTRA_GAP_MIN = 10     # postlar orasida kamida 10 daqiqa (ketma-ket "portlash" bo'lmasin)
+SUMMARY_FROM = 21 * 60 + 30  # kechki xulosa 21:30 dan keyin, barcha postlardan so'ng
+
+
+def lesson_extras(lesson: dict) -> list[tuple[str, dict]]:
+    """Kartalar va rasm-testlarni aralashtiradi: 2 ta karta, 1 ta rasm-test, ..."""
+    cards = [("karta", c) for c in lesson.get("kartalar", [])]
+    tests = [("rasm_test", t) for t in lesson.get("rasm_testlar", [])]
+    out = []
+    while cards or tests:
+        out += cards[:2]
+        cards = cards[2:]
+        if tests:
+            out.append(tests.pop(0))
+    return out
+
+
+def utf16(text: str) -> int:
+    return len(text.encode("utf-16-le")) // 2
+
+
+def rich(parts: list[tuple[str, str | None]]) -> tuple[str, list]:
+    """[(matn, 'bold'|'italic'|'spoiler'|None)] -> (matn, Telegram entity'lari). Telethon HTML spoiler'ni bilmaydi."""
+    from telethon.tl.types import MessageEntityBold, MessageEntityItalic, MessageEntitySpoiler
+    kinds = {"bold": MessageEntityBold, "italic": MessageEntityItalic, "spoiler": MessageEntitySpoiler}
+    text, ents = "", []
+    for chunk, kind in parts:
+        if kind:
+            ents.append(kinds[kind](offset=utf16(text), length=utf16(chunk)))
+        text += chunk
+    return text, ents
+
+
+def extra_due(lessons: list[dict], now: datetime):
+    d = state.get("dars", {})
+    step = d.get("joriy")
+    if not step or not step.endswith(":postlar"):
+        return None
+    n = int(step.split(":")[0]) - 1
+    lesson = lessons[n]
+    last = d.get("oxirgi_vaqt", "")
+    if last and last > (now - timedelta(minutes=EXTRA_GAP_MIN)).isoformat(timespec="minutes"):
+        return None
+    extras = lesson_extras(lesson)
+    k = d.get("qoshimcha", 0)
+    posts_done = d.get("pos", 0) >= len(lesson["postlar"])
+    if k < len(extras) and (d.get("pos", 0) >= EXTRA_EVERY * (k + 1) or posts_done):
+        return n, lesson, k, len(extras), extras[k]
+    if posts_done and k >= len(extras) and lesson.get("xulosa") and not d.get("xulosa") \
+            and now.hour * 60 + now.minute >= SUMMARY_FROM:
+        return n, lesson, None, None, ("xulosa", lesson["xulosa"])
+    return None
+
+
+async def post_extra(client: TelegramClient, channel, n: int, lesson: dict, k, total, entry) -> None:
+    kind, item = entry
+    tag = f"#dars{n + 1} #{re.sub(r'\W', '', lesson['fan'])}"
+    if kind == "karta":
+        text, ents = rich([
+            (f"🃏 FLESH-KARTA | {n + 1}-dars\n\n", "bold"),
+            (f"❓ {item['savol']}\n\n", "bold"),
+            ("🤔 Avval o'zingiz javob bering, keyin pastdagi yashirin javobni bosing:\n\n👉 ", None),
+            (item["javob"], "spoiler"),
+            (f"\n\n{tag} #fleshkarta\n\n📲 @{USERNAME}", None)])
+        await client.send_message(channel, text, formatting_entities=ents, link_preview=False)
+    elif kind == "rasm_test":
+        caption = (f"🔍 <b>RASMNI TOP</b> | {n + 1}-dars\n\n{html.escape(item['savol'])}\n\n"
+                   f"👇 Javobni viktorinada belgilang\n\n🖼 <i>{html.escape(item['manba'])}</i>\n\n{tag} #rasmni_top{FOOTER}")
+        photo = await client.send_file(channel, str(BASE_DIR / item["fayl"]), caption=caption, parse_mode="html")
+        options, correct = shuffled({"vinyetka": item["fayl"], "javoblar": item["javoblar"], "togri": item["togri"]})
+        await client.send_file(channel, kanal.build_poll("🔍 '?' bilan belgilangan tuzilma qaysi?", options, True,
+                                                         correct, item["izoh"][:200]), reply_to=photo.id)
+    else:  # kechki xulosa
+        lines = "\n".join(f"{i}. {html.escape(f)}" for i, f in enumerate(item, 1))
+        text = (f"🌙 <b>KUN XULOSASI | {n + 1}-dars: {html.escape(lesson['nomi'])}</b>\n\n"
+                f"Bugungi darsdan eng muhim {len(item)} ta fakt - uxlashdan oldin bir marta o'qib chiqing:\n\n{lines}\n\n"
+                f"📌 Saqlab qo'ying. Ertaga - shu darsning vaziyatli masalalari!\n\n{tag} #xulosa{FOOTER}")
+        await client.send_message(channel, text, parse_mode="html", link_preview=False)
+    log.info("%d-dars qo'shimcha post: %s", n + 1, kind)
+
+
 async def run_once(client: TelegramClient) -> None:
     load_state()
     now = datetime.now()
     lessons = json.loads(LESSONS_FILE.read_text(encoding="utf-8"))
     item = lesson_item(lessons, now)
     save_state()
-    if not item:
-        d = state["dars"]
-        lessons_left = step_items(lessons["darslar"], d.get("joriy")) is not None
-        if not LESSONS_ONLY and not lessons_left:  # darslar tugagan - umumiy kontent eski jadval bo'yicha
-            slot = due_slot()
+    d = state["dars"]
+    channel = None
+    if d.get("keyingi_urinish", "") > now.isoformat(timespec="minutes"):
+        pass  # oldingi urinish xato berdi - biroz kutamiz (har daqiqada urinib, Telegramni zo'riqtirmaslik uchun)
+    elif item:
+        channel = await client.get_entity(USERNAME)
+        await attempt(lambda: post_lesson(client, channel, *item), now, "pos")
+    else:
+        extra = extra_due(lessons["darslar"], now)
+        if extra:
+            channel = await client.get_entity(USERNAME)
+            await attempt(lambda: post_extra(client, channel, *extra), now,
+                          "xulosa" if extra[2] is None else "qoshimcha")
+        elif not LESSONS_ONLY and step_items(lessons["darslar"], d.get("joriy")) is None:
+            slot = due_slot()  # darslar tugagan - umumiy kontent eski jadval bo'yicha
             if slot:
                 state["last_slot"] = slot
                 save_state()
                 content = json.loads(CONTENT_FILE.read_text(encoding="utf-8"))
                 await POSTERS[SLOTS[int(slot.split()[1])]](client, await client.get_entity(USERNAME), content)
                 save_state()
-        return
+    try:  # muhokama guruhi moderatsiyasi (so'kinish, reklama)
+        await moderator.moderate(client, channel or await client.get_entity(USERNAME), state, USERNAME)
+    except Exception as e:
+        log.error("Moderator xatosi: %r", e)
+    save_state()
+
+
+async def attempt(make_post, now: datetime, counter: str) -> None:
+    """Postni yuboradi. Xato bo'lsa post O'TKAZIB YUBORILMAYDI: xato yoziladi, 5 daqiqadan keyin qayta urinadi."""
     d = state["dars"]
-    if d.get("keyingi_urinish", "") > now.isoformat(timespec="minutes"):
-        return  # oldingi urinish xato berdi - biroz kutamiz (har daqiqada urinib, Telegramni zo'riqtirmaslik uchun)
     d["urinish"] = d.get("urinish", 0) + 1
     save_state()
     try:
-        await post_lesson(client, await client.get_entity(USERNAME), *item)
+        await make_post()
     except Exception as e:
-        # post O'TKAZIB YUBORILMAYDI (ma'lumot to'liq chiqishi kerak): xato yoziladi va 5 daqiqadan keyin qayta urinadi
-        log.exception("Post %s %d xato berdi (%d-urinish)", d["joriy"], d["pos"] + 1, d["urinish"])
-        d["oxirgi_xato"] = f"{now:%Y-%m-%d %H:%M} {d['joriy']} {d['pos'] + 1}: {e!r}"[:500]
+        log.exception("Post xato berdi (%s, %d-urinish)", d.get("joriy"), d["urinish"])
+        d["oxirgi_xato"] = f"{now:%Y-%m-%d %H:%M} {d.get('joriy')} {counter}: {e!r}"[:500]
         d["keyingi_urinish"] = (now + timedelta(minutes=5)).isoformat(timespec="minutes")
         save_state()
         return
-    d["pos"] += 1
+    if counter == "xulosa":
+        d["xulosa"] = True
+    else:
+        d[counter] = d.get(counter, 0) + 1
     d["urinish"] = 0
+    d["oxirgi_vaqt"] = now.isoformat(timespec="minutes")
     d.pop("keyingi_urinish", None)
     save_state()
