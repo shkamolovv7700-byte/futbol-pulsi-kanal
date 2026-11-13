@@ -337,7 +337,8 @@
     "yt:j09YKk9t0uU",
     "https://daryo.uz/2026/11/13/on-daqiqadagi-kambek-ozbekiston-rossiya-ortoqlik-uchrashuvidan-fotoreportaj/",
     "yt:EZBvtnsQYvU",
-    "https://sports.uz/oz/news/view/real-senga-shu-yulduz-kerakmidi-arsenal-endrikni-jahon-chempioniga-almashtirmoqchi"
+    "https://sports.uz/oz/news/view/real-senga-shu-yulduz-kerakmidi-arsenal-endrikni-jahon-chempioniga-almashtirmoqchi",
+    "yt:RmYiohLZ-1w"
   ],
   "used_quiz": [
     23,
@@ -436,9 +437,9 @@
     "O‘n daqiqadagi kambek: O‘zbekiston—Rossiya o‘rtoqlik uchrashuvidan fotoreportaj",
     "\"Real\", senga shu yulduz kerakmidi? \"Arsenal\" Endrikni jahon chempioniga almashtirmoqchi"
   ],
-  "last_slot": "2026-11-13 21:30",
+  "last_slot": "2026-11-13 22:30",
   "scorers_idx": 1,
-  "last_video_source": "UEFA",
+  "last_video_source": "Premier League",
   "table_idx": 1,
   "live": {
     "401915395": {
@@ -1548,7 +1549,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 837,
+    "last_id": 838,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
