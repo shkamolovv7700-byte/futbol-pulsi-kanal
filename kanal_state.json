@@ -328,7 +328,8 @@
     "https://sports.uz/oz/news/view/real-lester-dagi-yangi-istedodni-nishonga-oldi",
     "yt:DJ1__FbbxsY",
     "https://sports.uz/oz/news/view/endrik-g-ayrioddiy-sababga-ko-ra-milan-taklifini-rad-etdi",
-    "yt:mKb4iutsbis"
+    "yt:mKb4iutsbis",
+    "https://sports.uz/oz/news/view/psj-yulduzi-o-zbekiston-o-yiniga-munosabat-bildirdi"
   ],
   "used_quiz": [
     23,
@@ -364,7 +365,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Anchelotti \"Barsa\"ga keskin javob qaytardi",
     "APL. «Chelsi» — «Manchester Yunayted»: Asosiy tarkiblar e’lon qilindi",
     "\"Manchester Yunayted\"ni kimlar tiz cho‘ktirdi?",
     "“El-Klasiko” vaqtida “Real” futbolchisining uyini tunab ketishdi — El Mundo",
@@ -423,9 +423,10 @@
     "Terma jamoaga Gvardiolani olib kelamiz",
     "Ferdinand «Manchester Yunayted»ga Pochettinoni tavsiya qildi",
     "\"Real\" \"Lester\"dagi yangi iste'dodni nishonga oldi",
-    "Endrik g‘ayrioddiy sababga ko‘ra \"Milan\" taklifini rad etdi"
+    "Endrik g‘ayrioddiy sababga ko‘ra \"Milan\" taklifini rad etdi",
+    "PSJ yulduzi O‘zbekiston o‘yiniga munosabat bildirdi"
   ],
-  "last_slot": "2026-11-12 22:30",
+  "last_slot": "2026-11-13 9:00",
   "scorers_idx": 5,
   "last_video_source": "Premier League",
   "table_idx": 6,
@@ -1537,7 +1538,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 824,
+    "last_id": 825,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
