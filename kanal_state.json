@@ -332,7 +332,8 @@
     "https://sports.uz/oz/news/view/psj-yulduzi-o-zbekiston-o-yiniga-munosabat-bildirdi",
     "https://sports.uz/oz/news/view/shomurodov-rossiya-terma-jamoasi-va-futbolchilarga-qanday-baho-berdi",
     "yt:0JWH4OzYLMQ",
-    "https://sports.uz/oz/news/view/zidan-shaxsiy-samolyoti-kutib-turgan-mbappeni-qo-yib-yubormadi"
+    "https://sports.uz/oz/news/view/zidan-shaxsiy-samolyoti-kutib-turgan-mbappeni-qo-yib-yubormadi",
+    "https://sports.uz/oz/news/view/levandovski-barsa-dan-keyin-nega-evropada-qolmaganini-tushuntirdi"
   ],
   "used_quiz": [
     23,
@@ -369,7 +370,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“El-Klasiko” vaqtida “Real” futbolchisining uyini tunab ketishdi — El Mundo",
     "“Bavariya”da e’tiroz uyg‘otgan yulduzga uchta badavlat xaridor chiqdi",
     "\"Barsa\" oʻz futbolchisiga PSJ \"kўz olaytirayotganini\" bilib qoldi",
     "“Chelsi” orzusidagi o‘yinchini olish uchun 100 million funt sarflashi kerak",
@@ -428,9 +428,10 @@
     "Endrik g‘ayrioddiy sababga ko‘ra \"Milan\" taklifini rad etdi",
     "PSJ yulduzi O‘zbekiston o‘yiniga munosabat bildirdi",
     "Shomurodov Rossiya terma jamoasi va futbolchilarga qanday baho berdi?",
-    "Zidan shaxsiy samolyoti kutib turgan Mbappeni qo‘yib yubormadi"
+    "Zidan shaxsiy samolyoti kutib turgan Mbappeni qo‘yib yubormadi",
+    "Levandovski \"Barsa\"dan keyin nega Evropada qolmaganini tushuntirdi"
   ],
-  "last_slot": "2026-11-13 13:00",
+  "last_slot": "2026-11-13 14:00",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 6,
@@ -1542,7 +1543,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 829,
+    "last_id": 830,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
