@@ -331,7 +331,8 @@
     "yt:mKb4iutsbis",
     "https://sports.uz/oz/news/view/psj-yulduzi-o-zbekiston-o-yiniga-munosabat-bildirdi",
     "https://sports.uz/oz/news/view/shomurodov-rossiya-terma-jamoasi-va-futbolchilarga-qanday-baho-berdi",
-    "yt:0JWH4OzYLMQ"
+    "yt:0JWH4OzYLMQ",
+    "https://sports.uz/oz/news/view/zidan-shaxsiy-samolyoti-kutib-turgan-mbappeni-qo-yib-yubormadi"
   ],
   "used_quiz": [
     23,
@@ -367,7 +368,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "\"Manchester Yunayted\"ni kimlar tiz cho‘ktirdi?",
     "“El-Klasiko” vaqtida “Real” futbolchisining uyini tunab ketishdi — El Mundo",
     "“Bavariya”da e’tiroz uyg‘otgan yulduzga uchta badavlat xaridor chiqdi",
     "\"Barsa\" oʻz futbolchisiga PSJ \"kўz olaytirayotganini\" bilib qoldi",
@@ -426,9 +426,10 @@
     "\"Real\" \"Lester\"dagi yangi iste'dodni nishonga oldi",
     "Endrik g‘ayrioddiy sababga ko‘ra \"Milan\" taklifini rad etdi",
     "PSJ yulduzi O‘zbekiston o‘yiniga munosabat bildirdi",
-    "Shomurodov Rossiya terma jamoasi va futbolchilarga qanday baho berdi?"
+    "Shomurodov Rossiya terma jamoasi va futbolchilarga qanday baho berdi?",
+    "Zidan shaxsiy samolyoti kutib turgan Mbappeni qo‘yib yubormadi"
   ],
-  "last_slot": "2026-11-13 11:00",
+  "last_slot": "2026-11-13 12:00",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 6,
@@ -1540,7 +1541,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 827,
+    "last_id": 828,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
