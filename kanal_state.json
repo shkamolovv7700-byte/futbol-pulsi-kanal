@@ -336,7 +336,8 @@
     "https://sports.uz/oz/news/view/levandovski-barsa-dan-keyin-nega-evropada-qolmaganini-tushuntirdi",
     "yt:j09YKk9t0uU",
     "https://daryo.uz/2026/11/13/on-daqiqadagi-kambek-ozbekiston-rossiya-ortoqlik-uchrashuvidan-fotoreportaj/",
-    "yt:EZBvtnsQYvU"
+    "yt:EZBvtnsQYvU",
+    "https://sports.uz/oz/news/view/real-senga-shu-yulduz-kerakmidi-arsenal-endrikni-jahon-chempioniga-almashtirmoqchi"
   ],
   "used_quiz": [
     23,
@@ -374,7 +375,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "\"Barsa\" oʻz futbolchisiga PSJ \"kўz olaytirayotganini\" bilib qoldi",
     "“Chelsi” orzusidagi o‘yinchini olish uchun 100 million funt sarflashi kerak",
     "Abbosbek Fayzullayev “Samsunspor”ga qarshi bahsning eng yaxshi futbolchisi bo‘ldi",
     "\"Barsa\" yulduzi manchesterliklarga javob qaytardi",
@@ -433,9 +433,10 @@
     "Shomurodov Rossiya terma jamoasi va futbolchilarga qanday baho berdi?",
     "Zidan shaxsiy samolyoti kutib turgan Mbappeni qo‘yib yubormadi",
     "Levandovski \"Barsa\"dan keyin nega Evropada qolmaganini tushuntirdi",
-    "O‘n daqiqadagi kambek: O‘zbekiston—Rossiya o‘rtoqlik uchrashuvidan fotoreportaj"
+    "O‘n daqiqadagi kambek: O‘zbekiston—Rossiya o‘rtoqlik uchrashuvidan fotoreportaj",
+    "\"Real\", senga shu yulduz kerakmidi? \"Arsenal\" Endrikni jahon chempioniga almashtirmoqchi"
   ],
-  "last_slot": "2026-11-13 20:30",
+  "last_slot": "2026-11-13 21:30",
   "scorers_idx": 1,
   "last_video_source": "UEFA",
   "table_idx": 1,
@@ -1547,7 +1548,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 836,
+    "last_id": 837,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
