@@ -329,7 +329,8 @@
     "yt:DJ1__FbbxsY",
     "https://sports.uz/oz/news/view/endrik-g-ayrioddiy-sababga-ko-ra-milan-taklifini-rad-etdi",
     "yt:mKb4iutsbis",
-    "https://sports.uz/oz/news/view/psj-yulduzi-o-zbekiston-o-yiniga-munosabat-bildirdi"
+    "https://sports.uz/oz/news/view/psj-yulduzi-o-zbekiston-o-yiniga-munosabat-bildirdi",
+    "https://sports.uz/oz/news/view/shomurodov-rossiya-terma-jamoasi-va-futbolchilarga-qanday-baho-berdi"
   ],
   "used_quiz": [
     23,
@@ -365,7 +366,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "APL. «Chelsi» — «Manchester Yunayted»: Asosiy tarkiblar e’lon qilindi",
     "\"Manchester Yunayted\"ni kimlar tiz cho‘ktirdi?",
     "“El-Klasiko” vaqtida “Real” futbolchisining uyini tunab ketishdi — El Mundo",
     "“Bavariya”da e’tiroz uyg‘otgan yulduzga uchta badavlat xaridor chiqdi",
@@ -424,9 +424,10 @@
     "Ferdinand «Manchester Yunayted»ga Pochettinoni tavsiya qildi",
     "\"Real\" \"Lester\"dagi yangi iste'dodni nishonga oldi",
     "Endrik g‘ayrioddiy sababga ko‘ra \"Milan\" taklifini rad etdi",
-    "PSJ yulduzi O‘zbekiston o‘yiniga munosabat bildirdi"
+    "PSJ yulduzi O‘zbekiston o‘yiniga munosabat bildirdi",
+    "Shomurodov Rossiya terma jamoasi va futbolchilarga qanday baho berdi?"
   ],
-  "last_slot": "2026-11-13 9:00",
+  "last_slot": "2026-11-13 10:00",
   "scorers_idx": 5,
   "last_video_source": "Premier League",
   "table_idx": 6,
@@ -1538,7 +1539,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 825,
+    "last_id": 826,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
