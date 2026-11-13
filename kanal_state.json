@@ -335,7 +335,8 @@
     "https://sports.uz/oz/news/view/zidan-shaxsiy-samolyoti-kutib-turgan-mbappeni-qo-yib-yubormadi",
     "https://sports.uz/oz/news/view/levandovski-barsa-dan-keyin-nega-evropada-qolmaganini-tushuntirdi",
     "yt:j09YKk9t0uU",
-    "https://daryo.uz/2026/11/13/on-daqiqadagi-kambek-ozbekiston-rossiya-ortoqlik-uchrashuvidan-fotoreportaj/"
+    "https://daryo.uz/2026/11/13/on-daqiqadagi-kambek-ozbekiston-rossiya-ortoqlik-uchrashuvidan-fotoreportaj/",
+    "yt:EZBvtnsQYvU"
   ],
   "used_quiz": [
     23,
@@ -433,9 +434,9 @@
     "Levandovski \"Barsa\"dan keyin nega Evropada qolmaganini tushuntirdi",
     "O‘n daqiqadagi kambek: O‘zbekiston—Rossiya o‘rtoqlik uchrashuvidan fotoreportaj"
   ],
-  "last_slot": "2026-11-13 18:00",
+  "last_slot": "2026-11-13 19:00",
   "scorers_idx": 1,
-  "last_video_source": "LaLiga",
+  "last_video_source": "UEFA",
   "table_idx": 1,
   "live": {
     "401915395": {
@@ -1545,7 +1546,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 833,
+    "last_id": 835,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
