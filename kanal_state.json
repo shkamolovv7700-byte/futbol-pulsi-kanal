@@ -432,10 +432,10 @@
     "Zidan shaxsiy samolyoti kutib turgan Mbappeni qo‘yib yubormadi",
     "Levandovski \"Barsa\"dan keyin nega Evropada qolmaganini tushuntirdi"
   ],
-  "last_slot": "2026-11-13 16:00",
+  "last_slot": "2026-11-13 17:00",
   "scorers_idx": 1,
   "last_video_source": "LaLiga",
-  "table_idx": 6,
+  "table_idx": 1,
   "live": {
     "401915395": {
       "goals": [
@@ -1544,7 +1544,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 832,
+    "last_id": 833,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
