@@ -3713,6 +3713,996 @@
         "Portokaval anastomozlar: qizilo'ngach varikozi, 'meduza boshi', rektal varikoz; TIPS - portal bosimni tushiradi.",
         "Tishsimon chiziqdan yuqorida - ichki gemorroy (og'riqsiz), pastda - tashqi gemorroy (og'riqli); jigar III zonasi ishemiyaga eng sezgir."
       ]
+    },
+    {
+      "nomi": "Siydik ayirish tizimi anatomiyasi",
+      "fan": "Anatomy",
+      "manba": "6-lesson._Urinary_system_anatomy.pdf",
+      "postlar": [
+        {
+          "sarlavha": "Kidneys: size and vertebral level",
+          "bandlar": [
+            "Paired bean-shaped organs, about 12 cm long",
+            "Extend from T12 to L3 in the upright position",
+            "Right kidney lies slightly lower - pushed down by the liver",
+            "Retroperitoneal, embedded in perirenal fat"
+          ],
+          "izoh": "🫘 Buyraklar - juft, loviyasimon a'zolar, uzunligi taxminan 12 sm (kengligi ~6 sm, qalinligi ~3 sm).\n\n📍 Joylashuvi:\n• qorin pardaning ORQASIDA (retroperitoneal), buyrak oldi yog' to'qimasi va fassiya ichida;\n• odam tik turganda buyraklar T12 dan L3 umurtqagacha cho'ziladi;\n• O'NG buyrak chapdan biroz PASTDA turadi - uni yuqoridan katta JIGAR bosib turadi;\n• nafas olganda diafragma bilan birga 2-3 sm pastga tushadi.\n\n🧭 Buyrak darvozasi (hilum) L1 sathiga to'g'ri keladi va medialga qaragan; u orqali buyrak arteriyasi, venasi va jomi (pelvis renalis) o'tadi.\n\n💡 USMLE: o'ng buyrak pastroq bo'lgani uchun bimanual palpatsiyada ozg'in odamlarda uning pastki qutbini paypaslash mumkin. Rasmda (Spalteholz) siydik a'zolarining joylashuvi: buyraklar, siydik yo'llari, aorta va pastki kovak vena, m. psoas major va m. quadratus lumborum bilan munosabati.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_01.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Kidneys: posterior relations and ribs",
+          "bandlar": [
+            "Both kidneys lie on the diaphragm, psoas major and quadratus lumborum",
+            "Right kidney: also contacts the 12th rib",
+            "Left kidney: higher - contacts the 11th and 12th ribs",
+            "Posterior pleural reflection crosses the 12th rib"
+          ],
+          "izoh": "🦴 Buyraklarning ORQA yuzasi qorin orqa devoriga yopishib turadi.\n\n🔹 IKKALA buyrak ham quyidagilarga tegib turadi:\n• DIAFRAGMA (yuqori qismi);\n• katta bel mushagi - m. psoas major (medialda);\n• belning kvadrat mushagi - m. quadratus lumborum (lateralda).\n\n🔸 Qovurg'alar bilan munosabati:\n• O'NG buyrak - faqat 12-qovurg'a;\n• CHAP buyrak (balandroq) - 11- va 12-qovurg'alar.\n\n⚠️ Plevraning orqa qaytish chizig'i (parietal plevra refleksiyasi) 12-qovurg'ani kesib o'tadi va buyrakning yuqori qutbidan orqada yotadi. Shuning uchun:\n• buyrakka orqadan (bel orqali) jarrohlik yoki biopsiya qilinganda plevra jarohatlanib, PNEVMOTORAKS bo'lishi mumkin;\n• pastki qovurg'alar sinsa (11-12), buyrak va taloq/jigar ham shikastlanishi mumkin.\n\n💡 USMLE: buyrak abssessi yoki paranefrit psoas mushagini ta'sirlaydi - bemor sonni bukib yotadi, psoas belgisi musbat bo'ladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_02.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Renal artery and segmental branches",
+          "bandlar": [
+            "Renal arteries arise from the aorta at about L1-L2, just below the SMA",
+            "Right renal artery is longer and passes behind the IVC",
+            "At the hilum: vein in front, artery in the middle, pelvis behind",
+            "Segmental arteries are end arteries - occlusion causes segmental infarct"
+          ],
+          "izoh": "🩸 Buyrak arteriyalari (a. renalis) qorin aortasining yon tomonlaridan, taxminan L1-L2 sathida, yuqori tutqich arteriyasidan (AMS) sal pastroqda chiqadi.\n\n• O'NG buyrak arteriyasi uzunroq - aorta chapda yotgani uchun u pastki kovak venaning (IVC) ORQASIDAN o'tadi;\n• CHAP buyrak arteriyasi kalta.\n\n🔀 Shoxlanishi: a. renalis -> darvoza oldidagi (prehilar) oldingi va orqa tarmoqlar -> SEGMENTAR arteriyalar (odatda 5 ta) -> bo'lakaro -> yoysimon -> interlobulyar -> AFFERENT arteriola.\nTarmoqlardan buyrak usti bezining pastki arteriyasi, kapsula va siydik yo'li tarmoqlari ham chiqadi.\n\n⚠️ Segmentar arteriyalar o'zaro anastomoz QILMAYDI (oxirgi arteriyalar) - bittasi berkilsa, o'sha segment infarkti (ponasimon) yuz beradi.\n\n🧭 Darvozadagi tartib (oldindan orqaga): VENA - ARTERIYA - JOM (V-A-P).\n\nRasmda (Spalteholz) aortaning qorin qismi va undan chiqqan a. renalis ko'rinadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_03.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Accessory (polar) renal arteries",
+          "bandlar": [
+            "Common variant: extra upper or lower pole arteries directly from the aorta",
+            "They are end arteries - ligation infarcts the pole they supply",
+            "Lower pole artery may cross in front of the ureter",
+            "Crossing vessel can compress the UPJ -> hydronephrosis"
+          ],
+          "izoh": "🔀 Qo'shimcha (polyar) buyrak arteriyalari - juda ko'p uchraydigan variant (taxminan har 4-odamda).\n\n📌 Ular embrional davrdagi buyrak \"ko'tarilishi\" paytida pastki arteriyalarning saqlanib qolishidan kelib chiqadi:\n• YUQORI qutb arteriyasi - aorta yoki a. renalisdan chiqib, yuqori qutbga to'g'ridan-to'g'ri kiradi;\n• PASTKI qutb arteriyasi - aortadan chiqib, pastki qutbga boradi.\n\n⚠️ Klinik ahamiyati:\n• qo'shimcha arteriya ham OXIRGI arteriya - jarrohlikda tasodifan bog'lansa, o'sha qutb infarkti bo'ladi;\n• PASTKI qutb arteriyasi siydik yo'lining OLDIDAN kesib o'tishi mumkin va jom-siydik yo'li tutashuvini (UPJ) siqadi -> siydik oqimi buziladi -> GIDRONEFROZ (bolalarda UPJ obstruksiyasining sabablaridan biri);\n• buyrak transplantatsiyasi va donorlikda barcha arteriyalar oldindan KT-angiografiyada aniqlanadi.\n\n💡 USMLE: bola yoki yosh odamda ko'p suyuqlik ichgandan keyin kuchayadigan yon og'rig'i + gidronefroz -> UPJ obstruksiyasi (jumladan, kesib o'tuvchi tomir).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_04.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Left renal vein and living donation",
+          "bandlar": [
+            "Left renal vein is long: crosses in front of the aorta, below the SMA",
+            "Receives the left suprarenal and left gonadal veins",
+            "Left kidney is preferred in living donation - longer renal vein",
+            "Variant: retroaortic left renal vein passes behind the aorta"
+          ],
+          "izoh": "🩵 Buyrak venalari pastki kovak venaga (IVC) quyiladi. IVC o'ng tomonda yotgani uchun:\n• O'NG buyrak venasi kalta;\n• CHAP buyrak venasi UZUN - aortaning OLDIDAN, AMS ning orqasidan (ular orasidagi burchakdan) o'tadi.\n\n➕ Chap buyrak venasi qo'shimcha 2 ta venani qabul qiladi:\n• chap buyrak usti bezi venasi (v. suprarenalis sinistra);\n• chap moyak/tuxumdon venasi (v. testicularis/ovarica sinistra).\nO'ngda bu venalar to'g'ridan-to'g'ri IVC ga quyiladi.\n\n🎁 Tirik donordan buyrak olishda ko'pincha CHAP buyrak tanlanadi - uning venasi uzunroq, retsipient tomirlariga tikish (anastomoz) osonroq.\n\n🔄 Variant: retroaortal chap buyrak venasi - aortaning ORQASIDAN o'tadi (jarrohlikda e'tibor kerak).\n\n💡 USMLE: chap buyrak venasining siqilishi yoki o'sma bilan berkilishi -> CHAP varikotsele (chap moyak venasi unga quyilgani uchun). Rasmda (Spalteholz) aorta, IVC, buyrak venalari va buyrak usti bezlari.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_05.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Renal blood flow: cortex vs medulla",
+          "bandlar": [
+            "Kidneys receive ~20-25% of cardiac output",
+            "Most of the flow goes to the cortex; the medulla gets much less",
+            "Medulla is very sensitive to hypoxia and ischemic injury",
+            "Vulnerable: proximal straight tubule and thick ascending limb"
+          ],
+          "izoh": "🩸 Buyraklar yurak minutlik hajmining taxminan 20-25% ini oladi - og'irligiga nisbatan eng ko'p qon oladigan a'zolardan.\n\n🔹 PO'STLOQ (cortex) - qonning asosiy qismini oladi (glomerulalar shu yerda).\n🔸 MAG'IZ (medulla, piramidalar) - qon oqimi ancha KAM. Bu siydikni konsentratsiyalash (qarama-qarshi oqim tizimi) uchun zarur, lekin narxi bor:\n• mag'iz doimo nisbiy GIPOKSIYADA ishlaydi;\n• ayniqsa proksimal kanalchaning to'g'ri qismi (S3) va Henle qovuzlog'ining yo'g'on ko'tariluvchi qismi (TAL) ko'p ATP sarflaydi.\n\n⚠️ Natijasi: gipotenziya, shok, sepsis -> o'tkir tubulyar nekroz (ATN) birinchi navbatda shu sohalarda.\nBuyrak so'rg'ichlari (papillae) ham ishemiyaga sezgir - so'rg'ich nekrozi: NSAID, o'roqsimon hujayrali kasallik, qandli diabet, og'ir pielonefrit.\n\nRasmda (Sobotta) buyrakning frontal kesimi: substantia corticalis, piramidalar (substantia medullaris), papillae, calices va pelvis renalis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_06.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie II (1920), public domain"
+          }
+        },
+        {
+          "sarlavha": "Renal corpuscle (glomerulus)",
+          "bandlar": [
+            "Afferent arteriole enters and efferent leaves at the vascular pole",
+            "Bowman capsule: parietal layer outside, podocytes (visceral) inside",
+            "Mesangial cells: support, contraction, phagocytosis",
+            "Urinary pole opens into the proximal convoluted tubule"
+          ],
+          "izoh": "🔬 Buyrak tanachasi (corpusculum renale) = kapillyar koptokcha (glomerulus) + Bowman kapsulasi.\n\n🔴 Tomir qutbi:\n• AFFERENT (olib keluvchi) arteriola - kengroq, qonni kapillyarlarga olib kiradi;\n• EFFERENT (olib chiquvchi) arteriola - torroq, qonni olib chiqadi -> peritubulyar kapillyarlar (yukstamedullyar nefronlarda vasa recta).\nIkki arteriola orasidagi yuqori bosim filtratsiyani ta'minlaydi.\n\n🟡 Bowman kapsulasi:\n• PARIYETAL varaq - yassi epiteliy (tashqi devor);\n• VISSERAL varaq - PODOTSITLAR, kapillyarlarni o'rab turadi;\n• oradagi Bowman bo'shlig'iga birlamchi siydik (filtrat) tushadi.\n\n🟣 MEZANGIAL hujayralar - kapillyarlar orasida: tayanch, qisqarish (filtratsiya yuzasini boshqaradi), fagotsitoz.\n\n🚪 Siydik qutbi -> proksimal egri kanalcha.\n\n💡 USMLE: IgA nefropatiyada immun komplekslar aynan MEZANGIYDA to'planadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_07.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Juxtaglomerular apparatus and TGF",
+          "bandlar": [
+            "JGA = JG cells + macula densa + extraglomerular mesangial cells",
+            "JG cells: modified smooth muscle of afferent arteriole - secrete renin",
+            "Macula densa (distal tubule) senses NaCl delivery",
+            "High NaCl -> adenosine -> afferent constriction -> GFR falls"
+          ],
+          "izoh": "⚙️ Yukstaglomerulyar apparat (JGA) - glomerula tomir qutbidagi \"datchik\" tizim.\n\n🧩 Tarkibi:\n• JG hujayralar - afferent arteriola devoridagi o'zgargan silliq mushak hujayralari -> RENIN ajratadi (perfuzion bosim pasayganda, simpatik beta-1 ta'sirda, macula densada NaCl kamayganda);\n• MACULA DENSA - distal kanalchaning glomerulaga tegib turgan zich hujayralari, NaCl miqdorini sezadi;\n• glomeruladan tashqari mezangial hujayralar.\n\n🔁 Tubuloglomerulyar teskari aloqa (TGF):\n• GFR oshdi -> macula densaga ko'p NaCl keldi -> ADENOZIN ajraladi (prostaglandin sintezi kamayadi) -> AFFERENT arteriola qisqaradi -> GFR normaga tushadi;\n• NaCl kam -> renin ajraladi, PGE2/NO afferentni kengaytiradi; angiotenzin II efferentni toraytiradi -> GFR tiklanadi.\n\n💡 USMLE: bu mexanizm har bir nefronda GFR ni avtoregulyatsiya qiladi. Loop diuretiklar macula densada NaCl tashilishini to'sadi -> renin ko'p ajraladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_08.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Glomerular filtration barrier",
+          "bandlar": [
+            "1. Fenestrated capillary endothelium - holds back blood cells",
+            "2. Glomerular basement membrane - type IV collagen, heparan sulfate (-)",
+            "3. Podocyte foot processes with slit diaphragms (nephrin)",
+            "Negative charge repels albumin; loss -> proteinuria"
+          ],
+          "izoh": "🧱 Filtratsiya to'sig'i 3 qavatdan iborat (qondan Bowman bo'shlig'iga qarab):\n\n1️⃣ TESHIKLI (fenestrlangan) kapillyar endoteliysi - qon hujayralarini o'tkazmaydi.\n\n2️⃣ GLOMERULYAR BAZAL MEMBRANA (GBM) - IV tip kollagen, laminin va GEPARAN SULFAT. Geparan sulfat MANFIY zaryadli -> manfiy zaryadli albuminni itaradi (zaryad to'sig'i).\n\n3️⃣ PODOTSITLAR - oyoqchalari (foot processes) orasida yupqa TIRQISH DIAFRAGMASI (asosiy oqsili - NEFRIN) - o'lcham to'sig'i.\n\n✅ O'tadi: suv, ionlar, glyukoza, aminokislotalar, mochevina, kreatinin.\n❌ O'tmaydi: hujayralar, yirik oqsillar (albumin deyarli o'tmaydi).\n\n⚠️ Klinika:\n• zaryad to'sig'i yoki podotsitlar shikastlansa -> NEFROTIK sindrom (kuchli proteinuriya); minimal o'zgarishli kasallikda podotsit oyoqchalari \"yassilanadi\";\n• nefrin geni mutatsiyasi -> tug'ma nefrotik sindrom;\n• IV tip kollagen nuqsoni -> Alport sindromi (gematuriya + karlik).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_09.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Kidney development: two origins",
+          "bandlar": [
+            "Ureteric bud (from mesonephric duct) - ureter, pelvis, calyces, collecting ducts",
+            "Metanephric mesoderm - glomerulus, Bowman capsule, PCT, loop of Henle, DCT",
+            "The two tissues induce each other",
+            "Failed bud-mesoderm contact -> renal agenesis"
+          ],
+          "izoh": "🧬 Doimiy buyrak (metanefros) IKKI manbadan rivojlanadi:\n\n🔵 SIYDIK YO'LI KURTAGI (ureteric bud) - mezonefral (Volf) yo'lining o'simtasi. Undan:\n• siydik yo'li (ureter);\n• buyrak jomi (pelvis renalis);\n• katta va kichik kosachalar (calices);\n• YIG'UVCHI naychalar.\n\n🔴 METANEFROGEN MEZODERMA (blastema) - kurtak uchini qalpoqdek o'raydi. Undan:\n• glomerula kapsulasi (Bowman);\n• proksimal egri kanalcha;\n• Henle qovuzlog'i;\n• distal egri kanalcha.\n(Glomerula kapillyarlari esa ichiga o'sib kirgan tomirlardan.)\n\n🔁 Ikkala to'qima bir-birini INDUKSIYA qiladi: kurtak mezodermani nefronga aylantiradi, mezoderma esa kurtakning shoxlanishini ta'minlaydi.\n\n⚠️ Klinika:\n• kurtak mezodermaga yetmasa -> buyrak AGENEZIYASI (ikki tomonlama bo'lsa - oligogidramnion, Potter ketma-ketligi);\n• kurtak erta ikkiga bo'linsa -> qo'shaloq (duplex) siydik yo'li.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_10.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Filtration fraction and filtered load",
+          "bandlar": [
+            "FF = GFR / RPF; normal about 20%",
+            "Filtered load (mg/min) = GFR (mL/min) x plasma conc. (mg/mL)",
+            "GFR is estimated with creatinine clearance (inulin is exact)",
+            "RPF is best estimated with PAH clearance"
+          ],
+          "izoh": "🧮 Filtratsiya bo'yicha asosiy formulalar:\n\n1️⃣ FILTRATSIYA FRAKSIYASI (FF) = GFR / RPF\n• buyrakka kelgan PLAZMANING qancha qismi filtrlanishini ko'rsatadi;\n• normada ~20% (masalan, GFR 120 mL/min, RPF 600 mL/min -> FF = 0,2).\n\n2️⃣ FILTRLANGAN YUK (filtered load) = GFR (mL/min) x moddaning plazmadagi konsentratsiyasi (mg/mL) -> mg/min.\nMasalan: GFR 125 mL/min, glyukoza 1 mg/mL -> 125 mg/min.\n\n3️⃣ GFR qanday baholanadi:\n• KREATININ klirensi - amaliyotda ishlatiladi; kreatinin biroz sekretsiya ham qilingani uchun GFR ni sal OSHIRIB ko'rsatadi;\n• inulin - erkin filtrlanadi, qayta so'rilmaydi va sekretsiya qilinmaydi -> eng aniq o'lchov.\n\n4️⃣ RPF - PAH (para-aminogippur kislota) klirensi bilan eng yaxshi baholanadi: PAH ham filtrlanadi, ham deyarli to'liq SEKRETSIYA qilinadi, shuning uchun buyrakdan bir o'tishda plazmadan deyarli butunlay tozalanadi.\n\n💡 USMLE: FF oshishi -> peritubulyar kapillyarlarda onkotik bosim oshadi -> proksimal reabsorbsiya kuchayadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_11.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "PDA: prostaglandins dilate the afferent arteriole",
+          "bandlar": [
+            "Prostaglandins (PGE2, PGI2) dilate the afferent arteriole",
+            "Keep GFR and RPF up when renal perfusion is low",
+            "NSAIDs block COX -> afferent constriction -> GFR and RPF fall",
+            "Risk of AKI: NSAID + hypovolemia or ACE inhibitor + diuretic"
+          ],
+          "izoh": "🧠 Eslab qolish: \"PDA\" - Prostaglandins Dilate Afferent arteriole.\n\n🔹 Buyrak prostaglandinlari (PGE2, PGI2) AFFERENT arteriolani KENGAYTIRADI:\n• glomerulaga ko'proq qon keladi -> GFR va RPF ko'tariladi;\n• bu, ayniqsa, buyrak perfuziyasi kamayganda (gipovolemiya, yurak yetishmovchiligi, sirroz) himoya mexanizmi.\n\n🔸 NSAID (ibuprofen, diklofenak va b.) COX ni to'sadi -> prostaglandinlar kamayadi -> afferent arteriola QISQARADI:\n• GFR pasayadi, RPF pasayadi;\n• FF o'zgarmaydi (ikkalasi ham kamaygani uchun).\n\n⚠️ Xavfli kombinatsiya (\"uchlik zarba\"): NSAID + ACE ingibitori/ARB + diuretik -> o'tkir buyrak shikastlanishi (AKI), ayniqsa keksalarda va suvsizlanganda.\n\n💡 USMLE: diareya bilan suvsizlangan bemor bosh og'rig'iga ibuprofen ichdi va kreatinini oshdi -> mexanizm: afferent arteriolaning prostaglandin bilan kengayishi yo'qoldi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_12.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "ACE: angiotensin II constricts the efferent arteriole",
+          "bandlar": [
+            "Angiotensin II constricts the efferent arteriole (more than afferent)",
+            "Efferent constriction: GFR up, RPF down, FF up",
+            "ACE inhibitors/ARBs dilate efferent: GFR down, RPF up, FF down",
+            "Small creatinine rise on ACEi is expected"
+          ],
+          "izoh": "🧠 Eslab qolish: \"ACE\" - Angiotensin II Constricts Efferent arteriole.\n\n🔹 Angiotenzin II asosan EFFERENT arteriolani toraytiradi:\n• qon glomerulada \"to'xtab\" qoladi -> glomerulyar bosim oshadi -> GFR saqlanadi yoki oshadi;\n• lekin buyrakdan o'tuvchi plazma oqimi kamayadi -> RPF pasayadi;\n• FF = GFR/RPF -> OSHADI.\nBu mexanizm perfuziya kamayganda GFR ni ushlab turadi.\n\n🔸 ACE ingibitorlari / ARB lar efferentni KENGAYTIRADI:\n• GFR pasayadi, RPF oshadi, FF kamayadi;\n• glomerula ichidagi bosim kamayadi -> diabetik nefropatiyada proteinuriyani kamaytiradi (nefroprotektiv);\n• kreatininning biroz (~30% gacha) oshishi kutiladi va odatda dorini to'xtatish shart emas.\n\n📋 Jadval (rasmda): afferent qisqarishi - GFR va RPF kamayadi, FF o'zgarmaydi; efferent qisqarishi - GFR oshadi, RPF kamayadi, FF oshadi.\n\n💡 USMLE: ikki tomonlama buyrak arteriyasi stenozida ACEi -> keskin AKI (keyingi postlarda).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_13.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Renal artery stenosis: mechanism and signs",
+          "bandlar": [
+            "Stenosis -> low renal perfusion -> renin -> angiotensin II -> HTN",
+            "Most common cause of secondary hypertension in adults",
+            "Severe/refractory HTN, flash pulmonary edema",
+            "Epigastric or flank bruit; often other large-artery stenoses"
+          ],
+          "izoh": "🚧 Buyrak arteriyasi stenozi (RAS) - renovaskulyar gipertenziyaning sababi.\n\n🔁 Mexanizm (RAAS):\nstenoz -> buyrak perfuziyasi kamayadi -> JG hujayralar \"qon bosimi past\" deb biladi -> RENIN oshadi -> angiotenzin I -> (ACE) -> angiotenzin II -> tomir torayishi + ALDOSTERON (Na va suv ushlanishi) -> GIPERTENZIYA.\n\n📌 Kattalarda ikkilamchi gipertenziyaning eng ko'p uchraydigan sababi (darsda shunday berilgan).\n\n🩺 Shubha qilish belgilari:\n• og'ir yoki 3 ta dori bilan ham tushmaydigan (rezistent) gipertenziya;\n• to'satdan boshlangan yoki 30 yoshdan oldin / 55 dan keyin paydo bo'lgan HTN;\n• \"FLASH\" o'pka shishi - to'satdan, takroriy;\n• epigastriy yoki yon (flank) sohada SHOVQIN (bruit);\n• boshqa yirik tomirlarda ham stenoz (koronar, karotid, oyoq arteriyalari);\n• aldosteron tufayli gipokaliemiya bo'lishi mumkin.\n\n💡 Tashxis: dupleks UZI, KT/MR-angiografiya.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_14.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Renal artery stenosis: atherosclerosis vs FMD",
+          "bandlar": [
+            "Atherosclerosis: proximal 1/3 (ostium) of renal artery",
+            "Atherosclerosis: older men, smokers, diabetes, dyslipidemia",
+            "Fibromuscular dysplasia: distal 2/3 and segmental branches",
+            "FMD: young/middle-aged women, 'string of beads' on angiography"
+          ],
+          "izoh": "⚖️ RAS ning 2 asosiy sababi:\n\n1️⃣ ATEROSKLEROZ (eng ko'p):\n• pilakcha arteriyaning PROKSIMAL 1/3 qismida, ko'pincha aortadan chiqish joyida (ostium);\n• keksa ERKAKLAR, chekuvchilar, diabet, dislipidemiya, boshqa tomirlarda ham ateroskleroz;\n• vaqt o'tishi bilan buyrak atrofiyaga uchraydi.\n\n2️⃣ FIBROMUSKULYAR DISPLAZIYA (FMD):\n• arteriya devorining (ko'pincha o'rta qavati) yallig'lanishsiz, aterosklerozsiz o'sishi;\n• arteriyaning DISTAL 2/3 qismi va segmentar tarmoqlari;\n• yosh va o'rta yoshli AYOLLAR;\n• angiografiyada \"marjon shodasi\" (string of beads) ko'rinishi - torayish va kengayishlar navbatlashadi;\n• karotid va vertebral arteriyalarda ham uchrashi mumkin (bosh og'rig'i, insult, disseksiya).\n\n💡 USMLE: 28 yoshli ayolda kuchli HTN + qorindagi shovqin -> FMD; 68 yoshli chekuvchi erkakda rezistent HTN -> ateroskleroz. FMD da angioplastika yaxshi natija beradi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_15.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Unilateral vs bilateral renal artery stenosis",
+          "bandlar": [
+            "Unilateral: affected kidney atrophies -> asymmetric kidney size",
+            "Renal vein renin: high on the stenotic side, low on the other",
+            "Bilateral: creatinine jumps after ACEi, ARB or renin inhibitor",
+            "Reason: GFR depends on Ang II efferent constriction"
+          ],
+          "izoh": "🔀 Stenoz bir yoki ikki tomonlama bo'lishi mumkin - klinik farqi katta.\n\n1️⃣ BIR TOMONLAMA RAS:\n• zararlangan buyrak kam qon olgani uchun ATROFIYAGA uchraydi -> buyraklar o'lchami ASIMMETRIK (farq >1,5 sm);\n• buyrak venalaridan qon olinsa (renal venoz renin): zararlangan tomonda renin YUQORI, sog' tomonda PAST (sog' buyrak gipertenziya va angiotenzin II ta'sirida renin ishlab chiqarishni bosadi);\n• sog' buyrak natriyni ko'proq chiqarib, qisman kompensatsiya qiladi; ACEi odatda yaxshi o'tkaziladi.\n\n2️⃣ IKKI TOMONLAMA RAS (yoki yagona buyrakda stenoz):\n• ikkala buyrakning GFR i angiotenzin II ning EFFERENT arteriolani toraytirishiga bog'liq;\n• ACE ingibitori, ARB yoki renin ingibitori (aliskiren) berilsa -> efferent kengayadi -> glomerulyar bosim keskin tushadi -> KREATININ to'satdan oshadi (AKI);\n• flash o'pka shishi ko'proq ikki tomonlamada uchraydi.\n\n💡 USMLE: ACEi boshlangandan keyin kreatinin keskin oshdi -> ikki tomonlama RAS ni o'ylang.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_16.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Erythropoietin production",
+          "bandlar": [
+            "EPO is made by interstitial fibroblasts of the renal cortex and medulla",
+            "Trigger: hypoxia -> HIF stabilization -> EPO gene",
+            "EPO drives erythroid progenitors (CFU-E) to mature RBCs",
+            "CKD -> anemia; RCC and some tumors -> polycythemia"
+          ],
+          "izoh": "🩸 Eritropoetin (EPO) - qizil qon tanachalari ishlab chiqarilishini boshqaruvchi gormon.\n\n🏭 Qayerda: buyrak PO'STLOG'I va mag'izidagi peritubulyar INTERSTITSIAL FIBROBLASTLAR (kanalcha epiteliysi emas!). Oz miqdorda jigarda ham.\n\n🔁 Mexanizm:\n• to'qimaga kislorod kam yetsa (gipoksiya, anemiya, balandlik) -> HIF (gipoksiya-induktsiyalanuvchi omil) parchalanmaydi -> EPO geni faollashadi;\n• EPO qon orqali suyak ko'migiga boradi -> eritroid o'tmishdoshlar (BFU-E, ayniqsa CFU-E) apoptozdan saqlanadi va ko'payadi -> proeritroblastlar -> retikulotsitlar;\n• gemoglobin va kislorod tashish oshgach, EPO ishlab chiqarilishi kamayadi (manfiy teskari aloqa).\n\n⚠️ Klinika:\n• surunkali buyrak kasalligi -> EPO yetishmaydi -> normotsitar ANEMIYA (davosi - rekombinant EPO);\n• buyrak hujayrali karsinomasi, gepatotsellyulyar karsinoma, gemangioblastoma -> ektopik EPO -> POLITSITEMIYA;\n• sportda EPO dopingi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_17.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Course of the ureter",
+          "bandlar": [
+            "Starts at the renal pelvis, runs retroperitoneally on psoas major",
+            "Passes UNDER the gonadal vessels",
+            "Crosses OVER the common iliac artery at the pelvic brim",
+            "Passes UNDER the uterine artery / ductus deferens"
+          ],
+          "izoh": "🛣️ Siydik yo'li (ureter) - uzunligi ~25-30 sm, butun yo'li bo'ylab qorin parda ORQASIDA (retroperitoneal).\n\n📍 Yo'nalishi:\n1. buyrak jomidan (pelvis renalis) boshlanadi;\n2. m. psoas major ustida pastga tushadi;\n3. moyak/tuxumdon tomirlarining OSTIDAN o'tadi (ular uni oldindan kesib o'tadi);\n4. kichik chanoq kirish chizig'ida umumiy yonbosh arteriyasining (ko'pincha bifurkatsiya joyi) USTIDAN o'tadi;\n5. chanoqda: ayollarda bachadon arteriyasining OSTIDAN, erkaklarda urug' yo'lining (ductus deferens) OSTIDAN o'tadi;\n6. qovuqning orqa-pastki devoriga qiya kiradi.\n\n🧠 Eslab qolish: \"Water under the bridge\" - suv (ureter) ko'prik (bachadon arteriyasi yoki urug' yo'li) OSTIDAN oqadi; suv yonbosh tomirlar USTIDAN oqadi.\n\nRasmda (Spalteholz) qovuqning orqa yuzasi: ductus deferens siydik yo'lini oldindan-yuqoridan kesib o'tadi, yonida urug' pufakchalari (vesiculae seminales) va prostata.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_18.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Ureteral injury in gynecologic surgery",
+          "bandlar": [
+            "Ureter passes just under the uterine artery, ~1-2 cm lateral to the cervix",
+            "Ligation of uterine vessels in hysterectomy may catch the ureter",
+            "Ureter lies near ovarian vessels (infundibulopelvic ligament) at the brim",
+            "Result: ureteral obstruction (hydronephrosis) or urine leak"
+          ],
+          "izoh": "⚠️ Ginekologik operatsiyalarda (ayniqsa gisterektomiya) siydik yo'li eng ko'p shikastlanadigan tuzilmalardan biri.\n\n📍 Nega?\n• siydik yo'li bachadon bo'ynidan taxminan 1-2 sm lateralda, bachadon arteriyasining bevosita OSTIDAN o'tadi;\n• qon ketishni to'xtatish uchun bachadon arteriyasiga qisqich yoki ip qo'yilganda siydik yo'li ham ilinib qolishi mumkin;\n• chanoq kirish chizig'ida u tuxumdon tomirlari (lig. suspensorium ovarii - infundibulopelvik boylam) yaqinida yotadi -> tuxumdon tomirlarini bog'lashda ham xavf bor.\n\n🩺 Natijalari:\n• bog'lansa -> OBSTRUKSIYA: yon og'rig'i, isitma, GIDRONEFROZ, bir tomonlama bo'lsa kreatinin kam o'zgarishi mumkin;\n• kesilsa yoki kuyib qolsa -> SIYDIK OQISHI: qorin bo'shlig'ida suyuqlik (urinoma), qindan siydik kelishi (ureterovaginal oqma).\n\n💡 USMLE: gisterektomiyadan keyin yon og'rig'i va gidronefroz -> bachadon arteriyasini bog'lashda siydik yo'li shikastlangan. Rasmda (Spalteholz) ayol chanog'i arteriyalari: a. uterina va ureter.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_19.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Blood supply of the ureter",
+          "bandlar": [
+            "Proximal: renal arteries",
+            "Middle: gonadal artery, aorta, common and internal iliac arteries",
+            "Distal: internal iliac and superior vesical arteries",
+            "Abdominal part fed from medial side, pelvic part from lateral side"
+          ],
+          "izoh": "🩸 Siydik yo'li uzun naycha bo'lgani uchun qonni BIR NECHTA manbadan, yo'l-yo'lakay oladi:\n\n1️⃣ PROKSIMAL (yuqori) qism - buyrak arteriyalari (a. renalis).\n\n2️⃣ O'RTA qism - moyak/tuxumdon arteriyasi, qorin aortasi, umumiy va ichki yonbosh arteriyalari.\n\n3️⃣ DISTAL (chanoq) qism - ichki yonbosh arteriyasi va qovuqning yuqori arteriyasi (a. vesicalis superior); ayollarda bachadon arteriyasidan ham tarmoqlar.\n\nBu tarmoqlar siydik yo'li devori bo'ylab uzunasiga anastomoz hosil qiladi.\n\n🔪 Jarrohlik qoidasi:\n• qorin qismida tarmoqlar siydik yo'liga MEDIAL tomondan keladi;\n• chanoq qismida - LATERAL tomondan.\nShuning uchun siydik yo'lini ajratishda tomirlar kelmaydigan tomondan ishlash kerak.\n\n⚠️ Siydik yo'lini atrofidagi to'qimadan haddan ortiq \"tozalash\" (skeletlash) uning qon ta'minotini buzadi -> ishemiya, striktura yoki oqma.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_20.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Ureteral constrictions and kidney stones",
+          "bandlar": [
+            "1. Ureteropelvic junction (UPJ)",
+            "2. Pelvic inlet, where the ureter crosses the iliac vessels",
+            "3. Ureterovesical junction (UVJ) - the narrowest point",
+            "Colicky flank-to-groin pain; noncontrast CT is the best test"
+          ],
+          "izoh": "🪨 Siydik yo'lining 3 ta fiziologik torayishi bor - buyrak toshlari aynan shu joylarda tiqilib qoladi:\n\n1️⃣ Jom-siydik yo'li tutashuvi (UPJ) - jom siydik yo'liga o'tgan joy.\n2️⃣ Kichik chanoq kirish chizig'i (pelvic inlet) - siydik yo'li yonbosh tomirlar ustidan kesib o'tgan joy.\n3️⃣ Siydik yo'li-qovuq tutashuvi (UVJ) - qovuq devori ichidan o'tadigan qism; ENG TOR joy, toshlar eng ko'p shu yerda to'xtaydi.\n\n🩺 Klinika (buyrak sanchig'i):\n• to'lqinsimon, juda kuchli og'riq - beldan (yon) chov va jinsiy a'zolarga tarqaladi (\"loin to groin\") - og'riq T11-L2 segmentlariga beriladi;\n• bemor bezovta, bir joyda tura olmaydi; ko'ngil aynishi, gematuriya;\n• UVJ da tosh -> tez-tez siyish, siyishga chaqiriq.\n\n🔎 Tashxis: kontrastsiz spiral KT - eng yaxshi usul; homiladorlar va bolalarda - UZI. Rentgenda (KUB) kalsiyli toshlar ko'rinadi.\n\n💡 Toshning siydik yo'lidagi joyi KT da umurtqa sathiga qarab aniqlanadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_21.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Intramural ureter: anti-reflux valve",
+          "bandlar": [
+            "Ureter passes obliquely through the bladder wall",
+            "Bladder contraction compresses the intramural segment",
+            "This flap-valve prevents vesicoureteral reflux",
+            "Short intramural tunnel -> VUR, recurrent UTIs in children"
+          ],
+          "izoh": "🚪 Siydik yo'lining qovuq devori ichidagi qismi (pars intramuralis) taxminan 1,5-2 sm uzunlikda QIYA yo'nalishda o'tadi va trigonning yuqori-lateral burchagidagi teshik (orificium ureteris) bilan ochiladi.\n\n🔒 Qopqoq mexanizmi:\n• qovuq to'lganda yoki qisqarganda (siyish paytida) devordagi bosim intramural qismni SIQIB qo'yadi;\n• natijada siydik qovuqdan buyrak tomonga QAYTMAYDI (reflyuksga qarshi mexanizm);\n• qo'shimcha ravishda siydik yo'lining o'zi peristaltika qiladi.\n\n⚠️ Vezikoureteral reflyuks (VUR):\n• intramural qism tug'ma kalta yoki teshik lateralroq joylashgan bo'lsa, qopqoq ishlamaydi;\n• bolalarda takroriy siydik yo'li infeksiyalari, pielonefrit va buyrak chandiqlanishiga (reflyuks nefropatiya) olib keladi;\n• tashxis - mikstsion sistouretrografiya (VCUG).\n\nRasmda (Sobotta) ochilgan qovuq: orificium ureteris, plica ureterica, trigonum vesicae, uvula vesicae va prostata.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_22.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie II (1920), public domain"
+          }
+        },
+        {
+          "sarlavha": "Urinary bladder: general anatomy",
+          "bandlar": [
+            "Covered by peritoneum only on its superior surface",
+            "Apex -> median umbilical ligament (urachus remnant)",
+            "Trigone: smooth area between ureteric and internal urethral orifices",
+            "Rest of the mucosa forms rugae when the bladder is empty"
+          ],
+          "izoh": "🫙 Siydik qovug'i (vesica urinaria) - kichik chanoqdagi muskulli \"rezervuar\", tanasi (corpus) bo'shliqli muskulli xaltadan iborat.\n\n🧩 Qismlari:\n• CHO'QQI (apex/vertex) - oldinga-yuqoriga qaragan, undan kindikka O'RTA kindik boylami (lig. umbilicale medianum - urakus qoldig'i) ketadi;\n• TANA (corpus);\n• TUB (fundus) - orqa-pastki qism;\n• BO'YIN (cervix) - siydik chiqarish kanaliga o'tadi.\n\n🌐 Qorin parda qovuqni faqat YUQORIDAN qoplaydi.\n\n🔺 TRIGON (trigonum vesicae) - ikki siydik yo'li teshigi va ichki siydik chiqarish teshigi orasidagi uchburchak; shilliq qavati SILLIQ (mezonefral yo'ldan kelib chiqadi), qolgan qismida bo'sh qovuqda burmalar (rugae) bor.\n\n💡 USMLE:\n• qovuq gumbazi (dome) yorilsa -> siydik QORIN BO'SHLIG'IGA quyiladi (intraperitoneal yorilish, to'lgan qovuqqa zarba);\n• chanoq suyagi sinishida ko'proq peritonealdan tashqari yorilish;\n• urakus saqlanib qolsa - kindikdan siydik oqishi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_23.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Detrusor muscle",
+          "bandlar": [
+            "Smooth muscle forming most of the bladder wall",
+            "Interlacing inner longitudinal, middle circular, outer longitudinal layers",
+            "Contracts to empty the bladder (micturition)",
+            "Controlled by parasympathetic pelvic splanchnic nerves S2-S4 (M3)"
+          ],
+          "izoh": "💪 Detruzor (m. detrusor vesicae) - qovuq devorining asosiy qismini tashkil qiluvchi SILLIQ mushak.\n\n🧵 Tuzilishi: mushak tolalari 3 qavatda (ichki uzunasiga, o'rta halqasimon, tashqi uzunasiga), lekin ular bir-biri bilan chirmashib ketgan to'r hosil qiladi - qisqarganda qovuq hamma tomondan bir tekis siqiladi.\n\n⚙️ Vazifasi:\n• to'lish bosqichida - BO'SHASHIB turadi (qovuq siydikni past bosimda saqlaydi; simpatik beta-3 retseptorlar);\n• siyish (mikturitsiya) paytida - QISQARIB qovuqni bo'shatadi.\n\n🔌 Innervatsiya: parasimpatik TOS splanxnik nervlari (nn. splanchnici pelvici, S2-S3-S4) -> asetilxolin -> M3 muskarin retseptorlari -> qisqarish.\n\n⚠️ Klinika:\n• detruzor haddan tashqari faol -> shoshilinch (urge) inkontinensiya;\n• detruzor sust -> siydik tutilishi, to'lib oqish inkontinensiyasi;\n\nRasmda (Spalteholz) cho'zilgan qovuq, yuza mushak qavati olingan: tunica muscularis (stratum medium), stratum internum, siydik yo'llari.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_24.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Internal urethral sphincter",
+          "bandlar": [
+            "Smooth muscle around the bladder neck (sphincter vesicae)",
+            "Involuntary - sympathetic fibers T11-L2 (alpha-1 receptors)",
+            "Contracts during the filling phase to prevent leakage",
+            "In men: also closes during ejaculation (prevents retrograde flow)"
+          ],
+          "izoh": "🔒 Ichki siydik chiqarish sfinkteri (m. sphincter urethrae internus, sphincter vesicae) - qovuq bo'ynida siydik kanali boshlanishini halqa kabi o'rab turgan SILLIQ mushak tolalari.\n\n⚙️ Xususiyatlari:\n• IXTIYORSIZ - irodamiz bilan boshqarib bo'lmaydi;\n• SIMPATIK innervatsiya: pastki ko'krak va bel splanxnik nervlari (T11-L2) -> gipogastral chigal -> noradrenalin -> alfa-1 retseptorlar -> qisqarish;\n• qovuq TO'LAYOTGANDA qisqarib turadi va siydik oqib ketishining oldini oladi;\n• siyish paytida bo'shashadi.\n\n👨 Erkaklarda yaxshi rivojlangan: eyakulyatsiya paytida qisqarib, urug'ning qovuqqa qaytishini (retrograd eyakulyatsiya) oldini oladi. Ayollarda kuchsiz rivojlangan.\n\n💊 Farmakologiya:\n• alfa-1 blokatorlar (tamsulozin, doksazozin) sfinkter va prostata silliq mushagini bo'shashtiradi -> BPH da siydik oqimi yaxshilanadi (nojo'ya ta'siri - retrograd eyakulyatsiya, ortostatik gipotenziya);\n• alfa-agonistlar (psevdoefedrin) siydik tutilishiga olib kelishi mumkin.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_25.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "External urethral sphincter",
+          "bandlar": [
+            "Skeletal muscle of the urogenital diaphragm surrounding the urethra",
+            "Voluntary - perineal branches of the pudendal nerve (S2-S4)",
+            "Relaxes during micturition; contracts to hold urine",
+            "Pudendal nerve: around the ischial spine (landmark for nerve block)"
+          ],
+          "izoh": "🎛️ Tashqi siydik chiqarish sfinkteri (m. sphincter urethrae externus) - siydik-tanosil diafragmasidagi (chuqur oraliq bo'shlig'i) KO'NDALANG-TARGIL mushak; siydik kanalining membranoz qismini o'rab turadi.\n\n⚙️ Xususiyatlari:\n• IXTIYORIY - siyishni irodamiz bilan to'xtatish yoki boshlash imkonini beradi;\n• innervatsiya: UYATLI nerv (n. pudendus, S2-S4) ning oraliq (perineal) tarmoqlari, retseptor - nikotin (N);\n• siyish paytida BO'SHASHADI, siydikni ushlab turish kerak bo'lsa qisqaradi.\n\n🧭 N. pudendus kichik chanoqdan katta quymich teshigi orqali chiqib, QUYMICH O'SIG'I (spina ischiadica) atrofidan aylanib, kichik quymich teshigi orqali oraliqqa kiradi -> tug'ruqda pudendal blokada uchun mo'ljal - spina ischiadica.\n\n⚠️ Klinika:\n• tug'ruqda n. pudendus cho'zilishi yoki oraliq jarohati -> stress inkontinensiya;\n\nRasmda (Spalteholz) erkak siydik-tanosil diafragmasi pastdan: M. sphincter urethrae membranaceae, urethra (pars membranacea), M. transversus perinei profundus.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_26.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Bladder innervation: parasympathetic",
+          "bandlar": [
+            "Preganglionic fibers from sacral segments S2, S3, S4",
+            "Travel in pelvic splanchnic nerves to the detrusor",
+            "ACh on M3 receptors -> detrusor contraction -> voiding",
+            "Parasympathetics facilitate micturition"
+          ],
+          "izoh": "🟢 Parasimpatik innervatsiya - siyishni (mikturitsiyani) TA'MINLAYDI.\n\n📍 Yo'li:\n• preganglionar neyronlar orqa miyaning SAKRAL segmentlarida (S2, S3, S4) - lateral oraliq kulrang modda;\n• tolalar TOS SPLANXNIK nervlari (nn. splanchnici pelvici, nn. erigentes) tarkibida chiqadi;\n• pastki gipogastral (tos) chigal orqali qovuq devoridagi ganglioziga boradi;\n• postganglionar tolalar -> DETRUZOR mushagi.\n\n⚙️ Ta'siri: asetilxolin -> M3 retseptorlar -> detruzor QISQARADI + ichki sfinkter bo'shashadi -> siydik chiqadi.\n\n🧠 Eslab qolish: \"S2, 3, 4 keeps the pee off the floor\" - S2-S4 siyish va siydik ushlab turish markazi (parasimpatik + n. pudendus).\n\n⚠️ Klinika:\n• S2-S4 yoki tos splanxnik nervlari shikastlansa (ot dumi sindromi, kichik chanoq operatsiyalari) -> detruzor qisqara olmaydi -> siydik tutilishi, atonik qovuq;\n• antixolinergik dorilar (atropin, uch halqali antidepressantlar, antigistaminlar) -> siydik tutilishi, ayniqsa BPH bor keksalarda.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_27.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Bladder innervation: sympathetic",
+          "bandlar": [
+            "Fibers from T11-L2 via lumbar splanchnic nerves",
+            "Reach the bladder through the hypogastric (pelvic) plexus",
+            "Supply the trigone and internal urethral sphincter (alpha-1)",
+            "Beta-3 relaxes the detrusor; sympathetics inhibit micturition"
+          ],
+          "izoh": "🔴 Simpatik innervatsiya - siydikni YIG'ISH va USHLAB TURISHNI ta'minlaydi (siyishni to'xtatadi).\n\n📍 Yo'li:\n• preganglionar neyronlar T11-L2 segmentlarida (darsda L1-L2 deb ham berilgan);\n• BEL splanxnik nervlari (nn. splanchnici lumbales) -> pastki tutqich ganglionlari -> yuqori gipogastral chigal -> gipogastral nervlar -> pastki gipogastral (tos) chigal -> qovuq chigali (plexus vesicalis).\n\n⚙️ Ta'siri (noradrenalin):\n• alfa-1 retseptorlar -> TRIGON va ICHKI sfinkter qisqaradi (qovuq bo'yni yopiladi);\n• beta-3 retseptorlar -> DETRUZOR bo'shashadi (qovuq ko'p siydikni past bosimda yig'adi).\n\n📌 Qoida: simpatik faollashuv -> siydik TUTILISHI; parasimpatik faollashuv -> siydik CHIQISHI.\n\n💡 USMLE: mirabegron - beta-3 agonist, haddan faol qovuqda detruzorni bo'shashtiradi; amfetamin kabi simpatomimetiklar siydik tutilishini kuchaytiradi.\n\nRasmda (Spalteholz) tos vegetativ chigallari: truncus sympathicus, plexus hypogastricus, plexus vesicalis, nn. vesicales.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_28.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Bladder: blood supply, veins and lymph",
+          "bandlar": [
+            "Arteries: vesical branches of the internal iliac artery",
+            "Superior vesical arteries from the patent part of the umbilical artery",
+            "Vesical venous plexus -> internal iliac veins",
+            "Lymph -> external and internal iliac nodes"
+          ],
+          "izoh": "🩸 Qovuqning qon ta'minoti:\n\n🔴 ARTERIYALAR - ICHKI yonbosh arteriyasining (a. iliaca interna) qovuq tarmoqlari:\n• YUQORI qovuq arteriyalari (aa. vesicales superiores) - kindik arteriyasining ochiq qolgan proksimal qismidan (kindik arteriyasining berkilgan qismi -> medial kindik boylami);\n• PASTKI qovuq arteriyasi (a. vesicalis inferior) - erkaklarda; ayollarda uning o'rnini qin arteriyasi bosadi;\n\n🔵 VENALAR: qovuq venoz chigali (plexus venosus vesicalis) -> ICHKI yonbosh venalari. Erkaklarda u prostata venoz chigali bilan birlashib ketadi.\n\n🟢 LIMFA: tashqi va ichki yonbosh limfa tugunlariga.\n\n💡 USMLE:\n• qovuq saratoni metastazi birinchi navbatda yonbosh tugunlariga;\n• prostata-qovuq venoz chigali umurtqa venoz chigali (Batson) bilan tutashgan -> prostata saratoni umurtqalarga metastaz beradi.\n\nRasmda (Spalteholz) erkak chanog'i arteriyalari: a. vesicalis superior, a. vesicalis inferior, ductus deferens, vesica urinaria.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_29.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Micturition control centers",
+          "bandlar": [
+            "Pontine micturition center coordinates sympathetic and parasympathetic",
+            "Frontal cortex gives voluntary (inhibitory) control",
+            "Sacral center S2-S4 runs the voiding reflex",
+            "Sympathetic -> urinary retention; parasympathetic -> voiding"
+          ],
+          "izoh": "🧠 Siyish (mikturitsiya) 3 darajada boshqariladi:\n\n1️⃣ BOSH MIYA PO'STLOG'I (peshona bo'lagi medial yuzasi) - ixtiyoriy nazorat: \"hozir mumkin emas\" deb siyishni to'xtatib turadi, qulay vaqtda ruxsat beradi.\n\n2️⃣ KO'PRIKDAGI SIYISH MARKAZI (pontine micturition center, Barrington yadrosi) - ixtiyorsiz qovuq faoliyatini boshqaradi: simpatik va parasimpatik tizimlarni MUVOFIQLASHTIRADI (detruzor qisqarganda sfinkterlar bo'shashishi kerak).\n\n3️⃣ SAKRAL markaz (S2-S4) - siyish reflektor yoyi: qovuq cho'zilishi haqidagi signal -> parasimpatik javob.\n\n🔄 Bosqichlar:\n• TO'LISH: simpatik faol (detruzor bo'shashgan, ichki sfinkter yopiq), n. pudendus tashqi sfinkterni yopiq tutadi;\n• SIYISH: ko'prik markazi buyrug'i bilan parasimpatik faollashadi (detruzor qisqaradi), ikkala sfinkter bo'shashadi.\n\n⚠️ Ko'prik va sakral markaz orasidagi orqa miya shikastlanishida muvofiqlik buziladi -> detruzor-sfinkter dissinergiyasi (detruzor qisqarganda sfinkter ham qisqaradi).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_30.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Autonomic drugs for bladder dysfunction",
+          "bandlar": [
+            "Antimuscarinics (oxybutynin, tolterodine) block M3 - overactive bladder",
+            "Mirabegron: beta-3 agonist - relaxes detrusor",
+            "Bethanechol: muscarinic agonist - non-obstructive urinary retention",
+            "Alpha-1 blockers (tamsulosin) relax bladder neck/prostate - BPH"
+          ],
+          "izoh": "💊 Ba'zi vegetativ dorilar qovuq silliq mushak retseptorlariga ta'sir qilib, uning faoliyati buzilishini davolaydi:\n\n1️⃣ ANTIMUSKARIN dorilar - oksibutinin, tolterodin, solifenatsin:\n• detruzordagi M3 retseptorlarni to'sadi -> detruzor qisqarishi kamayadi;\n• haddan tashqari faol qovuq (urge inkontinensiya);\n• nojo'ya: og'iz qurishi, qabziyat, keksalarda chalkashlik, yopiq burchakli glaukoma.\n\n2️⃣ MIRABEGRON - beta-3 agonist: detruzorni bo'shashtiradi, qovuq sig'imini oshiradi; antixolinergik nojo'ya ta'sirlari yo'q (lekin qon bosimini oshirishi mumkin).\n\n3️⃣ BETANEXOL - muskarin agonisti: detruzorni qisqartiradi -> operatsiyadan keyingi yoki neyrogen (obstruksiyasiz) siydik tutilishida.\n\n4️⃣ ALFA-1 BLOKATORLAR - tamsulozin, alfuzozin, doksazozin: qovuq bo'yni va prostata silliq mushagini bo'shashtiradi -> BPH da siydik oqimi yaxshilanadi, to'lib oqish inkontinensiyasida obstruksiyani kamaytiradi.\n\n💡 USMLE: siydik tutilishi bor odamga antixolinergik berish xavfli (ayniqsa BPH).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_31.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Stress incontinence",
+          "bandlar": [
+            "Outlet incompetence: urethral hypermobility or intrinsic sphincter deficiency",
+            "Leak with increased abdominal pressure: cough, sneeze, lifting",
+            "Positive bladder stress test (leak seen on cough/Valsalva)",
+            "Tx: Kegel exercises, weight loss, pessary"
+          ],
+          "izoh": "🤧 Stress inkontinensiya - qorin ichi bosimi oshganda siydikning ixtiyorsiz oqishi.\n\n⚙️ Mexanizm - CHIQISH YO'LINING YETISHMOVCHILIGI:\n• siydik kanalining gipermobilligi - tos tubi mushaklari va boylamlari bo'shashgan, kanal pastga siljiydi va yopilmaydi;\n• ichki sfinkter yetishmovchiligi (intrinsic sphincter deficiency).\nDetruzor esa NORMAL ishlaydi.\n\n🩺 Klinika:\n• yo'talganda, aksirganda, kulganda, og'ir narsa ko'targanda, sakraganda OZ miqdorda siydik oqadi;\n• siyishga chaqiriq hissi YO'Q;\n• qovuq stress testi musbat - yo'tal yoki Valsalva paytida kanaldan siydik oqishi ko'rinadi;\n• qovuqda qoldiq siydik normal.\n\n⚠️ Xavf omillari: semizlik, homiladorlik, ko'p marta TABIIY tug'ruq, menopauza, prostatektomiya (erkaklarda).\n\n💊 Davo: tos tubi mushaklarini mashq qilish (Kegel), vazn kamaytirish, PESSARIY; samara bo'lmasa - jarrohlik (siydik kanali ostiga \"slink\").",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_32.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Urgency incontinence (and mixed)",
+          "bandlar": [
+            "Detrusor overactivity - involuntary detrusor contractions",
+            "Sudden urge to void, leak before reaching the toilet",
+            "Causes: UTI, idiopathic, neurologic disease",
+            "Tx: Kegel, bladder training, antimuscarinics, mirabegron; mixed = stress + urge"
+          ],
+          "izoh": "🚽 Shoshilinch (urge) inkontinensiya - to'satdan kuchli siyish istagi paydo bo'lib, hojatxonaga yetib bormasdan siydik oqib ketadi.\n\n⚙️ Mexanizm: DETRUZORNING HADDAN TASHQARI FAOLLIGI - qovuq hali to'lmasdan detruzor ixtiyorsiz qisqaradi (\"haddan faol qovuq\" - overactive bladder).\n\n🩺 Klinika:\n• to'satdan chaqiriq + siydik oqishi (ko'pincha ko'p miqdorda);\n• tez-tez siyish, kechasi siyish (noktyuriya);\n• suv shovqini, kalit bilan eshik ochish kabi omillar qo'zg'atishi mumkin.\n\n🔎 Sabablari: siydik yo'li infeksiyasi (UTI - avval istisno qilinadi), idiopatik (keksalarda ko'p), insult, Parkinson, rassey skleroz, orqa miyaning suprasakral shikastlanishi.\n\n💊 Davo:\n• Kegel mashqlari, qovuqni mashq qildirish (soatga qarab siyish, chalg'itish, bo'shashish usullari);\n• antimuskarin dorilar (oksibutinin);\n• mirabegron (beta-3 agonist).\n\n🔀 ARALASH inkontinensiya = stress + urge belgilari birga (ayollarda ko'p).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_33.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Overflow incontinence",
+          "bandlar": [
+            "Incomplete emptying: detrusor underactivity or outlet obstruction",
+            "Leak when the bladder overfills; constant dribbling",
+            "High post-void residual on catheter or ultrasound",
+            "Tx: catheterization, relieve obstruction (alpha-1 blockers for BPH)"
+          ],
+          "izoh": "💧 To'lib oqish (overflow) inkontinensiyasi - qovuq to'liq bo'shamaydi, haddan tashqari to'lib ketadi va siydik tomchilab oqadi.\n\n⚙️ Mexanizm - TO'LIQ BO'SHAMASLIK:\n• detruzor SUST (yetarli qisqarmaydi) - diabetik neyropatiya, sakral orqa miya yoki nerv ildizlari shikastlanishi, antixolinergik dorilar;\n• CHIQISH OBSTRUKSIYASI - prostata bezi giperplaziyasi (BPH), siydik kanali strikturasi, kuchli qabziyat.\n\n🩺 Klinika:\n• doimiy tomchilab oqish, siydik oqimi sust, to'liq bo'shamaganlik hissi;\n• qorin pastida kattalashgan qovuq paypaslanadi;\n• SIYISHDAN KEYINGI QOLDIQ (post-void residual) - kateter yoki UZI bilan o'lchanganda YUQORI.\n\n🔎 Xavf omillari (darsda): poliuriya (masalan, diabet), qovuq chiqishi obstruksiyasi (BPH), orqa miya shikastlanishi.\n\n💊 Davo:\n• kateterizatsiya (vaqti-vaqti bilan yoki doimiy);\n• sababni bartaraf etish - BPH da alfa-1 blokatorlar, obstruksiyani jarrohlik yo'li bilan olib tashlash.\n\n⚠️ Uzoq davom etsa -> gidronefroz va buyrak yetishmovchiligi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_34.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Spastic (UMN) bladder",
+          "bandlar": [
+            "Spinal cord lesion ABOVE the sacral segments",
+            "Loss of descending inhibition of the parasympathetic (detrusor) reflex",
+            "Detrusor contracts with minimal stretch -> small, hyperreflexic bladder",
+            "Urge incontinence; may have detrusor-sphincter dyssynergia"
+          ],
+          "izoh": "⚡ Spastik qovuq (yuqori motoneyron tipidagi neyrogen qovuq).\n\n📍 Sabab: orqa miyaning SAKRAL segmentlardan YUQORIDAGI shikastlanishi - travma, rassey skleroz (MS - oq moddadagi oligodendrotsitlar zararlanadi), o'sma, mielit.\n\n⚙️ Mexanizm:\n• sakral (S2-S4) refleks yoyi butun qoladi;\n• lekin ko'prik va po'stloqdan keladigan TORMOZLOVCHI ta'sir uziladi;\n• to'lish bosqichida detruzorni innervatsiya qiluvchi parasimpatik tolalar tormozlanmaydi -> detruzor juda oz cho'zilishga ham javob berib QISQARADI.\n\n🩺 Klinika:\n• qovuq KICHIK, devori qalin, detruzor giperrefleksiyasi;\n• tez-tez, oz-ozdan, shoshilinch siyish -> URGE inkontinensiya;\n• ko'prik va sakral markaz orasidagi shikastda detruzor-sfinkter dissinergiyasi -> qovuqda bosim oshadi, reflyuks va buyrak zararlanishi xavfi.\n\n💡 USMLE: orqa miya jarohatidan keyin dastlab \"spinal shok\" - qovuq vaqtincha ATONIK bo'ladi, keyin spastikka o'tadi. Davo: antimuskarinlar, vaqti-vaqti bilan kateterizatsiya.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_35.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Atonic (LMN) bladder",
+          "bandlar": [
+            "Lesion of sacral cord segments (S2-S4) or sacral nerve roots",
+            "Loss of pelvic splanchnic motor supply -> detrusor cannot contract",
+            "Large, flaccid, overfilled bladder",
+            "Continuous dribbling (overflow incontinence)"
+          ],
+          "izoh": "🎈 Atonik qovuq (pastki motoneyron tipidagi neyrogen qovuq).\n\n📍 Sabab: orqa miyaning SAKRAL segmentlari (S2-S4, konus medullaris) yoki SAKRAL nerv ildizlari (ot dumi - cauda equina) shikastlanishi: disk churrasi, o'sma, travma; shuningdek, diabetik neyropatiya (avval sezuvchi tolalar zararlanadi), kichik chanoq radikal operatsiyalari.\n\n⚙️ Mexanizm:\n• TOS SPLANXNIK nervlarining harakat (motor) innervatsiyasi yo'qoladi;\n• detruzor QISQARA OLMAYDI, refleks yoyi uzilgan.\n\n🩺 Klinika:\n• qovuq KATTA, bo'shashgan (flaccid), haddan tashqari to'lgan;\n• siydik DOIMIY tomchilab oqadi - to'lib oqish (overflow) inkontinensiyasi;\n• siyishdan keyingi qoldiq juda katta;\n• ot dumi sindromida: \"egar\" anesteziyasi, ikki tomonlama oyoq kuchsizligi, anal sfinkter tonusi pasayishi -> SHOSHILINCH jarrohlik!\n\n💊 Davo: vaqti-vaqti bilan kateterizatsiya; betanexol yordami cheklangan.\n\n⚖️ Solishtiring: spastik qovuq - kichik, giperrefleksiv, urge; atonik qovuq - katta, bo'shashgan, overflow.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d6_36.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        }
+      ],
+      "savollar": [
+        {
+          "vinyetka": "A 42-year-old man has sudden, severe colicky left flank pain radiating to the groin, with nausea and microscopic hematuria. Noncontrast CT shows a 6-mm calcified stone in the left ureter where it crosses the common iliac artery.",
+          "savol": "At which ureteral narrowing is the stone lodged?",
+          "javoblar": [
+            "Pelvic inlet (brim)",
+            "Ureteropelvic junction",
+            "Ureterovesical junction",
+            "Renal calyx",
+            "Intramural urethra"
+          ],
+          "togri": 0,
+          "izoh": "Siydik yo'li umumiy yonbosh arteriyasini kesib o'tgan joy - kichik chanoq kirish chizig'i, 3 ta torayishdan biri (UPJ, chanoq kirishi, UVJ).",
+          "vinyetka_uz": "42 yoshli erkakda to'satdan chap yon sohada chovga tarqaluvchi kuchli sanchiqli og'riq, ko'ngil aynishi va mikrogematuriya paydo bo'ldi. Kontrastsiz KT da chap siydik yo'lida, u umumiy yonbosh arteriyasini kesib o'tgan joyda 6 mm li kalsiyli tosh aniqlandi.",
+          "savol_uz": "Tosh siydik yo'lining qaysi torayishida tiqilib qolgan?",
+          "javoblar_uz": [
+            "chanoq kirish chizig'i",
+            "jom-siydik yo'li tutashuvi",
+            "siydik yo'li-qovuq tutashuvi",
+            "buyrak kosachasi",
+            "siydik kanali intramural qismi"
+          ]
+        },
+        {
+          "vinyetka": "Two days after an abdominal hysterectomy for fibroids, a 46-year-old woman develops right flank pain and fever. Ultrasound shows right hydronephrosis and hydroureter down to the level of the cervix.",
+          "savol": "Injury most likely occurred while ligating which structure?",
+          "javoblar": [
+            "Uterine artery",
+            "Round ligament of the uterus",
+            "Internal pudendal artery",
+            "Inferior epigastric artery",
+            "Median umbilical ligament"
+          ],
+          "togri": 0,
+          "izoh": "Siydik yo'li bachadon bo'yni yonida bachadon arteriyasi OSTIDAN o'tadi ('water under the bridge') - uni bog'lashda ilinib qolishi mumkin.",
+          "vinyetka_uz": "Mioma sababli qorin orqali gisterektomiyadan 2 kun o'tib 46 yoshli ayolda o'ng yon og'rig'i va isitma paydo bo'ldi. UZI da o'ng tomonlama gidronefroz va bachadon bo'yni sathigacha kengaygan siydik yo'li aniqlandi.",
+          "savol_uz": "Shikast qaysi tuzilmani bog'lash paytida yuz bergan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "bachadon arteriyasi",
+            "bachadon yumaloq boylami",
+            "ichki uyatli arteriya",
+            "pastki epigastral arteriya",
+            "o'rta kindik boylami"
+          ]
+        },
+        {
+          "vinyetka": "A healthy 35-year-old woman volunteers to donate a kidney to her brother. Both kidneys are equal in size and function and each has a single artery. The surgeon plans to remove her left kidney.",
+          "savol": "What anatomic feature makes the left kidney preferred?",
+          "javoblar": [
+            "Its renal vein is longer",
+            "Its renal artery is longer",
+            "It lies lower than the right",
+            "It has no gonadal vein tributary",
+            "It lies anterior to the colon"
+          ],
+          "togri": 0,
+          "izoh": "Chap buyrak venasi aorta oldidan o'tgani uchun uzun - retsipient tomirlariga tikish oson. O'ng buyrak arteriyasi aslida uzunroq.",
+          "vinyetka_uz": "Sog'lom 35 yoshli ayol akasiga buyrak berishga rozi bo'ldi. Ikkala buyrak o'lchami va faoliyati bir xil, har birida bitta arteriya bor. Jarroh chap buyrakni olishni rejalashtirdi.",
+          "savol_uz": "Chap buyrakni afzal qiladigan anatomik xususiyat qaysi?",
+          "javoblar_uz": [
+            "buyrak venasi uzunroq",
+            "buyrak arteriyasi uzunroq",
+            "o'ngdan pastroq yotadi",
+            "moyak venasi quyilmaydi",
+            "chambar ichak oldida yotadi"
+          ]
+        },
+        {
+          "vinyetka": "A 29-year-old woman has blood pressure of 178/108 mm Hg despite two drugs. She does not smoke and has normal lipids. A bruit is heard in the right upper abdomen. Angiography shows alternating narrowing and dilation of the distal right renal artery.",
+          "savol": "What is the most likely diagnosis?",
+          "javoblar": [
+            "Fibromuscular dysplasia",
+            "Atherosclerotic renal artery stenosis",
+            "Takayasu arteritis",
+            "Polyarteritis nodosa",
+            "Primary hyperaldosteronism"
+          ],
+          "togri": 0,
+          "izoh": "Yosh ayol + distal 2/3 qismda 'marjon shodasi' ko'rinishi -> fibromuskulyar displaziya. Ateroskleroz proksimal 1/3 da, keksa erkaklarda.",
+          "vinyetka_uz": "29 yoshli ayolning qon bosimi ikki dori qabul qilishiga qaramay 178/108 mm sim. ust. Chekmaydi, lipidlari normal. Qorinning o'ng yuqori qismida shovqin eshitiladi. Angiografiyada o'ng buyrak arteriyasining distal qismida torayish va kengayishlar navbatlashadi.",
+          "savol_uz": "Eng ehtimolli tashxis qaysi?",
+          "javoblar_uz": [
+            "fibromuskulyar displaziya",
+            "aterosklerotik stenoz",
+            "Takayasu arteriiti",
+            "tugunli poliarteriit",
+            "birlamchi giperaldosteronizm"
+          ]
+        },
+        {
+          "vinyetka": "A 70-year-old male smoker with coronary and peripheral artery disease has resistant hypertension. One week after starting lisinopril, his serum creatinine rises from 1.1 to 2.6 mg/dL. Imaging shows bilateral renal artery stenosis.",
+          "savol": "What best explains the fall in GFR?",
+          "javoblar": [
+            "Loss of efferent arteriolar constriction",
+            "Afferent arteriolar constriction",
+            "Increased renal vein renin",
+            "Glomerular basement membrane damage",
+            "Ureteral obstruction"
+          ],
+          "togri": 0,
+          "izoh": "Ikki tomonlama RAS da GFR angiotenzin II ning efferentni toraytirishiga bog'liq. ACEi efferentni kengaytiradi -> glomerulyar bosim tushadi.",
+          "vinyetka_uz": "Koronar va periferik arteriyalar kasalligi bor 70 yoshli chekuvchi erkakda rezistent gipertenziya. Lizinopril boshlanganidan bir hafta o'tib qon kreatinini 1,1 dan 2,6 mg/dL ga oshdi. Tekshiruvda ikki tomonlama buyrak arteriyasi stenozi aniqlandi.",
+          "savol_uz": "GFR pasayishini eng yaxshi nima tushuntiradi?",
+          "javoblar_uz": [
+            "efferent torayishining yo'qolishi",
+            "afferent arteriola torayishi",
+            "buyrak venasida renin oshishi",
+            "bazal membrana shikasti",
+            "siydik yo'li obstruksiyasi"
+          ]
+        },
+        {
+          "vinyetka": "A 66-year-old man with severe diarrhea for 3 days takes ibuprofen several times daily for a headache. His creatinine rises from 0.9 to 2.1 mg/dL. Urinalysis is bland.",
+          "savol": "Which change in renal hemodynamics best explains this?",
+          "javoblar": [
+            "Afferent arteriole constriction",
+            "Efferent arteriole constriction",
+            "Efferent arteriole dilation",
+            "Increased filtration fraction",
+            "Increased renal plasma flow"
+          ],
+          "togri": 0,
+          "izoh": "PDA: prostaglandinlar afferentni kengaytiradi. NSAID ularni to'sadi -> gipovolemiyada afferent qisqaradi -> GFR va RPF tushadi, FF o'zgarmaydi.",
+          "vinyetka_uz": "3 kundan beri kuchli diareya bilan og'rigan 66 yoshli erkak bosh og'rig'i uchun kuniga bir necha marta ibuprofen ichgan. Kreatinini 0,9 dan 2,1 mg/dL ga oshdi. Siydik tahlilida o'zgarish yo'q.",
+          "savol_uz": "Buyrak gemodinamikasidagi qaysi o'zgarish buni eng yaxshi tushuntiradi?",
+          "javoblar_uz": [
+            "afferent arteriola torayishi",
+            "efferent arteriola torayishi",
+            "efferent arteriola kengayishi",
+            "filtratsiya fraksiyasi oshishi",
+            "buyrak plazma oqimi oshishi"
+          ]
+        },
+        {
+          "vinyetka": "In an experiment, a drug selectively constricts the efferent arterioles of the kidney while systemic blood pressure stays constant.",
+          "savol": "Which set of changes is expected?",
+          "javoblar": [
+            "GFR up, RPF down, FF up",
+            "GFR down, RPF down, FF same",
+            "GFR up, RPF up, FF same",
+            "GFR down, RPF up, FF down",
+            "GFR same, RPF same, FF same"
+          ],
+          "togri": 0,
+          "izoh": "ACE qoidasi: efferent torayishi glomerulyar bosimni oshiradi (GFR oshadi), plazma oqimi kamayadi (RPF), FF = GFR/RPF oshadi.",
+          "vinyetka_uz": "Tajribada dori buyrakning efferent arteriolalarini tanlab toraytiradi, umumiy qon bosimi esa o'zgarmaydi.",
+          "savol_uz": "Qaysi o'zgarishlar kutiladi?",
+          "javoblar_uz": [
+            "GFR oshadi, RPF kamayadi, FF oshadi",
+            "GFR, RPF kamayadi, FF o'zgarmaydi",
+            "GFR, RPF oshadi, FF o'zgarmaydi",
+            "GFR kamayadi, RPF oshadi, FF kamayadi",
+            "hech biri o'zgarmaydi"
+          ]
+        },
+        {
+          "vinyetka": "A 54-year-old man has hypertension and a right kidney 2 cm shorter than the left on ultrasound. Selective renal vein sampling shows a high renin level from the right renal vein and a suppressed renin level from the left.",
+          "savol": "Where is the lesion most likely located?",
+          "javoblar": [
+            "Right renal artery",
+            "Left renal artery",
+            "Both renal arteries",
+            "Left adrenal gland",
+            "Left renal vein"
+          ],
+          "togri": 0,
+          "izoh": "Bir tomonlama RAS: stenozli tomonda renin yuqori, sog' buyrakda bosilgan. O'ng buyrak kichraygan (atrofiya) -> o'ng arteriya stenozi.",
+          "vinyetka_uz": "54 yoshli erkakda gipertenziya; UZI da o'ng buyrak chapdan 2 sm kalta. Buyrak venalaridan tanlab qon olinganda o'ng buyrak venasida renin yuqori, chapda esa bosilgan.",
+          "savol_uz": "Shikast qayerda joylashgan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "o'ng buyrak arteriyasi",
+            "chap buyrak arteriyasi",
+            "ikkala buyrak arteriyasi",
+            "chap buyrak usti bezi",
+            "chap buyrak venasi"
+          ]
+        },
+        {
+          "vinyetka": "After a prolonged episode of septic shock, a 60-year-old woman becomes oliguric. Urine shows muddy brown granular casts. Biopsy shows necrosis of tubular cells in the outer medulla, while glomeruli look normal.",
+          "savol": "Why is this region most affected?",
+          "javoblar": [
+            "It has low blood flow and high O2 use",
+            "It receives most of the renal blood flow",
+            "It lacks peritubular capillaries",
+            "It is supplied by the efferent of cortical nephrons only",
+            "It is formed from the ureteric bud"
+          ],
+          "togri": 0,
+          "izoh": "Mag'iz qonni kam oladi, lekin to'g'ri proksimal kanalcha va TAL ko'p ATP sarflaydi -> ishemiyaga eng sezgir (o'tkir tubulyar nekroz).",
+          "vinyetka_uz": "Uzoq davom etgan septik shokdan keyin 60 yoshli ayolda oliguriya rivojlandi. Siydikda loyqa-jigarrang donador silindrlar. Biopsiyada tashqi mag'izdagi kanalcha hujayralari nekrozi, glomerulalar esa normal.",
+          "savol_uz": "Nega aynan shu soha ko'proq zararlangan?",
+          "javoblar_uz": [
+            "qon kam keladi, O2 sarfi yuqori",
+            "buyrak qonining ko'p qismini oladi",
+            "peritubulyar kapillyarlari yo'q",
+            "faqat po'stloq efferentidan oladi",
+            "siydik yo'li kurtagidan hosil bo'lgan"
+          ]
+        },
+        {
+          "vinyetka": "A newborn has massive proteinuria, edema and hypoalbuminemia from the first week of life. Genetic testing shows a mutation in the gene encoding nephrin.",
+          "savol": "Which part of the filtration barrier is defective?",
+          "javoblar": [
+            "Podocyte slit diaphragm",
+            "Fenestrated endothelium",
+            "Type IV collagen of the GBM",
+            "Mesangial matrix",
+            "Parietal layer of Bowman capsule"
+          ],
+          "togri": 0,
+          "izoh": "Nefrin - podotsit oyoqchalari orasidagi tirqish diafragmasining asosiy oqsili. Mutatsiyasi -> tug'ma nefrotik sindrom.",
+          "vinyetka_uz": "Yangi tug'ilgan chaqaloqda hayotining birinchi haftasidan kuchli proteinuriya, shishlar va gipoalbuminemiya. Genetik tahlilda nefrin genida mutatsiya aniqlandi.",
+          "savol_uz": "Filtratsiya to'sig'ining qaysi qismi nuqsonli?",
+          "javoblar_uz": [
+            "podotsit tirqish diafragmasi",
+            "teshikli endoteliy",
+            "GBM ning IV tip kollageni",
+            "mezangial matriks",
+            "Bowman kapsulasi pariyetal varag'i"
+          ]
+        },
+        {
+          "vinyetka": "A 58-year-old man with long-standing chronic kidney disease has fatigue. Hemoglobin is 8.9 g/dL with normocytic red cells and a low reticulocyte count. Iron, B12 and folate are normal.",
+          "savol": "Which renal cells normally produce the deficient hormone?",
+          "javoblar": [
+            "Peritubular interstitial fibroblasts",
+            "Juxtaglomerular cells",
+            "Macula densa cells",
+            "Podocytes",
+            "Collecting duct principal cells"
+          ],
+          "togri": 0,
+          "izoh": "EPO ni buyrak po'stlog'i va mag'izidagi peritubulyar interstitsial fibroblastlar ishlab chiqaradi; SBK da kamayadi -> normotsitar anemiya.",
+          "vinyetka_uz": "Uzoq yillik surunkali buyrak kasalligi bor 58 yoshli erkak holsizlikdan shikoyat qiladi. Gemoglobin 8,9 g/dL, eritrotsitlar normotsitar, retikulotsitlar kam. Temir, B12 va folat normal.",
+          "savol_uz": "Yetishmayotgan gormonni odatda buyrakning qaysi hujayralari ishlab chiqaradi?",
+          "javoblar_uz": [
+            "peritubulyar interstitsial fibroblastlar",
+            "yukstaglomerulyar hujayralar",
+            "macula densa hujayralari",
+            "podotsitlar",
+            "yig'uvchi naycha asosiy hujayralari"
+          ]
+        },
+        {
+          "vinyetka": "A 4-year-old girl has had three febrile urinary tract infections in one year. Voiding cystourethrography shows contrast flowing from the bladder up into the left ureter and renal pelvis during voiding.",
+          "savol": "Failure of which mechanism most likely explains this?",
+          "javoblar": [
+            "Compression of the oblique intramural ureter",
+            "Contraction of the external urethral sphincter",
+            "Ureteral peristalsis from the renal pelvis",
+            "Closure of the internal urethral sphincter",
+            "Tubuloglomerular feedback"
+          ],
+          "togri": 0,
+          "izoh": "Siydik yo'lining qovuq devori ichidan qiya o'tgan qismi qovuq qisqarganda siqilib, reflyuksni to'sadi. Kalta bo'lsa -> VUR.",
+          "vinyetka_uz": "4 yoshli qizda bir yil ichida isitmali siydik yo'li infeksiyasi 3 marta takrorlandi. Mikstsion sistouretrografiyada siyish paytida kontrast qovuqdan chap siydik yo'li va jomga ko'tarilayotgani ko'rindi.",
+          "savol_uz": "Qaysi mexanizm ishlamasligi buni eng yaxshi tushuntiradi?",
+          "javoblar_uz": [
+            "qiya intramural qismning siqilishi",
+            "tashqi sfinkter qisqarishi",
+            "jomdan peristaltika",
+            "ichki sfinkter yopilishi",
+            "tubuloglomerulyar teskari aloqa"
+          ]
+        },
+        {
+          "vinyetka": "A 38-year-old woman with three vaginal deliveries leaks small amounts of urine when she coughs, laughs or lifts her child. She has no urge to void before leaking. Leakage is seen from the urethra during a cough test.",
+          "savol": "What is the best initial treatment?",
+          "javoblar": [
+            "Pelvic floor (Kegel) exercises",
+            "Oxybutynin",
+            "Tamsulosin",
+            "Intermittent catheterization",
+            "Bethanechol"
+          ],
+          "togri": 0,
+          "izoh": "Stress inkontinensiya (tug'ruqlar, yo'talda oqish, stress testi musbat). Birinchi qadam - Kegel mashqlari, vazn kamaytirish, pessariy.",
+          "vinyetka_uz": "3 marta tabiiy yo'l bilan tug'gan 38 yoshli ayol yo'talganda, kulganda yoki bolasini ko'targanda oz miqdorda siydik oqib ketishidan shikoyat qiladi. Oqishdan oldin siyish istagi bo'lmaydi. Yo'tal testida siydik kanalidan oqish ko'rindi.",
+          "savol_uz": "Eng yaxshi boshlang'ich davo qaysi?",
+          "javoblar_uz": [
+            "tos tubi (Kegel) mashqlari",
+            "oksibutinin",
+            "tamsulozin",
+            "vaqti-vaqti bilan kateterizatsiya",
+            "betanexol"
+          ]
+        },
+        {
+          "vinyetka": "A 72-year-old woman reports sudden strong urges to urinate and often leaks before reaching the toilet, many times a day and at night. Urinalysis is normal and post-void residual is low. Bladder training has not helped.",
+          "savol": "The most appropriate drug acts by which mechanism?",
+          "javoblar": [
+            "Blocks M3 receptors on detrusor",
+            "Blocks alpha-1 receptors at bladder neck",
+            "Stimulates M3 receptors on detrusor",
+            "Blocks nicotinic receptors of sphincter",
+            "Inhibits 5-alpha reductase"
+          ],
+          "togri": 0,
+          "izoh": "Urge inkontinensiya - detruzor haddan faol. Oksibutinin kabi antimuskarinlar detruzordagi M3 ni to'sadi (yoki mirabegron - beta-3 agonist).",
+          "vinyetka_uz": "72 yoshli ayol kuniga ko'p marta va kechasi to'satdan kuchli siyish istagi paydo bo'lishi va ko'pincha hojatxonaga yetmasdan siydik oqib ketishidan shikoyat qiladi. Siydik tahlili normal, qoldiq siydik kam. Qovuqni mashq qildirish yordam bermadi.",
+          "savol_uz": "Eng mos dori qaysi mexanizm orqali ta'sir qiladi?",
+          "javoblar_uz": [
+            "detruzordagi M3 ni to'sadi",
+            "qovuq bo'ynida alfa-1 ni to'sadi",
+            "detruzordagi M3 ni qo'zg'atadi",
+            "sfinkter N-retseptorini to'sadi",
+            "5-alfa reduktazani to'sadi"
+          ]
+        },
+        {
+          "vinyetka": "A 74-year-old man has weak stream, a feeling of incomplete emptying and constant dribbling of urine. The bladder is palpable above the pubis. Digital rectal exam shows a smooth, enlarged prostate. Post-void residual is 600 mL.",
+          "savol": "Besides catheterization, which drug best relieves the cause?",
+          "javoblar": [
+            "Tamsulosin",
+            "Oxybutynin",
+            "Mirabegron",
+            "Bethanechol alone",
+            "Desmopressin"
+          ],
+          "togri": 0,
+          "izoh": "BPH tufayli to'lib oqish inkontinensiyasi (qoldiq siydik yuqori). Alfa-1 blokator qovuq bo'yni va prostatani bo'shashtirib obstruksiyani kamaytiradi.",
+          "vinyetka_uz": "74 yoshli erkakda siydik oqimi sust, to'liq bo'shamaganlik hissi va doimiy tomchilab siydik oqishi bor. Qov ustida qovuq paypaslanadi. To'g'ri ichak orqali tekshiruvda prostata silliq, kattalashgan. Siyishdan keyingi qoldiq 600 mL.",
+          "savol_uz": "Kateterizatsiyadan tashqari qaysi dori sababni eng yaxshi bartaraf etadi?",
+          "javoblar_uz": [
+            "tamsulozin",
+            "oksibutinin",
+            "mirabegron",
+            "faqat betanexol",
+            "desmopressin"
+          ]
+        },
+        {
+          "vinyetka": "Eight months after a complete spinal cord injury at T6, a 27-year-old man has frequent small-volume involuntary voiding. Urodynamics show detrusor contractions at very low bladder volumes and a small, thick-walled bladder.",
+          "savol": "What best explains this bladder dysfunction?",
+          "javoblar": [
+            "Loss of supraspinal inhibition",
+            "Loss of pelvic splanchnic motor fibers",
+            "Pudendal nerve transection",
+            "Destruction of sacral cord segments",
+            "Overactive sympathetic outflow from T11-L2"
+          ],
+          "togri": 0,
+          "izoh": "Sakraldan yuqori shikast -> spastik qovuq: sakral refleks butun, lekin yuqoridan tormozlash yo'q -> detruzor oz cho'zilishda qisqaradi (urge).",
+          "vinyetka_uz": "T6 sathida orqa miyaning to'liq shikastlanishidan 8 oy o'tib 27 yoshli erkakda tez-tez, oz-ozdan ixtiyorsiz siyish kuzatiladi. Urodinamikada qovuq hajmi juda kam bo'lganda ham detruzor qisqaradi, qovuq kichik va devori qalin.",
+          "savol_uz": "Qovuq faoliyatining bu buzilishini eng yaxshi nima tushuntiradi?",
+          "javoblar_uz": [
+            "yuqoridan tormozlash yo'qolishi",
+            "tos splanxnik motor tolalari yo'qolishi",
+            "uyatli nerv kesilishi",
+            "sakral segmentlar yemirilishi",
+            "T11-L2 simpatik faolligi oshishi"
+          ]
+        },
+        {
+          "vinyetka": "A 50-year-old man with a large central L5-S1 disc herniation has saddle anesthesia, bilateral leg weakness and a distended bladder with constant dribbling of urine. Post-void residual is 900 mL.",
+          "savol": "Which type of bladder dysfunction is present?",
+          "javoblar": [
+            "Atonic bladder from sacral root damage",
+            "Spastic bladder from suprasacral lesion",
+            "Stress incontinence from urethral hypermobility",
+            "Urgency incontinence from detrusor overactivity",
+            "Vesicoureteral reflux"
+          ],
+          "togri": 0,
+          "izoh": "Ot dumi (sakral ildizlar) shikasti -> tos splanxnik nervlari ishlamaydi -> atonik, katta qovuq va doimiy tomchilash. Shoshilinch jarrohlik!",
+          "vinyetka_uz": "L5-S1 da katta markaziy disk churrasi bor 50 yoshli erkakda \"egar\" anesteziyasi, ikki oyoqda kuchsizlik va kattalashgan qovuqdan doimiy tomchilab siydik oqishi bor. Siyishdan keyingi qoldiq 900 mL.",
+          "savol_uz": "Qovuq faoliyatining qaysi turi kuzatilmoqda?",
+          "javoblar_uz": [
+            "sakral ildizlar shikastidan atonik qovuq",
+            "suprasakral shikastdan spastik qovuq",
+            "gipermobillikdan stress inkontinensiya",
+            "detruzor faolligidan urge inkontinensiya",
+            "vezikoureteral reflyuks"
+          ]
+        }
+      ],
+      "kartalar": [
+        {
+          "savol": "Buyraklar qaysi umurtqalar sathida joylashgan va qaysi biri pastroq?",
+          "javob": "T12-L3; o'ng buyrak pastroq (jigar tufayli)"
+        },
+        {
+          "savol": "Chap buyrak qaysi qovurg'alarga tegib turadi?",
+          "javob": "Costae XI et XII - 11- va 12-qovurg'alar"
+        },
+        {
+          "savol": "Chap buyrak venasiga qaysi 2 ta qo'shimcha vena quyiladi?",
+          "javob": "V. suprarenalis sinistra va v. testicularis/ovarica sinistra"
+        },
+        {
+          "savol": "Tirik donordan nega ko'pincha chap buyrak olinadi?",
+          "javob": "V. renalis sinistra uzunroq - anastomoz oson"
+        },
+        {
+          "savol": "Filtratsiya fraksiyasi formulasi va normasi?",
+          "javob": "FF = GFR / RPF, ~20%"
+        },
+        {
+          "savol": "RPF qaysi modda klirensi bilan eng yaxshi baholanadi?",
+          "javob": "PAH (para-aminogippur kislota) klirensi"
+        },
+        {
+          "savol": "'PDA' va 'ACE' qoidalari nima?",
+          "javob": "Prostaglandinlar afferentni kengaytiradi; angiotenzin II efferentni toraytiradi"
+        },
+        {
+          "savol": "Fibromuskulyar displaziya buyrak arteriyasining qaysi qismida va kimda uchraydi?",
+          "javob": "Distal 2/3 va segmentar tarmoqlar; yosh ayollar ('marjon shodasi')"
+        },
+        {
+          "savol": "Eritropoetinni buyrakning qaysi hujayralari ishlab chiqaradi?",
+          "javob": "Peritubulyar interstitsial fibroblastlar (po'stloq va mag'iz)"
+        },
+        {
+          "savol": "Siydik yo'lining 3 ta torayishi qaysilar?",
+          "javob": "Jom-siydik yo'li tutashuvi, chanoq kirish chizig'i, siydik yo'li-qovuq tutashuvi (eng tor)"
+        },
+        {
+          "savol": "Detruzor, ichki va tashqi sfinkter qaysi nervlar bilan innervatsiya qilinadi?",
+          "javob": "Nn. splanchnici pelvici S2-S4; simpatik T11-L2; n. pudendus S2-S4"
+        },
+        {
+          "savol": "Spastik va atonik qovuq farqi?",
+          "javob": "Spastik - sakraldan yuqori shikast, kichik qovuq, urge; atonik - S2-S4/ildizlar, katta qovuq, overflow"
+        }
+      ],
+      "rasm_testlar": [
+        {
+          "fayl": "usmle_rasmlar/t6_01.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain",
+          "savol": "Qorin aortasi va uning tarmoqlari (oldindan, chap buyrak saqlangan). Rasmda '?' bilan belgilangan arteriya qaysi?",
+          "javoblar": [
+            "A. renalis - buyrak arteriyasi",
+            "A. lienalis - taloq arteriyasi",
+            "A. lumbalis I - 1-bel arteriyasi",
+            "A. colica media - o'rta chambar ichak arteriyasi"
+          ],
+          "togri": 0,
+          "izoh": "Buyrak arteriyasi aortadan L1-L2 sathida, AMS dan sal pastda chiqadi; segmentar tarmoqlari oxirgi arteriyalar."
+        },
+        {
+          "fayl": "usmle_rasmlar/t6_02.jpg",
+          "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie II (1920), public domain",
+          "savol": "Ochilgan siydik qovug'i (oldindan). Ikki siydik yo'li teshigi va ichki siydik chiqarish teshigi orasidagi '?' bilan belgilangan soha qaysi?",
+          "javoblar": [
+            "Trigonum vesicae - qovuq uchburchagi",
+            "Fundus vesicae - qovuq tubi",
+            "Cervix vesicae - qovuq bo'yni",
+            "Apex vesicae - qovuq cho'qqisi"
+          ],
+          "togri": 0,
+          "izoh": "Trigon - silliq shilliq qavatli uchburchak (mezonefral yo'ldan); burchaklarida siydik yo'li teshiklari va ichki uretra teshigi."
+        },
+        {
+          "fayl": "usmle_rasmlar/t6_03.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain",
+          "savol": "Erkak siydik-tanosil diafragmasi (pastdan). Siydik kanalining membranoz qismini o'rab turgan, '?' bilan belgilangan ixtiyoriy mushak qaysi?",
+          "javoblar": [
+            "M. sphincter urethrae externus - tashqi sfinkter",
+            "M. sphincter urethrae internus - ichki sfinkter",
+            "M. detrusor vesicae - detruzor",
+            "M. levator ani - orqa chiqaruv teshigini ko'taruvchi"
+          ],
+          "togri": 0,
+          "izoh": "Tashqi sfinkter (atlasda m. sphincter urethrae membranaceae) - ko'ndalang-targil, n. pudendus (S2-S4); siyishda bo'shashadi."
+        }
+      ],
+      "xulosa": [
+        "Buyraklar T12-L3 sathida, o'ng buyrak jigar tufayli pastroq; chap buyrak 11-12-, o'ng buyrak 12-qovurg'aga tegadi.",
+        "Chap buyrak venasi uzun, aorta oldidan o'tadi va chap buyrak usti hamda chap jinsiy bez venalarini qabul qiladi - donorlikda chap buyrak olinadi.",
+        "Buyrak mag'izi kam qon oladi - ishemiyaga (ATN, so'rg'ich nekrozi) eng sezgir.",
+        "Filtratsiya to'sig'i: teshikli endoteliy, manfiy zaryadli GBM, podotsit tirqish diafragmasi (nefrin).",
+        "FF = GFR/RPF (~20%); filtrlangan yuk = GFR x plazma konsentratsiyasi; GFR - kreatinin, RPF - PAH klirensi.",
+        "PDA: prostaglandinlar afferentni kengaytiradi (NSAID xavfi); ACE: angiotenzin II efferentni toraytiradi.",
+        "RAS: ateroskleroz - proksimal 1/3, keksa erkaklar; FMD - distal 2/3, yosh ayollar; ikki tomonlamada ACEi kreatininni oshiradi.",
+        "Siydik yo'li yonbosh tomirlar USTIDAN, bachadon arteriyasi/urug' yo'li OSTIDAN o'tadi; 3 torayishi - UPJ, chanoq kirishi, UVJ.",
+        "Detruzor - parasimpatik S2-S4 (siyish); ichki sfinkter - simpatik T11-L2 (ushlab turish); tashqi sfinkter - n. pudendus (ixtiyoriy).",
+        "Inkontinensiya: stress - chiqish yetishmovchiligi; urge - detruzor faolligi; overflow - to'liq bo'shamaslik; spastik qovuq - urge, atonik - overflow."
+      ]
     }
   ]
 }
