@@ -341,7 +341,8 @@
     "yt:RmYiohLZ-1w",
     "https://sports.uz/oz/news/view/messisiz-qolgan-argentina-o-z-uyida-yutqazdi",
     "https://sports.uz/oz/news/view/barsa-ikki-futbolchini-ko-rgani-argentina-urugvay-o-yiniga-skautlarini-yubordi",
-    "https://sports.uz/oz/news/view/endrik-arsenal-va-sporting-ga-bormaydi"
+    "https://sports.uz/oz/news/view/endrik-arsenal-va-sporting-ga-bormaydi",
+    "https://sports.uz/oz/news/view/kroos-barsa-ning-zaif-tomonini-ochib-ikki-futbolchini-tilga-oldi"
   ],
   "used_quiz": [
     23,
@@ -379,7 +380,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "«Real» «Barsa»ni taʼqib etmoqda, «Arsenal» «Siti»ni quvib o‘tdi",
     "Lionel Messi gollari sonini 937 taga yetkazib oldi",
     "Husanov “Barsa” uchun ideal variant deb topildi",
     "\"Barsa\" ashaddiy raqib \"Real\" kutayotgan oʻyinchini transfer qilmoqchi",
@@ -438,9 +438,10 @@
     "\"Real\", senga shu yulduz kerakmidi? \"Arsenal\" Endrikni jahon chempioniga almashtirmoqchi",
     "Messisis qolgan Argentina o‘z uyida yutqazdi",
     "\"Barsa\" ikki futbolchini ko‘rgani Argentina – Urugvay o‘yinigа skautlarini yubordi",
-    "Endrik \"Arsenal\" va \"Sporting\"ga bormaydi!"
+    "Endrik \"Arsenal\" va \"Sporting\"ga bormaydi!",
+    "Kroos \"Barsa\"ning zaif tomonini ochib, ikki futbolchini tilga oldi"
   ],
-  "last_slot": "2026-11-14 11:30",
+  "last_slot": "2026-11-14 12:30",
   "scorers_idx": 1,
   "last_video_source": "Premier League",
   "table_idx": 1,
@@ -1552,7 +1553,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 841,
+    "last_id": 842,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
