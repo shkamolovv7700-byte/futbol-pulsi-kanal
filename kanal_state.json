@@ -444,10 +444,10 @@
     "Kroos \"Barsa\"ning zaif tomonini ochib, ikki futbolchini tilga oldi",
     "\"Manchester Yunayted\" 900 million funt yo'qotishi mumkin"
   ],
-  "last_slot": "2026-11-14 16:30",
+  "last_slot": "2026-11-14 17:00",
   "scorers_idx": 2,
   "last_video_source": "UEFA",
-  "table_idx": 1,
+  "table_idx": 2,
   "live": {
     "401915395": {
       "goals": [
@@ -1556,7 +1556,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 846,
+    "last_id": 847,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
