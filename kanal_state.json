@@ -345,7 +345,8 @@
     "https://sports.uz/oz/news/view/kroos-barsa-ning-zaif-tomonini-ochib-ikki-futbolchini-tilga-oldi",
     "https://sports.uz/oz/news/view/manchester-yunayted-900-million-funt-yo-qotishi-mumkin",
     "yt:-P5ZYITth50",
-    "https://daryo.uz/2026/11/14/real-vinisus-sababli-oliseni-sotib-olishga-tayyor/"
+    "https://daryo.uz/2026/11/14/real-vinisus-sababli-oliseni-sotib-olishga-tayyor/",
+    "yt:E5qO9BfV3a8"
   ],
   "used_quiz": [
     23,
@@ -445,9 +446,9 @@
     "\"Manchester Yunayted\" 900 million funt yo'qotishi mumkin",
     "“Real” Vinisus sababli Oliseni sotib olishga tayyor"
   ],
-  "last_slot": "2026-11-14 18:30",
+  "last_slot": "2026-11-14 19:30",
   "scorers_idx": 2,
-  "last_video_source": "UEFA",
+  "last_video_source": "Serie A",
   "table_idx": 2,
   "live": {
     "401915395": {
@@ -1557,7 +1558,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 848,
+    "last_id": 849,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
