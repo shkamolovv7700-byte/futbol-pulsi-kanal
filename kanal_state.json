@@ -339,7 +339,8 @@
     "yt:EZBvtnsQYvU",
     "https://sports.uz/oz/news/view/real-senga-shu-yulduz-kerakmidi-arsenal-endrikni-jahon-chempioniga-almashtirmoqchi",
     "yt:RmYiohLZ-1w",
-    "https://sports.uz/oz/news/view/messisiz-qolgan-argentina-o-z-uyida-yutqazdi"
+    "https://sports.uz/oz/news/view/messisiz-qolgan-argentina-o-z-uyida-yutqazdi",
+    "https://sports.uz/oz/news/view/barsa-ikki-futbolchini-ko-rgani-argentina-urugvay-o-yiniga-skautlarini-yubordi"
   ],
   "used_quiz": [
     23,
@@ -377,7 +378,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Abbosbek Fayzullayev “Samsunspor”ga qarshi bahsning eng yaxshi futbolchisi bo‘ldi",
     "\"Barsa\" yulduzi manchesterliklarga javob qaytardi",
     "«Real» «Barsa»ni taʼqib etmoqda, «Arsenal» «Siti»ni quvib o‘tdi",
     "Lionel Messi gollari sonini 937 taga yetkazib oldi",
@@ -436,9 +436,10 @@
     "Levandovski \"Barsa\"dan keyin nega Evropada qolmaganini tushuntirdi",
     "O‘n daqiqadagi kambek: O‘zbekiston—Rossiya o‘rtoqlik uchrashuvidan fotoreportaj",
     "\"Real\", senga shu yulduz kerakmidi? \"Arsenal\" Endrikni jahon chempioniga almashtirmoqchi",
-    "Messisis qolgan Argentina o‘z uyida yutqazdi"
+    "Messisis qolgan Argentina o‘z uyida yutqazdi",
+    "\"Barsa\" ikki futbolchini ko‘rgani Argentina – Urugvay o‘yinigа skautlarini yubordi"
   ],
-  "last_slot": "2026-11-14 9:30",
+  "last_slot": "2026-11-14 10:30",
   "scorers_idx": 1,
   "last_video_source": "Premier League",
   "table_idx": 1,
@@ -1550,7 +1551,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 839,
+    "last_id": 840,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
