@@ -368,7 +368,8 @@
     21,
     4,
     15,
-    1
+    1,
+    33
   ],
   "used_poll": [
     13,
@@ -441,7 +442,7 @@
     "Endrik \"Arsenal\" va \"Sporting\"ga bormaydi!",
     "Kroos \"Barsa\"ning zaif tomonini ochib, ikki futbolchini tilga oldi"
   ],
-  "last_slot": "2026-11-14 12:30",
+  "last_slot": "2026-11-14 13:30",
   "scorers_idx": 1,
   "last_video_source": "Premier League",
   "table_idx": 1,
@@ -1553,7 +1554,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 842,
+    "last_id": 843,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
