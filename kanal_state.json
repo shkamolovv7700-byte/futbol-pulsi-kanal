@@ -342,7 +342,8 @@
     "https://sports.uz/oz/news/view/messisiz-qolgan-argentina-o-z-uyida-yutqazdi",
     "https://sports.uz/oz/news/view/barsa-ikki-futbolchini-ko-rgani-argentina-urugvay-o-yiniga-skautlarini-yubordi",
     "https://sports.uz/oz/news/view/endrik-arsenal-va-sporting-ga-bormaydi",
-    "https://sports.uz/oz/news/view/kroos-barsa-ning-zaif-tomonini-ochib-ikki-futbolchini-tilga-oldi"
+    "https://sports.uz/oz/news/view/kroos-barsa-ning-zaif-tomonini-ochib-ikki-futbolchini-tilga-oldi",
+    "https://sports.uz/oz/news/view/manchester-yunayted-900-million-funt-yo-qotishi-mumkin"
   ],
   "used_quiz": [
     23,
@@ -381,7 +382,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Lionel Messi gollari sonini 937 taga yetkazib oldi",
     "Husanov “Barsa” uchun ideal variant deb topildi",
     "\"Barsa\" ashaddiy raqib \"Real\" kutayotgan oʻyinchini transfer qilmoqchi",
     "\"Tottenxem\" futbolchisi \"Barsa\"ga yordam beradi",
@@ -440,9 +440,10 @@
     "Messisis qolgan Argentina o‘z uyida yutqazdi",
     "\"Barsa\" ikki futbolchini ko‘rgani Argentina – Urugvay o‘yinigа skautlarini yubordi",
     "Endrik \"Arsenal\" va \"Sporting\"ga bormaydi!",
-    "Kroos \"Barsa\"ning zaif tomonini ochib, ikki futbolchini tilga oldi"
+    "Kroos \"Barsa\"ning zaif tomonini ochib, ikki futbolchini tilga oldi",
+    "\"Manchester Yunayted\" 900 million funt yo'qotishi mumkin"
   ],
-  "last_slot": "2026-11-14 13:30",
+  "last_slot": "2026-11-14 14:00",
   "scorers_idx": 1,
   "last_video_source": "Premier League",
   "table_idx": 1,
@@ -1554,7 +1555,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 843,
+    "last_id": 844,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
