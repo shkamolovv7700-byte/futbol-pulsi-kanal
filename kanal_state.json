@@ -347,7 +347,8 @@
     "yt:-P5ZYITth50",
     "https://daryo.uz/2026/11/14/real-vinisus-sababli-oliseni-sotib-olishga-tayyor/",
     "yt:E5qO9BfV3a8",
-    "https://sports.uz/oz/news/view/anchelotti-o-zining-maydondan-chetlatilishi-sababini-aytdi"
+    "https://sports.uz/oz/news/view/anchelotti-o-zining-maydondan-chetlatilishi-sababini-aytdi",
+    "yt:5Phb_KOZZRw"
   ],
   "used_quiz": [
     23,
@@ -448,9 +449,9 @@
     "“Real” Vinisus sababli Oliseni sotib olishga tayyor",
     "Anchelotti o‘zining maydondan chetlatilishi sababini aytdi"
   ],
-  "last_slot": "2026-11-14 21:30",
+  "last_slot": "2026-11-14 22:00",
   "scorers_idx": 2,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 2,
   "live": {
     "401915395": {
@@ -1560,7 +1561,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 851,
+    "last_id": 852,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
