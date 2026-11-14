@@ -196,8 +196,12 @@ def step_items(lessons: list[dict], step: str | None) -> list[tuple[int, str, in
     if not step or any(n > len(lessons) for n in step_lessons(step)):
         return None
     if step.startswith("aralash:"):
+        done = state.get("dars", {}).get("bajarildi", [])
+        nums = [n for n in step_lessons(step) if f"{n}:savollar" not in done]  # zaxira kuni chiqqanlari takrorlanmaydi
+        if not nums:
+            return None
         groups = [[(n - 1, "savollar", k, q) for k, q in enumerate(lessons[n - 1]["savollar"])]
-                  for n in step_lessons(step)]
+                  for n in nums]
         return [g[i] for i in range(max(map(len, groups))) for g in groups if i < len(g)]  # navbatma-navbat
     n, stage = step.split(":")
     return [(int(n) - 1, stage, k, x) for k, x in enumerate(lessons[int(n) - 1][stage])]
@@ -230,6 +234,13 @@ def lesson_item(data: dict, now: datetime):
             if cur is not None:
                 d["bajarildi"].append(d["joriy"])
             d["joriy"] = next((s for s in plan_steps(data) if s not in d["bajarildi"] and step_items(lessons, s)), None)
+            if d["joriy"] is None:
+                # zaxira: yangi dars fayli kechiksa kanal bo'sh qolmasin - o'tilgan, lekin masalasi hali
+                # chiqmagan darsning vaziyatli masalalari (keyingi 'aralash' kunida ular takrorlanmaydi)
+                done_mixed = {n for s in d["bajarildi"] if s.startswith("aralash:") for n in step_lessons(s)}
+                d["joriy"] = next((f"{int(s.split(':')[0])}:savollar" for s in d["bajarildi"]
+                                   if s.endswith(":postlar") and int(s.split(":")[0]) not in done_mixed
+                                   and f"{int(s.split(':')[0])}:savollar" not in d["bajarildi"]), None)
             d["pos"] = 0
             d["qoshimcha"] = 0  # flesh-karta / rasm-test hisobi
             d.pop("xulosa", None)
