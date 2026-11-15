@@ -378,7 +378,8 @@
     4,
     15,
     1,
-    33
+    33,
+    3
   ],
   "used_poll": [
     13,
@@ -452,7 +453,7 @@
     "Pochettino “Manchester Yunayted”da mashg‘ulot tartibini o‘zgartirmoqchi",
     "Rafinyani \"Barsa\"ga qo‘yib yuborishmadi"
   ],
-  "last_slot": "2026-11-15 12:30",
+  "last_slot": "2026-11-15 13:30",
   "scorers_idx": 2,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -1564,7 +1565,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 855,
+    "last_id": 856,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
