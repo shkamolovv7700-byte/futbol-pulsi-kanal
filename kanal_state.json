@@ -348,7 +348,8 @@
     "https://daryo.uz/2026/11/14/real-vinisus-sababli-oliseni-sotib-olishga-tayyor/",
     "yt:E5qO9BfV3a8",
     "https://sports.uz/oz/news/view/anchelotti-o-zining-maydondan-chetlatilishi-sababini-aytdi",
-    "yt:5Phb_KOZZRw"
+    "yt:5Phb_KOZZRw",
+    "https://sports.uz/oz/news/view/shomurodov-uni-real-kuzatyapti"
   ],
   "used_quiz": [
     23,
@@ -388,7 +389,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "\"Tottenxem\" futbolchisi \"Barsa\"ga yordam beradi",
     "\"Tottenxem\" futbolchisining narxini \"Real\" va \"Barsa\"ga aytdi",
     "\"Arsenal\" Vinisius evaziga oʻz futbolchisini beradiган boʻldi",
     "Mourinyo Kamavinga haqidagi fikrini butunlay o‘zgartirdi",
@@ -447,9 +447,10 @@
     "Kroos \"Barsa\"ning zaif tomonini ochib, ikki futbolchini tilga oldi",
     "\"Manchester Yunayted\" 900 million funt yo'qotishi mumkin",
     "“Real” Vinisus sababli Oliseni sotib olishga tayyor",
-    "Anchelotti o‘zining maydondan chetlatilishi sababini aytdi"
+    "Anchelotti o‘zining maydondan chetlatilishi sababini aytdi",
+    "Shomurodov: Uni \"Real\" kuzatyapti!"
   ],
-  "last_slot": "2026-11-14 22:30",
+  "last_slot": "2026-11-15 9:00",
   "scorers_idx": 2,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -1561,7 +1562,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 852,
+    "last_id": 853,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
