@@ -19,8 +19,8 @@
     "boshlanish": 0,
     "urinish": 0,
     "qoshimcha": 0,
-    "oxirgi_vaqt": "2026-11-15T18:18",
-    "takrorlash_ok": 15
+    "oxirgi_vaqt": "2026-11-15T19:00",
+    "takrorlash_ok": 16
   },
   "group_id": 3875410361,
   "moderator": {
@@ -232,7 +232,7 @@
         "turi": "reja"
       }
     ],
-    "pos": 15
+    "pos": 16
   },
   "sorovlar": [
     {
@@ -291,6 +291,7 @@
     "karta:4:0",
     "masala:3:9",
     "rasm_test:4:0",
-    "masala:1:2"
+    "masala:1:2",
+    "karta:4:3"
   ]
 }
