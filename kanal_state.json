@@ -352,7 +352,8 @@
     "https://sports.uz/oz/news/view/shomurodov-uni-real-kuzatyapti",
     "https://daryo.uz/2026/11/15/pochettino-manchester-yunaytedda-mashgulot-tartibini-ozgartirmoqchi/",
     "https://sports.uz/oz/news/view/rafinyani-barsa-ga-qo-yib-yuborishmadi",
-    "https://sports.uz/oz/news/view/o-zbekistonda-yangi-husanov-paydo-bo-ldi-fransiya-klubi-noyob-istedod-bilan-kelishib-bo-lgan"
+    "https://sports.uz/oz/news/view/o-zbekistonda-yangi-husanov-paydo-bo-ldi-fransiya-klubi-noyob-istedod-bilan-kelishib-bo-lgan",
+    "yt:jk_mTQTJaUU"
   ],
   "used_quiz": [
     23,
@@ -454,9 +455,9 @@
     "Rafinyani \"Barsa\"ga qo‘yib yuborishmadi",
     "O'zbekistonda “yangi Husanov” paydo bo‘ldi. Frantsiya klubi noyob iste'dod bilan kelishib bo‘lgan!"
   ],
-  "last_slot": "2026-11-15 15:00",
+  "last_slot": "2026-11-15 16:00",
   "scorers_idx": 3,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 2,
   "live": {
     "401915395": {
@@ -1566,7 +1567,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 858,
+    "last_id": 859,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
