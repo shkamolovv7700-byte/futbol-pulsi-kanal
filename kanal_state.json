@@ -350,7 +350,8 @@
     "https://sports.uz/oz/news/view/anchelotti-o-zining-maydondan-chetlatilishi-sababini-aytdi",
     "yt:5Phb_KOZZRw",
     "https://sports.uz/oz/news/view/shomurodov-uni-real-kuzatyapti",
-    "https://daryo.uz/2026/11/15/pochettino-manchester-yunaytedda-mashgulot-tartibini-ozgartirmoqchi/"
+    "https://daryo.uz/2026/11/15/pochettino-manchester-yunaytedda-mashgulot-tartibini-ozgartirmoqchi/",
+    "https://sports.uz/oz/news/view/rafinyani-barsa-ga-qo-yib-yuborishmadi"
   ],
   "used_quiz": [
     23,
@@ -390,7 +391,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "\"Arsenal\" Vinisius evaziga oʻz futbolchisini beradiган boʻldi",
     "Mourinyo Kamavinga haqidagi fikrini butunlay o‘zgartirdi",
     "Xabi Alonso \"Real\"ning eng baquvvat himoyachisini \"Chelsi\"ga chaqiryapti",
     "Rafinya Neymar va Rivaldoning natijasini yangiladi",
@@ -449,9 +449,10 @@
     "“Real” Vinisus sababli Oliseni sotib olishga tayyor",
     "Anchelotti o‘zining maydondan chetlatilishi sababini aytdi",
     "Shomurodov: Uni \"Real\" kuzatyapti!",
-    "Pochettino “Manchester Yunayted”da mashg‘ulot tartibini o‘zgartirmoqchi"
+    "Pochettino “Manchester Yunayted”da mashg‘ulot tartibini o‘zgartirmoqchi",
+    "Rafinyani \"Barsa\"ga qo‘yib yuborishmadi"
   ],
-  "last_slot": "2026-11-15 10:30",
+  "last_slot": "2026-11-15 11:30",
   "scorers_idx": 2,
   "last_video_source": "LaLiga",
   "table_idx": 2,
@@ -1563,7 +1564,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 854,
+    "last_id": 855,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
