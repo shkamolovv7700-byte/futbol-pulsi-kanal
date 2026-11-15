@@ -19,8 +19,8 @@
     "boshlanish": 0,
     "urinish": 0,
     "qoshimcha": 0,
-    "oxirgi_vaqt": "2026-11-15T20:35",
-    "takrorlash_ok": 25
+    "oxirgi_vaqt": "2026-11-15T20:40",
+    "takrorlash_ok": 26
   },
   "group_id": 3875410361,
   "moderator": {
@@ -232,7 +232,7 @@
         "turi": "reja"
       }
     ],
-    "pos": 25
+    "pos": 26
   },
   "sorovlar": [
     {
@@ -323,6 +323,12 @@
       "id": 513,
       "dars": 3,
       "k": 3,
+      "sana": "2026-11-15"
+    },
+    {
+      "id": 515,
+      "dars": 4,
+      "k": 10,
       "sana": "2026-11-15"
     }
   ],
