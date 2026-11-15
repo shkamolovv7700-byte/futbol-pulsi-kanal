@@ -392,7 +392,8 @@
     6,
     4,
     5,
-    3
+    3,
+    11
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -457,7 +458,7 @@
     "O'zbekistonda “yangi Husanov” paydo bo‘ldi. Frantsiya klubi noyob iste'dod bilan kelishib bo‘lgan!",
     "«Real» yarimhimoyachisi Bernardu Silva jarohat oldi"
   ],
-  "last_slot": "2026-11-15 19:30",
+  "last_slot": "2026-11-15 20:30",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -1569,7 +1570,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 862,
+    "last_id": 863,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
