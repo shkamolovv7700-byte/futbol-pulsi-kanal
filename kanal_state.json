@@ -455,10 +455,10 @@
     "Rafinyani \"Barsa\"ga qo‘yib yuborishmadi",
     "O'zbekistonda “yangi Husanov” paydo bo‘ldi. Frantsiya klubi noyob iste'dod bilan kelishib bo‘lgan!"
   ],
-  "last_slot": "2026-11-15 16:30",
+  "last_slot": "2026-11-15 17:00",
   "scorers_idx": 3,
   "last_video_source": "Serie A",
-  "table_idx": 2,
+  "table_idx": 3,
   "live": {
     "401915395": {
       "goals": [
@@ -1567,7 +1567,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 859,
+    "last_id": 860,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
