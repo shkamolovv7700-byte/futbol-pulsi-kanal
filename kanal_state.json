@@ -355,7 +355,8 @@
     "https://sports.uz/oz/news/view/o-zbekistonda-yangi-husanov-paydo-bo-ldi-fransiya-klubi-noyob-istedod-bilan-kelishib-bo-lgan",
     "yt:jk_mTQTJaUU",
     "https://sports.uz/oz/news/view/real-yarimhimoyachisi-bernardu-silva-jarohat-oldi",
-    "yt:0oVYQ5Ukan0"
+    "yt:0oVYQ5Ukan0",
+    "https://sports.uz/oz/news/view/real-yulduzi-alamli-mag-lubiyatdan-keyin-terma-jamoani-tark-etdi"
   ],
   "used_quiz": [
     23,
@@ -397,7 +398,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Rafinya Neymar va Rivaldoning natijasini yangiladi",
     "“Barsa” qiziqayotgan Husanov “Siti”ning o‘ziga ham kerak!",
     "O‘zbekiston milliy jamoasining noyabr oyidagi o‘yinlari boshlanish vaqti ma’lum bo‘ldi",
     "Chempionlar ligasida Yamaldan zo‘r futbolchi kashf qilindi",
@@ -456,9 +456,10 @@
     "Pochettino “Manchester Yunayted”da mashg‘ulot tartibini o‘zgartirmoqchi",
     "Rafinyani \"Barsa\"ga qo‘yib yuborishmadi",
     "O'zbekistonda “yangi Husanov” paydo bo‘ldi. Frantsiya klubi noyob iste'dod bilan kelishib bo‘lgan!",
-    "«Real» yarimhimoyachisi Bernardu Silva jarohat oldi"
+    "«Real» yarimhimoyachisi Bernardu Silva jarohat oldi",
+    "\"Real\" yulduzi alamli mag‘lubiyatdan keyin terma jamoani tark etdi"
   ],
-  "last_slot": "2026-11-15 20:30",
+  "last_slot": "2026-11-15 21:00",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -1570,7 +1571,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 863,
+    "last_id": 864,
     "strikes": {},
     "reset_day": "2026-11-10"
   },
