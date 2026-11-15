@@ -19,8 +19,8 @@
     "boshlanish": 0,
     "urinish": 0,
     "qoshimcha": 0,
-    "oxirgi_vaqt": "2026-11-15T12:04",
-    "takrorlash_ok": 5
+    "oxirgi_vaqt": "2026-11-15T12:46",
+    "takrorlash_ok": 6
   },
   "group_id": 3875410361,
   "moderator": {
@@ -232,7 +232,7 @@
         "turi": "reja"
       }
     ],
-    "pos": 5
+    "pos": 6
   },
   "sorovlar": [
     {
@@ -246,12 +246,19 @@
       "dars": 0,
       "k": 13,
       "sana": "2026-11-15"
+    },
+    {
+      "id": 474,
+      "dars": 1,
+      "k": 8,
+      "sana": "2026-11-15"
     }
   ],
   "takrorlangan": [
     "masala:3:0",
     "karta:4:1",
     "masala:0:13",
-    "rasm_test:4:2"
+    "rasm_test:4:2",
+    "masala:1:8"
   ]
 }
