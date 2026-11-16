@@ -361,7 +361,8 @@
     "https://daryo.uz/2026/11/15/manchester-yunayted-komo-yetakchisini-sotib-olishi-mumkin/",
     "https://daryo.uz/2026/11/16/millatlar-ligasi-angliya-ispaniyani-maglub-etdi-italiya-belgiyaga-yirik-hisobda-yutqazdi/",
     "https://sports.uz/oz/news/view/italiyada-porlayotgan-himoyachi-nega-barsa-dan-ketganini-aytdi",
-    "yt:Fw2PjtGKfFc"
+    "yt:Fw2PjtGKfFc",
+    "https://sports.uz/oz/news/view/zidanga-tahlil-uchun-vaqt-etmadi-mbappe-va-boshqa-yulduzlar-shaxsiy-samolyotlarda-tez-ketib-qolishdi"
   ],
   "used_quiz": [
     23,
@@ -404,7 +405,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Himoyachilar endi Vinisiusdan qo‘rqmay qo‘ydi",
     "«Arsenal» va «Manchester Yunayted» «Bournemouth» futbolchisiga qiziqmoqda",
     "Ronaldu Portugaliya milliy jamoasidan nima uchun ketgani ma’lum bo‘ldi",
     "Mourin'yo \"Real\"ning istiqbolli yangi futbolchisini diqqat bilan kuzatadi",
@@ -463,9 +463,10 @@
     "\"Real\" yulduzi alamli mag‘lubiyatdan keyin terma jamoani tark etdi",
     "“Manchester Yunayted” “Komo” yetakchisini sotib olishi mumkin",
     "Millatlar ligasi. Angliya Ispaniyani mag‘lub etdi, Italiya Belgiyaga yirik hisobda yutqazdi",
-    "Italiyada porlayotgan himoyachi nega \"Barsa\"dan ketganini aytdi"
+    "Italiyada porlayotgan himoyachi nega \"Barsa\"dan ketganini aytdi",
+    "Zidanga tahlil uchun vaqt yetmadi: Mbappe va boshqa yulduzlar shaxsiy samolyotlarda tez ketib qolishdi"
   ],
-  "last_slot": "2026-11-16 20:00",
+  "last_slot": "2026-11-16 21:30",
   "scorers_idx": 3,
   "last_video_source": "Serie A",
   "table_idx": 3,
@@ -1577,7 +1578,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 871,
+    "last_id": 872,
     "strikes": {},
     "reset_day": "2026-11-16"
   },
