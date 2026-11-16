@@ -14,8 +14,8 @@
       "5:postlar"
     ],
     "pos": 0,
-    "joriy": null,
-    "kun": "2026-11-14",
+    "joriy": "6:postlar",
+    "kun": "2026-11-16",
     "boshlanish": 0,
     "urinish": 0,
     "qoshimcha": 0,
@@ -27,12 +27,15 @@
     "admins": [
       8456959367
     ],
-    "last_id": 46
+    "last_id": 101,
+    "strikes": {},
+    "reset_day": "2026-11-16"
   },
   "tarix": {
     "2026-11-09": "4:postlar",
     "2026-11-10": "aralash:1,2,3,4",
-    "2026-11-12": "5:postlar"
+    "2026-11-12": "5:postlar",
+    "2026-11-16": "6:postlar"
   },
   "takrorlash": {
     "kun": "2026-11-15",
