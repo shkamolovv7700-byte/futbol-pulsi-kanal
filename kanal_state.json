@@ -357,7 +357,8 @@
     "https://sports.uz/oz/news/view/real-yarimhimoyachisi-bernardu-silva-jarohat-oldi",
     "yt:0oVYQ5Ukan0",
     "https://sports.uz/oz/news/view/real-yulduzi-alamli-mag-lubiyatdan-keyin-terma-jamoani-tark-etdi",
-    "yt:Teqio7Xm0qc"
+    "yt:Teqio7Xm0qc",
+    "https://daryo.uz/2026/11/15/manchester-yunayted-komo-yetakchisini-sotib-olishi-mumkin/"
   ],
   "used_quiz": [
     23,
@@ -399,7 +400,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "“Barsa” qiziqayotgan Husanov “Siti”ning o‘ziga ham kerak!",
     "O‘zbekiston milliy jamoasining noyabr oyidagi o‘yinlari boshlanish vaqti ma’lum bo‘ldi",
     "Chempionlar ligasida Yamaldan zo‘r futbolchi kashf qilindi",
     "Himoyachilar endi Vinisiusdan qo‘rqmay qo‘ydi",
@@ -458,9 +458,10 @@
     "Rafinyani \"Barsa\"ga qo‘yib yuborishmadi",
     "O'zbekistonda “yangi Husanov” paydo bo‘ldi. Frantsiya klubi noyob iste'dod bilan kelishib bo‘lgan!",
     "«Real» yarimhimoyachisi Bernardu Silva jarohat oldi",
-    "\"Real\" yulduzi alamli mag‘lubiyatdan keyin terma jamoani tark etdi"
+    "\"Real\" yulduzi alamli mag‘lubiyatdan keyin terma jamoani tark etdi",
+    "“Manchester Yunayted” “Komo” yetakchisini sotib olishi mumkin"
   ],
-  "last_slot": "2026-11-15 22:30",
+  "last_slot": "2026-11-16 9:00",
   "scorers_idx": 3,
   "last_video_source": "UEFA",
   "table_idx": 3,
@@ -1572,9 +1573,9 @@
     "admins": [
       8456959367
     ],
-    "last_id": 865,
+    "last_id": 866,
     "strikes": {},
-    "reset_day": "2026-11-10"
+    "reset_day": "2026-11-16"
   },
   "foto_cache": {
     "Camp Nou": {
