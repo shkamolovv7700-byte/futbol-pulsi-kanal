@@ -363,7 +363,8 @@
     "https://sports.uz/oz/news/view/italiyada-porlayotgan-himoyachi-nega-barsa-dan-ketganini-aytdi",
     "yt:Fw2PjtGKfFc",
     "https://sports.uz/oz/news/view/zidanga-tahlil-uchun-vaqt-etmadi-mbappe-va-boshqa-yulduzlar-shaxsiy-samolyotlarda-tez-ketib-qolishdi",
-    "https://sports.uz/oz/news/view/real-da-katta-yo-qotish"
+    "https://sports.uz/oz/news/view/real-da-katta-yo-qotish",
+    "https://sports.uz/oz/news/view/qozog-iston-klubi-o-zbekiston-terma-jamoasi-o-yinchisi-bo-yicha-qarorini-elon-qildi"
   ],
   "used_quiz": [
     23,
@@ -406,7 +407,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Ronaldu Portugaliya milliy jamoasidan nima uchun ketgani ma’lum bo‘ldi",
     "Mourin'yo \"Real\"ning istiqbolli yangi futbolchisini diqqat bilan kuzatadi",
     "Shu maqsadda ishlayapman! Kannavaro Oʻzbekistondan keyin Italiya terma jamoasini boshqarmoqchi",
     "Arteta Angliya terma jamoasiga chaqirilgan besh nafar «Arsenal» oʻyinchisiga munosabat bildirdi",
@@ -465,9 +465,10 @@
     "Millatlar ligasi. Angliya Ispaniyani mag‘lub etdi, Italiya Belgiyaga yirik hisobda yutqazdi",
     "Italiyada porlayotgan himoyachi nega \"Barsa\"dan ketganini aytdi",
     "Zidanga tahlil uchun vaqt yetmadi: Mbappe va boshqa yulduzlar shaxsiy samolyotlarda tez ketib qolishdi",
-    "\"Real\"da katta yo'qotish"
+    "\"Real\"da katta yo'qotish",
+    "Qozog‘iston klubi O‘zbekiston terma jamoasi o‘yinchisi bo‘yicha qarorini e’lon qildi"
   ],
-  "last_slot": "2026-11-17 9:00",
+  "last_slot": "2026-11-17 10:00",
   "scorers_idx": 3,
   "last_video_source": "Serie A",
   "table_idx": 3,
@@ -1579,7 +1580,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 873,
+    "last_id": 874,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
