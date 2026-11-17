@@ -369,7 +369,8 @@
     "https://sports.uz/oz/news/view/ispaniya-fransiya-angliya-grandlari-xolandni-real-ga-berib-qo-ymoqchi-emas",
     "https://sports.uz/oz/news/view/errera-barselona-yulduzi-olmoning-ustun-jihatini-aytdi",
     "yt:6tVRW4KgAA4",
-    "https://sports.uz/oz/news/view/mourino-real-ning-to-rt-asosiy-futbolchisini-tanladi"
+    "https://sports.uz/oz/news/view/mourino-real-ning-to-rt-asosiy-futbolchisini-tanladi",
+    "yt:D4mf_fyohTc"
   ],
   "used_quiz": [
     23,
@@ -474,9 +475,9 @@
     "Errera «Barselona» yulduzi Olmoning ustun jihatini aytdi",
     "Mourin'yo \"Real\"ning to'rt asosiy futbolchisini tanladi"
   ],
-  "last_slot": "2026-11-17 18:00",
+  "last_slot": "2026-11-17 19:00",
   "scorers_idx": 4,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 4,
   "live": {
     "401915395": {
@@ -1586,7 +1587,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 882,
+    "last_id": 883,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
