@@ -410,7 +410,8 @@
     5,
     3,
     11,
-    19
+    19,
+    18
   ],
   "feed_initialized": true,
   "recent_titles": [
@@ -475,7 +476,7 @@
     "Errera «Barselona» yulduzi Olmoning ustun jihatini aytdi",
     "Mourin'yo \"Real\"ning to'rt asosiy futbolchisini tanladi"
   ],
-  "last_slot": "2026-11-17 19:00",
+  "last_slot": "2026-11-17 20:00",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 4,
@@ -1587,7 +1588,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 883,
+    "last_id": 884,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
