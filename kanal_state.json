@@ -367,7 +367,8 @@
     "https://sports.uz/oz/news/view/qozog-iston-klubi-o-zbekiston-terma-jamoasi-o-yinchisi-bo-yicha-qarorini-elon-qildi",
     "yt:Sl5khzVzGzo",
     "https://sports.uz/oz/news/view/ispaniya-fransiya-angliya-grandlari-xolandni-real-ga-berib-qo-ymoqchi-emas",
-    "https://sports.uz/oz/news/view/errera-barselona-yulduzi-olmoning-ustun-jihatini-aytdi"
+    "https://sports.uz/oz/news/view/errera-barselona-yulduzi-olmoning-ustun-jihatini-aytdi",
+    "yt:6tVRW4KgAA4"
   ],
   "used_quiz": [
     23,
@@ -472,9 +473,9 @@
     "Ispaniya, Frantsiya, Angliya grandlari Xolandni \"Real\"ga berib qoʻymoqchi emas",
     "Errera «Barselona» yulduzi Olmoning ustun jihatini aytdi"
   ],
-  "last_slot": "2026-11-17 15:30",
+  "last_slot": "2026-11-17 16:00",
   "scorers_idx": 4,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 3,
   "live": {
     "401915395": {
@@ -1584,7 +1585,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 879,
+    "last_id": 880,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
