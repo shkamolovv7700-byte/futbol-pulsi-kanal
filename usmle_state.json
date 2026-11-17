@@ -11,17 +11,17 @@
       "3:postlar",
       "4:postlar",
       "aralash:1,2,3,4",
-      "5:postlar"
+      "5:postlar",
+      "6:postlar"
     ],
-    "pos": 36,
-    "joriy": "6:postlar",
-    "kun": "2026-11-16",
+    "pos": 0,
+    "joriy": "aralash:5,6",
+    "kun": "2026-11-17",
     "boshlanish": 0,
     "urinish": 0,
-    "qoshimcha": 15,
+    "qoshimcha": 0,
     "oxirgi_vaqt": "2026-11-16T22:27",
-    "takrorlash_ok": 29,
-    "xulosa": true
+    "takrorlash_ok": 29
   },
   "group_id": 3875410361,
   "moderator": {
@@ -36,7 +36,8 @@
     "2026-11-09": "4:postlar",
     "2026-11-10": "aralash:1,2,3,4",
     "2026-11-12": "5:postlar",
-    "2026-11-16": "6:postlar"
+    "2026-11-16": "6:postlar",
+    "2026-11-17": "aralash:5,6"
   },
   "takrorlash": {
     "kun": "2026-11-15",
