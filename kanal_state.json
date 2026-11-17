@@ -370,7 +370,8 @@
     "https://sports.uz/oz/news/view/errera-barselona-yulduzi-olmoning-ustun-jihatini-aytdi",
     "yt:6tVRW4KgAA4",
     "https://sports.uz/oz/news/view/mourino-real-ning-to-rt-asosiy-futbolchisini-tanladi",
-    "yt:D4mf_fyohTc"
+    "yt:D4mf_fyohTc",
+    "https://daryo.uz/2026/11/17/serxio-ramos-la-ligaga-qaytishi-mumkin-manba/"
   ],
   "used_quiz": [
     23,
@@ -415,7 +416,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Rossiya O‘zbekistonga qarshi qaysi yulduzlarini chaqirdi?",
     "Mourinyo Luis Enrikedan yulduzlarni tiklash usulini o‘rgandi",
     "Ikkita taklif bor! Vinisius \"Real\"ni tark etishi kutilyapti",
     "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi",
@@ -474,9 +474,10 @@
     "Qozog‘iston klubi O‘zbekiston terma jamoasi o‘yinchisi bo‘yicha qarorini e’lon qildi",
     "Ispaniya, Frantsiya, Angliya grandlari Xolandni \"Real\"ga berib qoʻymoqchi emas",
     "Errera «Barselona» yulduzi Olmoning ustun jihatini aytdi",
-    "Mourin'yo \"Real\"ning to'rt asosiy futbolchisini tanladi"
+    "Mourin'yo \"Real\"ning to'rt asosiy futbolchisini tanladi",
+    "Serxio Ramos La Ligaga qaytishi mumkin — manba"
   ],
-  "last_slot": "2026-11-17 20:00",
+  "last_slot": "2026-11-17 21:00",
   "scorers_idx": 4,
   "last_video_source": "LaLiga",
   "table_idx": 4,
@@ -1588,7 +1589,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 884,
+    "last_id": 885,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
@@ -2430,6 +2431,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/6/60/Josep_Guardiola_2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2797_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Steffen Prößdorf",
       "license": "CC BY-SA 4.0"
+    },
+    "Sergio Ramos": {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sergio_Ramos_Interview_2021_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "author": "Real Madrid",
+      "license": "CC BY 3.0"
     }
   },
   "matchday": {
