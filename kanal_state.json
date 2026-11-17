@@ -371,7 +371,8 @@
     "yt:6tVRW4KgAA4",
     "https://sports.uz/oz/news/view/mourino-real-ning-to-rt-asosiy-futbolchisini-tanladi",
     "yt:D4mf_fyohTc",
-    "https://daryo.uz/2026/11/17/serxio-ramos-la-ligaga-qaytishi-mumkin-manba/"
+    "https://daryo.uz/2026/11/17/serxio-ramos-la-ligaga-qaytishi-mumkin-manba/",
+    "yt:dMWYFhOlJGI"
   ],
   "used_quiz": [
     23,
@@ -477,9 +478,9 @@
     "Mourin'yo \"Real\"ning to'rt asosiy futbolchisini tanladi",
     "Serxio Ramos La Ligaga qaytishi mumkin — manba"
   ],
-  "last_slot": "2026-11-17 21:00",
+  "last_slot": "2026-11-17 22:00",
   "scorers_idx": 4,
-  "last_video_source": "LaLiga",
+  "last_video_source": "Serie A",
   "table_idx": 4,
   "live": {
     "401915395": {
@@ -1589,7 +1590,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 885,
+    "last_id": 886,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
