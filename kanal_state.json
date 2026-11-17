@@ -366,7 +366,8 @@
     "https://sports.uz/oz/news/view/real-da-katta-yo-qotish",
     "https://sports.uz/oz/news/view/qozog-iston-klubi-o-zbekiston-terma-jamoasi-o-yinchisi-bo-yicha-qarorini-elon-qildi",
     "yt:Sl5khzVzGzo",
-    "https://sports.uz/oz/news/view/ispaniya-fransiya-angliya-grandlari-xolandni-real-ga-berib-qo-ymoqchi-emas"
+    "https://sports.uz/oz/news/view/ispaniya-fransiya-angliya-grandlari-xolandni-real-ga-berib-qo-ymoqchi-emas",
+    "https://sports.uz/oz/news/view/errera-barselona-yulduzi-olmoning-ustun-jihatini-aytdi"
   ],
   "used_quiz": [
     23,
@@ -410,7 +411,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Shu maqsadda ishlayapman! Kannavaro Oʻzbekistondan keyin Italiya terma jamoasini boshqarmoqchi",
     "Arteta Angliya terma jamoasiga chaqirilgan besh nafar «Arsenal» oʻyinchisiga munosabat bildirdi",
     "Rossiya O‘zbekistonga qarshi qaysi yulduzlarini chaqirdi?",
     "Mourinyo Luis Enrikedan yulduzlarni tiklash usulini o‘rgandi",
@@ -469,9 +469,10 @@
     "Zidanga tahlil uchun vaqt yetmadi: Mbappe va boshqa yulduzlar shaxsiy samolyotlarda tez ketib qolishdi",
     "\"Real\"da katta yo'qotish",
     "Qozog‘iston klubi O‘zbekiston terma jamoasi o‘yinchisi bo‘yicha qarorini e’lon qildi",
-    "Ispaniya, Frantsiya, Angliya grandlari Xolandni \"Real\"ga berib qoʻymoqchi emas"
+    "Ispaniya, Frantsiya, Angliya grandlari Xolandni \"Real\"ga berib qoʻymoqchi emas",
+    "Errera «Barselona» yulduzi Olmoning ustun jihatini aytdi"
   ],
-  "last_slot": "2026-11-17 13:00",
+  "last_slot": "2026-11-17 14:00",
   "scorers_idx": 3,
   "last_video_source": "LaLiga",
   "table_idx": 3,
@@ -1583,7 +1584,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 877,
+    "last_id": 878,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
