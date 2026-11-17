@@ -14,13 +14,13 @@
       "5:postlar",
       "6:postlar"
     ],
-    "pos": 8,
+    "pos": 9,
     "joriy": "aralash:5,6",
     "kun": "2026-11-17",
     "boshlanish": 0,
     "urinish": 0,
     "qoshimcha": 0,
-    "oxirgi_vaqt": "2026-11-17T10:53",
+    "oxirgi_vaqt": "2026-11-17T11:18",
     "takrorlash_ok": 29
   },
   "group_id": 3875410361,
@@ -388,6 +388,12 @@
       "id": 656,
       "dars": 5,
       "k": 3,
+      "sana": "2026-11-17"
+    },
+    {
+      "id": 658,
+      "dars": 4,
+      "k": 4,
       "sana": "2026-11-17"
     }
   ],
