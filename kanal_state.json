@@ -368,7 +368,8 @@
     "yt:Sl5khzVzGzo",
     "https://sports.uz/oz/news/view/ispaniya-fransiya-angliya-grandlari-xolandni-real-ga-berib-qo-ymoqchi-emas",
     "https://sports.uz/oz/news/view/errera-barselona-yulduzi-olmoning-ustun-jihatini-aytdi",
-    "yt:6tVRW4KgAA4"
+    "yt:6tVRW4KgAA4",
+    "https://sports.uz/oz/news/view/mourino-real-ning-to-rt-asosiy-futbolchisini-tanladi"
   ],
   "used_quiz": [
     23,
@@ -412,7 +413,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Arteta Angliya terma jamoasiga chaqirilgan besh nafar «Arsenal» oʻyinchisiga munosabat bildirdi",
     "Rossiya O‘zbekistonga qarshi qaysi yulduzlarini chaqirdi?",
     "Mourinyo Luis Enrikedan yulduzlarni tiklash usulini o‘rgandi",
     "Ikkita taklif bor! Vinisius \"Real\"ni tark etishi kutilyapti",
@@ -471,9 +471,10 @@
     "\"Real\"da katta yo'qotish",
     "Qozog‘iston klubi O‘zbekiston terma jamoasi o‘yinchisi bo‘yicha qarorini e’lon qildi",
     "Ispaniya, Frantsiya, Angliya grandlari Xolandni \"Real\"ga berib qoʻymoqchi emas",
-    "Errera «Barselona» yulduzi Olmoning ustun jihatini aytdi"
+    "Errera «Barselona» yulduzi Olmoning ustun jihatini aytdi",
+    "Mourin'yo \"Real\"ning to'rt asosiy futbolchisini tanladi"
   ],
-  "last_slot": "2026-11-17 17:00",
+  "last_slot": "2026-11-17 18:00",
   "scorers_idx": 4,
   "last_video_source": "Serie A",
   "table_idx": 4,
@@ -1585,7 +1586,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 881,
+    "last_id": 882,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
