@@ -372,7 +372,8 @@
     "https://sports.uz/oz/news/view/mourino-real-ning-to-rt-asosiy-futbolchisini-tanladi",
     "yt:D4mf_fyohTc",
     "https://daryo.uz/2026/11/17/serxio-ramos-la-ligaga-qaytishi-mumkin-manba/",
-    "yt:dMWYFhOlJGI"
+    "yt:dMWYFhOlJGI",
+    "https://sports.uz/oz/news/view/o-zbekistondan-ikkita-gol-o-tkazgan-darvozabon-zo-r-murabbiy-bo-lmoqchi"
   ],
   "used_quiz": [
     23,
@@ -417,7 +418,6 @@
   ],
   "feed_initialized": true,
   "recent_titles": [
-    "Mourinyo Luis Enrikedan yulduzlarni tiklash usulini o‘rgandi",
     "Ikkita taklif bor! Vinisius \"Real\"ni tark etishi kutilyapti",
     "Arda Gyuler “Real”da Vinisiusning natijasini takrorladi",
     "“Manchester Siti” so‘nggi 7 yildagi eng yomon natijasini takrorladi",
@@ -476,9 +476,10 @@
     "Ispaniya, Frantsiya, Angliya grandlari Xolandni \"Real\"ga berib qoʻymoqchi emas",
     "Errera «Barselona» yulduzi Olmoning ustun jihatini aytdi",
     "Mourin'yo \"Real\"ning to'rt asosiy futbolchisini tanladi",
-    "Serxio Ramos La Ligaga qaytishi mumkin — manba"
+    "Serxio Ramos La Ligaga qaytishi mumkin — manba",
+    "O‘zbekiston­dan ikkita gol o‘tkazgan darvozabon zo‘r murabbiy bo‘lmoqchi"
   ],
-  "last_slot": "2026-11-17 22:30",
+  "last_slot": "2026-11-18 9:00",
   "scorers_idx": 4,
   "last_video_source": "Serie A",
   "table_idx": 4,
@@ -1590,7 +1591,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 886,
+    "last_id": 887,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
