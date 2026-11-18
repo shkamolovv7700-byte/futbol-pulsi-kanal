@@ -12,11 +12,12 @@
       "4:postlar",
       "aralash:1,2,3,4",
       "5:postlar",
-      "6:postlar"
+      "6:postlar",
+      "aralash:5,6"
     ],
-    "pos": 34,
-    "joriy": "aralash:5,6",
-    "kun": "2026-11-17",
+    "pos": 0,
+    "joriy": null,
+    "kun": "2026-11-18",
     "boshlanish": 0,
     "urinish": 0,
     "qoshimcha": 0,
