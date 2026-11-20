@@ -374,7 +374,8 @@
     "https://daryo.uz/2026/11/17/serxio-ramos-la-ligaga-qaytishi-mumkin-manba/",
     "yt:dMWYFhOlJGI",
     "https://sports.uz/oz/news/view/o-zbekistondan-ikkita-gol-o-tkazgan-darvozabon-zo-r-murabbiy-bo-lmoqchi",
-    "yt:XfTtkcSOtIM"
+    "yt:XfTtkcSOtIM",
+    "yt:9vMCXlx7P4A"
   ],
   "used_quiz": [
     23,
@@ -480,9 +481,9 @@
     "Serxio Ramos La Ligaga qaytishi mumkin — manba",
     "O‘zbekiston­dan ikkita gol o‘tkazgan darvozabon zo‘r murabbiy bo‘lmoqchi"
   ],
-  "last_slot": "2026-11-19 16:00",
+  "last_slot": "2026-11-20 16:00",
   "scorers_idx": 4,
-  "last_video_source": "UEFA",
+  "last_video_source": "Serie A",
   "table_idx": 5,
   "live": {
     "401915395": {
@@ -1592,7 +1593,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 889,
+    "last_id": 890,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
