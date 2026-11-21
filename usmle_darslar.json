@@ -8,7 +8,10 @@
     "aralash:1,2,3,4",
     "5:postlar",
     "6:postlar",
-    "aralash:5,6"
+    "aralash:5,6",
+    "7:postlar",
+    "8:postlar",
+    "aralash:7,8"
   ],
   "darslar": [
     {
@@ -6582,5 +6585,8 @@
         "Pufak gumbazi - intraperitoneal; chanoq sinishi - ekstraperitoneal/orqa uretra; straddle - bulbar uretra; pudendal blok - quymuch o'sig'i."
       ]
     }
+  ],
+  "takrorlashsiz_yakshanbalar": [
+    "2026-11-22"
   ]
 }

@@ -598,7 +598,8 @@ async def run_once(client: TelegramClient) -> None:
     load_state()
     now = datetime.now()
     lessons = json.loads(LESSONS_FILE.read_text(encoding="utf-8"))
-    if now.weekday() == REVIEW_DAY:  # yakshanba - takrorlash kuni, yangi dars chiqmaydi
+    skip = set(json.loads(LESSONS_FILE.read_text(encoding="utf-8")).get("takrorlashsiz_yakshanbalar", []))
+    if now.weekday() == REVIEW_DAY and f"{now:%Y-%m-%d}" not in skip:  # yakshanba - takrorlash kuni
         d = state.setdefault("dars", {})
         rv = review_due(lessons, now) if d.get("keyingi_urinish", "") <= now.isoformat(timespec="minutes") else None
         save_state()
