@@ -177,7 +177,18 @@ MAX_TRIES = 3  # bir post 3 marta xato bersa, o'tkazib yuboriladi (kanal to'xtab
 
 def step_lessons(step: str) -> list[int]:
     """'3:postlar' -> [3]; 'aralash:1,2,3,4' -> [1, 2, 3, 4]."""
-    return [int(x) for x in step.split(":")[1].split(",")] if step.startswith("aralash:") else [int(step.split(":")[0])]
+    if step.startswith(("aralash:", "postlar:")):  # 'postlar:7,8' - bir kunda ikki darsning mavzulari
+        return [int(x) for x in step.split(":")[1].split(",")]
+    return [int(step.split(":")[0])]
+
+
+def postlar_lessons(step: str | None) -> list[int]:
+    """Mavzu postlari chiqadigan qadam bo'lsa - darslar raqamlari (1 dan), aks holda []."""
+    if not step:
+        return []
+    if step.startswith("postlar:"):
+        return step_lessons(step)
+    return [int(step.split(":")[0])] if step.endswith(":postlar") and not step.startswith("aralash") else []
 
 
 def plan_steps(data: dict) -> list[str]:
@@ -186,6 +197,7 @@ def plan_steps(data: dict) -> list[str]:
     'aralash:1,2,3,4' - shu darslarning barcha vaziyatli masalalari bir kunda, aralashtirib."""
     steps = list(data.get("reja", []))
     covered = {f"{n}:savollar" for s in steps if s.startswith("aralash:") for n in step_lessons(s)}
+    covered |= {f"{n}:postlar" for s in steps if s.startswith("postlar:") for n in step_lessons(s)}
     for n in range(1, len(data["darslar"]) + 1):
         steps += [s for s in (f"{n}:postlar", f"{n}:savollar") if s not in steps and s not in covered]
     return steps
@@ -195,6 +207,8 @@ def step_items(lessons: list[dict], step: str | None) -> list[tuple[int, str, in
     """Qadam elementlari: (dars raqami 0 dan, bosqich, dars ichidagi tartib, element). Dars hali yo'q - None."""
     if not step or any(n > len(lessons) for n in step_lessons(step)):
         return None
+    if step.startswith("postlar:"):
+        return [(n - 1, "postlar", k, x) for n in step_lessons(step) for k, x in enumerate(lessons[n - 1]["postlar"])]
     if step.startswith("aralash:"):
         done = state.get("dars", {}).get("bajarildi", [])
         nums = [n for n in step_lessons(step) if f"{n}:savollar" not in done]  # zaxira kuni chiqqanlari takrorlanmaydi
@@ -259,6 +273,8 @@ def lesson_item(data: dict, now: datetime):
 async def post_lesson(client: TelegramClient, channel, step: str, pos: int, total: int, entry: tuple) -> None:
     n, stage, k, item = entry
     lesson = json.loads(LESSONS_FILE.read_text(encoding="utf-8"))["darslar"][n]
+    if step.startswith("postlar:"):  # bir kunda ikki dars: raqamlash har dars ichida (1/30, 2/30 ...)
+        pos, total = k, len(lesson["postlar"])
     head = f"{n + 1}-DARS: {lesson['nomi']}"
     tag = f"#dars{n + 1} #{re.sub(r'\W', '', lesson['fan'])}"
     if stage == "postlar":
@@ -354,22 +370,24 @@ def rich(parts: list[tuple[str, str | None]]) -> tuple[str, list]:
 
 def extra_due(lessons: list[dict], now: datetime):
     d = state.get("dars", {})
-    step = d.get("joriy")
-    if not step or not step.endswith(":postlar"):
+    nums = postlar_lessons(d.get("joriy"))
+    if not nums or any(n > len(lessons) for n in nums):
         return None
-    n = int(step.split(":")[0]) - 1
-    lesson = lessons[n]
+    gap = 5 if len(nums) > 1 else EXTRA_GAP_MIN  # ikki darsli kunda postlar zichroq
     last = d.get("oxirgi_vaqt", "")
-    if last and last > (now - timedelta(minutes=EXTRA_GAP_MIN)).isoformat(timespec="minutes"):
+    if last and last > (now - timedelta(minutes=gap)).isoformat(timespec="minutes"):
         return None
-    extras = lesson_extras(lesson)
+    extras = [(n - 1, e) for n in nums for e in lesson_extras(lessons[n - 1])]
     k = d.get("qoshimcha", 0)
-    posts_done = d.get("pos", 0) >= len(lesson["postlar"])
+    posts_done = d.get("pos", 0) >= sum(len(lessons[n - 1]["postlar"]) for n in nums)
     if k < len(extras) and (d.get("pos", 0) >= EXTRA_EVERY * (k + 1) or posts_done):
-        return n, lesson, k, len(extras), extras[k]
-    if posts_done and k >= len(extras) and lesson.get("xulosa") and not d.get("xulosa") \
-            and now.hour * 60 + now.minute >= SUMMARY_FROM:
-        return n, lesson, None, None, ("xulosa", lesson["xulosa"])
+        n, e = extras[k]
+        return n, lessons[n], k, len(extras), e
+    summaries = [n - 1 for n in nums if lessons[n - 1].get("xulosa")]
+    done = int(d.get("xulosa") or 0)  # eski holatda True bo'lishi mumkin
+    if posts_done and k >= len(extras) and done < len(summaries) and now.hour * 60 + now.minute >= SUMMARY_FROM:
+        n = summaries[done]
+        return n, lessons[n], None, None, ("xulosa", lessons[n]["xulosa"])
     return None
 
 
@@ -409,10 +427,9 @@ WEEKDAYS = ["Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba",
 def week_lessons(lessons: list[dict], today: datetime) -> list[int]:
     """Oxirgi 7 kunda mavzusi chiqqan darslar (0 dan); tarix bo'lmasa - oxirgi o'tilgan 2 dars."""
     since = f"{today - timedelta(days=7):%Y-%m-%d}"
-    done = [int(s.split(":")[0]) - 1 for day, s in sorted(state.get("tarix", {}).items())
-            if day >= since and s.endswith(":postlar") and not s.startswith("aralash")]
+    done = [n - 1 for day, s in sorted(state.get("tarix", {}).items()) if day >= since for n in postlar_lessons(s)]
     if not done:
-        taught = [int(s.split(":")[0]) - 1 for s in state.get("dars", {}).get("bajarildi", []) if s.endswith(":postlar")]
+        taught = [n - 1 for s in state.get("dars", {}).get("bajarildi", []) for n in postlar_lessons(s)]
         done = taught[-2:]
     return [n for n in dict.fromkeys(done) if n < len(lessons)]
 
@@ -420,7 +437,7 @@ def week_lessons(lessons: list[dict], today: datetime) -> list[int]:
 def taught_lessons(lessons: list[dict]) -> list[int]:
     d = state.get("dars", {})
     steps = d.get("bajarildi", []) + ([d["joriy"]] if d.get("joriy") else [])
-    return [n for n in dict.fromkeys(int(s.split(":")[0]) - 1 for s in steps if s.endswith(":postlar"))
+    return [n for n in dict.fromkeys(m - 1 for s in steps for m in postlar_lessons(s))
             if n < len(lessons)]
 
 
@@ -517,6 +534,8 @@ def upcoming_plan(lessons_data: dict, today: datetime) -> list[str]:
             s = steps.pop(0)
             if s.startswith("aralash:"):
                 txt = f"{s.split(':')[1].replace(',', '- va ')}-darslar vaziyatli masalalari"
+            elif s.startswith("postlar:"):
+                txt = f"{s.split(':')[1].replace(',', '- va ')}-darslar mavzulari"
             else:
                 num, stage = s.split(":")
                 nom = lessons_data["darslar"][int(num) - 1]["nomi"] if int(num) <= n_lessons else "yangi dars"
@@ -658,7 +677,7 @@ async def attempt(make_post, now: datetime, counter: str) -> None:
         save_state()
         return
     if counter == "xulosa":
-        d["xulosa"] = True
+        d["xulosa"] = int(d.get("xulosa") or 0) + 1
     else:
         d[counter] = d.get(counter, 0) + 1
     d["urinish"] = 0
