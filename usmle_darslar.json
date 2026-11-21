@@ -4703,6 +4703,1884 @@
         "Detruzor - parasimpatik S2-S4 (siyish); ichki sfinkter - simpatik T11-L2 (ushlab turish); tashqi sfinkter - n. pudendus (ixtiyoriy).",
         "Inkontinensiya: stress - chiqish yetishmovchiligi; urge - detruzor faolligi; overflow - to'liq bo'shamaslik; spastik qovuq - urge, atonik - overflow."
       ]
+    },
+    {
+      "nomi": "Chanoq anatomiyasi (1-qism): ayol jinsiy a'zolari",
+      "fan": "Anatomy",
+      "manba": "7-lesson._Pelvic_anatomy_1-part.pdf",
+      "postlar": [
+        {
+          "sarlavha": "Ovaries: general features",
+          "bandlar": [
+            "Almond-shaped, lie posterior to the broad ligament",
+            "Attached to lateral pelvic wall by the suspensory ligament",
+            "Suspensory ligament carries ovarian artery, vein and nerves",
+            "Surface: simple cuboidal 'germinal' epithelium, not peritoneum"
+          ],
+          "izoh": "🥚 Tuxumdonlar (ovaria) - bodomsimon juft a'zolar, kichik chanoqda bachadon keng boylamining ORQA tomonida yotadi.\n\n📌 Mahkamlanishi:\n• tuxumdonni osib turuvchi boylam (lig. suspensorium ovarii, infundibulopelvik boylam) - keng boylamning bir qismi, tuxumdonni chanoqning YON devoriga bog'laydi;\n• uning ichida tuxumdon arteriyasi, venasi va nervlari o'tadi;\n• tuxumdonning xususiy boylami uni bachadon burchagiga bog'laydi;\n• mezovarium - keng boylamning tuxumdonni o'rab turgan burmasi.\n\n🔬 Yuzasi: tuxumdon odatdagi qorin parda (mezoteliy) bilan qoplanmagan - uning sirti bir qavatli kubsimon \"germinal\" epiteliy bilan qoplangan (nomi chalg'itadi: tuxum hujayralari undan hosil bo'lmaydi).\n\n💡 USMLE: tuxumdonning yer usti epiteliy o'smalari (serozli, mutsinoz) aynan shu yuzaki epiteliydan kelib chiqadi. Rasmda (Spalteholz) tuxumdon kesimi: mesovarium, mesosalpinx, lig. latum uteri va lig. ovarii proprium.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_01.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Ovaries: arterial supply",
+          "bandlar": [
+            "Ovarian artery: direct branch of the abdominal aorta (below renal a.)",
+            "Ascending (ovarian) branch of the uterine artery",
+            "Uterine artery arises from the internal iliac artery",
+            "The two systems anastomose in the broad ligament"
+          ],
+          "izoh": "🩸 Tuxumdon IKKI manbadan qon oladi:\n\n1️⃣ Tuxumdon arteriyasi (a. ovarica):\n• qorin AORTASIDAN to'g'ridan-to'g'ri chiqadi (buyrak arteriyalaridan sal pastda, ~L2);\n• chanoqqa infundibulopelvik (osib turuvchi) boylam ichida tushadi.\n\n2️⃣ Bachadon arteriyasining ko'tariluvchi tarmoqlari:\n• a. uterina ichki yonbosh arteriyasidan (a. iliaca interna) chiqadi;\n• bachadonning yon qirrasi bo'ylab yuqoriga ko'tarilib, tuxumdon (ramus ovarii) va nay (ramus tubarius) tarmoqlarini beradi.\n\n🔗 Ikkala tizim keng boylam ichida anastomoz hosil qiladi - shuning uchun bachadon arteriyasi bog'langanda ham tuxumdon qonsiz qolmaydi.\n\n💡 USMLE: gonadalar qorin orqa devorida (buyrak yonida) rivojlanib, pastga tushgani uchun ularning arteriyasi aortadan, limfasi esa paraaortal tugunlarga boradi. Rasmda (Spalteholz) a. ovarica, a. uterina, ramus ovarii va ureter.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_02.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Ovaries: venous and lymphatic drainage",
+          "bandlar": [
+            "Right ovarian vein -> inferior vena cava",
+            "Left ovarian vein -> left renal vein",
+            "Lymph -> lateral aortic (para-aortic) nodes",
+            "Not to inguinal nodes - follows the gonadal vessels"
+          ],
+          "izoh": "🩵 Venalari - ASSIMETRIK:\n• O'NG tuxumdon venasi -> to'g'ridan-to'g'ri pastki kovak venaga (VCI);\n• CHAP tuxumdon venasi -> chap buyrak venasiga (to'g'ri burchak ostida), u esa aorta oldidan o'tib VCI ga quyiladi.\n\n🟢 Limfasi: tuxumdon arteriyasi bo'ylab yuqoriga ko'tarilib, aorta yonidagi (lateral aortal, paraaortal) limfa tugunlariga quyiladi.\n\n⚠️ Nima uchun muhim:\n• tuxumdon saratoni avval paraaortal tugunlarga tarqaladi - chov tugunlari kattalashmaydi;\n• chap buyrak venasi bosilsa yoki trombozga uchrasa (masalan, chap buyrak o'smasi), chap tuxumdon venasida turg'unlik, chanoq varikozi va og'riq paydo bo'lishi mumkin.\n\n💡 Qoida: gonadalar (tuxumdon va moyak) limfasi - PARAAORTAL tugunlarga; bachadon tanasi, bo'yni va qin - boshqa tugunlarga (8-darsdagi jadvalga qarang).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_03.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Estrogen: sources and potency",
+          "bandlar": [
+            "Estradiol (E2): ovary - most potent, made by both ovaries",
+            "Estrone (E1): adipose tissue via aromatization of androgens",
+            "Estriol (E3): placenta - weakest",
+            "Potency: estradiol > estrone > estriol"
+          ],
+          "izoh": "🌸 Estrogenlarning uch turi va manbai:\n\n1️⃣ ESTRADIOL (E2) - eng KUCHLI:\n• tuxumdonda (ikkala tuxumdondan) ishlab chiqariladi;\n• teka hujayralari LH ta'sirida androgen hosil qiladi, granulyoza hujayralari FSH ta'sirida aromataza yordamida uni estradiolga aylantiradi (\"ikki hujayra - ikki gonadotropin\").\n\n2️⃣ ESTRON (E1) - o'rtacha:\n• yog' to'qimasida androgenlarning (androstenedion) AROMATIZATSIYASI natijasida hosil bo'ladi;\n• menopauzadan keyin asosiy estrogen - semizlikda ko'p.\n\n3️⃣ ESTRIOL (E3) - eng KUCHSIZ:\n• asosan PLATSENTADA hosil bo'ladi.\n\n📊 Kuchi: estradiol > estron > estriol.\n\n🧬 Estrogen retseptorlari sitoplazmada joylashadi; gormon bog'langach kompleks yadroga o'tib, genlar transkripsiyasini o'zgartiradi.\n\n💡 USMLE: semiz ayolda menopauzadan keyin yog' to'qimasidagi estron endometriyni progesteronsiz rag'batlantiradi -> endometriy giperplaziyasi va saratoni xavfi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_04.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Estrogen: physiologic actions",
+          "bandlar": [
+            "Development of genitalia, breasts, female fat distribution",
+            "Follicle growth, endometrial proliferation, myometrial excitability",
+            "Upregulates estrogen, LH and progesterone receptors",
+            "Negative feedback on FSH/LH, then LH surge; raises SHBG and HDL, lowers LDL"
+          ],
+          "izoh": "🌸 Estrogenning asosiy ta'sirlari:\n\n🔹 Rivojlanish:\n• ichki va tashqi jinsiy a'zolar, sut bezlari rivoji;\n• ayollarga xos yog' taqsimoti (son, dumba).\n\n🔹 Jinsiy a'zolar:\n• follikula o'sishi;\n• endometriy PROLIFERATSIYASI (siklning birinchi yarmi);\n• miometriy qo'zg'aluvchanligining oshishi.\n\n🔹 Retseptorlar: estrogen, LH va progesteron retseptorlari sonini OSHIRADI (up-regulatsiya) - shuning uchun keyingi gormonlar yaxshi ta'sir qiladi.\n\n🔹 Gipotalamus-gipofiz:\n• avval FSH va LH ni manfiy teskari aloqa bilan bosadi;\n• estradiol uzoq va yuqori bo'lsa - MUSBAT teskari aloqa -> LH cho'qqisi (surge) -> ovulyatsiya;\n• prolaktin sekretsiyasini oshiradi, lekin uning sut beziga ta'sirini bloklaydi.\n\n🔹 Jigar: transport oqsillari, jinsiy gormonlarni bog'lovchi globulin (SHBG) ko'payadi; HDL oshadi, LDL kamayadi (menopauzadan keyin yurak-qon tomir xavfi ortishining sababi).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_05.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Estrogen in pregnancy",
+          "bandlar": [
+            "Estradiol and estrone rise about 50-fold",
+            "Estriol rises about 1000-fold",
+            "Estriol needs fetal adrenal + fetal liver + placenta",
+            "Maternal estriol = indicator of fetal well-being"
+          ],
+          "izoh": "🤰 Homiladorlikda estrogenlar keskin oshadi:\n• estradiol va estron - taxminan 50 marta;\n• ESTRIOL - taxminan 1000 marta!\n\n🔗 Estriol \"homila-platsenta birligi\" mahsuloti:\n1. homila buyrak usti bezi -> DHEA-S;\n2. homila jigari -> 16-gidroksillangan DHEA-S;\n3. platsenta (aromataza) -> ESTRIOL;\n4. ona qoni va siydigiga o'tadi.\n\n📉 Demak, onada estriol past bo'lsa - homila (buyrak usti bezi, jigari) yoki platsenta faoliyati buzilgan bo'lishi mumkin. Shu sababli estriol homila holatining (fetal wellbeing) ko'rsatkichi hisoblanadi.\n\n🧬 Eslatma: estrogen retseptorlari sitoplazmada bo'ladi va gormon bilan bog'langach yadroga o'tadi (steroid gormonlar uchun umumiy mexanizm).\n\n💡 USMLE: \"to'rtlik skrining\" (quad screen) dagi past estriol - Daun sindromi (trisomiya 21) va Edvards sindromi (trisomiya 18) belgilaridan biri.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_06.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Progesterone: luteal phase actions",
+          "bandlar": [
+            "Sources: corpus luteum, placenta, adrenal cortex, testes",
+            "Endometrial gland secretion and spiral artery development",
+            "Thick cervical mucus, raises body temperature",
+            "Prevents endometrial hyperplasia; lowers LH, FSH and estrogen receptors"
+          ],
+          "izoh": "🟡 Progesteron manbalari: SARIQ TANA (corpus luteum), platsenta, buyrak usti bezi po'stlog'i, moyaklar.\n\n🌙 Lyutein (sekretor) fazada progesteron bachadonni urug'langan tuxum hujayra joylashishiga (implantatsiya) tayyorlaydi:\n• endometriy bezlari sekretsiyasini kuchaytiradi;\n• spiral arteriyalarning rivojlanishini ta'minlaydi;\n• bachadon bo'yni shilimshig'ini QUYUQ qiladi -> spermatozoidlar bachadonga kira olmaydi;\n• endometriy GIPERPLAZIYASINING oldini oladi (estrogen ta'sirini muvozanatlaydi);\n• tana harorati (bazal harorat) ~0,3-0,5°C ko'tariladi;\n• estrogen retseptorlarini kamaytiradi;\n• LH va FSH sekretsiyasini pasaytiradi.\n\n📈 Qonda progesteronning ko'tarilishi - OVULYATSIYA bo'lganining belgisi (lyutein faza o'rtasida, ~21-kunda tekshiriladi).\n\n💡 USMLE: progesteronsiz estrogen (masalan, anovulyator sikl, PKOS, semizlik) -> endometriy giperplaziyasi va saratoni. Shuning uchun bachadoni bor ayollarga gormon terapiyasida estrogen PROGESTIN bilan birga beriladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_07.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Progesterone: pregnancy and lactation",
+          "bandlar": [
+            "Maintains the endometrium (decidua) and pregnancy",
+            "Lowers myometrial excitability - fewer, weaker contractions",
+            "Blocks prolactin action on breasts during pregnancy",
+            "Post-delivery fall in estrogen and progesterone -> lactation"
+          ],
+          "izoh": "🤰 Homiladorlikda progesteron:\n• endometriy (detsidua) qavatini va homiladorlikni SAQLAYDI;\n• miometriy qo'zg'aluvchanligini pasaytiradi -> qisqarishlar soni va kuchi kamayadi (bachadon \"tinch\" turadi);\n• prolaktinning sut beziga ta'sirini bloklaydi - shuning uchun homiladorlikda sut kelmaydi.\n\n🍼 Tug'ruqdan keyin:\n1. platsenta chiqadi;\n2. estrogen va progesteron keskin tushadi;\n3. prolaktinga bo'lgan tormoz olinadi (dizingibitsiya);\n4. LAKTATSIYA boshlanadi.\n\n🧠 Eslab qolish:\n• PROgesteron - PRO-GESTATION (homiladorlik tarafdori);\n• PROlaktin - PRO-LACTATION (laktatsiya tarafdori).\n\n💡 USMLE: tug'ruqdan keyin sut kelmasa va platsenta qoldig'i bo'lsa - qolgan platsenta to'qimasi progesteron ishlab chiqarib, laktatsiyani to'xtatib turishi mumkin.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_08.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Uterine tube: function and support",
+          "bandlar": [
+            "Carries oocyte/zygote to the uterine cavity",
+            "Mechanism: ciliary beating + smooth muscle peristalsis",
+            "Transports sperm in the opposite direction",
+            "Supported by the mesosalpinx (part of the broad ligament)"
+          ],
+          "izoh": "🎋 Bachadon nayi (tuba uterina, Fallopiy nayi) - bachadon burchagidan chanoq yon devoriga qarab yo'nalgan ~10 sm uzunlikdagi nay.\n\n🔄 Vazifalari:\n• tuxumdondan chiqqan oositni (urug'langan yoki urug'lanmagan) bachadon bo'shlig'iga olib boradi;\n• buning uchun KIPRIKCHALAR harakati va silliq mushak qisqarishlari (peristaltika) ishlaydi;\n• spermatozoidlarni esa TESKARI yo'nalishda - ampulaga - o'tkazadi, urug'lanish shu yerda yuz beradi.\n\n📌 Nay keng boylamning yuqori erkin qirrasidagi burma - MEZOSALPINKS ichida osilib turadi.\n\n🔬 Shilliq qavati - bir qavatli kiprikli silindrsimon epiteliy.\n\n⚠️ Klinik ahamiyati: kiprikchalar shikastlansa (xlamidiya, gonoreya - PID, chandiqlar) yoki harakatsiz bo'lsa (Kartagener sindromi), embrion bachadonga yetib bora olmaydi -> EKTOPIK homiladorlik va bepushtlik xavfi oshadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_09.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Uterine tube: four parts",
+          "bandlar": [
+            "Infundibulum: funnel with fimbriae, opens into peritoneal cavity",
+            "Ampulla: longest and widest part - usual site of fertilization",
+            "Isthmus: narrow segment next to the uterus",
+            "Intramural (uterine) part opens into the uterine cavity"
+          ],
+          "izoh": "🎋 Bachadon nayi 4 qismdan iborat (tuxumdondan bachadonga qarab):\n\n1️⃣ VORONKA (infundibulum):\n• voronkasimon, chetida barmoqsimon o'simtalar - FIMBRIYALAR bor;\n• qorin bo'shlig'iga ochiladi (ostium abdominale) - shuning uchun ayolda qorin bo'shlig'i tashqi muhit bilan bog'langan;\n• fimbriyalar ovulyatsiyada oositni \"tutib oladi\".\n\n2️⃣ AMPULA (ampulla):\n• eng UZUN va eng KENG qism;\n• URUG'LANISH odatda shu yerda bo'ladi;\n• ektopik homiladorlik ham ko'pincha ampulada.\n\n3️⃣ BO'YINCHA (isthmus) - tor, devori qalin qism.\n\n4️⃣ DEVOR ICHIDAGI (intramural, uterin) qism - bachadon devorini kesib o'tib, bachadon bo'shlig'iga ochiladi.\n\n💡 USMLE: ektopik homiladorlik - amenoreya, qorin og'rig'i, qinidan qon ketishi + hCG musbat, bachadon bo'sh. Yorilsa - gemoperitoneum, shok. Rasmda (Spalteholz): ampulla, isthmus, infundibulum, fimbriae tubae.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_10.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Hysterosalpingography",
+          "bandlar": [
+            "Contrast injected through the cervix under fluoroscopy",
+            "Outlines the uterine cavity and both tubes",
+            "Free peritoneal spill = patent tubes",
+            "Used in infertility workup: tubal block, cavity defects"
+          ],
+          "izoh": "🩻 Gisterosalpingografiya (GSG, HSG) - bachadon bo'shlig'i va naylarini rentgenda ko'rish usuli.\n\n🔧 Qanday bajariladi:\n• bachadon bo'yni kanali orqali kateter bilan kontrast modda yuboriladi;\n• kontrast bachadon bo'shlig'ini (uchburchak shaklda), so'ng ikkala nayni to'ldiradi;\n• naylar ochiq bo'lsa, kontrast fimbriyalar orqali QORIN BO'SHLIG'IGA to'kiladi (\"peritoneal spill\") - bu NAYLAR O'TKAZUVCHANLIGINING belgisi.\n\n🎯 Nimani aniqlaydi (bepushtlik tekshiruvi):\n• nay tiqilishi (masalan, avvalgi PID dan keyin) - kontrast to'kilmaydi, nay kengaygan (gidrosalpinks) bo'lishi mumkin;\n• bachadon nuqsonlari (ikki shoxli, to'siqli bachadon);\n• bo'shliq ichidagi to'siqlar: polip, submukoz mioma, bitishmalar (Asherman sindromi).\n\n📅 Odatda hayz tugagach, ovulyatsiyadan oldin (siklning 7-10 kunlari) bajariladi - homiladorlik ehtimoli bo'lmasin.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_11.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Uterus: regions",
+          "bandlar": [
+            "Fundus: above the cornua; may reach the xiphoid (T9) at term",
+            "Cornu: where the uterine tubes enter",
+            "Body: between cornu and cervix; isthmus = body-cervix junction",
+            "Cervix: projects into the vagina - internal os, canal, external os"
+          ],
+          "izoh": "🍐 Bachadon (uterus) - nok shaklidagi mushakli a'zo, 4 qismga bo'linadi:\n\n1️⃣ TUB (fundus uteri):\n• naylar kiradigan joydan (shoxlardan) YUQORIDA joylashgan;\n• homiladorlikda bachadonning yuqori segmentini asosan tub hosil qiladi;\n• muddatida tub to'sh suyagining xanjarsimon o'simtasigacha (T9 sathi) ko'tarilishi mumkin.\n\n2️⃣ SHOX (cornu uteri) - nay bachadonga kiradigan burchak.\n\n3️⃣ TANA (corpus uteri):\n• shox va bo'yin orasida;\n• ISTMUS - tananing pastki toraygan qismi, tana va bo'yin chegarasi (homiladorlikda \"pastki segment\"ga aylanadi).\n\n4️⃣ BO'YIN (cervix uteri):\n• tananing ostida, qinga turtib chiqib turadi;\n• ichki teshik (os internum), bo'yin kanali va tashqi teshik (os externum) bor.\n\n💡 USMLE: bachadon tubi balandligi (fundal height) homiladorlik muddatini taxmin qilishda ishlatiladi: ~20-haftada kindik sathida, keyin har haftada ~1 sm ko'tariladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_12.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Isthmus and cesarean section",
+          "bandlar": [
+            "Isthmus = boundary between uterine body and cervix",
+            "In pregnancy it forms the thin lower uterine segment",
+            "Preferred site for the cesarean incision (low transverse)",
+            "Less bleeding and lower rupture risk in later pregnancies"
+          ],
+          "izoh": "✂️ Istmus - bachadon tanasi bilan bo'yni o'rtasidagi tor qism. Homiladorlikning ikkinchi yarmida u cho'zilib, yupqa \"PASTKI SEGMENT\"ni hosil qiladi.\n\n🔹 Yuqori segment (tub + tana):\n• mushagi qalin, faol qisqaradi - homilani itaradi.\n\n🔹 Pastki segment (istmusdan):\n• yupqa, kam qisqaradi, qon tomirlari kamroq.\n\n🏥 Kesar kesish (sectio caesarea) uchun eng qulay joy - ISTMUS (pastki segmentda ko'ndalang kesma):\n• qon yo'qotish kamroq;\n• chandiq mustahkam bo'ladi;\n• keyingi homiladorlikda bachadon YORILISHI xavfi past (vertikal \"klassik\" kesmaga nisbatan);\n• keyingi tug'ruqni qin orqali sinab ko'rish (TOLAC/VBAC) mumkin bo'ladi.\n\n💡 USMLE: oldingi kesar kesish chandig'i - platsentaning chuqur o'sib kirishi (placenta accreta) uchun asosiy xavf omili, ayniqsa platsenta oldinda (previa) joylashsa.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_13.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Uterus: blood supply and venous drainage",
+          "bandlar": [
+            "Uterine artery: branch of the internal iliac artery",
+            "Runs in the base of the broad ligament, crosses over the ureter",
+            "Collateral supply from the ovarian artery",
+            "Veins -> internal iliac veins -> common iliac -> IVC"
+          ],
+          "izoh": "🩸 Arteriyalari:\n• BACHADON ARTERIYASI (a. uterina) - ichki yonbosh arteriyasining (a. iliaca interna) oldingi tarmog'idan chiqadi;\n• keng boylam asosida (kardinal boylam ichida) medialga yo'naladi va bachadon bo'yni yonida SIYDIK YO'LI USTIDAN kesib o'tadi (\"ko'prik ostidagi suv\");\n• bachadon yon qirrasi bo'ylab buralib yuqoriga ko'tariladi, qin tarmog'ini ham beradi;\n• TUXUMDON ARTERIYASI bilan anastomoz qiladi - bu potentsial kollateral manba.\n\n🩵 Venalari: bachadon vena chigali -> ichki yonbosh venalari -> umumiy yonbosh venalari -> pastki kovak vena (VCI).\n\n⚠️ Klinik ahamiyati:\n• tug'ruqdan keyingi kuchli qon ketishda bachadon (yoki ichki yonbosh) arteriyasi bog'lanishi yoki embolizatsiya qilinishi mumkin;\n• miomalarni davolashda bachadon arteriyalari embolizatsiyasi qilinadi.\n\n💡 Rasmda (Spalteholz) ayol chanog'i arteriyalari: a. iliaca interna (hypogastrica), a. uterina, a. ovarica, a. vaginalis, a. pudenda interna.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_14.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Uterine position: anteflexed and anteverted",
+          "bandlar": [
+            "Normal uterus is anteflexed and anteverted",
+            "Anteflexion: forward bend between body and cervix",
+            "Anteversion: forward angle between cervix and vagina",
+            "Uterus lies almost horizontal on the bladder"
+          ],
+          "izoh": "📐 Bachadonning normal holati - ANTEFLEKSIYA va ANTEVERSIYA.\n\n🔹 Antefleksiya - bachadon TANASI bilan BO'YNI orasidagi oldinga qaragan burchak (tana oldinga egilgan).\n\n🔹 Anteversiya - bachadon BO'YNI bilan QIN orasidagi oldinga qaragan burchak (butun bachadon oldinga og'gan).\n\n➡️ Natijada bachadon deyarli GORIZONTAL holatda, siydik pufagining yuqori yuzasida yotadi. Pufak to'lsa, bachadon orqaga ko'tariladi.\n\n🔄 Variantlar: retroversiya/retrofleksiya (bachadon orqaga og'gan) ayollarning ~20% ida uchraydi; odatda belgisiz, ba'zan dismenoreya, bel og'rig'i yoki dispareuniya beradi.\n\n🕳 Atrofidagi chuqurliklar:\n• oldinda - pufak-bachadon chuqurchasi (excavatio vesicouterina);\n• orqada - to'g'ri ichak-bachadon chuqurchasi (Duglas bo'shlig'i) - tik turgan ayolda qorin bo'shlig'ining eng past nuqtasi, suyuqlik/qon shu yerga yig'iladi (orqa gumbaz orqali punksiya - kuldotsentez).\n\n💡 Rasmda (Spalteholz) ayol chanog'ining median kesimi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_15.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Endometrial adenocarcinoma",
+          "bandlar": [
+            "Most common gynecologic cancer in women",
+            "Driven by prolonged estrogen stimulation without progesterone",
+            "Risks: estrogen-only HRT, obesity, diabetes, nulliparity",
+            "Early menarche/late menopause; presents with abnormal bleeding"
+          ],
+          "izoh": "🎗 Endometriy adenokarsinomasi - ayollarda eng ko'p uchraydigan GINEKOLOGIK saraton.\n\n🧬 Asosiy sabab: endometriyning uzoq vaqt ESTROGEN bilan (progesteronsiz) rag'batlanishi -> giperplaziya -> saraton.\n\n⚠️ Xavf omillari:\n• menopauzada faqat estrogen bilan gormon terapiyasi (progestinsiz);\n• SEMIZLIK (yog'da estron hosil bo'ladi);\n• qandli diabet;\n• tug'magan ayol (nulliparitet);\n• erta menarxe va kech menopauza (estrogen ta'siri uzoq).\n\n🔬 O'sish shakli: diffuz yoki polipsimon, ko'pincha bir nechta o'choqli.\n\n🩸 Klinikasi: perimenopauza yoki POSTMENOPAUZA davridagi ayolda ANOMAL BACHADON QON KETISHI. Postmenopauzal qon ketish - endometriy saratoni inkor qilinmaguncha shubhali!\n\n💡 USMLE: tashxis - endometriy biopsiyasi (yoki transvaginal UTT da endometriy qalinligi). Himoya omillari: kombinatsiyalangan og'iz kontraseptivlari, homiladorlik, chekish (estrogenni kamaytiradi).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_16.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Uterine leiomyoma: locations",
+          "bandlar": [
+            "Benign smooth muscle tumor; may calcify",
+            "Intramural: within the myometrium (most common)",
+            "Submucosal: under the endometrium, bulges into the cavity",
+            "Subserosal: under the serosa, grows into the peritoneal cavity"
+          ],
+          "izoh": "🟤 Bachadon miomasi (leiomioma, fibroid) - bachadon silliq mushak hujayralarining XAVFSIZ (benign) o'smasi. Ayollarda eng ko'p uchraydigan o'sma; ko'pincha ko'p sonli.\n\n📍 Joylashuviga ko'ra 3 turi:\n\n1️⃣ INTRAMURAL - miometriy ichida (eng ko'p).\n\n2️⃣ SUBMUKOZ - endometriy ostida, bachadon bo'shlig'iga bo'rtib o'sadi:\n• eng ko'p QON KETISHI (menorragiya) va BEPUSHTLIK beradi;\n• implantatsiyaga xalaqit beradi.\n\n3️⃣ SUBSEROZ - seroz parda ostida, qorin bo'shlig'iga qarab o'sadi:\n• oyoqchali bo'lishi mumkin (buralishi mumkin);\n• qo'shni a'zolarni (siydik pufagi, to'g'ri ichak) bosib, bosim belgilarini beradi.\n\n🔬 Kesimda: oq-kulrang, burama (\"whorled\") naqshli, aniq chegarali tugunlar. Kalsifikatsiyalanishi mumkin.\n\n💡 USMLE: miomaga xavfli o'zgarish (leiomiosarkoma) DEYARLI xos emas - sarkoma odatda yangi (de novo) paydo bo'ladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_17.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Uterine leiomyoma: clinical features",
+          "bandlar": [
+            "Heavy menstrual bleeding, pelvic pressure and pain",
+            "Infertility: tube blockage or failed implantation",
+            "Palpable irregular nodular mass on abdominal exam",
+            "Popcorn-like calcification on X-ray; estrogen-dependent"
+          ],
+          "izoh": "🟤 Miomaning klinik belgilari:\n• kuchli hayz qon ketishi (menorragiya) -> temir tanqisligi kamqonligi;\n• chanoqda bosim, og'riq, tez-tez siyish, ich qotishi;\n• BEPUSHTLIK - mioma bachadon nayini to'sib qo'ysa yoki embrion joylashishiga (implantatsiya) xalaqit bersa;\n• qorin old devori orqali NOTEKIS, TUGUNLI, qattiq massa paypaslanadi (bachadon kattalashgan).\n\n🩻 Rentgenda: o'rta chiziqdan sal yon tomonda kalsifikatsiyalangan massa; kalsifikatlar \"POPKORN\" ko'rinishida.\n\n🧬 Gormonga bog'liqligi:\n• ESTROGENGA sezgir - homiladorlikda tez o'sadi;\n• menopauzadan keyin kichrayadi (regressiya).\n\n💊 Davolash: belgisiz bo'lsa - kuzatish; GnRH agonistlari (vaqtincha kichraytiradi), miomektomiya, bachadon arteriyasi embolizatsiyasi, gisterektomiya.\n\n💡 USMLE vinyetkasi: 40 yoshli ayol, kuchli hayz, kamqonlik, kattalashgan notekis bachadon - avvalo mioma.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_18.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Cervix: anatomy",
+          "bandlar": [
+            "Lower part of the uterus, about 2.5-3 cm long",
+            "Supravaginal part above the vaginal vault",
+            "Vaginal part (portio vaginalis) protrudes into the vagina",
+            "Cervix meets the uterine body at the internal os"
+          ],
+          "izoh": "🔻 Bachadon bo'yni (cervix uteri) - bachadonning pastki qismi, uzunligi taxminan 2,5-3 sm.\n\n📌 Ikki qismga bo'linadi:\n• QIN USTI qismi (pars supravaginalis) - qin gumbazidan yuqorida, atrofida parametriy, siydik yo'li va bachadon arteriyasi yotadi;\n• QIN qismi (portio vaginalis) - qin ichiga turtib chiqib turadi; ko'zgu bilan ko'rinadigan qism.\n\n🔗 Teshiklari:\n• ICHKI teshik (os internum) - bo'yin bilan bachadon tanasi chegarasi;\n• bo'yin kanali (canalis cervicis);\n• TASHQI teshik (os externum) - qinga ochiladi, oldingi va orqa labi bor.\n\n⚠️ Klinik: ichki teshik zaif bo'lsa (istmik-servikal yetishmovchilik), ikkinchi trimestrda og'riqsiz bo'yin ochilishi va homila tushishi yuz beradi - servikal serklyaj (tikish) qilinadi.\n\n💡 Rasmda (Spalteholz) ochilgan bachadon bo'yni va qin: orificium internum uteri, canalis cervicis, portio supravaginalis, portio vaginalis, orificium externum uteri.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_19.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "External os: nulliparous vs parous",
+          "bandlar": [
+            "External os opens the cervical canal into the vagina",
+            "Nulliparous woman: small round external os",
+            "Parous woman (after vaginal birth): transverse slit",
+            "Change is a normal finding on speculum exam"
+          ],
+          "izoh": "🔍 Bachadon bo'ynining TASHQI teshigi (os externum) ko'zgu (speculum) bilan ko'rilganda tug'ish tarixini ko'rsatadi:\n\n⚪ Tug'magan ayolda (nullipara):\n• tashqi teshik kichik, DUMALOQ yoki nuqtasimon.\n\n➖ Qin orqali tug'gan ayolda (para):\n• tashqi teshik KO'NDALANG yoriq shaklida (\"baliq og'zi\");\n• tug'ruqda bo'yin kengayishi va mayda yirtilishlar natijasi;\n• oldingi va orqa lablar aniq ko'rinadi.\n\n📌 Bu normal holat - patologiya emas. Faqat kesar kesish orqali tug'gan ayolda teshik dumaloqligicha qolishi mumkin.\n\n🧭 Bo'yin qismlari takror: qin usti qismi, qin qismi (ektoserviks), kanal (endoserviks), ichki va tashqi teshiklar.\n\n💡 USMLE: tashqi teshik atrofi - transformatsiya zonasi joylashgan soha; Pap-test aynan shu yerdan olinadi (keyingi postlar).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_20.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Cervical mucus and relaxin",
+          "bandlar": [
+            "Proliferative phase (estrogen): watery, thin mucus",
+            "Secretory phase (progesterone): thick, viscous mucus",
+            "Watery mucus lets sperm pass at ovulation",
+            "Relaxin softens cervical connective tissue before birth"
+          ],
+          "izoh": "💧 Bachadon bo'yni shilimshig'i hayz sikli davomida o'zgaradi:\n\n🔵 PROLIFERATIV faza (estrogen):\n• shilimshiq SUYUQ, tiniq, ko'p;\n• cho'ziluvchan (uzun ip hosil qiladi - \"spinnbarkeit\"), quritilganda \"qirqquloq barg\" naqshi;\n• ovulyatsiya paytida spermatozoidlar oson o'tadi.\n\n🟠 SEKRETOR faza (progesteron):\n• shilimshiq QUYUQ, yopishqoq, kam;\n• spermatozoidlar va mikroblarga to'siq bo'ladi.\n\n🤰 Tug'ruq oldidan - \"bo'yinning yumshashi\" (cervical softening):\n• RELAKSIN gormoni ta'sirida bo'yinning biriktiruvchi to'qimasi (kollagen) bo'shashadi va egiluvchan bo'ladi;\n• bu bo'yinning qisqarishi va ochilishiga yordam beradi (prostaglandinlar ham qatnashadi).\n\n💡 USMLE: progestinli kontraseptivlarning (mini-pili, gormonal spiral) asosiy ta'sirlaridan biri - bo'yin shilimshig'ini QUYUQLASHTIRISH.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_21.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Ectocervix, endocervix, transformation zone",
+          "bandlar": [
+            "Ectocervix: outer surface of the portio vaginalis",
+            "Endocervix: lining of the endocervical canal",
+            "Canal runs from internal os to external os",
+            "Transformation zone = squamocolumnar junction"
+          ],
+          "izoh": "🔬 Bachadon bo'ynining ikki yuzasi:\n\n🔸 EKTOSERVIKS - qin qismining (portio vaginalis) tashqi yuzasi:\n• ko'p qavatli yassi MUGUZLANMAYDIGAN epiteliy (qin kabi).\n\n🔸 ENDOSERVIKS - bo'yin kanalining ichki qoplami:\n• bir qavatli SILINDRSIMON shilimshiq ishlab chiqaruvchi epiteliy;\n• kanal ichki teshikdan (os internum) tashqi teshikkacha (os externum) cho'zilib, bachadon bo'shlig'ini qin bilan bog'laydi.\n\n🔴 TRANSFORMATSIYA ZONASI:\n• yassi va silindrsimon epiteliy tutashgan joy (skvamokolumnar chegara);\n• bu yerda silindrsimon epiteliy doimo yassi epiteliyga aylanadi (METAPLAZIYA) - hujayralar faol bo'linadi;\n• shuning uchun HPV infeksiyasi va bo'yin SARATONI eng ko'p shu yerda boshlanadi;\n• Pap-test (servikal surtma) aynan shu zonadan olinadi.\n\n💡 USMLE: zona joyi yosh bilan o'zgaradi - balog'at va homiladorlikda tashqariga chiqadi (ektropion), menopauzada kanal ichiga kirib ketadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_22.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Squamous cell carcinoma of the cervix",
+          "bandlar": [
+            "Arises in the transformation zone",
+            "Preceded by CIN - detected by Pap smear; HPV testing",
+            "HPV 16/18: E6 degrades p53, E7 inactivates Rb",
+            "Lateral spread to pelvic wall -> ureter obstruction, hydronephrosis"
+          ],
+          "izoh": "🎗 Bachadon bo'yni yassi hujayrali saratoni:\n\n📍 Joyi: TRANSFORMATSIYA ZONASI.\n\n🦠 Sababi: odam papilloma virusi (HPV) - ayniqsa yuqori xavfli 16 va 18 tiplar:\n• E6 oqsili -> p53 ni parchalaydi;\n• E7 oqsili -> Rb ni faolsizlantiradi.\n\n🔄 Bosqichlari: saratondan oldin epiteliy ichida o'zgarishlar - servikal intraepitelial neoplaziya (CIN 1 -> 2 -> 3) -> invaziv saraton. CIN Pap-test (sitologiya) bilan aniqlanadi; HPV testi ham qo'shib tekshiriladi.\n\n⚠️ Asorati: o'sma chanoqning YON DEVORIGA (parametriy) tarqaladi -> siydik yo'llari (ureter) bosiladi -> GIDRONEFROZ -> buyrak yetishmovchiligi (uremiya) - o'limning asosiy sabablaridan biri.\n\n🛡 Xavf omillari: ko'p jinsiy sheriklar, erta jinsiy hayot, chekish, immunitet tanqisligi (OITS).\n\n💡 USMLE: oldini olish - HPV vaksinasi va muntazam skrining. Ikki tomonlama gidronefrozli bemorda bachadon bo'yni saratonini o'ylang.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_23.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Female reproductive epithelial histology",
+          "bandlar": [
+            "Vulva: stratified squamous; vagina and ectocervix: nonkeratinized",
+            "Endocervix and endometrium: simple columnar",
+            "Fallopian tube: simple columnar, ciliated",
+            "Ovary surface: simple cuboidal (germinal epithelium)"
+          ],
+          "izoh": "🔬 Ayol jinsiy a'zolari epiteliysi (tashqaridan ichkariga):\n\n• VULVA - ko'p qavatli yassi epiteliy (muguzlanadi).\n• QIN - ko'p qavatli yassi MUGUZLANMAYDIGAN epiteliy.\n• EKTOSERVIKS - ko'p qavatli yassi muguzlanmaydigan epiteliy.\n• TRANSFORMATSIYA ZONASI - skvamokolumnar chegara: bo'yin saratonining eng ko'p joyi, Pap-test shu yerdan olinadi.\n• ENDOSERVIKS - bir qavatli silindrsimon epiteliy.\n• BACHADON (endometriy) - bir qavatli silindrsimon epiteliy:\n  - proliferativ fazada uzun TO'G'RI naysimon bezlar;\n  - sekretor fazada BURALGAN (spiral, \"arra tishli\") bezlar.\n• BACHADON NAYI - bir qavatli KIPRIKLI silindrsimon epiteliy.\n• TUXUMDON yuzasi - bir qavatli KUBSIMON epiteliy (\"germinal epiteliy\").\n\n💡 USMLE: qinda bez yo'q - shilliq bo'yin bezlaridan keladi. Qinning yassi epiteliysi o'rnida bez (adenoz) topilsa - ona homiladorlikda DES qabul qilgani (qinning tiniq hujayrali adenokarsinomasi xavfi).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_24.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Infundibulopelvic (suspensory) ligament",
+          "bandlar": [
+            "Connects the ovary to the lateral pelvic wall",
+            "Contains the ovarian artery and vein",
+            "Ureter runs close to it at the pelvic brim",
+            "Ligating ovarian vessels in oophorectomy risks ureter injury"
+          ],
+          "izoh": "🔗 Infundibulopelvik boylam = tuxumdonni osib turuvchi boylam (lig. suspensorium ovarii):\n\n📌 Bog'laydi: TUXUMDON -> chanoqning YON DEVORI.\n\n🩸 Ichida: tuxumdon arteriyasi va venasi (shuningdek limfa tomirlari va nervlar).\n\n⚠️ Klinik ahamiyati:\n• ooforektomiya (tuxumdonni olib tashlash) da tuxumdon tomirlarini bog'lash uchun shu boylam qisqichga olinadi;\n• siydik yo'li (ureter) chanoq kirish chizig'ida aynan shu boylamga juda yaqin, uning orqa-medial tomonidan o'tadi -> ehtiyotsiz bog'lashda URETER jarohatlanishi mumkin;\n• adneksa buralishida tuxumdon va nay shu boylam (va tuxumdon xususiy boylami) atrofida aylanadi va tomirlar bosiladi.\n\n💡 USMLE juftligi: ooforektomiya -> infundibulopelvik boylam + ureter; gisterektomiya -> kardinal boylam (bachadon arteriyasi) + ureter.\n\n🖼 Rasmda (Spalteholz) ayol chanoq a'zolari yon tomondan: lig. suspensorium ovarii, a. u. v. ovarica, ureter, lig. latum va lig. teres uteri.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_25.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Ovarian ligament and round ligament",
+          "bandlar": [
+            "Ovarian ligament: ovary -> uterine horn",
+            "Round ligament: uterine horn -> labia majora",
+            "Round ligament passes through the inguinal canal",
+            "Both derive from the gubernaculum"
+          ],
+          "izoh": "🔗 Ikki boylam ham embriondagi GUBERNAKULUM qoldig'i (erkakda u moyakni yorg'oqqa tortib tushiradi):\n\n1️⃣ Tuxumdonning xususiy boylami (lig. ovarii proprium):\n• TUXUMDON -> bachadon SHOXI (nay kirishidan sal pastda);\n• ichida yirik tomir yo'q.\n\n2️⃣ Bachadonning yumaloq boylami (lig. teres uteri):\n• bachadon SHOXI -> KATTA JINSIY LABLAR;\n• CHOV KANALI orqali o'tadi (ayolda chov kanalining asosiy tarkibi);\n• bachadonni antevers holatda ushlashga biroz yordam beradi;\n• ichida kichik arteriya (Sampson arteriyasi) bor.\n\n🧠 Eslab qolish: gubernakulum ayolda ikkiga bo'linadi - yuqori qismi tuxumdon boylami, pastki qismi yumaloq boylam.\n\n💡 USMLE: homiladorlikda yumaloq boylam cho'zilganda chov sohasida o'tkir sanchiqli og'riq (\"round ligament pain\") bo'ladi. Ayolda chov kanaliga ochiq qolgan qorin parda o'simtasi (Nuk kanali) - chov churrasi/kistasi sababi.\n\n🖼 Rasmda (Spalteholz): lig. ovarii proprium, lig. teres uteri, lig. suspensorium ovarii.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_26.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Broad ligament",
+          "bandlar": [
+            "Peritoneal fold: uterus -> lateral pelvic wall",
+            "Parts: mesometrium, mesovarium, mesosalpinx",
+            "Contains tube, ovarian and round ligaments, uterine vessels at base",
+            "Ureter runs under the uterine artery at its base"
+          ],
+          "izoh": "🎐 Keng boylam (lig. latum uteri) - qorin pardaning ikki varag'idan iborat katta burma; bachadonni chanoqning YON DEVORIGA bog'laydi.\n\n🧩 Uch qismi:\n• MEZOMETRIUM - eng katta qism, bachadon yonida;\n• MEZOVARIUM - tuxumdonni ushlab turuvchi orqa burma;\n• MEZOSALPINKS - yuqori erkin qirrasidagi, nayni o'rab turgan qism.\n\n📦 Tarkibida:\n• bachadon nayi;\n• tuxumdonning xususiy boylami va yumaloq boylam;\n• asosida - bachadon arteriyasi va venalari (kardinal boylam ichida), ostidan ureter o'tadi;\n• tuxumdon tomirlari esa uning lateral chetida (infundibulopelvik boylamda).\n\n⚠️ Klinik: keng boylam ichida gematoma, kistalar (paraovarial) yoki ichak qisilishi (keng boylam churrasi) bo'lishi mumkin.\n\n💡 Rasmda (Spalteholz) bachadon, naylar va tuxumdonlar ORQA tomondan: mesosalpinx, mesovarium, mesometrium, lig. latum uteri, lig. ovarii proprium, excavatio rectouterina [Duglas].",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_27.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Cardinal and uterosacral ligaments",
+          "bandlar": [
+            "Cardinal (transverse cervical) ligament: cervix -> lateral pelvic wall",
+            "Condensation at the base of the broad ligament; holds uterine vessels",
+            "Hysterectomy: uterine artery ligation risks the ureter",
+            "Uterosacral ligament: cervix -> sacrum"
+          ],
+          "izoh": "🔗 Bachadon bo'ynini ushlab turuvchi asosiy boylamlar:\n\n1️⃣ KARDINAL boylam (lig. cardinale, ko'ndalang bo'yin boylami, Makenrodt boylami):\n• bachadon BO'YNI -> chanoqning YON DEVORI;\n• keng boylam asosidagi zich fibroz to'qima;\n• ichida BACHADON ARTERIYASI va VENALARI o'tadi;\n• ostidan SIYDIK YO'LI o'tadi: \"water under the bridge\" - suv (ureter) ko'prik (bachadon arteriyasi) ostida.\n\n2️⃣ DUMG'AZA-BACHADON boylami (lig. sacrouterinum):\n• bachadon BO'YNI -> DUMG'AZA (os sacrum);\n• bo'yinni orqaga tortib, bachadonning antevers holatini saqlaydi;\n• to'g'ri ichak-bachadon chuqurchasining yon chegaralarini hosil qiladi.\n\n⚠️ GISTEREKTOMIYA: bachadon arteriyasi kardinal boylamda bog'lanadi - ureter undan ~1,5-2 sm pastda yotgani uchun qisqich bilan birga bog'lanishi yoki kesilishi mumkin -> gidronefroz, siydik oqmasi.\n\n💡 Ikki boylam ham bachadon tushishiga (prolaps) qarshi asosiy tayanch.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_28.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Adnexal torsion",
+          "bandlar": [
+            "Ovary and tube twist around infundibulopelvic and ovarian ligaments",
+            "Venous and lymphatic outflow blocked first -> ovarian edema",
+            "Then arterial inflow stops -> necrosis, local hemorrhage",
+            "Acute pelvic pain, adnexal mass, vomiting - surgical emergency"
+          ],
+          "izoh": "🌀 Adneksa (tuxumdon + nay) buralishi:\n\n🔄 Mexanizmi:\n1. tuxumdon va nay infundibulopelvik va tuxumdonning xususiy boylami atrofida aylanadi;\n2. infundibulopelvik boylamdagi tuxumdon tomirlari bosiladi;\n3. avval yupqa devorli VENA va LIMFA oqimi to'xtaydi;\n4. arteriya hali qon olib keladi -> tuxumdon SHISHADI (oedema), kattalashadi;\n5. bosim oshib ARTERIAL oqim ham to'xtaydi -> NEKROZ, mahalliy qon quyilish.\n\n⚠️ Xavf omili: tuxumdon massasi (kista, dermoid kista, o'sma) - og'ir tuxumdon osonroq aylanadi; reproduktiv yoshdagi ayollar.\n\n🚨 Klinikasi:\n• to'satdan kuchli chanoq og'rig'i (ko'pincha bir tomonda);\n• adneksal massa paypaslanadi;\n• ko'ngil aynishi, qusish.\n\n🏥 Doppler UTT: kattalashgan tuxumdon, qon oqimi kamaygan (lekin oqim bor bo'lishi buralishni inkor qilmaydi). Bu - JARROHLIK SHOSHILINCH holati: laparoskopik detorsiya, tuxumdonni saqlashga harakat qilinadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_29.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Pelvic organ prolapse",
+          "bandlar": [
+            "Organs herniate to or beyond the vaginal walls or apex",
+            "Anterior: cystocele (bladder) - most common",
+            "Posterior: rectocele or enterocele; apical: uterus, vault",
+            "Procidentia = all 3 compartments; risks: multiparity, age, obesity"
+          ],
+          "izoh": "⬇️ Chanoq a'zolari prolapsi - a'zolarning qin devorlari yoki qin cho'qqisi tomon (yoki undan tashqariga) tushishi.\n\n⚠️ Xavf omillari: ko'p tug'ish (multiparitet), qarilik (menopauza - estrogen kamayishi), semizlik; surunkali yo'tal, ich qotishi.\n\n🗂 Kompartmentlar:\n• OLDINGI - siydik pufagi: SISTOTSELE (eng ko'p uchraydi);\n• ORQA - to'g'ri ichak: REKTOTSELE yoki ingichka ichak: ENTEROTSELE;\n• APIKAL (cho'qqi) - bachadon, bo'yin yoki gisterektomiyadan keyin qin gumbazi.\n• BACHADON PROTSIDENSIYASI - uchala kompartment birga tushadi.\n\n🩺 Belgilari:\n• chanoqda bosim, \"nimadir tushib kelayotgandek\" his, qindan to'qima bo'rtib chiqishi;\n• tez-tez siyish, siydik tuta olmaslik;\n• ich qotishi, defekatsiya qiyinligi;\n• jinsiy disfunksiya.\n\n💊 Davolash: chanoq tubi mashqlari (Kegel), pessariy, jarrohlik.\n\n💡 Sabab: chanoq tubi (levator ani), kardinal va dumg'aza-bachadon boylamlari zaiflashadi (8-darsda batafsil).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d7_30.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        }
+      ],
+      "savollar": [
+        {
+          "vinyetka": "A 52-year-old woman undergoes left oophorectomy for a complex ovarian cyst. Two days later she has left flank pain and fever. CT shows left hydroureteronephrosis with abrupt narrowing of the ureter at the pelvic brim.",
+          "savol": "Clamping of which structure most likely caused this injury?",
+          "javoblar": [
+            "Infundibulopelvic ligament",
+            "Round ligament of the uterus",
+            "Ovarian ligament",
+            "Uterosacral ligament",
+            "Mesosalpinx"
+          ],
+          "togri": 0,
+          "izoh": "Tuxumdon tomirlari infundibulopelvik boylamda; ooforektomiyada uni bog'lashda chanoq kirishida yaqin yotgan ureter jarohatlanadi.",
+          "vinyetka_uz": "52 yoshli ayolga murakkab tuxumdon kistasi sababli chap ooforektomiya qilindi. Ikki kundan so'ng chap bel og'rig'i va isitma paydo bo'ldi. KT da chap gidroureteronefroz va chanoq kirish chizig'ida ureterning keskin torayishi aniqlandi.",
+          "savol_uz": "Qaysi tuzilmani qisish bu jarohatga eng ehtimoliy sabab bo'lgan?",
+          "javoblar_uz": [
+            "infundibulopelvik boylam",
+            "yumaloq boylam",
+            "tuxumdon boylami",
+            "dumg'aza-bachadon boylami",
+            "mezosalpinks"
+          ]
+        },
+        {
+          "vinyetka": "During an abdominal hysterectomy, the surgeon places a clamp on the uterine vessels about 1.5 cm lateral to the cervix. Postoperatively the patient develops flank pain and a rising creatinine.",
+          "savol": "Which structure was most likely injured?",
+          "javoblar": [
+            "Ureter",
+            "Internal iliac vein",
+            "Obturator nerve",
+            "Ovarian artery",
+            "Inferior hypogastric plexus"
+          ],
+          "togri": 0,
+          "izoh": "Ureter kardinal boylamda bachadon arteriyasi OSTIDAN o'tadi (ko'prik ostida suv). Gisterektomiyada arteriya bilan birga bog'lanishi mumkin.",
+          "vinyetka_uz": "Qorin orqali gisterektomiya paytida jarroh bachadon tomirlariga bo'yindan ~1,5 sm lateralda qisqich qo'ydi. Operatsiyadan keyin bemorda bel og'rig'i va kreatinin oshishi kuzatildi.",
+          "savol_uz": "Qaysi tuzilma eng ehtimoliy jarohatlangan?",
+          "javoblar_uz": [
+            "siydik yo'li",
+            "ichki yonbosh vena",
+            "yopqich nerv",
+            "tuxumdon arteriyasi",
+            "pastki gipogastral chigal"
+          ]
+        },
+        {
+          "vinyetka": "A 34-year-old woman has sudden severe right lower quadrant pain with nausea and vomiting while exercising. Ultrasound shows a 7-cm enlarged edematous right ovary with a dermoid cyst and markedly reduced Doppler flow.",
+          "savol": "Which event occurs first in the pathogenesis of this condition?",
+          "javoblar": [
+            "Venous and lymphatic outflow obstruction",
+            "Arterial inflow occlusion",
+            "Rupture of the ovarian cyst",
+            "Ovarian vein thrombosis from IVC",
+            "Bacterial infection of the tube"
+          ],
+          "togri": 0,
+          "izoh": "Adneksa buralishida avval yupqa devorli vena va limfa bosiladi; arteriya oqimi davom etib shish paydo bo'ladi, keyin arteriya ham yopiladi -> nekroz.",
+          "vinyetka_uz": "34 yoshli ayolda mashq paytida to'satdan o'ng pastki kvadrantda kuchli og'riq, ko'ngil aynishi va qusish boshlandi. UTT da dermoid kistali, 7 sm gacha kattalashgan, shishgan o'ng tuxumdon va Doppler oqimining keskin kamayishi aniqlandi.",
+          "savol_uz": "Bu holat patogenezida birinchi bo'lib nima yuz beradi?",
+          "javoblar_uz": [
+            "vena va limfa oqimi to'silishi",
+            "arterial oqim yopilishi",
+            "kista yorilishi",
+            "VCI dan vena trombozi",
+            "nayning bakterial infeksiyasi"
+          ]
+        },
+        {
+          "vinyetka": "A 62-year-old obese woman with type 2 diabetes has had vaginal bleeding for 1 month. She is nulliparous and took estrogen-only hormone therapy for 8 years after menopause at age 55.",
+          "savol": "Which mechanism best explains her most likely diagnosis?",
+          "javoblar": [
+            "Unopposed estrogen on the endometrium",
+            "HPV E6 inactivation of p53",
+            "Smooth muscle proliferation of myometrium",
+            "Ectopic endometrial glands in myometrium",
+            "Germ cell tumor of the ovary"
+          ],
+          "togri": 0,
+          "izoh": "Postmenopauzal qon ketish + semizlik, diabet, nulliparitet, progestinsiz estrogen - endometriy adenokarsinomasi (progesteronsiz estrogen).",
+          "vinyetka_uz": "2-tip qandli diabeti bor 62 yoshli semiz ayolda 1 oydan beri qindan qon ketmoqda. U tug'magan va 55 yoshdagi menopauzadan keyin 8 yil faqat estrogen bilan gormon terapiyasi olgan.",
+          "savol_uz": "Eng ehtimoliy tashxisni qaysi mexanizm yaxshiroq tushuntiradi?",
+          "javoblar_uz": [
+            "progesteronsiz estrogen ta'siri",
+            "HPV E6 p53 ni yo'qotadi",
+            "miometriy silliq mushagi proliferatsiyasi",
+            "miometriydagi ektopik endometriy",
+            "tuxumdon germ-hujayrali o'smasi"
+          ]
+        },
+        {
+          "vinyetka": "A 41-year-old woman has heavy menstrual periods and fatigue. Hemoglobin is 9.2 g/dL. Pelvic exam shows an enlarged, irregular, nodular uterus. Abdominal X-ray shows a popcorn-like calcified pelvic mass left of midline.",
+          "savol": "Which statement about this lesion is correct?",
+          "javoblar": [
+            "Grows with estrogen, shrinks after menopause",
+            "It is a malignant epithelial tumor",
+            "It usually becomes leiomyosarcoma",
+            "It arises from the transformation zone",
+            "It is caused by HPV 16"
+          ],
+          "togri": 0,
+          "izoh": "Bachadon miomasi - silliq mushakning benign o'smasi, estrogenga sezgir: homiladorlikda o'sadi, menopauzadan keyin kichrayadi; kalsifikatsiyasi popkornsimon.",
+          "vinyetka_uz": "41 yoshli ayolda hayz qon ketishi kuchli va holsizlik bor. Gemoglobin 9,2 g/dL. Chanoq ko'rigida kattalashgan, notekis, tugunli bachadon. Qorin rentgenida o'rta chiziqdan chapda popkornsimon kalsifikatsiyalangan massa.",
+          "savol_uz": "Bu o'zgarish haqida qaysi fikr to'g'ri?",
+          "javoblar_uz": [
+            "estrogenda o'sadi, menopauzada kichrayadi",
+            "xavfli epitelial o'sma",
+            "odatda leiomiosarkomaga aylanadi",
+            "transformatsiya zonasidan chiqadi",
+            "HPV 16 sababli"
+          ]
+        },
+        {
+          "vinyetka": "A 33-year-old woman with infertility has regular menses. Hysteroscopy shows a 2-cm smooth mass bulging into the endometrial cavity from beneath the endometrium. Biopsy shows benign whorled smooth muscle.",
+          "savol": "Which type of lesion is this?",
+          "javoblar": [
+            "Submucosal leiomyoma",
+            "Subserosal leiomyoma",
+            "Intramural leiomyoma",
+            "Endometrial polyp",
+            "Adenomyosis"
+          ],
+          "togri": 0,
+          "izoh": "Endometriy ostidan bo'shliqqa bo'rtgan mioma - submukoz; u eng ko'p qon ketish va implantatsiya buzilishi (bepushtlik) beradi.",
+          "vinyetka_uz": "Bepushtlikdan aziyat chekayotgan 33 yoshli ayolning hayzi muntazam. Gisteroskopiyada endometriy ostidan bachadon bo'shlig'iga bo'rtib chiqqan 2 sm silliq massa topildi. Biopsiyada burama naqshli benign silliq mushak.",
+          "savol_uz": "Bu qaysi turdagi o'zgarish?",
+          "javoblar_uz": [
+            "submukoz mioma",
+            "subseroz mioma",
+            "intramural mioma",
+            "endometriy polipi",
+            "adenomioz"
+          ]
+        },
+        {
+          "vinyetka": "A 45-year-old woman who has never had cervical screening presents with postcoital bleeding and bilateral flank pain. Creatinine is 3.1 mg/dL. Ultrasound shows bilateral hydronephrosis and a friable cervical mass.",
+          "savol": "What best explains her renal failure?",
+          "javoblar": [
+            "Pelvic side-wall spread obstructing ureters",
+            "Hematogenous metastasis to the kidneys",
+            "Paraneoplastic glomerulonephritis",
+            "Compression of the renal veins",
+            "Ascending pyelonephritis from the cervix"
+          ],
+          "togri": 0,
+          "izoh": "Bo'yin saratoni chanoq yon devoriga (parametriy) tarqalib, ikkala ureterni bosadi -> gidronefroz va uremiya - asosiy o'lim sababi.",
+          "vinyetka_uz": "Hech qachon bo'yin skriningidan o'tmagan 45 yoshli ayol jinsiy aloqadan keyingi qon ketishi va ikki tomonlama bel og'rig'i bilan keldi. Kreatinin 3,1 mg/dL. UTT da ikki tomonlama gidronefroz va oson qonaydigan bo'yin massasi.",
+          "savol_uz": "Buyrak yetishmovchiligini nima yaxshiroq tushuntiradi?",
+          "javoblar_uz": [
+            "yon devorga tarqalib ureterni bosgan",
+            "buyrakka gematogen metastaz",
+            "paraneoplastik glomerulonefrit",
+            "buyrak venalari bosilishi",
+            "bo'yindan ko'tariluvchi pielonefrit"
+          ]
+        },
+        {
+          "vinyetka": "A 27-year-old woman has a Pap smear. The clinician uses a brush and spatula to sample the area where the columnar epithelium of the canal meets the squamous epithelium of the portio vaginalis.",
+          "savol": "Why is this area sampled?",
+          "javoblar": [
+            "Ongoing metaplasia - most prone to dysplasia",
+            "It is lined by keratinized epithelium",
+            "It contains the most cervical glands",
+            "It is the site of the internal os",
+            "It is lined by ciliated epithelium"
+          ],
+          "togri": 0,
+          "izoh": "Transformatsiya zonasida silindrsimon epiteliy doimo yassiga aylanadi (metaplaziya) - HPV va displaziya (CIN) shu yerda boshlanadi.",
+          "vinyetka_uz": "27 yoshli ayoldan Pap-surtma olinmoqda. Shifokor cho'tka va spatula bilan kanalning silindrsimon epiteliysi qin qismining yassi epiteliysi bilan tutashgan sohadan namuna oladi.",
+          "savol_uz": "Nega aynan shu soha tekshiriladi?",
+          "javoblar_uz": [
+            "metaplaziya - displaziyaga eng moyil",
+            "muguzlanuvchi epiteliy bilan qoplangan",
+            "eng ko'p bezlar shu yerda",
+            "ichki teshik joyi",
+            "kiprikli epiteliy bilan qoplangan"
+          ]
+        },
+        {
+          "vinyetka": "A 30-year-old woman is evaluated for infertility. Hysterosalpingography shows a normal triangular uterine cavity and a filled right tube with free intraperitoneal spill, but the left tube is dilated and no contrast spills from it.",
+          "savol": "In which part of the tube does fertilization normally occur?",
+          "javoblar": [
+            "Ampulla",
+            "Isthmus",
+            "Infundibulum",
+            "Intramural part",
+            "Fimbriae"
+          ],
+          "togri": 0,
+          "izoh": "Urug'lanish nayning eng uzun va keng qismi - AMPULADA bo'ladi; ektopik homiladorlik ham ko'pincha shu yerda.",
+          "vinyetka_uz": "30 yoshli ayol bepushtlik bo'yicha tekshirilmoqda. Gisterosalpingografiyada bachadon bo'shlig'i normal uchburchak, o'ng nay to'lgan va kontrast qorin bo'shlig'iga erkin to'kilgan, chap nay esa kengaygan va undan kontrast to'kilmaydi.",
+          "savol_uz": "Nayning qaysi qismida normal urug'lanish yuz beradi?",
+          "javoblar_uz": [
+            "ampula",
+            "bo'yincha (istmus)",
+            "voronka",
+            "devor ichidagi qism",
+            "fimbriyalar"
+          ]
+        },
+        {
+          "vinyetka": "A 29-year-old woman is tracking her menstrual cycle. On day 21 of a 28-day cycle, her serum progesterone is high and her basal body temperature has risen by 0.4 C compared with the first half of the cycle.",
+          "savol": "This finding most strongly indicates which event?",
+          "javoblar": [
+            "Ovulation has occurred",
+            "Menses is beginning",
+            "The follicle is still growing",
+            "An LH surge is imminent",
+            "Implantation has failed"
+          ],
+          "togri": 0,
+          "izoh": "Progesteronning oshishi va bazal haroratning ko'tarilishi - sariq tana ishlayotgani, ya'ni ovulyatsiya bo'lganining belgisi.",
+          "vinyetka_uz": "29 yoshli ayol hayz siklini kuzatmoqda. 28 kunlik siklning 21-kunida qon zardobida progesteron yuqori va bazal harorat siklning birinchi yarmiga nisbatan 0,4 C ga ko'tarilgan.",
+          "savol_uz": "Bu natija eng kuchli darajada qaysi hodisani ko'rsatadi?",
+          "javoblar_uz": [
+            "ovulyatsiya bo'lgan",
+            "hayz boshlanmoqda",
+            "follikula hali o'smoqda",
+            "LH cho'qqisi yaqin",
+            "implantatsiya bo'lmagan"
+          ]
+        },
+        {
+          "vinyetka": "A 31-year-old woman delivers a healthy baby. On the second postpartum day milk production begins. Before delivery, despite very high prolactin levels, she produced no milk.",
+          "savol": "Which change most directly triggered lactation?",
+          "javoblar": [
+            "Fall in estrogen and progesterone",
+            "Rise in oxytocin during labor",
+            "Rise in hCG after delivery",
+            "Fall in prolactin after delivery",
+            "Rise in FSH after delivery"
+          ],
+          "togri": 0,
+          "izoh": "Homiladorlikda estrogen va progesteron prolaktinning sut beziga ta'sirini bloklaydi; platsenta chiqqach ular tushadi va laktatsiya boshlanadi.",
+          "vinyetka_uz": "31 yoshli ayol sog'lom chaqaloq tug'di. Tug'ruqdan keyingi ikkinchi kuni sut kela boshladi. Tug'ruqdan oldin prolaktin juda yuqori bo'lsa ham sut chiqmagan.",
+          "savol_uz": "Laktatsiyani bevosita qaysi o'zgarish boshlab berdi?",
+          "javoblar_uz": [
+            "estrogen va progesteron tushishi",
+            "tug'ruqda oksitotsin oshishi",
+            "tug'ruqdan keyin hCG oshishi",
+            "tug'ruqdan keyin prolaktin tushishi",
+            "tug'ruqdan keyin FSH oshishi"
+          ]
+        },
+        {
+          "vinyetka": "A 32-year-old woman at 34 weeks of gestation has decreasing fetal movements. Her serum and urinary estriol levels have fallen markedly over two weeks.",
+          "savol": "Estriol synthesis requires which combination?",
+          "javoblar": [
+            "Fetal adrenal, fetal liver and placenta",
+            "Maternal ovary and maternal liver",
+            "Corpus luteum and maternal adrenal",
+            "Fetal kidney and maternal adipose",
+            "Placenta alone"
+          ],
+          "togri": 0,
+          "izoh": "Estriol: homila buyrak usti bezi (DHEA-S) -> homila jigari (16-OH) -> platsenta (aromataza). Past estriol - homila yoki platsenta muammosi.",
+          "vinyetka_uz": "Homiladorligi 34 haftalik 32 yoshli ayolda homila harakati kamaygan. Ikki hafta ichida uning qon va siydigidagi estriol keskin kamaygan.",
+          "savol_uz": "Estriol sintezi uchun qaysi birikma zarur?",
+          "javoblar_uz": [
+            "homila buyrak usti bezi, jigari va platsenta",
+            "ona tuxumdoni va jigari",
+            "sariq tana va ona buyrak usti bezi",
+            "homila buyragi va ona yog'i",
+            "faqat platsenta"
+          ]
+        },
+        {
+          "vinyetka": "A 58-year-old obese postmenopausal woman has never taken hormone therapy. Her serum estrogen is mainly estrone, which is elevated compared with lean women of the same age.",
+          "savol": "Where is most of her estrone produced?",
+          "javoblar": [
+            "Adipose tissue by aromatase",
+            "Ovarian granulosa cells",
+            "Placenta",
+            "Adrenal zona glomerulosa",
+            "Hepatocytes"
+          ],
+          "togri": 0,
+          "izoh": "Menopauzadan keyin asosiy estrogen - estron; u yog' to'qimasida androgenlardan aromataza yordamida hosil bo'ladi, semizlikda ko'payadi.",
+          "vinyetka_uz": "58 yoshli semiz, menopauzadagi ayol hech qachon gormon terapiyasi olmagan. Qonidagi estrogen asosan estron bo'lib, u shu yoshdagi ozg'in ayollarnikidan yuqori.",
+          "savol_uz": "Estronning asosiy qismi qayerda hosil bo'ladi?",
+          "javoblar_uz": [
+            "yog' to'qimasida aromataza orqali",
+            "tuxumdon granulyoza hujayralari",
+            "platsenta",
+            "buyrak usti bezi koptokchali zonasi",
+            "gepatotsitlar"
+          ]
+        },
+        {
+          "vinyetka": "A 67-year-old woman with 5 vaginal deliveries has a sensation of pelvic pressure and a bulge at the introitus that worsens with straining, plus urinary frequency. Exam shows the anterior vaginal wall protruding.",
+          "savol": "Which organ is most likely prolapsing?",
+          "javoblar": [
+            "Urinary bladder",
+            "Rectum",
+            "Small intestine",
+            "Uterine cervix",
+            "Sigmoid colon"
+          ],
+          "togri": 0,
+          "izoh": "Oldingi qin devori prolapsi - sistotsele (siydik pufagi), eng ko'p uchraydigan turi. Orqa devor - rektotsele/enterotsele.",
+          "vinyetka_uz": "5 marta qin orqali tuqqan 67 yoshli ayolda chanoqda bosim hissi va kuchanganda kuchayadigan qin kirishidagi bo'rtma, shuningdek tez-tez siyish bor. Ko'rikda qinning oldingi devori bo'rtib chiqqan.",
+          "savol_uz": "Qaysi a'zo eng ehtimoliy tushgan?",
+          "javoblar_uz": [
+            "siydik pufagi",
+            "to'g'ri ichak",
+            "ingichka ichak",
+            "bachadon bo'yni",
+            "sigmasimon ichak"
+          ]
+        },
+        {
+          "vinyetka": "A 26-year-old woman at 30 weeks of gestation has sharp, brief pain in both groins when she stands up quickly or coughs. Exam and ultrasound are normal. The pain is attributed to stretching of a ligament that traverses the inguinal canal.",
+          "savol": "From which embryologic structure is this ligament derived?",
+          "javoblar": [
+            "Gubernaculum",
+            "Processus vaginalis",
+            "Mesonephric duct",
+            "Paramesonephric duct",
+            "Urachus"
+          ],
+          "togri": 0,
+          "izoh": "Bachadonning yumaloq boylami chov kanali orqali katta labga boradi; u (tuxumdon boylami kabi) gubernakulum qoldig'i.",
+          "vinyetka_uz": "Homiladorligi 30 haftalik 26 yoshli ayolda tez turganda yoki yo'talganda ikkala chovda o'tkir, qisqa og'riq bo'ladi. Ko'rik va UTT normal. Og'riq chov kanalidan o'tuvchi boylam cho'zilishi bilan bog'landi.",
+          "savol_uz": "Bu boylam qaysi embrional tuzilmadan hosil bo'ladi?",
+          "javoblar_uz": [
+            "gubernakulum",
+            "qorin parda qin o'simtasi",
+            "mezonefral yo'l",
+            "paramezonefral yo'l",
+            "uraxus"
+          ]
+        },
+        {
+          "vinyetka": "A 28-year-old woman has a cesarean delivery for breech presentation. The obstetrician makes a low transverse incision in the thin lower segment of the uterus.",
+          "savol": "From which part of the uterus does this segment develop?",
+          "javoblar": [
+            "Isthmus",
+            "Fundus",
+            "Cornu",
+            "Portio vaginalis",
+            "Ectocervix"
+          ],
+          "togri": 0,
+          "izoh": "Pastki segment istmusdan hosil bo'ladi; bu yerdagi ko'ndalang kesma kam qon yo'qotish va keyingi homiladorlikda yorilish xavfi pastligi bilan afzal.",
+          "vinyetka_uz": "28 yoshli ayolga homilaning dumba bilan kelishi sababli kesar kesish qilindi. Akusher bachadonning yupqa pastki segmentida past ko'ndalang kesma qildi.",
+          "savol_uz": "Bu segment bachadonning qaysi qismidan rivojlanadi?",
+          "javoblar_uz": [
+            "istmus",
+            "tub (fundus)",
+            "shox",
+            "qin qismi",
+            "ektoserviks"
+          ]
+        },
+        {
+          "vinyetka": "A 39-year-old woman has a left ovarian mass. Surgical staging shows metastatic tumor in lymph nodes. Inguinal nodes are normal.",
+          "savol": "Which nodes are most likely involved first?",
+          "javoblar": [
+            "Para-aortic (lateral aortic) nodes",
+            "Superficial inguinal nodes",
+            "Deep inguinal nodes",
+            "Internal iliac nodes only",
+            "Sacral nodes"
+          ],
+          "togri": 0,
+          "izoh": "Tuxumdon limfasi tuxumdon tomirlari bo'ylab paraaortal (lateral aortal) tugunlarga quyiladi - chov tugunlariga emas.",
+          "vinyetka_uz": "39 yoshli ayolda chap tuxumdon massasi bor. Jarrohlik bosqichlashda limfa tugunlarida metastaz topildi. Chov tugunlari normal.",
+          "savol_uz": "Birinchi navbatda qaysi tugunlar zararlanadi?",
+          "javoblar_uz": [
+            "paraaortal (lateral aortal) tugunlar",
+            "yuza chov tugunlari",
+            "chuqur chov tugunlari",
+            "faqat ichki yonbosh tugunlari",
+            "dumg'aza tugunlari"
+          ]
+        }
+      ],
+      "kartalar": [
+        {
+          "savol": "Tuxumdon arteriyasi qayerdan chiqadi va qaysi boylam ichida o'tadi?",
+          "javob": "Aorta abdominalis; lig. suspensorium ovarii (infundibulopelvik)"
+        },
+        {
+          "savol": "Chap tuxumdon venasi qayerga quyiladi?",
+          "javob": "V. renalis sinistra - chap buyrak venasi"
+        },
+        {
+          "savol": "Tuxumdon limfasi qaysi tugunlarga boradi?",
+          "javob": "Nodi para-aortici (lateral aortal) - chovga emas"
+        },
+        {
+          "savol": "Estrogenlarning kuchi bo'yicha tartibi qanday?",
+          "javob": "Estradiol > estron > estriol"
+        },
+        {
+          "savol": "Homila holatining ko'rsatkichi bo'lgan estrogen qaysi?",
+          "javob": "Estriol - homiladorlikda ~1000 marta oshadi"
+        },
+        {
+          "savol": "Urug'lanish bachadon nayining qaysi qismida bo'ladi?",
+          "javob": "Ampulla tubae uterinae - ampula"
+        },
+        {
+          "savol": "Kesar kesish uchun bachadonning qaysi qismi afzal?",
+          "javob": "Isthmus uteri - pastki segment, ko'ndalang kesma"
+        },
+        {
+          "savol": "Bo'yin saratoni va Pap-test qaysi sohada?",
+          "javob": "Zona transformationis - skvamokolumnar chegara"
+        },
+        {
+          "savol": "Gisterektomiyada qaysi boylamdagi arteriya bog'langanda ureter jarohatlanadi?",
+          "javob": "Lig. cardinale - a. uterina (ko'prik ostidagi suv)"
+        },
+        {
+          "savol": "Yumaloq boylam qayerdan qayerga boradi va nimadan hosil bo'ladi?",
+          "javob": "Bachadon shoxi -> katta lablar (chov kanali orqali); gubernakulum"
+        },
+        {
+          "savol": "Eng ko'p uchraydigan chanoq prolapsi qaysi?",
+          "javob": "Cystocele - siydik pufagi (oldingi kompartment)"
+        }
+      ],
+      "rasm_testlar": [
+        {
+          "fayl": "usmle_rasmlar/t7_01.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain",
+          "savol": "Bachadon nayi (orqadan, ochilgan). Rasmda '?' bilan belgilangan nayning eng uzun va eng keng qismi qaysi?",
+          "javoblar": [
+            "Ampulla tubae uterinae - nay ampulasi",
+            "Isthmus tubae uterinae - nay bo'yinchasi",
+            "Infundibulum tubae - nay voronkasi",
+            "Pars uterina tubae - devor ichidagi qism"
+          ],
+          "togri": 0,
+          "izoh": "Ampula - nayning eng uzun va keng qismi; urug'lanish va ektopik homiladorlik ko'pincha shu yerda bo'ladi."
+        },
+        {
+          "fayl": "usmle_rasmlar/t7_02.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain",
+          "savol": "Bachadon va atrofining arteriyalari (orqadan). '?' bilan belgilangan, siydik yo'li ustidan o'tuvchi arteriya qaysi?",
+          "javoblar": [
+            "A. uterina - bachadon arteriyasi",
+            "A. ovarica - tuxumdon arteriyasi",
+            "A. vesicalis inferior - pastki pufak arteriyasi",
+            "A. obturatoria - yopqich arteriya"
+          ],
+          "togri": 0,
+          "izoh": "Bachadon arteriyasi (a. iliaca interna tarmog'i) bo'yin yonida ureter USTIDAN o'tadi - gisterektomiyada ureter xavf ostida."
+        },
+        {
+          "fayl": "usmle_rasmlar/t7_03.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain",
+          "savol": "Ayol chanog'ining median kesimi. '?' bilan belgilangan, bachadon va to'g'ri ichak orasidagi chuqurcha qaysi?",
+          "javoblar": [
+            "Excavatio rectouterina - Duglas bo'shlig'i",
+            "Excavatio vesicouterina - pufak-bachadon chuqurchasi",
+            "Fornix vaginae - qin gumbazi",
+            "Fossa ischiorectalis - quymuch-to'g'ri ichak chuqurchasi"
+          ],
+          "togri": 0,
+          "izoh": "Duglas bo'shlig'i - tik turganda qorin bo'shlig'ining eng past nuqtasi; qon, yiring shu yerga yig'iladi, orqa gumbaz orqali punksiya qilinadi."
+        }
+      ],
+      "xulosa": [
+        "Tuxumdon infundibulopelvik boylam orqali chanoq devoriga osilgan; unda tuxumdon arteriyasi (aortadan) va venasi o'tadi.",
+        "O'ng tuxumdon venasi VCI ga, chap venasi chap buyrak venasiga quyiladi; limfasi - paraaortal tugunlarga.",
+        "Estrogen kuchi: estradiol (tuxumdon) > estron (yog') > estriol (platsenta); estriol homila holatini ko'rsatadi.",
+        "Progesteron: sekretor endometriy, quyuq bo'yin shilimshig'i, harorat oshishi; tug'ruqdan keyin tushishi laktatsiyani boshlaydi.",
+        "Nay: voronka (fimbriyalar), ampula (urug'lanish), bo'yincha, devor ichidagi qism; mezosalpinks ushlab turadi.",
+        "Bachadon normalda antefleks va antevers; istmus pastki segmentga aylanadi - kesar kesish shu yerda.",
+        "Bachadon arteriyasi ichki yonbosh arteriyasidan chiqib, kardinal boylamda ureter USTIDAN o'tadi.",
+        "Endometriy saratoni - progesteronsiz estrogen; mioma - estrogenga sezgir benign o'sma, popkorn kalsifikatsiya.",
+        "Bo'yin saratoni transformatsiya zonasida HPV 16/18 dan; yon devorga tarqalib gidronefroz beradi.",
+        "Adneksa buralishi - avval vena/limfa, keyin arteriya to'siladi; prolapsning eng ko'p turi - sistotsele."
+      ]
+    },
+    {
+      "nomi": "Chanoq anatomiyasi (2-qism): erkak jinsiy a'zolari va oraliq",
+      "fan": "Anatomy",
+      "manba": "8-lesson._Pelvic_anatomy_2-part.pdf",
+      "postlar": [
+        {
+          "sarlavha": "Male reproductive anatomy: overview",
+          "bandlar": [
+            "Testis -> epididymis -> ductus deferens -> ejaculatory duct",
+            "Ejaculatory duct opens into the prostatic urethra",
+            "Accessory glands: seminal vesicles, prostate, bulbourethral",
+            "Urethra: prostatic -> membranous -> spongy (penile)"
+          ],
+          "izoh": "♂️ Erkak jinsiy a'zolari - umumiy ko'rinish (spermatozoid yo'li):\n\n1. MOYAK (testis) - urug' kanalchalarida spermatozoidlar hosil bo'ladi;\n2. moyak to'ri (rete testis) va olib chiquvchi kanalchalar;\n3. MOYAK ORTIG'I (epididymis) - spermatozoidlar yetiladi va saqlanadi;\n4. URUG' YO'LI (ductus deferens) - urug' tizimchasi tarkibida chov kanalidan o'tadi, so'ng siydik pufagi orqasida ampula hosil qiladi;\n5. urug' pufakchasi yo'li bilan qo'shilib -> OTILUVCHI YO'L (ductus ejaculatorius);\n6. otiluvchi yo'l prostata ichidan o'tib, siydik chiqarish kanalining PROSTATA qismiga ochiladi;\n7. siydik chiqarish kanali: prostata qismi -> parda (membranoz) qismi -> g'ovak (spongioz) qismi.\n\n🧪 Qo'shimcha bezlar: urug' pufakchalari, prostata, bulbouretral (Kuper) bezlari.\n\n🧠 Eslab qolish (\"SEVEN UP\"): Seminiferous tubules, Epididymis, Vas deferens, Ejaculatory duct, (Nothing), Urethra, Penis.\n\n💡 Rasmda (Spalteholz) erkak chanoq a'zolari chapdan: vesicula seminalis, ampulla ductus deferentis, prostata, ductus deferens, epididymis, testis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_01.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Testis: structure",
+          "bandlar": [
+            "Covered by tunica albuginea; septa divide it into lobules",
+            "Each lobule holds coiled seminiferous tubules",
+            "Tubules -> rete testis (mediastinum) -> efferent ductules",
+            "Tunica vaginalis: serous sac with parietal and visceral layers"
+          ],
+          "izoh": "🔬 Moyakning tuzilishi:\n\n🛡 Qobiqlari:\n• QIN PARDA (tunica vaginalis) - qorin pardadan kelib chiqqan seroz xalta: pariyetal va visseral varaqlari bor (gidrotsele shu varaqlar orasida yig'iladi);\n• OQSIL PARDA (tunica albuginea) - zich, oqish fibroz qobiq.\n\n🧩 Ichki tuzilishi:\n• oqsil pardadan ichkariga to'siqlar (septula testis) kirib, moyakni ~250 ta bo'lakchaga (lobuli testis) ajratadi;\n• har bir bo'lakchada 1-4 ta burama URUG' KANALCHASI (tubuli seminiferi) - spermatogenez joyi;\n• kanalchalar orasida - interstitsiy, unda Leydig hujayralari;\n• kanalchalar moyak orqasidagi qalinlashgan qism - mediastinumga kirib, MOYAK TO'RINI (rete testis) hosil qiladi;\n• undan 10-20 ta olib chiquvchi kanalcha (ductuli efferentes) moyak ortig'i boshiga boradi.\n\n💡 USMLE: moyak o'smalarining ~95% i germ (jinsiy) hujayralardan - seminoma, embrional karsinoma va h.k.\n\n🖼 Rasmda (Spalteholz) moyakning sagittal va ko'ndalang kesimlari: lobuli testis, septula, mediastinum testis, tunica albuginea, tunica vaginalis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_02.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Sertoli cells: functions",
+          "bandlar": [
+            "Inhibin B -> inhibits FSH; androgen-binding protein keeps local testosterone high",
+            "Produce MIF (anti-Mullerian hormone)",
+            "Aromatase converts testosterone/androstenedione to estrogens",
+            "Support, nourish and regulate spermatogenesis"
+          ],
+          "izoh": "🧱 Sertoli hujayralari - urug' kanalchalari devoridagi JINSIY BO'LMAGAN (non-germ) uzun hujayralar; bazal membranadan kanalcha bo'shlig'igacha cho'ziladi.\n\n⚙️ Vazifalari:\n• INGIBIN B ajratadi -> gipofizdan FSH ni tormozlaydi (manfiy teskari aloqa);\n• ANDROGEN-BOG'LOVCHI OQSIL (ABP) ajratadi -> kanalchalar ichida testosteronni yuqori darajada ushlab turadi (spermatogenez uchun shart);\n• MIF (Myuller ingibitorlovchi omil, AMH) ishlab chiqaradi -> embrionda paramezonefral (Myuller) yo'llar so'riladi (bachadon, naylar hosil bo'lmaydi);\n• AROMATAZA yordamida testosteron va androstenedionni ESTROGENLARGA aylantiradi;\n• rivojlanayotgan spermatozoidlarni qo'llab-quvvatlaydi, oziqlantiradi va spermatogenezni boshqaradi;\n• FSH ta'sirida ishlaydi (FSH retseptori Sertolida, LH retseptori Leydigda).\n\n🧠 Eslab qolish: Sertoli - \"Support\" (qo'llab-quvvatlaydi), FSH bilan ishlaydi, FSH ni ingibin bilan bosadi.\n\n♀️ Ayollardagi gomologi - GRANULYOZA hujayralari.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_03.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Blood-testis barrier and temperature",
+          "bandlar": [
+            "Tight junctions between Sertoli cells form the blood-testis barrier",
+            "Barrier isolates gametes from autoimmune attack",
+            "Sertoli cells are temperature-sensitive",
+            "Heat (varicocele, cryptorchidism) lowers sperm count and inhibin B"
+          ],
+          "izoh": "🚧 Qon-moyak to'sig'i:\n• qo'shni Sertoli hujayralari orasidagi ZICH TUTASHMALAR (tight junctions) urug' kanalchasini ikki bo'limga ajratadi:\n  - BAZAL bo'lim - spermatogoniyalar (qon bilan aloqada);\n  - ADLYUMINAL bo'lim - spermatotsitlar va spermatidalar;\n• meyozdan keyingi hujayralar balog'atda paydo bo'ladi, immun tizim ularni \"o'ziniki\" deb tanimaydi - to'siq ularni AUTOIMMUN hujumdan himoya qiladi.\n\n⚠️ To'siq buzilsa (travma, vazektomiya, orxit) -> spermatozoidlarga qarshi antitelolar -> bepushtlik.\n\n🌡 HARORAT:\n• Sertoli hujayralari haroratga SEZGIR: harorat oshsa spermatozoid hosil bo'lishi va ingibin B kamayadi (FSH oshadi);\n• Leydig hujayralari esa haroratga sezgir emas - testosteron normal qoladi.\n\n🔥 Harorat oshiradigan holatlar: VARIKOTSELE, KRIPTORXIZM (tushmagan moyak), issiq vanna, tor kiyim.\n\n💡 USMLE: kriptorxizmda - spermatozoid va ingibin kam, FSH yuqori; testosteron va LH odatda normal.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_04.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Leydig cells",
+          "bandlar": [
+            "Located in the interstitium between seminiferous tubules",
+            "Secrete testosterone in response to LH",
+            "Testosterone production is not affected by temperature",
+            "Female homolog: theca interna cells"
+          ],
+          "izoh": "🟠 Leydig (interstitsial) hujayralari:\n\n📍 Joyi: urug' kanalchalari ORASIDAGI biriktiruvchi to'qima - INTERSTITSIY (qon kapillyarlari yonida).\n\n⚙️ Vazifasi: ENDOKRIN hujayralar - LH (lyuteinlovchi gormon) ta'sirida xolesterindan TESTOSTERON ishlab chiqaradi.\n\n🌡 Haroratga SEZGIR EMAS - varikotsele yoki kriptorxizmda testosteron ishlab chiqarilishi saqlanadi (Sertolidan farqli).\n\n🔬 Gistologiyasi: eozinofil sitoplazma, lipid tomchilari, ba'zan Reinke kristallari.\n\n♀️ Ayollardagi gomologi - TEKA INTERNA hujayralari (ular ham LH ta'sirida androgen hosil qiladi).\n\n🧠 Eslab qolish:\n• LH -> Leydig (L va L);\n• FSH -> Sertoli (\"Sertoli FSH ni Sevadi\").\n\n💡 USMLE: ekzogen testosteron (anabolik steroidlar) LH va FSH ni bosadi -> moyaklar kichrayadi va bepushtlik (kanalcha ichidagi testosteron kamayadi). Leydig hujayrali o'sma - erta balog'at yoki ginekomastiya beradi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_05.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Seminiferous tubules and spermatogonia",
+          "bandlar": [
+            "Spermatogonia line the tubule on the basement membrane",
+            "They maintain the germ cell pool (stem cells)",
+            "They produce primary spermatocytes -> meiosis",
+            "Spermatids mature into spermatozoa toward the lumen"
+          ],
+          "izoh": "🌀 Urug' kanalchasi - spermatogenez joyi (~64 kun).\n\n🔄 Hujayralar bazal membranadan BO'SHLIQQA qarab joylashadi:\n\n1️⃣ SPERMATOGONIYALAR (germ hujayralar):\n• kanalchani bazal membrana ustida qoplab turadi;\n• o'zak hujayralar - mitoz bilan bo'linib, jinsiy hujayralar zaxirasini saqlaydi;\n• 1-tartib SPERMATOTSITLARNI hosil qiladi.\n\n2️⃣ 1-tartib spermatotsitlar (4N) -> 1-meyoz -> 2-tartib spermatotsitlar (2N) -> 2-meyoz -> SPERMATIDALAR (1N).\n\n3️⃣ Spermatidalar -> spermiogenez (akrosoma, dum hosil bo'ladi) -> SPERMATOZOIDLAR -> bo'shliqqa chiqadi, so'ng moyak ortig'ida harakatchanlik oladi.\n\n🧱 Ular orasida - Sertoli hujayralari (\"ustunlar\").\n\n💡 USMLE: kanalcha devorida germ hujayralar umuman bo'lmasa, faqat Sertoli hujayralari qolsa - \"Sertoli-cell-only\" sindromi (azoospermiya, FSH yuqori). Klaynfelter sindromida (47,XXY) kanalchalar gialinlashadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_06.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Gonadal venous drainage",
+          "bandlar": [
+            "Right testis/ovary -> right gonadal vein -> IVC",
+            "Left testis/ovary -> left gonadal vein -> left renal vein -> IVC",
+            "Left vein enters the renal vein at 90 degrees - less laminar flow",
+            "Higher left venous pressure -> varicocele more common on the left"
+          ],
+          "izoh": "🩵 Gonadalar (moyak/tuxumdon) venoz qoni:\n\n➡️ O'NG: o'ng gonada -> o'ng gonadal vena -> to'g'ridan-to'g'ri PASTKI KOVAK VENA (VCI) ga, o'tkir burchak ostida.\n\n⬅️ CHAP: chap gonada -> chap gonadal vena -> CHAP BUYRAK VENASI -> VCI.\n\n⚠️ Nega chapda muammo ko'p:\n• chap moyak venasi chap buyrak venasiga TO'G'RI BURCHAK (90°) ostida quyiladi -> oqim kamroq laminar;\n• chap vena uzunroq;\n• chap buyrak venasi aorta va yuqori tutqich arteriyasi orasida siqilishi mumkin (\"yong'oq chaqqich\" - nutcracker);\n• natijada chap tomonda venoz bosim o'ngdan YUQORI -> VARIKOTSELE asosan CHAP tomonda.\n\n🧠 \"Left gonadal vein takes the longer way\" - chap gonadal vena uzunroq yo'l bosadi.\n\n💡 USMLE: to'satdan paydo bo'lgan chap varikotsele (ayniqsa yotganda ham kamaymasa) - chap buyrak o'smasi chap buyrak venasini to'sgan bo'lishi mumkin.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_07.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Pelvic and gonadal lymphatic drainage",
+          "bandlar": [
+            "Ovaries/testes/uterine fundus -> para-aortic nodes",
+            "Uterine body/cervix/upper bladder -> external iliac nodes",
+            "Prostate/cervix/corpus cavernosum/proximal vagina -> internal iliac",
+            "Distal vagina/vulva/scrotum/distal anus -> superficial inguinal; glans -> deep"
+          ],
+          "izoh": "🟢 Chanoq a'zolari limfasi - qaysi tugunga?\n\n1️⃣ PARAAORTAL tugunlar:\n• tuxumdonlar, MOYAKLAR, bachadon tubi.\n\n2️⃣ TASHQI yonbosh tugunlari:\n• bachadon tanasi, bo'yni, siydik pufagining yuqori qismi.\n\n3️⃣ ICHKI yonbosh tugunlari:\n• PROSTATA, bachadon bo'yni, g'ovak tana (corpus cavernosum), qinning yuqori qismi, siydik pufagining pastki qismi.\n\n4️⃣ YUZA CHOV tugunlari:\n• qinning pastki qismi, vulva, YORG'OQ (scrotum), anusning pastki qismi (tishsimon chiziqdan pastda).\n\n5️⃣ CHUQUR CHOV tugunlari:\n• klitor, olatning boshchasi (glans penis).\n\n⚠️ Klinik: MOYAK saratoni -> paraaortal tugunlar (chovga EMAS!), chunki moyak qorin orqa devorida rivojlanib pastga tushgan. YORG'OQ terisi saratoni -> yuza chov tugunlari.\n\n💡 Shuning uchun moyak o'smasida biopsiya yorg'oq orqali qilinmaydi (orxiektomiya chov orqali) - limfa yo'llari aralashib ketmasin.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_08.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Varicocele: anatomy",
+          "bandlar": [
+            "Dilated veins of the pampiniform plexus",
+            "Caused by increased venous pressure",
+            "Most common cause of scrotal enlargement in adult men",
+            "Usually left-sided (left gonadal vein -> left renal vein)"
+          ],
+          "izoh": "🍇 Varikotsele - urug' tizimchasidagi PAMPINIFORM (uzumsimon) vena chigalining kengayishi.\n\n🩵 Pampiniform chigal:\n• moyakdan chiqqan 8-12 ta vena urug' tizimchasida moyak arteriyasini o'rab turadi;\n• arteriyadagi iliq qonni sovutadi (qarama-qarshi oqimli issiqlik almashinuvi) - moyak harorati tana haroratidan ~2-3°C past saqlanadi;\n• yuqorida moyak venasiga birlashadi.\n\n⚠️ Sababi: venoz bosim oshishi -> klapanlar yetishmovchiligi -> venalar kengayib, buraladi.\n\n📊 Xususiyatlari:\n• kattalarda YORG'OQ kattalashuvining eng ko'p sababi;\n• ko'pincha CHAP tomonda (chap moyak venasi chap buyrak venasiga quyilgani uchun);\n• harorat oshgani sababli spermatogenez buziladi -> BEPUSHTLIK.\n\n💡 Rasmda (Spalteholz) urug' tizimchasi ochilgan: plexus pampiniformis, a. testicularis, ductus deferens, a. deferentialis, tunica vaginalis communis, epididymis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_09.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Varicocele: diagnosis and treatment",
+          "bandlar": [
+            "'Bag of worms' on palpation, worse standing or with Valsalva",
+            "Ultrasound confirms; does not transilluminate",
+            "Right-sided varicocele: think IVC obstruction (e.g., RCC)",
+            "Treatment: ligation or embolization if pain or infertility"
+          ],
+          "izoh": "🩺 Varikotseleni aniqlash:\n• bemor TIK TURGAN holda ko'riladi;\n• ko'zdan kechirganda - kengaygan venalar ko'rinadi;\n• paypaslaganda - \"QURT TO'LA XALTA\" (bag of worms);\n• VALSALVA (kuchanish) bilan kattalashadi, yotganda kamayadi;\n• ULTRATOVUSH (Doppler) bilan tasdiqlanadi;\n• TRANSILLYUMINATSIYA BERMAYDI (yorug'lik o'tmaydi) - gidrotseledan farqi.\n\n⚠️ O'NG tomonlama varikotsele (yoki yotganda kamaymaydigan):\n• o'ng moyak venasi to'g'ridan-to'g'ri VCI ga quyilgani uchun - VCI OBSTRUKSIYASI ehtimoli;\n• masalan, buyrak hujayrali karsinoma (RCC) o'ng buyrak venasi orqali VCI ga o'sib kirgan bo'lishi mumkin -> qorin KT kerak.\n\n💊 Davolash:\n• belgisiz bo'lsa - kuzatish;\n• OG'RIQ yoki BEPUSHTLIK bo'lsa - jarrohlik yo'li bilan venalarni bog'lash (ligatsiya) yoki EMBOLIZATSIYA.\n\n💡 USMLE: varikotsele - erkak bepushtligining eng ko'p tuzatiladigan sababi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_10.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Erection: parasympathetic control",
+          "bandlar": [
+            "Erection = parasympathetic (pelvic splanchnic nerves, S2-S4)",
+            "NO -> raised cGMP -> smooth muscle relaxation -> vasodilation",
+            "Norepinephrine -> raised Ca2+ -> vasoconstriction (anti-erectile)",
+            "PDE-5 inhibitors (sildenafil) block cGMP breakdown"
+          ],
+          "izoh": "🔹 Erkak jinsiy reaksiyasi uch bosqich: \"POINT, SQUEEZE, AND SHOOT\".\n\n1️⃣ EREKSIYA (point) - PARASIMPATIK:\n• chanoq splanxnik nervlari (nn. splanchnici pelvici, S2-S4);\n• endoteliy va nervlardan AZOT OKSIDI (NO) ajraladi -> guanilatsiklaza -> cGMP oshadi -> g'ovak tanalar va arteriyalar silliq mushagi BO'SHASHADI -> qon kirib to'ladi -> venalar bosiladi (venookklyuziya).\n\n⛔ Anti-erektil ta'sir: NORADRENALIN (simpatik) -> hujayra ichida Ca2+ oshadi -> silliq mushak qisqaradi -> vazokonstriksiya -> ereksiya yo'qoladi (detumessensiya).\n\n💊 PDE-5 ingibitorlari (sildenafil, tadalafil) - cGMP parchalanishini to'xtatadi -> ereksiya kuchayadi.\n⚠️ NITRATLAR bilan birga BERILMAYDI - ikkalasi ham cGMP ni oshiradi -> og'ir gipotenziya.\n\n🧠 \"S2, 3, 4 keep the penis off the floor\" - S2-S4 ereksiyani ta'minlaydi.\n\n💡 USMLE: prostatektomiyadan keyingi impotensiya - prostata yonidagi kavernoz (parasimpatik) nervlar shikastlanishi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_11.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Emission and expulsion",
+          "bandlar": [
+            "Emission = sympathetic (hypogastric nerve, T11-L2)",
+            "Moves semen into the prostatic urethra; internal sphincter closes",
+            "Expulsion (ejaculation) = pudendal nerve (visceral and somatic)",
+            "Bulbospongiosus and ischiocavernosus contract rhythmically"
+          ],
+          "izoh": "2️⃣ EMISSIYA (squeeze) - SIMPATIK:\n• gipogastral nerv (T11-L2) - aorta oldidagi chigaldan pastga tushadi;\n• urug' yo'li, urug' pufakchalari va prostata silliq mushaklari qisqaradi -> sperma siydik chiqarish kanalining PROSTATA qismiga chiqariladi;\n• shu paytda siydik pufagining ICHKI sfinkteri yopiladi (alfa-1) - sperma pufakka qaytmaydi.\n\n3️⃣ EKSPULSIYA / EYAKULYATSIYA (shoot) - JINSIY NERV (n. pudendus):\n• visseral va somatik tolalar;\n• m. bulbospongiosus va m. ischiocavernosus ritmik QISQARADI -> sperma tashqariga otiladi.\n\n⚠️ Klinik:\n• retroperitoneal limfa tugunlari olib tashlanganda (moyak saratoni) yoki diabetik neyropatiyada simpatik tolalar shikastlanadi -> emissiya yo'q yoki RETROGRAD eyakulyatsiya;\n• alfa-1 blokatorlar (tamsulozin) ham retrograd eyakulyatsiya berishi mumkin.\n\n💡 Rasmda (Spalteholz) chanoq vegetativ chigallari: plexus hypogastricus, truncus sympathicus, plexus vesicalis, plexus prostaticus, plexus cavernosus penis, n. pudendus.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_12.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Testicular torsion: bell clapper deformity",
+          "bandlar": [
+            "Rotation of the testis around the spermatic cord and vessels",
+            "Most common in boys 12-18 years old",
+            "Bell clapper: poor fixation to tunica vaginalis, horizontal testis",
+            "May follow trauma or occur spontaneously"
+          ],
+          "izoh": "🌀 Moyak buralishi (torsion) - moyakning urug' tizimchasi va qon tomir oyoqchasi atrofida aylanishi.\n\n👦 Yoshi: ko'pincha 12-18 yoshli o'smirlar (yangi tug'ilganlarda ham bo'lishi mumkin).\n\n🔔 Sababi - \"QO'NG'IROQ TILI\" (bell clapper) nuqsoni:\n• normalda moyak orqa tomondan yorg'oq devoriga (gubernakulum qoldig'i orqali) mahkamlangan, qin parda uni faqat oldindan o'raydi;\n• nuqsonda qin parda moyakni BUTUNLAY o'rab oladi -> moyak orqadan mahkamlanmaydi;\n• moyak GORIZONTAL holatda erkin osilib turadi - qo'ng'iroq ichidagi til kabi -> oson aylanadi.\n\n⚡ Qo'zg'atuvchi: jarohat, jismoniy zo'riqish yoki o'z-o'zidan (ko'pincha uyquda - kremaster mushagining qisqarishi).\n\n🩸 Oqibati: avval vena bosiladi -> shish -> keyin arteriya to'siladi -> moyak ISHEMIYASI va nekrozi.\n\n⚠️ Nuqson ko'pincha IKKI TOMONLAMA - shuning uchun boshqa moyak ham xavf ostida.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_13.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Testicular torsion: presentation and treatment",
+          "bandlar": [
+            "Acute severe scrotal pain, high-riding testis",
+            "Absent cremasteric reflex; negative Prehn sign",
+            "Orchiopexy within 6 hours; manual detorsion if surgery delayed",
+            "Bilateral orchiopexy; orchiectomy if testis not viable"
+          ],
+          "izoh": "🚨 Klinik belgilari:\n• to'satdan, KUCHLI yorg'oq og'rig'i, ko'pincha ko'ngil aynishi, qusish;\n• moyak YUQORIGA ko'tarilgan (high-riding) va gorizontal joylashgan;\n• KREMASTER REFLEKSI YO'Q (sonning ichki yuzasi silanganda moyak ko'tarilmaydi);\n• PREHN belgisi MANFIY - moyakni ko'tarish og'riqni kamaytirmaydi.\n\n🔍 Taqqoslash - EPIDIDIMIT: og'riq asta-sekin, isitma, dizuriya; Prehn MUSBAT (ko'targanda og'riq kamayadi), kremaster refleksi saqlangan.\n\n🏥 Davolash - SHOSHILINCH:\n• ORXIOPEKSIYA (moyakni burab joyiga qaytarib, tikib mahkamlash) - 6 SOAT ichida (keyin moyakni saqlab qolish imkoni keskin kamayadi);\n• jarrohlik imkoni bo'lmasa - qo'l bilan detorsiya (\"kitob ochilgandek\" - tashqariga);\n• moyak hayotga layoqatsiz bo'lsa - ORXIEKTOMIYA;\n• orxiopeksiya IKKI TOMONLAMA qilinadi - qarama-qarshi moyak ham keyinchalik buralishi mumkin.\n\n💡 USMLE: klinik shubha kuchli bo'lsa, UTT kutib vaqt yo'qotilmaydi - darhol jarrohlik.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_14.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Hydrocele",
+          "bandlar": [
+            "Serous fluid collection within the tunica vaginalis",
+            "Congenital (communicating): patent processus vaginalis - infants",
+            "Acquired (noncommunicating): infection, trauma, tumor",
+            "Transilluminates; bloody fluid = hematocele"
+          ],
+          "izoh": "💧 Gidrotsele - QIN PARDA (tunica vaginalis) varaqlari orasida seroz suyuqlik yig'ilishi.\n\n🔦 Yorg'oqdagi transillyuminatsiya beruvchi (yorug'lik o'tkazuvchi) massalar - suyuqlikli; qattiq moyak o'smalari esa yorug'lik o'tkazmaydi.\n\n1️⃣ TUG'MA (kommunikatsiyalanuvchi) gidrotsele:\n• qorin pardaning qin o'simtasi (processus vaginalis) to'liq bekilmagan -> qorin bo'shlig'idan suyuqlik tushadi;\n• chaqaloqlarda yorg'oq shishining eng ko'p sababi;\n• kun davomida hajmi o'zgaradi;\n• ko'pchiligi 1 YOSHGACHA o'z-o'zidan yo'qoladi.\n\n2️⃣ ORTTIRILGAN (nokommunikatsiyalanuvchi) gidrotsele:\n• kattalarda; sababi - INFEKSIYA (epididimit), TRAVMA, O'SMA yoki idiopatik;\n• kattada yangi gidrotsele -> UTT bilan moyak o'smasini inkor qilish kerak.\n\n🩸 Suyuqlik qon bo'lsa - GEMATOTSELE (odatda jarohatdan keyin), transillyuminatsiya bermaydi.\n\n💡 Rasmda (Spalteholz) qin parda ochilgan moyak va ortiq: tunica vaginalis propria (lamina parietalis et visceralis), caput, corpus et cauda epididymidis, appendix testis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_15.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Spermatocele",
+          "bandlar": [
+            "Cyst from a dilated epididymal duct or rete testis",
+            "Paratesticular fluctuant nodule, separate from the testis",
+            "Usually at the head of the epididymis, above the testis",
+            "Transilluminates; contains sperm; usually painless"
+          ],
+          "izoh": "🫧 Spermatotsele - MOYAK ORTIG'I yo'li yoki MOYAK TO'RINING (rete testis) kengayishidan hosil bo'lgan kista.\n\n📍 Xususiyatlari:\n• MOYAKDAN ALOHIDA (paratestikular) paypaslanadigan, yumshoq-fluktuatsiyali tugun;\n• odatda moyak ortig'ining BOSHIDA, moyakdan yuqori-orqada;\n• ichida spermatozoidlar bor sutsimon suyuqlik;\n• TRANSILLYUMINATSIYA beradi;\n• ko'pincha og'riqsiz, tasodifan topiladi.\n\n🔍 Farqlash:\n• gidrotsele - moyakni O'RAB turadi (moyakni paypaslash qiyin);\n• spermatotsele - moyakdan ALOHIDA, uning ustida;\n• varikotsele - \"qurt to'la xalta\", transillyuminatsiya yo'q;\n• moyak o'smasi - moyakning O'ZIDA qattiq, og'riqsiz massa, transillyuminatsiya yo'q.\n\n💊 Davolash: belgisiz bo'lsa - kerak emas; katta va noqulay bo'lsa - jarrohlik (spermatotselektomiya).\n\n💡 Rasmda (Spalteholz): mediastinum testis, rete testis [Halleri], ductus epididymidis, ductulus aberrans, lobuli epididymidis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_16.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Seminal vesicles",
+          "bandlar": [
+            "Paired glands on the posterior-inferior surface of the bladder",
+            "Folded mucosa with pseudostratified columnar epithelium",
+            "Produce ~70% of ejaculate: fructose, citrate, prostaglandins",
+            "Fructose = main energy source for sperm motility"
+          ],
+          "izoh": "🧪 Urug' pufakchalari (vesiculae seminales):\n\n📍 Joyi: juft bezlar, siydik pufagining ORQA-PASTKI yuzasida, urug' yo'li ampulasidan lateralda; orqada to'g'ri ichak bilan chegaradosh (rektal tekshiruvda paypaslanishi mumkin).\n\n🔬 Tuzilishi:\n• kuchli buralgan naysimon bezlar;\n• shilliq qavati ko'p BURMALI (to'rsimon);\n• epiteliysi - ko'p qatorli (psevdostratifikatsiyalangan) SILINDRSIMON; sekretor granulalar yadrolarni hujayra asosiga surib qo'yadi.\n\n💧 Sekreti:\n• eyakulyat hajmining ~70% i;\n• FRUKTOZA - spermatozoidlar harakati uchun asosiy ENERGIYA manbai;\n• sitrat, PROSTAGLANDINLAR, ivituvchi oqsillar (semenogelin) va boshqalar - spermatozoidlarni faollashtiradi.\n\n🔗 Har bir pufakcha yo'li urug' yo'li bilan qo'shilib, OTILUVCHI YO'LNI hosil qiladi.\n\n💡 USMLE: eyakulyatda fruktoza yo'q va hajmi kam -> urug' pufakchalari yo'q (masalan, CFTR mutatsiyasida urug' yo'li va pufakchalarning tug'ma yo'qligi) yoki otiluvchi yo'l tiqilgan.\n\n🖼 Rasmda (Spalteholz): corpus vesiculae seminalis, ampulla ductus deferentis, ductus ejaculatorius, prostata.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_17.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Ejaculatory duct",
+          "bandlar": [
+            "Formed by the seminal vesicle duct + ductus deferens (ampulla)",
+            "Passes through the prostate",
+            "Opens into the prostatic urethra on the seminal colliculus",
+            "Prostatic utricle lies between the two openings"
+          ],
+          "izoh": "🔗 Otiluvchi yo'l (ductus ejaculatorius):\n\n🧩 Hosil bo'lishi: urug' pufakchasi yo'li (ductus excretorius) + urug' yo'li AMPULASI qo'shiladi -> har tomonda bittadan otiluvchi yo'l.\n\n📍 Yo'li:\n• prostata asosidan kirib, uning ICHIDAN qiya pastga-oldinga o'tadi;\n• siydik chiqarish kanalining PROSTATA qismiga ochiladi;\n• ochilish joyi - orqa devordagi do'mboqcha: URUG' DO'MBOG'I (colliculus seminalis, verumontanum);\n• ikki teshik orasida - PROSTATA BACHADONCHASI (utriculus prostaticus) - paramezonefral (Myuller) yo'l qoldig'i (ayoldagi bachadon/qinning gomologi).\n\n🔄 Emissiyada urug' yo'li, pufakchalar va prostata qisqarib, suyuqliklar shu yerda qo'shiladi.\n\n⚠️ Klinik: otiluvchi yo'llar tiqilsa (kista, tosh, yallig'lanish) -> eyakulyat hajmi kam, fruktozasiz, azoospermiya; transrektal UTT da kengaygan urug' pufakchalari.\n\n💡 Rasmda (Spalteholz): ampulla ductus deferentis, vesicula seminalis, ductus excretorius, ductus ejaculatorius, utriculus prostaticus, colliculus seminalis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_18.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Prostate: structure and secretions",
+          "bandlar": [
+            "30-50 branched tubuloalveolar glands draining into the urethra",
+            "Fibroelastic capsule rich in smooth muscle",
+            "Periurethral submucosal glands + main peripheral glands",
+            "Secretes acid phosphatase, citric acid, fibrinolysin, PSA"
+          ],
+          "izoh": "🌰 Prostata (yong'oqsimon bez):\n\n📍 Joyi: siydik pufagi ostida, siydik chiqarish kanalining boshlang'ich (prostata) qismini o'rab turadi; asosi yuqorida (pufakka tegadi), cho'qqisi pastda (urogenital diafragmaga); orqada to'g'ri ichak.\n\n🔬 Tuzilishi:\n• 30-50 ta tarmoqlangan TUBULOALVEOLYAR bezlar, yo'llari siydik chiqarish kanaliga ochiladi;\n• tashqarida FIBROELASTIK KAPSULA - silliq MUSHAKKA boy (alfa-1 retseptorlar);\n• ikki turdagi bezlar: kanal atrofidagi (periuretral) SHILLIQ OSTI bezlar va periferiyadagi ASOSIY prostata bezlari;\n• epiteliy - ko'p qatorli silindrsimon, sitoplazmasi och, ko'pikli, sekretor granulalarga boy.\n\n💧 Sekreti (sutsimon, bir oz kislotali):\n• KISLOTALI FOSFATAZA;\n• LIMON KISLOTASI (sitrat);\n• FIBRINOLIZIN - spermani suyultiradi;\n• PSA (prostata-spetsifik antigen) - ham suyultiruvchi proteaza.\n\n💡 Rasmda (Spalteholz) siydik pufagi orqadan: prostata (lobus dexter, basis, apex), vesiculae seminales, ampulla ductus deferentis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_19.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Prostate zones: BPH vs carcinoma",
+          "bandlar": [
+            "Transition (periurethral) zone -> benign prostatic hyperplasia",
+            "Peripheral (posterior) zone -> prostatic carcinoma",
+            "Peripheral zone is felt on digital rectal exam",
+            "BPH compresses the urethra early; cancer obstructs late"
+          ],
+          "izoh": "🗺 Prostata zonalari va kasalliklar:\n\n🔵 TRANZITOR (periuretral) zona:\n• siydik chiqarish kanalini o'rab turgan ichki zona;\n• BPH (xavfsiz giperplaziya) shu yerda boshlanadi;\n• kanalni ERTA bosadi -> siyish buzilishi tez paydo bo'ladi.\n\n🔴 PERIFERIK zona:\n• prostataning orqa-pastki qismi (\"orqa bo'lak\");\n• prostata SARATONI asosan shu yerda;\n• to'g'ri ichak orqali barmoq bilan tekshiruvda (DRE) PAYPASLANADI;\n• kanaldan uzoq - shuning uchun saraton uzoq vaqt BELGISIZ kechadi.\n\n⚪ Markaziy zona - otiluvchi yo'llarni o'rab turadi (kasallik kam).\n\n💡 USMLE juftligi:\n• BPH -> tranzitor zona, silliq-elastik kattalashish, erta siyish belgilari;\n• saraton -> periferik zona, qattiq notekis tugun DRE da, kech belgilar, suyak metastazi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_20.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Benign prostatic hyperplasia",
+          "bandlar": [
+            "Men >50; hyperplasia (not hypertrophy) of the transition zone",
+            "Smooth, elastic, firm nodular enlargement; not premalignant",
+            "Frequency, nocturia, hesitancy, weak stream, dysuria",
+            "Total PSA up with a high free fraction; may cause hydronephrosis, UTI"
+          ],
+          "izoh": "🌰 Prostataning xavfsiz giperplaziyasi (BPH):\n\n👴 50 yoshdan oshgan erkaklarda juda ko'p. Bu GIPERPLAZIYA (hujayralar soni oshishi), gipertrofiya emas; DHT (digidrotestosteron) ta'siriga bog'liq.\n\n🔬 Tranzitor zonada silliq, ELASTIK, qattiq tugunlar -> siydik chiqarish kanalini yon tomondan siqib, VERTIKAL YORIQ shakliga keltiradi. SARATONOLDI holat EMAS.\n\n🩺 Belgilari (pastki siydik yo'llari belgilari):\n• tez-tez siyish, NOKTURIYA (tunda siyish);\n• siyishni BOSHLASH va TO'XTATISH qiyin, oqim kuchsiz, tomchilab tugaydi;\n• dizuriya.\n\n⚠️ Asoratlari:\n• siydik pufagi kengayishi va detruzor GIPERTROFIYASI (trabekulyar devor, divertikullar);\n• o'tkir siydik ushlanishi;\n• GIDRONEFROZ, siydik yo'li INFEKSIYALARI, toshlar.\n\n🧪 PSA: umumiy PSA oshadi, ERKIN PSA ulushi YUQORI (saratonda erkin ulush past). PSA prostata epiteliysida androgen ta'sirida hosil bo'ladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_21.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "BPH: treatment",
+          "bandlar": [
+            "Alpha-1 antagonists (terazosin, tamsulosin): relax smooth muscle",
+            "5-alpha-reductase inhibitors (finasteride): shrink the prostate",
+            "PDE-5 inhibitors (tadalafil)",
+            "Surgery: TURP or ablation"
+          ],
+          "izoh": "💊 BPH davolash:\n\n1️⃣ ALFA-1 BLOKATORLAR (terazozin, doksazozin, TAMSULOZIN):\n• prostata kapsulasi va siydik pufagi bo'yni silliq mushagini bo'shashtiradi;\n• TEZ ta'sir qiladi (kunlar ichida);\n• nojo'ya: ortostatik GIPOTENZIYA (ayniqsa birinchi doza), bosh aylanishi; tamsulozin (alfa-1A ga selektiv) - kamroq gipotenziya, lekin retrograd eyakulyatsiya.\n\n2️⃣ 5-ALFA-REDUKTAZA INGIBITORLARI (FINASTERID, dutasterid):\n• testosteron -> DHT aylanishini bloklaydi -> prostata KICHRAYADI;\n• ta'siri sekin (6-12 oy);\n• PSA ni ~50% ga kamaytiradi (skriningda hisobga olinadi);\n• nojo'ya: libido pasayishi, ginekomastiya; homilador ayol tegmasligi kerak (homila jinsiy a'zolari).\n\n3️⃣ PDE-5 INGIBITORLARI (TADALAFIL) - silliq mushakni bo'shashtiradi, erektil disfunksiya bilan birga bo'lsa qulay.\n\n4️⃣ JARROHLIK: siydik chiqarish kanali orqali prostata rezeksiyasi (TURP), lazer ablatsiyasi va h.k.\n\n💡 USMLE: BPH + gipertenziya bo'lsa - alfa-1 blokator ikkalasiga ham foyda.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_22.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Prostatic carcinoma",
+          "bandlar": [
+            "Most often in the peripheral (posterior) zone - palpable on DRE",
+            "Yellow, firm, gritty tumor; PIN is a precursor lesion",
+            "Asymptomatic until late: hard nodule, obstruction, back pain",
+            "Raised PSA; frequent osteoblastic bone metastases (lumbar spine, pelvis)"
+          ],
+          "izoh": "🎗 Prostata saratoni (adenokarsinoma):\n\n📍 Joyi: ko'pincha PERIFERIK zonada (orqa bo'lak) - to'g'ri ichak orqali barmoq bilan tekshiruvda (DRE) paypaslanadi.\n\n🔬 Makroskopik: SARIQ, QATTIQ, \"qumloq\" (gritty) o'sma, atrof tuzilmalarga o'sib kiradi. Prostata intraepitelial neoplaziyasi (PIN) - saratonoldi o'zgarish, ko'pincha birga uchraydi.\n\n🩺 Klinikasi:\n• uzoq vaqt BELGISIZ (kanaldan uzoq);\n• kech bosqichda: DRE da QATTIQ, notekis tugun; obstruktiv uropatiya; bel yoki chanoq og'rig'i.\n\n🧪 Tashxis: qon zardobida PSA oshishi (erkin PSA ulushi past), so'ng biopsiya (Glison darajasi).\n\n🦴 Metastaz: SUYAKLARGA (bel umurtqalari, chanoq) tez-tez - OSTEOBLASTIK (suyak hosil qiluvchi) o'choqlar; ishqoriy fosfataza oshadi. Yo'li - prostata venoz chigali -> umurtqa venoz chigali (Batson, klapansiz).\n\n💡 Rasmda (Spalteholz) erkak chanog'ining median kesimi: prostata, rectum, pars prostatica et membranacea urethrae - DRE da prostataning orqa yuzasi to'g'ri ichak oldingi devori orqali paypaslanadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_23.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Prostatic carcinoma: treatment",
+          "bandlar": [
+            "Leuprolide: GnRH agonist given continuously suppresses LH/FSH",
+            "Result: testosterone falls (androgen deprivation)",
+            "Flutamide, cyproterone: androgen receptor antagonists",
+            "Also radiation and/or prostatectomy"
+          ],
+          "izoh": "💊 Prostata saratoni - androgenga bog'liq o'sma, shuning uchun asosiy usul - ANDROGEN DEPRIVATSIYASI:\n\n1️⃣ LEYPROLID (Lupron) - GnRH AGONISTI:\n• PULSATIL berilsa - LH/FSH ni oshiradi (bepushtlikda);\n• UZLUKSIZ (doimiy) berilsa - gipofizdagi GnRH retseptorlari desensibilizatsiyalanadi -> LH va FSH tushadi -> TESTOSTERON kamayadi (\"kimyoviy kastratsiya\");\n• dastlabki 1-2 haftada testosteron vaqtincha OSHADI (flare) - shuning uchun boshida androgen retseptori blokatori qo'shiladi.\n\n2️⃣ ANDROGEN RETSEPTORI ANTAGONISTLARI:\n• FLUTAMID, bikalutamid;\n• SIPROTERON (Androcur) - antiandrogen + progestagen ta'sirli;\n• nojo'ya: ginekomastiya, libido pasayishi.\n\n3️⃣ Boshqa usullar: RADIATSIYA (tashqi yoki braxiterapiya), radikal PROSTATEKTOMIYA (asoratlari: siydik tuta olmaslik, impotensiya).\n\n💡 USMLE: \"pulsatil GnRH - stimulyatsiya, uzluksiz GnRH - ingibitsiya\". GnRH antagonisti (degareliks) flare bermaydi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_24.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Bladder injury: dome vs anterior wall",
+          "bandlar": [
+            "Dome rupture: blunt trauma to a full bladder (seatbelt)",
+            "Dome is the weakest part -> intraperitoneal urine leak",
+            "Peritoneal urine absorption -> raised BUN and creatinine",
+            "Pelvic fracture -> anterior wall/neck tear -> extraperitoneal (retropubic) leak"
+          ],
+          "izoh": "💥 Siydik pufagi jarohati - belgilari: GEMATURIYA, qov usti og'rig'i, siyish qiyinligi.\n\n1️⃣ PUFAK GUMBAZI (dome) yorilishi:\n• TO'LA pufakka to'mtoq zarba (masalan, avtohalokatda xavfsizlik kamari);\n• pufak ichidagi bosim keskin oshadi -> eng ZAIF joy - gumbaz yoriladi;\n• gumbaz qorin parda bilan qoplangan -> siydik QORIN BO'SHLIG'IGA (intraperitoneal) oqadi;\n• qorin parda siydikni so'radi -> qonda BUN va KREATININ oshadi (buyrak sog' bo'lsa ham - \"psevdo-buyrak yetishmovchiligi\");\n• davolash - jarrohlik yo'li bilan tikish.\n\n2️⃣ OLDINGI devor yoki BO'YIN jarohati:\n• CHANOQ SINISHI -> suyak parchalari pufakni teshadi;\n• siydik QORIN PARDADAN TASHQARIGA (ekstraperitoneal) - qov orti bo'shlig'iga (Retsius bo'shlig'i) yig'iladi;\n• ko'pincha kateter bilan konservativ davolanadi.\n\n💡 Tashxis: retrograd KT-sistografiya. Intraperitoneal - kontrast ichak qovuzloqlari orasida; ekstraperitoneal - pufak atrofida \"olov tili\" ko'rinishida.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_25.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Anterior urethral injury",
+          "bandlar": [
+            "Perineal straddle injury -> bulbar (spongy) urethra disrupted",
+            "Blood at the meatus, hematuria, difficulty voiding; scrotal hematoma",
+            "If Buck fascia is torn, urine leaks into the superficial perineal space",
+            "Urethral catheterization is relatively contraindicated"
+          ],
+          "izoh": "🚲 Siydik chiqarish kanalining OLDINGI qismi jarohati:\n\n👨 Deyarli faqat ERKAKLARDA.\n\n⚡ Mexanizmi: oraliqqa minib tushish (STRADDLE) - velosiped ramasi, panjara ustiga yiqilish -> kanalning BULBAR (g'ovak) qismi qov suyagi va zarba beruvchi jism orasida eziladi.\n\n🩺 Belgilari:\n• siydik chiqarish teshigida (meatus) QON;\n• gematuriya, siyish qiyinligi;\n• YORG'OQ GEMATOMASI.\n\n🗺 Siydik/qon tarqalishi fassiyalarga bog'liq:\n• Bak fassiyasi (Buck) butun bo'lsa - qon olat bo'ylab cheklanadi;\n• Bak fassiyasi YIRTILSA - siydik YUZA ORALIQ bo'shlig'iga chiqadi va Kolles fassiyasi ostida yorg'oq, olat va qorin old devoriga tarqaladi (son tomon emas - Kolles fassiyasi son fassiyasiga yopishgan); \"kapalak\" shaklidagi oraliq gematomasi.\n\n⚠️ Siydik chiqarish teshigida qon bo'lsa - URETRAL KATETER qo'yish NISBIY QARSHI KO'RSATMA (yarim yirtilish to'liqqa aylanishi mumkin) -> avval retrograd uretrografiya, kerak bo'lsa qov usti sistostomiya.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_26.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Posterior urethral injury",
+          "bandlar": [
+            "Pelvic fracture -> disruption at the bulbomembranous junction",
+            "Bulbomembranous junction is the weakest point",
+            "Urine leaks into the retropubic space",
+            "High-riding prostate on rectal exam; blood at meatus"
+          ],
+          "izoh": "🦴 Siydik chiqarish kanalining ORQA qismi jarohati:\n\n⚡ Mexanizmi: CHANOQ SINISHI (avtohalokat, balandlikdan yiqilish) -> prostata qov suyagiga boylamlar bilan mahkamlangan, parda (membranoz) qism esa urogenital diafragmaga -> siljish paytida kanal BULBOMEMBRANOZ TUTASHMADA (eng zaif nuqta) uziladi.\n\n🩺 Belgilari:\n• siydik chiqarish teshigida QON;\n• gematuriya, siya olmaslik, to'la pufak;\n• siydik QOV ORTI (retropubik) bo'shlig'iga oqadi;\n• to'g'ri ichak orqali tekshiruvda prostata YUQORIGA ko'tarilgan (\"high-riding\") yoki paypaslanmaydi (gematoma itarib yuborgan).\n\n⚠️ URETRAL KATETER - nisbiy qarshi ko'rsatma! Avval retrograd uretrografiya; siydikni chiqarish uchun qov usti sistostomiya.\n\n📊 Taqqoslash:\n• oldingi (bulbar) - straddle, yorg'oq gematomasi, yuza oraliq;\n• orqa (membranoz) - chanoq sinishi, qov orti bo'shlig'i, baland prostata.\n\n💡 Asoratlari: uretra strikturasi, impotensiya (kavernoz nervlar), siydik tuta olmaslik.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_27.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Perineum: overview",
+          "bandlar": [
+            "Diamond-shaped region below the pelvic diaphragm",
+            "Urogenital triangle (anterior) and anal triangle (posterior)",
+            "Superficial muscles: ischiocavernosus, bulbospongiosus, superficial transverse perineal",
+            "Innervated mainly by the pudendal nerve (S2-S4)"
+          ],
+          "izoh": "💎 Oraliq (perineum) - chanoq diafragmasidan PASTDAGI romb shaklidagi soha.\n\n📐 Chegaralari: oldinda qov birikmasi, yonlarda quymuch-qov tarmoqlari va quymuch do'mboqlari, orqada dum suyagi.\n\n🔺 Ikki quymuch do'mbog'ini tutashtiruvchi chiziq uni ikkiga bo'ladi:\n• OLDINGI - SIYDIK-TANOSIL uchburchagi: siydik chiqarish kanali (ayolda qin ham), tashqi jinsiy a'zolar;\n• ORQA - ANAL uchburchak: anus, tashqi anal sfinkter, quymuch-to'g'ri ichak chuqurchalari.\n\n💪 Yuza oraliq mushaklari (siydik-tanosil uchburchagida):\n• m. ischiocavernosus - olat/klitor oyoqchalarini qoplaydi;\n• m. bulbospongiosus - piyozcha (bulbus) ni qoplaydi; eyakulyatsiya va siydik qoldig'ini chiqarishda qatnashadi;\n• m. transversus perinei superficialis.\n\n⚡ Asosiy nervi: JINSIY NERV (n. pudendus, S2-S4), qon tomiri: ichki jinsiy arteriya (a. pudenda interna).\n\n💡 Rasmda (Spalteholz) erkak oralig'i mushaklari pastdan: m. ischiocavernosus, m. bulbocavernosus, m. transversus perinei superficialis, m. sphincter ani externus, m. levator ani.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_28.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Pelvic diaphragm",
+          "bandlar": [
+            "Muscular floor of the pelvis; separates pelvic cavity from perineum",
+            "Formed by levator ani + coccygeus with their fasciae",
+            "Strong support for pelvic organs",
+            "Transmits the urethra, vagina and anorectum to the perineum"
+          ],
+          "izoh": "🥣 Chanoq diafragmasi (diaphragma pelvis) - chanoqning MUSHAKLI TUBI:\n\n📌 Vazifalari:\n• chanoq bo'shlig'ini ORALIQDAN ajratadi;\n• chanoq a'zolari uchun KUCHLI TAYANCH (yo'talganda, kuchanganda qorin bosimiga qarshi turadi);\n• siydik-tanosil va ovqat hazm qilish yo'llarining pastki qismlarini chanoqdan oraliqqa o'tkazadi (siydik chiqarish kanali, qin, anorektal qism).\n\n🧩 Tarkibi: 2 qavat fassiya (yuqori va pastki) va 2 mushak:\n1. ANUSNI KO'TARUVCHI MUSHAK (m. levator ani) - uch qismi:\n   • m. puborectalis;\n   • m. pubococcygeus;\n   • m. iliococcygeus (yopqich ichki mushak fassiyasidagi pay ravog'idan boshlanadi);\n2. DUM MUSHAGI (m. coccygeus) - quymuch o'sig'idan dum suyagiga.\n\n⚡ Innervatsiyasi: sakral nervlar S3-S4 (levator ani nervi) va jinsiy nerv (n. pudendus) tarmoqlari.\n\n⚠️ Tug'ruqda levator ani cho'zilishi/yirtilishi -> chanoq a'zolari prolapsi, siydik va najas tuta olmaslik.\n\n💡 Rasmda (Spalteholz) erkak m. levator ani chapdan: m. coccygeus, m. levator ani, arcus tendineus m. levatoris ani, spina ischiadica, canalis obturatorius.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_29.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Puborectalis and fecal continence",
+          "bandlar": [
+            "Part of levator ani forming a U-shaped sling around the anorectal junction",
+            "Pulls the junction forward - creates the anorectal angle",
+            "Marks the boundary between rectum and anal canal",
+            "Essential for fecal continence; relaxes during defecation"
+          ],
+          "izoh": "🔄 Qov-to'g'ri ichak mushagi (m. puborectalis):\n\n📍 Levator ani ning eng medial va eng muhim qismi:\n• qov suyagining orqa yuzasidan boshlanadi;\n• ANOREKTAL TUTASHMA atrofida orqadan aylanib o'tib, U-shaklidagi MUSHAK SIRTMOG'INI (sling) hosil qiladi;\n• tutashmani oldinga tortib, ~90° li ANOREKTAL BURCHAKNI hosil qiladi.\n\n🧭 Chegara: puborektal sirtmoq TO'G'RI ICHAK bilan ANAL KANAL o'rtasidagi chegarani belgilaydi.\n\n💩 NAJAS TUTISH (fecal continence):\n• tinch holatda mushak tonusda - burchak o'tkir, najas to'g'ri ichakda ushlanadi;\n• defekatsiyada puborectalis BO'SHASHADI -> burchak to'g'rilanadi -> najas chiqadi;\n• ichki (silliq, ixtiyorsiz) va tashqi (ko'ndalang-targ'il, ixtiyoriy) anal sfinkterlar bilan birga ishlaydi.\n\n⚠️ Klinik: tug'ruqda shikastlanishi yoki nervi (S3-S4, n. pudendus) jarohati -> najas tuta olmaslik. Defekatsiyada puborectalis paradoksal qisqarsa (dissinergiya) -> surunkali ich qotishi.\n\n💡 Rasmda (Spalteholz) mm. levatores ani yuqoridan (prostata olingan): intestinum rectum, m. levator ani (m. pubococcygeus), m. coccygeus.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_30.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Urogenital diaphragm and external urethral sphincter",
+          "bandlar": [
+            "Lies in the perineum below the pelvic diaphragm",
+            "Sphincter urethrae + deep transverse perineal between the ischiopubic rami",
+            "Pierced by the urethra (and vagina in females)",
+            "Sphincter urethrae = voluntary external sphincter around membranous urethra"
+          ],
+          "izoh": "🟥 Urogenital diafragma (siydik-tanosil diafragmasi, chuqur oraliq bo'shlig'i):\n\n📍 Joyi: ORALIQDA, chanoq diafragmasidan PASTDA; ikkala QUYMUCH-QOV TARMOQLARI orasida gorizontal tortilgan.\n\n🧩 Tarkibi - 2 ta ko'ndalang-targ'il mushak:\n1. SIYDIK CHIQARISH KANALI SFINKTERI (m. sphincter urethrae);\n2. ORALIQNING CHUQUR KO'NDALANG MUSHAGI (m. transversus perinei profundus).\n• pastdan oraliq membranasi (fascia trigoni urogenitalis inferior) bilan qoplangan.\n\n🕳 Teshib o'tuvchilar: erkakda - siydik chiqarish kanali; ayolda - siydik chiqarish kanali va QIN.\n\n🔒 Siydik chiqarish kanali sfinkteri:\n• kanalning PARDA (membranoz) qismini o'rab turadi;\n• TASHQI uretral sfinkter - IXTIYORIY (ko'ndalang-targ'il) siyish mushagi;\n• SIYDIK TUTISHNI ta'minlaydi; nervi - n. pudendus (S2-S4).\n\n📦 Erkakda bu yerda bulbouretral (Kuper) bezlari ham joylashgan.\n\n💡 Ikkala diafragma (chanoq va urogenital) ham jinsiy nerv tarmoqlaridan innervatsiya oladi. Rasmda (Spalteholz) erkak urogenital uchburchagi pastdan: m. sphincter urethrae membranaceae, m. transversus perinei profundus, urethra (pars membranacea), glandula bulbourethralis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_31.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Perineal body and female perineal muscles",
+          "bandlar": [
+            "Perineal body: fibromuscular node between vagina/bulb and anus",
+            "Attachments: bulbospongiosus, transverse perineals, external anal sphincter",
+            "Also levator ani fibers - key support of the pelvic floor",
+            "Structures cut in episiotomy lie here"
+          ],
+          "izoh": "🎯 Oraliq tanasi (corpus perineale, oraliqning markaziy payi):\n\n📍 Joyi: ayolda QIN dahlizi va ANUS orasida (erkakda olat piyozchasi va anus orasida) joylashgan fibromushakli tugun.\n\n🔗 Unga birikadigan mushaklar:\n• m. bulbospongiosus (ayolda qin kirishini o'rab turadi);\n• yuza va chuqur ko'ndalang oraliq mushaklari;\n• tashqi anal sfinkter;\n• levator ani tolalari (puboperineal/pubovaginal qism).\n\n🛡 Ahamiyati: chanoq tubining \"langari\" - qinning orqa devori va bachadonni ushlashda muhim. U shikastlansa -> REKTOTSELE, prolaps, najas tuta olmaslik.\n\n🤰 Tug'ruqda oraliq tanasi cho'ziladi va yirtilishi mumkin; yirtilish darajalari:\n• 1 - teri/shilliq;\n• 2 - oraliq mushaklari (oraliq tanasi);\n• 3 - tashqi anal sfinkter;\n• 4 - anal kanal/to'g'ri ichak shilliq qavati.\n\n💡 Rasmda (Spalteholz) ayol oralig'i mushaklari pastdan: m. ischiocavernosus, m. bulbocavernosus, m. transversus perinei superficialis, m. sphincter ani externus, m. levator ani.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_32.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Episiotomy: median vs mediolateral",
+          "bandlar": [
+            "Incision to enlarge the vaginal opening during childbirth",
+            "Median: skin -> vaginal wall -> perineal body -> superficial transverse perineal",
+            "Median risks cutting the external anal sphincter",
+            "Mediolateral (45 degrees): cuts bulbospongiosus; more bleeding, more room"
+          ],
+          "izoh": "✂️ Epiziotomiya - tug'ruqda qin kirishini kengaytirish uchun ORALIQNI kesish.\n\nIkkalasi ham kichik jinsiy lablar YUGANCHASIDAN (frenulum labiorum minorum) boshlanadi.\n\n1️⃣ MEDIAN (o'rta chiziq bo'ylab) epiziotomiya:\n• to'g'ri pastga kesiladi: teri -> qin devori -> ORALIQ TANASI -> yuza ko'ndalang oraliq mushagi;\n• afzalligi: kam qon ketadi, oson tikiladi, kamroq og'riq;\n• kamchiligi: kesma davom etib ketsa, TASHQI ANAL SFINKTER (va to'g'ri ichak) beixtiyor kesilishi mumkin -> 3-4 darajali yirtilish, najas tuta olmaslik.\n\n2️⃣ MEDIOLATERAL epiziotomiya:\n• o'rta chiziqdan 45° burchak ostida yon tomonga kesiladi: teri -> qin devori -> m. BULBOSPONGIOSUS;\n• kamchiligi: KO'PROQ QON ketadi, og'riqliroq;\n• afzalligi: median kesmaga qaraganda KO'PROQ JOY beradi, anal sfinkterdan uzoq.\n\n💡 USMLE: hozir epiziotomiya muntazam qilinmaydi - faqat ko'rsatma bo'lsa (homila distressi, operativ tug'ruq).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_33.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Support of the pelvic viscera",
+          "bandlar": [
+            "Pelvic diaphragm and urogenital diaphragm",
+            "Perineal membrane and perineal body",
+            "Transverse cervical (cardinal) and uterosacral ligaments",
+            "Weakness -> uterine prolapse, cystocele or rectocele"
+          ],
+          "izoh": "🏗 Chanoq a'zolarini ushlab turuvchi tuzilmalar:\n\n1. CHANOQ DIAFRAGMASI (levator ani + m. coccygeus) - asosiy mushakli tub;\n2. UROGENITAL DIAFRAGMA (chuqur oraliq mushaklari);\n3. ORALIQ MEMBRANASI (membrana perinei);\n4. ORALIQ TANASI - markaziy \"langar\";\n5. KO'NDALANG BO'YIN (KARDINAL) va DUMG'AZA-BACHADON boylamlari - bachadon bo'yni va qin cho'qqisini ushlaydi.\n\n⚠️ Bu tuzilmalar ZAIFLASHSA (ko'p tug'ish, katta homila, qarilik, menopauza, semizlik, surunkali yo'tal):\n• bachadon qinga tushadi (bachadon PROLAPSI);\n• siydik pufagi qin old devoriga bo'rtadi (SISTOTSELE) - stress inkontinensiya bilan;\n• to'g'ri ichak qin orqa devoriga bo'rtadi (REKTOTSELE).\n\n💡 7-darsdagi prolaps kompartmentlari bilan bog'lang: oldingi - sistotsele, orqa - rekto/enterotsele, apikal - bachadon/qin gumbazi.\n\n🖼 Rasmda (Spalteholz) ayol oralig'i: bulbus vestibuli, glandula vestibularis major [Bartolin], trigonum urogenitale, m. transversus perinei profundus va superficialis, m. sphincter ani externus.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_34.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Pudendal nerve block",
+          "bandlar": [
+            "Pudendal nerve (S2-S4) crosses posterior to the ischial spine",
+            "Exits greater sciatic foramen, re-enters via lesser sciatic foramen",
+            "Ischial spine is the landmark for the block (transvaginal)",
+            "Anesthetizes the perineum for delivery or episiotomy repair"
+          ],
+          "izoh": "💉 Jinsiy nerv blokadasi (pudendal blok):\n\n⚡ Jinsiy nerv (n. pudendus, S2-S4) yo'li:\n• katta quymuch teshigidan (m. piriformis ostidan) chanoqdan chiqadi;\n• QUYMUCH O'SIG'I (spina ischiadica) va dumg'aza-o'siq boylamining ORQASIDAN aylanib o'tadi;\n• kichik quymuch teshigi orqali oraliqqa qaytib kiradi;\n• Alkok kanalida (pudendal kanal) oldinga yuradi va tarmoqlanadi: pastki to'g'ri ichak nervlari, oraliq nervi, olat/klitorning dorsal nervi.\n\n🎯 Blokada: anestetik nerv QUYMUCH O'SIG'I ORQASIDAN o'tadigan joyga yuboriladi - o'siq qin (yoki teri) orqali paypaslanadi va asosiy mo'ljal bo'ladi.\n\n✅ Natija: ORALIQ (vulva, qinning pastki qismi, anus atrofi) og'riqsizlanadi - qin orqali tug'ruq, akusherlik qisqichlari, epiziotomiya va uni tikishda.\n\n⚠️ Bachadon qisqarishi og'rig'ini (T10-L1 visseral tolalar) YO'QOTMAYDI - buning uchun epidural kerak.\n\n💡 Rasmda (Spalteholz) o'ng chanoq yarmi nervlari: plexus sacralis, plexus pudendus, n. pudendus, a. pudenda interna, m. levator ani, m. coccygeus.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d8_35.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        }
+      ],
+      "savollar": [
+        {
+          "vinyetka": "A 15-year-old boy wakes at night with sudden severe left scrotal pain and vomiting. The left testis is high-riding with a horizontal lie. Stroking the inner thigh does not elevate the testis, and lifting the testis does not relieve the pain.",
+          "savol": "What is the most appropriate next step?",
+          "javoblar": [
+            "Emergency surgery, bilateral orchiopexy",
+            "Oral antibiotics for epididymitis",
+            "Scrotal elevation and NSAIDs",
+            "Elective outpatient ultrasound",
+            "Needle aspiration of the scrotum"
+          ],
+          "togri": 0,
+          "izoh": "Moyak buralishi: kremaster refleksi yo'q, Prehn manfiy. 6 soat ichida ikki tomonlama orxiopeksiya; UTT kutib vaqt yo'qotilmaydi.",
+          "vinyetka_uz": "15 yoshli o'smir tunda chap yorg'oqdagi to'satdan kuchli og'riq va qusish bilan uyg'ondi. Chap moyak yuqori ko'tarilgan va gorizontal joylashgan. Sonning ichki yuzasi silanganda moyak ko'tarilmaydi, moyakni ko'tarish og'riqni kamaytirmaydi.",
+          "savol_uz": "Keyingi eng to'g'ri qadam qaysi?",
+          "javoblar_uz": [
+            "shoshilinch jarrohlik, ikki tomonlama orxiopeksiya",
+            "epididimitga og'iz antibiotigi",
+            "yorg'oqni ko'tarish va NSAID",
+            "rejali ambulator UTT",
+            "yorg'oqni igna bilan aspiratsiya"
+          ]
+        },
+        {
+          "vinyetka": "A 27-year-old man is evaluated for infertility. On standing there is a soft left scrotal mass that feels like a 'bag of worms', enlarges with Valsalva and decreases when supine. It does not transilluminate.",
+          "savol": "Why is this condition more common on the left?",
+          "javoblar": [
+            "Left gonadal vein joins renal vein at 90 degrees",
+            "Left testicular a. arises from renal a.",
+            "Left testis lies higher than the right",
+            "Left pampiniform plexus has no valves normally",
+            "Left gonadal vein drains directly into the IVC"
+          ],
+          "togri": 0,
+          "izoh": "Chap moyak venasi chap buyrak venasiga 90° burchakda quyiladi - oqim kam laminar, bosim yuqori -> chap varikotsele.",
+          "vinyetka_uz": "27 yoshli erkak bepushtlik bo'yicha tekshirilmoqda. Tik turganda chap yorg'oqda \"qurt to'la xalta\" kabi yumshoq massa bor, u Valsalvada kattalashadi va yotganda kichrayadi. Transillyuminatsiya bermaydi.",
+          "savol_uz": "Nega bu holat chap tomonda ko'proq uchraydi?",
+          "javoblar_uz": [
+            "chap vena buyrak venasiga 90° da quyiladi",
+            "chap moyak arteriyasi buyrak arteriyasidan",
+            "chap moyak o'ngdan baland",
+            "chap chigalda normalda klapan yo'q",
+            "chap gonadal vena VCI ga to'g'ridan quyiladi"
+          ]
+        },
+        {
+          "vinyetka": "A 58-year-old man has a new right-sided varicocele that does not decompress when he lies down. He also reports hematuria and weight loss. A right flank mass is palpable.",
+          "savol": "What is the most likely cause of the varicocele?",
+          "javoblar": [
+            "Renal cell carcinoma invading the renal vein and IVC",
+            "Nutcracker compression of the left renal vein",
+            "Inguinal hernia",
+            "Testicular seminoma",
+            "Patent processus vaginalis"
+          ],
+          "togri": 0,
+          "izoh": "O'ng moyak venasi to'g'ridan VCI ga quyiladi; o'ng varikotsele (yotganda kamaymaydigan) - VCI obstruksiyasi, masalan RCC ning vena ichiga o'sishi.",
+          "vinyetka_uz": "58 yoshli erkakda yotganda kamaymaydigan yangi o'ng varikotsele paydo bo'ldi. Shuningdek gematuriya va vazn yo'qotish bor. O'ng yon sohada massa paypaslanadi.",
+          "savol_uz": "Varikotselening eng ehtimoliy sababi nima?",
+          "javoblar_uz": [
+            "buyrak venasi va VCI ga o'sgan RCC",
+            "chap buyrak venasining nutcracker siqilishi",
+            "chov churrasi",
+            "moyak seminomasi",
+            "ochiq qin o'simtasi"
+          ]
+        },
+        {
+          "vinyetka": "A 6-month-old boy has a painless right scrotal swelling that is larger in the evening and smaller in the morning. The swelling transilluminates brightly, and the testis is normal.",
+          "savol": "What is the underlying cause?",
+          "javoblar": [
+            "Incomplete obliteration of the processus vaginalis",
+            "Dilated pampiniform plexus",
+            "Dilated duct of the epididymis",
+            "Germ cell tumor of the testis",
+            "Torsion of the appendix testis"
+          ],
+          "togri": 0,
+          "izoh": "Tug'ma (kommunikatsiyalanuvchi) gidrotsele - qin o'simtasi bekilmagan; chaqaloqlarda ko'p, ko'pi 1 yoshgacha o'tib ketadi.",
+          "vinyetka_uz": "6 oylik o'g'il bolada o'ng yorg'oqda og'riqsiz shish bor, u kechqurun kattaroq, ertalab kichikroq bo'ladi. Shish yorug'likni yaxshi o'tkazadi, moyak normal.",
+          "savol_uz": "Asosiy sabab nima?",
+          "javoblar_uz": [
+            "qin o'simtasining to'liq bekilmasligi",
+            "pampiniform chigal kengayishi",
+            "moyak ortig'i yo'li kengayishi",
+            "moyak germ-hujayrali o'smasi",
+            "moyak o'simtasi buralishi"
+          ]
+        },
+        {
+          "vinyetka": "A 40-year-old man notes a painless lump in the scrotum. Exam shows a 1.5-cm fluctuant nodule above and separate from a normal testis, at the head of the epididymis. It transilluminates; aspiration yields milky fluid with sperm.",
+          "savol": "What is the most likely diagnosis?",
+          "javoblar": [
+            "Spermatocele",
+            "Hydrocele",
+            "Varicocele",
+            "Seminoma",
+            "Hematocele"
+          ],
+          "togri": 0,
+          "izoh": "Spermatotsele - moyak ortig'i yo'li yoki rete testis kistasi: moyakdan alohida, ortiq boshida, transillyuminatsiya beradi, ichida sperma.",
+          "vinyetka_uz": "40 yoshli erkak yorg'oqda og'riqsiz tugun sezdi. Ko'rikda normal moyakdan yuqorida va undan alohida, moyak ortig'i boshida 1,5 sm fluktuatsiyali tugun. U yorug'lik o'tkazadi; aspiratsiyada spermali sutsimon suyuqlik.",
+          "savol_uz": "Eng ehtimoliy tashxis qaysi?",
+          "javoblar_uz": [
+            "spermatotsele",
+            "gidrotsele",
+            "varikotsele",
+            "seminoma",
+            "gematotsele"
+          ]
+        },
+        {
+          "vinyetka": "A 29-year-old man has had a left inguinal undescended testis since childhood. Semen analysis shows oligospermia. Serum FSH is elevated and inhibin B is low, while LH and testosterone are normal.",
+          "savol": "Which cell type is mainly impaired?",
+          "javoblar": [
+            "Sertoli cells",
+            "Leydig cells",
+            "Spermatozoa in the epididymis",
+            "Theca interna cells",
+            "Gonadotrophs of the pituitary"
+          ],
+          "togri": 0,
+          "izoh": "Sertoli hujayralari haroratga sezgir: kriptorxizmda spermatogenez va ingibin B kamayadi, FSH oshadi; Leydig (testosteron) normal.",
+          "vinyetka_uz": "29 yoshli erkakda bolalikdan chap chovda tushmagan moyak bor. Spermogrammada oligospermiya. Qonda FSH yuqori, ingibin B past, LH va testosteron esa normal.",
+          "savol_uz": "Asosan qaysi hujayra turi zararlangan?",
+          "javoblar_uz": [
+            "Sertoli hujayralari",
+            "Leydig hujayralari",
+            "ortiqdagi spermatozoidlar",
+            "teka interna hujayralari",
+            "gipofiz gonadotroflari"
+          ]
+        },
+        {
+          "vinyetka": "A 25-year-old bodybuilder injects anabolic steroids for 2 years. He now has small, soft testes and a very low sperm count.",
+          "savol": "Which change best explains his low sperm count?",
+          "javoblar": [
+            "Suppressed LH lowers intratesticular testosterone",
+            "Testosterone destroys Sertoli tight junctions",
+            "Raised FSH damages spermatogonia",
+            "Testosterone directly kills spermatids",
+            "High inhibin B stimulates FSH"
+          ],
+          "togri": 0,
+          "izoh": "Ekzogen testosteron LH va FSH ni bosadi -> Leydig hujayralari kam ishlaydi, kanalcha ichidagi testosteron tushadi -> spermatogenez to'xtaydi, moyak kichrayadi.",
+          "vinyetka_uz": "25 yoshli bodibilder 2 yil davomida anabolik steroidlar ukol qilgan. Hozir moyaklari kichik va yumshoq, spermatozoidlar soni juda past.",
+          "savol_uz": "Spermatozoidlar kamligini qaysi o'zgarish yaxshiroq tushuntiradi?",
+          "javoblar_uz": [
+            "LH bosilib moyak ichi testosteroni kamayadi",
+            "Sertoli zich tutashmalari buziladi",
+            "yuqori FSH spermatogoniyalarni shikastlaydi",
+            "testosteron spermatidalarni o'ldiradi",
+            "yuqori ingibin B FSH ni oshiradi"
+          ]
+        },
+        {
+          "vinyetka": "A 62-year-old man with chest pain takes sublingual nitroglycerin. He asks whether he can also take a drug for erectile dysfunction that works by preventing breakdown of the second messenger mediating erection.",
+          "savol": "Why is this combination dangerous?",
+          "javoblar": [
+            "Both raise cGMP and cause severe hypotension",
+            "Both block alpha-1 receptors",
+            "Both raise intracellular calcium",
+            "Both inhibit nitric oxide synthase",
+            "Both cause coronary vasospasm"
+          ],
+          "togri": 0,
+          "izoh": "PDE-5 ingibitori cGMP parchalanishini to'xtatadi, nitratlar NO orqali cGMP ni oshiradi -> birga og'ir gipotenziya.",
+          "vinyetka_uz": "Ko'krak og'rig'i bo'lgan 62 yoshli erkak til ostiga nitroglitserin qabul qiladi. U ereksiyani ta'minlovchi ikkilamchi vositachining parchalanishini to'xtatuvchi erektil disfunksiya dorisini ham ichsa bo'ladimi, deb so'raydi.",
+          "savol_uz": "Nega bu birikma xavfli?",
+          "javoblar_uz": [
+            "ikkalasi cGMP ni oshirib og'ir gipotenziya beradi",
+            "ikkalasi alfa-1 ni bloklaydi",
+            "ikkalasi hujayra kalsiyini oshiradi",
+            "ikkalasi NO-sintazani bloklaydi",
+            "ikkalasi koronar spazm beradi"
+          ]
+        },
+        {
+          "vinyetka": "A 30-year-old man undergoes retroperitoneal lymph node dissection for testicular cancer. Afterward he has normal erections and orgasm but no antegrade ejaculate; urine after orgasm contains sperm.",
+          "savol": "Injury to which nerves explains this?",
+          "javoblar": [
+            "Sympathetic fibers (hypogastric, T11-L2)",
+            "Pelvic splanchnic nerves (S2-S4)",
+            "Pudendal nerve",
+            "Genitofemoral nerve",
+            "Obturator nerve"
+          ],
+          "togri": 0,
+          "izoh": "Emissiya va ichki sfinkter yopilishi - simpatik (gipogastral, T11-L2). Ular shikastlansa - retrograd eyakulyatsiya; ereksiya (parasimpatik) saqlanadi.",
+          "vinyetka_uz": "30 yoshli erkakka moyak saratoni sababli retroperitoneal limfa tugunlari olib tashlandi. Keyin ereksiya va orgazm normal, lekin sperma tashqariga chiqmaydi; orgazmdan keyingi siydikda spermatozoidlar bor.",
+          "savol_uz": "Qaysi nervlar shikastlanishi buni tushuntiradi?",
+          "javoblar_uz": [
+            "simpatik tolalar (gipogastral, T11-L2)",
+            "chanoq splanxnik nervlari (S2-S4)",
+            "jinsiy nerv",
+            "son-jinsiy nerv",
+            "yopqich nerv"
+          ]
+        },
+        {
+          "vinyetka": "A 68-year-old man has nocturia, hesitancy and a weak stream. Digital rectal exam reveals a smooth, symmetric, rubbery enlarged prostate. Total PSA is mildly elevated with a high free PSA fraction.",
+          "savol": "Which zone of the prostate is primarily involved?",
+          "javoblar": [
+            "Transition (periurethral) zone",
+            "Peripheral zone",
+            "Central zone",
+            "Anterior fibromuscular stroma",
+            "Seminal colliculus"
+          ],
+          "togri": 0,
+          "izoh": "BPH tranzitor (periuretral) zonada boshlanadi va kanalni erta bosadi; erkin PSA ulushi yuqori. Saraton - periferik zonada.",
+          "vinyetka_uz": "68 yoshli erkakda nokturiya, siyishni boshlash qiyinligi va kuchsiz oqim bor. To'g'ri ichak orqali tekshiruvda silliq, simmetrik, rezinasimon kattalashgan prostata. Umumiy PSA biroz oshgan, erkin PSA ulushi yuqori.",
+          "savol_uz": "Prostataning qaysi zonasi asosan zararlangan?",
+          "javoblar_uz": [
+            "tranzitor (periuretral) zona",
+            "periferik zona",
+            "markaziy zona",
+            "oldingi fibromushakli stroma",
+            "urug' do'mbog'i"
+          ]
+        },
+        {
+          "vinyetka": "A 70-year-old man with benign prostatic hyperplasia and hypertension wants a drug that will improve his urinary flow within days by relaxing smooth muscle of the prostate and bladder neck.",
+          "savol": "Which drug is most appropriate?",
+          "javoblar": [
+            "Terazosin",
+            "Finasteride",
+            "Leuprolide",
+            "Flutamide",
+            "Oxybutynin"
+          ],
+          "togri": 0,
+          "izoh": "Alfa-1 blokator (terazozin) prostata va pufak bo'yni silliq mushagini tez bo'shashtiradi va bosimni ham tushiradi. Finasterid sekin (oylar).",
+          "vinyetka_uz": "BPH va gipertenziyasi bor 70 yoshli erkak prostata va pufak bo'yni silliq mushagini bo'shashtirib, bir necha kunda siydik oqimini yaxshilovchi dori istaydi.",
+          "savol_uz": "Qaysi dori eng to'g'ri?",
+          "javoblar_uz": [
+            "terazozin",
+            "finasterid",
+            "leyprolid",
+            "flutamid",
+            "oksibutinin"
+          ]
+        },
+        {
+          "vinyetka": "A 72-year-old man has low back pain. Digital rectal exam shows a hard, irregular nodule in the posterior prostate. PSA is 48 ng/mL and alkaline phosphatase is elevated. Imaging shows sclerotic lesions in the lumbar spine.",
+          "savol": "Which is the most appropriate hormonal treatment?",
+          "javoblar": [
+            "Continuous leuprolide + androgen receptor blocker",
+            "Pulsatile GnRH",
+            "Finasteride alone",
+            "Tamsulosin",
+            "Exogenous testosterone"
+          ],
+          "togri": 0,
+          "izoh": "Metastatik prostata saratoni - androgen deprivatsiyasi: uzluksiz GnRH agonisti (leyprolid) LH/FSH ni bosadi; boshidagi flare uchun flutamid qo'shiladi.",
+          "vinyetka_uz": "72 yoshli erkakda bel og'rig'i bor. To'g'ri ichak orqali tekshiruvda prostata orqa qismida qattiq, notekis tugun. PSA 48 ng/mL, ishqoriy fosfataza oshgan. Tasvirda bel umurtqalarida sklerotik o'choqlar.",
+          "savol_uz": "Eng to'g'ri gormonal davo qaysi?",
+          "javoblar_uz": [
+            "uzluksiz leyprolid + antiandrogen",
+            "pulsatil GnRH",
+            "faqat finasterid",
+            "tamsulozin",
+            "ekzogen testosteron"
+          ]
+        },
+        {
+          "vinyetka": "A 24-year-old man is brought after a car crash in which he was wearing a seatbelt with a full bladder. He has suprapubic pain and hematuria. Two days later BUN and creatinine are rising although renal ultrasound is normal.",
+          "savol": "Where has the urine most likely collected?",
+          "javoblar": [
+            "Peritoneal cavity",
+            "Retropubic space",
+            "Superficial perineal space",
+            "Ischioanal fossa",
+            "Scrotum"
+          ],
+          "togri": 0,
+          "izoh": "To'la pufakka zarba -> eng zaif gumbaz yoriladi -> siydik qorin bo'shlig'iga; qorin parda siydikni so'rib BUN/kreatininni oshiradi.",
+          "vinyetka_uz": "24 yoshli erkak avtohalokatdan keyin olib kelindi; u xavfsizlik kamarini taqqan va pufagi to'la bo'lgan. Qov usti og'rig'i va gematuriya bor. Ikki kundan so'ng buyrak UTT normal bo'lsa ham BUN va kreatinin oshmoqda.",
+          "savol_uz": "Siydik eng ehtimoliy qayerga yig'ilgan?",
+          "javoblar_uz": [
+            "qorin bo'shlig'i",
+            "qov orti bo'shlig'i",
+            "yuza oraliq bo'shlig'i",
+            "quymuch-anal chuqurcha",
+            "yorg'oq"
+          ]
+        },
+        {
+          "vinyetka": "A 35-year-old man has a pelvic fracture after a motorcycle accident. He cannot void and there is blood at the urethral meatus. On rectal exam the prostate is high-riding.",
+          "savol": "Which management step is relatively contraindicated before imaging?",
+          "javoblar": [
+            "Urethral (Foley) catheterization",
+            "Retrograde urethrography",
+            "Suprapubic cystostomy",
+            "Pelvic binder",
+            "CT of the pelvis"
+          ],
+          "togri": 0,
+          "izoh": "Orqa uretra (bulbomembranoz) uzilishi: meatusda qon, baland prostata. Avval retrograd uretrografiya; uretral kateter nisbiy qarshi ko'rsatma.",
+          "vinyetka_uz": "35 yoshli erkakda mototsikl halokatidan keyin chanoq sinishi bor. U siya olmaydi va siydik chiqarish teshigida qon bor. To'g'ri ichak orqali tekshiruvda prostata yuqori ko'tarilgan.",
+          "savol_uz": "Tasvirdan oldin qaysi qadam nisbiy qarshi ko'rsatma?",
+          "javoblar_uz": [
+            "uretral (Foley) kateter qo'yish",
+            "retrograd uretrografiya",
+            "qov usti sistostomiya",
+            "chanoq bog'lami",
+            "chanoq KT si"
+          ]
+        },
+        {
+          "vinyetka": "A 12-year-old boy falls astride a metal fence. He has blood at the meatus and a scrotal hematoma. Over hours, swelling spreads into the penis, scrotum and lower anterior abdominal wall but not into the thighs.",
+          "savol": "Which part of the urethra is injured?",
+          "javoblar": [
+            "Bulbar (spongy) urethra",
+            "Membranous urethra",
+            "Prostatic urethra",
+            "Bladder neck",
+            "Intramural urethra"
+          ],
+          "togri": 0,
+          "izoh": "Straddle jarohati - bulbar (g'ovak) qism; Bak fassiyasi yirtilsa siydik yuza oraliqqa, Kolles fassiyasi ostida qorin devoriga tarqaladi, songa emas.",
+          "vinyetka_uz": "12 yoshli bola metall panjaraga minib yiqildi. Siydik chiqarish teshigida qon va yorg'oq gematomasi bor. Bir necha soatda shish olat, yorg'oq va qorin old devorining pastki qismiga tarqaldi, lekin sonlarga o'tmadi.",
+          "savol_uz": "Siydik chiqarish kanalining qaysi qismi jarohatlangan?",
+          "javoblar_uz": [
+            "bulbar (g'ovak) qism",
+            "parda (membranoz) qism",
+            "prostata qismi",
+            "pufak bo'yni",
+            "devor ichidagi qism"
+          ]
+        },
+        {
+          "vinyetka": "During vaginal delivery, a midline episiotomy is performed. The incision extends further than intended, and the patient later develops fecal incontinence.",
+          "savol": "Which muscle was most likely cut?",
+          "javoblar": [
+            "External anal sphincter",
+            "Bulbospongiosus",
+            "Ischiocavernosus",
+            "Obturator internus",
+            "Piriformis"
+          ],
+          "togri": 0,
+          "izoh": "Median epiziotomiya oraliq tanasi orqali o'tadi; davom etsa tashqi anal sfinkter kesiladi -> najas tuta olmaslik. Mediolateral - bulbospongiosus.",
+          "vinyetka_uz": "Qin orqali tug'ruqda median epiziotomiya qilindi. Kesma mo'ljaldagidan uzoqqa davom etdi va keyin bemorda najas tuta olmaslik paydo bo'ldi.",
+          "savol_uz": "Qaysi mushak eng ehtimoliy kesilgan?",
+          "javoblar_uz": [
+            "tashqi anal sfinkter",
+            "bulbospongiosus",
+            "ischiocavernosus",
+            "ichki yopqich mushak",
+            "noksimon mushak"
+          ]
+        },
+        {
+          "vinyetka": "To provide perineal anesthesia for a forceps delivery, an obstetrician palpates a bony landmark through the lateral vaginal wall and injects local anesthetic just posterior to it.",
+          "savol": "Which landmark is palpated?",
+          "javoblar": [
+            "Ischial spine",
+            "Ischial tuberosity",
+            "Pubic tubercle",
+            "Sacral promontory",
+            "Coccyx"
+          ],
+          "togri": 0,
+          "izoh": "Jinsiy nerv (S2-S4) quymuch o'sig'i orqasidan aylanib o'tadi - pudendal blokadada o'siq qin orqali paypaslanib mo'ljal qilinadi.",
+          "vinyetka_uz": "Akusherlik qisqichlari bilan tug'ruqda oraliqni og'riqsizlantirish uchun akusher qinning yon devori orqali suyak belgisini paypaslab, darhol uning orqasiga mahalliy anestetik yuboradi.",
+          "savol_uz": "Qaysi suyak belgisi paypaslanadi?",
+          "javoblar_uz": [
+            "quymuch o'sig'i",
+            "quymuch do'mbog'i",
+            "qov do'mbog'i",
+            "dumg'aza promontoriysi",
+            "dum suyagi"
+          ]
+        }
+      ],
+      "kartalar": [
+        {
+          "savol": "Ingibin B, ABP va MIF ni qaysi hujayralar ishlab chiqaradi?",
+          "javob": "Sertoli hujayralari (gomologi - granulyoza)"
+        },
+        {
+          "savol": "Testosteronni qaysi hujayralar va qaysi gormon ta'sirida ishlab chiqaradi?",
+          "javob": "Leydig hujayralari - LH ta'sirida (gomologi - teka interna)"
+        },
+        {
+          "savol": "Qon-moyak to'sig'ini nima hosil qiladi?",
+          "javob": "Sertoli hujayralari orasidagi zich tutashmalar (tight junctions)"
+        },
+        {
+          "savol": "Nega varikotsele ko'pincha chapda?",
+          "javob": "V. testicularis sinistra -> v. renalis sinistra (90° burchak)"
+        },
+        {
+          "savol": "Moyak saratoni qaysi limfa tugunlariga tarqaladi?",
+          "javob": "Nodi para-aortici - chovga emas"
+        },
+        {
+          "savol": "Ereksiya, emissiya va eyakulyatsiya nervlari?",
+          "javob": "Parasimpatik S2-S4; simpatik T11-L2; n. pudendus"
+        },
+        {
+          "savol": "Moyak buralishining ikki asosiy klinik belgisi?",
+          "javob": "Kremaster refleksi yo'q; Prehn belgisi manfiy"
+        },
+        {
+          "savol": "Eyakulyatning ~70% ini qaysi bez beradi va asosiy energiya manbai nima?",
+          "javob": "Vesiculae seminales - fruktoza"
+        },
+        {
+          "savol": "BPH va prostata saratoni qaysi zonalarda boshlanadi?",
+          "javob": "BPH - tranzitor zona; saraton - periferik (orqa) zona"
+        },
+        {
+          "savol": "Siydik pufagining eng zaif qismi qaysi va yorilsa siydik qayerga oqadi?",
+          "javob": "Gumbaz (dome) - qorin bo'shlig'iga (intraperitoneal)"
+        },
+        {
+          "savol": "Chanoq sinishida siydik chiqarish kanalining qaysi joyi uziladi?",
+          "javob": "Bulbomembranoz tutashma - siydik qov orti bo'shlig'iga"
+        },
+        {
+          "savol": "Pudendal blokada uchun mo'ljal qaysi?",
+          "javob": "Spina ischiadica - quymuch o'sig'i (nerv uning orqasidan o'tadi)"
+        }
+      ],
+      "rasm_testlar": [
+        {
+          "fayl": "usmle_rasmlar/t8_01.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain",
+          "savol": "Prostata, urug' yo'llari va pufakchalar (oldindan-yuqoridan). '?' bilan belgilangan, eyakulyatning ~70% ini beruvchi bez qaysi?",
+          "javoblar": [
+            "Vesicula seminalis - urug' pufakchasi",
+            "Glandula bulbourethralis - Kuper bezi",
+            "Ampulla ductus deferentis - urug' yo'li ampulasi",
+            "Prostata - prostata bezi"
+          ],
+          "togri": 0,
+          "izoh": "Urug' pufakchasi fruktoza, sitrat va prostaglandinlarga boy sekret beradi; yo'li urug' yo'li bilan qo'shilib otiluvchi yo'lni hosil qiladi."
+        },
+        {
+          "fayl": "usmle_rasmlar/t8_02.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain",
+          "savol": "O'ng moyak va urug' tizimchasi (lateraldan, ochilgan). '?' bilan belgilangan, kengaysa varikotsele beradigan tuzilma qaysi?",
+          "javoblar": [
+            "Plexus pampiniformis - uzumsimon vena chigali",
+            "A. testicularis - moyak arteriyasi",
+            "Ductus deferens - urug' yo'li",
+            "M. cremaster - moyakni ko'taruvchi mushak"
+          ],
+          "togri": 0,
+          "izoh": "Pampiniform chigal moyak arteriyasini sovutadi; venoz bosim oshsa kengayib varikotsele beradi (ko'pincha chapda)."
+        },
+        {
+          "fayl": "usmle_rasmlar/t8_03.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain",
+          "savol": "Erkak urogenital uchburchagi mushaklari (pastdan). '?' bilan belgilangan, siydik chiqarish kanalining parda qismini o'rab turgan ixtiyoriy mushak qaysi?",
+          "javoblar": [
+            "M. sphincter urethrae - siydik chiqarish kanali sfinkteri",
+            "M. transversus perinei profundus - chuqur ko'ndalang oraliq mushagi",
+            "M. bulbospongiosus - piyozcha-g'ovak mushak",
+            "M. levator ani - anusni ko'taruvchi mushak"
+          ],
+          "togri": 0,
+          "izoh": "Siydik chiqarish kanali sfinkteri urogenital diafragmada - tashqi (ixtiyoriy) uretral sfinkter, n. pudendus innervatsiyasi, siydik tutishni ta'minlaydi."
+        }
+      ],
+      "xulosa": [
+        "Sertoli: ingibin B, ABP, MIF, aromataza, qon-moyak to'sig'i; haroratga sezgir, FSH bilan ishlaydi (gomologi granulyoza).",
+        "Leydig: LH ta'sirida testosteron, haroratga sezgir emas (gomologi teka interna).",
+        "Chap gonadal vena chap buyrak venasiga 90° da quyiladi - varikotsele chapda; o'ng varikotsele - VCI obstruksiyasi (RCC).",
+        "Moyak/tuxumdon limfasi - paraaortal; prostata - ichki yonbosh; yorg'oq - yuza chov; glans - chuqur chov tugunlari.",
+        "Point (parasimpatik S2-S4, NO-cGMP), squeeze (simpatik T11-L2), shoot (n. pudendus); PDE-5 + nitrat = gipotenziya.",
+        "Moyak buralishi: bell clapper, kremaster refleksi yo'q, Prehn manfiy - 6 soatda ikki tomonlama orxiopeksiya.",
+        "Gidrotsele va spermatotsele transillyuminatsiya beradi; varikotsele va o'sma bermaydi.",
+        "Urug' pufakchalari eyakulyatning ~70% i (fruktoza); otiluvchi yo'l prostata qismiga urug' do'mbog'ida ochiladi.",
+        "BPH - tranzitor zona (alfa-1 blokator, finasterid); saraton - periferik zona, osteoblastik metastaz, uzluksiz leyprolid.",
+        "Pufak gumbazi - intraperitoneal; chanoq sinishi - ekstraperitoneal/orqa uretra; straddle - bulbar uretra; pudendal blok - quymuch o'sig'i."
+      ]
     }
   ]
 }
