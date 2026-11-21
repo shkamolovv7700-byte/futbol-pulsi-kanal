@@ -481,127 +481,11 @@
     "Serxio Ramos La Ligaga qaytishi mumkin — manba",
     "O‘zbekiston­dan ikkita gol o‘tkazgan darvozabon zo‘r murabbiy bo‘lmoqchi"
   ],
-  "last_slot": "2026-11-21 15:30",
+  "last_slot": "2026-11-21 22:30",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
   "table_idx": 5,
   "live": {
-    "401915396": {
-      "goals": [
-        "166-2332.0",
-        "166-2334.0",
-        "166-417.0",
-        "432-2587.0",
-        "432-3093.0",
-        "432-3095.0",
-        "432-3610.0",
-        "432-3611.0",
-        "432-65.0"
-      ],
-      "ft": true,
-      "score": [
-        2,
-        4
-      ],
-      "lag": 0
-    },
-    "401915394": {
-      "goals": [
-        "362-1323.0",
-        "362-2172.0",
-        "362-3686.0",
-        "510-5005.0"
-      ],
-      "ft": true,
-      "score": [
-        3,
-        1
-      ],
-      "lag": 0
-    },
-    "401915312": {
-      "goals": [
-        "132-2062.0",
-        "132-2063.0",
-        "132-3609.0",
-        "359-1455.0",
-        "359-4874.0"
-      ],
-      "ft": true,
-      "score": [
-        2,
-        2
-      ],
-      "lag": 0
-    },
-    "401915388": {
-      "goals": [
-        "570-2700.0",
-        "570-2956.0",
-        "570-4274.0"
-      ],
-      "ft": true,
-      "score": [
-        3,
-        0
-      ],
-      "lag": 0
-    },
-    "401915390": {
-      "goals": [
-        "110-4587.0",
-        "110-4588.0"
-      ],
-      "ft": true,
-      "score": [
-        1,
-        0
-      ],
-      "lag": 0
-    },
-    "401915389": {
-      "goals": [
-        "244-3535.0"
-      ],
-      "ft": true,
-      "score": [
-        1,
-        0
-      ],
-      "lag": 0
-    },
-    "401915313": {
-      "goals": [
-        "11420-5050.0",
-        "86-2580.0",
-        "86-2581.0",
-        "86-3085.0",
-        "86-4951.0",
-        "86-5188.0"
-      ],
-      "ft": true,
-      "score": [
-        4,
-        1
-      ],
-      "lag": 0
-    },
-    "401915391": {
-      "goals": [
-        "2250-255.0",
-        "2250-5323.0",
-        "4411-3722.0",
-        "4411-3723.0",
-        "4411-4029.0",
-        "4411-868.0"
-      ],
-      "ft": true,
-      "score": [
-        2,
-        3
-      ],
-      "lag": 0
-    },
     "401915547": {
       "goals": [
         "111-298.0",
@@ -1583,6 +1467,105 @@
         1
       ],
       "lag": 0
+    },
+    "401879233": {
+      "goals": [
+        "370-949.0",
+        "382-3417.0"
+      ],
+      "ft": true,
+      "score": [
+        1,
+        1
+      ],
+      "lag": 0
+    },
+    "401879236": {
+      "goals": [
+        "357-1622.0",
+        "357-3138.0",
+        "357-3476.0",
+        "357-5400.0",
+        "363-1451.0"
+      ],
+      "ft": true,
+      "score": [
+        1,
+        4
+      ],
+      "lag": 0
+    },
+    "401878754": {
+      "goals": [
+        "367-3060.0",
+        "367-859.0"
+      ],
+      "ft": true,
+      "score": [
+        2,
+        0
+      ],
+      "lag": 0
+    },
+    "401879232": {
+      "goals": [
+        "359-1969.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
+    },
+    "401874967": {
+      "goals": [
+        "104-2310.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
+    },
+    "401884735": {
+      "goals": [
+        "131-2819.0",
+        "131-3038.0",
+        "131-3523.0",
+        "131-801.0"
+      ],
+      "ft": true,
+      "score": [
+        4,
+        0
+      ],
+      "lag": 0
+    },
+    "401884731": {
+      "goals": [
+        "124-4786.0"
+      ],
+      "ft": true,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
+    },
+    "401876398": {
+      "goals": [
+        "160-1842.0",
+        "160-1897.0",
+        "2502-444.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        2
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1590,7 +1573,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 891,
+    "last_id": 895,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
@@ -2437,6 +2420,11 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sergio_Ramos_Interview_2021_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Real Madrid",
       "license": "CC BY 3.0"
+    },
+    "Eberechi Eze": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Eberechi_Eze_England_v_Ghana_23_June_2026-039.jpg/1280px-Eberechi_Eze_England_v_Ghana_23_June_2026-039.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
     }
   },
   "matchday": {
