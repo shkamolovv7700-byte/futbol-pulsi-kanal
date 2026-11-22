@@ -19,10 +19,12 @@
     "joriy": "postlar:7,8",
     "kun": "2026-11-22",
     "boshlanish": 0,
-    "urinish": 0,
+    "urinish": 1,
     "qoshimcha": 4,
     "oxirgi_vaqt": "2026-11-22T10:36",
-    "takrorlash_ok": 29
+    "takrorlash_ok": 29,
+    "oxirgi_xato": "2026-11-22 10:48 postlar:7,8 pos: ImageProcessFailedError('Failure while processing image (caused by UploadMediaRequest)')",
+    "keyingi_urinish": "2026-11-22T10:53"
   },
   "group_id": 3875410361,
   "moderator": {
