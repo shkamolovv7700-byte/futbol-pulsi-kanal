@@ -15,13 +15,13 @@
       "6:postlar",
       "aralash:5,6"
     ],
-    "pos": 50,
+    "pos": 51,
     "joriy": "postlar:7,8",
     "kun": "2026-11-22",
     "boshlanish": 0,
     "urinish": 0,
     "qoshimcha": 16,
-    "oxirgi_vaqt": "2026-11-22T18:34",
+    "oxirgi_vaqt": "2026-11-22T18:47",
     "takrorlash_ok": 29,
     "oxirgi_xato": "2026-11-22 14:41 postlar:7,8 pos: ImageProcessFailedError('Failure while processing image (caused by UploadMediaRequest)')"
   },
