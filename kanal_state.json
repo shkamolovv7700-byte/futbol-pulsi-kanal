@@ -486,57 +486,6 @@
   "last_video_source": "Serie A",
   "table_idx": 5,
   "live": {
-    "401915547": {
-      "goals": [
-        "111-298.0",
-        "111-3990.0",
-        "111-3991.0",
-        "169-2531.0",
-        "169-850.0"
-      ],
-      "ft": true,
-      "score": [
-        2,
-        2
-      ],
-      "lag": 0
-    },
-    "401915559": {
-      "goals": [
-        "131-2046.0",
-        "131-2220.0"
-      ],
-      "ft": true,
-      "score": [
-        0,
-        2
-      ],
-      "lag": 0
-    },
-    "401915557": {
-      "goals": [
-        "3746-727.0"
-      ],
-      "ft": true,
-      "score": [
-        1,
-        0
-      ],
-      "lag": 0
-    },
-    "401915552": {
-      "goals": [
-        "349-1910.0",
-        "349-437.0",
-        "349-4998.0"
-      ],
-      "ft": true,
-      "score": [
-        3,
-        0
-      ],
-      "lag": 0
-    },
     "401879256": {
       "goals": [
         "362-354.0",
@@ -1566,6 +1515,64 @@
         2
       ],
       "lag": 0
+    },
+    "401878755": {
+      "goals": [
+        "364-3911.0",
+        "364-4906.0",
+        "364-594.0",
+        "364-760.0"
+      ],
+      "ft": true,
+      "score": [
+        4,
+        0
+      ],
+      "lag": 0
+    },
+    "401882804": {
+      "goals": [
+        "102-242.0",
+        "102-370.0",
+        "83-3385.0",
+        "83-3612.0",
+        "83-3968.0"
+      ],
+      "ft": true,
+      "score": [
+        3,
+        2
+      ],
+      "lag": 0
+    },
+    "401875008": {
+      "goals": [
+        "111-3162.0",
+        "111-3493.0",
+        "111-3876.0",
+        "111-4238.0"
+      ],
+      "ft": true,
+      "score": [
+        4,
+        0
+      ],
+      "lag": 0
+    },
+    "401874989": {
+      "goals": [
+        "103-1132.0",
+        "103-194.0",
+        "103-2829.0",
+        "103-3592.0",
+        "4057-1494.0"
+      ],
+      "ft": false,
+      "score": [
+        4,
+        1
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1573,7 +1580,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 895,
+    "last_id": 902,
     "strikes": {},
     "reset_day": "2026-11-17"
   },
@@ -2430,7 +2437,23 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Harvey_Barnes_and_Rodrigo_Muniz_24052026_%281%29.jpg/1280px-Harvey_Barnes_and_Rodrigo_Muniz_24052026_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Timmy96",
       "license": "CC0"
-    }
+    },
+    "Rio Ngumoha": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Rio_Ngumoha_04012026_%286%29.jpg/1280px-Rio_Ngumoha_04012026_%286%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Timmy96",
+      "license": "CC0"
+    },
+    "Gonçalo Ramos": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Gon%C3%A7alo_Ramos_USMNT_v_Portugal_Mar_31_2026-32_%28cropped%29.jpg/1280px-Gon%C3%A7alo_Ramos_USMNT_v_Portugal_Mar_31_2026-32_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Patrizio Masini": null,
+    "Patrizio Masini (footballer)": null,
+    "Ardon Jashari": null,
+    "Ardon Jashari (footballer)": null,
+    "Víctor Muñoz": null,
+    "Víctor Muñoz (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
