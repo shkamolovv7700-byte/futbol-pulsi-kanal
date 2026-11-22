@@ -6583,6 +6583,1248 @@
         "BPH - tranzitor zona (alfa-1 blokator, finasterid); saraton - periferik zona, osteoblastik metastaz, uzluksiz leyprolid.",
         "Pufak gumbazi - intraperitoneal; chanoq sinishi - ekstraperitoneal/orqa uretra; straddle - bulbar uretra; pudendal blok - quymuch o'sig'i."
       ]
+    },
+    {
+      "nomi": "Yuqori muchal anatomiyasi (1-qism)",
+      "fan": "Anatomy",
+      "manba": "9-lesson._Upper_limb_anatomy_1-part.pdf",
+      "postlar": [
+        {
+          "sarlavha": "Upper limb: regions and overview",
+          "bandlar": [
+            "Regions: axilla, arm, cubital fossa, forearm, carpal tunnel, hand",
+            "Axilla: axillary artery/vein + cords of the brachial plexus",
+            "Cubital fossa (lateral -> medial): biceps tendon, brachial a., median n.",
+            "Carpal tunnel: median nerve + 9 flexor tendons"
+          ],
+          "izoh": "🦾 Yuqori muchal (qo'l) - umumiy ko'rinish:\n\nDars 5 bo'limdan iborat: harakatlar, suyaklar, arteriya va venalar, mushaklar, yelka chigali va nervlar.\n\n📍 Asosiy sohalar (yuqoridan pastga):\n• QO'LTIQ OSTI (axilla) - qo'ltiq arteriyasi va venasi hamda yelka chigalining tutamlari (fasciculi) o'tadigan piramidasimon bo'shliq;\n• YELKA (brachium) - oldingi (bukuvchi) va orqa (yozuvchi) kompartmentlar;\n• TIRSAK CHUQURCHASI (fossa cubitalis) - lateraldan medialga: ikki boshli mushak payi, yelka arteriyasi, o'rta nerv;\n• BILAK (antebrachium);\n• KAFT USTI KANALI (canalis carpi) - o'rta nerv va 9 ta bukuvchi pay;\n• PANJA (manus).\n\n💡 USMLE: deyarli barcha qo'l savollari \"qaysi nerv/arteriya, qaysi sathda shikastlangan?\" degan mantiqqa quriladi - shuning uchun har bir sohaning tarkibini bilish shart.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_01.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Shoulder movements",
+          "bandlar": [
+            "Flexion/extension: sagittal plane (forward/backward)",
+            "Abduction/adduction: frontal plane (away from / toward trunk)",
+            "Medial (internal) and lateral (external) rotation: long axis",
+            "Circumduction = combination of all movements (cone)"
+          ],
+          "izoh": "🔄 Yelka bo'g'imidagi harakatlar:\n\nYelka bo'g'imi - sharsimon bo'g'im, 3 o'q atrofida harakatlanadi:\n\n• BUKISH (flexio) - qo'l oldinga ko'tariladi; YOZISH (extensio) - orqaga (sagittal tekislik);\n• UZOQLASHTIRISH (abductio) - qo'l tanadan yon tomonga ko'tariladi; YAQINLASHTIRISH (adductio) - tanaga qaytadi (frontal tekislik);\n• ICHKI (medial) va TASHQI (lateral) ROTATSIYA - yelka suyagi o'z bo'ylama o'qi atrofida buriladi;\n• AYLANMA harakat (circumductio) - hamma harakatlar birikmasi, qo'l konus chizadi.\n\n🧠 Abduktsiya bosqichlari (USMLE sevadi):\n• 0-15° - supraspinatus;\n• 15-90° - deltasimon mushak (n. axillaris);\n• 90° dan yuqori - trapetsiyasimon va oldingi tishli mushak (kurakni buradi).\n\n💡 Shuning uchun n. axillaris shikastida qo'lni gorizontal holatgacha (15-90°) ko'tarish yo'qoladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_02.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Elbow and forearm movements: pronation and supination",
+          "bandlar": [
+            "Elbow: flexion and extension only (hinge)",
+            "Pronation: radius crosses over ulna, palm faces posteriorly",
+            "Supination: radius parallel to ulna, palm faces anteriorly",
+            "Occurs at proximal and distal radioulnar joints"
+          ],
+          "izoh": "💪 Tirsak va bilak harakatlari:\n\n🔸 Tirsak bo'g'imi (yelka-tirsak qismi) - g'altaksimon: faqat BUKISH va YOZISH.\n\n🔸 Bilak harakatlari - yuqori va pastki bilak-tirsak (radioulnar) bo'g'imlarida:\n• PRONATSIYA - bilak suyagi (radius) tirsak suyagi (ulna) ustidan kesishib o'tadi, kaft orqaga/pastga qaraydi;\n• SUPINATSIYA - ikki suyak parallel turadi, kaft oldinga/yuqoriga qaraydi (anatomik holat).\n\n⚙️ Harakatlantiruvchi mushaklar (darsdan):\n• pronatsiya - m. pronator teres va m. pronator quadratus (n. medianus);\n• supinatsiya - m. supinator (n. radialis) va m. biceps brachii (n. musculocutaneus) - bukilgan tirsakda eng kuchli supinator.\n\n🖼 Rasmda (Sobotta): radius - caput (capitulum), collum, tuberositas, processus styloideus; pastda - yuqori bilak-tirsak bo'g'imi (circumferentia articularis, incisura radialis).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_03.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
+          }
+        },
+        {
+          "sarlavha": "Wrist, finger and thumb movements; hand joints",
+          "bandlar": [
+            "Finger joints: CMC -> MCP -> PIP -> DIP",
+            "Finger abduction/adduction at MCP, axis = middle finger",
+            "Thumb is rotated 90°: flexion in plane of palm",
+            "Opposition occurs at the saddle CMC joint of the thumb"
+          ],
+          "izoh": "✋ Kaft usti, barmoq va bosh barmoq harakatlari:\n\n🦴 Bo'g'imlar (proksimaldan distalga):\n• CMC - kaft usti-kaft (carpometacarpal);\n• MCP - kaft-falanga;\n• PIP - proksimal falangalararo;\n• DIP - distal falangalararo (bosh barmoqda faqat bitta IP bo'g'im).\n\n🔸 Kaft usti (wrist): bukish, yozish, radial abduktsiya, ulnar adduktsiya.\n🔸 II-V barmoqlar: bukish/yozish (MCP, PIP, DIP); abduktsiya/adduktsiya MCP da - o'q O'RTA (III) barmoqdan o'tadi.\n\n👍 Bosh barmoq 90° ga burilgan:\n• bukish/yozish - kaft tekisligida;\n• abduktsiya/adduktsiya - kaftga perpendikulyar;\n• OPPOZITSIYA - egarsimon CMC I bo'g'imida (m. opponens pollicis).\n\n💡 Lumbrikal mushaklar: MCP ni bukadi, PIP va DIP ni yozadi (\"upstroke\" holati).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_04.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Humerus: landmarks and related nerves",
+          "bandlar": [
+            "Surgical neck: axillary nerve + posterior circumflex humeral a.",
+            "Radial groove (midshaft): radial nerve + profunda brachii a.",
+            "Supracondylar region: median nerve + brachial artery",
+            "Medial epicondyle (posterior groove): ulnar nerve"
+          ],
+          "izoh": "🦴 Yelka suyagi (humerus) va unga yopishgan nervlar:\n\nYuqori uchi: boshcha (caput humeri), anatomik bo'yin, katta va kichik do'mboqchalar, ular orasida - do'mboqlararo egat (ikki boshli mushak uzun boshi payi).\n\n📍 Klinik muhim nuqtalar:\n• JARROHLIK BO'YNI (collum chirurgicum) - n. axillaris va a. circumflexa humeri posterior o'ralib o'tadi;\n• tana o'rtasidagi BILAK NERVI EGATI (sulcus n. radialis) - n. radialis va a. profunda brachii;\n• SUPRAKONDILYAR soha - n. medianus va a. brachialis (bolalardagi suprakondilyar sinish!);\n• MEDIAL EPIKONDIL orqasidagi egat (sulcus n. ulnaris) - n. ulnaris (\"funny bone\").\n\n🧠 Eslab qolish: yelka suyagi sinishlari proksimaldan distalga A-R-M tartibida nervlarni shikastlaydi: Axillary -> Radial -> Median.\n\n🖼 Rasmda (Sobotta): collum chirurgicum, sulcus nervi radialis, epicondylus medialis, sulcus nervi ulnaris.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_05.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
+          }
+        },
+        {
+          "sarlavha": "Carpal bones",
+          "bandlar": [
+            "8 carpal bones in two rows of four",
+            "Proximal row (lat -> med): scaphoid, lunate, triquetrum, pisiform",
+            "Distal row (lat -> med): trapezium, trapezoid, capitate, hamate",
+            "Wrist joint: radius + scaphoid and lunate (ulna does not articulate)"
+          ],
+          "izoh": "🦴 Kaft usti suyaklari (ossa carpi) - 8 ta, ikki qator:\n\n1️⃣ PROKSIMAL qator (lateraldan medialga):\n• qayiqsimon (scaphoid; eski atlaslarda os naviculare);\n• yarim oysimon (lunate);\n• uch qirrali (triquetrum);\n• no'xatsimon (pisiform) - FCU payi ichidagi sesamoid suyak.\n\n2️⃣ DISTAL qator (lateraldan medialga):\n• trapetsiya (trapezium; os multangulum majus);\n• trapetsiyasimon (trapezoid; os multangulum minus);\n• boshchali (capitate) - eng katta;\n• ilmoqli (hamate) - ilmog'i bor (hamulus).\n\n🔸 Kaft usti (bilak-kaft usti) bo'g'imi: radius + qayiqsimon va yarim oysimon suyak; tirsak suyagi bevosita qatnashmaydi (diskning ostida).\n\n🧠 Mnemonika: \"Some Lovers Try Positions That They Can't Handle\".\n\n🖼 Rasmda (Sobotta, orqa ko'rinish): os naviculare, lunatum, triquetrum, multangulum majus/minus, capitatum, hamatum.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_06.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
+          }
+        },
+        {
+          "sarlavha": "Carpal landmarks and the carpal arch",
+          "bandlar": [
+            "Carpal bones form an arch concave anteriorly (carpal groove)",
+            "Medial pillars: pisiform and hook of hamate",
+            "Lateral pillars: tubercles of scaphoid and trapezium",
+            "Flexor retinaculum bridges the arch -> carpal tunnel"
+          ],
+          "izoh": "🌉 Kaft usti ravog'i va paypaslanadigan nuqtalar:\n\nKaft usti suyaklari oldinga botiq RAVOQ hosil qiladi. Uning ustidan ko'ndalang boylam - bukuvchilar retinakulumi (lig. carpi transversum) tortilib, ravoqni KANALGA aylantiradi.\n\n📍 Retinakulum yopishadigan 4 ta \"ustun\":\n• medialda - NO'XATSIMON suyak va ILMOQLI suyak ilmog'i (hamulus ossis hamati);\n• lateralda - QAYIQSIMON suyak do'mbog'i va TRAPETSIYA do'mbog'i.\n\n🩺 Klinik ahamiyat:\n• ilmoqli suyak ilmog'i sinishi (golf, beysbol, qo'lga yiqilish) - yonidan o'tuvchi n. ulnaris (Guyon kanali) shikastlanadi;\n• trapetsiya do'mbog'i - bosh barmoq tepaligi mushaklarining boshlanish joyi.\n\n🖼 Rasmda (Sobotta, kaft tomoni): os pisiforme, tuberculum ossis navicularis, tuberculum ossis multanguli majoris, processus styloideus radii et ulnae.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_07.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
+          }
+        },
+        {
+          "sarlavha": "Carpal tunnel: contents",
+          "bandlar": [
+            "Roof: flexor retinaculum; floor: carpal bones",
+            "Contents: median nerve + 4 FDS + 4 FDP + FPL tendons",
+            "Outside: ulnar n./a. (Guyon canal), palmaris longus",
+            "FCR runs in its own compartment of the retinaculum"
+          ],
+          "izoh": "🚇 Kaft usti kanali (canalis carpi) tarkibi:\n\n🔸 Tomi - bukuvchilar retinakulumi; tubi va devorlari - kaft usti suyaklari.\n\n✅ ICHIDA (10 ta tuzilma):\n• o'rta nerv (n. medianus) - eng yuzaki, retinakulum ostida;\n• barmoqlarning yuza bukuvchisi (FDS) - 4 ta pay;\n• barmoqlarning chuqur bukuvchisi (FDP) - 4 ta pay;\n• bosh barmoqning uzun bukuvchisi (FPL) - 1 ta pay.\n\n❌ TASHQARIDA:\n• tirsak nervi va arteriyasi - retinakulum USTIDAN, Guyon kanalida;\n• uzun kaft mushagi (palmaris longus) payi - retinakulum ustida;\n• FCR payi - retinakulumning o'z alohida bo'limida.\n\n💡 USMLE: karpal tunnel sindromida faqat o'rta nerv siqiladi, tirsak nervi zarar ko'rmaydi; kaft markazi sezgisi ko'pincha saqlanadi (teri shoxi retinakulum ustidan o'tadi).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_08.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Subclavian artery and its branches",
+          "bandlar": [
+            "Right: from brachiocephalic trunk; left: from aortic arch",
+            "Branches: vertebral, internal thoracic, thyrocervical trunk",
+            "Thyrocervical trunk -> suprascapular, transverse cervical a.",
+            "Becomes axillary artery at the lateral border of the 1st rib"
+          ],
+          "izoh": "🩸 O'mrov osti arteriyasi (a. subclavia):\n\n🔸 Boshlanishi: o'ngda - yelka-bosh poyasidan (truncus brachiocephalicus), chapda - bevosita aorta ravog'idan.\n\n🌿 Asosiy shoxlari:\n• UMURTQA arteriyasi (a. vertebralis) - bosh miyaning orqa qon aylanishi;\n• ICHKI KO'KRAK arteriyasi (a. thoracica interna / mammaria interna) - koronar shuntlash uchun ishlatiladi;\n• QALQONSIMON-BO'YIN poyasi (truncus thyrocervicalis) -> kurak usti (a. suprascapularis), bo'yinning ko'ndalang arteriyasi va boshqalar;\n• qovurg'a-bo'yin poyasi.\n\n📏 Birinchi qovurg'aning lateral chetida a. subclavia -> A. AXILLARIS deb ataladi.\n\n💡 Yelka chigali poyalari va a. subclavia oldingi va o'rta narvonsimon mushaklar orasidan o'tadi; v. subclavia esa oldingi narvonsimon mushak OLDIDAN o'tadi.\n\n🖼 Rasmda (Spalteholz): A. subclavia, a. vertebralis, truncus thyreocervicalis, a. transversa scapulae, a. mammaria interna, a. axillaris.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_09.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Axillary artery and its branches",
+          "bandlar": [
+            "From lateral border of 1st rib to lower border of teres major",
+            "Divided into 3 parts by pectoralis minor",
+            "Thoracoacromial, lateral thoracic, subscapular a.",
+            "Anterior and posterior circumflex humeral arteries"
+          ],
+          "izoh": "🩸 Qo'ltiq arteriyasi (a. axillaris):\n\n📏 1-qovurg'a lateral chetidan katta yumaloq mushak (teres major) pastki chetigacha; undan keyin - A. BRACHIALIS.\n\n🔸 Kichik ko'krak mushagi (pectoralis minor) uni 3 qismga bo'ladi:\n1️⃣ mushakdan yuqorida - a. thoracica superior (suprema);\n2️⃣ mushak ortida - a. THORACOACROMIALIS va a. THORACICA LATERALIS (ko'krak bezi uchun ham muhim);\n3️⃣ mushakdan pastda - a. SUBSCAPULARIS (eng yirik; -> a. thoracodorsalis va a. circumflexa scapulae), a. CIRCUMFLEXA HUMERI ANTERIOR va POSTERIOR.\n\n🧠 Mnemonika (1-2-3 shox): \"Screw The Lawyer Save A Patient\" - Superior thoracic, Thoracoacromial, Lateral thoracic, Subscapular, Anterior & Posterior circumflex humeral.\n\n💡 Qo'ltiq arteriyasi atrofida yelka chigalining 3 tutami (lateral, medial, posterior) joylashadi - nomlari arteriyaga nisbatan berilgan.\n\n🖼 Rasmda (Spalteholz): A. axillaris, a. thoracoacromialis, a. thoracalis lateralis, a. subscapularis, a. circumflexa scapulae.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_10.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Scapular anastomosis and circumflex humeral arteries",
+          "bandlar": [
+            "Anastomosis: suprascapular, dorsal scapular, circumflex scapular a.",
+            "Links subclavian and axillary a. -> collateral flow",
+            "Posterior circumflex humeral a. + axillary n.: quadrangular space",
+            "Both are injured in surgical neck fractures"
+          ],
+          "izoh": "🔁 Kurak atrofidagi anastomoz:\n\nKurak suyagi atrofida 3 ta arteriya o'zaro tutashadi:\n• kurak usti arteriyasi (a. suprascapularis) - truncus thyrocervicalisdan;\n• kurakning orqa (dorsal) arteriyasi (a. transversa colli chuqur shoxi);\n• kurakni aylanib o'tuvchi arteriya (a. circumflexa scapulae) - a. subscapularisdan.\n\n✅ Ahamiyati: a. subclavia yoki a. axillarisning proksimal qismi asta-sekin bekilganda, qon bu anastomoz orqali qo'lga yetib boradi (kollateral aylanish).\n\n🔸 Yelkani aylanib o'tuvchi orqa arteriya (a. circumflexa humeri posterior) n. axillaris bilan birga TO'RT TOMONLI teshikdan (teres minor, teres major, triceps uzun boshi va humerus orasida) o'tadi va jarrohlik bo'yni atrofini aylanadi.\n\n💡 USMLE: jarrohlik bo'yni sinishi -> n. axillaris + a. circumflexa humeri posterior shikasti.\n\n🖼 Rasmda (Spalteholz, orqadan): a. transversa scapulae, a. circumflexa scapulae, a. circumflexa humeri posterior.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_11.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Brachial artery and profunda brachii",
+          "bandlar": [
+            "Brachial a.: continuation of axillary a. below teres major",
+            "Profunda brachii runs with radial nerve in the radial groove",
+            "Superior and inferior ulnar collateral arteries -> elbow",
+            "Divides in cubital fossa into radial and ulnar arteries"
+          ],
+          "izoh": "🩸 Yelka arteriyasi (a. brachialis):\n\n🔸 Katta yumaloq mushak pastki chetidan boshlanadi, ikki boshli mushakning medial egatida n. medianus bilan birga pastga tushadi.\n\n🌿 Shoxlari:\n• YELKANING CHUQUR arteriyasi (a. profunda brachii) - n. RADIALIS bilan birga bilak nervi egatida (sulcus n. radialis) yelka suyagini aylanadi -> o'rta va radial kollateral arteriyalar;\n• yuqori va pastki ulnar kollateral arteriyalar - tirsak atrofi to'riga;\n• yelka suyagini oziqlantiruvchi arteriya.\n\n📍 Tirsak chuqurchasida (radius bo'yni sathida) a. brachialis -> A. RADIALIS va A. ULNARIS ga bo'linadi.\n\n🩺 Klinik:\n• suprakondilyar sinishda a. brachialis shikastlanishi -> bilak ishemiyasi, Volkmann ishemik kontrakturasi;\n• qon bosimi shu arteriya ustida o'lchanadi.\n\n🖼 Rasmda (Spalteholz): A. brachialis, a. profunda brachii, a. collateralis ulnaris superior/inferior, a. radialis, a. ulnaris.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_12.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Radial, ulnar and interosseous arteries",
+          "bandlar": [
+            "Radial a. runs laterally under brachioradialis",
+            "Ulnar a. is larger, gives the common interosseous artery",
+            "Common interosseous -> anterior and posterior interosseous",
+            "Recurrent branches form the elbow anastomosis"
+          ],
+          "izoh": "🩸 Bilak arteriyalari:\n\n🔸 BILAK arteriyasi (a. radialis):\n• bilakning lateral tomonida, yelka-bilak mushagi (brachioradialis) ostida;\n• pastda yuzaki yotadi - PULS shu yerda aniqlanadi;\n• a. recurrens radialis - tirsak to'riga.\n\n🔸 TIRSAK arteriyasi (a. ulnaris):\n• yirikroq, medial tomonda FCU ostida;\n• oldingi va orqa ulnar qaytuvchi arteriyalar;\n• UMUMIY SUYAKLARARO arteriya (a. interossea communis) -> OLDINGI (n. interosseus anterior bilan birga) va ORQA suyaklararo arteriyalar (suyaklararo parda oldi va orqasida).\n\n🔁 Tirsak atrofidagi anastomoz: a. brachialis kollaterallari + radial va ulnar qaytuvchi shoxlar.\n\n💡 Kaftga yetganda ikkala arteriya kaft ravoqlarini hosil qiladi (keyingi postlar).\n\n🖼 Rasmda (Spalteholz): a. radialis, a. ulnaris, a. interossea communis, a. interossea volaris, a. recurrens radialis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_13.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Superficial palmar arch",
+          "bandlar": [
+            "Formed mainly by the ulnar artery",
+            "Completed by the superficial palmar branch of the radial a.",
+            "Lies superficial to flexor tendons, under palmar aponeurosis",
+            "Gives common palmar digital arteries"
+          ],
+          "izoh": "🌈 Yuzaki kaft ravog'i (arcus palmaris superficialis):\n\n🔸 Asosan TIRSAK arteriyasi (a. ulnaris) davomidan hosil bo'ladi; lateral tomondan a. radialisning yuzaki kaft shoxi (ramus palmaris superficialis) bilan tutashadi.\n\n📍 Joylashuvi: kaft aponevrozi ostida, bukuvchi paylar USTIDA (yuzaki) - chuqur ravoqdan distalroq.\n\n🌿 Shoxlari: umumiy kaft barmoq arteriyalari (aa. digitales palmares communes) -> xususiy barmoq arteriyalari.\n\n🩺 Klinik:\n• kaftning chuqur kesilgan jarohatlarida kuchli qon ketadi (ikki tomondan to'ladi);\n• Allen testi aynan kaft ravog'i orqali a. ulnaris va a. radialis o'zaro tutashganini tekshiradi.\n\n🧠 Eslab qolish: Yuzaki = Ulnar (ikkalasida ham \"U\"), chuqur = Radial.\n\n🖼 Rasmda (Spalteholz): arcus volaris superficialis, a. ulnaris, ramus volaris superficialis a. radialis, aa. digitales volares communes.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_14.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Deep palmar arch",
+          "bandlar": [
+            "Formed mainly by the radial artery",
+            "Completed by the deep palmar branch of the ulnar artery",
+            "Lies on metacarpal bases, deep to flexor tendons",
+            "Gives palmar metacarpal arteries; runs with deep ulnar nerve"
+          ],
+          "izoh": "🌈 Chuqur kaft ravog'i (arcus palmaris profundus):\n\n🔸 Asosan BILAK arteriyasi (a. radialis) dan hosil bo'ladi: a. radialis bilak orqasidan \"anatomik tamakidon\" orqali o'tib, birinchi orqa suyaklararo mushak boshlari orasidan kaftga chiqadi; medialda a. ulnarisning chuqur shoxi bilan tutashadi.\n\n📍 Joylashuvi: kaft suyaklari asoslari ustida, bukuvchi paylar ORTIDA, yuzaki ravoqdan proksimalroq.\n\n🌿 Shoxlari:\n• kaft-kaft (palmar metacarpal) arteriyalari;\n• teshib o'tuvchi (perforant) shoxlar - panja orqasiga;\n• bosh barmoqning asosiy arteriyasi.\n\n💡 Chuqur ravoq bilan birga n. ulnarisning CHUQUR shoxi yotadi.\n\n🖼 Rasmda (Spalteholz, chuqur qavat): arcus volaris profundus, a. radialis, ramus volaris profundus a. ulnaris, rami perforantes, aa. metacarpeae volares.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_15.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Subclavian steal syndrome",
+          "bandlar": [
+            "Stenosis of subclavian a. proximal to the vertebral a.",
+            "Reversed flow in ipsilateral vertebral a. on arm exercise",
+            "Arm ischemia, pain, paresthesia + dizziness, vertigo",
+            ">15 mm Hg difference in systolic BP between the arms"
+          ],
+          "izoh": "⚠️ O'mrov osti \"o'g'irlash\" sindromi (subclavian steal):\n\n🔸 Mexanizm:\n1. a. subclavia umurtqa arteriyasi boshlanishidan PROKSIMALDA torayadi;\n2. stenozdan distalda bosim pasayadi;\n3. qo'l ishlaganda qon qarshi tomondagi a. vertebralis -> a. basilaris -> shu tomondagi a. vertebralis orqali TESKARI oqib, qo'lga ketadi;\n4. natijada miya \"o'g'irlanadi\" - vertebrobazilyar yetishmovchilik.\n\n🩺 Belgilari:\n• qo'l ishemiyasi: og'riq, holsizlik, paresteziya (ayniqsa jismoniy ishda);\n• bosh aylanishi, vertigo, sinkop;\n• ikki qo'l orasida sistolik bosim farqi >15 mm Hg, zararlangan tomonda puls sust.\n\n🔬 Sabablari: ATEROSKLEROZ (eng ko'p), Takayasu arteriiti, yurak jarrohligi asoratlari.\n\n💡 USMLE: \"qo'l ishlaganda boshi aylanadi + ikki qo'lda bosim farqi\" - subclavian steal. Doppler: a. vertebralisda teskari oqim.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_16.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Allen test",
+          "bandlar": [
+            "Tests patency of radial and ulnar arteries via palmar arch",
+            "Clench fist, occlude both arteries, open pale hand",
+            "Release ulnar a.: color returns <5-15 s = ulnar a. patent",
+            "Done before radial artery cannulation or harvesting"
+          ],
+          "izoh": "🖐 Allen testi:\n\nMaqsad: a. radialis yoki a. ulnaris bekilganini va kaft ravog'i orqali kollateral oqim borligini tekshirish.\n\n🔸 Bosqichlar:\n1. bemor mushtini qattiq siqadi - kaftdan qon haydaladi;\n2. shifokor ikkala arteriyani (radial va ulnar) barmoqlari bilan bosadi;\n3. bemor kaftini ochadi - kaft OQARGAN;\n4. bitta arteriya qo'yib yuboriladi (odatda ulnar), ikkinchisi bosilgan holda qoladi.\n\n✅ Rang 5-15 soniyada qaytsa - qo'yib yuborilgan arteriya ochiq va ravoq ishlaydi.\n❌ Rang qaytmasa - qo'yib yuborilgan arteriya (yoki ravoq) bekilgan.\n\n📌 Darsdagi misol: ulnar arteriya bosilgan, radial qo'yib yuborilgan - qon qaytmasa, a. RADIALIS bekilgan.\n\n💡 Amaliyot: a. radialisga kateter qo'yish, arterial qon olish, AV-fistula yoki koronar shunt uchun a. radialisni olishdan oldin bajariladi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_17.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Superficial veins of the upper limb",
+          "bandlar": [
+            "Begin from the dorsal venous network of the hand",
+            "Cephalic vein: lateral -> deltopectoral groove -> axillary v.",
+            "Basilic vein: medial -> pierces fascia -> axillary v.",
+            "Median cubital vein links them - common venipuncture site"
+          ],
+          "izoh": "🩸 Qo'lning yuzaki venalari:\n\n🔸 Panja orqasidagi venoz to'rdan (rete venosum dorsale manus) boshlanadi.\n\n1️⃣ V. CEPHALICA (bosh venasi) - LATERAL (bosh barmoq) tomondan yuqoriga ko'tariladi, deltasimon-ko'krak egatidan o'tib, klavipektoral uchburchakda fassiyani teshib, v. axillarisga quyiladi.\n\n2️⃣ V. BASILICA (asosiy vena) - MEDIAL tomondan; yelka o'rtasida chuqur fassiyani teshadi va yelka venalari bilan qo'shilib v. axillarisni hosil qiladi.\n\n3️⃣ V. MEDIANA CUBITI - tirsak chuqurchasida ikkalasini qiyshiq tutashtiradi; vena punksiyasi va qon olish uchun eng qulay joy.\n\n💡 V. cephalica gemodializ uchun AV-fistulada ishlatiladi; v. basilica - PICC kateter uchun.\n\n🖼 Rasmda (Spalteholz): v. cephalica, v. basilica, v. mediana cubiti, v. mediana antebrachii, n. cutaneus antibrachii lateralis/medialis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_18.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Arteriovenous fistula for hemodialysis",
+          "bandlar": [
+            "Most common access: radial artery + cephalic vein (wrist)",
+            "Arterial pressure dilates and thickens (arterializes) the vein",
+            "Usually created on the non-dominant arm",
+            "Check ulnar flow (Allen test) before surgery; thrill = patent"
+          ],
+          "izoh": "🩺 Gemodializ uchun arteriovenoz fistula:\n\n🔸 Surunkali gemodializ uchun eng ko'p qo'llaniladigan kirish: A. RADIALIS va V. CEPHALICA orasida, kaft usti sathida anastomoz (Brescia-Cimino fistulasi).\n\n⚙️ Nima uchun?\n• arterial bosim venaga o'tadi -> vena kengayadi, devori qalinlashadi (\"arterializatsiya\", 6-8 hafta);\n• kengaygan venaga har seansda katta ignalar bilan qayta-qayta kirish mumkin va yuqori oqim olinadi.\n\n📌 Amaliy nuqtalar:\n• odatda dominant bo'lmagan qo'lda;\n• oldindan Allen testi - panja a. ulnaris orqali yetarli qon olishi kerak;\n• fistula ustida titrash (thrill) seziladi, shovqin eshitiladi - fistula ochiq;\n• fistula qo'lida qon bosimi o'lchanmaydi va vena punksiyasi qilinmaydi.\n\n💡 Asoratlar: tromboz, stenoz, \"o'g'irlash\" sindromi (panja ishemiyasi).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_19.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Compartments of the arm and forearm",
+          "bandlar": [
+            "Arm: intermuscular septa -> anterior and posterior compartments",
+            "Forearm: interosseous membrane + septum -> two compartments",
+            "Anterior arm = musculocutaneous n.; posterior = radial n.",
+            "Anterior forearm = median (+ulnar) n.; posterior = radial n."
+          ],
+          "izoh": "📦 Yelka va bilak kompartmentlari:\n\n🔸 YELKA: medial va lateral mushaklararo to'siqlar (septa intermuscularia) uni ikkiga bo'ladi:\n• OLDINGI (bukuvchi) - coracobrachialis, brachialis, biceps brachii -> n. MUSCULOCUTANEUS;\n• ORQA (yozuvchi) - triceps brachii -> n. RADIALIS.\n\n🔸 BILAK: suyaklararo parda (membrana interossea) va to'siq ikkiga bo'ladi:\n• OLDINGI (bukuvchi-pronator) - asosan n. MEDIANUS; FCU va FDP ning medial yarmi - n. ULNARIS;\n• ORQA (yozuvchi-supinator) - barchasi n. RADIALIS (asosan chuqur shoxi = n. interosseus posterior).\n\n🧠 Qoida: oldingi = bukuvchilar, orqa = yozuvchilar; barcha yozuvchilar - n. radialis.\n\n💡 USMLE: bilak suyaklari sinishi yoki ezilishidan keyin kompartment sindromi - passiv cho'zishda kuchli og'riq; davo - fassiotomiya.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_20.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Anterior arm muscles: biceps, coracobrachialis, brachialis",
+          "bandlar": [
+            "Coracobrachialis, brachialis, biceps brachii",
+            "All innervated by the musculocutaneous nerve",
+            "Biceps: flexes elbow, strongest supinator of the flexed forearm",
+            "Brachialis: pure elbow flexor (inserts on ulnar tuberosity)"
+          ],
+          "izoh": "💪 Yelkaning oldingi kompartmenti - 3 ta mushak:\n\n1️⃣ TUMSHUQ-YELKA mushagi (m. coracobrachialis) - kurakning tumshuqsimon o'simtasidan; yelkani bukadi va yaqinlashtiradi; n. musculocutaneus uni teshib o'tadi.\n\n2️⃣ YELKA mushagi (m. brachialis) - yelka suyagi oldingi yuzasidan tirsak suyagi g'adir-budurligiga; tirsakning \"sof\" asosiy bukuvchisi.\n\n3️⃣ IKKI BOSHLI mushak (m. biceps brachii):\n• uzun boshi - kurak bo'g'im ustidagi do'mbog'idan (bo'g'im ichidan, do'mboqlararo egat orqali);\n• qisqa boshi - tumshuqsimon o'simtadan;\n• radius g'adir-budurligiga va aponevroz (lacertus fibrosus) orqali bilak fassiyasiga;\n• tirsakni bukadi va bukilgan bilakning eng kuchli SUPINATORI.\n\n⚡️ Hammasi - n. MUSCULOCUTANEUS (C5-C7) (brachialisning bir qismi n. radialis).\n\n🖼 Rasmda (Spalteholz): m. coracobrachialis, caput breve et longum m. bicipitis brachii, processus coracoideus.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_21.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Posterior arm: triceps brachii",
+          "bandlar": [
+            "Only muscle of the posterior arm compartment",
+            "Long head (infraglenoid tubercle), lateral and medial heads",
+            "Inserts on olecranon; main extensor of the elbow",
+            "Innervated by the radial nerve (C6-C8)"
+          ],
+          "izoh": "💪 Yelkaning orqa kompartmenti - uch boshli mushak (m. triceps brachii):\n\n🔸 Boshlari:\n• UZUN boshi - kurak bo'g'im osti do'mbog'idan (ikki bo'g'imli: yelka bo'g'imida ham ishlaydi);\n• LATERAL boshi - bilak nervi egatidan yuqorida, yelka suyagi orqa yuzasidan;\n• MEDIAL boshi - egatdan pastda.\n\n🔸 Yopishishi: tirsak o'simtasi (olecranon).\n🔸 Vazifasi: tirsakni YOZADI (asosiy yozuvchi); uzun boshi yelkani orqaga tortadi.\n⚡️ Innervatsiya: n. RADIALIS (C6-C8); reflex - C7.\n\n💡 USMLE: n. radialis triceps shoxlarini bilak nervi egatiga kirishdan OLDIN beradi. Shuning uchun yelka suyagi tanasi sinishida tirsakni yozish (triceps) odatda SAQLANADI, qo'ltiqdagi siqilishda esa yo'qoladi.\n\n🖼 Rasmda (Spalteholz, orqadan): m. triceps brachii (caput laterale, caput longum), m. teres minor.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_22.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Anterior forearm: superficial flexors",
+          "bandlar": [
+            "Three layers: superficial, intermediate, deep",
+            "Superficial: FCU, palmaris longus, FCR, pronator teres",
+            "Common origin: medial epicondyle (common flexor tendon)",
+            "All median n. except FCU (ulnar n.)"
+          ],
+          "izoh": "💪 Bilakning oldingi kompartmenti - yuza qavat:\n\nOldingi mushaklar 3 qavatda: yuza, oraliq, chuqur. Umumiy vazifasi: kaft usti harakatlari, barmoqlar (shu jumladan bosh barmoq) bukilishi va pronatsiya.\n\n🔸 Yuza qavat - 4 ta mushak, hammasi MEDIAL EPIKONDILDAN (umumiy bukuvchi pay):\n1. kaft usti tirsak bukuvchisi (FCU) - no'xatsimon suyak orqali V kaft suyagiga; bukadi va ulnar adduktsiya; n. ULNARIS;\n2. uzun kaft mushagi (palmaris longus) - kaft aponevroziga; ~15% odamda yo'q; n. medianus;\n3. kaft usti bilak bukuvchisi (FCR) - II kaft suyagi asosiga; bukadi va radial abduktsiya; n. medianus;\n4. yumaloq pronator (pronator teres) - radius o'rtasiga; pronatsiya; n. medianus (nerv ikki boshi orasidan o'tadi).\n\n🔸 Pronator teresdan tashqari hammasi panjaga yetib boradi.\n\n💡 USMLE: \"golfer elbow\" (medial epikondilit) - shu umumiy bukuvchi pay zo'riqishi.\n\n🖼 Rasmda (Spalteholz): m. pronator teres, m. flexor carpi radialis, m. flexor carpi ulnaris, epicondylus medialis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_23.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Intermediate layer: flexor digitorum superficialis",
+          "bandlar": [
+            "Only muscle of the intermediate layer",
+            "Humero-ulnar head: medial epicondyle + coronoid process",
+            "Radial head: anterior oblique line of the radius",
+            "Flexes PIP joints (and MCP) of fingers 2-5; median nerve"
+          ],
+          "izoh": "💪 Oraliq qavat - barmoqlarning yuza bukuvchisi (FDS; eski nomi m. flexor digitorum sublimis):\n\n🔸 Ikki boshi bor:\n• YELKA-TIRSAK boshi - medial epikondil va tirsak suyagi tojsimon o'simtasining medial chetidan;\n• BILAK boshi - radiusning oldingi qiyshiq chizig'idan.\nIkki bosh orasidagi \"ko'prik\" ostidan n. medianus va a. ulnaris o'tadi.\n\n🔸 Yopishishi: 4 ta pay kaft usti kanali orqali II-V barmoqlarning O'RTA falangalariga; har bir pay ikkiga ajralib, ostidan FDP payini o'tkazadi.\n\n🔸 Vazifasi: PIP bo'g'imlarini bukadi (yana MCP va kaft ustini).\n⚡️ Innervatsiya: n. MEDIANUS (C8, T1).\n\n🧪 Klinik test: boshqa barmoqlar yozilgan holda ushlab turiladi - bemor tekshirilayotgan barmoqni PIP da buka olsa, FDS butun.\n\n🖼 Rasmda (Spalteholz): m. flexor digitorum sublimis (caput humerale, caput radiale), tuberositas radii.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_24.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Deep flexors: FDP, FPL, pronator quadratus",
+          "bandlar": [
+            "FDP: DIP flexion of fingers 2-5; lateral half median (AIN), medial half ulnar",
+            "FPL: flexes the thumb IP joint; anterior interosseous n.",
+            "Pronator quadratus: pronation; anterior interosseous n.",
+            "AIN lesion: weak pinch, cannot make an 'OK' sign"
+          ],
+          "izoh": "💪 Chuqur qavat - 3 ta mushak:\n\n1️⃣ BARMOQLARNING CHUQUR BUKUVCHISI (FDP) - tirsak suyagi va suyaklararo pardadan; 4 pay II-V barmoqlarning DISTAL falangalariga; DIP ni bukadi (MCP va kaft ustini ham).\n⚡️ Ikki nervli: lateral yarmi (II-III) - n. medianus (n. interosseus anterior), medial yarmi (IV-V) - n. ULNARIS.\n\n2️⃣ BOSH BARMOQNING UZUN BUKUVCHISI (FPL) - radius va suyaklararo pardadan; bosh barmoq distal falangasiga; IP bo'g'imini bukadi; n. interosseus anterior.\n\n3️⃣ KVADRAT PRONATOR (pronator quadratus) - tirsak suyagi distal qismidan radiusga; asosiy pronator; n. interosseus anterior.\n\n🧪 Test: FDP butunligini tekshirish - PIP ushlab turilganda DIP bukilishi.\n\n💡 USMLE: n. interosseus anterior shikasti - sezgi yo'qolmaydi, lekin bosh va ko'rsatkich barmoq uchlari bilan \"O\" (OK) belgisini yasay olmaydi (FPL va FDP-II zaif).\n\n🖼 Rasmda (Spalteholz): m. flexor digitorum profundus, m. flexor pollicis longus, m. pronator quadratus.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_25.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Posterior forearm: brachioradialis, ECRL, ECRB",
+          "bandlar": [
+            "Posterior compartment: superficial and deep layers",
+            "Brachioradialis: flexes elbow in mid-pronation; radial n.",
+            "ECRL: extends and abducts wrist (base of MC II); radial n.",
+            "ECRB: base of MC II-III; deep branch of radial n."
+          ],
+          "izoh": "💪 Bilakning orqa kompartmenti - yuza qavat (1-qism, \"radial guruh\"):\n\nOrqa mushaklar 2 qavatda: yuza va chuqur. Hammasi n. RADIALIS (yoki uning shoxlari).\n\n1️⃣ YELKA-BILAK mushagi (brachioradialis) - lateral suprakondilyar qirraning proksimal qismidan radius distal uchiga; bilak YARIM PRONATSIYADA bo'lganda tirsakni bukadi (\"pivo ichish\" mushagi). Yozuvchi guruhda bo'lsa ham, BUKADI! n. radialis (C5, C6) - bo'linishidan oldin.\n\n2️⃣ KAFT USTINING UZUN BILAK YOZUVCHISI (ECRL) - suprakondilyar qirraning distal qismidan II kaft suyagi asosiga; kaft ustini yozadi va radial abduktsiya; n. radialis (C6, C7).\n\n3️⃣ KAFT USTINING QISQA BILAK YOZUVCHISI (ECRB) - umumiy yozuvchi paydan II-III kaft suyaklari asosiga; yozadi va abduktsiya; n. radialisning CHUQUR shoxi (supinatorga kirishdan oldin).\n\n💡 \"Tennis elbow\" (lateral epikondilit) - asosan ECRB payining zo'riqishi.\n\n🖼 Rasmda (Spalteholz, radial tomondan): m. brachioradialis, m. extensor carpi radialis longus/brevis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_26.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Posterior forearm: ED, EDM, ECU, anconeus",
+          "bandlar": [
+            "Common origin: lateral epicondyle (common extensor tendon)",
+            "Extensor digitorum: extends fingers 2-5 via extensor hoods",
+            "EDM extends little finger; ECU extends and adducts wrist",
+            "ED, EDM, ECU: posterior interosseous n.; anconeus: radial n."
+          ],
+          "izoh": "💪 Bilakning orqa kompartmenti - yuza qavat (2-qism):\n\nBular LATERAL EPIKONDILDAN (umumiy yozuvchi pay) boshlanadi:\n\n1️⃣ BARMOQLARNING UMUMIY YOZUVCHISI (extensor digitorum) - 4 pay \"yozuvchi qalpoqcha\" (extensor hood) orqali II-V barmoqlarning o'rta va distal falangalariga; barmoqlarni va kaft ustini yozadi.\n\n2️⃣ JIMJILOQ YOZUVCHISI (extensor digiti minimi) - V barmoq qalpoqchasiga; jimjiloqni yozadi.\n\n3️⃣ KAFT USTINING TIRSAK YOZUVCHISI (ECU) - epikondil va tirsak suyagi orqa chetidan V kaft suyagi asosiga; kaft ustini yozadi va ULNAR adduktsiya qiladi.\n\n⚡️ Uchalasi - n. interosseus posterior (C7, C8).\n\n4️⃣ TIRSAK mushagi (anconeus) - lateral epikondildan olecranonga; tirsakni yozishga yordam beradi, pronatsiyada tirsak suyagini abduktsiya qiladi; n. radialis (triceps medial boshi shoxi orqali).\n\n🖼 Rasmda (Spalteholz, orqadan): m. extensor digitorum communis, m. extensor carpi ulnaris, m. anconaeus, epicondylus lateralis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_27.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Deep extensors: supinator and the thumb/index extensors",
+          "bandlar": [
+            "Supinator: supination; PIN passes through it",
+            "APL: abducts thumb at CMC (base of MC I)",
+            "EPB: extends MCP; EPL: extends IP joint of thumb",
+            "Extensor indicis: extends index finger; all PIN (C7-C8)"
+          ],
+          "izoh": "💪 Bilakning orqa kompartmenti - chuqur qavat (5 ta mushak):\n\n1️⃣ SUPINATOR - lateral epikondil, boylamlar va tirsak suyagi supinator qirrasidan radiusga; supinatsiya. n. interosseus posterior (PIN) mushak ICHIDAN (ikki qavati orasidan) o'tadi - shu yerda siqilishi mumkin.\n\n2️⃣ BOSH BARMOQNI UZOQLASHTIRUVCHI UZUN mushak (APL) - I kaft suyagi asosiga; CMC da abduktsiya.\n\n3️⃣ BOSH BARMOQNING QISQA YOZUVCHISI (EPB) - proksimal falanga asosiga; MCP ni yozadi.\n\n4️⃣ BOSH BARMOQNING UZUN YOZUVCHISI (EPL) - distal falanga asosiga; IP bo'g'imini (va MCP, CMC ni) yozadi.\n\n5️⃣ KO'RSATKICH BARMOQ YOZUVCHISI (extensor indicis) - II barmoq qalpoqchasiga.\n\n⚡️ Hammasi - n. interosseus posterior (C7, C8); supinator - C6, C7.\n\n💡 APL, EPB va EPL paylari \"anatomik tamakidon\"ni chegaralaydi; APL+EPB pay qinining yallig'lanishi - de Quervain tenosinoviti.\n\n🖼 Rasmda (Spalteholz): m. supinator, m. abductor pollicis longus, m. extensor pollicis brevis/longus, m. extensor indicis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_28.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Intrinsic hand: adductor pollicis and palmaris brevis",
+          "bandlar": [
+            "Adductor pollicis: oblique and transverse heads",
+            "Inserts on thumb proximal phalanx; adducts the thumb",
+            "Palmaris brevis: in skin of hypothenar; improves grip",
+            "Both: ulnar n. (deep branch / superficial branch)"
+          ],
+          "izoh": "✋ Panjaning ichki mushaklari - umumiy ko'rinish va 2 ta mushak:\n\nPanja mushaklari: ichki (intrinsic) mushaklar - interosseylar, lumbrikallar, adductor pollicis, palmaris brevis; tenar (bosh barmoq tepaligi) va gipotenar (jimjiloq tepaligi).\n\n1️⃣ BOSH BARMOQNI YAQINLASHTIRUVCHI mushak (m. adductor pollicis):\n• ko'ndalang boshi - III kaft suyagidan; qiyshiq boshi - boshchali suyak va II-III kaft suyaklari asoslaridan;\n• bosh barmoq proksimal falangasi va qalpoqchasiga;\n• bosh barmoqni YAQINLASHTIRADI (qog'ozni bosh va ko'rsatkich barmoq orasida qisish);\n• n. ulnaris CHUQUR shoxi (C8, T1).\n\n2️⃣ QISQA KAFT mushagi (m. palmaris brevis) - kaft aponevrozi va retinakulumdan gipotenar terisiga; terini burishtirib ushlashni yaxshilaydi; n. ulnaris YUZAKI shoxi.\n\n🧪 Froment belgisi: n. ulnaris shikastida bemor qog'ozni ushlab turish uchun adductor o'rniga FPL ni ishlatadi - bosh barmoq IP bo'g'imi bukiladi.\n\n🖼 Rasmda (Spalteholz): m. adductor pollicis, m. opponens pollicis, m. flexor pollicis brevis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_29.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Dorsal interossei: DAB",
+          "bandlar": [
+            "Four bipennate muscles between the metacarpals",
+            "Abduct index, middle and ring fingers at the MCP joints",
+            "Middle finger has two (abducts to either side)",
+            "Deep branch of ulnar nerve (C8, T1)"
+          ],
+          "izoh": "✋ Orqa suyaklararo mushaklar (mm. interossei dorsales):\n\n🔸 4 ta, ikki patli; qo'shni kaft suyaklarining yonma-yon yuzalaridan boshlanadi.\n\n🔸 Yopishishi: proksimal falanga asosi va yozuvchi qalpoqcha - II, III (ikki tomondan) va IV barmoqlarga.\n\n🔸 Vazifasi: barmoqlarni O'RTA (III) barmoq o'qidan UZOQLASHTIRADI (abduktsiya, MCP da). O'rta barmoqning ikkita orqa interosseyi bor - uni ikkala tomonga ham \"uzoqlashtiradi\". Bosh barmoq va jimjiloqning o'z abduktorlari bor (APB/APL va ADM).\n\n🔸 Qo'shimcha: lumbrikallar kabi MCP ni bukadi, IP ni yozadi.\n\n⚡️ Innervatsiya: n. ULNARIS chuqur shoxi (C8, T1).\n\n🧠 Mnemonika: DAB = Dorsals ABduct.\n\n🧪 Test: barmoqlarni yoyish va qarshilikka qarshi ushlab turish; n. ulnaris shikastida yo'qoladi.\n\n🖼 Rasmda (Spalteholz, panja orqasi): mm. interossei dorsales, os metacarpale V.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_30.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Palmar interossei: PAD",
+          "bandlar": [
+            "Three (or four) unipennate muscles",
+            "Adduct fingers toward the middle finger at the MCP joints",
+            "Insert on thumb, index, ring and little finger hoods",
+            "Deep branch of ulnar nerve (C8, T1)"
+          ],
+          "izoh": "✋ Kaft suyaklararo mushaklari (mm. interossei palmares / volares):\n\n🔸 3 ta (ba'zan 4 ta) bir patli mushak; kaft suyaklarining yon yuzalaridan.\n\n🔸 Yopishishi: bosh barmoq (proksimal falanga), II, IV va V barmoqlar qalpoqchalariga - O'RTA barmoqqa yopishmaydi (u o'q).\n\n🔸 Vazifasi: barmoqlarni O'RTA barmoq tomon YAQINLASHTIRADI (adduktsiya, MCP da); MCP ni bukishga va IP ni yozishga ham yordam beradi.\n\n⚡️ Innervatsiya: n. ULNARIS chuqur shoxi (C8, T1).\n\n🧠 Mnemonika: PAD = Palmars ADduct.\n\n🧪 Test: barmoqlar orasiga qog'oz qo'yib qisish (\"card test\") - n. ulnaris shikastida bemor qog'ozni ushlay olmaydi.\n\n💡 USMLE: interosseylar yo'qolsa - barmoqlarni yoyish ham, yig'ish ham yo'qoladi -> n. ulnaris (chuqur shox) yoki T1 (Klumpke).\n\n🖼 Rasmda (Spalteholz): mm. interossei volares, mm. interossei dorsales, mm. lumbricales (kesilgan).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_31.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Lumbricals",
+          "bandlar": [
+            "Four muscles arising from the tendons of FDP",
+            "Pass palmar to MCP joints into the extensor hoods",
+            "Flex MCP joints while extending PIP and DIP joints",
+            "1st-2nd: median nerve; 3rd-4th: deep ulnar nerve"
+          ],
+          "izoh": "✋ Chuvalchangsimon mushaklar (mm. lumbricales):\n\n🔸 4 ta; o'ziga xosligi - suyakdan emas, FDP PAYLARIDAN boshlanadi.\n\n🔸 Yo'li: MCP bo'g'imining KAFT tomonidan o'tib, barmoqning radial tomonidan yozuvchi qalpoqchaga (orqa aponevrozga) yopishadi.\n\n🔸 Vazifasi: MCP ni BUKADI va bir vaqtda PIP va DIP ni YOZADI - \"upstroke\" (yozish, kartani ushlash) holati.\n\n⚡️ Innervatsiya (FDP kabi ikki nervli):\n• 1- va 2-lumbrikal (lateral) - n. MEDIANUS (barmoq shoxlari);\n• 3- va 4-lumbrikal (medial) - n. ULNARIS chuqur shoxi.\n\n🩺 Klinik:\n• n. ulnaris shikasti -> 3-4-lumbrikal yo'qoladi -> IV-V barmoqlarda \"tirnoq\" (MCP giperekstenziya, IP bukilish);\n• n. medianus shikasti -> 1-2-lumbrikal yo'qoladi -> II-III barmoqlarda (benediction).\n\n🖼 Rasmda (Spalteholz): mm. lumbricales, tendines m. flexoris digitorum profundi, m. opponens pollicis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_32.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Extensor hood and finger mechanics",
+          "bandlar": [
+            "Extensor digitorum tendon expands into the dorsal hood",
+            "Lumbricals and interossei insert into the hood",
+            "Pull palmar to the MCP axis but dorsal to PIP/DIP",
+            "Result: MCP flexion + IP extension; loss -> claw"
+          ],
+          "izoh": "⚙️ Yozuvchi qalpoqcha (extensor hood) va barmoq mexanikasi:\n\n🔸 Barmoqlarning umumiy yozuvchisi payi proksimal falanga ustida kengayib, uchburchak \"qalpoqcha\" (aponeurosis dorsalis) hosil qiladi; u o'rta va distal falangalar asosiga yopishadi.\n\n🔸 Qalpoqchaga yon tomondan lumbrikal va suyaklararo mushaklar qo'shiladi.\n\n🧩 Nima uchun ular MCP ni bukadi, IP ni yozadi?\n• ularning paylari MCP bo'g'imi o'qidan KAFT tomondan o'tadi -> MCP bukiladi;\n• keyin qalpoqcha orqali PIP va DIP o'qidan ORQA tomondan o'tadi -> IP bo'g'imlar yoziladi.\n\n🩺 Bu mexanizm buzilsa (n. ulnaris, T1 shikasti):\n• MCP ni barmoqlarning umumiy yozuvchisi qarshiliksiz giperekstenziya qiladi;\n• IP ni FDS/FDP bukadi;\n• natija - \"TIRNOQSIMON PANJA\" (claw hand).\n\n💡 Lumbrikallar bilan yozish holati: MCP bukilgan, PIP va DIP to'g'ri (\"upstroke\").",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_33.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Thenar muscles (OAF)",
+          "bandlar": [
+            "Opponens pollicis, abductor pollicis brevis, flexor pollicis brevis",
+            "Arise from flexor retinaculum, scaphoid and trapezium tubercles",
+            "Recurrent branch of median nerve (C8, T1)",
+            "FPB deep head is often supplied by the ulnar nerve"
+          ],
+          "izoh": "👍 Bosh barmoq tepaligi (tenar) mushaklari:\n\n1️⃣ BOSH BARMOQNI QARAMA-QARSHI QO'YUVCHI mushak (m. opponens pollicis) - trapetsiya do'mbog'i va retinakulumdan I kaft suyagiga; bosh barmoqni ichkariga buradi - OPPOZITSIYA.\n\n2️⃣ BOSH BARMOQNI UZOQLASHTIRUVCHI QISQA mushak (APB) - qayiqsimon va trapetsiya do'mboqlari va retinakulumdan proksimal falangaga; MCP da abduktsiya.\n\n3️⃣ BOSH BARMOQNING QISQA BUKUVCHISI (FPB) - trapetsiya do'mbog'i va retinakulumdan proksimal falangaga; MCP ni bukadi. Yuza boshi - n. medianus, CHUQUR boshi ko'pincha n. ULNARIS.\n\n⚡️ Innervatsiya: n. medianusning QAYTUVCHI (recurrent, motor) shoxi (C8, T1).\n\n🧠 Mnemonika: tenar va gipotenar guruhlar bir xil ishni bajaradi - OAF: Oppose, Abduct, Flex.\n\n💡 Tenar atrofiyasi - n. medianus shikastining (karpal tunnel) belgisi; \"maymun panjasi\".\n\n🖼 Rasmda (Spalteholz): m. abductor pollicis brevis, m. flexor pollicis brevis, m. opponens pollicis, m. adductor pollicis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_34.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Hypothenar muscles",
+          "bandlar": [
+            "Opponens digiti minimi, abductor digiti minimi, flexor digiti minimi brevis",
+            "Arise from pisiform, hook of hamate and flexor retinaculum",
+            "Deep branch of ulnar nerve (C8, T1)",
+            "Same pattern as thenar: Oppose, Abduct, Flex (OAF)"
+          ],
+          "izoh": "🤙 Jimjiloq tepaligi (gipotenar) mushaklari:\n\n1️⃣ JIMJILOQNI QARAMA-QARSHI QO'YUVCHI mushak (m. opponens digiti minimi) - ilmoqli suyak ilmog'i va retinakulumdan V kaft suyagining medial chetiga; V kaft suyagini oldinga va lateralga buradi (kaftni \"kosa\" qiladi).\n\n2️⃣ JIMJILOQNI UZOQLASHTIRUVCHI mushak (m. abductor digiti minimi) - NO'XATSIMON suyakdan proksimal falangaga; MCP da abduktsiya.\n\n3️⃣ JIMJILOQNING QISQA BUKUVCHISI (m. flexor digiti minimi brevis) - ilmoqli suyak ilmog'i va retinakulumdan proksimal falangaga; MCP ni bukadi.\n\n⚡️ Hammasi - n. ULNARIS chuqur shoxi (C8, T1).\n\n🧠 Eslab qolish: Tenar (median) va gipotenar (ulnar) - ikkalasi ham OAF: Oppose, Abduct, Flex.\n\n💡 Gipotenar atrofiyasi - n. ulnaris shikastining belgisi (masalan, Guyon kanalida - velosipedchilar).\n\n🖼 Rasmda (Spalteholz): m. abductor digiti V, m. flexor digiti V brevis, m. opponens digiti V, os pisiforme.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_35.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Brachial plexus: organization",
+          "bandlar": [
+            "Roots C5-T1 -> Trunks -> Divisions -> Cords -> Branches",
+            "Mnemonic: Remember To Drink Cold Beer",
+            "Trunks: superior (C5-6), middle (C7), inferior (C8-T1)",
+            "Cords: lateral, posterior, medial (named around axillary a.)"
+          ],
+          "izoh": "🕸 Yelka chigali (plexus brachialis) - tuzilishi:\n\nC5-T1 orqa miya nervlarining oldingi shoxlaridan hosil bo'ladi.\n\n1️⃣ ILDIZLAR (radices) - C5, C6, C7, C8, T1;\n2️⃣ POYALAR (trunci) - YUQORI (C5+C6), O'RTA (C7), PASTKI (C8+T1);\n3️⃣ BO'LIMLAR (divisiones) - har poya oldingi va orqa bo'limga ajraladi (o'mrov ortida);\n4️⃣ TUTAMLAR (fasciculi):\n• LATERAL - yuqori va o'rta poyalarning oldingi bo'limlari;\n• ORQA - uchala orqa bo'lim;\n• MEDIAL - pastki poyaning oldingi bo'limi;\n5️⃣ TERMINAL SHOXLAR: n. musculocutaneus (lateral), n. axillaris va n. radialis (orqa), n. medianus (lateral + medial), n. ulnaris (medial).\n\n🧠 Mnemonika: Remember To Drink Cold Beer (Roots, Trunks, Divisions, Cords, Branches).\n\n💡 Orqa bo'limlar -> yozuvchilar (n. radialis, axillaris); oldingi -> bukuvchilar.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_36.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Brachial plexus and the scalene interval",
+          "bandlar": [
+            "Trunks + subclavian artery pass between anterior and middle scalenes",
+            "Subclavian vein passes anterior to anterior scalene",
+            "Supraclavicular part: roots and trunks in the neck",
+            "Site of thoracic outlet compression (cervical rib)"
+          ],
+          "izoh": "📐 Yelka chigali va narvonsimon mushaklar oralig'i:\n\n🔸 Yelka chigali POYALARI va A. SUBCLAVIA oldingi va o'rta narvonsimon mushaklar (mm. scaleni anterior et medius) ORASIDAN (narvonsimon uchburchak) o'tadi.\n\n🔸 V. SUBCLAVIA esa oldingi narvonsimon mushak OLDIDAN (anteromedialda) o'tadi - uchburchakka kirmaydi.\n\n🔸 Chigalning o'mrov USTI qismi - ildiz va poyalar (bo'yinda); o'mrov OSTI qismi - tutamlar va shoxlar (qo'ltiqda).\n\n🩺 Klinik:\n• ko'krak qafasidan chiqish sindromi (thoracic outlet) - bo'yin qovurg'asi yoki narvonsimon mushak gipertrofiyasi pastki poyani (C8-T1) va a. subclaviani siqadi: qo'l medial tomoni paresteziyasi, panja mushaklari atrofiyasi, puls susayishi;\n• interskalen blokada - anesteziyada aynan shu oraliqqa qilinadi (diafragma nervi ham blokadaga tushishi mumkin).\n\n🖼 Rasmda (Spalteholz): plexus brachialis (pars supraclavicularis), m. scalenus anterior/medius, a. subclavia, n. phrenicus, n. thoracalis longus.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_37.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Brachial plexus in the axilla: cords and terminal branches",
+          "bandlar": [
+            "Infraclavicular part: cords around the 2nd part of axillary a.",
+            "Lateral cord -> musculocutaneous + lateral root of median",
+            "Medial cord -> ulnar + medial root of median + medial cutaneous nn.",
+            "Posterior cord -> axillary, radial, subscapular, thoracodorsal nn."
+          ],
+          "izoh": "🕸 Yelka chigalining o'mrov osti qismi (qo'ltiqda):\n\nTutamlar qo'ltiq arteriyasining 2-qismini (pectoralis minor ortida) uch tomondan o'raydi - nomlari shunga ko'ra.\n\n🔸 LATERAL tutam -> n. MUSCULOCUTANEUS, n. medianusning lateral ildizi, lateral ko'krak nervi.\n\n🔸 MEDIAL tutam -> n. ULNARIS, n. medianusning medial ildizi, medial ko'krak nervi, yelka va bilakning medial teri nervlari.\n➡️ Ikki ildiz arteriya oldida \"M\" harfini hosil qiladi (musculocutaneus - medianus - ulnaris).\n\n🔸 ORQA tutam -> n. AXILLARIS, n. RADIALIS, yuqori va pastki kurak osti nervlari, n. thoracodorsalis (latissimus dorsi).\n\n🧠 Orqa tutam shoxlari: \"STAR\" - Subscapulars, Thoracodorsal, Axillary, Radial.\n\n💡 Qo'ltiqdagi jarohatlar (pichoq, yelka chiqishi, qo'ltiq tayoqchasi) bir nechta tutam/shoxni birga shikastlashi mumkin.\n\n🖼 Rasmda (Spalteholz): n. medianus, n. ulnaris, n. musculocutaneus, n. thoracodorsalis, n. thoracalis longus, A. axillaris.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_38.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Collateral branches of the brachial plexus",
+          "bandlar": [
+            "Roots: dorsal scapular (C5), long thoracic (C5-C7)",
+            "Upper trunk: suprascapular n., nerve to subclavius",
+            "Cords: pectoral, subscapular, thoracodorsal, medial cutaneous nn.",
+            "Terminal: musculocutaneous, axillary, radial, median, ulnar"
+          ],
+          "izoh": "🌿 Yelka chigalining kollateral (terminal bo'lmagan) shoxlari:\n\n🔸 ILDIZLARDAN:\n• n. dorsalis scapulae (C5) - romboid mushaklar, kurakni ko'taruvchi mushak;\n• n. thoracicus longus (C5-C7) - oldingi tishli mushak (serratus anterior).\n\n🔸 YUQORI POYADAN:\n• n. suprascapularis (C5-C6) - supraspinatus va infraspinatus;\n• o'mrov osti mushagi nervi.\n\n🔸 TUTAMLARDAN:\n• lateral va medial ko'krak nervlari - katta va kichik ko'krak mushaklari;\n• yuqori va pastki kurak osti nervlari - subscapularis, teres major;\n• n. thoracodorsalis - latissimus dorsi;\n• yelka va bilakning medial teri nervlari (medial tutam).\n\n💡 Darsdagi 9 ta lezyon ro'yxati shu sxema bo'yicha: Erb (yuqori poya), Klumpke (pastki poya), qanotsimon kurak (n. thoracicus longus), deltasimon falaj (n. axillaris), bilak osilishi (n. radialis), musculocutaneus, \"duo\" va \"maymun\" panja (n. medianus), tirnoq panja (n. ulnaris).\n\n🖼 Rasmda (Spalteholz, sxema): n. dorsalis scapulae, n. suprascapularis, n. thoracalis longus, n. axillaris, n. radialis, n. medianus, n. ulnaris.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_39.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Erb palsy (upper trunk, C5-C6)",
+          "bandlar": [
+            "Cause: lateral traction on neck (shoulder dystocia, trauma)",
+            "Arm adducted + medially rotated (deltoid, supraspinatus, infraspinatus)",
+            "Forearm extended + pronated (biceps, brachialis)",
+            "'Waiter's tip'; hand muscles spared; biceps reflex lost"
+          ],
+          "izoh": "👶 Erb-Dyushen falaji - yuqori poya (C5-C6) shikasti:\n\n🔸 Sabab: bosh va yelka orasidagi burchakning keskin kattalashishi - tug'ruqda yelka distotsiyasi (bosh yon tomonga tortiladi), mototsikldan yiqilish.\n\n🔸 Zaiflashgan mushaklar va natijaviy holat:\n• deltasimon va supraspinatus -> qo'l YAQINLASHGAN (adduktsiya);\n• infraspinatus -> qo'l ICHKARIGA buralgan (medial rotatsiya);\n• biceps va brachialis -> tirsak YOZILGAN;\n• biceps (supinator) -> bilak PRONATSIYADA.\n\n➡️ Natija: \"ofitsiant choychaqa so'raydi\" (waiter's tip) holati.\n\n🔸 Sezgi: yelka va bilak lateral yuzasida kamayadi; biceps refleksi yo'q.\n🔸 PANJA mushaklari ishlaydi (C8-T1 butun).\n\n💡 USMLE: yangi tug'ilgan chaqaloq, katta vazn, yelka distotsiyasi, qo'l tanaga yopishgan, ichkariga buralgan, kaft orqaga qaragan - Erb.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_40.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Klumpke palsy (lower trunk, C8-T1)",
+          "bandlar": [
+            "Cause: forceful upward traction / abduction of the arm",
+            "Total claw hand: all intrinsic hand muscles lost",
+            "Sensory loss on medial forearm and hand",
+            "T1 sympathetic involvement -> ipsilateral Horner syndrome"
+          ],
+          "izoh": "✋ Klumpke falaji - pastki poya (C8-T1) shikasti:\n\n🔸 Sabab: qo'lning keskin yuqoriga tortilishi/abduktsiyasi - tug'ruqda qo'ldan tortish, yiqilayotganda daraxt shoxini ushlab qolish; shuningdek bo'yin qovurg'asi, o'pka cho'qqisi (Pancoast) o'smasi.\n\n🔸 Belgilari:\n• panjaning BARCHA ichki mushaklari (lumbrikallar, interosseylar, tenar, gipotenar) zaiflashadi -> TO'LIQ \"tirnoqsimon panja\" (barcha barmoqlar);\n• bilak va panjaning MEDIAL yuzasi sezgisi yo'qoladi (C8, T1 dermatomlari);\n• FCU, FDP medial qismi ham zaif bo'lishi mumkin.\n\n👁 T1 ildizi orqali simpatik tolalar (yuqori ko'krak ganglionidan bo'yin simpatik zanjiriga) zararlansa - o'sha tomonda HORNER sindromi: ptoz, mioz, angidroz.\n\n🧠 Farq: Erb - yuqori, \"qo'l holati\"; Klumpke - pastki, \"panja + Horner\".\n\n💡 USMLE: Pancoast o'smasi + panja atrofiyasi + Horner - pastki poya.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_41.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Long thoracic nerve: winged scapula",
+          "bandlar": [
+            "Long thoracic n. (C5-C7) supplies serratus anterior",
+            "Injury: mastectomy (axillary dissection), stab wound",
+            "Winged scapula when pushing against a wall",
+            "Cannot abduct the arm above the horizontal"
+          ],
+          "izoh": "🪽 N. thoracicus longus va \"qanotsimon kurak\":\n\n🔸 N. thoracicus longus (C5, C6, C7 ildizlaridan) - ko'krak qafasining yon devorida, oldingi tishli mushak (m. serratus anterior) yuzasida pastga tushadi va faqat shu mushakni innervatsiya qiladi.\n\n🔸 Serratus anterior vazifasi: kurakni ko'krak qafasiga bosib turadi, oldinga suradi (protraksiya) va yuqoriga buradi - qo'lni 90° dan YUQORI ko'tarish uchun zarur.\n\n🩺 Shikast sabablari:\n• mastektomiya, qo'ltiq limfa tugunlarini olib tashlash;\n• ko'krak yon devoriga pichoq jarohati, plevral drenaj;\n• og'ir yuk ko'tarish (yelka sumkasi).\n\n🔸 Belgilar: bemor qo'llari bilan devorga tiralganda kurakning medial cheti va pastki burchagi \"qanot\" kabi ko'tariladi; qo'lni gorizontaldan yuqori ko'tara olmaydi.\n\n💡 USMLE: \"mastektomiyadan keyin kurak devorga tiralganda bo'rtib chiqadi\" - n. thoracicus longus.\n\n🖼 Rasmda (Spalteholz): m. serratus anterior, scapula, m. scalenus anterior/medius.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_42.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Axillary nerve (C5-C6)",
+          "bandlar": [
+            "From posterior cord; passes through the quadrangular space",
+            "Injury: surgical neck fracture, anterior shoulder dislocation",
+            "Flattened deltoid; loss of abduction 15-90°",
+            "Sensory loss over deltoid ('regimental badge' area)"
+          ],
+          "izoh": "⚡️ Qo'ltiq nervi (n. axillaris, C5-C6):\n\n🔸 Yo'li: orqa tutamdan chiqib, a. circumflexa humeri posterior bilan birga TO'RT TOMONLI teshikdan o'tadi va yelka suyagining jarrohlik bo'ynini orqadan aylanadi.\n\n🔸 Innervatsiya: deltasimon mushak, kichik yumaloq mushak (teres minor); teri - deltasimon mushak ustidagi va yelka lateral yuzasi (yelkaning lateral teri nervi).\n\n🩺 Shikast sabablari:\n• yelka suyagi JARROHLIK BO'YNINING sinishi;\n• yelkaning OLDINGA chiqishi;\n• qo'ltiq tayoqchasini noto'g'ri ishlatish.\n\n🔸 Belgilar:\n• deltasimon mushak atrofiyasi - yelka \"yassilanadi\";\n• qo'lni gorizontalgacha (15-90°) uzoqlashtirish yo'qoladi;\n• deltasimon mushak ustida sezgi yo'qoladi (\"polk nishoni\" sohasi).\n\n💡 USMLE: yelka chiqishini to'g'rilashdan OLDIN va KEYIN deltasimon soha sezgisi tekshiriladi.\n\n🖼 Rasmda (Spalteholz, orqadan): N. axillaris, rami musculares, n. cutaneus brachii lateralis, m. teres minor, m. deltoideus.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_43.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Radial nerve: lesion levels",
+          "bandlar": [
+            "Axilla (crutch, 'Saturday night palsy'): triceps also lost",
+            "Radial groove (midshaft fracture): triceps spared, wrist drop",
+            "Below elbow (PIN): finger drop, no sensory loss",
+            "Wrist laceration (superficial branch): sensory loss only"
+          ],
+          "izoh": "⚡️ Bilak nervi (n. radialis, C5-T1) - shikast sathlari:\n\nQoida: shikast qanchalik PROKSIMAL bo'lsa, shuncha ko'p funksiya yo'qoladi.\n\n1️⃣ QO'LTIQ (qo'ltiq tayoqchasi, qo'lni stul suyanchig'iga osib uxlash - \"Saturday night palsy\"):\n• tirsak, kaft usti va MCP yozilishi yo'qoladi (triceps ham);\n• supinatsiya zaiflashadi;\n• yelka orqasi, bilak orqasi va bosh barmoq orqasi sezgisi yo'qoladi;\n• distal belgi - \"bilak osilishi\" (wrist drop).\n\n2️⃣ YELKA SUYAGI TANASI (bilak nervi egati) sinishi yoki lateral tirsak (lateral epikondil, radius boshchasi chiqishi):\n• triceps va yelka orqasi sezgisi SAQLANADI;\n• kaft usti va barmoqlar yozilishi yo'qoladi - wrist drop.\n\n3️⃣ TIRSAKDAN PASTDA (n. interosseus posterior) - barmoqlar osilishi, sezgi saqlanadi.\n\n4️⃣ KAFT USTI kesilishi (yuzaki shox) - harakat buzilmaydi, faqat bosh barmoq orqasi / 1-orqa barmoqlararo oraliq sezgisi.\n\n💡 Wrist drop da kaft usti yozilmagani uchun MUSHT kuchi ham pasayadi (bukuvchilar maksimal ishlashi uchun kaft usti yozilgan bo'lishi kerak).",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_44.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Radial nerve: midshaft humerus fracture",
+          "bandlar": [
+            "Radial n. + profunda brachii run in the radial groove",
+            "Midshaft fracture -> wrist drop, weak supination",
+            "Triceps and posterior arm sensation are spared",
+            "Branches to triceps arise before the groove"
+          ],
+          "izoh": "🦴 Yelka suyagi tanasi sinishi va n. radialis:\n\n🔸 N. radialis a. profunda brachii bilan birga yelka suyagi orqa yuzasidagi BILAK NERVI EGATIDA (sulcus n. radialis) suyakka bevosita tegib, spiral bo'ylab aylanadi - shuning uchun tana (o'rta uchdan bir) sinishida eng ko'p shikastlanadigan nerv.\n\n🩺 Belgilar:\n• kaft usti va MCP bo'g'imlarini yozish yo'qoladi - BILAK OSILISHI (wrist drop);\n• supinatsiya zaiflashadi (m. supinator yo'qoladi, biceps qoladi);\n• bilak orqasi va bosh barmoq orqasi sezgisi kamayadi.\n\n✅ SAQLANADI:\n• triceps (tirsakni yozish) - uning shoxlari egatdan yuqorida chiqadi;\n• yelka orqasi sezgisi (yelkaning orqa teri nervi ham yuqoridan chiqadi).\n\n💡 USMLE: \"yelka o'rtasi sinishi + bilak osilishi, lekin tirsakni yoza oladi\" - n. radialis egatda.\n\n🖼 Rasmda (Sobotta): sulcus nervi radialis, corpus humeri, collum chirurgicum.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_45.jpg",
+            "manba": "Rasm: Sobotta, Atlas der deskriptiven Anatomie I (1919), public domain"
+          }
+        },
+        {
+          "sarlavha": "Radial nerve below the elbow: PIN and superficial branch",
+          "bandlar": [
+            "At lateral epicondyle divides into deep (PIN) and superficial branches",
+            "PIN passes through supinator: finger drop, no sensory loss",
+            "ECRL spared -> radial deviation on wrist extension",
+            "Superficial branch: sensation of dorsum of thumb / 1st web space"
+          ],
+          "izoh": "⚡️ N. radialis tirsakdan pastda:\n\n🔸 Lateral epikondil sathida ikki shoxga bo'linadi:\n\n1️⃣ CHUQUR shox -> supinator ichidan o'tib, N. INTEROSSEUS POSTERIOR (PIN) bo'ladi; orqa kompartmentning ko'p mushaklarini (ED, EDM, ECU, APL, EPB, EPL, EI) innervatsiya qiladi.\n• Shikast: supinator ichida siqilish (\"radial tunnel\"), radius boshchasi chiqishi, takroriy pronatsiya/supinatsiya (otvertka bilan ishlash).\n• Belgi: BARMOQLAR OSILISHI (finger drop); SEZGI YO'QOLMAYDI (PIN sof motor).\n• ECRL (va brachioradialis) yuqoridan innervatsiya olgani uchun saqlanadi -> kaft usti yozilganda RADIAL tomonga og'adi.\n\n2️⃣ YUZAKI shox -> brachioradialis ostida pastga tushib, panja orqasining lateral qismiga sezgi beradi.\n• Shikast: kaft usti kesilishi, tor bilaguzuk/kishan - faqat bosh barmoq orqasi va 1-barmoqlararo oraliqda paresteziya.\n\n🖼 Rasmda (Spalteholz): ramus profundus et superficialis n. radialis, m. supinator, n. interosseus [antibrachii] dorsalis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_46.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Median nerve: course and proximal lesion",
+          "bandlar": [
+            "Lateral + medial cord roots; runs with brachial a.",
+            "Supracondylar fracture -> proximal lesion",
+            "'Hand of benediction' when making a fist",
+            "Loss of pronation, weak wrist flexion, lateral 3.5 digit sensation"
+          ],
+          "izoh": "⚡️ O'rta nerv (n. medianus, C5-T1) - proksimal shikast:\n\n🔸 Yo'li: lateral va medial tutamlar ildizlaridan; yelkada a. brachialis bilan birga (shoxsiz!) tushadi; tirsak chuqurchasida pronator teres boshlari orasidan bilakka o'tadi -> n. interosseus anterior ni beradi -> kaft usti kanaliga kiradi.\n\n🩺 Tirsak sathidagi shikast (yelka SUPRAKONDILYAR sinishi):\n• kaft usti bukilishi zaiflashadi va ULNAR tomonga og'adi (FCU va FDP medial qismi ishlaydi);\n• PRONATSIYA yo'qoladi;\n• lateral 3 barmoq bukilishi yo'qoladi -> musht qilishga urinilganda II-III barmoqlar to'g'ri qoladi - \"DUO QILUVCHI PANJA\" (hand of benediction);\n• oppozitsiya yo'qoladi -> \"maymun panjasi\", tenar atrofiyasi;\n• 1-2-lumbrikallar yo'qoladi;\n• kaftning lateral qismi va lateral 3,5 barmoq kaft yuzasi sezgisi yo'qoladi.\n\n🧠 LOAF: Lateral 2 lumbricals, Opponens pollicis, Abductor pollicis brevis, Flexor pollicis brevis.\n\n🖼 Rasmda (Spalteholz): N. medianus, A. brachialis, n. musculocutaneus, n. ulnaris, n. radialis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_47.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Median nerve at the wrist: carpal tunnel and laceration",
+          "bandlar": [
+            "Distal lesion: carpal tunnel syndrome, wrist laceration",
+            "Ape hand: loss of opposition, thenar atrophy",
+            "Lateral 3.5 digits lose palmar sensation; palm often spared",
+            "No benediction hand; wrist flexion and pronation normal"
+          ],
+          "izoh": "⚡️ O'rta nerv kaft usti sathida (distal shikast):\n\n🔸 Sabablar: KARPAL TUNNEL sindromi (homiladorlik, gipotireoz, akromegaliya, revmatoid artrit, diabet, amiloidoz, takroriy harakatlar), kaft usti kesilishi.\n\n🩺 Belgilar:\n• bosh barmoq OPPOZITSIYASI yo'qoladi -> \"MAYMUN PANJASI\" (ape hand);\n• 1-2-lumbrikallar yo'qoladi;\n• TENAR atrofiyasi (tepalik yassilanadi);\n• lateral 3,5 barmoqning kaft yuzasida sezgi yo'qoladi; kaftning lateral qismi ko'pincha SAQLANADI - teri (palmar) shoxi kanal oldidan, retinakulum ustidan o'tadi.\n\n✅ Farqi: kaft usti bukilishi, barmoqlar bukilishi va pronatsiya NORMAL; \"duo panja\" YO'Q (bilak mushaklari tirsak sathida innervatsiya olgan).\n\n🧪 Tinel (kanal ustiga urish) va Phalen (kaft ustini bukib ushlab turish) - paresteziya.\n\n💡 Kechasi kuchayadigan uvishish, bemor qo'lini silkitadi.\n\n🖼 Rasmda (Spalteholz): n. medianus lig. carpi transversum ostida, nn. digitales volares communes, ramus superficialis n. radialis.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_48.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Recurrent branch of the median nerve",
+          "bandlar": [
+            "Motor branch to the thenar muscles ('million-dollar nerve')",
+            "Arises at distal edge of flexor retinaculum, curves back",
+            "Superficial palm laceration -> ape hand",
+            "Loss of opposition, abduction, flexion of thumb; NO sensory loss"
+          ],
+          "izoh": "⚡️ O'rta nervning qaytuvchi (recurrent) shoxi:\n\n🔸 Retinakulumning distal chetidan chiqib, ORQAGA qaytib (recurrens) tenar mushaklariga kiradi; teri ostida juda yuzaki yotadi - shuning uchun \"million dollarlik nerv\" deyiladi (shikasti bosh barmoq funksiyasini yo'qotadi).\n\n🔸 Innervatsiya qiladi: m. opponens pollicis, m. abductor pollicis brevis, m. flexor pollicis brevis (yuza boshi).\n\n🩺 Shikast: kaftning yuzaki kesilishi (shisha, pichoq), tenar sohasidagi jarrohlik.\n\n🔸 Belgilar:\n• tenar guruh funksiyasi yo'qoladi: bosh barmoq oppozitsiyasi, abduktsiyasi va MCP bukilishi;\n• \"MAYMUN PANJASI\" - bosh barmoq boshqa barmoqlar bilan bir tekislikda;\n• SEZGI YO'QOLMAYDI - shox sof motor.\n\n💡 USMLE: \"kaftga shisha kirgan, bosh barmoqni boshqa barmoqlarga tekkiza olmaydi, sezgi normal\" - n. medianusning qaytuvchi shoxi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_49.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Ulnar nerve: proximal lesion (medial epicondyle)",
+          "bandlar": [
+            "Runs behind the medial epicondyle ('funny bone')",
+            "Injury: medial epicondyle fracture, cubital tunnel",
+            "Radial deviation of wrist on flexion (FCU lost)",
+            "Clawing is LESS than in distal lesions (ulnar paradox)"
+          ],
+          "izoh": "⚡️ Tirsak nervi (n. ulnaris, C8-T1) - proksimal shikast:\n\n🔸 Yo'li: medial tutamdan; yelkada medialda tushadi, MEDIAL EPIKONDIL orqasidagi egatda teri ostida yotadi (\"funny bone\"), FCU boshlari orasidan bilakka o'tadi; FCU va FDP ning medial yarmini innervatsiya qiladi.\n\n🩺 Sabablar: medial epikondil sinishi, kubital tunnel sindromi (tirsakni uzoq bukib turish), tirsakka urilish.\n\n🔸 Belgilar:\n• kaft usti bukilishi biroz zaiflashadi va RADIAL tomonga og'adi (FCU yo'q);\n• IV-V barmoqlar bukilishi zaif (FDP medial qismi);\n• barmoqlarni yoyish/yig'ish yo'qoladi (interosseylar);\n• bosh barmoq adduktsiyasi yo'qoladi (Froment belgisi);\n• gipotenar atrofiyasi;\n• medial 1,5 barmoq sezgisi yo'qoladi (kaft va orqa yuzasi).\n\n🧠 \"ULNAR PARADOKS\": proksimal shikastda FDP ham ishlamaydi -> IP bo'g'imlar bukilmaydi -> tirnoqlanish KAMROQ; distal shikastda kuchliroq.\n\n🖼 Rasmda (Spalteholz): N. ulnaris, m. flexor carpi ulnaris, m. flexor digitorum profundus, ramus dorsalis manus n. ulnaris.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_50.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Ulnar nerve: distal lesion (hook of hamate, Guyon canal)",
+          "bandlar": [
+            "Hook of hamate fracture (fall on outstretched hand)",
+            "Compression in Guyon canal: cycling handlebar",
+            "Pronounced 'ulnar claw' of digits 4-5 on finger extension",
+            "Interossei, hypothenar, lumbricals 3-4, adductor pollicis lost"
+          ],
+          "izoh": "⚡️ Tirsak nervi - distal shikast (kaft usti/panja):\n\n🔸 N. ulnaris retinakulum USTIDAN, no'xatsimon suyak va ilmoqli suyak ilmog'i orasidagi GUYON kanali orqali panjaga o'tadi, so'ng yuzaki (sezgi + palmaris brevis) va chuqur (motor) shoxlarga bo'linadi.\n\n🩺 Sabablar:\n• ILMOQLI SUYAK ILMOG'I sinishi (cho'zilgan qo'lga yiqilish, golf, beysbol);\n• velosiped ruli ustida kaft uzoq bosilishi (\"handlebar palsy\");\n• kaft usti kesilishi.\n\n🔸 Belgilar:\n• gipotenar mushaklar, 3-4-lumbrikallar, BARCHA interosseylar va adductor pollicis yo'qoladi;\n• barmoqlarni yozishga urinilganda IV-V barmoqlarda kuchli \"ULNAR TIRNOQ\" (MCP giperekstenziya, IP bukilish) - FDP ishlagani uchun tirnoqlanish proksimal shikastdan KUCHLIROQ;\n• IV-V barmoqlar IP yozilishi zaif;\n• kaft usti bukilishi normal.\n\n💡 Faqat chuqur shox siqilsa - sezgi saqlanadi; Guyon kanalida - kaft medial 1,5 barmoq sezgisi yo'qoladi, panja orqasi (dorsal shox yuqoridan chiqadi) saqlanadi.\n\n🖼 Rasmda (Spalteholz): ramus profundus n. ulnaris, hamulus ossis hamati, os pisiforme, mm. interossei.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_51.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Hand signs: benediction vs ape hand vs claw",
+          "bandlar": [
+            "Benediction: proximal median lesion, seen when making a fist",
+            "Ape hand: median at wrist / recurrent branch, thumb in palm plane",
+            "Ulnar claw: distal ulnar lesion, seen when extending fingers",
+            "Total claw: lower trunk (Klumpke); wrist drop: radial n."
+          ],
+          "izoh": "🖐 Panja belgilari - qiyosiy jadval:\n\n1️⃣ \"DUO QILUVCHI PANJA\" (hand of benediction) - n. MEDIANUS proksimal (suprakondilyar). Musht qilishga URINGANDA II-III barmoqlar to'g'ri qoladi (FDS, FDP-lateral yo'q).\n\n2️⃣ \"MAYMUN PANJASI\" (ape hand) - n. medianus kaft usti sathida yoki qaytuvchi shox. Tinch holatda bosh barmoq kaft tekisligida, oppozitsiya yo'q, tenar yassi.\n\n3️⃣ \"ULNAR TIRNOQ\" (ulnar claw) - n. ULNARIS distal (Guyon, ilmoq). Barmoqlarni YOZISHGA URINGANDA IV-V barmoqlar tirnoqlanadi.\n\n4️⃣ \"TO'LIQ TIRNOQ\" - pastki poya C8-T1 (Klumpke): barcha barmoqlar, +/- Horner.\n\n5️⃣ \"BILAK OSILISHI\" (wrist drop) - n. RADIALIS (qo'ltiq, yelka tanasi).\n\n🧠 Duo panja va ulnar tirnoq bir-biriga o'xshaydi, lekin: duo - musht qilishda (median), tirnoq - barmoqlarni yozishda (ulnar).\n\n💡 Ulnar paradoks: tirnoq proksimal shikastda KAMROQ, distal shikastda KO'PROQ.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_52.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        },
+        {
+          "sarlavha": "Musculocutaneous nerve (C5-C7)",
+          "bandlar": [
+            "From lateral cord; pierces coracobrachialis",
+            "Supplies coracobrachialis, biceps, brachialis",
+            "Lesion: loss of elbow flexion, weak supination, lost biceps reflex",
+            "Becomes lateral cutaneous nerve of the forearm"
+          ],
+          "izoh": "⚡️ Teri-mushak nervi (n. musculocutaneus, C5-C7):\n\n🔸 Yo'li: LATERAL tutamdan chiqadi, tumshuq-yelka mushagini (coracobrachialis) teshib o'tadi, biceps va brachialis orasida pastga tushadi; tirsak sathida bilakning LATERAL TERI NERVI bo'lib davom etadi.\n\n🔸 Innervatsiya: yelkaning oldingi kompartmenti - coracobrachialis, biceps brachii, brachialis; teri - bilakning lateral (radial) yuzasi.\n\n🩺 Shikast: yuqori poya siqilishi, qo'ltiq jarohatlari, yelka chiqishi, og'ir yuk ko'tarish (coracobrachialis ichida siqilish) - kam uchraydi.\n\n🔸 Belgilar:\n• tirsakni BUKISH keskin zaiflashadi (brachioradialis biroz yordam beradi);\n• SUPINATSIYA zaiflashadi (biceps yo'q);\n• biceps refleksi (C5-C6) kamayadi;\n• bilakning lateral (radial) va orqa-lateral yuzasi sezgisi yo'qoladi.\n\n💡 Darsdagi lezyon #7: \"tirsakni bukish qiyin, sezgi o'zgaruvchan\" - aynan shu nerv.\n\n🖼 Rasmda (Spalteholz): N. musculocutaneus, m. coracobrachialis, m. biceps brachii, m. brachialis, ramus muscularis f. d. m. biceps.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_53.jpg",
+            "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain"
+          }
+        },
+        {
+          "sarlavha": "Humerus fractures: the ARM rule",
+          "bandlar": [
+            "Proximal -> distal: Axillary -> Radial -> Median",
+            "Surgical neck: axillary n. + posterior circumflex humeral a.",
+            "Midshaft: radial n. + profunda brachii a.",
+            "Supracondylar: median n. + brachial a.; medial epicondyle: ulnar n."
+          ],
+          "izoh": "🧠 Yelka suyagi sinishlari - A-R-M qoidasi:\n\nSinish joyi proksimaldan distalga siljiganda shikastlanadigan nerv ham Axillary -> Radial -> Median tartibida almashadi.\n\n1️⃣ JARROHLIK BO'YNI -> n. AXILLARIS + a. circumflexa humeri posterior:\ndeltasimon yassi, abduktsiya (>15°) yo'q, yelka lateral sezgisi yo'q.\n\n2️⃣ TANA (bilak nervi egati) -> n. RADIALIS + a. profunda brachii:\nbilak osilishi, triceps saqlanadi.\n\n3️⃣ SUPRAKONDILYAR (bolalarda ko'p) -> n. MEDIANUS + a. brachialis:\nduo panja, pronatsiya yo'q; arteriya shikastida - Volkmann ishemik kontrakturasi.\n\n➕ MEDIAL EPIKONDIL sinishi -> n. ULNARIS: tirnoq panja, barmoqlarni yoyish/yig'ish yo'q.\n\n📋 Nerv ildizlari: axillaris C5-C6, musculocutaneus C5-C7, radialis C5-T1, medianus C5-T1, ulnaris C8-T1.\n\n💡 USMLE: har bir sinish savolida - qaysi nerv VA qaysi arteriya birga shikastlanishini so'rashadi.",
+          "rasm": {
+            "fayl": "usmle_rasmlar/d9_54.jpg",
+            "manba": "Sxema: USMLE Pulsi"
+          }
+        }
+      ],
+      "savollar": [
+        {
+          "vinyetka": "A 4.2-kg newborn is delivered after a difficult birth complicated by shoulder dystocia. The right arm hangs at the side, adducted and medially rotated, with the elbow extended and the forearm pronated. The grasp reflex is present in the right hand.",
+          "savol": "Which structure is most likely injured?",
+          "javoblar": [
+            "Upper trunk of the brachial plexus",
+            "Lower trunk of the brachial plexus",
+            "Posterior cord",
+            "Long thoracic nerve",
+            "Radial nerve in the radial groove"
+          ],
+          "togri": 0,
+          "izoh": "Erb falaji: yuqori poya C5-C6 cho'zilgan. Deltasimon, infraspinatus, biceps zaif - \"waiter's tip\". Panja (C8-T1) ishlaydi.",
+          "vinyetka_uz": "4,2 kg vaznli chaqaloq yelka distotsiyasi bilan asoratlangan og'ir tug'ruqdan keyin tug'ildi. O'ng qo'li tana yonida osilib turibdi: yaqinlashgan va ichkariga buralgan, tirsak yozilgan, bilak pronatsiyada. O'ng panjada ushlash refleksi bor.",
+          "savol_uz": "Qaysi tuzilma shikastlangan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "yelka chigali yuqori poyasi",
+            "yelka chigali pastki poyasi",
+            "orqa tutam",
+            "uzun ko'krak nervi",
+            "egatdagi bilak nervi"
+          ]
+        },
+        {
+          "vinyetka": "A 58-year-old man with a 40-pack-year smoking history has 3 months of right medial forearm numbness and hand weakness. Examination shows atrophy of the intrinsic hand muscles with clawing of all fingers, right ptosis and miosis. Chest x-ray shows a right apical mass.",
+          "savol": "Which neural structure is compressed?",
+          "javoblar": [
+            "Lower trunk (C8-T1) and sympathetic chain",
+            "Upper trunk (C5-C6)",
+            "Musculocutaneous nerve",
+            "Axillary nerve",
+            "Posterior interosseous nerve"
+          ],
+          "togri": 0,
+          "izoh": "Pancoast o'smasi pastki poyani (C8-T1) va T1 simpatik tolalarini siqadi: to'liq tirnoq panja + Horner sindromi.",
+          "vinyetka_uz": "40 quti-yil chekish tarixi bo'lgan 58 yoshli erkakda 3 oydan beri o'ng bilak medial yuzasi uvishadi va panja zaif. Ko'rikda panja ichki mushaklari atrofiyasi va barcha barmoqlar tirnoqlanishi, o'ngda ptoz va mioz. Ko'krak rentgenida o'ng cho'qqida hosila.",
+          "savol_uz": "Qaysi nerv tuzilmasi siqilgan?",
+          "javoblar_uz": [
+            "pastki poya (C8-T1) va simpatik zanjir",
+            "yuqori poya (C5-C6)",
+            "teri-mushak nervi",
+            "qo'ltiq nervi",
+            "orqa suyaklararo nerv"
+          ]
+        },
+        {
+          "vinyetka": "Two weeks after a left modified radical mastectomy with axillary node dissection, a 50-year-old woman cannot comb her hair with the left arm. When she pushes against a wall, the medial border of the left scapula lifts away from the thoracic wall.",
+          "savol": "Which nerve was most likely injured?",
+          "javoblar": [
+            "Long thoracic nerve",
+            "Thoracodorsal nerve",
+            "Dorsal scapular nerve",
+            "Axillary nerve",
+            "Suprascapular nerve"
+          ],
+          "togri": 0,
+          "izoh": "N. thoracicus longus (C5-C7) serratus anteriorni innervatsiya qiladi; shikastida kurak qanotlanadi va qo'l 90 gradusdan yuqori ko'tarilmaydi.",
+          "vinyetka_uz": "Chap tomonlama radikal mastektomiya va qo'ltiq limfa tugunlarini olib tashlashdan 2 hafta o'tib, 50 yoshli ayol chap qo'li bilan sochini taray olmaydi. Devorga tiralganda chap kurakning medial cheti ko'krak devoridan ko'tariladi.",
+          "savol_uz": "Qaysi nerv shikastlangan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "uzun ko'krak nervi",
+            "ko'krak-orqa nervi",
+            "kurakning orqa nervi",
+            "qo'ltiq nervi",
+            "kurak usti nervi"
+          ]
+        },
+        {
+          "vinyetka": "A 72-year-old woman falls on her outstretched arm. X-ray shows a fracture of the surgical neck of the left humerus. She has flattening of the shoulder contour, cannot abduct the arm beyond 15 degrees, and has numbness over the lateral shoulder.",
+          "savol": "Which artery is most likely injured together with the affected nerve?",
+          "javoblar": [
+            "Posterior circumflex humeral artery",
+            "Profunda brachii artery",
+            "Brachial artery",
+            "Thoracoacromial artery",
+            "Superior ulnar collateral artery"
+          ],
+          "togri": 0,
+          "izoh": "Jarrohlik bo'yni sinishi: n. axillaris va a. circumflexa humeri posterior birga to'rt tomonli teshikdan o'tib, bo'yinni aylanadi.",
+          "vinyetka_uz": "72 yoshli ayol cho'zilgan qo'liga yiqildi. Rentgenda chap yelka suyagi jarrohlik bo'yni sinishi. Yelka konturi yassilangan, qo'lini 15 gradusdan ortiq uzoqlashtira olmaydi, yelka lateral yuzasida uvishish bor.",
+          "savol_uz": "Zararlangan nerv bilan birga qaysi arteriya shikastlangan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "yelkani aylanuvchi orqa arteriya",
+            "yelkaning chuqur arteriyasi",
+            "yelka arteriyasi",
+            "ko'krak-akromial arteriya",
+            "yuqori ulnar kollateral arteriya"
+          ]
+        },
+        {
+          "vinyetka": "A 30-year-old man sustains a midshaft fracture of the right humerus in a motorcycle crash. He cannot extend his wrist or fingers and has numbness over the dorsum of the thumb. He can still extend his elbow against resistance.",
+          "savol": "Where is the nerve most likely injured?",
+          "javoblar": [
+            "Radial nerve in the radial groove",
+            "Radial nerve in the axilla",
+            "Posterior interosseous nerve",
+            "Median nerve at the elbow",
+            "Ulnar nerve at the medial epicondyle"
+          ],
+          "togri": 0,
+          "izoh": "Tana sinishi: n. radialis egatda. Triceps shoxlari egatdan yuqorida chiqadi - tirsak yoziladi, lekin bilak osilishi (wrist drop) bor.",
+          "vinyetka_uz": "30 yoshli erkak mototsikl avariyasida o'ng yelka suyagi tanasi o'rtasidan sinishini oldi. U kaft usti va barmoqlarini yoza olmaydi, bosh barmoq orqasida uvishish bor. Tirsagini qarshilikka qarshi yoza oladi.",
+          "savol_uz": "Nerv qayerda shikastlangan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "bilak nervi egatdagi qismi",
+            "bilak nervi qo'ltiqda",
+            "orqa suyaklararo nerv",
+            "o'rta nerv tirsak sathida",
+            "tirsak nervi medial epikondilda"
+          ]
+        },
+        {
+          "vinyetka": "A 45-year-old man has used axillary crutches incorrectly for 6 weeks after a tibial fracture. He now has weakness of elbow extension, wrist drop, weak supination, and sensory loss over the posterior arm, posterior forearm and dorsum of the thumb.",
+          "savol": "Which is the most likely site of nerve compression?",
+          "javoblar": [
+            "Radial nerve in the axilla",
+            "Radial nerve in the radial groove",
+            "Posterior interosseous nerve in supinator",
+            "Superficial branch of radial nerve",
+            "Posterior cord above the clavicle"
+          ],
+          "togri": 0,
+          "izoh": "Qo'ltiq tayoqchasi n. radialisni qo'ltiqda siqadi: triceps ham yo'qoladi, yelka orqasi sezgisi ham buziladi - eng proksimal sath.",
+          "vinyetka_uz": "45 yoshli erkak boldir sinishidan keyin 6 hafta davomida qo'ltiq tayoqchalarini noto'g'ri ishlatgan. Hozir tirsakni yozish zaif, bilak osilgan, supinatsiya zaif, yelka orqasi, bilak orqasi va bosh barmoq orqasida sezgi yo'q.",
+          "savol_uz": "Nerv siqilishining eng ehtimolli joyi qaysi?",
+          "javoblar_uz": [
+            "bilak nervi qo'ltiqda",
+            "bilak nervi egatda",
+            "supinator ichidagi orqa suyaklararo nerv",
+            "bilak nervi yuzaki shoxi",
+            "o'mrov ustida orqa tutam"
+          ]
+        },
+        {
+          "vinyetka": "A 40-year-old carpenter who uses a screwdriver all day cannot extend the fingers of his right hand at the MCP joints. When he extends his wrist, it deviates radially. Sensation of the hand and forearm is normal.",
+          "savol": "Which nerve is most likely affected?",
+          "javoblar": [
+            "Posterior interosseous nerve",
+            "Radial nerve in the radial groove",
+            "Superficial branch of the radial nerve",
+            "Anterior interosseous nerve",
+            "Ulnar nerve in Guyon canal"
+          ],
+          "togri": 0,
+          "izoh": "PIN supinator ichida siqiladi: barmoqlar osiladi, sezgi yo'qolmaydi; ECRL saqlangani uchun kaft usti radial og'adi.",
+          "vinyetka_uz": "Kun bo'yi otvertka bilan ishlaydigan 40 yoshli duradgor o'ng qo'l barmoqlarini MCP bo'g'imlarida yoza olmaydi. Kaft ustini yozganda u radial tomonga og'adi. Panja va bilak sezgisi normal.",
+          "savol_uz": "Qaysi nerv zararlangan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "orqa suyaklararo nerv",
+            "egatdagi bilak nervi",
+            "bilak nervi yuzaki shoxi",
+            "oldingi suyaklararo nerv",
+            "Guyon kanalidagi tirsak nervi"
+          ]
+        },
+        {
+          "vinyetka": "A 7-year-old boy falls from monkey bars and has a supracondylar fracture of the humerus. When asked to make a fist, the index and middle fingers remain extended. He cannot pronate the forearm, and the thenar eminence and lateral 3.5 digits are numb.",
+          "savol": "Which nerve is injured?",
+          "javoblar": [
+            "Median nerve",
+            "Ulnar nerve",
+            "Radial nerve",
+            "Musculocutaneous nerve",
+            "Anterior interosseous nerve only"
+          ],
+          "togri": 0,
+          "izoh": "Suprakondilyar sinish - n. medianus proksimal shikasti: duo panja, pronatsiya yo'q, lateral 3,5 barmoq va tenar sezgisi yo'q.",
+          "vinyetka_uz": "7 yoshli bola sport narvonidan yiqilib, yelka suyagi suprakondilyar sinishini oldi. Musht qilishni so'rashganda ko'rsatkich va o'rta barmoqlar to'g'ri qoladi. Bilakni pronatsiya qila olmaydi, tenar tepalik va lateral 3,5 barmoq uvishgan.",
+          "savol_uz": "Qaysi nerv shikastlangan?",
+          "javoblar_uz": [
+            "o'rta nerv",
+            "tirsak nervi",
+            "bilak nervi",
+            "teri-mushak nervi",
+            "faqat oldingi suyaklararo nerv"
+          ]
+        },
+        {
+          "vinyetka": "A 32-year-old pregnant woman has numbness and tingling of the right thumb, index and middle fingers that wakes her at night. Tapping over the volar wrist reproduces symptoms. There is mild thenar weakness, but sensation over the lateral palm is normal.",
+          "savol": "Why is sensation over the lateral palm preserved?",
+          "javoblar": [
+            "Palmar cutaneous branch runs above the retinaculum",
+            "The ulnar nerve supplies the lateral palm",
+            "The radial nerve supplies the lateral palm",
+            "Palmar cutaneous branch arises from the recurrent branch",
+            "Lateral palm is supplied by the musculocutaneous n."
+          ],
+          "togri": 0,
+          "izoh": "Karpal tunnel: n. medianusning kaft teri shoxi kanal oldidan chiqib, retinakulum ustidan o'tadi - kaft markazi/lateral sezgisi saqlanadi.",
+          "vinyetka_uz": "32 yoshli homilador ayolda o'ng bosh, ko'rsatkich va o'rta barmoqlarda uvishish va chimchilash kechasi uyg'otadi. Kaft usti kaft tomoniga urilganda simptomlar paydo bo'ladi. Tenar biroz zaif, lekin kaftning lateral qismi sezgisi normal.",
+          "savol_uz": "Kaftning lateral qismi sezgisi nima uchun saqlangan?",
+          "javoblar_uz": [
+            "kaft teri shoxi retinakulum ustida",
+            "kaft lateralini tirsak nervi ta'minlaydi",
+            "kaft lateralini bilak nervi ta'minlaydi",
+            "teri shoxi qaytuvchi shoxdan chiqadi",
+            "kaft lateralini teri-mushak nervi ta'minlaydi"
+          ]
+        },
+        {
+          "vinyetka": "A 25-year-old man cuts the thenar area of his left palm on broken glass. He cannot touch the tip of his thumb to the tips of the other fingers, and the thumb lies in the plane of the palm. Sensation of all digits is intact.",
+          "savol": "Which nerve branch is most likely injured?",
+          "javoblar": [
+            "Recurrent branch of the median nerve",
+            "Superficial branch of the ulnar nerve",
+            "Deep branch of the ulnar nerve",
+            "Anterior interosseous nerve",
+            "Palmar cutaneous branch of median nerve"
+          ],
+          "togri": 0,
+          "izoh": "Qaytuvchi shox sof motor: tenar (OAF) yo'qoladi - maymun panjasi, sezgi saqlanadi. Kaftdagi yuzaki kesilishda shikastlanadi.",
+          "vinyetka_uz": "25 yoshli erkak chap kaftining tenar sohasini singan shishada kesib oldi. Bosh barmoq uchini boshqa barmoqlar uchiga tekkiza olmaydi, bosh barmoq kaft tekisligida yotadi. Barcha barmoqlar sezgisi butun.",
+          "savol_uz": "Qaysi nerv shoxi shikastlangan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "o'rta nerv qaytuvchi shoxi",
+            "tirsak nervi yuzaki shoxi",
+            "tirsak nervi chuqur shoxi",
+            "oldingi suyaklararo nerv",
+            "o'rta nerv kaft teri shoxi"
+          ]
+        },
+        {
+          "vinyetka": "A 35-year-old long-distance cyclist has weakness of the right hand. When he tries to extend his fingers, the ring and little fingers claw. He cannot spread his fingers apart, and there is hypothenar wasting with numbness of the palmar little finger. Wrist flexion is normal.",
+          "savol": "Where is the nerve most likely compressed?",
+          "javoblar": [
+            "Ulnar nerve in Guyon canal",
+            "Ulnar nerve behind the medial epicondyle",
+            "Median nerve in the carpal tunnel",
+            "Lower trunk of the brachial plexus",
+            "Posterior interosseous nerve"
+          ],
+          "togri": 0,
+          "izoh": "Velosiped ruli n. ulnarisni Guyon kanalida (no'xatsimon va ilmoqli suyak orasida) siqadi: kuchli ulnar tirnoq, FCU va FDP saqlangan.",
+          "vinyetka_uz": "Uzoq masofaga velosiped haydovchi 35 yoshli erkakda o'ng panja zaif. Barmoqlarini yozmoqchi bo'lganda IV va V barmoqlar tirnoqlanadi. Barmoqlarini yoya olmaydi, gipotenar atrofiyasi va jimjiloq kaft yuzasida uvishish bor. Kaft usti bukilishi normal.",
+          "savol_uz": "Nerv qayerda siqilgan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "Guyon kanalidagi tirsak nervi",
+            "medial epikondil ortidagi tirsak nervi",
+            "karpal tunneldagi o'rta nerv",
+            "yelka chigali pastki poyasi",
+            "orqa suyaklararo nerv"
+          ]
+        },
+        {
+          "vinyetka": "A 19-year-old man fractures the medial epicondyle of his left humerus. On examination, when he flexes his wrist against resistance, the hand deviates toward the radial side. He also has numbness of the medial 1.5 digits.",
+          "savol": "Loss of which muscle explains the radial deviation?",
+          "javoblar": [
+            "Flexor carpi ulnaris",
+            "Flexor carpi radialis",
+            "Palmaris longus",
+            "Extensor carpi ulnaris",
+            "Flexor digitorum superficialis"
+          ],
+          "togri": 0,
+          "izoh": "Proksimal n. ulnaris shikasti: FCU ishlamaydi, FCR qarshiliksiz tortadi - bukilishda kaft usti radial og'adi.",
+          "vinyetka_uz": "19 yoshli yigit chap yelka suyagi medial epikondilini sindirdi. Ko'rikda kaft ustini qarshilikka qarshi bukkanda panja radial tomonga og'adi. Medial 1,5 barmoqda uvishish bor.",
+          "savol_uz": "Qaysi mushak yo'qolgani radial og'ishni tushuntiradi?",
+          "javoblar_uz": [
+            "kaft usti tirsak bukuvchisi",
+            "kaft usti bilak bukuvchisi",
+            "uzun kaft mushagi",
+            "kaft usti tirsak yozuvchisi",
+            "barmoqlar yuza bukuvchisi"
+          ]
+        },
+        {
+          "vinyetka": "A 66-year-old man with hypertension and hyperlipidemia reports dizziness and left arm pain whenever he chops wood. Blood pressure is 152/88 mm Hg in the right arm and 118/76 mm Hg in the left. The left radial pulse is weak.",
+          "savol": "Which finding is expected on Doppler of the left vertebral artery?",
+          "javoblar": [
+            "Retrograde (reversed) flow",
+            "Normal antegrade flow",
+            "Absent flow due to occlusion",
+            "Increased antegrade flow",
+            "Flow only in diastole"
+          ],
+          "togri": 0,
+          "izoh": "Subclavian steal: chap a. subclavia vertebraldan proksimalda torayadi; qo'l ishlaganda qon vertebral arteriya orqali teskari oqadi.",
+          "vinyetka_uz": "Gipertenziya va giperlipidemiyasi bor 66 yoshli erkak har gal o'tin yorganda bosh aylanishi va chap qo'l og'rig'idan shikoyat qiladi. Qon bosimi o'ng qo'lda 152/88, chap qo'lda 118/76 mm sim. ust. Chap radial puls sust.",
+          "savol_uz": "Chap umurtqa arteriyasi Dopplerida qanday topilma kutiladi?",
+          "javoblar_uz": [
+            "retrograd (teskari) oqim",
+            "normal antegrad oqim",
+            "bekilish tufayli oqim yo'q",
+            "kuchaygan antegrad oqim",
+            "faqat diastolada oqim"
+          ]
+        },
+        {
+          "vinyetka": "Before radial artery cannulation in the ICU, the patient clenches the fist while the physician compresses both radial and ulnar arteries. The hand is opened and the ulnar artery is released while radial compression is maintained. The palm remains pale after 20 seconds.",
+          "savol": "What is the most appropriate interpretation?",
+          "javoblar": [
+            "Poor ulnar flow; avoid radial cannulation",
+            "Normal test; proceed with radial cannulation",
+            "Radial artery is occluded",
+            "Deep palmar arch is complete",
+            "Cephalic vein thrombosis"
+          ],
+          "togri": 0,
+          "izoh": "Allen testi: ulnar qo'yib yuborilganda rang qaytmasa - ulnar oqim/ravoq yetarli emas; a. radialisga kateter qo'yish xavfli.",
+          "vinyetka_uz": "Reanimatsiyada a. radialisga kateter qo'yishdan oldin bemor mushtini siqadi, shifokor radial va ulnar arteriyalarni bosadi. Panja ochiladi va radial bosim saqlangan holda ulnar arteriya qo'yib yuboriladi. 20 soniyadan keyin ham kaft oqarib turibdi.",
+          "savol_uz": "Eng to'g'ri talqin qaysi?",
+          "javoblar_uz": [
+            "ulnar oqim yetarsiz; radialga kateter yo'q",
+            "test normal; radial kateterga o'tiladi",
+            "radial arteriya bekilgan",
+            "chuqur kaft ravog'i to'liq",
+            "bosh venasi trombozi"
+          ]
+        },
+        {
+          "vinyetka": "A 54-year-old woman with end-stage renal disease is referred for creation of permanent vascular access for chronic hemodialysis on her non-dominant forearm.",
+          "savol": "Which vessels are most commonly anastomosed?",
+          "javoblar": [
+            "Radial artery and cephalic vein",
+            "Ulnar artery and basilic vein",
+            "Brachial artery and median cubital vein",
+            "Radial artery and basilic vein",
+            "Axillary artery and axillary vein"
+          ],
+          "togri": 0,
+          "izoh": "Klassik AV-fistula (Brescia-Cimino): a. radialis + v. cephalica kaft usti sathida; vena arterializatsiyalanib, kengayadi.",
+          "vinyetka_uz": "Buyrak kasalligining oxirgi bosqichidagi 54 yoshli ayol surunkali gemodializ uchun dominant bo'lmagan bilagida doimiy qon tomir kirishini yaratishga yuborildi.",
+          "savol_uz": "Ko'pincha qaysi tomirlar o'zaro tutashtiriladi?",
+          "javoblar_uz": [
+            "bilak arteriyasi va bosh venasi",
+            "tirsak arteriyasi va asosiy vena",
+            "yelka arteriyasi va tirsak o'rta venasi",
+            "bilak arteriyasi va asosiy vena",
+            "qo'ltiq arteriyasi va venasi"
+          ]
+        },
+        {
+          "vinyetka": "A 28-year-old man has a deep stab wound to the proximal anterior forearm. He cannot flex the interphalangeal joint of the thumb or the DIP joint of the index finger and cannot make an 'OK' sign. Sensation of the hand is normal.",
+          "savol": "Which nerve is injured?",
+          "javoblar": [
+            "Anterior interosseous nerve",
+            "Median nerve at the wrist",
+            "Ulnar nerve in the forearm",
+            "Posterior interosseous nerve",
+            "Recurrent branch of the median nerve"
+          ],
+          "togri": 0,
+          "izoh": "N. interosseus anterior (sof motor): FPL, FDP lateral yarmi, pronator quadratus. \"OK\" belgisi qilinmaydi, sezgi normal.",
+          "vinyetka_uz": "28 yoshli erkak bilakning oldingi proksimal qismiga chuqur pichoq jarohati oldi. Bosh barmoq IP bo'g'imini va ko'rsatkich barmoq DIP bo'g'imini buka olmaydi, \"OK\" belgisini qila olmaydi. Panja sezgisi normal.",
+          "savol_uz": "Qaysi nerv shikastlangan?",
+          "javoblar_uz": [
+            "oldingi suyaklararo nerv",
+            "kaft usti sathidagi o'rta nerv",
+            "bilakdagi tirsak nervi",
+            "orqa suyaklararo nerv",
+            "o'rta nervning qaytuvchi shoxi"
+          ]
+        },
+        {
+          "vinyetka": "A 26-year-old weightlifter has weakness when flexing the right elbow and turning a doorknob. The biceps reflex is diminished, and there is numbness over the lateral forearm. Shoulder abduction, wrist and finger movements are normal.",
+          "savol": "Which nerve is most likely injured?",
+          "javoblar": [
+            "Musculocutaneous nerve",
+            "Radial nerve",
+            "Axillary nerve",
+            "Median nerve",
+            "Upper trunk of the brachial plexus"
+          ],
+          "togri": 0,
+          "izoh": "N. musculocutaneus: biceps, brachialis, coracobrachialis; bilak lateral teri nervi bo'lib davom etadi. Abduktsiya normal - yuqori poya emas.",
+          "vinyetka_uz": "26 yoshli og'ir atlet o'ng tirsakni bukishda va eshik dastasini burashda zaiflik sezadi. Biceps refleksi pasaygan, bilak lateral yuzasida uvishish. Yelka abduktsiyasi, kaft usti va barmoq harakatlari normal.",
+          "savol_uz": "Qaysi nerv shikastlangan bo'lishi ehtimoli yuqori?",
+          "javoblar_uz": [
+            "teri-mushak nervi",
+            "bilak nervi",
+            "qo'ltiq nervi",
+            "o'rta nerv",
+            "yelka chigali yuqori poyasi"
+          ]
+        }
+      ],
+      "kartalar": [
+        {
+          "savol": "Yelka chigali bo'limlari tartibi (mnemonika)?",
+          "javob": "Radices - Trunci - Divisiones - Fasciculi - Rami (Remember To Drink Cold Beer)"
+        },
+        {
+          "savol": "Kaft usti kanalidan qaysi tuzilmalar o'tadi?",
+          "javob": "N. medianus + 4 FDS + 4 FDP + FPL paylari (n. ulnaris - Guyon kanalida)"
+        },
+        {
+          "savol": "Yelka suyagi sinishlarida nervlar tartibi?",
+          "javob": "A-R-M: n. axillaris (bo'yin) -> n. radialis (tana) -> n. medianus (suprakondilyar)"
+        },
+        {
+          "savol": "Orqa va kaft suyaklararo mushaklar vazifasi?",
+          "javob": "DAB - Dorsales ABduktsiya; PAD - Palmares ADduktsiya (n. ulnaris chuqur shoxi)"
+        },
+        {
+          "savol": "Tenar mushaklari va ularning nervi?",
+          "javob": "Opponens, abductor, flexor pollicis brevis (OAF) - n. medianus qaytuvchi shoxi"
+        },
+        {
+          "savol": "Lumbrikal mushaklar vazifasi va nervlari?",
+          "javob": "MCP bukish + PIP/DIP yozish; 1-2 - n. medianus, 3-4 - n. ulnaris"
+        },
+        {
+          "savol": "Erb falajida qo'l holati?",
+          "javob": "Adduktsiya, ichki rotatsiya, tirsak yozilgan, pronatsiya - \"waiter's tip\" (C5-C6)"
+        },
+        {
+          "savol": "Klumpke falajining belgilari?",
+          "javob": "To'liq tirnoq panja + bilak medial sezgisi yo'q + Horner (C8-T1)"
+        },
+        {
+          "savol": "Qanotsimon kurak qaysi nerv shikastida?",
+          "javob": "N. thoracicus longus (C5-C7) -> m. serratus anterior"
+        },
+        {
+          "savol": "N. interosseus posterior shikastining farqi?",
+          "javob": "Barmoqlar osiladi, sezgi yo'qolmaydi, kaft usti radial og'adi (ECRL saqlangan)"
+        },
+        {
+          "savol": "Ulnar paradoks nima?",
+          "javob": "Proksimal n. ulnaris shikastida tirnoqlanish kamroq (FDP ham yo'q), distal - kuchliroq"
+        },
+        {
+          "savol": "Gemodializ AV-fistulasi uchun tomirlar?",
+          "javob": "A. radialis + v. cephalica (Brescia-Cimino), oldin Allen testi"
+        }
+      ],
+      "rasm_testlar": [
+        {
+          "fayl": "usmle_rasmlar/t9_01.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain",
+          "savol": "Panjaning chuqur mushaklari (kaft tomondan). '?' bilan belgilangan, n. ulnaris chuqur shoxi innervatsiya qiladigan va bosh barmoqni yaqinlashtiruvchi mushak qaysi?",
+          "javoblar": [
+            "M. adductor pollicis - bosh barmoqni yaqinlashtiruvchi mushak",
+            "M. opponens pollicis - bosh barmoqni qarama-qarshi qo'yuvchi mushak",
+            "M. abductor pollicis brevis - bosh barmoqni uzoqlashtiruvchi qisqa mushak",
+            "M. flexor pollicis longus - bosh barmoqning uzun bukuvchisi"
+          ],
+          "togri": 0,
+          "izoh": "M. adductor pollicis (ko'ndalang va qiyshiq boshlar) - n. ulnaris chuqur shoxi. Shikastida Froment belgisi: qog'ozni FPL bilan ushlaydi."
+        },
+        {
+          "fayl": "usmle_rasmlar/t9_02.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie II (1921), public domain",
+          "savol": "Yelka arteriyalari (oldindan). '?' bilan belgilangan, n. radialis bilan birga bilak nervi egatida yotadigan arteriya qaysi?",
+          "javoblar": [
+            "A. profunda brachii - yelkaning chuqur arteriyasi",
+            "A. circumflexa humeri posterior - yelkani aylanuvchi orqa arteriya",
+            "A. thoracoacromialis - ko'krak-akromial arteriya",
+            "A. subscapularis - kurak osti arteriyasi"
+          ],
+          "togri": 0,
+          "izoh": "A. profunda brachii yelka arteriyasining birinchi yirik shoxi; n. radialis bilan egatda yotadi - tana sinishida ikkalasi shikastlanadi."
+        },
+        {
+          "fayl": "usmle_rasmlar/t9_03.jpg",
+          "manba": "Rasm: Spalteholz, Handatlas der Anatomie III (1921), public domain",
+          "savol": "Kurak sohasi nervlari (orqadan). '?' bilan belgilangan, to'rt tomonli teshikdan o'tib deltasimon mushakni innervatsiya qiladigan nerv qaysi?",
+          "javoblar": [
+            "N. axillaris - qo'ltiq nervi",
+            "N. suprascapularis - kurak usti nervi",
+            "N. radialis - bilak nervi",
+            "N. dorsalis scapulae - kurakning orqa nervi"
+          ],
+          "togri": 0,
+          "izoh": "N. axillaris (C5-C6) deltasimon va teres minorni innervatsiya qiladi; jarrohlik bo'yni sinishi va yelka chiqishida shikastlanadi."
+        }
+      ],
+      "xulosa": [
+        "Kaft usti kanali: n. medianus + 9 bukuvchi pay; n. ulnaris va a. ulnaris Guyon kanalida - tashqarida.",
+        "Yuzaki kaft ravog'i asosan a. ulnaris, chuqur ravog'i asosan a. radialis dan hosil bo'ladi.",
+        "Subclavian steal: vertebraldan proksimal stenoz, qo'l ishlaganda vertebral oqim teskari, bosh aylanadi, bosim farqi >15 mm Hg.",
+        "Allen testi: ulnar qo'yib yuborilganda rang 5-15 s da qaytishi kerak; gemodializ fistulasi - a. radialis + v. cephalica.",
+        "Yelka oldingi kompartmenti - n. musculocutaneus; orqa (triceps) va bilakning barcha yozuvchilari - n. radialis.",
+        "FDP va lumbrikallar ikki nervli: lateral qism - n. medianus, medial qism - n. ulnaris.",
+        "DAB - orqa interosseylar uzoqlashtiradi, PAD - kaft interosseylari yaqinlashtiradi; tenar va gipotenar - OAF.",
+        "Erb (C5-C6) - \"waiter's tip\"; Klumpke (C8-T1) - to'liq tirnoq panja + Horner; n. thoracicus longus - qanotsimon kurak.",
+        "Yelka sinishlari A-R-M: jarrohlik bo'yni - n. axillaris, tana - n. radialis, suprakondilyar - n. medianus, medial epikondil - n. ulnaris.",
+        "Duo panja - proksimal n. medianus; maymun panjasi - distal n. medianus; ulnar tirnoq - distal n. ulnaris (ulnar paradoks)."
+      ]
     }
   ],
   "takrorlashsiz_yakshanbalar": [
