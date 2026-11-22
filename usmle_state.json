@@ -15,16 +15,15 @@
       "6:postlar",
       "aralash:5,6"
     ],
-    "pos": 13,
+    "pos": 14,
     "joriy": "postlar:7,8",
     "kun": "2026-11-22",
     "boshlanish": 0,
-    "urinish": 1,
+    "urinish": 0,
     "qoshimcha": 4,
-    "oxirgi_vaqt": "2026-11-22T10:36",
+    "oxirgi_vaqt": "2026-11-22T10:53",
     "takrorlash_ok": 29,
-    "oxirgi_xato": "2026-11-22 10:48 postlar:7,8 pos: ImageProcessFailedError('Failure while processing image (caused by UploadMediaRequest)')",
-    "keyingi_urinish": "2026-11-22T10:53"
+    "oxirgi_xato": "2026-11-22 10:48 postlar:7,8 pos: ImageProcessFailedError('Failure while processing image (caused by UploadMediaRequest)')"
   },
   "group_id": 3875410361,
   "moderator": {
