@@ -13,18 +13,18 @@
       "aralash:1,2,3,4",
       "5:postlar",
       "6:postlar",
-      "aralash:5,6"
+      "aralash:5,6",
+      "postlar:7,8"
     ],
-    "pos": 65,
-    "joriy": "postlar:7,8",
-    "kun": "2026-11-22",
+    "pos": 0,
+    "joriy": "9:postlar",
+    "kun": "2026-11-23",
     "boshlanish": 0,
     "urinish": 0,
-    "qoshimcha": 29,
+    "qoshimcha": 0,
     "oxirgi_vaqt": "2026-11-22T22:38",
     "takrorlash_ok": 29,
-    "oxirgi_xato": "2026-11-22 14:41 postlar:7,8 pos: ImageProcessFailedError('Failure while processing image (caused by UploadMediaRequest)')",
-    "xulosa": 2
+    "oxirgi_xato": "2026-11-22 14:41 postlar:7,8 pos: ImageProcessFailedError('Failure while processing image (caused by UploadMediaRequest)')"
   },
   "group_id": 3875410361,
   "moderator": {
@@ -41,7 +41,8 @@
     "2026-11-12": "5:postlar",
     "2026-11-16": "6:postlar",
     "2026-11-17": "aralash:5,6",
-    "2026-11-22": "postlar:7,8"
+    "2026-11-22": "postlar:7,8",
+    "2026-11-23": "9:postlar"
   },
   "takrorlash": {
     "kun": "2026-11-15",
