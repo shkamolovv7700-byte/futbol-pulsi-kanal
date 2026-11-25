@@ -487,100 +487,6 @@
   "last_video_source": "Serie A",
   "table_idx": 6,
   "live": {
-    "401875036": {
-      "goals": [
-        "109-3846.0",
-        "110-5400.0"
-      ],
-      "ft": true,
-      "score": [
-        2,
-        1
-      ],
-      "lag": 0
-    },
-    "401878765": {
-      "goals": [
-        "364-1247.0",
-        "364-1248.0",
-        "364-976.0"
-      ],
-      "ft": true,
-      "score": [
-        2,
-        0
-      ],
-      "lag": 0
-    },
-    "401879252": {
-      "goals": [
-        "349-2260.0",
-        "349-2524.0",
-        "349-4221.0"
-      ],
-      "ft": true,
-      "score": [
-        0,
-        3
-      ],
-      "lag": 0
-    },
-    "401884760": {
-      "goals": [
-        "7911-4737.0",
-        "7911-5335.0",
-        "7911-5400.0"
-      ],
-      "ft": true,
-      "score": [
-        3,
-        0
-      ],
-      "lag": 0
-    },
-    "401876426": {
-      "goals": [
-        "176-1977.0",
-        "176-255.0",
-        "176-2974.0",
-        "176-3269.0",
-        "3236-4591.0",
-        "3236-5138.0",
-        "3236-5316.0"
-      ],
-      "ft": true,
-      "score": [
-        4,
-        3
-      ],
-      "lag": 0
-    },
-    "401884759": {
-      "goals": [
-        "126-4874.0",
-        "132-2517.0",
-        "132-5400.0",
-        "132-954.0"
-      ],
-      "ft": true,
-      "score": [
-        1,
-        3
-      ],
-      "lag": 0
-    },
-    "401874772": {
-      "goals": [
-        "111-1727.0",
-        "111-2439.0"
-      ],
-      "ft": true,
-      "score": [
-        0,
-        2
-      ],
-      "lag": 0
-    },
     "401874779": {
       "goals": [
         "103-332.0",
@@ -1586,6 +1492,94 @@
         1
       ],
       "lag": 0
+    },
+    "401915378": {
+      "goals": [
+        "21922-3754.0",
+        "83-1847.0",
+        "83-3013.0",
+        "83-3259.0",
+        "83-3569.0"
+      ],
+      "ft": true,
+      "score": [
+        1,
+        4
+      ],
+      "lag": 0
+    },
+    "401915291": {
+      "goals": [
+        "1068-1117.0",
+        "1068-1420.0"
+      ],
+      "ft": false,
+      "score": [
+        2,
+        0
+      ],
+      "lag": 0
+    },
+    "401915292": {
+      "goals": [
+        "364-723.0"
+      ],
+      "ft": false,
+      "score": [
+        0,
+        1
+      ],
+      "lag": 0
+    },
+    "401915376": {
+      "goals": [
+        "110-3371.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        0
+      ],
+      "lag": 0
+    },
+    "401915377": {
+      "goals": [
+        "132-850.0",
+        "166-2758.0",
+        "166-3677.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        1
+      ],
+      "lag": 0
+    },
+    "401915374": {
+      "goals": [
+        "104-285.0",
+        "160-1853.0",
+        "160-3684.0"
+      ],
+      "ft": false,
+      "score": [
+        2,
+        1
+      ],
+      "lag": 0
+    },
+    "401915373": {
+      "goals": [
+        "2250-1936.0",
+        "360-2867.0",
+        "360-2984.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        2
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1593,7 +1587,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 906,
+    "last_id": 918,
     "strikes": {},
     "reset_day": "2026-11-24"
   },
@@ -2466,7 +2460,34 @@
     "Ardon Jashari": null,
     "Ardon Jashari (footballer)": null,
     "Víctor Muñoz": null,
-    "Víctor Muñoz (footballer)": null
+    "Víctor Muñoz (footballer)": null,
+    "Alexander Sørloth": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Alexander_Sorloth_France_v_Norway_26_June_26-048.jpg/1280px-Alexander_Sorloth_France_v_Norway_26_June_26-048.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Julián Álvarez": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Julian_Alvarez_Argentina_v_Spain_19_July_2026-052_%28cropped%29.jpg/1280px-Julian_Alvarez_Argentina_v_Spain_19_July_2026-052_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Luis Suárez": null,
+    "Luis Suárez (footballer)": null,
+    "Petar Sucic": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Petar_Sucic_Croatia_v_Portugal_2_July_2026-190_%28cropped%29.jpg/1280px-Petar_Sucic_Croatia_v_Portugal_2_July_2026-190_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    },
+    "Ayase Ueda": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Go_Ahead_Eagles_-_Feyenoord_-_53679351240_%28Ayase_Ueda_02%29.jpg/1280px-Go_Ahead_Eagles_-_Feyenoord_-_53679351240_%28Ayase_Ueda_02%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Carlo Bruil Fotografie",
+      "license": "CC BY 2.0"
+    },
+    "Ousmane Dembélé": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg/1280px-Ousmane_Dembele_France_v_Senegal_16_June_2026-341_%28cropped%29_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Bryan Berlin",
+      "license": "CC BY-SA 4.0"
+    }
   },
   "matchday": {
     "401915312": "2026-10-21",
