@@ -24,9 +24,10 @@
     "boshlanish": 0,
     "urinish": 0,
     "qoshimcha": 15,
-    "oxirgi_vaqt": "2026-11-25T22:09",
+    "oxirgi_vaqt": "2026-11-25T22:19",
     "takrorlash_ok": 29,
-    "oxirgi_xato": "2026-11-22 14:41 postlar:7,8 pos: ImageProcessFailedError('Failure while processing image (caused by UploadMediaRequest)')"
+    "oxirgi_xato": "2026-11-22 14:41 postlar:7,8 pos: ImageProcessFailedError('Failure while processing image (caused by UploadMediaRequest)')",
+    "xulosa": 1
   },
   "group_id": 3875410361,
   "moderator": {
