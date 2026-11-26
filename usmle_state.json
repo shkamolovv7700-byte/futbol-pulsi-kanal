@@ -17,11 +17,12 @@
       "postlar:7,8",
       "9:postlar",
       "9:savollar",
-      "10:postlar"
+      "10:postlar",
+      "10:savollar"
     ],
-    "pos": 17,
-    "joriy": "10:savollar",
-    "kun": "2026-11-26",
+    "pos": 0,
+    "joriy": "11:postlar",
+    "kun": "2026-11-27",
     "boshlanish": 0,
     "urinish": 0,
     "qoshimcha": 0,
@@ -48,7 +49,8 @@
     "2026-11-23": "9:postlar",
     "2026-11-24": "9:savollar",
     "2026-11-25": "10:postlar",
-    "2026-11-26": "10:savollar"
+    "2026-11-26": "10:savollar",
+    "2026-11-27": "11:postlar"
   },
   "takrorlash": {
     "kun": "2026-11-15",
