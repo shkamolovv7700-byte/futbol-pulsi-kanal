@@ -19,13 +19,13 @@
       "9:savollar",
       "10:postlar"
     ],
-    "pos": 0,
+    "pos": 1,
     "joriy": "10:savollar",
     "kun": "2026-11-26",
     "boshlanish": 0,
     "urinish": 0,
     "qoshimcha": 0,
-    "oxirgi_vaqt": "2026-11-25T22:19",
+    "oxirgi_vaqt": "2026-11-26T08:00",
     "takrorlash_ok": 29,
     "oxirgi_xato": "2026-11-22 14:41 postlar:7,8 pos: ImageProcessFailedError('Failure while processing image (caused by UploadMediaRequest)')"
   },
@@ -658,6 +658,12 @@
       "dars": 8,
       "k": 16,
       "sana": "2026-11-24"
+    },
+    {
+      "id": 1230,
+      "dars": 9,
+      "k": 0,
+      "sana": "2026-11-26"
     }
   ],
   "takrorlangan": [
