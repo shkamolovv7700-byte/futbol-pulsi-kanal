@@ -489,22 +489,6 @@
   "last_video_source": "Serie A",
   "table_idx": 1,
   "live": {
-    "401874993": {
-      "goals": [
-        "103-1589.0",
-        "103-801.0",
-        "107-3582.0",
-        "107-3673.0",
-        "107-462.0",
-        "107-5127.0"
-      ],
-      "ft": true,
-      "score": [
-        2,
-        4
-      ],
-      "lag": 0
-    },
     "401874773": {
       "goals": [
         "110-4740.0",
@@ -1589,6 +1573,17 @@
         1
       ],
       "lag": 0
+    },
+    "401879225": {
+      "goals": [
+        "393-294.0"
+      ],
+      "ft": false,
+      "score": [
+        1,
+        0
+      ],
+      "lag": 0
     }
   },
   "group_id": 4485846895,
@@ -1596,7 +1591,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 934,
+    "last_id": 935,
     "strikes": {},
     "reset_day": "2026-11-24"
   },
@@ -2502,7 +2497,9 @@
       "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Aleksandar_Pavlovic_Ecuador_v_Germany_25_June_2026-036.jpg/1280px-Aleksandar_Pavlovic_Ecuador_v_Germany_25_June_2026-036.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "author": "Bryan Berlin",
       "license": "CC BY-SA 4.0"
-    }
+    },
+    "Igor Jesus": null,
+    "Igor Jesus (footballer)": null
   },
   "matchday": {
     "401915312": "2026-10-21",
