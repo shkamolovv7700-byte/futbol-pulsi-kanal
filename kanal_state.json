@@ -484,10 +484,10 @@
     "YCHL. Rahmonaliyev to‘liq o‘ynagan bahsda “Sabah” “Barselona”ga yirik hisobda yutqazdi, “PSJ” esa durang o‘ynadi",
     "“Manchester Yunayted” ketma-ket 7 o‘yindan beri Chempionlar Ligasi safar o‘yinida g‘alaba qozona olmayapti"
   ],
-  "last_slot": "2026-11-26 18:00",
+  "last_slot": "2026-11-27 17:00",
   "scorers_idx": 5,
   "last_video_source": "Serie A",
-  "table_idx": 6,
+  "table_idx": 1,
   "live": {
     "401874993": {
       "goals": [
@@ -1596,7 +1596,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 933,
+    "last_id": 934,
     "strikes": {},
     "reset_day": "2026-11-24"
   },
