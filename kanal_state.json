@@ -378,7 +378,8 @@
     "yt:9vMCXlx7P4A",
     "https://sports.uz/oz/news/view/nuri-shaxin-kambek-qilish-uchun-shomurodovga-nima-deganini-aytdi",
     "https://daryo.uz/2026/11/26/ychl-rahmonaliyev-toliq-oynagan-bahsda-sabah-barselonaga-yirik-hisobda-yutqazdi-psj-esa-durang-oynadi/",
-    "https://daryo.uz/2026/11/26/manchester-yunayted-ketma-ket-7-oyindan-beri-chempionlar-ligasi-safar-oyinida-galaba-qozona-olmayapti/"
+    "https://daryo.uz/2026/11/26/manchester-yunayted-ketma-ket-7-oyindan-beri-chempionlar-ligasi-safar-oyinida-galaba-qozona-olmayapti/",
+    "yt:bpCtUyLXPuc"
   ],
   "used_quiz": [
     23,
@@ -484,9 +485,9 @@
     "YCHL. Rahmonaliyev to‘liq o‘ynagan bahsda “Sabah” “Barselona”ga yirik hisobda yutqazdi, “PSJ” esa durang o‘ynadi",
     "“Manchester Yunayted” ketma-ket 7 o‘yindan beri Chempionlar Ligasi safar o‘yinida g‘alaba qozona olmayapti"
   ],
-  "last_slot": "2026-11-27 17:00",
+  "last_slot": "2026-11-28 16:30",
   "scorers_idx": 5,
-  "last_video_source": "Serie A",
+  "last_video_source": "LaLiga",
   "table_idx": 1,
   "live": {
     "401874773": {
@@ -1595,7 +1596,7 @@
     "admins": [
       8456959367
     ],
-    "last_id": 939,
+    "last_id": 943,
     "strikes": {},
     "reset_day": "2026-11-24"
   },
@@ -2513,6 +2514,16 @@
       "url": "https://upload.wikimedia.org/wikipedia/commons/3/35/FC_RB_Salzburg_gegen_SK_Sturm_Graz%282023-05-21%29_35_%28Emanuel_Emegha%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
       "author": "Werner100359",
       "license": "CC BY-SA 4.0"
+    },
+    "Miro Muheim": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/2025-05-16_Hamburger_SV_Miro_Muheim_%28cropped%29.jpg/1280px-2025-05-16_Hamburger_SV_Miro_Muheim_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Lanthan2003",
+      "license": "CC BY-SA 4.0"
+    },
+    "Keane Lewis-Potter": {
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Keane_Lewis-Potter_02082025_%282%29_%28cropped%29.jpg/1280px-Keane_Lewis-Potter_02082025_%282%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "author": "Timmy96",
+      "license": "CC0"
     }
   },
   "matchday": {
@@ -2552,7 +2563,9 @@
     "401884740": "2026-11-07",
     "401874810": "2026-11-08",
     "401879243": "2026-11-08",
-    "401879239": "2026-11-08"
+    "401879239": "2026-11-08",
+    "401884722": "2026-11-28",
+    "401879226": "2026-11-28"
   },
   "kickoff": {
     "401876422": "2026-10-27",
